@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/TODO-BDSPARK-ORG/icons/issues"
   },
-  "homepage": "https://sparkng.bdspark.com/"
+  "homepage": "https://sparkng.bdspark.com/",
+  "publishConfig": {
+    "access": "public"
+  }
 }
