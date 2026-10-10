@@ -34,11 +34,11 @@ import { Component } from '@angular/core';
 export class PTOptionsDoc {
     codeGlobal: Code = {
         typescript: `import { ApplicationConfig } from '@angular/core';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 
 export const appConfig: ApplicationConfig = {
     providers: [
-        provideOptimus({
+        provideSpark({
             pt: {
                 panel: {
                     header: {

@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 
 import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import type { EditorBlurEvent, EditorChangeEvent, EditorFocusEvent, EditorInitEvent, EditorSelectionChangeEvent, EditorTextChangeEvent } from '@bdspark/sparkng/types/editor';
 import { Editor } from './editor';
 // Test Components for different scenarios
@@ -1112,7 +1112,7 @@ describe('Editor', () => {
             });
         });
 
-        describe('Case 7: Global PT from OptimusConfig', () => {
+        describe('Case 7: Global PT from SparkConfig', () => {
             it('should apply global PT configuration', async () => {
                 @Component({
                     changeDetection: ChangeDetectionStrategy.Eager,
@@ -1129,7 +1129,7 @@ describe('Editor', () => {
                     imports: [TestGlobalPTComponent],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 editor: {
                                     root: { 'aria-label': 'TEST_GLOBAL_ARIA_LABEL' },
@@ -1172,7 +1172,7 @@ describe('Editor', () => {
                 });
             });
 
-            it('should apply global CSS from OptimusConfig', async () => {
+            it('should apply global CSS from SparkConfig', async () => {
                 @Component({
                     changeDetection: ChangeDetectionStrategy.Eager,
                     standalone: true,
@@ -1187,7 +1187,7 @@ describe('Editor', () => {
                     imports: [TestGlobalCSSComponent],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 editor: {
                                     root: 'GLOBAL_CSS_CLASS'

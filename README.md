@@ -29,7 +29,7 @@ It is not affiliated with, endorsed by, or sponsored by PrimeTek. The [philosoph
 ng add @bdspark/sparkng
 ```
 
-The schematic asks which theme preset you want, adds the packages, wires `provideOptimus` into your root providers and installs everything.
+The schematic asks which theme preset you want, adds the packages, wires `provideSpark` into your root providers and installs everything.
 
 ```ts
 import { Button } from '@bdspark/sparkng/button';

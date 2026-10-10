@@ -25,7 +25,7 @@ import { Component } from '@angular/core';
 })
 export class DarkModeDoc {
     code1 = {
-        typescript: `provideOptimus({
+        typescript: `provideSpark({
     theme: {
         preset: Aura,
         options: {
@@ -43,11 +43,11 @@ export class DarkModeDoc {
 
     code3 = {
         typescript: `// tailwind.config.js
-import OptimusUiTailwind from '@bdspark/sparkng-tailwindcss';
+import SparkUiTailwind from '@bdspark/sparkng-tailwindcss';
 
 export default {
     darkMode: ['selector', '[class~="my-app-dark"]'],           //dark mode configuration
-    plugins: [OptimusUiTailwind]
+    plugins: [SparkUiTailwind]
 };`
     };
 }

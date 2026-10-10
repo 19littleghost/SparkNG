@@ -3,7 +3,7 @@ import { ChangeDetectionStrategy, Component, DebugElement, provideZonelessChange
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import { Message } from './message';
 
 @Component({
@@ -1488,7 +1488,7 @@ describe('Message', () => {
         });
     });
 
-    describe('PassThrough - Case 7: Test from OptimusConfig', () => {
+    describe('PassThrough - Case 7: Test from SparkConfig', () => {
         @Component({
             changeDetection: ChangeDetectionStrategy.Eager,
             standalone: false,
@@ -1499,13 +1499,13 @@ describe('Message', () => {
         })
         class TestGlobalPtComponent {}
 
-        it('should apply global pt configuration from OptimusConfig', async () => {
+        it('should apply global pt configuration from SparkConfig', async () => {
             await TestBed.configureTestingModule({
                 imports: [Message],
                 declarations: [TestGlobalPtComponent],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             message: {
                                 host: { 'aria-label': 'TEST_GLOBAL_ARIA_LABEL' },
@@ -1533,13 +1533,13 @@ describe('Message', () => {
             expect(secondHost.classList.contains('GLOBAL_ROOT_CLASS')).toBe(true);
         });
 
-        it('should apply global css from OptimusConfig', async () => {
+        it('should apply global css from SparkConfig', async () => {
             await TestBed.configureTestingModule({
                 imports: [Message],
                 declarations: [TestGlobalPtComponent],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             message: {
                                 root: {
@@ -1574,7 +1574,7 @@ describe('Message', () => {
                 declarations: [TestMergedPtComponent],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             message: {
                                 root: 'GLOBAL_ROOT_CLASS',
@@ -1607,7 +1607,7 @@ describe('Message', () => {
                 declarations: [TestGlobalPtComponent],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             message: {
                                 root: {

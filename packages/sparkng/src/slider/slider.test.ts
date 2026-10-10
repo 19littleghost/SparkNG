@@ -5,7 +5,7 @@ import { By } from '@angular/platform-browser';
 
 import { CommonModule } from '@angular/common';
 import { SharedModule } from '@bdspark/sparkng/api';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import { SliderChangeEvent, SliderSlideEndEvent } from '@bdspark/sparkng/types/slider';
 import { Slider, SliderModule } from './slider';
 
@@ -1438,7 +1438,7 @@ describe('Slider', () => {
             });
         });
 
-        describe('Case 7: Global PT from OptimusConfig', () => {
+        describe('Case 7: Global PT from SparkConfig', () => {
             it('should apply global PT configuration', async () => {
                 @Component({
                     changeDetection: ChangeDetectionStrategy.Eager,
@@ -1455,7 +1455,7 @@ describe('Slider', () => {
                     imports: [TestGlobalPTComponent],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 slider: {
                                     root: { 'data-test': 'global-slider' },

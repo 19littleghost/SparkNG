@@ -3034,7 +3034,7 @@ describe('FileUpload Input Properties - Observable/Async Values', () => {
             });
         });
 
-        describe('Case 7: Test from OptimusConfig', () => {
+        describe('Case 7: Test from SparkConfig', () => {
             @Component({
                 changeDetection: ChangeDetectionStrategy.Eager,
                 standalone: false,
@@ -3045,7 +3045,7 @@ describe('FileUpload Input Properties - Observable/Async Values', () => {
             })
             class TestPTCase7GlobalComponent {}
 
-            it('should apply global PT configuration from OptimusConfig to multiple instances', async () => {
+            it('should apply global PT configuration from SparkConfig to multiple instances', async () => {
                 TestBed.resetTestingModule();
                 await TestBed.configureTestingModule({
                     declarations: [TestPTCase7GlobalComponent],
@@ -3053,7 +3053,7 @@ describe('FileUpload Input Properties - Observable/Async Values', () => {
                     providers: [
                         MessageService,
                         {
-                            provide: 'provideOptimus',
+                            provide: 'provideSpark',
                             useValue: {
                                 pt: {
                                     fileupload: {

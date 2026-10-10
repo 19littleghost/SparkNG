@@ -1668,7 +1668,7 @@ describe('Dialog', () => {
             });
         });
 
-        describe('Case 7: Test from OptimusConfig', () => {
+        describe('Case 7: Test from SparkConfig', () => {
             @Component({
                 changeDetection: ChangeDetectionStrategy.Eager,
                 standalone: false,
@@ -1682,7 +1682,7 @@ describe('Dialog', () => {
                 visible2 = true;
             }
 
-            it('should apply global PT configuration from OptimusConfig', async () => {
+            it('should apply global PT configuration from SparkConfig', async () => {
                 TestBed.resetTestingModule();
                 await TestBed.configureTestingModule({
                     declarations: [TestPTCase7GlobalComponent],
@@ -1690,7 +1690,7 @@ describe('Dialog', () => {
                     providers: [
                         provideZonelessChangeDetection(),
                         {
-                            provide: 'provideOptimus',
+                            provide: 'provideSpark',
                             useValue: {
                                 pt: {
                                     dialog: {

@@ -5,7 +5,7 @@ import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } 
 import { By } from '@angular/platform-browser';
 
 import { SharedModule } from '@bdspark/sparkng/api';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import { ToggleButtonChangeEvent } from '@bdspark/sparkng/types/togglebutton';
 import { ToggleButton } from './togglebutton';
 
@@ -1292,7 +1292,7 @@ describe('ToggleButton', () => {
             });
         });
 
-        describe('Case 7: Global PT from OptimusConfig', () => {
+        describe('Case 7: Global PT from SparkConfig', () => {
             it('should apply global PT configuration', async () => {
                 @Component({
                     changeDetection: ChangeDetectionStrategy.Eager,
@@ -1309,7 +1309,7 @@ describe('ToggleButton', () => {
                     imports: [TestGlobalPTComponent],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 toggleButton: {
                                     root: { 'data-test': 'global-togglebutton' },

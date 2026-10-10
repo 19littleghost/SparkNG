@@ -4,7 +4,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import type { InputNumberInputEvent } from '@bdspark/sparkng/types/inputnumber';
 import { InputNumber, InputNumberModule } from './inputnumber';
 
@@ -1375,7 +1375,7 @@ describe('InputNumber', () => {
             });
         });
 
-        describe('Case 7: Global PT from OptimusConfig', () => {
+        describe('Case 7: Global PT from SparkConfig', () => {
             @Component({
                 changeDetection: ChangeDetectionStrategy.Eager,
                 standalone: false,
@@ -1389,14 +1389,14 @@ describe('InputNumber', () => {
                 value2: number = 200;
             }
 
-            it('should apply global PT configuration from OptimusConfig', async () => {
+            it('should apply global PT configuration from SparkConfig', async () => {
                 await TestBed.resetTestingModule();
                 await TestBed.configureTestingModule({
                     imports: [InputNumberModule, FormsModule, CommonModule],
                     declarations: [TestPTCase7GlobalComponent],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 inputNumber: {
                                     root: { class: 'GLOBAL_ROOT_CLASS' },

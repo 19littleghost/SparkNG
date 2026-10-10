@@ -2,7 +2,7 @@
 
 Vite sandbox for [`@bdspark/sparkng-tailwindcss`](../../../packages/sparkng-tailwindcss) on Tailwind CSS v3 (PostCSS pipeline).
 
-- `tailwind.config.js` registers the plugin (`plugins: [OptimusUiTailwind]`); content scanning covers `index.html`.
+- `tailwind.config.js` registers the plugin (`plugins: [SparkUiTailwind]`); content scanning covers `index.html`.
 - `tailwind.css` declares the `@tailwind` directives plus sample `--p-*` design tokens the plugin's color utilities resolve to.
 
 ```bash

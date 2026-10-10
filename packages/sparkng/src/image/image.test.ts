@@ -965,13 +965,13 @@ describe('Image', () => {
             });
         });
 
-        describe('Case 8: Test from OptimusConfig', () => {
+        describe('Case 8: Test from SparkConfig', () => {
             beforeEach(() => {
                 TestBed.resetTestingModule();
             });
 
-            it('should apply global PT configuration from OptimusConfig', async () => {
-                const { provideOptimus } = await import('@bdspark/sparkng/config');
+            it('should apply global PT configuration from SparkConfig', async () => {
+                const { provideSpark } = await import('@bdspark/sparkng/config');
 
                 @Component({
                     changeDetection: ChangeDetectionStrategy.Eager,
@@ -991,7 +991,7 @@ describe('Image', () => {
                     declarations: [TestGlobalPTComponent],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 image: {
                                     root: {

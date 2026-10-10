@@ -126,13 +126,13 @@ function generateStackBlitzProject(demo, selector) {
 import { ${componentName} } from './app/${selector}';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import { ApplicationConfig } from '@angular/core';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import Aura from '@bdspark/sparkng-themes/aura';
 
 export const appConfig: ApplicationConfig = {
     providers: [
         provideHttpClient(withFetch()),
-        provideOptimus({
+        provideSpark({
             theme: { preset: Aura, options: { darkModeSelector: '.p-dark' } },
         }),
     ],
@@ -146,7 +146,7 @@ bootstrapApplication(${componentName}, appConfig).catch((err) =>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Optimus UI ${componentName}</title>
+    <title>SparkNG UI ${componentName}</title>
     <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -200,7 +200,7 @@ function validateTypeScript(tsContent, filePath, selector) {
         // Should not have direct sparkng imports when using ImportsModule
         const directImports = tsContent.match(/import\s+\{[^}]*Module[^}]*\}\s+from\s+'@bdspark\/sparkng\/[^']+'/g);
         if (directImports) {
-            errors.push('Has direct Optimus UI module imports alongside ImportsModule');
+            errors.push('Has direct SparkNG UI module imports alongside ImportsModule');
         }
     }
 

@@ -1,7 +1,7 @@
 {
     "name": "docs",
     "private": true,
-    "version": "22.0.4",
+    "version": "22.0.5",
     "license": "MIT",
     "type": "module",
     "scripts": {
@@ -10,7 +10,7 @@
         "start:ssr": "ng serve --configuration=development-ssr",
         "e2e": "ng e2e",
         "lint": "ng lint",
-        "build": "pnpm --filter @bdspark/sparkng-themes build && npm run build:apidoc && npm run build:democode && npm run build:llm-docs && npm run build:routes && npm run build:sitemap && ng build",
+        "build": "npm run build:apidoc && npm run build:democode && npm run build:llm-docs && npm run build:routes && npm run build:sitemap && ng build",
         "build:apidoc": "node scripts/build-apidoc.mjs",
         "build:routes": "node scripts/build-routes.mjs",
         "build:sitemap": "node scripts/build-sitemap.mjs",
@@ -25,18 +25,35 @@
         "url": "https://github.com/TODO-BDSPARK-ORG/sparkng.git"
     },
     "devDependencies": {
-        "@angular/ssr": "catalog:angular22",
+        "@angular/ssr": "^22.1.6",
+        "@angular/cdk": "^22.1.4",
+        "@angular/common": "^22.1.4",
+        "@angular/core": "^22.1.4",
+        "@angular/forms": "^22.1.4",
+        "@angular/platform-browser": "^22.1.4",
+        "@angular/platform-server": "^22.1.4",
+        "@angular/router": "^22.1.4",
+        "@bdspark/sparkng-utils": "22.0.5",
+        "glob": "^13.0.6",
         "@docsearch/css": "^5.0.3",
         "@docsearch/js": "^3.3.4",
-        "@bdspark/sparkng-themes": "workspace:*",
-        "@angular/cdk": "catalog:angular22",
+        "@bdspark/sparkng-themes": "22.0.5",
+        "@angular/cdk": "^22.1.4",
+        "@angular/common": "^22.1.4",
+        "@angular/core": "^22.1.4",
+        "@angular/forms": "^22.1.4",
+        "@angular/platform-browser": "^22.1.4",
+        "@angular/platform-server": "^22.1.4",
+        "@angular/router": "^22.1.4",
+        "@bdspark/sparkng-utils": "22.0.5",
+        "glob": "^13.0.6",
         "@stackblitz/sdk": "1.11.1",
         "@types/express": "^5.0.6",
         "@types/node": "^26.2.0",
         "chart.js": "4.5.1",
         "express": "^5.2.1",
-        "@bdspark/sparkng-icons": "catalog:",
-        "@bdspark/sparkng": "workspace:*",
+        "@bdspark/sparkng-icons": "22.0.5",
+        "@bdspark/sparkng": "22.0.5",
         "prismjs": "^1.29.0",
         "quill": "2.0.3",
         "rxjs": "~7.8.2",
@@ -44,9 +61,19 @@
         "typedoc": "0.28.20"
     },
     "dependencies": {
-        "@bdspark/sparkng-tailwindcss": "workspace:*",
+        "@bdspark/sparkng-tailwindcss": "22.0.5",
         "autoprefixer": "^10.5.4",
         "postcss": "^8.5.26",
         "tailwindcss": "^3.4.10"
+    },
+    "packageManager": "pnpm@11.13.1+sha512.b2fc7683b8a6525414e7d13e1ba28caaddde96bf66ec540bfaeb7e702b81f3e0be4d1f295edf7f9fe0396740a8dce4509c582ddf79891f4543fea32d37645f25",
+    "pnpm": {
+        "onlyBuiltDependencies": [
+            "@parcel/watcher",
+            "core-js",
+            "esbuild",
+            "lmdb",
+            "msgpackr-extract"
+        ]
     }
 }

@@ -193,7 +193,7 @@ class TestInplaceTemplatesComponent {}
         </p-inplace>
     `
 })
-class TestInplaceOptimusTemplatesComponent {}
+class TestInplaceSparkTemplatesComponent {}
 
 @Component({
     changeDetection: ChangeDetectionStrategy.Eager,
@@ -288,7 +288,7 @@ describe('Inplace', () => {
                 TestInplaceActiveStateComponent,
                 TestInplaceStyleClassComponent,
                 TestInplaceTemplatesComponent,
-                TestInplaceOptimusTemplatesComponent,
+                TestInplaceSparkTemplatesComponent,
                 TestInplaceKeyboardComponent,
                 TestInplaceComplexContentComponent,
                 TestInplaceDynamicComponent
@@ -859,12 +859,12 @@ describe('Inplace', () => {
     });
 
     describe('Spark Templates', () => {
-        let fixture: ComponentFixture<TestInplaceOptimusTemplatesComponent>;
+        let fixture: ComponentFixture<TestInplaceSparkTemplatesComponent>;
         let inplaceComponent: Inplace;
         let element: HTMLElement;
 
         beforeEach(() => {
-            fixture = TestBed.createComponent(TestInplaceOptimusTemplatesComponent);
+            fixture = TestBed.createComponent(TestInplaceSparkTemplatesComponent);
             fixture.detectChanges();
 
             const inplaceDebugElement = fixture.debugElement.query(By.directive(Inplace));

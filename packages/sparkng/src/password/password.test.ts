@@ -6,7 +6,7 @@ import { By } from '@angular/platform-browser';
 
 import { CommonModule } from '@angular/common';
 import { SharedModule } from '@bdspark/sparkng/api';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import { MapperPipe, Password, PasswordDirective, PasswordModule } from './password';
 
 // Test Components
@@ -1652,7 +1652,7 @@ describe('PasswordDirective', () => {
             });
         });
 
-        describe('Case 7: Global PT from OptimusConfig', () => {
+        describe('Case 7: Global PT from SparkConfig', () => {
             it('should have global pt configuration available', async () => {
                 await TestBed.resetTestingModule();
                 await TestBed.configureTestingModule({
@@ -1660,7 +1660,7 @@ describe('PasswordDirective', () => {
                     declarations: [TestPTPasswordDirectiveComponent],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 password: {
                                     host: { 'aria-label': 'DIRECTIVE_GLOBAL_ARIA_LABEL', class: 'DIRECTIVE_GLOBAL_CLASS' },
@@ -1688,7 +1688,7 @@ describe('PasswordDirective', () => {
                     declarations: [TestPTPasswordDirectiveComponent],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 password: {
                                     host: { 'data-global-directive': 'shared', class: 'GLOBAL_SHARED_CLASS' }
@@ -2213,7 +2213,7 @@ describe('Password PassThrough Tests', () => {
         });
     });
 
-    describe('Case 7: Global PT from OptimusConfig', () => {
+    describe('Case 7: Global PT from SparkConfig', () => {
         it('should apply global pt configuration', async () => {
             await TestBed.resetTestingModule();
             await TestBed.configureTestingModule({
@@ -2221,7 +2221,7 @@ describe('Password PassThrough Tests', () => {
                 declarations: [TestPTPasswordComponent],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             password: {
                                 host: { 'aria-label': 'GLOBAL_ARIA_LABEL' },
@@ -2248,7 +2248,7 @@ describe('Password PassThrough Tests', () => {
                 declarations: [TestPTPasswordComponent],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             password: {
                                 root: { class: 'GLOBAL_CSS_CLASS' },
@@ -2276,7 +2276,7 @@ describe('Password PassThrough Tests', () => {
                 declarations: [TestPTPasswordComponent],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             password: {
                                 root: { 'data-global': 'shared' }

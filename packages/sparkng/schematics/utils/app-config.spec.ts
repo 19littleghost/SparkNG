@@ -43,7 +43,7 @@ describe('addDefaultImport', () => {
         expect(bindingName).toBe('Aura');
         expect(text).toContain(`import Aura from '@bdspark/sparkng-themes/aura';`);
         expect(text).not.toContain('@primeuix');
-        expect(text).not.toContain('OptimusAura');
+        expect(text).not.toContain('SparkAura');
     });
 
     it('retargets the legacy import keeping its binding name and quote style', () => {
@@ -57,26 +57,26 @@ describe('addDefaultImport', () => {
     it('aliases when the name is already default-imported from an unrelated module', () => {
         const input = `import Aura from 'some-other-package/aura';\nexport const appConfig = { providers: [] };\n`;
         const { text, bindingName } = addDefaultImport(input, 'Aura', '@bdspark/sparkng-themes/aura');
-        expect(bindingName).toBe('OptimusAura');
-        expect(text).toContain(`import OptimusAura from '@bdspark/sparkng-themes/aura';`);
+        expect(bindingName).toBe('SparkAura');
+        expect(text).toContain(`import SparkAura from '@bdspark/sparkng-themes/aura';`);
         expect(text).toContain(`import Aura from 'some-other-package/aura';`);
         expect(text).not.toContain(`import Aura from '@bdspark/sparkng-themes/aura';`);
     });
 
     it('aliases when the name is taken by a named import or a top-level declaration', () => {
         const named = addDefaultImport(`import { Aura } from './themes';\nexport const appConfig = { providers: [] };\n`, 'Aura', '@bdspark/sparkng-themes/aura');
-        expect(named.bindingName).toBe('OptimusAura');
-        expect(named.text).toContain(`import OptimusAura from '@bdspark/sparkng-themes/aura';`);
+        expect(named.bindingName).toBe('SparkAura');
+        expect(named.text).toContain(`import SparkAura from '@bdspark/sparkng-themes/aura';`);
 
         const declared = addDefaultImport(`const Aura = { primary: 'blue' };\nexport const appConfig = { providers: [] };\n`, 'Aura', '@bdspark/sparkng-themes/aura');
-        expect(declared.bindingName).toBe('OptimusAura');
-        expect(declared.text.startsWith(`import OptimusAura from '@bdspark/sparkng-themes/aura';\n`)).toBe(true);
+        expect(declared.bindingName).toBe('SparkAura');
+        expect(declared.text.startsWith(`import SparkAura from '@bdspark/sparkng-themes/aura';\n`)).toBe(true);
     });
 
     it('falls back to a numbered alias when the aliased name is taken too', () => {
-        const input = `import Aura from 'some-other-package/aura';\nimport { OptimusAura } from './custom';\nexport const appConfig = { providers: [] };\n`;
+        const input = `import Aura from 'some-other-package/aura';\nimport { SparkAura } from './custom';\nexport const appConfig = { providers: [] };\n`;
         const { text, bindingName } = addDefaultImport(input, 'Aura', '@bdspark/sparkng-themes/aura');
-        expect(bindingName).toBe('OptimusAura2');
-        expect(text).toContain(`import OptimusAura2 from '@bdspark/sparkng-themes/aura';`);
+        expect(bindingName).toBe('SparkAura2');
+        expect(text).toContain(`import SparkAura2 from '@bdspark/sparkng-themes/aura';`);
     });
 });

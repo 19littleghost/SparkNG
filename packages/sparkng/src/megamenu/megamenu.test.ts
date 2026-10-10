@@ -4,7 +4,7 @@ import { By } from '@angular/platform-browser';
 
 import { RouterTestingModule } from '@angular/router/testing';
 import { MegaMenuItem, SharedModule } from '@bdspark/sparkng/api';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import { MegaMenu } from './megamenu';
 
 @Component({
@@ -1552,7 +1552,7 @@ describe('MegaMenu', () => {
             });
         });
 
-        describe('Case 7: Test from OptimusConfig', () => {
+        describe('Case 7: Test from SparkConfig', () => {
             it('should apply global PT configuration from Spark config', async () => {
                 await TestBed.resetTestingModule();
                 await TestBed.configureTestingModule({
@@ -1560,7 +1560,7 @@ describe('MegaMenu', () => {
                     imports: [MegaMenu, SharedModule, RouterTestingModule],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 megamenu: {
                                     root: { 'aria-label': 'TEST_GLOBAL_ARIA_LABEL', class: 'GLOBAL_MEGAMENU_CLASS' }
@@ -1587,7 +1587,7 @@ describe('MegaMenu', () => {
                     imports: [MegaMenu, SharedModule, RouterTestingModule],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 megamenu: {
                                     root: { class: 'GLOBAL_CSS_CLASS' },
@@ -1618,7 +1618,7 @@ describe('MegaMenu', () => {
                     imports: [MegaMenu, SharedModule, RouterTestingModule],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 megamenu: {
                                     root: { class: 'GLOBAL_CLASS' }

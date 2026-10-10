@@ -27,11 +27,11 @@ In the CSS file that contains the `tailwindcss` import, add the import for this 
 Use the `plugins` option in your Tailwind config file.
 
 ```js
-import OptimusUiTailwind from '@bdspark/sparkng-tailwindcss';
+import SparkUiTailwind from '@bdspark/sparkng-tailwindcss';
 
 export default {
     // ...
-    plugins: [OptimusUiTailwind]
+    plugins: [SparkUiTailwind]
 };
 ```
 

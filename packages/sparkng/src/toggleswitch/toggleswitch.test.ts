@@ -7,7 +7,7 @@ import { By } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from '@bdspark/sparkng/api';
 import { AutoFocus } from '@bdspark/sparkng/autofocus';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import { ToggleSwitchChangeEvent } from '@bdspark/sparkng/types/toggleswitch';
 import { ToggleSwitch, ToggleSwitchModule } from './toggleswitch';
 
@@ -1257,7 +1257,7 @@ describe('PassThrough (PT) Tests', () => {
         });
     });
 
-    describe('Case 7: Global PT from OptimusConfig', () => {
+    describe('Case 7: Global PT from SparkConfig', () => {
         it('should apply global PT configuration', async () => {
             @Component({
                 changeDetection: ChangeDetectionStrategy.Eager,
@@ -1274,7 +1274,7 @@ describe('PassThrough (PT) Tests', () => {
                 imports: [TestGlobalPTComponent],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             toggleSwitch: {
                                 root: { 'data-test': 'global-toggleswitch' },

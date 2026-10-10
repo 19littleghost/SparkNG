@@ -5,7 +5,7 @@ import { By } from '@angular/platform-browser';
 import { Router } from '@angular/router';
 import { RouterTestingModule } from '@angular/router/testing';
 import { MenuItem } from '@bdspark/sparkng/api';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import { Tooltip } from '@bdspark/sparkng/tooltip';
 import { TieredMenu } from './tieredmenu';
 
@@ -1349,7 +1349,7 @@ describe('TieredMenu', () => {
             });
         });
 
-        describe('Case 7: Test from OptimusConfig', () => {
+        describe('Case 7: Test from SparkConfig', () => {
             @Component({
                 changeDetection: ChangeDetectionStrategy.Eager,
                 standalone: true,
@@ -1370,7 +1370,7 @@ describe('TieredMenu', () => {
                     imports: [PTGlobalConfigTestComponent],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 tieredMenu: {
                                     root: { 'aria-label': 'TEST_GLOBAL_ARIA_LABEL', class: 'GLOBAL_ROOT_CLASS' },

@@ -4,7 +4,7 @@ import { By } from '@angular/platform-browser';
 import { provideNoopAnimations } from '@angular/platform-browser/animations';
 import { RouterTestingModule } from '@angular/router/testing';
 import { MenuItem, OverlayService, SharedModule } from '@bdspark/sparkng/api';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import type { Mock } from 'vitest';
 import { Menu } from './menu';
 
@@ -1752,7 +1752,7 @@ describe('Menu', () => {
             });
         });
 
-        describe('Case 7: Test from OptimusConfig', () => {
+        describe('Case 7: Test from SparkConfig', () => {
             @Component({
                 changeDetection: ChangeDetectionStrategy.Eager,
                 standalone: true,
@@ -1770,7 +1770,7 @@ describe('Menu', () => {
                     imports: [TestGlobalPTComponent],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 menu: {
                                     root: { 'aria-label': 'TEST_GLOBAL_ARIA_LABEL' },

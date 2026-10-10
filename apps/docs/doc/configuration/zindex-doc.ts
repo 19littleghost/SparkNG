@@ -20,7 +20,7 @@ import { Component } from '@angular/core';
 })
 export class ZIndexDoc {
     code: Code = {
-        typescript: `import { OptimusConfig } from '@bdspark/sparkng/api';
+        typescript: `import { SparkConfig } from '@bdspark/sparkng/api';
 
 @Component({
     selector: 'app-root',
@@ -28,10 +28,10 @@ export class ZIndexDoc {
 })
 export class AppComponent implements OnInit {
 
-    constructor(private optimusConfig: OptimusConfig) {}
+    constructor(private sparkConfig: SparkConfig) {}
 
     ngOnInit() {
-        this.optimusConfig.zIndex = {
+        this.sparkConfig.zIndex = {
             modal: 1100,    // dialog, sidebar
             overlay: 1000,  // dropdown, overlaypanel
             menu: 1000,     // overlay menus

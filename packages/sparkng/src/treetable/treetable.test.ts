@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 
 import { TreeNode } from '@bdspark/sparkng/api';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import { of } from 'rxjs';
 import { TreeTable, TreeTableModule } from './treetable';
 
@@ -3747,7 +3747,7 @@ describe('TreeTable PT', () => {
     });
 });
 
-// Case 11: Global PT from OptimusConfig
+// Case 11: Global PT from SparkConfig
 describe('TreeTable Global PT', () => {
     let fixture: ComponentFixture<TreeTable>;
 
@@ -3756,7 +3756,7 @@ describe('TreeTable Global PT', () => {
             imports: [TreeTableModule],
             providers: [
                 provideZonelessChangeDetection(),
-                provideOptimus({
+                provideSpark({
                     pt: {
                         treeTable: {
                             host: { 'aria-label': 'GLOBAL_ARIA_LABEL' },

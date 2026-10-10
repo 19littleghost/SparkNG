@@ -1,7 +1,7 @@
 import { ElementRef, inject, Injectable, PLATFORM_ID, signal, TemplateRef } from '@angular/core';
 import { FilterMatchMode, OverlayOptions, Translation } from '@bdspark/sparkng/api';
 import { Subject } from 'rxjs';
-import type { OptimusConfigType, ThemeConfigType, ZIndex } from './optimus.types';
+import type { SparkConfigType, ThemeConfigType, ZIndex } from './spark.types';
 import { ThemeProvider } from './themeprovider';
 
 @Injectable({ providedIn: 'root' })
@@ -24,9 +24,9 @@ export class Spark extends ThemeProvider {
 
     unstyled = signal<boolean | undefined>(undefined);
 
-    pt = signal<OptimusConfigType['pt']>(undefined);
+    pt = signal<SparkConfigType['pt']>(undefined);
 
-    ptOptions = signal<OptimusConfigType['ptOptions']>(undefined);
+    ptOptions = signal<SparkConfigType['ptOptions']>(undefined);
 
     filterMatchModeOptions = {
         text: [FilterMatchMode.STARTS_WITH, FilterMatchMode.CONTAINS, FilterMatchMode.NOT_CONTAINS, FilterMatchMode.ENDS_WITH, FilterMatchMode.EQUALS, FilterMatchMode.NOT_EQUALS],
@@ -186,7 +186,7 @@ export class Spark extends ThemeProvider {
         this.translationSource.next(this.translation);
     }
 
-    setConfig(config: OptimusConfigType): void {
+    setConfig(config: SparkConfigType): void {
         const { csp, ripple, inputStyle, inputVariant, theme, overlayOptions, translation, filterMatchModeOptions, overlayAppendTo, zIndex, ptOptions, pt, unstyled } = config || {};
 
         if (csp) this.csp.set(csp);
@@ -210,4 +210,5 @@ export class Spark extends ThemeProvider {
     }
 }
 
+/** @deprecated Since v20. Use `Spark` instead. */
 export { Spark as Optimus };

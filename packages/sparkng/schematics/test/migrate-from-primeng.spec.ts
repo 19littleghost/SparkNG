@@ -104,9 +104,9 @@ describe('migrate-from-primeng', () => {
         const result = await runner.runSchematic('migrate-from-primeng', { skipInstall: true }, tree);
 
         const appConfig = result.readContent('/src/app/app.config.ts');
-        expect(appConfig).toContain(`import { provideOptimus } from '@bdspark/sparkng/config';`);
+        expect(appConfig).toContain(`import { provideSpark } from '@bdspark/sparkng/config';`);
         expect(appConfig).toContain(`import Aura from '@bdspark/sparkng-themes/aura';`);
-        expect(appConfig).toContain(`provideOptimus({ theme: { preset: Aura } })`);
+        expect(appConfig).toContain(`provideSpark({ theme: { preset: Aura } })`);
 
         const component = result.readContent('/src/app/list.component.ts');
         expect(component).toContain(`from '@bdspark/sparkng/table'`);
@@ -127,7 +127,7 @@ describe('migrate-from-primeng', () => {
         const result = await runner.runSchematic('migrate-from-primeng', { skipInstall: true }, tree);
 
         const appConfig = result.readContent('/src/app/app.config.ts');
-        expect(appConfig).toContain(`import { provideOptimus } from '@bdspark/sparkng/config';`);
+        expect(appConfig).toContain(`import { provideSpark } from '@bdspark/sparkng/config';`);
         expect(appConfig).toContain(`cssLayer: { name: 'Spark', order: 'theme, base, Spark' }`);
         expect(appConfig).not.toContain('primeng');
     });

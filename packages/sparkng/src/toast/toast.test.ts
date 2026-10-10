@@ -4,7 +4,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
 import { MessageService, PrimeTemplate, SharedModule, ToastMessageOptions } from '@bdspark/sparkng/api';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import { Toast, ToastItem } from './toast';
 
 // Test Components for different scenarios
@@ -1185,7 +1185,7 @@ describe('Toast', () => {
         });
     });
 
-    describe('Toast PassThrough - Case 7: Test from OptimusConfig', () => {
+    describe('Toast PassThrough - Case 7: Test from SparkConfig', () => {
         @Component({
             changeDetection: ChangeDetectionStrategy.Eager,
             standalone: false,
@@ -1196,7 +1196,7 @@ describe('Toast', () => {
         })
         class TestToastGlobalPtComponent {}
 
-        it('should apply global pt configuration from OptimusConfig', async () => {
+        it('should apply global pt configuration from SparkConfig', async () => {
             await TestBed.resetTestingModule();
             await TestBed.configureTestingModule({
                 imports: [Toast],
@@ -1204,7 +1204,7 @@ describe('Toast', () => {
                 providers: [
                     MessageService,
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             toast: {
                                 host: 'GLOBAL_HOST_CLASS',
@@ -1242,7 +1242,7 @@ describe('Toast', () => {
                 providers: [
                     MessageService,
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             toast: {
                                 host: 'GLOBAL_HOST_CLASS'

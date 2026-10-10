@@ -1393,7 +1393,7 @@ describe('Drawer', () => {
             });
         });
 
-        describe('Case 7: Test from OptimusConfig', () => {
+        describe('Case 7: Test from SparkConfig', () => {
             @Component({
                 changeDetection: ChangeDetectionStrategy.Eager,
                 standalone: false,
@@ -1407,7 +1407,7 @@ describe('Drawer', () => {
                 visible2 = true;
             }
 
-            it('should apply global PT configuration from OptimusConfig', async () => {
+            it('should apply global PT configuration from SparkConfig', async () => {
                 TestBed.resetTestingModule();
                 await TestBed.configureTestingModule({
                     declarations: [TestPTCase7GlobalComponent],
@@ -1415,7 +1415,7 @@ describe('Drawer', () => {
                     providers: [
                         provideZonelessChangeDetection(),
                         {
-                            provide: 'provideOptimus',
+                            provide: 'provideSpark',
                             useValue: {
                                 pt: {
                                     drawer: {

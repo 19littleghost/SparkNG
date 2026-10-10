@@ -14,7 +14,7 @@ import { Component } from '@angular/core';
             <p>The schematic asks which theme preset you want and then does the rest:</p>
             <ul class="leading-relaxed">
                 <li>adds <i>&#64;bdspark/sparkng</i> and <i>&#64;bdspark/sparkng-themes</i> to your dependencies</li>
-                <li>wires <i>provideOptimus</i> into your root providers with the chosen preset, in <i>app.config.ts</i> or your root NgModule</li>
+                <li>wires <i>provideSpark</i> into your root providers with the chosen preset, in <i>app.config.ts</i> or your root NgModule</li>
                 <li>installs the packages</li>
             </ul>
             <p>Pass the preset up front to skip the prompt, or skip the install step if you want to run it yourself:</p>

@@ -283,12 +283,12 @@ const tsconfig_spec_json = `{
 
 const tailwind_config = `
 /** @type {import('tailwindcss').Config} */
-import OptimusUiTailwind from '@bdspark/sparkng-tailwindcss';
+import SparkUiTailwind from '@bdspark/sparkng-tailwindcss';
 
 export default {
     darkMode: ['selector', '[class="p-dark"]'],
     content: ['./src/**/*.{html,ts}'],
-    plugins: [OptimusUiTailwind],
+    plugins: [SparkUiTailwind],
     theme: {
         screens: {
             sm: '576px',
@@ -311,7 +311,7 @@ import Aura from '@bdspark/sparkng-themes/aura';
 import Lara from '@bdspark/sparkng-themes/lara';
 import Material from '@bdspark/sparkng-themes/material';
 import Nora from '@bdspark/sparkng-themes/nora';
-import { Optimus } from '@bdspark/sparkng/config';
+import { Spark } from '@bdspark/sparkng/config';
 import { SelectButtonModule } from '@bdspark/sparkng/selectbutton';
 import { StyleClassModule } from '@bdspark/sparkng/styleclass';
 import { ToggleSwitchModule } from '@bdspark/sparkng/toggleswitch';
@@ -427,7 +427,7 @@ export class ThemeSwitcher {
 
   platformId = inject(PLATFORM_ID);
 
-  config: Optimus = inject(Optimus);
+  config: Spark = inject(Spark);
 
   themeState = signal<ThemeState>({});
 
@@ -927,7 +927,7 @@ const getAngularApp = (props: Props = {}) => {
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Optimus UI ${componentName}</title>
+        <title>SparkNG UI ${componentName}</title>
         <base href="/">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -943,13 +943,13 @@ const getAngularApp = (props: Props = {}) => {
 import { ${componentName} } from './app/${selector}';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import { ApplicationConfig } from '@angular/core';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import Aura from '@bdspark/sparkng-themes/aura';
 
   export const appConfig: ApplicationConfig = {
       providers: [
       provideHttpClient(withFetch()),
-      provideOptimus({
+      provideSpark({
           theme: { preset: Aura, options: { darkModeSelector: '.p-dark' } },
       }),
     ],
@@ -977,7 +977,7 @@ import Aura from '@bdspark/sparkng-themes/aura';
         'package.json': {
             content: {
                 name: `sparkng-${selector}`,
-                description: `Optimus UI ${componentName}`,
+                description: `SparkNG UI ${componentName}`,
                 license: 'MIT',
                 keywords: [],
                 scripts: {
@@ -1009,7 +1009,7 @@ import Aura from '@bdspark/sparkng-themes/aura';
         });
     }
 
-    return { files, title: `Optimus UI ${componentName}` };
+    return { files, title: `SparkNG UI ${componentName}` };
 };
 
 export { getAngularApp };

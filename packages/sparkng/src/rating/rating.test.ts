@@ -6,7 +6,7 @@ import { By } from '@angular/platform-browser';
 import { SharedModule } from '@bdspark/sparkng/api';
 import { Rating } from './rating';
 
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 
 // Basic Rating test component
 @Component({
@@ -1350,7 +1350,7 @@ describe('Rating', () => {
             });
         });
 
-        describe('Case 7: Global PT from OptimusConfig', () => {
+        describe('Case 7: Global PT from SparkConfig', () => {
             @Component({
                 changeDetection: ChangeDetectionStrategy.Eager,
                 standalone: false,
@@ -1367,7 +1367,7 @@ describe('Rating', () => {
                     declarations: [TestPTCase7GlobalComponent],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 rating: {
                                     host: 'GLOBAL_HOST_CLASS',

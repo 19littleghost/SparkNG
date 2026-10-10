@@ -19,14 +19,14 @@ export class ThemeDoc {
     code: Code = {
         typescript: `import { ApplicationConfig } from '@angular/core';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 
 import Aura from '@bdspark/sparkng-themes/aura';
 
 export const appConfig: ApplicationConfig = {
     providers: [
         provideAnimationsAsync(),
-        provideOptimus({
+        provideSpark({
             theme: {
                 preset: Aura,
                 options: {

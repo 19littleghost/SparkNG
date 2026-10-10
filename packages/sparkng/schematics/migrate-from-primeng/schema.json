@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/schema",
-    "$id": "OptimusUiMigrateFromPrimeng",
+    "$id": "SparkUiMigrateFromPrimeng",
     "title": "Migrate a PrimeNG v21 project to SparkNG",
     "description": "Deprecated on this line \u2014 only maintained on release/1.x. Run via @bdspark/sparkng@1.",
     "deprecated": true,

@@ -4,7 +4,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormControl, FormGroup, FormsModule, NgModel, ReactiveFormsModule, Validators } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { provideNoopAnimations } from '@angular/platform-browser/animations';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import { ListboxChangeEvent } from '@bdspark/sparkng/types/listbox';
 import { BehaviorSubject, Observable, delay, of } from 'rxjs';
 import { Listbox } from './listbox';
@@ -2412,7 +2412,7 @@ describe('Listbox ViewChild and Advanced Scenarios', () => {
                     providers: [
                         provideZonelessChangeDetection(),
                         provideNoopAnimations(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 listbox: {
                                     host: { 'aria-label': 'TEST_GLOBAL_ARIA_LABEL' }
@@ -2440,7 +2440,7 @@ describe('Listbox ViewChild and Advanced Scenarios', () => {
                     providers: [
                         provideZonelessChangeDetection(),
                         provideNoopAnimations(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 listbox: {
                                     host: { class: 'GLOBAL_CLASS' },

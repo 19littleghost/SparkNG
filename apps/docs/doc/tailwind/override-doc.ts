@@ -45,7 +45,7 @@ export class OverrideDoc {
     };
 
     code3 = {
-        typescript: `provideOptimus({
+        typescript: `provideSpark({
     theme: {
         preset: Aura,
         options: {
@@ -64,7 +64,7 @@ export class OverrideDoc {
     };
 
     code5 = {
-        typescript: `provideOptimus({
+        typescript: `provideSpark({
     theme: {
         preset: Aura,
         options: {

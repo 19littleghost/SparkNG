@@ -17,12 +17,12 @@ import { Component } from '@angular/core';
 export class ThemeDoc {
     code: Code = {
         typescript: `import { ApplicationConfig } from '@angular/core';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import Aura from '@bdspark/sparkng-themes/aura';
 
 export const appConfig: ApplicationConfig = {
     providers: [
-        provideOptimus({
+        provideSpark({
             theme: {
                 preset: Aura
             }

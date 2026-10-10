@@ -1377,7 +1377,7 @@ describe('PanelMenu', () => {
             });
         });
 
-        describe('Case 7: Global PT from OptimusConfig', () => {
+        describe('Case 7: Global PT from SparkConfig', () => {
             it('should accept global PT configuration structure', async () => {
                 // Note: Full global PT testing requires Spark service setup
                 // This test verifies the PT structure is accepted

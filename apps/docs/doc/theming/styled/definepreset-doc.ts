@@ -30,12 +30,12 @@ export MyPreset;`
 
     code2: Code = {
         typescript: `import { ApplicationConfig } from '@angular/core';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import MyPreset from './mypreset';
 
 export const appConfig: ApplicationConfig = {
     providers: [
-        provideOptimus({
+        provideSpark({
             theme: {
                 preset: MyPreset
             }

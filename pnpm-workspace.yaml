@@ -5,9 +5,9 @@ packages:
 
 shamefullyHoist: true
 
-# @bdspark/sparkng-icons is vendored in packages/icons (not yet published to npm);
-# link workspace packages when the version range is satisfied.
-linkWorkspacePackages: true
+# All @bdspark packages are published to npm; semver-range deps resolve from the
+# registry so apps consume the published artifacts. workspace:* deps still link.
+linkWorkspacePackages: false
 
 allowBuilds:
   '@parcel/watcher': true
@@ -18,7 +18,7 @@ allowBuilds:
   msgpackr-extract: true
 
 catalog:
-  '@bdspark/sparkng-icons': ^22.0.4
+  '@bdspark/sparkng-icons': ^22.0.5
 
 catalogs:
   angular22:
@@ -46,7 +46,7 @@ catalogs:
 
 minimumReleaseAgeExclude:
   - pnpm@11.13.1
-  - '@bdspark/sparkng-icons@22.0.4'
+  - '@bdspark/sparkng-icons@22.0.5'
   - tsdown@0.22.9
   - '@angular/animations@22.1.4'
   - '@angular/common@22.1.4'
@@ -58,6 +58,13 @@ minimumReleaseAgeExclude:
   - '@angular/platform-browser@22.1.4'
   - '@angular/platform-server@22.1.4'
   - '@angular/router@22.1.4'
+  - '@bdspark/sparkng-motion@22.0.5'
+  - '@bdspark/sparkng-styled@22.0.5'
+  - '@bdspark/sparkng-styles@22.0.5'
+  - '@bdspark/sparkng-tailwindcss@22.0.5'
+  - '@bdspark/sparkng-themes@22.0.5'
+  - '@bdspark/sparkng-utils@22.0.5'
+  - '@bdspark/sparkng@22.0.5'
 
 auditConfig:
   ignoreGhsas:

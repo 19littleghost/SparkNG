@@ -3,7 +3,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import { TextareaPassThrough } from '@bdspark/sparkng/types/textarea';
 import { Textarea } from './textarea';
 
@@ -584,14 +584,14 @@ describe('Textarea', () => {
             });
         });
 
-        describe('Case 7: Global PT from OptimusConfig', () => {
+        describe('Case 7: Global PT from SparkConfig', () => {
             it('should apply global pt configuration', async () => {
                 await TestBed.resetTestingModule();
                 await TestBed.configureTestingModule({
                     imports: [TestPTTextareaComponent],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 textarea: {
                                     host: { 'aria-label': 'GLOBAL_ARIA_LABEL' }
@@ -612,13 +612,13 @@ describe('Textarea', () => {
                 expect(el.getAttribute('aria-label')).toBe('GLOBAL_ARIA_LABEL');
             });
 
-            it('should apply global css from OptimusConfig', async () => {
+            it('should apply global css from SparkConfig', async () => {
                 await TestBed.resetTestingModule();
                 await TestBed.configureTestingModule({
                     imports: [TestPTTextareaComponent],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 textarea: {
                                     root: 'GLOBAL_CLASS',

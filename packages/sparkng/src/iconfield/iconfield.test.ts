@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { IconField } from './iconfield';
 import { InputIcon } from '@bdspark/sparkng/inputicon';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 
 @Component({
     changeDetection: ChangeDetectionStrategy.Eager,
@@ -296,14 +296,14 @@ describe('IconField PassThrough Tests', () => {
         });
     });
 
-    describe('PT Case 5: Global PT from OptimusConfig', () => {
+    describe('PT Case 5: Global PT from SparkConfig', () => {
         it('should apply global PT configuration', async () => {
             TestBed.resetTestingModule();
             await TestBed.configureTestingModule({
                 imports: [IconField, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             iconField: {
                                 host: { 'aria-label': 'GLOBAL_LABEL' },
@@ -331,7 +331,7 @@ describe('IconField PassThrough Tests', () => {
                 imports: [IconField, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             iconField: {
                                 hooks: {

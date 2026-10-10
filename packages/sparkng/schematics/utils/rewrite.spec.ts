@@ -41,15 +41,15 @@ describe('rewriteSource — module specifiers', () => {
 describe('rewriteSource — identifier renames', () => {
     it('renames providePrimeNG import and its usages', () => {
         const { text } = rw(`import { providePrimeNG } from 'primeng/config';\n` + `export const appConfig = { providers: [providePrimeNG({ ripple: true })] };\n`);
-        expect(text).toContain(`import { provideOptimus } from '@bdspark/sparkng/config'`);
-        expect(text).toContain(`provideOptimus({ ripple: true })`);
+        expect(text).toContain(`import { provideSpark } from '@bdspark/sparkng/config'`);
+        expect(text).toContain(`provideSpark({ ripple: true })`);
         expect(text).not.toContain('providePrimeNG');
     });
 
     it('renames the PrimeNG class and PrimeNGConfigType, including type positions', () => {
         const { text } = rw(`import { PrimeNG, PrimeNGConfigType } from 'primeng/config';\n` + `import { inject } from '@angular/core';\n` + `const config: PrimeNGConfigType = {};\n` + `const svc = inject(PrimeNG);\n`);
-        expect(text).toContain(`import { Spark, OptimusConfigType } from '@bdspark/sparkng/config'`);
-        expect(text).toContain(`const config: OptimusConfigType = {}`);
+        expect(text).toContain(`import { Spark, SparkConfigType } from '@bdspark/sparkng/config'`);
+        expect(text).toContain(`const config: SparkConfigType = {}`);
         expect(text).toContain(`inject(Spark)`);
     });
 
@@ -88,7 +88,7 @@ describe('rewriteSource — identifier renames', () => {
 
     it('renames re-exports', () => {
         const { text } = rw(`export { providePrimeNG } from 'primeng/config';\n`);
-        expect(text).toContain(`export { provideOptimus } from '@bdspark/sparkng/config';`);
+        expect(text).toContain(`export { provideSpark } from '@bdspark/sparkng/config';`);
     });
 
     it('renames a local re-export of the imported symbol', () => {

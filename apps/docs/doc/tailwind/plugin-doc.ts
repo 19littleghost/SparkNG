@@ -15,7 +15,7 @@ import { Component } from '@angular/core';
             </p>
             <p>
                 If you haven't already done so, start by integrating Tailwind into your project. Detailed steps for this process can be found in the Tailwind
-                <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">documentation</a>. After successfully installing Tailwind, proceed with the installation of the OptimusUiTailwind plugin. This single npm package comes with
+                <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">documentation</a>. After successfully installing Tailwind, proceed with the installation of the SparkUiTailwind plugin. This single npm package comes with
                 two libraries: the CSS version is compatible with Tailwind v4, while the JS version is designed for Tailwind v3.
             </p>
             <app-code [code]="code1" [hideToggleCode]="true" [hideStackBlitz]="true" />
@@ -41,11 +41,11 @@ export class PluginDoc {
 
     code3 = {
         typescript: `// tailwind.config.js
-import OptimusUiTailwind from '@bdspark/sparkng-tailwindcss';
+import SparkUiTailwind from '@bdspark/sparkng-tailwindcss';
 
 export default {
     // ...
-    plugins: [OptimusUiTailwind]
+    plugins: [SparkUiTailwind]
 };`
     };
 }

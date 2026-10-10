@@ -762,7 +762,7 @@ describe('ImageCompare', () => {
             });
         });
 
-        describe('Case 7: OptimusConfig', () => {
+        describe('Case 7: SparkConfig', () => {
             // Skipping this test as Spark config PT requires specific configuration
             // that conflicts with the existing TestBed setup
             it('should be able to configure global PT (skipped)', () => {

@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { InputGroup } from './inputgroup';
 import { InputGroupAddon } from '@bdspark/sparkng/inputgroupaddon';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 
 @Component({
     changeDetection: ChangeDetectionStrategy.Eager,
@@ -403,14 +403,14 @@ describe('InputGroup PassThrough Tests', () => {
         });
     });
 
-    describe('PT Case 6: Global PT from OptimusConfig', () => {
+    describe('PT Case 6: Global PT from SparkConfig', () => {
         it('should apply global PT configuration', async () => {
             TestBed.resetTestingModule();
             await TestBed.configureTestingModule({
                 imports: [InputGroup, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             inputGroup: {
                                 host: { 'aria-label': 'GLOBAL_LABEL' },
@@ -438,7 +438,7 @@ describe('InputGroup PassThrough Tests', () => {
                 imports: [InputGroup, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             inputGroup: {
                                 hooks: {

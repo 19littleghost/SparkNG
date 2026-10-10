@@ -22,7 +22,7 @@ export class RepositoryDoc {
     code: Code = {
         typescript: `import { de } from '@bdspark/sparkng-locale/js/de.js';
 
-provideOptimus({
+provideSpark({
     translation: de
 })`
     };

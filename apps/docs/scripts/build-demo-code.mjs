@@ -17,7 +17,7 @@ const SKIP_DIRS = ['apidoc', 'theming', 'icons', 'installation', 'configuration'
 const KNOWN_SERVICES = ['CarService', 'CountryService', 'CustomerService', 'EventService', 'NodeService', 'PhotoService', 'ProductService', 'TicketService'];
 
 // SparkNG API services that should be included in providers
-const OPTIMUS_SERVICES = ['MessageService', 'ConfirmationService', 'DialogService', 'TreeDragDropService', 'FilterService'];
+const SPARK_SERVICES = ['MessageService', 'ConfirmationService', 'DialogService', 'TreeDragDropService', 'FilterService'];
 
 // Known domain types and their paths
 // Note: 'Event' is excluded because it conflicts with DOM Event type
@@ -79,7 +79,7 @@ export interface Customer {
 };
 
 // SparkNG named exports that can be used as types (not modules)
-const OPTIMUS_NAMED_EXPORTS = {
+const SPARK_NAMED_EXPORTS = {
     Table: 'table',
     Tree: 'tree',
     TreeTable: 'treetable',
@@ -99,7 +99,7 @@ const OPTIMUS_NAMED_EXPORTS = {
 };
 
 // SparkNG API types that need to be imported from '@bdspark/sparkng/api'
-const OPTIMUS_API_TYPES = [
+const SPARK_API_TYPES = [
     'TreeNode',
     'MenuItem',
     'MegaMenuItem',
@@ -108,7 +108,7 @@ const OPTIMUS_API_TYPES = [
     'FilterService',
     'MessageService',
     'ConfirmationService',
-    'OptimusConfig',
+    'SparkConfig',
     'TreeTableNode',
     'ConfirmEventType',
     'SortEvent',
@@ -789,10 +789,10 @@ function extractBasicCode(htmlContent) {
                 // Only unwrap if there's nothing after the flex div
                 if (!afterFlexDiv) {
                     // Only unwrap if the flex div directly contains SparkNG components (not nested in templates)
-                    const hasOptimusDirect = /^[\s\S]*?<p-[a-z]/.test(flexContent);
+                    const hasSparkDirect = /^[\s\S]*?<p-[a-z]/.test(flexContent);
                     const hasNoTemplates = !flexContent.includes('<ng-template');
                     const isSimpleWrapper = flexContent.split('<div').length <= 3;
-                    if (hasOptimusDirect && hasNoTemplates && isSimpleWrapper) {
+                    if (hasSparkDirect && hasNoTemplates && isSimpleWrapper) {
                         basic = flexContent;
                     }
                 }
@@ -906,11 +906,11 @@ function detectDomainTypes(content) {
 }
 
 // Detect SparkNG named exports used as types in component
-function detectOptimusNamedExports(content) {
+function detectSparkNamedExports(content) {
     const namedExports = {};
 
     // Check each known named export
-    for (const [exportName, modulePath] of Object.entries(OPTIMUS_NAMED_EXPORTS)) {
+    for (const [exportName, modulePath] of Object.entries(SPARK_NAMED_EXPORTS)) {
         // Look for usage as type annotation (e.g., `: Table`, `Table[]`, `<Table>`)
         const typeRegex = new RegExp(`[:\\s<,]\\s*${exportName}\\b(?![a-zA-Z])`, 'g');
         if (typeRegex.test(content)) {
@@ -952,7 +952,7 @@ function generateExtFilesFromDomainTypes(content) {
 // Detect services from component file
 function detectServices(content) {
     const services = [];
-    const optimusServices = [];
+    const sparkServices = [];
 
     // Method 1: Look for imports from @/service/*
     const serviceImportMatches = content.matchAll(/import\s*\{\s*([^}]+)\s*\}\s*from\s*['"`]@\/service\/[^'"`]+['"`]/g);
@@ -974,17 +974,17 @@ function detectServices(content) {
                 services.push(name);
             }
             // Also check for SparkNG API services
-            if (OPTIMUS_SERVICES.includes(name) && !optimusServices.includes(name)) {
-                optimusServices.push(name);
+            if (SPARK_SERVICES.includes(name) && !sparkServices.includes(name)) {
+                sparkServices.push(name);
             }
         }
     }
 
-    return { services, optimusServices };
+    return { services, sparkServices };
 }
 
 // Detect SparkNG modules used in template
-function detectOptimusModules(template) {
+function detectSparkModules(template) {
     const modules = new Set();
 
     // Check for p-* selectors
@@ -1039,8 +1039,8 @@ function detectOptimusModules(template) {
 }
 
 // Generate demo TypeScript code with actual module imports (not ImportsModule)
-function generateTypescript(componentName, template, services = [], fileContent = '', optimusServices = []) {
-    const optimusModules = detectOptimusModules(template);
+function generateTypescript(componentName, template, services = [], fileContent = '', sparkServices = []) {
+    const sparkModules = detectSparkModules(template);
 
     // Extract class details from original file
     const interfaces = extractInterfaceDefinitions(fileContent);
@@ -1057,7 +1057,7 @@ function generateTypescript(componentName, template, services = [], fileContent 
     const hasSignals = properties.some((p) => p.type === '__signal__');
 
     // Check if we have inject() properties or services that need inject()
-    const hasInject = properties.some((p) => p.type === '__inject__') || services.length > 0 || optimusServices.length > 0;
+    const hasInject = properties.some((p) => p.type === '__inject__') || services.length > 0 || sparkServices.length > 0;
 
     // Build import statements with actual modules
     let importStatements = '';
@@ -1070,25 +1070,25 @@ function generateTypescript(componentName, template, services = [], fileContent 
     importStatements += `import { ${angularCoreImports.join(', ')} } from '@angular/core';\n`;
 
     // Add FormsModule if needed
-    if (optimusModules.includes('FormsModule')) {
+    if (sparkModules.includes('FormsModule')) {
         importStatements += `import { FormsModule } from '@angular/forms';\n`;
     }
 
     // Add ReactiveFormsModule if needed
-    if (optimusModules.includes('ReactiveFormsModule')) {
+    if (sparkModules.includes('ReactiveFormsModule')) {
         importStatements += `import { ReactiveFormsModule } from '@angular/forms';\n`;
     }
 
     // Add SparkNG modules (will be modified below to include named exports)
-    const optimusImports = optimusModules.filter((m) => !['CommonModule', 'FormsModule', 'ReactiveFormsModule'].includes(m));
+    const sparkImports = sparkModules.filter((m) => !['CommonModule', 'FormsModule', 'ReactiveFormsModule'].includes(m));
 
     // Detect SparkNG named exports early so we can combine them with module imports
-    const optimusNamedExportsEarly = detectOptimusNamedExports(fileContent);
+    const sparkNamedExportsEarly = detectSparkNamedExports(fileContent);
 
-    for (const module of optimusImports) {
+    for (const module of sparkImports) {
         const moduleLower = module.replace('Module', '').toLowerCase();
         // Check if there are named exports for this module
-        const namedExportsForModule = optimusNamedExportsEarly[moduleLower] || [];
+        const namedExportsForModule = sparkNamedExportsEarly[moduleLower] || [];
         if (namedExportsForModule.length > 0) {
             // Combine module with named exports
             importStatements += `import { ${[...namedExportsForModule, module].join(', ')} } from '@bdspark/sparkng/${moduleLower}';\n`;
@@ -1110,7 +1110,7 @@ function generateTypescript(componentName, template, services = [], fileContent 
     // Detect and add SparkNG API types (TreeNode, MenuItem, etc.) and services
     const usedApiTypes = [];
     const allContent = fileContent + (interfaces.length > 0 ? interfaces.join('\n') : '');
-    for (const apiType of OPTIMUS_API_TYPES) {
+    for (const apiType of SPARK_API_TYPES) {
         // Check if type is used in properties, interfaces, or method signatures
         const typeRegex = new RegExp(`\\b${apiType}\\b`, 'g');
         if (typeRegex.test(allContent)) {
@@ -1118,7 +1118,7 @@ function generateTypescript(componentName, template, services = [], fileContent 
         }
     }
     // Combine API types with SparkNG services for import (avoid duplicates)
-    const apiImports = [...new Set([...usedApiTypes, ...optimusServices])];
+    const apiImports = [...new Set([...usedApiTypes, ...sparkServices])];
     if (apiImports.length > 0) {
         importStatements += `import { ${apiImports.join(', ')} } from '@bdspark/sparkng/api';\n`;
     }
@@ -1130,20 +1130,20 @@ function generateTypescript(componentName, template, services = [], fileContent 
     }
 
     // Add SparkNG named exports that weren't combined with module imports
-    for (const [modulePath, exports] of Object.entries(optimusNamedExportsEarly)) {
+    for (const [modulePath, exports] of Object.entries(sparkNamedExportsEarly)) {
         const moduleNameBase = modulePath.charAt(0).toUpperCase() + modulePath.slice(1);
         const moduleName = moduleNameBase + 'Module';
         // Only add separate import if we don't already have the module imported
-        if (!optimusImports.includes(moduleName)) {
+        if (!sparkImports.includes(moduleName)) {
             importStatements += `import { ${exports.join(', ')} } from '@bdspark/sparkng/${modulePath}';\n`;
         }
     }
 
     // Build imports array for decorator (actual modules, not ImportsModule)
-    const decoratorImports = optimusModules.filter((m) => m !== 'CommonModule');
+    const decoratorImports = sparkModules.filter((m) => m !== 'CommonModule');
 
     // Build providers if services exist (include both custom services and SparkNG API services)
-    const allProviders = [...services, ...optimusServices];
+    const allProviders = [...services, ...sparkServices];
     const providersLine = allProviders.length > 0 ? `,\n    providers: [${allProviders.join(', ')}]` : '';
 
     // Generate class name (e.g., SelectBasicDemo)
@@ -1162,7 +1162,7 @@ function generateTypescript(componentName, template, services = [], fileContent 
     let classBody = '';
 
     // Add inject() statements for services first (before other properties)
-    const allServices = [...services, ...optimusServices];
+    const allServices = [...services, ...sparkServices];
     if (allServices.length > 0) {
         classBody += '\n';
         for (const service of allServices) {
@@ -1275,11 +1275,11 @@ function parseDocFile(filePath, componentDir) {
     const componentName = toPascalCase(uniqueKey.replace(/-demo$/, ''));
 
     // Detect services from component file (preferred) or fall back to existing code block
-    const { services: detectedServices, optimusServices } = detectServices(content);
+    const { services: detectedServices, sparkServices } = detectServices(content);
     const services = detectedServices.length > 0 ? detectedServices : existingCode?.service || [];
 
     // Generate TypeScript - pass full content for class extraction
-    const generatedTypescript = generateTypescript(componentName, demoContent, services, content, optimusServices);
+    const generatedTypescript = generateTypescript(componentName, demoContent, services, content, sparkServices);
 
     return {
         key: uniqueKey,
@@ -1293,9 +1293,9 @@ function parseDocFile(filePath, componentDir) {
         },
         metadata: {
             services,
-            optimusServices, // Add SparkNG API services to metadata
+            sparkServices, // Add SparkNG API services to metadata
             extFiles,
-            imports: detectOptimusModules(demoContent)
+            imports: detectSparkModules(demoContent)
         }
     };
 }

@@ -1,13 +1,12 @@
 import { EnvironmentProviders, inject, InjectionToken, makeEnvironmentProviders, provideAppInitializer } from '@angular/core';
-import { Spark } from './optimus';
-import type { OptimusConfigType } from './optimus.types';
+import { Spark } from './spark';
+import type { SparkConfigType } from './spark.types';
 
-export const OPTIMUS_CONFIG = new InjectionToken<OptimusConfigType>('OPTIMUS_CONFIG');
-export const SPARK_CONFIG = OPTIMUS_CONFIG;
+export const SPARK_CONFIG = new InjectionToken<SparkConfigType>('SPARK_CONFIG');
 
-export function provideOptimus(...features: OptimusConfigType[]): EnvironmentProviders {
+export function provideSpark(...features: SparkConfigType[]): EnvironmentProviders {
     const providers = features?.map((feature) => ({
-        provide: OPTIMUS_CONFIG,
+        provide: SPARK_CONFIG,
         useValue: feature,
         multi: false
     }));
@@ -21,4 +20,8 @@ export function provideOptimus(...features: OptimusConfigType[]): EnvironmentPro
     return makeEnvironmentProviders([...providers, initializer]);
 }
 
-export const provideSpark = provideOptimus;
+/** @deprecated Since v20. Use `provideSpark` instead. */
+export const provideOptimus = provideSpark;
+
+/** @deprecated Since v20. Use `SPARK_CONFIG` instead. */
+export const OPTIMUS_CONFIG = SPARK_CONFIG;

@@ -60,19 +60,12 @@ catalogs:
     '@angular/router':
       specifier: ^22.1.4
       version: 22.2.2
-    '@angular/ssr':
-      specifier: ^22.1.6
-      version: 22.2.2
     ng-packagr:
       specifier: ^22.1.1
       version: 22.2.4
     typescript:
       specifier: ^6.0.0
       version: 6.0.3
-  default:
-    '@bdspark/sparkng-icons':
-      specifier: ^22.0.4
-      version: 22.0.4
 
 importers:
 
@@ -199,8 +192,8 @@ importers:
   apps/docs:
     dependencies:
       '@bdspark/sparkng-tailwindcss':
-        specifier: workspace:*
-        version: link:../../packages/sparkng-tailwindcss
+        specifier: 22.0.5
+        version: 22.0.5(tailwindcss@3.4.19(yaml@2.9.1))
       autoprefixer:
         specifier: ^10.5.4
         version: 10.6.1(postcss@8.5.29)
@@ -212,20 +205,20 @@ importers:
         version: 3.4.19(yaml@2.9.1)
     devDependencies:
       '@angular/cdk':
-        specifier: catalog:angular22
+        specifier: ^22.1.4
         version: 22.2.2(@angular/common@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(@angular/forms@22.2.2(@angular/common@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(@angular/platform-browser@22.2.2(@angular/animations@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2)))(@angular/common@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2)))(rxjs@7.8.2))(@angular/platform-browser@22.2.2(@angular/animations@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2)))(@angular/common@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2)))(rxjs@7.8.2)
       '@angular/ssr':
-        specifier: catalog:angular22
+        specifier: ^22.1.6
         version: 22.2.2(5b3e2f849d89ebbd7937e102c60cf76b)
       '@bdspark/sparkng':
-        specifier: workspace:*
-        version: link:../../packages/sparkng
+        specifier: 22.0.5
+        version: 22.0.5(dec1265c73ec73f59ef0b03ab7d4636d)
       '@bdspark/sparkng-icons':
-        specifier: 'catalog:'
-        version: link:../../packages/sparkng-icons
+        specifier: 22.0.5
+        version: 22.0.5
       '@bdspark/sparkng-themes':
-        specifier: workspace:*
-        version: link:../../packages/sparkng-themes
+        specifier: 22.0.5
+        version: 22.0.5
       '@docsearch/css':
         specifier: ^5.0.3
         version: 5.1.2
@@ -1341,6 +1334,47 @@ packages:
   '@bcoe/v8-coverage@1.0.2':
     resolution: {integrity: sha512-6zABk/ECA/QYSCQ1NGiVwwbQerUCZ+TQbp64Q3AgmfNvurHH0j8TtXa1qbShXA6qqkpAj4V5W8pP6mLe1mcMqA==}
     engines: {node: '>=18'}
+
+  '@bdspark/sparkng-icons@22.0.5':
+    resolution: {integrity: sha512-X9UL1J3Q/BgdTmZYqdwrnE1/cD5Ry4EtfyBCvR7+XilQ+U0in/ZuiyMcnGPJ2eAd3RdSRowerkKntYi2Fsps3w==}
+
+  '@bdspark/sparkng-motion@22.0.5':
+    resolution: {integrity: sha512-3NQFDd0ty4Y3iw5LXjO60MHUQ2brt/xXOm+XAFA4KgZQ1uOEMex1qi4mTcqwJgPhxESaLsU7DE6PhJ3KwGcDAA==}
+    engines: {node: '>=12.11.0'}
+
+  '@bdspark/sparkng-styled@22.0.5':
+    resolution: {integrity: sha512-MKjJ4ilRy1pAEmJWsOsnU7FZTvXNd4XpMAuSWsEvlzEmV3yAj9Pf1NRxDUM7CKh1rSPqgH+W5rWpfIflBHgzAg==}
+    engines: {node: '>=12.11.0'}
+
+  '@bdspark/sparkng-styles@22.0.5':
+    resolution: {integrity: sha512-gtlOgdwVrHpUW60IYNCE8HjC0SGIRRckyV0pX+5fKLKLcgVXSZiquGKu7p6b83t+tcI0MF5hb3Rssoo8nYhEIg==}
+
+  '@bdspark/sparkng-tailwindcss@22.0.5':
+    resolution: {integrity: sha512-0DdKzwgmBRI6Q3P6yb3v2XNy4fo95s+rTymgh1Ets1sKJfTyiL+e76cZOpQ5fa15BQE7gPJpUzengsgNQmxKOA==}
+    peerDependencies:
+      tailwindcss: '>=3.1.0'
+
+  '@bdspark/sparkng-themes@22.0.5':
+    resolution: {integrity: sha512-nM7sM+agt2Q5FCvVFlvCUxxFMH1VQ2ZmTLdvDq3i/slgFSOrkGq/CzPx8kQR0WHr/kROCSgIs0P9ch7f+YkLow==}
+
+  '@bdspark/sparkng-utils@22.0.5':
+    resolution: {integrity: sha512-BCAl46don1E9rDeZGn1+qxGdgk3h6kcMAeuADFUbqo9VnG0NqwVjrs7AyhMLhxBThwarouW/43aPuIAVGsb6Zw==}
+    engines: {node: '>=12.11.0'}
+
+  '@bdspark/sparkng@22.0.5':
+    resolution: {integrity: sha512-qh3CTslrYTkGxOY11OyMeq19zL1HAxq/K0uyW+KO2oUu0udghRCeD/LC0otnOV8kMeyf0KOghmiWFGa9ULguNw==}
+    peerDependencies:
+      '@angular/cdk': ^22.1.4
+      '@angular/common': ^22.1.4
+      '@angular/core': ^22.1.4
+      '@angular/forms': ^22.1.4
+      '@angular/platform-browser': ^22.1.4
+      '@angular/router': ^22.1.4
+      chart.js: ^4.0.0
+      rxjs: ^6.0.0 || ^7.8.1
+    peerDependenciesMeta:
+      chart.js:
+        optional: true
 
   '@blazediff/core@1.9.1':
     resolution: {integrity: sha512-ehg3jIkYKulZh+8om/O25vkvSsXXwC+skXmyA87FFx6A/45eqOkZsBltMw/TVteb0mloiGT8oGRTcjRAz66zaA==}
@@ -8201,6 +8235,47 @@ snapshots:
       '@babel/helper-validator-identifier': 8.0.6
 
   '@bcoe/v8-coverage@1.0.2': {}
+
+  '@bdspark/sparkng-icons@22.0.5': {}
+
+  '@bdspark/sparkng-motion@22.0.5':
+    dependencies:
+      '@bdspark/sparkng-utils': 22.0.5
+
+  '@bdspark/sparkng-styled@22.0.5':
+    dependencies:
+      '@bdspark/sparkng-utils': 22.0.5
+
+  '@bdspark/sparkng-styles@22.0.5':
+    dependencies:
+      '@bdspark/sparkng-styled': 22.0.5
+
+  '@bdspark/sparkng-tailwindcss@22.0.5(tailwindcss@3.4.19(yaml@2.9.1))':
+    dependencies:
+      tailwindcss: 3.4.19(yaml@2.9.1)
+
+  '@bdspark/sparkng-themes@22.0.5':
+    dependencies:
+      '@bdspark/sparkng-styled': 22.0.5
+
+  '@bdspark/sparkng-utils@22.0.5': {}
+
+  '@bdspark/sparkng@22.0.5(dec1265c73ec73f59ef0b03ab7d4636d)':
+    dependencies:
+      '@angular/cdk': 22.2.2(@angular/common@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(@angular/forms@22.2.2(@angular/common@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(@angular/platform-browser@22.2.2(@angular/animations@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2)))(@angular/common@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2)))(rxjs@7.8.2))(@angular/platform-browser@22.2.2(@angular/animations@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2)))(@angular/common@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2)))(rxjs@7.8.2)
+      '@angular/common': 22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(rxjs@7.8.2)
+      '@angular/core': 22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2)
+      '@angular/forms': 22.2.2(@angular/common@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(@angular/platform-browser@22.2.2(@angular/animations@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2)))(@angular/common@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2)))(rxjs@7.8.2)
+      '@angular/platform-browser': 22.2.2(@angular/animations@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2)))(@angular/common@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))
+      '@angular/router': 22.2.2(@angular/common@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(@angular/platform-browser@22.2.2(@angular/animations@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2)))(@angular/common@22.2.2(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.2.2(@angular/compiler@22.2.2)(rxjs@7.8.2)))(rxjs@7.8.2)
+      '@bdspark/sparkng-motion': 22.0.5
+      '@bdspark/sparkng-styled': 22.0.5
+      '@bdspark/sparkng-styles': 22.0.5
+      '@bdspark/sparkng-utils': 22.0.5
+      rxjs: 7.8.2
+      tslib: 2.8.1
+    optionalDependencies:
+      chart.js: 4.5.1
 
   '@blazediff/core@1.9.1': {}
 

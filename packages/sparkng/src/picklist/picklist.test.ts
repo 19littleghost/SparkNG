@@ -4,7 +4,7 @@ import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection } fr
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import {
     PickListMoveAllToSourceEvent,
     PickListMoveAllToTargetEvent,
@@ -1317,7 +1317,7 @@ describe('PickList', () => {
             });
         });
 
-        describe('Case 5: Test from OptimusConfig', () => {
+        describe('Case 5: Test from SparkConfig', () => {
             @Component({
                 changeDetection: ChangeDetectionStrategy.Eager,
                 standalone: true,
@@ -1340,7 +1340,7 @@ describe('PickList', () => {
                     imports: [PickList],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 picklist: {
                                     host: { 'aria-label': 'TEST_GLOBAL_ARIA_LABEL' }
@@ -1367,7 +1367,7 @@ describe('PickList', () => {
                     imports: [PickList],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 picklist: {
                                     host: { class: 'GLOBAL_CLASS' },

@@ -39,7 +39,7 @@ import { Component } from '@angular/core';
 })
 export class DarkModeDoc {
     code1: Code = {
-        typescript: `provideOptimus({
+        typescript: `provideSpark({
     theme: {
         preset: Aura,
         options: {
@@ -65,7 +65,7 @@ export class DarkModeDoc {
     };
 
     code5: Code = {
-        typescript: `provideOptimus({
+        typescript: `provideSpark({
     theme: {
         preset: Aura,
         options: {

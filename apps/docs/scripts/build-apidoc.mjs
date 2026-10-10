@@ -38,7 +38,7 @@ async function main() {
         // typedoc options here
         name: 'PrimeNG',
         entryPointStrategy: 'expand',
-        entryPoints: ['../../packages/sparkng/'],
+        entryPoints: ['node_modules/@bdspark/sparkng/types'],
         hideGenerator: true,
         excludeExternals: false,
         includeVersion: true,
@@ -46,7 +46,8 @@ async function main() {
         disableSources: true,
         logLevel: 'Error',
         sort: ['source-order'],
-        exclude: ['node_modules', 'src/**/*spec.ts']
+        exclude: ['**/*spec.ts'],
+        tsconfig: 'tsconfig.apidoc.json'
     });
 
     const project = await app.convert();
@@ -95,12 +96,22 @@ async function main() {
             modules.children.forEach((module) => {
                 const fullPath = module.name;
                 const pathParts = fullPath.split('/');
-                const name = pathParts[pathParts.length - 1];
 
-                // For public_api files, use the parent component name
-                const actualName = name === 'public_api' && pathParts.length > 1 ? pathParts[pathParts.length - 2] : name;
+                // Published type bundles are flat files named bdspark-sparkng-<component>.d.ts;
+                // the "types-<component>" ones carry the component's interfaces/types and are
+                // keyed "<component>.types" so the merge loop below folds them into the parent.
+                const stripped = pathParts[pathParts.length - 1].replace(/^bdspark-sparkng-?/, '');
 
-                if (allowed(name)) {
+                let actualName;
+                if (stripped.startsWith('types-')) {
+                    actualName = `${stripped.slice('types-'.length)}.types`;
+                } else if ((stripped === 'public_api' || stripped === 'index') && pathParts.length > 1) {
+                    actualName = pathParts[pathParts.length - 2];
+                } else {
+                    actualName = stripped;
+                }
+
+                if (stripped && allowed(stripped)) {
                     if (module.groups) {
                         if (!doc[actualName]) {
                             doc[actualName] = {

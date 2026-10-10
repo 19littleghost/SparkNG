@@ -27,7 +27,7 @@ export class SetupDoc {
 
 export const appConfig: ApplicationConfig = {
     providers: [
-        provideOptimus({
+        provideSpark({
             unstyled: true
         })
     ]

@@ -1925,8 +1925,8 @@ describe('SpeedDial', () => {
             });
         });
 
-        describe('Case 7: Test from OptimusConfig', () => {
-            it('should apply global PT configuration from OptimusConfig', async () => {
+        describe('Case 7: Test from SparkConfig', () => {
+            it('should apply global PT configuration from SparkConfig', async () => {
                 // Create a new test module with Spark config
                 await TestBed.resetTestingModule();
                 await TestBed.configureTestingModule({
@@ -1935,7 +1935,7 @@ describe('SpeedDial', () => {
                     providers: [
                         provideZonelessChangeDetection(),
                         {
-                            provide: 'provideOptimus',
+                            provide: 'provideSpark',
                             useValue: {
                                 pt: {
                                     speeddial: {

@@ -1363,15 +1363,15 @@ describe('InputMask', () => {
             });
         });
 
-        describe('Case 7: Test from OptimusConfig', () => {
-            it('should apply global PT configuration from OptimusConfig', async () => {
+        describe('Case 7: Test from SparkConfig', () => {
+            it('should apply global PT configuration from SparkConfig', async () => {
                 await TestBed.resetTestingModule();
                 await TestBed.configureTestingModule({
                     imports: [InputMask, FormsModule],
                     providers: [
                         provideZonelessChangeDetection(),
                         {
-                            provide: 'provideOptimus',
+                            provide: 'provideSpark',
                             useValue: {
                                 pt: {
                                     inputmask: {

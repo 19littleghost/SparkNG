@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, DebugElement, provideZonelessChange
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import { FieldsetAfterToggleEvent, FieldsetBeforeToggleEvent } from '@bdspark/sparkng/types/fieldset';
 import { Fieldset } from './fieldset';
 
@@ -1077,7 +1077,7 @@ describe('Fieldset', () => {
             });
         });
 
-        describe('Case 7: Test from OptimusConfig', () => {
+        describe('Case 7: Test from SparkConfig', () => {
             @Component({
                 changeDetection: ChangeDetectionStrategy.Eager,
                 standalone: true,
@@ -1095,7 +1095,7 @@ describe('Fieldset', () => {
                     imports: [TestGlobalPTComponent],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 fieldset: {
                                     root: { 'aria-label': 'TEST_GLOBAL_ARIA_LABEL' },

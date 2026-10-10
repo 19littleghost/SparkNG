@@ -3,7 +3,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
 import { TreeNode } from '@bdspark/sparkng/api';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import { OrganizationChart, OrganizationChartNode } from './organizationchart';
 
 // Test component for basic use cases
@@ -964,14 +964,14 @@ describe('OrganizationChart', () => {
             });
         });
 
-        describe('Case 7: Global PT from OptimusConfig', () => {
+        describe('Case 7: Global PT from SparkConfig', () => {
             it('should apply global PT configuration', async () => {
                 TestBed.resetTestingModule();
                 TestBed.configureTestingModule({
                     imports: [OrganizationChart],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 organizationChart: {
                                     root: 'GLOBAL_ROOT_CLASS',
@@ -999,7 +999,7 @@ describe('OrganizationChart', () => {
                     imports: [OrganizationChart],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 organizationChart: {
                                     root: 'GLOBAL_CLASS'

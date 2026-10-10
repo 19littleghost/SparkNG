@@ -18,9 +18,9 @@ export const MODULE_MAP: ReadonlyMap<string, string> = new Map([
 export const SPECIFIER_RENAMES: ReadonlyMap<string, string> = new Map([['primeicons/primeicons.css', '@bdspark/sparkng-icons/icons.css']]);
 
 export const IDENTIFIER_RENAMES: ReadonlyMap<string, string> = new Map([
-    ['providePrimeNG', 'provideOptimus'],
+    ['providePrimeNG', 'provideSpark'],
     ['PrimeNG', 'Spark'],
-    ['PrimeNGConfigType', 'OptimusConfigType'],
+    ['PrimeNGConfigType', 'SparkConfigType'],
     // The icon constants class was renamed alongside the primeicons -> @bdspark/sparkng-icons package.
     // @bdspark/sparkng/api keeps a deprecated PrimeIcons alias, so unmigrated code still
     // compiles, but rewriting to BdsparkIcons moves users onto the current API.

@@ -1347,8 +1347,8 @@ describe('Card', () => {
             });
         });
 
-        describe('Case 7: Global PT from OptimusConfig', () => {
-            it('should apply global PT configuration from OptimusConfig', async () => {
+        describe('Case 7: Global PT from SparkConfig', () => {
+            it('should apply global PT configuration from SparkConfig', async () => {
                 @Component({
                     changeDetection: ChangeDetectionStrategy.Eager,
                     standalone: false,
@@ -1366,7 +1366,7 @@ describe('Card', () => {
                     providers: [
                         provideZonelessChangeDetection(),
                         {
-                            provide: 'provideOptimus',
+                            provide: 'provideSpark',
                             useValue: {
                                 pt: {
                                     card: {

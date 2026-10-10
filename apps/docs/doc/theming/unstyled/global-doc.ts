@@ -24,7 +24,7 @@ export class GlobalDoc {
 
 export const appConfig: ApplicationConfig = {
     providers: [
-        provideOptimus({
+        provideSpark({
             unstyled: true,
             pt: {
                 button: {

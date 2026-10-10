@@ -3,7 +3,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { SharedModule, TreeNode } from '@bdspark/sparkng/api';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import { TreeSelectNodeCollapseEvent, TreeSelectNodeExpandEvent } from '@bdspark/sparkng/types/treeselect';
 import { BehaviorSubject } from 'rxjs';
 import { TreeSelect, TreeSelectModule } from './treeselect';
@@ -1422,7 +1422,7 @@ describe('TreeSelect', () => {
                 imports: [TreeSelectModule, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             treeSelect: {
                                 root: 'custom-root-class',
@@ -1449,7 +1449,7 @@ describe('TreeSelect', () => {
                 imports: [TreeSelectModule, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             treeSelect: {
                                 root: { class: 'pt-root-test' },
@@ -1474,7 +1474,7 @@ describe('TreeSelect', () => {
                 imports: [TreeSelectModule, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             treeSelect: {
                                 root: 'string-root',
@@ -1503,7 +1503,7 @@ describe('TreeSelect', () => {
                 imports: [TreeSelectModule, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             treeSelect: {
                                 root: {
@@ -1532,7 +1532,7 @@ describe('TreeSelect', () => {
                 imports: [TreeSelectModule, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             treeSelect: {
                                 root: 'global-root',

@@ -34,9 +34,9 @@ function themeImport(theme: Theme): { preset: string; module: string } {
 
 function manualSteps(theme: Theme): string {
     const { preset, module } = themeImport(theme);
-    return `  1. import { provideOptimus } from '@bdspark/sparkng/config';
+    return `  1. import { provideSpark } from '@bdspark/sparkng/config';
   2. import ${preset} from '${module}';
-  3. add provideOptimus({ theme: { preset: ${preset} } }) to your root providers
+  3. add provideSpark({ theme: { preset: ${preset} } }) to your root providers
      (bootstrapApplication providers, or an NgModule's providers array).`;
 }
 
@@ -70,7 +70,7 @@ export function ngAdd(options: Schema): Rule {
 /**
  * Hard-errors when an explicit `--project` names a project the workspace does not have. Anything
  * else unexpected about the workspace (missing or unreadable angular.json, …) is left to
- * `wireProvideOptimus`, which degrades to manual instructions rather than aborting.
+ * `wireProvideSpark`, which degrades to manual instructions rather than aborting.
  */
 async function assertProjectExists(tree: Tree, options: Schema): Promise<void> {
     if (!options.project) {
@@ -92,7 +92,7 @@ async function assertProjectExists(tree: Tree, options: Schema): Promise<void> {
 function freshSetup(options: Schema): Rule {
     return async (tree: Tree, context: SchematicContext) => {
         addThemesDependency(tree);
-        await wireProvideOptimus(tree, context, options);
+        await wireProvideSpark(tree, context, options);
 
         if (!options.skipInstall) {
             context.addTask(new NodePackageInstallTask());
@@ -117,16 +117,16 @@ function addThemesDependency(tree: Tree): void {
 }
 
 /**
- * Resolves the target project and wires `provideOptimus` into its root providers via the
+ * Resolves the target project and wires `provideSpark` into its root providers via the
  * official `addRootProvider` utility (handles both standalone `app.config.ts` and NgModule
  * apps). An explicit but nonexistent `--project` is a hard error; anything else unexpected about
  * the app's shape (no application project, no `build` target, an app.config.ts/main.ts that
  * addRootProvider can't statically analyze, …) degrades to the manual-instructions warning
  * rather than aborting the rest of ng-add. Whenever wiring degrades after addRootProvider has
  * already edited the tree, those edits are rolled back first so the user never inherits a
- * half-wired provideOptimus call (e.g. one referencing a conflicting `Aura` binding).
+ * half-wired provideSpark call (e.g. one referencing a conflicting `Aura` binding).
  */
-async function wireProvideOptimus(tree: Tree, context: SchematicContext, options: Schema): Promise<void> {
+async function wireProvideSpark(tree: Tree, context: SchematicContext, options: Schema): Promise<void> {
     const theme = options.theme ?? DEFAULT_THEME;
     const { preset, module } = themeImport(theme);
     const instructions = manualInstructions(theme);
@@ -162,8 +162,8 @@ async function wireProvideOptimus(tree: Tree, context: SchematicContext, options
         return;
     }
 
-    if (findProvideOptimusFile(tree, sourceRoot)) {
-        context.logger.info(`provideOptimus already configured in ${projectName}.`);
+    if (findProvideSparkFile(tree, sourceRoot)) {
+        context.logger.info(`provideSpark already configured in ${projectName}.`);
         return;
     }
 
@@ -174,7 +174,7 @@ async function wireProvideOptimus(tree: Tree, context: SchematicContext, options
     // it compiles, so nothing would surface the breakage. Skip the automatic wiring instead.
     const primengFile = findSourceFileContaining(tree, sourceRoot, 'providePrimeNG(');
     if (primengFile) {
-        context.logger.warn(`Found a providePrimeNG call in ${primengFile} — this workspace still uses PrimeNG, so provideOptimus was not wired automatically.
+        context.logger.warn(`Found a providePrimeNG call in ${primengFile} — this workspace still uses PrimeNG, so provideSpark was not wired automatically.
 To migrate this workspace, run: ${MIGRATE_COMMAND}
 Or finish the setup manually:
 ${manualSteps(theme)}`);
@@ -185,10 +185,10 @@ ${manualSteps(theme)}`);
     // source files to roll those edits back if wiring has to degrade to manual instructions.
     const snapshot = snapshotSourceFiles(tree, sourceRoot);
     try {
-        const rule = addRootProvider(projectName, ({ code, external }) => code`${external('provideOptimus', '@bdspark/sparkng/config')}({ theme: { preset: ${preset} } })`);
+        const rule = addRootProvider(projectName, ({ code, external }) => code`${external('provideSpark', '@bdspark/sparkng/config')}({ theme: { preset: ${preset} } })`);
         await applyRule(rule, tree, context);
 
-        const wiredFile = findProvideOptimusFile(tree, sourceRoot);
+        const wiredFile = findProvideSparkFile(tree, sourceRoot);
         if (!wiredFile) {
             restoreSourceFiles(tree, snapshot);
             context.logger.warn(instructions);
@@ -204,8 +204,8 @@ ${manualSteps(theme)}`);
             // The preset name is already taken in this file (e.g. `Aura` imported from another
             // theme package), so the import went in under a different binding — retarget the
             // `preset:` reference in the provider call addRootProvider just inserted. `external()`
-            // may itself have aliased the provideOptimus binding (provideOptimus_1, …), hence `\w*`.
-            const providerCall = new RegExp(`(provideOptimus\\w*\\(\\{\\s*theme:\\s*\\{\\s*preset:\\s*)${preset}(\\s*\\}\\s*\\}\\s*\\))`);
+            // may itself have aliased the provideSpark binding (provideSpark_1, …), hence `\w*`.
+            const providerCall = new RegExp(`(provideSpark\\w*\\(\\{\\s*theme:\\s*\\{\\s*preset:\\s*)${preset}(\\s*\\}\\s*\\}\\s*\\))`);
             if (!providerCall.test(updated)) {
                 // Never leave the inserted call referencing the conflicting binding — undo the
                 // wiring so the manual instructions start from an untouched file.
@@ -219,7 +219,7 @@ ${manualSteps(theme)}`);
             tree.overwrite(wiredFile, updated);
         }
         const bindingNote = imported.bindingName === preset ? '' : ` (bound as ${imported.bindingName})`;
-        context.logger.info(`Added provideOptimus with the ${preset} preset to ${wiredFile}${bindingNote}.`);
+        context.logger.info(`Added provideSpark with the ${preset} preset to ${wiredFile}${bindingNote}.`);
     } catch {
         restoreSourceFiles(tree, snapshot);
         context.logger.warn(instructions);
@@ -228,7 +228,7 @@ ${manualSteps(theme)}`);
 
 /**
  * Content of every `.ts` file under `sourceRoot` (skipping node_modules/dist/…) before wiring —
- * the scope addRootProvider edits and findProvideOptimusFile searches. Exported for testing.
+ * the scope addRootProvider edits and findProvideSparkFile searches. Exported for testing.
  */
 export function snapshotSourceFiles(tree: Tree, sourceRoot: string): Map<string, string> {
     const prefix = `/${sourceRoot}/`;
@@ -269,9 +269,9 @@ function findSourceFileContaining(tree: Tree, sourceRoot: string, needle: string
     return found;
 }
 
-/** Finds the first `.ts` file under `sourceRoot` (skipping node_modules/dist/…) containing a `provideOptimus(` call. */
-function findProvideOptimusFile(tree: Tree, sourceRoot: string): string | null {
-    return findSourceFileContaining(tree, sourceRoot, 'provideOptimus(');
+/** Finds the first `.ts` file under `sourceRoot` (skipping node_modules/dist/…) containing a `provideSpark(` call. */
+function findProvideSparkFile(tree: Tree, sourceRoot: string): string | null {
+    return findSourceFileContaining(tree, sourceRoot, 'provideSpark(');
 }
 
 /**

@@ -5,14 +5,14 @@ import { provideHttpClient, withFetch } from '@angular/common/http';
 import { ApplicationConfig, inject, provideAppInitializer, provideZonelessChangeDetection } from '@angular/core';
 import { provideRouter, withInMemoryScrolling } from '@angular/router';
 import { ConfirmationService, MessageService } from '@bdspark/sparkng/api';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 
 export const appConfig: ApplicationConfig = {
     providers: [
         provideZonelessChangeDetection(),
         provideRouter(routes, withInMemoryScrolling({ anchorScrolling: 'enabled', scrollPositionRestoration: 'enabled' })), // withEnabledBlockingInitialNavigation()
         provideHttpClient(withFetch()),
-        provideOptimus({
+        provideSpark({
             theme: Noir,
             ripple: false
         }),

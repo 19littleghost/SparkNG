@@ -5,7 +5,7 @@ import { By } from '@angular/platform-browser';
 
 import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
 import { ButtonModule } from '@bdspark/sparkng/button';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import type { CarouselPageEvent, CarouselResponsiveOptions } from '@bdspark/sparkng/types/carousel';
 import { Carousel } from './carousel';
 
@@ -1243,7 +1243,7 @@ describe('Carousel', () => {
             });
         });
 
-        describe('Case 7: Test from OptimusConfig', () => {
+        describe('Case 7: Test from SparkConfig', () => {
             let fixture: ComponentFixture<Carousel>;
             let carouselInstance: Carousel;
 
@@ -1253,7 +1253,7 @@ describe('Carousel', () => {
                     imports: [CommonModule, Carousel, SharedModule, PrimeTemplate, ButtonModule],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 carousel: {
                                     root: { 'aria-label': 'TEST_GLOBAL_ARIA_LABEL', class: 'GLOBAL_CAROUSEL_CLASS' },
@@ -1272,7 +1272,7 @@ describe('Carousel', () => {
                 fixture.detectChanges();
             });
 
-            it('should apply global PT from OptimusConfig', () => {
+            it('should apply global PT from SparkConfig', () => {
                 const rootElement = fixture.nativeElement;
                 expect(rootElement.getAttribute('aria-label')).toBe('TEST_GLOBAL_ARIA_LABEL');
                 expect(rootElement.className).toContain('GLOBAL_CAROUSEL_CLASS');

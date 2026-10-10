@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/schema",
-    "$id": "OptimusUiMigrateFromPrimeflex",
+    "$id": "SparkUiMigrateFromPrimeflex",
     "title": "Translate PrimeFlex classes to Tailwind CSS",
     "type": "object",
     "properties": {

@@ -95,7 +95,7 @@ export class PasswordDirective extends BaseEditableHolder {
      */
     @Input() promptLabel: string = 'Enter a password';
     /**
-     * Text for a weak password. Defaults to PrOptimusimeNG I18N API configuration.
+     * Text for a weak password. Defaults to SparkNG I18N API configuration.
      * @group Props
      */
     @Input() weakLabel: string = 'Weak';

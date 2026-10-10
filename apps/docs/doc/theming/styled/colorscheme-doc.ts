@@ -31,7 +31,7 @@ import { Component } from '@angular/core';
 export class ColorSchemeDoc {
     code1 = {
         typescript: `import { bootstrapApplication } from '@angular/platform-browser';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import { definePreset } from '@bdspark/sparkng-themes';
 import Aura from '@bdspark/sparkng-themes/aura';
 import { AppComponent } from './app/app.component';
@@ -51,7 +51,7 @@ const MyPreset = definePreset(Aura, {
 
 bootstrapApplication(AppComponent, {
     providers: [
-        provideOptimus({
+        provideSpark({
             theme: {
                 preset: MyPreset
             }

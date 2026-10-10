@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
     imports: [AppDocSectionText, AppCode],
     template: `
         <app-docsectiontext>
-            <p>Add <i>provideOptimus</i> to the list of providers in your <i>app.config.ts</i> and use the <i>theme</i> property to configure a theme such as Aura.</p>
+            <p>Add <i>provideSpark</i> to the list of providers in your <i>app.config.ts</i> and use the <i>theme</i> property to configure a theme such as Aura.</p>
             <app-code [code]="code" [hideToggleCode]="true"></app-code>
         </app-docsectiontext>
     `
@@ -17,12 +17,12 @@ import { Component } from '@angular/core';
 export class ProviderDoc {
     code: Code = {
         typescript: `import { ApplicationConfig } from '@angular/core';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import Aura from '@bdspark/sparkng-themes/aura';
 
 export const appConfig: ApplicationConfig = {
     providers: [
-        provideOptimus({
+        provideSpark({
             theme: {
                 preset: Aura
             }

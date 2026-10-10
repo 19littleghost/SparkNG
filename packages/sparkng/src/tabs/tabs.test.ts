@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, DebugElement, Input, provideZonelessChangeDetection } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import { Tooltip } from '@bdspark/sparkng/tooltip';
 import { TabList } from './tablist';
 import { Tabs } from './tabs';
@@ -195,7 +195,7 @@ describe('Tabs', () => {
         TestBed.configureTestingModule({
             imports: [TabsModule, Tooltip],
             declarations: [TestTabsComponent, TestScrollableTabsComponent, TestLazyTabsComponent, TestContentChildIconsTabsComponent, TestPTTabsComponent],
-            providers: [provideZonelessChangeDetection(), provideOptimus({ theme: { preset: {} } })]
+            providers: [provideZonelessChangeDetection(), provideSpark({ theme: { preset: {} } })]
         });
 
         fixture = TestBed.createComponent(TestTabsComponent);

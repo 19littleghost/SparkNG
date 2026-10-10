@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection } fr
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { By } from '@angular/platform-browser';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import { ColorPickerChangeEvent } from '@bdspark/sparkng/types/colorpicker';
 import { ColorPicker } from './colorpicker';
 
@@ -815,7 +815,7 @@ describe('ColorPicker', () => {
                 imports: [ColorPicker, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             colorPicker: {
                                 root: 'PT_ROOT_CLASS',
@@ -868,7 +868,7 @@ describe('ColorPicker', () => {
                 imports: [ColorPicker, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             colorPicker: {
                                 root: 'PT_ROOT_OVERLAY',
@@ -897,7 +897,7 @@ describe('ColorPicker', () => {
                 imports: [ColorPicker, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             colorPicker: {
                                 root: {
@@ -967,7 +967,7 @@ describe('ColorPicker', () => {
                 imports: [ColorPicker, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             colorPicker: {
                                 root: {
@@ -1033,7 +1033,7 @@ describe('ColorPicker', () => {
                 imports: [ColorPicker, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             colorPicker: {
                                 root: ({ instance }: any) => ({
@@ -1078,7 +1078,7 @@ describe('ColorPicker', () => {
                 imports: [ColorPicker, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             colorPicker: {
                                 root: ({ instance }: any) => ({
@@ -1126,7 +1126,7 @@ describe('ColorPicker', () => {
                 imports: [ColorPicker, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             colorPicker: {
                                 root: ({ instance }: any) => ({
@@ -1178,7 +1178,7 @@ describe('ColorPicker', () => {
                 imports: [ColorPicker, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             colorPicker: {
                                 root: {
@@ -1242,7 +1242,7 @@ describe('ColorPicker', () => {
                 imports: [ColorPicker, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             colorPicker: {
                                 colorHandle: ({ instance }: any) => ({
@@ -1285,7 +1285,7 @@ describe('ColorPicker', () => {
                 imports: [ColorPicker, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             colorPicker: {
                                 root: ({ instance }: any) => {
@@ -1399,13 +1399,13 @@ describe('ColorPicker', () => {
             expect(panel?.getAttribute('data-p-inline')).toBe('true');
         });
 
-        // Case 8: Test from OptimusConfig (global PT)
-        it('PT Case 8a: should apply global PT configuration from OptimusConfig', async () => {
+        // Case 8: Test from SparkConfig (global PT)
+        it('PT Case 8a: should apply global PT configuration from SparkConfig', async () => {
             TestBed.configureTestingModule({
                 imports: [ColorPicker, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             colorPicker: {
                                 root: {
@@ -1453,7 +1453,7 @@ describe('ColorPicker', () => {
                 imports: [ColorPicker, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             colorPicker: {
                                 root: {
@@ -1491,7 +1491,7 @@ describe('ColorPicker', () => {
                 imports: [ColorPicker, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             colorPicker: {
                                 root: {
@@ -1554,7 +1554,7 @@ describe('ColorPicker', () => {
                 imports: [TestMultiplePTComponent],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             colorPicker: {
                                 root: 'GLOBAL_MULTI_ROOT',
@@ -1590,7 +1590,7 @@ describe('ColorPicker', () => {
                 imports: [ColorPicker, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             colorPicker: {
                                 root: 'HOOKS_ROOT_CLASS',
@@ -1626,7 +1626,7 @@ describe('ColorPicker', () => {
                 imports: [ColorPicker, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             colorPicker: {
                                 hooks: {
@@ -1663,7 +1663,7 @@ describe('ColorPicker', () => {
                 imports: [ColorPicker, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             colorPicker: {
                                 hooks: {
@@ -1706,7 +1706,7 @@ describe('ColorPicker', () => {
                 imports: [ColorPicker, FormsModule],
                 providers: [
                     provideZonelessChangeDetection(),
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             colorPicker: {
                                 root: ({ instance }: any) => ({

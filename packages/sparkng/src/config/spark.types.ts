@@ -187,7 +187,7 @@ export interface GlobalPassThrough {
     [key: string]: any;
 }
 
-export type OptimusConfigType = {
+export type SparkConfigType = {
     ripple?: boolean;
     overlayAppendTo?: HTMLElement | ElementRef | TemplateRef<any> | string | null | undefined | any;
     /**
@@ -208,4 +208,5 @@ export type OptimusConfigType = {
     filterMatchModeOptions?: any;
 } & ThemeConfigType;
 
-export type SparkConfigType = OptimusConfigType;
+/** @deprecated Since v20. Use `SparkConfigType` instead. */
+export type OptimusConfigType = SparkConfigType;

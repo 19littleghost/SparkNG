@@ -5,7 +5,7 @@ import { By } from '@angular/platform-browser';
 import { BaseComponent } from '@bdspark/sparkng/basecomponent';
 import { Button } from '@bdspark/sparkng/button';
 import { ZIndexUtils } from '@bdspark/sparkng/utils';
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import { ScrollTop, ScrollTopModule } from './scrolltop';
 
 @Component({
@@ -1253,8 +1253,8 @@ describe('ScrollTop', () => {
         });
     });
 
-    describe('PassThrough - Case 7: Test from OptimusConfig', () => {
-        it('should apply global pt configuration from OptimusConfig', () => {
+    describe('PassThrough - Case 7: Test from SparkConfig', () => {
+        it('should apply global pt configuration from SparkConfig', () => {
             @Component({
                 changeDetection: ChangeDetectionStrategy.Eager,
                 standalone: false,
@@ -1272,7 +1272,7 @@ describe('ScrollTop', () => {
                 providers: [
                     provideZonelessChangeDetection(),
                     { provide: PLATFORM_ID, useValue: 'browser' },
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             scrolltop: {
                                 host: 'GLOBAL_HOST_CLASS',
@@ -1311,7 +1311,7 @@ describe('ScrollTop', () => {
                 providers: [
                     provideZonelessChangeDetection(),
                     { provide: PLATFORM_ID, useValue: 'browser' },
-                    provideOptimus({
+                    provideSpark({
                         pt: {
                             scrolltop: {
                                 host: 'GLOBAL_HOST_CLASS'

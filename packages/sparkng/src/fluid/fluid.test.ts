@@ -93,7 +93,7 @@ class TestNestedFluidComponent {}
         </p-fluid>
     `
 })
-class TestFluidWithOptimusComponentsComponent {}
+class TestFluidWithSparkComponentsComponent {}
 
 @Component({
     changeDetection: ChangeDetectionStrategy.Eager,
@@ -200,7 +200,7 @@ describe('Fluid', () => {
                 TestFluidWithContentComponent,
                 TestFluidWithFormControlsComponent,
                 TestNestedFluidComponent,
-                TestFluidWithOptimusComponentsComponent,
+                TestFluidWithSparkComponentsComponent,
                 TestFluidResponsiveComponent,
                 TestFluidDynamicContentComponent,
                 TestFluidComplexLayoutComponent
@@ -372,11 +372,11 @@ describe('Fluid', () => {
     });
 
     describe('Spark Components Integration', () => {
-        let fixture: ComponentFixture<TestFluidWithOptimusComponentsComponent>;
+        let fixture: ComponentFixture<TestFluidWithSparkComponentsComponent>;
         let element: HTMLElement;
 
         beforeEach(() => {
-            fixture = TestBed.createComponent(TestFluidWithOptimusComponentsComponent);
+            fixture = TestBed.createComponent(TestFluidWithSparkComponentsComponent);
             fixture.detectChanges();
             element = fixture.debugElement.query(By.directive(Fluid)).nativeElement;
         });

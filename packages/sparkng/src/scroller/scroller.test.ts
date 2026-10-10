@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, DebugElement, input, provideZoneles
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
-import { provideOptimus } from '@bdspark/sparkng/config';
+import { provideSpark } from '@bdspark/sparkng/config';
 import type { ScrollerLazyLoadEvent, ScrollerScrollEvent, ScrollerScrollIndexChangeEvent } from '@bdspark/sparkng/types/scroller';
 import { BehaviorSubject, Observable, of } from 'rxjs';
 import { Scroller } from './scroller';
@@ -4308,7 +4308,7 @@ describe('Scroller', () => {
             });
         });
 
-        describe('Case 7: Global PT from OptimusConfig', () => {
+        describe('Case 7: Global PT from SparkConfig', () => {
             @Component({
                 changeDetection: ChangeDetectionStrategy.Eager,
                 standalone: true,
@@ -4327,13 +4327,13 @@ describe('Scroller', () => {
                 items2 = ['B1', 'B2'];
             }
 
-            it('should apply global PT from OptimusConfig', async () => {
+            it('should apply global PT from SparkConfig', async () => {
                 await TestBed.resetTestingModule();
                 await TestBed.configureTestingModule({
                     imports: [TestGlobalPTComponent],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 virtualScroller: {
                                     root: { 'aria-label': 'GLOBAL_SCROLLER_LABEL', class: 'GLOBAL_CLASS' }
@@ -4361,7 +4361,7 @@ describe('Scroller', () => {
                     imports: [TestGlobalPTComponent],
                     providers: [
                         provideZonelessChangeDetection(),
-                        provideOptimus({
+                        provideSpark({
                             pt: {
                                 virtualScroller: {
                                     root: { class: 'GLOBAL_ROOT' },

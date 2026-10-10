@@ -18,7 +18,7 @@ Import a locale from its subpath and pass it to the SparkNG configuration:
 ```ts
 import { de } from '@bdspark/sparkng-locale/js/de.js';
 
-provideOptimus({
+provideSpark({
     translation: de
 });
 ```
@@ -28,7 +28,7 @@ Or import the aggregate `all` export, which contains every locale keyed by langu
 ```ts
 import { all } from '@bdspark/sparkng-locale';
 
-provideOptimus({
+provideSpark({
     translation: all.de
 });
 ```
@@ -38,7 +38,7 @@ Or import the raw JSON for a single locale — note that each JSON file wraps it
 ```ts
 import de from '@bdspark/sparkng-locale/de.json';
 
-provideOptimus({
+provideSpark({
     translation: de.de
 });
 ```
