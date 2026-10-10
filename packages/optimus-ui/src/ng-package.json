@@ -1,9 +1,0 @@
-{
-    "$schema": "../../../node_modules/ng-packagr/ng-package.schema.json",
-    "dest": "../dist",
-    "deleteDestPath": true,
-    "lib": {
-        "entryFile": "public_api.ts"
-    },
-    "allowedNonPeerDependencies": ["@bdspark/sparkng-styled", "@bdspark/sparkng-utils", "@bdspark/sparkng-styles", "@bdspark/sparkng-motion"]
-}
