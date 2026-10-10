@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 interface VersionCompatibilityEntry {
-    optimusUi: string;
+    sparkng: string;
     angular: string;
 }
 
@@ -17,9 +17,9 @@ interface VersionCompatibilityEntry {
                 </tr>
             </thead>
             <tbody>
-                @for (entry of entries; track entry.optimusUi) {
+                @for (entry of entries; track entry.sparkng) {
                     <tr>
-                        <td>{{ entry.optimusUi }}</td>
+                        <td>{{ entry.sparkng }}</td>
                         <td>{{ entry.angular }}</td>
                     </tr>
                 }
@@ -29,7 +29,7 @@ interface VersionCompatibilityEntry {
 })
 export class AppVersionCompatibility {
     entries: VersionCompatibilityEntry[] = [
-        { optimusUi: 'v2', angular: 'v22' },
-        { optimusUi: 'v1', angular: 'v21' }
+        { sparkng: 'v2', angular: 'v22' },
+        { sparkng: 'v1', angular: 'v21' }
     ];
 }
