@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "node16",
+        "moduleResolution": "node16",
+        "lib": ["ES2022"],
+        "outDir": "./dist",
+        "rootDir": ".",
+        "strict": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "declaration": false,
+        "sourceMap": false,
+        "types": ["node"]
+    },
+    "include": ["ng-add/**/*.ts", "migrate-from-primeng/**/*.ts", "migrate-from-primeflex/**/*.ts", "utils/**/*.ts"],
+    "exclude": ["**/*.spec.ts", "test/**", "dist/**"]
+}

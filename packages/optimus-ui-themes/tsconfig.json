@@ -1,0 +1,55 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "target": "es2016",
+        "paths": {
+            "@bdspark/sparkng-utils": [
+                "../sparkng-utils/src"
+            ],
+            "@bdspark/sparkng-utils/*": [
+                "../sparkng-utils/src/*"
+            ],
+            "@bdspark/sparkng-styled": [
+                "../sparkng-styled/src"
+            ],
+            "@bdspark/sparkng-styled/*": [
+                "../sparkng-styled/src/*"
+            ],
+            "@bdspark/sparkng-styles": [
+                "../sparkng-styles/src"
+            ],
+            "@bdspark/sparkng-styles/*": [
+                "../sparkng-styles/src/*"
+            ],
+            "@bdspark/sparkng-motion": [
+                "../sparkng-motion/src"
+            ],
+            "@bdspark/sparkng-motion/*": [
+                "../sparkng-motion/src/*",
+                "../sparkng-motion/types/*"
+            ],
+            "@bdspark/sparkng-themes": [
+                "../sparkng-themes/src"
+            ],
+            "@bdspark/sparkng-themes/types": [
+                "../sparkng-themes/types"
+            ],
+            "@bdspark/sparkng-themes/types/*": [
+                "../sparkng-themes/types/*"
+            ],
+            "@bdspark/sparkng-themes/*": [
+                "../sparkng-themes/src/*",
+                "../sparkng-themes/src/presets/*",
+                "../sparkng-themes/types/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*",
+        "types/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

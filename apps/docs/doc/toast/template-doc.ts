@@ -1,0 +1,62 @@
+import { AppCode } from '@/components/doc/app.code';
+import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
+import { Component } from '@angular/core';
+import { MessageService } from '@bdspark/sparkng/api';
+import { AvatarModule } from '@bdspark/sparkng/avatar';
+import { ButtonModule } from '@bdspark/sparkng/button';
+import { ToastModule } from '@bdspark/sparkng/toast';
+
+@Component({
+    selector: 'template-doc',
+    standalone: true,
+    imports: [AppDocSectionText, AppCode, ToastModule, ButtonModule, AvatarModule],
+    template: `
+        <app-docsectiontext>
+            <p>Templating allows customizing the content where the message instance is available as the implicit variable.</p>
+        </app-docsectiontext>
+        <div class="card flex justify-center">
+            <p-toast position="bottom-center" key="confirm" (onClose)="onReject()" [baseZIndex]="5000">
+                <ng-template let-message #message>
+                    <div class="flex flex-col items-start flex-auto">
+                        <div class="flex items-center gap-2">
+                            <p-avatar image="https://optimus.openng.org/demo/avatar/amyelsner.png" shape="circle" />
+                            <span class="font-bold">Amy Elsner</span>
+                        </div>
+                        <div class="font-medium text-lg my-4">{{ message.summary }}</div>
+                        <p-button severity="success" size="small" label="Reply" (click)="onConfirm()" />
+                    </div>
+                </ng-template>
+            </p-toast>
+            <p-button (click)="showConfirm()" label="View" />
+        </div>
+        <app-code></app-code>
+    `,
+    providers: [MessageService]
+})
+export class TemplateDoc {
+    constructor(private messageService: MessageService) {}
+
+    visible: boolean = false;
+
+    onConfirm() {
+        this.messageService.clear('confirm');
+        this.visible = false;
+    }
+
+    onReject() {
+        this.messageService.clear('confirm');
+        this.visible = false;
+    }
+
+    showConfirm() {
+        if (!this.visible) {
+            this.messageService.add({
+                key: 'confirm',
+                sticky: true,
+                severity: 'success',
+                summary: 'Can you send me the report?'
+            });
+            this.visible = true;
+        }
+    }
+}

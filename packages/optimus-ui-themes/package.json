@@ -1,0 +1,76 @@
+{
+    "name": "@bdspark/sparkng-themes",
+    "version": "2.0.2",
+    "author": "OpenNG",
+    "description": "Themes for Optimus UI Libraries",
+    "keywords": [
+        "themes",
+        "css",
+        "style utilities",
+        "sparkng",
+        "angular"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/openng-org/sparkng.git",
+        "directory": "packages/sparkng-themes"
+    },
+    "bugs": {
+        "url": "https://github.com/openng-org/sparkng/issues"
+    },
+    "main": "./dist/index.mjs",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.mts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.mts",
+            "import": "./dist/index.mjs",
+            "default": "./dist/index.mjs"
+        },
+        "./types": {
+            "types": "./types/index.d.ts"
+        },
+        "./types/*": {
+            "types": "./types/*/index.d.ts"
+        },
+        "./tokens": {
+            "types": "./tokens/index.d.ts",
+            "import": "./tokens/index.mjs",
+            "default": "./tokens/index.mjs"
+        },
+        "./*": {
+            "types": "./dist/*/index.d.ts",
+            "import": "./dist/*/index.mjs",
+            "default": "./dist/*/index.mjs"
+        }
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "sideEffects": false,
+    "files": [
+        "dist",
+        "umd",
+        "tokens",
+        "types",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "cross-env NODE_ENV=production INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:package",
+        "build:dev": "cross-env NODE_ENV=development INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:dev:package",
+        "build:package": "pnpm run type:check && pnpm run build:tokens && tsdown && pnpm run build:postbuild",
+        "build:dev:package": "pnpm run build:tokens && tsdown --watch && pnpm run build:postbuild",
+        "build:postbuild": "node ./scripts/postbuild.mjs",
+        "build:tokens": "node ./scripts/build-tokens.mjs",
+        "type:check": "tsc --noEmit",
+        "dev:link": "pnpm link --global && npm link"
+    },
+    "dependencies": {
+        "@bdspark/sparkng-styled": "workspace:*"
+    },
+    "devDependencies": {
+        "typedoc": "0.28.20"
+    }
+}

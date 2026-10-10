@@ -1,0 +1,12 @@
+{
+	"publishedPackages": [
+		{
+			"name": "@primeng/mcp",
+			"version": "21.1.9"
+		},
+		{
+			"name": "primeng",
+			"version": "21.1.9"
+		}
+	]
+}

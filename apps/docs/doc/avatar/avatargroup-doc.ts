@@ -1,0 +1,28 @@
+import { AppCode } from '@/components/doc/app.code';
+import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
+import { Component } from '@angular/core';
+import { AvatarModule } from '@bdspark/sparkng/avatar';
+import { AvatarGroupModule } from '@bdspark/sparkng/avatargroup';
+
+@Component({
+    selector: 'avatargroup-doc',
+    standalone: true,
+    imports: [AppDocSectionText, AppCode, AvatarModule, AvatarGroupModule],
+    template: `
+        <app-docsectiontext>
+            <p>Grouping is available by wrapping multiple Avatar components inside an <i>AvatarGroup</i>.</p>
+        </app-docsectiontext>
+        <div class="card flex justify-center">
+            <p-avatar-group>
+                <p-avatar image="https://optimus.openng.org/demo/avatar/amyelsner.png" size="large" shape="circle" />
+                <p-avatar image="https://optimus.openng.org/demo/avatar/asiyajavayant.png" size="large" shape="circle" />
+                <p-avatar image="https://optimus.openng.org/demo/avatar/onyamalimba.png" size="large" shape="circle" />
+                <p-avatar image="https://optimus.openng.org/demo/avatar/ionibowcher.png" size="large" shape="circle" />
+                <p-avatar image="https://optimus.openng.org/demo/avatar/xuxuefeng.png" size="large" shape="circle" />
+                <p-avatar label="+2" shape="circle" size="large" />
+            </p-avatar-group>
+        </div>
+        <app-code></app-code>
+    `
+})
+export class GroupDoc {}

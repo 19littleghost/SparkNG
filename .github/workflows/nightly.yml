@@ -1,0 +1,28 @@
+name: Daily Build
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  nightly:
+    if: github.repository == 'openng-fundation/open-prime' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    name: Node ${{ matrix.node-version }}
+
+    strategy:
+      matrix:
+        node-version: [24.x]
+
+    steps:
+    - uses: actions/checkout@v7
+    - uses: ./.github/actions/setup
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Build
+      run: |
+        pnpm run build

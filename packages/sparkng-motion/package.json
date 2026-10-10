@@ -1,0 +1,44 @@
+{
+    "name": "@openng/sparkng-motion",
+    "version": "2.0.2",
+    "author": "OpenNG",
+    "description": "Motion utilities for Optimus UI Libraries",
+    "keywords": ["motion", "animation", "transition", "composition utilities", "sparkng", "angular"],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/openng-org/sparkng.git",
+        "directory": "packages/sparkng-motion"
+    },
+    "bugs": {
+        "url": "https://github.com/openng-org/sparkng/issues"
+    },
+    "main": "./dist/index.mjs",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.mts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.mts",
+            "import": "./dist/index.mjs",
+            "default": "./dist/index.mjs"
+        }
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "sideEffects": false,
+    "files": ["dist", "README.md", "LICENSE"],
+    "scripts": {
+        "build": "cross-env NODE_ENV=production INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:package",
+        "build:dev": "cross-env NODE_ENV=development INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:dev:package",
+        "build:package": "tsdown",
+        "build:dev:package": "tsdown --watch",
+        "dev:link": "pnpm link --global && npm link"
+    },
+    "dependencies": {
+        "@openng/sparkng-utils": "workspace:*"
+    },
+    "engines": {
+        "node": ">=12.11.0"
+    }
+}

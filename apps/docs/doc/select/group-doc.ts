@@ -1,0 +1,69 @@
+import { AppCode } from '@/components/doc/app.code';
+import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
+import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { SelectItemGroup } from '@bdspark/sparkng/api';
+import { SelectModule } from '@bdspark/sparkng/select';
+
+@Component({
+    selector: 'group-doc',
+    standalone: true,
+    imports: [CommonModule, AppDocSectionText, AppCode, FormsModule, SelectModule],
+    template: `
+        <app-docsectiontext>
+            <p>Options can be grouped when a nested data structures is provided.</p>
+        </app-docsectiontext>
+        <div class="card flex justify-center">
+            <p-select [options]="groupedCities" [(ngModel)]="selectedCity" placeholder="Select a City" [group]="true" class="w-full md:w-56">
+                <ng-template let-group #group>
+                    <div class="flex items-center">
+                        <img src="https://optimus.openng.org/demo/flag/flag_placeholder.png" [class]="'mr-2 flag flag-' + group.value" style="width: 20px" />
+                        <span>{{ group.label }}</span>
+                    </div>
+                </ng-template>
+            </p-select>
+        </div>
+        <app-code></app-code>
+    `
+})
+export class GroupDoc {
+    groupedCities: SelectItemGroup[];
+
+    selectedCity: string | undefined;
+
+    constructor() {
+        this.groupedCities = [
+            {
+                label: 'Germany',
+                value: 'de',
+                items: [
+                    { label: 'Berlin', value: 'Berlin' },
+                    { label: 'Frankfurt', value: 'Frankfurt' },
+                    { label: 'Hamburg', value: 'Hamburg' },
+                    { label: 'Munich', value: 'Munich' }
+                ]
+            },
+            {
+                label: 'USA',
+                value: 'us',
+                items: [
+                    { label: 'Chicago', value: 'Chicago' },
+                    { label: 'Los Angeles', value: 'Los Angeles' },
+                    { label: 'New York', value: 'New York' },
+                    { label: 'San Francisco', value: 'San Francisco' }
+                ]
+            },
+            {
+                label: 'Japan',
+                value: 'jp',
+                items: [
+                    { label: 'Kyoto', value: 'Kyoto' },
+                    { label: 'Osaka', value: 'Osaka' },
+                    { label: 'Tokyo', value: 'Tokyo' },
+                    { label: 'Yokohama', value: 'Yokohama' }
+                ]
+            }
+        ];
+    }
+}

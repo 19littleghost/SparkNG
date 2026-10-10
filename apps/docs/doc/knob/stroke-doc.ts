@@ -1,0 +1,23 @@
+import { AppCodeModule } from '@/components/doc/app.code';
+import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
+import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { KnobModule } from '@bdspark/sparkng/knob';
+
+@Component({
+    selector: 'stroke-doc',
+    standalone: true,
+    imports: [FormsModule, KnobModule, AppCodeModule, AppDocSectionText],
+    template: `
+        <app-docsectiontext>
+            <p>The border size is specified with the <i>strokeWidth</i> property as a number in pixels.</p>
+        </app-docsectiontext>
+        <div class="card flex justify-center">
+            <p-knob [(ngModel)]="value" [strokeWidth]="5" />
+        </div>
+        <app-code></app-code>
+    `
+})
+export class StrokeDoc {
+    value: number = 40;
+}

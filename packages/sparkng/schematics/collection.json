@@ -1,0 +1,20 @@
+{
+    "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+    "schematics": {
+        "ng-add": {
+            "description": "Set up Optimus UI in a new (non-PrimeNG) project. To migrate a PrimeNG project, use the migrate-from-primeng schematic.",
+            "factory": "./ng-add/index#ngAdd",
+            "schema": "./ng-add/schema.json"
+        },
+        "migrate-from-primeng": {
+            "description": "Deprecated on this line, maintained only on release/1.x (@openng/sparkng@1). Migrate a PrimeNG v21 project to Optimus UI (including PrimeIcons to @openng/icons).",
+            "factory": "./migrate-from-primeng/index#migrateFromPrimeng",
+            "schema": "./migrate-from-primeng/schema.json"
+        },
+        "migrate-from-primeflex": {
+            "description": "Translate PrimeFlex utility classes to their Tailwind CSS equivalents across Angular templates.",
+            "factory": "./migrate-from-primeflex/index#migrateFromPrimeflex",
+            "schema": "./migrate-from-primeflex/schema.json"
+        }
+    }
+}

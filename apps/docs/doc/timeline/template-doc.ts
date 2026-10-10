@@ -1,0 +1,58 @@
+import { AppCode } from '@/components/doc/app.code';
+import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
+import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
+import { ButtonModule } from '@bdspark/sparkng/button';
+import { CardModule } from '@bdspark/sparkng/card';
+import { TimelineModule } from '@bdspark/sparkng/timeline';
+
+interface EventItem {
+    status?: string;
+    date?: string;
+    icon?: string;
+    color?: string;
+    image?: string;
+}
+
+@Component({
+    selector: 'template-doc',
+    standalone: true,
+    imports: [CommonModule, AppDocSectionText, TimelineModule, CardModule, ButtonModule, AppCode],
+    template: `
+        <app-docsectiontext>
+            <p>Sample implementation with custom content and styled markers.</p>
+        </app-docsectiontext>
+        <div class="card">
+            <p-timeline [value]="events" align="alternate" class="customized-timeline">
+                <ng-template #marker let-event>
+                    <span class="flex w-8 h-8 items-center justify-center text-white rounded-full z-10 shadow-sm" [style]="{ 'background-color': event.color }">
+                        <i [class]="event.icon"></i>
+                    </span>
+                </ng-template>
+                <ng-template #content let-event>
+                    <p-card [header]="event.status" [subheader]="event.date">
+                        <img *ngIf="event.image" [src]="'https://optimus.openng.org/demo/product/' + event.image" [alt]="event.name" width="200" class="shadow" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate
+                            neque quas!
+                        </p>
+                        <p-button label="Read more" [text]="true" />
+                    </p-card>
+                </ng-template>
+            </p-timeline>
+        </div>
+        <app-code></app-code>
+    `
+})
+export class TemplateDoc {
+    events: EventItem[];
+
+    constructor() {
+        this.events = [
+            { status: 'Ordered', date: '15/10/2020 10:30', icon: 'pi pi-shopping-cart', color: '#9C27B0', image: 'game-controller.jpg' },
+            { status: 'Processing', date: '15/10/2020 14:00', icon: 'pi pi-cog', color: '#673AB7' },
+            { status: 'Shipped', date: '15/10/2020 16:15', icon: 'pi pi-shopping-cart', color: '#FF9800' },
+            { status: 'Delivered', date: '16/10/2020 10:00', icon: 'pi pi-check', color: '#607D8B' }
+        ];
+    }
+}

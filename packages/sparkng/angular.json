@@ -1,0 +1,47 @@
+{
+    "$schema": "../../node_modules/@angular/cli/lib/config/schema.json",
+    "version": 1,
+    "newProjectRoot": "projects",
+    "projects": {
+        "sparkng": {
+            "root": "src",
+            "sourceRoot": "src",
+            "projectType": "library",
+            "architect": {
+                "build": {
+                    "builder": "@angular-devkit/build-angular:ng-packagr",
+                    "options": {
+                        "project": "src/ng-package.json",
+                        "tsConfig": "tsconfig.json"
+                    }
+                },
+                "build-test": {
+                    "builder": "@angular/build:application",
+                    "options": {
+                        "tsConfig": "tsconfig.vitest.json",
+                        "aot": false
+                    }
+                },
+                "test-vitest": {
+                    "builder": "@angular/build:unit-test",
+                    "options": {
+                        "runner": "vitest",
+                        "buildTarget": "sparkng:build-test",
+                        "tsConfig": "tsconfig.vitest.json",
+                        "browsers": ["ChromiumHeadless"],
+                        "include": ["**/*.test.ts"],
+                        "runnerConfig": "vitest.config.mts",
+                        "reporters": ["default", ["junit", { "outputFile": "reports/junit/vitest.xml" }]]
+                    }
+                },
+                "lint": {
+                    "builder": "@angular-eslint/builder:lint",
+                    "options": {}
+                }
+            }
+        }
+    },
+    "cli": {
+        "analytics": false
+    }
+}

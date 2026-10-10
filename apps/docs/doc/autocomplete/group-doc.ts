@@ -1,0 +1,94 @@
+import { AppCode } from '@/components/doc/app.code';
+import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
+import { CommonModule } from '@angular/common';
+import { Component, OnInit } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { FilterService, SelectItemGroup } from '@bdspark/sparkng/api';
+import { AutoCompleteModule } from '@bdspark/sparkng/autocomplete';
+
+interface AutoCompleteCompleteEvent {
+    originalEvent: Event;
+    query: string;
+}
+
+@Component({
+    selector: 'group-doc',
+    standalone: true,
+    imports: [CommonModule, FormsModule, AutoCompleteModule, AppDocSectionText, AppCode],
+    template: ` <app-docsectiontext>
+            <p>Option grouping is enabled when <i>group</i> property is set to <i>true</i>. <i>group</i> template is available to customize the option groups. All templates get the option instance as the default local template variable.</p>
+        </app-docsectiontext>
+        <div class="card flex justify-center">
+            <p-autocomplete [(ngModel)]="selectedCity" [group]="true" [suggestions]="filteredGroups" (completeMethod)="filterGroupedCity($event)" placeholder="Hint: type 'a'">
+                <ng-template let-group #group>
+                    <div class="flex items-center">
+                        <img src="https://optimus.openng.org/demo/flag/flag_placeholder.png" [class]="'mr-2 flag flag-' + group.value" style="width: 20px" />
+                        <span>{{ group.label }}</span>
+                    </div>
+                </ng-template>
+            </p-autocomplete>
+        </div>
+        <app-code></app-code>`
+})
+export class GroupDoc implements OnInit {
+    selectedCity: any;
+
+    filteredGroups: any[] | undefined;
+
+    groupedCities: SelectItemGroup[] | undefined;
+
+    constructor(private filterService: FilterService) {}
+
+    ngOnInit() {
+        this.groupedCities = [
+            {
+                label: 'Germany',
+                value: 'de',
+                items: [
+                    { label: 'Berlin', value: 'Berlin' },
+                    { label: 'Frankfurt', value: 'Frankfurt' },
+                    { label: 'Hamburg', value: 'Hamburg' },
+                    { label: 'Munich', value: 'Munich' }
+                ]
+            },
+            {
+                label: 'USA',
+                value: 'us',
+                items: [
+                    { label: 'Chicago', value: 'Chicago' },
+                    { label: 'Los Angeles', value: 'Los Angeles' },
+                    { label: 'New York', value: 'New York' },
+                    { label: 'San Francisco', value: 'San Francisco' }
+                ]
+            },
+            {
+                label: 'Japan',
+                value: 'jp',
+                items: [
+                    { label: 'Kyoto', value: 'Kyoto' },
+                    { label: 'Osaka', value: 'Osaka' },
+                    { label: 'Tokyo', value: 'Tokyo' },
+                    { label: 'Yokohama', value: 'Yokohama' }
+                ]
+            }
+        ];
+    }
+
+    filterGroupedCity(event: AutoCompleteCompleteEvent) {
+        let query = event.query;
+        let filteredGroups = [];
+
+        for (let optgroup of this.groupedCities as SelectItemGroup[]) {
+            let filteredSubOptions = this.filterService.filter(optgroup.items, ['label'], query, 'contains');
+            if (filteredSubOptions && filteredSubOptions.length) {
+                filteredGroups.push({
+                    label: optgroup.label,
+                    value: optgroup.value,
+                    items: filteredSubOptions
+                });
+            }
+        }
+
+        this.filteredGroups = filteredGroups;
+    }
+}

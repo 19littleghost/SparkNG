@@ -1,0 +1,45 @@
+import { AppCode } from '@/components/doc/app.code';
+import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
+import { Component, OnInit } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+import { IftaLabelModule } from '@bdspark/sparkng/iftalabel';
+import { SelectModule } from '@bdspark/sparkng/select';
+
+interface City {
+    name: string;
+    code: string;
+}
+
+@Component({
+    selector: 'iftalabel-doc',
+    standalone: true,
+    imports: [AppDocSectionText, AppCode, FormsModule, SelectModule, IftaLabelModule, RouterModule],
+    template: `
+        <app-docsectiontext>
+            <p>IftaLabel is used to create infield top aligned labels. Visit <a routerLink="/iftalabel">IftaLabel</a> documentation for more information.</p>
+        </app-docsectiontext>
+        <div class="card flex justify-center">
+            <p-iftalabel class="w-full md:w-56">
+                <p-select [(ngModel)]="selectedCity" inputId="dd-city" [options]="cities" optionLabel="name" class="w-full" />
+                <label for="dd-city">City</label>
+            </p-iftalabel>
+        </div>
+        <app-code></app-code>
+    `
+})
+export class IftaLabelDoc implements OnInit {
+    cities: City[] | undefined;
+
+    selectedCity: City | undefined;
+
+    ngOnInit() {
+        this.cities = [
+            { name: 'New York', code: 'NY' },
+            { name: 'Rome', code: 'RM' },
+            { name: 'London', code: 'LDN' },
+            { name: 'Istanbul', code: 'IST' },
+            { name: 'Paris', code: 'PRS' }
+        ];
+    }
+}

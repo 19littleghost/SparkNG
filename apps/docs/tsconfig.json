@@ -1,0 +1,35 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "outDir": "./out-tsc/app",
+        // TS 6 defaults rootDir to the tsconfig dir; widen it so paths-mapped sparkng sources are allowed
+        "rootDir": "../..",
+        "types": ["node"],
+        "strict": false,
+        "paths": {
+            "@bdspark/sparkng/*": ["../../packages/sparkng/src/*/public_api"],
+            "@bdspark/sparkng-motion": ["../../packages/sparkng-motion/src/index"],
+            "@bdspark/sparkng-styled": ["../../packages/sparkng-styled/src/index"],
+            "@bdspark/sparkng-styles": ["../../packages/sparkng-styles/src/index"],
+            "@bdspark/sparkng-styles/*": ["../../packages/sparkng-styles/src/*/index", "../../packages/sparkng-styles/src/*"],
+            "@bdspark/sparkng-utils": ["../../packages/sparkng-utils/src/index"],
+            "@bdspark/sparkng-utils/*": ["../../packages/sparkng-utils/src/*/index", "../../packages/sparkng-utils/src/*"],
+            "@bdspark/sparkng-themes": ["../../packages/sparkng-themes/src/index"],
+            "@bdspark/sparkng-themes/types": ["../../packages/sparkng-themes/types/index"],
+            "@bdspark/sparkng-themes/types/*": ["../../packages/sparkng-themes/types/*/index"],
+            // extension-less on purpose: resolves the tracked tokens.ts source before the generated tokens/ dir
+            "@bdspark/sparkng-themes/tokens": ["../../packages/sparkng-themes/tokens"],
+            "@bdspark/sparkng-themes/*": ["../../packages/sparkng-themes/src/presets/*/index", "../../packages/sparkng-themes/src/presets/*"],
+            "@/*": ["./*"]
+        }
+    },
+    "include": ["../../packages/sparkng/src/**/*.d.ts"],
+    "exclude": ["node_modules", "**/node_modules", "**/dist", "**/*.spec.ts", "**/*.test.ts"],
+    "files": ["app/main.ts", "server/main.server.ts", "server/server.ts", "app/polyfills.ts"],
+    "angularCompilerOptions": {
+        "enableI18nLegacyMessageIdFormat": false,
+        "strictInjectionParameters": false,
+        "strictInputAccessModifiers": false,
+        "strictTemplates": false
+    }
+}
