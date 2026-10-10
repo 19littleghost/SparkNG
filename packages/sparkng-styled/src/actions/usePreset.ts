@@ -1,4 +1,4 @@
-import { deepMerge } from '@openng/sparkng-utils/object';
+import { deepMerge } from '@bdspark/sparkng-utils/object';
 import Theme from '../config/index';
 
 export default function usePreset<T extends Record<string, unknown>>(...presets: T[]): T {

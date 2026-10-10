@@ -1,6 +1,6 @@
-import type { SplitterTokenSections } from '@openng/sparkng-themes/types/splitter';
+import type { SplitterTokenSections } from '@bdspark/sparkng-themes/types/splitter';
 
-export * from '@openng/sparkng-themes/types/splitter';
+export * from '@bdspark/sparkng-themes/types/splitter';
 
 declare const root: SplitterTokenSections.Root;
 declare const gutter: SplitterTokenSections.Gutter;

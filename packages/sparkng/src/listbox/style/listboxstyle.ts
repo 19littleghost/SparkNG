@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as listbox_style } from '@openng/sparkng-styles/listbox';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as listbox_style } from '@bdspark/sparkng-styles/listbox';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${listbox_style}
@@ -84,7 +84,7 @@ export class ListBoxStyle extends BaseStyle {
  *
  * ListBox is used to select one or more values from a list of items.
  *
- * [Live Demo](https://optimus.openng.org/listbox/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/listbox/)
  *
  * @module listboxstyle
  *

@@ -3,10 +3,10 @@ import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection } fr
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { ButtonModule } from '@openng/sparkng/button';
-import { provideOptimus } from '@openng/sparkng/config';
-import type { CarouselPageEvent, CarouselResponsiveOptions } from '@openng/sparkng/types/carousel';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { ButtonModule } from '@bdspark/sparkng/button';
+import { provideOptimus } from '@bdspark/sparkng/config';
+import type { CarouselPageEvent, CarouselResponsiveOptions } from '@bdspark/sparkng/types/carousel';
 import { Carousel } from './carousel';
 
 // Mock data for testing

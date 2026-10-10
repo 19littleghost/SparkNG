@@ -487,7 +487,7 @@ export declare namespace GalleriaTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface GalleriaDesignTokens extends DesignTokens<GalleriaDesignTokens> {

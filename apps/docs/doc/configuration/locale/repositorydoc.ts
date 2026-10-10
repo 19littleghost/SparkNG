@@ -10,8 +10,8 @@ import { Component } from '@angular/core';
     template: `
         <app-docsectiontext>
             <p>
-                Ready to use settings for locales are available as the <i>&#64;openng/sparkng-locale</i> package, maintained in the
-                <a href="https://github.com/openng-org/sparkng/tree/main/packages/sparkng-locale" target="_blank" rel="noopener noreferrer">Optimus UI</a> repository. We'd appreciate if you could contribute translations to the repository and
+                Ready to use settings for locales are available as the <i>&#64;bdspark/sparkng-locale</i> package, maintained in the
+                <a href="https://github.com/TODO-BDSPARK-ORG/sparkng/tree/main/packages/sparkng-locale" target="_blank" rel="noopener noreferrer">Optimus UI</a> repository. We'd appreciate if you could contribute translations to the repository and
                 share them with the rest of the community.
             </p>
             <app-code [code]="code" [hideToggleCode]="true"></app-code>

@@ -21,15 +21,15 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { find, findIndexInList, isEmpty, setAttribute, uuid } from '@openng/sparkng-utils';
-import { FilterService, PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { ButtonModule, ButtonProps } from '@openng/sparkng/button';
-import { AngleDoubleDownIcon, AngleDoubleLeftIcon, AngleDoubleRightIcon, AngleDoubleUpIcon, AngleDownIcon, AngleLeftIcon, AngleRightIcon, AngleUpIcon } from '@openng/sparkng/icons';
-import { Listbox, ListboxChangeEvent } from '@openng/sparkng/listbox';
-import { Ripple } from '@openng/sparkng/ripple';
-import { Nullable, VoidListener } from '@openng/sparkng/ts-helpers';
+import { find, findIndexInList, isEmpty, setAttribute, uuid } from '@bdspark/sparkng-utils';
+import { FilterService, PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { ButtonModule, ButtonProps } from '@bdspark/sparkng/button';
+import { AngleDoubleDownIcon, AngleDoubleLeftIcon, AngleDoubleRightIcon, AngleDoubleUpIcon, AngleDownIcon, AngleLeftIcon, AngleRightIcon, AngleUpIcon } from '@bdspark/sparkng/icons';
+import { Listbox, ListboxChangeEvent } from '@bdspark/sparkng/listbox';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { Nullable, VoidListener } from '@bdspark/sparkng/ts-helpers';
 import {
     PickListFilterOptions,
     PickListFilterTemplateContext,
@@ -45,7 +45,7 @@ import {
     PickListTargetReorderEvent,
     PickListTargetSelectEvent,
     PickListTransferIconTemplateContext
-} from '@openng/sparkng/types/picklist';
+} from '@bdspark/sparkng/types/picklist';
 import { PickListStyle } from './style/pickliststyle';
 
 const PICKLIST_INSTANCE = new InjectionToken<PickList>('PICKLIST_INSTANCE');

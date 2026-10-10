@@ -1,11 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, ElementRef, EventEmitter, inject, Input, NgModule, numberAttribute, OnDestroy, OnInit, Output, ViewChild, ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
-import { find, findSingle } from '@openng/sparkng-utils';
-import { MenuItem, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent } from '@openng/sparkng/basecomponent';
-import { TooltipModule } from '@openng/sparkng/tooltip';
-import { Nullable } from '@openng/sparkng/ts-helpers';
+import { find, findSingle } from '@bdspark/sparkng-utils';
+import { MenuItem, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent } from '@bdspark/sparkng/basecomponent';
+import { TooltipModule } from '@bdspark/sparkng/tooltip';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
 import { Subscription } from 'rxjs';
 import { StepsStyle } from './style/stepsstyle';
 

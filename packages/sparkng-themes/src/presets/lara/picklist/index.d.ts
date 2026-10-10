@@ -1,6 +1,6 @@
-import type { PickListTokenSections } from '@openng/sparkng-themes/types/picklist';
+import type { PickListTokenSections } from '@bdspark/sparkng-themes/types/picklist';
 
-export * from '@openng/sparkng-themes/types/picklist';
+export * from '@bdspark/sparkng-themes/types/picklist';
 
 declare const root: PickListTokenSections.Root;
 declare const controls: PickListTokenSections.Controls;

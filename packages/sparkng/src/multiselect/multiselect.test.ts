@@ -4,11 +4,11 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormControl, FormGroup, FormsModule, NgForm, NgModel, ReactiveFormsModule, Validators } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { provideNoopAnimations } from '@angular/platform-browser/animations';
-import { provideOptimus } from '@openng/sparkng/config';
+import { provideOptimus } from '@bdspark/sparkng/config';
 import { BehaviorSubject, of } from 'rxjs';
 import { delay } from 'rxjs/operators';
 import { MultiSelect, MultiSelectModule } from './multiselect';
-import type { MultiSelectBlurEvent, MultiSelectChangeEvent, MultiSelectFilterEvent, MultiSelectFocusEvent } from '@openng/sparkng/types/multiselect';
+import type { MultiSelectBlurEvent, MultiSelectChangeEvent, MultiSelectFilterEvent, MultiSelectFocusEvent } from '@bdspark/sparkng/types/multiselect';
 interface City {
     name: string;
     code: string;

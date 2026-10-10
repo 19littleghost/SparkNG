@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/popover';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/popover';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const inlineStyles = {
     root: () => ({ position: 'absolute' })

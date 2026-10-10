@@ -29,21 +29,21 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { MotionOptions } from '@openng/sparkng-motion';
-import { absolutePosition, addClass, hasClass, isTouchDevice, removeClass } from '@openng/sparkng-utils';
-import { OverlayOptions, OverlayService, PrimeTemplate, SharedModule, TranslationKeys } from '@openng/sparkng/api';
-import { AutoFocus } from '@openng/sparkng/autofocus';
-import { PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseEditableHolder } from '@openng/sparkng/baseeditableholder';
-import { BaseInput } from '@openng/sparkng/baseinput';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { ConnectedOverlayScrollHandler, DomHandler } from '@openng/sparkng/dom';
-import { Fluid } from '@openng/sparkng/fluid';
-import { EyeIcon, EyeSlashIcon, TimesIcon } from '@openng/sparkng/icons';
-import { InputText } from '@openng/sparkng/inputtext';
-import { Overlay } from '@openng/sparkng/overlay';
-import { Nullable, VoidListener } from '@openng/sparkng/ts-helpers';
-import type { PasswordIconTemplateContext, PasswordPassThrough } from '@openng/sparkng/types/password';
+import { MotionOptions } from '@bdspark/sparkng-motion';
+import { absolutePosition, addClass, hasClass, isTouchDevice, removeClass } from '@bdspark/sparkng-utils';
+import { OverlayOptions, OverlayService, PrimeTemplate, SharedModule, TranslationKeys } from '@bdspark/sparkng/api';
+import { AutoFocus } from '@bdspark/sparkng/autofocus';
+import { PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseEditableHolder } from '@bdspark/sparkng/baseeditableholder';
+import { BaseInput } from '@bdspark/sparkng/baseinput';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { ConnectedOverlayScrollHandler, DomHandler } from '@bdspark/sparkng/dom';
+import { Fluid } from '@bdspark/sparkng/fluid';
+import { EyeIcon, EyeSlashIcon, TimesIcon } from '@bdspark/sparkng/icons';
+import { InputText } from '@bdspark/sparkng/inputtext';
+import { Overlay } from '@bdspark/sparkng/overlay';
+import { Nullable, VoidListener } from '@bdspark/sparkng/ts-helpers';
+import type { PasswordIconTemplateContext, PasswordPassThrough } from '@bdspark/sparkng/types/password';
 import { Subscription } from 'rxjs';
 import { PasswordStyle } from './style/passwordstyle';
 

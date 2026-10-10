@@ -1,4 +1,4 @@
-import type { ContextMenuDesignTokens, ContextMenuTokenSections } from '@openng/sparkng-themes/types/contextmenu';
+import type { ContextMenuDesignTokens, ContextMenuTokenSections } from '@bdspark/sparkng-themes/types/contextmenu';
 
 export const root: ContextMenuTokenSections.Root = {
     background: '{content.background}',

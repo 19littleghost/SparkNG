@@ -1,6 +1,6 @@
 import { DOCUMENT } from '@angular/common';
 import { Injectable, inject } from '@angular/core';
-import { setAttribute, setAttributes } from '@openng/sparkng-utils';
+import { setAttribute, setAttributes } from '@bdspark/sparkng-utils';
 
 let _id = 0;
 

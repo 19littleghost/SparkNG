@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/tag';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/tag';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => [
@@ -32,7 +32,7 @@ export class TagStyle extends BaseStyle {
  *
  * Tag component is used to categorize content.
  *
- * [Live Demo](https://optimus.openng.org/tag)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/tag)
  *
  * @module tagstyle
  *

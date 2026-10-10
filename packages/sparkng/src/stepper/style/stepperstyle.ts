@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as stepper_style } from '@openng/sparkng-styles/stepper';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as stepper_style } from '@bdspark/sparkng-styles/stepper';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
 ${stepper_style}
@@ -34,7 +34,7 @@ export class StepperStyle extends BaseStyle {
  *
  * Stepper is a component that streamlines a wizard-like workflow, organizing content into coherent steps and visually guiding users through a numbered progression in a multi-step process.
  *
- * [Live Demo](https://optimus.openng.org/stepper/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/stepper/)
  *
  * @module stepperstyle
  *

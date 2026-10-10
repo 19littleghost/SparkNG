@@ -22,12 +22,12 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { AutoFocus } from '@openng/sparkng/autofocus';
-import { PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseEditableHolder } from '@openng/sparkng/baseeditableholder';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { ToggleSwitchChangeEvent, ToggleSwitchHandleTemplateContext, ToggleSwitchPassThrough } from '@openng/sparkng/types/toggleswitch';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { AutoFocus } from '@bdspark/sparkng/autofocus';
+import { PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseEditableHolder } from '@bdspark/sparkng/baseeditableholder';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { ToggleSwitchChangeEvent, ToggleSwitchHandleTemplateContext, ToggleSwitchPassThrough } from '@bdspark/sparkng/types/toggleswitch';
 import { ToggleSwitchStyle } from './style/toggleswitchstyle';
 
 const TOGGLESWITCH_INSTANCE = new InjectionToken<ToggleSwitch>('TOGGLESWITCH_INSTANCE');

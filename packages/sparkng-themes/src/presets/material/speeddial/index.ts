@@ -1,4 +1,4 @@
-import type { SpeedDialDesignTokens, SpeedDialTokenSections } from '@openng/sparkng-themes/types/speeddial';
+import type { SpeedDialDesignTokens, SpeedDialTokenSections } from '@bdspark/sparkng-themes/types/speeddial';
 
 export const root: SpeedDialTokenSections.Root = {
     gap: '0.5rem',

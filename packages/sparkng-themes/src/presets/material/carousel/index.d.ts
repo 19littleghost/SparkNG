@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@openng/sparkng-styled';
-import type { CarouselTokenSections } from '@openng/sparkng-themes/types/carousel';
+import type { StyleOptions } from '@bdspark/sparkng-styled';
+import type { CarouselTokenSections } from '@bdspark/sparkng-themes/types/carousel';
 
-export * from '@openng/sparkng-themes/types/carousel';
+export * from '@bdspark/sparkng-themes/types/carousel';
 
 declare const root: CarouselTokenSections.Root;
 declare const content: CarouselTokenSections.Content;

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/contextmenu';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/contextmenu';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const inlineStyles = {
     root: { position: 'absolute' }
@@ -43,7 +43,7 @@ export class ContextMenuStyle extends BaseStyle {
  * ContextMenu displays an overlay menu on right click of its target. Note that components like DataTable has special integration with ContextMenu.
  * Refer to documentation of the individual documentation of the with context menu support.
  *
- * [Live Demo](https://optimus.openng.org/contextmenu/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/contextmenu/)
  *
  * @module contextmenustyle
  *

@@ -1,4 +1,4 @@
-import { getCSSVariableByRegex } from '@openng/sparkng-utils';
+import { getCSSVariableByRegex } from '@bdspark/sparkng-utils';
 /**
  * @dynamic is for runtime initializing DomHandler.browser
  *
@@ -853,8 +853,8 @@ export class DomHandler {
     }
 }
 
-import { $dt } from '@openng/sparkng-styled';
-import * as utils from '@openng/sparkng-utils';
+import { $dt } from '@bdspark/sparkng-styled';
+import * as utils from '@bdspark/sparkng-utils';
 
 // @todo: update this when we remove the old domhandler
 export function blockBodyScroll() {

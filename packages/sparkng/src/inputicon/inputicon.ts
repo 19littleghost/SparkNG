@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, inject, InjectionToken, Input, NgModule, ViewEncapsulation } from '@angular/core';
-import { SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { InputIconPassThrough } from '@openng/sparkng/types/inputicon';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { InputIconPassThrough } from '@bdspark/sparkng/types/inputicon';
 import { InputIconStyle } from './style/inputiconstyle';
 
 const INPUTICON_INSTANCE = new InjectionToken<InputIcon>('INPUTICON_INSTANCE');

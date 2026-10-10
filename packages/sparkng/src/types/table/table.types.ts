@@ -1,14 +1,14 @@
 import { TemplateRef } from '@angular/core';
-import type { FilterMetadata, LazyLoadMeta, PassThrough, PassThroughOption } from '@openng/sparkng/api';
-import type { ButtonPassThrough, ButtonProps } from '@openng/sparkng/types/button';
-import type { CheckboxPassThrough } from '@openng/sparkng/types/checkbox';
-import type { PaginatorPassThrough } from '@openng/sparkng/types/paginator';
-import type { VirtualScrollerPassThrough } from '@openng/sparkng/types/scroller';
-import type { InputTextPassThrough } from '@openng/sparkng/types/inputtext';
-import type { SelectPassThrough } from '@openng/sparkng/types/select';
-import type { InputNumberPassThrough } from '@openng/sparkng/types/inputnumber';
-import type { DatePickerPassThrough } from '@openng/sparkng/types/datepicker';
-import type { MotionOptions } from '@openng/sparkng-motion';
+import type { FilterMetadata, LazyLoadMeta, PassThrough, PassThroughOption } from '@bdspark/sparkng/api';
+import type { ButtonPassThrough, ButtonProps } from '@bdspark/sparkng/types/button';
+import type { CheckboxPassThrough } from '@bdspark/sparkng/types/checkbox';
+import type { PaginatorPassThrough } from '@bdspark/sparkng/types/paginator';
+import type { VirtualScrollerPassThrough } from '@bdspark/sparkng/types/scroller';
+import type { InputTextPassThrough } from '@bdspark/sparkng/types/inputtext';
+import type { SelectPassThrough } from '@bdspark/sparkng/types/select';
+import type { InputNumberPassThrough } from '@bdspark/sparkng/types/inputnumber';
+import type { DatePickerPassThrough } from '@bdspark/sparkng/types/datepicker';
+import type { MotionOptions } from '@bdspark/sparkng-motion';
 
 /**
  * Custom pass-through(pt) options for ColumnFilter.

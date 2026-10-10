@@ -1,6 +1,6 @@
-import type { IftaLabelTokenSections } from '@openng/sparkng-themes/types/iftalabel';
+import type { IftaLabelTokenSections } from '@bdspark/sparkng-themes/types/iftalabel';
 
-export * from '@openng/sparkng-themes/types/iftalabel';
+export * from '@bdspark/sparkng-themes/types/iftalabel';
 
 declare const root: IftaLabelTokenSections.Root;
 declare const input: IftaLabelTokenSections.Input;

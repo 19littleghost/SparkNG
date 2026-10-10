@@ -4,7 +4,7 @@ import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection } fr
 import { FormsModule, FormControl, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { InputMask, InputMaskModule, InputMaskDirective } from './inputmask';
-import { SharedModule } from '@openng/sparkng/api';
+import { SharedModule } from '@bdspark/sparkng/api';
 import { CommonModule } from '@angular/common';
 
 // Test Components

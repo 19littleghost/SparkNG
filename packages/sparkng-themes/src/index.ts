@@ -1,5 +1,5 @@
-import * as Styled from '@openng/sparkng-styled';
-import type { PaletteDesignToken, Preset, Theme } from '@openng/sparkng-themes/types';
+import * as Styled from '@bdspark/sparkng-styled';
+import type { PaletteDesignToken, Preset, Theme } from '@bdspark/sparkng-themes/types';
 
 export const definePreset = (...presets: Preset[]) => Styled.definePreset(...presets);
 export const updatePreset = (...presets: Preset[]) => Styled.updatePreset(...presets);
@@ -8,4 +8,4 @@ export const updateSurfacePalette = (palette?: PaletteDesignToken) => Styled.upd
 export const usePreset = (...presets: Preset[]) => Styled.usePreset(...presets);
 export const useTheme = (theme: Theme) => Styled.useTheme(theme);
 
-export * from '@openng/sparkng-styled';
+export * from '@bdspark/sparkng-styled';

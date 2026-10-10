@@ -1,10 +1,10 @@
 import { HttpEvent } from '@angular/common/http';
 import { TemplateRef } from '@angular/core';
-import type { PassThrough, PassThroughOption } from '@openng/sparkng/api';
-import type { BadgePassThrough } from '@openng/sparkng/types/badge';
-import type { ButtonPassThrough } from '@openng/sparkng/types/button';
-import type { MessagePassThrough } from '@openng/sparkng/types/message';
-import type { ProgressBarPassThrough } from '@openng/sparkng/types/progressbar';
+import type { PassThrough, PassThroughOption } from '@bdspark/sparkng/api';
+import type { BadgePassThrough } from '@bdspark/sparkng/types/badge';
+import type { ButtonPassThrough } from '@bdspark/sparkng/types/button';
+import type { MessagePassThrough } from '@bdspark/sparkng/types/message';
+import type { ProgressBarPassThrough } from '@bdspark/sparkng/types/progressbar';
 
 /**
  * Custom pass-through(pt) options.

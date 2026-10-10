@@ -1,7 +1,7 @@
 import { DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { Directive, ElementRef, inject, Input, NgModule, PLATFORM_ID } from '@angular/core';
-import { BaseComponent } from '@openng/sparkng/basecomponent';
-import { DomHandler } from '@openng/sparkng/dom';
+import { BaseComponent } from '@bdspark/sparkng/basecomponent';
+import { DomHandler } from '@bdspark/sparkng/dom';
 
 /**
  * AutoFocus manages focus on focusable element on load.

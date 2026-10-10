@@ -26,21 +26,21 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { MotionOptions } from '@openng/sparkng-motion';
-import { equals, findLastIndex, findSingle, focus, isEmpty, isNotEmpty, resolveFieldData, uuid } from '@openng/sparkng-utils';
-import { OverlayOptions, OverlayService, PrimeTemplate, ScrollerOptions, SharedModule, TranslationKeys } from '@openng/sparkng/api';
-import { AutoFocus } from '@openng/sparkng/autofocus';
-import { PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseInput } from '@openng/sparkng/baseinput';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { Chip } from '@openng/sparkng/chip';
-import { ConnectedOverlayScrollHandler } from '@openng/sparkng/dom';
-import { ChevronDownIcon, SpinnerIcon, TimesCircleIcon, TimesIcon } from '@openng/sparkng/icons';
-import { InputText } from '@openng/sparkng/inputtext';
-import { Overlay } from '@openng/sparkng/overlay';
-import { Ripple } from '@openng/sparkng/ripple';
-import { Scroller } from '@openng/sparkng/scroller';
-import { Nullable } from '@openng/sparkng/ts-helpers';
+import { MotionOptions } from '@bdspark/sparkng-motion';
+import { equals, findLastIndex, findSingle, focus, isEmpty, isNotEmpty, resolveFieldData, uuid } from '@bdspark/sparkng-utils';
+import { OverlayOptions, OverlayService, PrimeTemplate, ScrollerOptions, SharedModule, TranslationKeys } from '@bdspark/sparkng/api';
+import { AutoFocus } from '@bdspark/sparkng/autofocus';
+import { PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseInput } from '@bdspark/sparkng/baseinput';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { Chip } from '@bdspark/sparkng/chip';
+import { ConnectedOverlayScrollHandler } from '@bdspark/sparkng/dom';
+import { ChevronDownIcon, SpinnerIcon, TimesCircleIcon, TimesIcon } from '@bdspark/sparkng/icons';
+import { InputText } from '@bdspark/sparkng/inputtext';
+import { Overlay } from '@bdspark/sparkng/overlay';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { Scroller } from '@bdspark/sparkng/scroller';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
 import {
     AutoCompleteAddEvent,
     AutoCompleteCompleteEvent,
@@ -54,7 +54,7 @@ import {
     AutoCompleteSelectedItemTemplateContext,
     AutoCompleteSelectEvent,
     AutoCompleteUnselectEvent
-} from '@openng/sparkng/types/autocomplete';
+} from '@bdspark/sparkng/types/autocomplete';
 import { AutoCompleteStyle } from './style/autocompletestyle';
 
 const AUTOCOMPLETE_INSTANCE = new InjectionToken<AutoComplete>('AUTOCOMPLETE_INSTANCE');

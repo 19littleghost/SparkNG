@@ -26,19 +26,19 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { find, findSingle, focus, getOuterHeight, getOuterWidth, removeAccents, resolveFieldData } from '@openng/sparkng-utils';
-import { BlockableUI, PrimeTemplate, ScrollerOptions, SharedModule, TranslationKeys, TreeDragDropService, TreeNode } from '@openng/sparkng/api';
-import { AutoFocusModule } from '@openng/sparkng/autofocus';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { Checkbox } from '@openng/sparkng/checkbox';
-import { IconField } from '@openng/sparkng/iconfield';
-import { ChevronDownIcon, ChevronRightIcon, SearchIcon, SpinnerIcon } from '@openng/sparkng/icons';
-import { InputIcon } from '@openng/sparkng/inputicon';
-import { InputText } from '@openng/sparkng/inputtext';
-import { Ripple } from '@openng/sparkng/ripple';
-import { Scroller } from '@openng/sparkng/scroller';
-import { Nullable } from '@openng/sparkng/ts-helpers';
+import { find, findSingle, focus, getOuterHeight, getOuterWidth, removeAccents, resolveFieldData } from '@bdspark/sparkng-utils';
+import { BlockableUI, PrimeTemplate, ScrollerOptions, SharedModule, TranslationKeys, TreeDragDropService, TreeNode } from '@bdspark/sparkng/api';
+import { AutoFocusModule } from '@bdspark/sparkng/autofocus';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { Checkbox } from '@bdspark/sparkng/checkbox';
+import { IconField } from '@bdspark/sparkng/iconfield';
+import { ChevronDownIcon, ChevronRightIcon, SearchIcon, SpinnerIcon } from '@bdspark/sparkng/icons';
+import { InputIcon } from '@bdspark/sparkng/inputicon';
+import { InputText } from '@bdspark/sparkng/inputtext';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { Scroller } from '@bdspark/sparkng/scroller';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
 import {
     TreeCheckboxIconTemplateContext,
     TreeFilterEvent,
@@ -56,7 +56,7 @@ import {
     TreeScrollEvent,
     TreeScrollIndexChangeEvent,
     TreeTogglerIconTemplateContext
-} from '@openng/sparkng/types/tree';
+} from '@bdspark/sparkng/types/tree';
 import { Subscription } from 'rxjs';
 import { TreeStyle } from './style/treestyle';
 

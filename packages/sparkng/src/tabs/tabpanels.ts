@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, inject, InjectionToken, ViewEncapsulation } from '@angular/core';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
 import { TabPanelsStyle } from './style/tabpanelsstyle';
-import { TabPanelsPassThrough } from '@openng/sparkng/types/tabs';
+import { TabPanelsPassThrough } from '@bdspark/sparkng/types/tabs';
 
 const TABPANELS_INSTANCE = new InjectionToken<TabPanels>('TABPANELS_INSTANCE');
 

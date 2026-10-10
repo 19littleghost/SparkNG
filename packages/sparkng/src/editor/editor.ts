@@ -1,13 +1,13 @@
 import { CommonModule, isPlatformServer } from '@angular/common';
 import { afterNextRender, ChangeDetectionStrategy, Component, ContentChild, ContentChildren, EventEmitter, forwardRef, inject, InjectionToken, Input, NgModule, Output, QueryList, TemplateRef, ViewEncapsulation } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { findSingle } from '@openng/sparkng-utils';
-import { Header, PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseEditableHolder } from '@openng/sparkng/baseeditableholder';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { Nullable } from '@openng/sparkng/ts-helpers';
-import { EditorBlurEvent, EditorChangeEvent, EditorFocusEvent, EditorInitEvent, EditorPassThrough, EditorSelectionChangeEvent, EditorTextChangeEvent } from '@openng/sparkng/types/editor';
+import { findSingle } from '@bdspark/sparkng-utils';
+import { Header, PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseEditableHolder } from '@bdspark/sparkng/baseeditableholder';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
+import { EditorBlurEvent, EditorChangeEvent, EditorFocusEvent, EditorInitEvent, EditorPassThrough, EditorSelectionChangeEvent, EditorTextChangeEvent } from '@bdspark/sparkng/types/editor';
 import { EditorStyle } from './style/editorstyle';
 
 const EDITOR_INSTANCE = new InjectionToken<Editor>('EDITOR_INSTANCE');

@@ -1,9 +1,9 @@
 import { ChangeDetectionStrategy, afterRenderEffect, Component, computed, effect, inject, InjectionToken, input, output, signal, untracked } from '@angular/core';
-import { type ClassNameOptions, createMotion, resolveDuration, type MotionEvent, type MotionInstance, type MotionOptions, type MotionPhase } from '@openng/sparkng-motion';
-import { nextFrame } from '@openng/sparkng-utils';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import type { MotionPassThrough } from '@openng/sparkng/types/motion';
+import { type ClassNameOptions, createMotion, resolveDuration, type MotionEvent, type MotionInstance, type MotionOptions, type MotionPhase } from '@bdspark/sparkng-motion';
+import { nextFrame } from '@bdspark/sparkng-utils';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import type { MotionPassThrough } from '@bdspark/sparkng/types/motion';
 import { applyHiddenStyles, resetStyles } from './motion.utils';
 import { MotionStyle } from './style/motion.style';
 

@@ -1,6 +1,6 @@
-import type { DataViewTokenSections } from '@openng/sparkng-themes/types/dataview';
+import type { DataViewTokenSections } from '@bdspark/sparkng-themes/types/dataview';
 
-export * from '@openng/sparkng-themes/types/dataview';
+export * from '@bdspark/sparkng-themes/types/dataview';
 
 declare const root: DataViewTokenSections.Root;
 declare const header: DataViewTokenSections.Header;

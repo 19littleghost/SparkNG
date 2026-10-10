@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
             <p>Run <i>ng update</i> without arguments at any time to list the updates available in your workspace, Optimus UI included.</p>
             <app-code [code]="checkCode" [hideToggleCode]="true"></app-code>
             <p>
-                To update within the current major, pass the main package. The Angular CLI resolves the rest: <i>&#64;openng/sparkng</i> declares all its companion packages as a group, so every installed <i>&#64;openng/sparkng-*</i> package —
+                To update within the current major, pass the main package. The Angular CLI resolves the rest: <i>&#64;bdspark/sparkng</i> declares all its companion packages as a group, so every installed <i>&#64;bdspark/sparkng-*</i> package —
                 themes, locale, Tailwind CSS plugin and the internal runtime packages — is updated together and the suite cannot end up on mixed versions.
             </p>
             <app-code [code]="updateCode" [hideToggleCode]="true"></app-code>

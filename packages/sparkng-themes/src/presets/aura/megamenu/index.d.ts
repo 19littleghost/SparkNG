@@ -1,6 +1,6 @@
-import type { MegaMenuTokenSections } from '@openng/sparkng-themes/types/megamenu';
+import type { MegaMenuTokenSections } from '@bdspark/sparkng-themes/types/megamenu';
 
-export * from '@openng/sparkng-themes/types/megamenu';
+export * from '@bdspark/sparkng-themes/types/megamenu';
 
 declare const root: MegaMenuTokenSections.Root;
 declare const baseItem: MegaMenuTokenSections.BaseItem;

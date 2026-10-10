@@ -2,9 +2,9 @@ import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection } fr
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
-import { ConfirmationService } from '@openng/sparkng/api';
-import { Button } from '@openng/sparkng/button';
-import { Dialog } from '@openng/sparkng/dialog';
+import { ConfirmationService } from '@bdspark/sparkng/api';
+import { Button } from '@bdspark/sparkng/button';
+import { Dialog } from '@bdspark/sparkng/dialog';
 import { ConfirmDialog } from './confirmdialog';
 
 // Basic ConfirmDialog Component Test

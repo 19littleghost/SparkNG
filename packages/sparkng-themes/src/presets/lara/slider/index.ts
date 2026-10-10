@@ -1,4 +1,4 @@
-import type { SliderDesignTokens, SliderTokenSections } from '@openng/sparkng-themes/types/slider';
+import type { SliderDesignTokens, SliderTokenSections } from '@bdspark/sparkng-themes/types/slider';
 
 export const root: SliderTokenSections.Root = {
     transitionDuration: '{transition.duration}'

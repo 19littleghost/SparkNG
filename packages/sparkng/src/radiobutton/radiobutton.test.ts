@@ -4,7 +4,7 @@ import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } 
 import { By } from '@angular/platform-browser';
 import { RadioButton } from './radiobutton';
 
-import { provideOptimus } from '@openng/sparkng/config';
+import { provideOptimus } from '@bdspark/sparkng/config';
 
 // Basic RadioButton test component
 @Component({

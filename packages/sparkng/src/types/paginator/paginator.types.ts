@@ -1,7 +1,7 @@
 import { TemplateRef } from '@angular/core';
-import type { PassThrough, PassThroughOption } from '@openng/sparkng/api';
-import { InputNumberPassThrough } from '@openng/sparkng/types/inputnumber';
-import { SelectPassThrough } from '@openng/sparkng/types/select';
+import type { PassThrough, PassThroughOption } from '@bdspark/sparkng/api';
+import { InputNumberPassThrough } from '@bdspark/sparkng/types/inputnumber';
+import { SelectPassThrough } from '@bdspark/sparkng/types/select';
 
 /**
  * Custom pass-through(pt) options.

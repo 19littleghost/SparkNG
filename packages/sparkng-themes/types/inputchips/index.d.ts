@@ -183,7 +183,7 @@ export declare namespace InputChipsTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface InputChipsDesignTokens extends DesignTokens<InputChipsDesignTokens> {

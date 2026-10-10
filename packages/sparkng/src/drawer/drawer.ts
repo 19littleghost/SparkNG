@@ -20,19 +20,19 @@ import {
     ViewChild,
     ViewEncapsulation
 } from '@angular/core';
-import { MotionEvent, MotionOptions } from '@openng/sparkng-motion';
-import { addClass, appendChild, removeClass, setAttribute } from '@openng/sparkng-utils';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { Button, ButtonProps } from '@openng/sparkng/button';
-import { blockBodyScroll, unblockBodyScroll } from '@openng/sparkng/dom';
-import { FocusTrapModule } from '@openng/sparkng/focustrap';
-import { TimesIcon } from '@openng/sparkng/icons';
-import { MotionModule } from '@openng/sparkng/motion';
-import { Nullable, VoidListener } from '@openng/sparkng/ts-helpers';
-import { DrawerPassThrough } from '@openng/sparkng/types/drawer';
-import { ZIndexUtils } from '@openng/sparkng/utils';
+import { MotionEvent, MotionOptions } from '@bdspark/sparkng-motion';
+import { addClass, appendChild, removeClass, setAttribute } from '@bdspark/sparkng-utils';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { Button, ButtonProps } from '@bdspark/sparkng/button';
+import { blockBodyScroll, unblockBodyScroll } from '@bdspark/sparkng/dom';
+import { FocusTrapModule } from '@bdspark/sparkng/focustrap';
+import { TimesIcon } from '@bdspark/sparkng/icons';
+import { MotionModule } from '@bdspark/sparkng/motion';
+import { Nullable, VoidListener } from '@bdspark/sparkng/ts-helpers';
+import { DrawerPassThrough } from '@bdspark/sparkng/types/drawer';
+import { ZIndexUtils } from '@bdspark/sparkng/utils';
 import { DrawerStyle } from './style/drawerstyle';
 
 const DRAWER_INSTANCE = new InjectionToken<Drawer>('DRAWER_INSTANCE');

@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, DebugElement, provideZonelessChange
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
-import { provideOptimus } from '@openng/sparkng/config';
+import { provideOptimus } from '@bdspark/sparkng/config';
 import { Divider, DividerModule } from './divider';
 
 @Component({

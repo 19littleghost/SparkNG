@@ -1,4 +1,4 @@
-import type { TreeDesignTokens, TreeTokenSections } from '@openng/sparkng-themes/types/tree';
+import type { TreeDesignTokens, TreeTokenSections } from '@bdspark/sparkng-themes/types/tree';
 
 export const root: TreeTokenSections.Root = {
     background: '{content.background}',

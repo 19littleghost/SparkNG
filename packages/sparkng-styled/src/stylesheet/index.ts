@@ -1,4 +1,4 @@
-import { createStyleMarkup, isNotEmpty } from '@openng/sparkng-utils';
+import { createStyleMarkup, isNotEmpty } from '@bdspark/sparkng-utils';
 
 export interface StyleSheetProps {
     attrs?: Record<string, unknown>;

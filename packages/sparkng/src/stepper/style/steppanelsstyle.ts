@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BaseStyle } from '@openng/sparkng/base';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: 'p-steppanels'
@@ -16,7 +16,7 @@ export class StepPanelsStyle extends BaseStyle {
  *
  * StepPanel is a helper component for Stepper component.
  *
- * [Live Demo](https://optimus.openng.org/stepper/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/stepper/)
  *
  * @module steppanelsstyle
  *

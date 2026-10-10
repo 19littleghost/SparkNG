@@ -1,4 +1,4 @@
-import type { SplitButtonDesignTokens, SplitButtonTokenSections } from '@openng/sparkng-themes/types/splitbutton';
+import type { SplitButtonDesignTokens, SplitButtonTokenSections } from '@bdspark/sparkng-themes/types/splitbutton';
 
 export const root: SplitButtonTokenSections.Root = {
     borderRadius: '{form.field.border.radius}',

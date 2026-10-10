@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as password_style } from '@openng/sparkng-styles/password';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as password_style } from '@bdspark/sparkng-styles/password';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
 ${password_style}
@@ -99,7 +99,7 @@ export class PasswordStyle extends BaseStyle {
  *
  * Password displays strength indicator for password fields.
  *
- * [Live Demo](https://optimus.openng.org/password/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/password/)
  *
  * @module passwordstyle
  *

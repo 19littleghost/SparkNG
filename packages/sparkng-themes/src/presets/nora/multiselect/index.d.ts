@@ -1,6 +1,6 @@
-import type { MultiSelectTokenSections } from '@openng/sparkng-themes/types/multiselect';
+import type { MultiSelectTokenSections } from '@bdspark/sparkng-themes/types/multiselect';
 
-export * from '@openng/sparkng-themes/types/multiselect';
+export * from '@bdspark/sparkng-themes/types/multiselect';
 
 declare const root: MultiSelectTokenSections.Root;
 declare const dropdown: MultiSelectTokenSections.Dropdown;

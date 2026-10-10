@@ -1,11 +1,11 @@
 import { isPlatformBrowser } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, ElementRef, EventEmitter, inject, InjectionToken, Input, NgModule, NgZone, Output, ViewEncapsulation } from '@angular/core';
 import Chart from 'chart.js/auto';
-import { SharedModule } from '@openng/sparkng/api';
-import { BaseComponent } from '@openng/sparkng/basecomponent';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent } from '@bdspark/sparkng/basecomponent';
 import { ChartStyle } from './style/chartstyle';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import type { ChartPassThrough } from '@openng/sparkng/types/chart';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import type { ChartPassThrough } from '@bdspark/sparkng/types/chart';
 
 const CHART_INSTANCE = new InjectionToken<UIChart>('CHART_INSTANCE');
 

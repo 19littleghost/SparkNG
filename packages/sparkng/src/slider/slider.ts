@@ -1,15 +1,15 @@
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, ElementRef, EventEmitter, forwardRef, HostListener, inject, InjectionToken, Input, NgModule, NgZone, numberAttribute, Output, ViewChild, ViewEncapsulation } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { addClass, getWindowScrollLeft, getWindowScrollTop, isRTL, removeClass } from '@openng/sparkng-utils';
-import { SharedModule } from '@openng/sparkng/api';
-import { AutoFocus } from '@openng/sparkng/autofocus';
-import { PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseEditableHolder } from '@openng/sparkng/baseeditableholder';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { Nullable, VoidListener } from '@openng/sparkng/ts-helpers';
-import type { SliderChangeEvent, SliderSlideEndEvent } from '@openng/sparkng/types/slider';
-import { SliderPassThrough } from '@openng/sparkng/types/slider';
+import { addClass, getWindowScrollLeft, getWindowScrollTop, isRTL, removeClass } from '@bdspark/sparkng-utils';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { AutoFocus } from '@bdspark/sparkng/autofocus';
+import { PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseEditableHolder } from '@bdspark/sparkng/baseeditableholder';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { Nullable, VoidListener } from '@bdspark/sparkng/ts-helpers';
+import type { SliderChangeEvent, SliderSlideEndEvent } from '@bdspark/sparkng/types/slider';
+import { SliderPassThrough } from '@bdspark/sparkng/types/slider';
 import { SliderStyle } from './style/sliderstyle';
 
 const SLIDER_INSTANCE = new InjectionToken<Slider>('SLIDER_INSTANCE');

@@ -26,25 +26,25 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { FormsModule, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { MotionOptions } from '@openng/sparkng-motion';
-import { deepEquals, equals, findLastIndex, findSingle, focus, getFirstFocusableElement, getFocusableElements, getLastFocusableElement, isArray, isNotEmpty, isPrintableCharacter, resolveFieldData, uuid } from '@openng/sparkng-utils';
-import { FilterService, Footer, Header, OverlayOptions, OverlayService, PrimeTemplate, ScrollerOptions, SharedModule, TranslationKeys } from '@openng/sparkng/api';
-import { AutoFocus } from '@openng/sparkng/autofocus';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseEditableHolder } from '@openng/sparkng/baseeditableholder';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { Checkbox } from '@openng/sparkng/checkbox';
-import { Chip } from '@openng/sparkng/chip';
-import { DomHandler, unblockBodyScroll } from '@openng/sparkng/dom';
-import { Fluid } from '@openng/sparkng/fluid';
-import { IconField } from '@openng/sparkng/iconfield';
-import { CheckIcon, ChevronDownIcon, SearchIcon, TimesIcon } from '@openng/sparkng/icons';
-import { InputIcon } from '@openng/sparkng/inputicon';
-import { InputText } from '@openng/sparkng/inputtext';
-import { Overlay } from '@openng/sparkng/overlay';
-import { Scroller } from '@openng/sparkng/scroller';
-import { Tooltip } from '@openng/sparkng/tooltip';
-import { Nullable } from '@openng/sparkng/ts-helpers';
+import { MotionOptions } from '@bdspark/sparkng-motion';
+import { deepEquals, equals, findLastIndex, findSingle, focus, getFirstFocusableElement, getFocusableElements, getLastFocusableElement, isArray, isNotEmpty, isPrintableCharacter, resolveFieldData, uuid } from '@bdspark/sparkng-utils';
+import { FilterService, Footer, Header, OverlayOptions, OverlayService, PrimeTemplate, ScrollerOptions, SharedModule, TranslationKeys } from '@bdspark/sparkng/api';
+import { AutoFocus } from '@bdspark/sparkng/autofocus';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseEditableHolder } from '@bdspark/sparkng/baseeditableholder';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { Checkbox } from '@bdspark/sparkng/checkbox';
+import { Chip } from '@bdspark/sparkng/chip';
+import { DomHandler, unblockBodyScroll } from '@bdspark/sparkng/dom';
+import { Fluid } from '@bdspark/sparkng/fluid';
+import { IconField } from '@bdspark/sparkng/iconfield';
+import { CheckIcon, ChevronDownIcon, SearchIcon, TimesIcon } from '@bdspark/sparkng/icons';
+import { InputIcon } from '@bdspark/sparkng/inputicon';
+import { InputText } from '@bdspark/sparkng/inputtext';
+import { Overlay } from '@bdspark/sparkng/overlay';
+import { Scroller } from '@bdspark/sparkng/scroller';
+import { Tooltip } from '@bdspark/sparkng/tooltip';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
 import {
     MultiSelectBlurEvent,
     MultiSelectChangeEvent,
@@ -64,8 +64,8 @@ import {
     MultiSelectRemoveEvent,
     MultiSelectSelectAllChangeEvent,
     MultiSelectSelectedItemsTemplateContext
-} from '@openng/sparkng/types/multiselect';
-import { ObjectUtils } from '@openng/sparkng/utils';
+} from '@bdspark/sparkng/types/multiselect';
+import { ObjectUtils } from '@bdspark/sparkng/utils';
 import { MultiSelectStyle } from './style/multiselectstyle';
 
 const MULTISELECT_INSTANCE = new InjectionToken<MultiSelect>('MULTISELECT_INSTANCE');

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://optimus.openng.org/large-icon.svg" alt="Optimus UI" width="140" />
+<img src="https://TODO-BDSPARK-DOMAIN/large-icon.svg" alt="Optimus UI" width="140" />
 
 # Optimus UI
 
@@ -10,7 +10,7 @@
 [![license](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE.md)
 [![angular](https://img.shields.io/badge/angular-%3E%3D21-black.svg)](https://angular.dev)
 
-[Documentation](https://optimus.openng.org) · [Getting started](https://optimus.openng.org/installation) · [Migrating from PrimeNG](https://v1.optimus.openng.org/migration/primeng) · [Philosophy](https://optimus.openng.org/philosophy) · [FAQ](https://optimus.openng.org/faq)
+[Documentation](https://TODO-BDSPARK-DOMAIN) · [Getting started](https://TODO-BDSPARK-DOMAIN/installation) · [Migrating from PrimeNG](https://v1.TODO-BDSPARK-DOMAIN/migration/primeng) · [Philosophy](https://TODO-BDSPARK-DOMAIN/philosophy) · [FAQ](https://TODO-BDSPARK-DOMAIN/faq)
 
 </div>
 
@@ -20,9 +20,9 @@
 
 In June 2026 PrimeTek archived the PrimeNG repository and moved future major versions, starting with v22, to a commercial license — [their announcement explains why](https://primeui.dev/nextchapter). That left a lot of applications on a library with no further open source releases.
 
-Optimus UI is a community fork of PrimeNG v21, the last MIT licensed version, maintained by OpenNG and the community. It stays MIT. There is no paid tier and none is planned.
+Optimus UI is a community fork of PrimeNG v21, the last MIT licensed version, maintained by bdSpark and the community. It stays MIT. There is no paid tier and none is planned.
 
-It is not affiliated with, endorsed by, or sponsored by PrimeTek. The [philosophy page](https://optimus.openng.org/philosophy) sets out what the project commits to and — just as importantly — what it does not do.
+It is not affiliated with, endorsed by, or sponsored by PrimeTek. The [philosophy page](https://TODO-BDSPARK-DOMAIN/philosophy) sets out what the project commits to and — just as importantly — what it does not do.
 
 ## Quick start
 
@@ -40,7 +40,7 @@ import { Button } from '@bdspark/sparkng/button';
 <p-button label="Check" />
 ```
 
-Full setup, including the manual path and icons, is in the [getting started guide](https://optimus.openng.org/installation).
+Full setup, including the manual path and icons, is in the [getting started guide](https://TODO-BDSPARK-DOMAIN/installation).
 
 ## Migrating from PrimeNG
 
@@ -51,7 +51,7 @@ npm install @bdspark/sparkng@1
 ng generate @bdspark/sparkng@1:migrate-from-primeng
 ```
 
-See the [migration guide](https://v1.optimus.openng.org/migration/primeng) for prerequisites and the manual cases. If you are on PrimeNG v20 or older, upgrade to v21 first.
+See the [migration guide](https://v1.TODO-BDSPARK-DOMAIN/migration/primeng) for prerequisites and the manual cases. If you are on PrimeNG v20 or older, upgrade to v21 first.
 
 ## Packages
 
@@ -82,12 +82,16 @@ pnpm install     # dependencies + git hooks
 pnpm run dev     # run the documentation site locally
 ```
 
-The [contribution guide](https://optimus.openng.org/contribution) covers the workflow, and the [roadmap](https://optimus.openng.org/roadmap) covers what is planned.
+The [contribution guide](https://TODO-BDSPARK-DOMAIN/contribution) covers the workflow, and the [roadmap](https://TODO-BDSPARK-DOMAIN/roadmap) covers what is planned.
 
 ## Support
 
-Community only — there is no SLA and no commercial support. [Issues](https://github.com/openng-org/sparkng/issues) for bugs, [Discussions](https://github.com/openng-org/sparkng/discussions) for questions.
+Community only — there is no SLA and no commercial support. [Issues](https://github.com/TODO-BDSPARK-ORG/sparkng/issues) for bugs, [Discussions](https://github.com/TODO-BDSPARK-ORG/sparkng/discussions) for questions.
 
 ## License
 
 [MIT](LICENSE.md). Forked from PrimeNG v21, which was published under the same license, with the original copyright notices intact. PrimeNG, PrimeFaces, PrimeReact, PrimeVue and PrimeFlex are trademarks of PrimeTek.
+
+## Attribution
+
+Based on OpenNG (MIT). This project is a rebrand of the OpenNG UI component library (`@openng/sparkng*`, also known as Optimus UI), the community continuation of PrimeNG v21. See [NOTICE.md](NOTICE.md) for the full attribution and the preserved copyright notices.

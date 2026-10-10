@@ -1,10 +1,10 @@
 import { AfterViewChecked, AfterViewInit, ChangeDetectionStrategy, Component, ElementRef, HostListener, inject, InjectionToken, Input, NgModule, OnDestroy, ViewChild, ViewEncapsulation } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { find } from '@openng/sparkng-utils';
-import { SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { TerminalPassThrough } from '@openng/sparkng/types/terminal';
+import { find } from '@bdspark/sparkng-utils';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { TerminalPassThrough } from '@bdspark/sparkng/types/terminal';
 import { Subscription } from 'rxjs';
 import { TerminalStyle } from './style/terminalstyle';
 import { TerminalService } from './terminalservice';

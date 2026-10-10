@@ -1,6 +1,6 @@
-import type { InputChipsTokenSections } from '@openng/sparkng-themes/types/inputchips';
+import type { InputChipsTokenSections } from '@bdspark/sparkng-themes/types/inputchips';
 
-export * from '@openng/sparkng-themes/types/inputchips';
+export * from '@bdspark/sparkng-themes/types/inputchips';
 
 declare const root: InputChipsTokenSections.Root;
 declare const chip: InputChipsTokenSections.Chip;

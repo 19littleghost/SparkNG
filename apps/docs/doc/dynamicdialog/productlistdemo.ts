@@ -27,7 +27,7 @@ import { InfoDemo } from './infodemo';
                     <td>{{ product.code }}</td>
                     <td>{{ product.name }}</td>
                     <td>
-                        <img src="https://optimus.openng.org/demo/product/{{ product.image }}" [alt]="product.image" class="w-16" />
+                        <img src="https://TODO-BDSPARK-DOMAIN/demo/product/{{ product.image }}" [alt]="product.image" class="w-16" />
                     </td>
                     <td>{{ product.category }}</td>
                     <td>

@@ -1,4 +1,4 @@
-import type { PanelDesignTokens, PanelTokenSections } from '@openng/sparkng-themes/types/panel';
+import type { PanelDesignTokens, PanelTokenSections } from '@bdspark/sparkng-themes/types/panel';
 
 export const root: PanelTokenSections.Root = {
     background: '{content.background}',

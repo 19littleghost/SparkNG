@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, HostBinding, inject, InjectionToken, Input, NgModule, ViewEncapsulation } from '@angular/core';
-import { SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { AvatarGroupPassThrough } from '@openng/sparkng/types/avatargroup';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { AvatarGroupPassThrough } from '@bdspark/sparkng/types/avatargroup';
 import { AvatarGroupStyle } from './style/avatargroupstyle';
 
 const AVATARGROUP_INSTANCE = new InjectionToken<AvatarGroup>('AVATARGROUP_INSTANCE');

@@ -20,13 +20,13 @@ describe('ng-add', () => {
         const result = await runner.runSchematic('ng-add', { skipInstall: true }, appTree);
 
         const pkg = JSON.parse(result.readContent('/package.json'));
-        expect(pkg.dependencies['@openng/sparkng-themes']).toBe(VERSIONS['@openng/sparkng-themes']);
+        expect(pkg.dependencies['@bdspark/sparkng-themes']).toBe(VERSIONS['@bdspark/sparkng-themes']);
 
         const appConfigPath = findFileContaining(result, 'provideOptimus');
         expect(appConfigPath).toBe('/src/app/app.config.ts');
         const appConfig = result.readContent(appConfigPath);
-        expect(appConfig).toContain(`import { provideOptimus } from '@openng/sparkng/config';`);
-        expect(appConfig).toContain(`import Aura from '@openng/sparkng-themes/aura';`);
+        expect(appConfig).toContain(`import { provideOptimus } from '@bdspark/sparkng/config';`);
+        expect(appConfig).toContain(`import Aura from '@bdspark/sparkng-themes/aura';`);
         expect(appConfig).toContain(`provideOptimus({ theme: { preset: Aura } })`);
     });
 
@@ -40,7 +40,7 @@ describe('ng-add', () => {
         const result = await runner.runSchematic('ng-add', { skipInstall: true, theme }, appTree);
 
         const appConfig = result.readContent('/src/app/app.config.ts');
-        expect(appConfig).toContain(`import ${theme} from '@openng/sparkng-themes/${module}';`);
+        expect(appConfig).toContain(`import ${theme} from '@bdspark/sparkng-themes/${module}';`);
         expect(appConfig).toContain(`provideOptimus({ theme: { preset: ${theme} } })`);
         expect(appConfig).not.toContain('Aura');
     });
@@ -51,13 +51,13 @@ describe('ng-add', () => {
         const result = await runner.runSchematic('ng-add', { skipInstall: true }, appTree);
 
         const pkg = JSON.parse(result.readContent('/package.json'));
-        expect(pkg.dependencies['@openng/sparkng-themes']).toBe(VERSIONS['@openng/sparkng-themes']);
+        expect(pkg.dependencies['@bdspark/sparkng-themes']).toBe(VERSIONS['@bdspark/sparkng-themes']);
 
         const modulePath = findFileContaining(result, 'provideOptimus');
         expect(modulePath).toBe('/src/app/app-module.ts');
         const moduleSource = result.readContent(modulePath);
-        expect(moduleSource).toContain(`import { provideOptimus } from '@openng/sparkng/config';`);
-        expect(moduleSource).toContain(`import Aura from '@openng/sparkng-themes/aura';`);
+        expect(moduleSource).toContain(`import { provideOptimus } from '@bdspark/sparkng/config';`);
+        expect(moduleSource).toContain(`import Aura from '@bdspark/sparkng-themes/aura';`);
         expect(moduleSource).toMatch(/providers:\s*\[[\s\S]*provideOptimus\(\{ theme: \{ preset: Aura \} \}\)/);
     });
 
@@ -91,7 +91,7 @@ describe('ng-add', () => {
 
         const result = await runner.runSchematic('ng-add', { skipInstall: true }, tree);
         expect(logs.join('\n')).toContain('provideOptimus');
-        expect(JSON.parse(result.readContent('/package.json')).dependencies['@openng/sparkng-themes']).toBe(VERSIONS['@openng/sparkng-themes']);
+        expect(JSON.parse(result.readContent('/package.json')).dependencies['@bdspark/sparkng-themes']).toBe(VERSIONS['@bdspark/sparkng-themes']);
         expect(result.readContent('/src/app/app.config.ts')).not.toContain('provideOptimus');
     });
 
@@ -120,8 +120,8 @@ describe('ng-add', () => {
         expect(error).toBeInstanceOf(SchematicsException);
         expect(error!.message).toContain('primeng detected');
         expect(error!.message).toContain('no changes were made');
-        expect(error!.message).toContain('ng generate @openng/sparkng@1:migrate-from-primeng');
-        expect(error!.message).toContain('already added @openng/sparkng to your dependencies');
+        expect(error!.message).toContain('ng generate @bdspark/sparkng@1:migrate-from-primeng');
+        expect(error!.message).toContain('already added @bdspark/sparkng to your dependencies');
     });
 
     it('primeng project with a nonexistent --project: reports the bad project name, not the primeng bail (#1447)', async () => {
@@ -152,7 +152,7 @@ describe('ng-add', () => {
         await expect(runner.runSchematic('ng-add', { skipInstall: true }, tree)).rejects.toThrow('primeng detected');
 
         expect(tree.readContent('/libs/app/package.json')).toBe(libPkgRaw);
-        expect(JSON.parse(tree.readContent('/package.json')).dependencies?.['@openng/sparkng-themes']).toBeUndefined();
+        expect(JSON.parse(tree.readContent('/package.json')).dependencies?.['@bdspark/sparkng-themes']).toBeUndefined();
     });
 
     it('primeng declared only in peerDependencies: still rejects and makes no changes (#1448)', async () => {
@@ -164,7 +164,7 @@ describe('ng-add', () => {
 
         const pkg = JSON.parse(tree.readContent('/package.json'));
         expect(pkg.peerDependencies.primeng).toBe('^21.0.0');
-        expect(pkg.dependencies['@openng/sparkng-themes']).toBeUndefined();
+        expect(pkg.dependencies['@bdspark/sparkng-themes']).toBeUndefined();
         expect(tree.readContent('/src/app/app.config.ts')).toBe(appConfig);
     });
 
@@ -179,7 +179,7 @@ describe('ng-add', () => {
 
         await expect(runner.runSchematic('ng-add', { skipInstall: true }, tree)).rejects.toThrow('primeng detected');
 
-        expect(JSON.parse(tree.readContent('/package.json')).dependencies['@openng/sparkng-themes']).toBeUndefined();
+        expect(JSON.parse(tree.readContent('/package.json')).dependencies['@bdspark/sparkng-themes']).toBeUndefined();
     });
 
     it('pre-existing Aura binding (real CLI tree): imports the preset under an alias and retargets the provider call (#1448)', async () => {
@@ -193,9 +193,9 @@ describe('ng-add', () => {
 
         const appConfig = result.readContent('/src/app/app.config.ts');
         expect(appConfig).toContain(`import Aura from './my-aura-theme';`);
-        expect(appConfig).toContain(`import OptimusAura from '@openng/sparkng-themes/aura';`);
+        expect(appConfig).toContain(`import OptimusAura from '@bdspark/sparkng-themes/aura';`);
         expect(appConfig).toContain(`provideOptimus({ theme: { preset: OptimusAura } })`);
-        expect(appConfig).not.toContain(`import Aura from '@openng/sparkng-themes/aura';`);
+        expect(appConfig).not.toContain(`import Aura from '@bdspark/sparkng-themes/aura';`);
         expect(appConfig).not.toContain(`preset: Aura `);
         expect(logs.join('\n')).toContain('bound as OptimusAura');
     });
@@ -208,7 +208,7 @@ describe('ng-add', () => {
         const result = await runner.runSchematic('ng-add', { skipInstall: true }, appTree);
 
         const appConfig = result.readContent('/src/app/app.config.ts');
-        expect(appConfig).toContain(`import Aura from '@openng/sparkng-themes/aura';`);
+        expect(appConfig).toContain(`import Aura from '@bdspark/sparkng-themes/aura';`);
         expect(appConfig).toContain(`provideOptimus({ theme: { preset: Aura } })`);
         expect(appConfig).not.toContain('@primeuix');
         expect(appConfig).not.toContain('OptimusAura');
@@ -235,7 +235,7 @@ describe('ng-add', () => {
         expect(result.readContent('/src/app/app.config.ts')).toBe(primengConfig);
         const log = logs.join('\n');
         expect(log).toContain('Found a providePrimeNG call in /src/app/app.config.ts');
-        expect(log).toContain('ng generate @openng/sparkng@1:migrate-from-primeng');
+        expect(log).toContain('ng generate @bdspark/sparkng@1:migrate-from-primeng');
         expect(log).toContain('provideOptimus({ theme: { preset: Aura } })');
         expect(log).not.toContain('Added provideOptimus');
     });

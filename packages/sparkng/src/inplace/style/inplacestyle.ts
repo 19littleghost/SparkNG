@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/inplace';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/inplace';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: () => ['p-inplace p-component'],
@@ -21,7 +21,7 @@ export class InplaceStyle extends BaseStyle {
  *
  * Inplace provides an easy to do editing and display at the same time where clicking the output displays the actual content.
  *
- * [Live Demo](https://optimus.openng.org/inplace)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/inplace)
  *
  * @module inplacestyle
  *

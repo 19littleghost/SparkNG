@@ -1,4 +1,4 @@
-import type { CardDesignTokens, CardTokenSections } from '@openng/sparkng-themes/types/card';
+import type { CardDesignTokens, CardTokenSections } from '@bdspark/sparkng-themes/types/card';
 
 export const root: CardTokenSections.Root = {
     background: '{content.background}',

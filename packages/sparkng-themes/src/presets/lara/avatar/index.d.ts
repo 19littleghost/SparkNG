@@ -1,6 +1,6 @@
-import type { AvatarTokenSections } from '@openng/sparkng-themes/types/avatar';
+import type { AvatarTokenSections } from '@bdspark/sparkng-themes/types/avatar';
 
-export * from '@openng/sparkng-themes/types/avatar';
+export * from '@bdspark/sparkng-themes/types/avatar';
 
 declare const root: AvatarTokenSections.Root;
 declare const icon: AvatarTokenSections.Icon;

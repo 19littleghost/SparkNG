@@ -1,4 +1,4 @@
-import type { AccordionDesignTokens, AccordionTokenSections } from '@openng/sparkng-themes/types/accordion';
+import type { AccordionDesignTokens, AccordionTokenSections } from '@bdspark/sparkng-themes/types/accordion';
 
 export const root: AccordionTokenSections.Root = {
     transitionDuration: '{transition.duration}'

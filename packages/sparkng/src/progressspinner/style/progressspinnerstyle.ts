@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/progressspinner';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/progressspinner';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: () => ['p-progressspinner'],
@@ -21,7 +21,7 @@ export class ProgressSpinnerStyle extends BaseStyle {
  *
  * ProgressSpinner is a process status indicator.
  *
- * [Live Demo](https://optimus.openng.org/progressspinner)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/progressspinner)
  *
  * @module progressspinnerstyle
  *

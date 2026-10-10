@@ -4,9 +4,9 @@ import { By } from '@angular/platform-browser';
 
 import { Router } from '@angular/router';
 import { RouterTestingModule } from '@angular/router/testing';
-import { MenuItem } from '@openng/sparkng/api';
-import { Optimus } from '@openng/sparkng/config';
-import { BreadcrumbItemClickEvent } from '@openng/sparkng/types/breadcrumb';
+import { MenuItem } from '@bdspark/sparkng/api';
+import { Optimus } from '@bdspark/sparkng/config';
+import { BreadcrumbItemClickEvent } from '@bdspark/sparkng/types/breadcrumb';
 import { Breadcrumb } from './breadcrumb';
 
 @Component({

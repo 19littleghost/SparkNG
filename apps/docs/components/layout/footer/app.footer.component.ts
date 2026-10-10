@@ -9,7 +9,7 @@ import { RouterModule } from '@angular/router';
     template: `
         <div class="layout-footer">
             <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
-                <span>Optimus UI {{ version }} by <a [href]="openngUrl" target="_blank" rel="noopener noreferrer">OpenNG</a></span>
+                <span>Optimus UI {{ version }} by <a [href]="bdsparkUrl" target="_blank" rel="noopener noreferrer">bdSpark</a></span>
                 <a [routerLink]="'/philosophy'">Philosophy</a>
                 <a [routerLink]="'/faq'">FAQ</a>
                 <a [routerLink]="'/contribution'">Contribute</a>
@@ -21,7 +21,7 @@ import { RouterModule } from '@angular/router';
     `
 })
 export class AppFooterComponent {
-    readonly openngUrl = 'https://www.openng.org';
+    readonly bdsparkUrl = 'https://TODO-BDSPARK-DOMAIN';
 
     readonly githubRepoUrl = GITHUB_REPO_URL;
 

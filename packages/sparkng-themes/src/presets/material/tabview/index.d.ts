@@ -1,6 +1,6 @@
-import type { TabViewTokenSections } from '@openng/sparkng-themes/types/tabview';
+import type { TabViewTokenSections } from '@bdspark/sparkng-themes/types/tabview';
 
-export * from '@openng/sparkng-themes/types/tabview';
+export * from '@bdspark/sparkng-themes/types/tabview';
 
 declare const root: TabViewTokenSections.Root;
 declare const tabList: TabViewTokenSections.TabList;

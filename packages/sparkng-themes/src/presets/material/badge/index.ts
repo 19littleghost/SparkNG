@@ -1,4 +1,4 @@
-import type { BadgeDesignTokens, BadgeTokenSections } from '@openng/sparkng-themes/types/badge';
+import type { BadgeDesignTokens, BadgeTokenSections } from '@bdspark/sparkng-themes/types/badge';
 
 export const root: BadgeTokenSections.Root = {
     borderRadius: '{border.radius.md}',

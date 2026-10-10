@@ -1,4 +1,4 @@
-import type { TextareaDesignTokens, TextareaTokenSections } from '@openng/sparkng-themes/types/textarea';
+import type { TextareaDesignTokens, TextareaTokenSections } from '@bdspark/sparkng-themes/types/textarea';
 
 export const root: TextareaTokenSections.Root = {
     background: '{form.field.background}',

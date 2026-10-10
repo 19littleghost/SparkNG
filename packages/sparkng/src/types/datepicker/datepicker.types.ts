@@ -1,8 +1,8 @@
 import { TemplateRef } from '@angular/core';
-import type { MotionOptions } from '@openng/sparkng-motion';
-import type { PassThrough, PassThroughOption } from '@openng/sparkng/api';
-import type { ButtonPassThrough } from '@openng/sparkng/types/button';
-import type { InputTextPassThrough } from '@openng/sparkng/types/inputtext';
+import type { MotionOptions } from '@bdspark/sparkng-motion';
+import type { PassThrough, PassThroughOption } from '@bdspark/sparkng/api';
+import type { ButtonPassThrough } from '@bdspark/sparkng/types/button';
+import type { InputTextPassThrough } from '@bdspark/sparkng/types/inputtext';
 
 /**
  * Custom pass-through(pt) options.

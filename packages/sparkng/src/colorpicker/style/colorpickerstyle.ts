@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/colorpicker';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/colorpicker';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => ['p-colorpicker p-component', { 'p-colorpicker-overlay': !instance.inline, 'p-colorpicker-dragging': instance.colorDragging || instance.hueDragging }],
@@ -33,7 +33,7 @@ export class ColorPickerStyle extends BaseStyle {
  *
  * ColorPicker groups a collection of contents in tabs.
  *
- * [Live Demo](https://optimus.openng.org/colorpicker/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/colorpicker/)
  *
  * @module colorpickerstyle
  *

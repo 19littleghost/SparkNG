@@ -1,7 +1,7 @@
 import { TemplateRef } from '@angular/core';
-import type { PassThrough, PassThroughOption } from '@openng/sparkng/api';
-import type { ButtonPassThrough } from '@openng/sparkng/types/button';
-import type { ListBoxPassThrough } from '@openng/sparkng/types/listbox';
+import type { PassThrough, PassThroughOption } from '@bdspark/sparkng/api';
+import type { ButtonPassThrough } from '@bdspark/sparkng/types/button';
+import type { ListBoxPassThrough } from '@bdspark/sparkng/types/listbox';
 
 /**
  * Custom pass-through(pt) options.

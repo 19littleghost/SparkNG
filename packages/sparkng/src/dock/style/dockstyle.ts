@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/dock';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/dock';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => [
@@ -37,7 +37,7 @@ export class DockStyle extends BaseStyle {
  *
  * Dock is a navigation component consisting of menuitems.
  *
- * [Live Demo](https://optimus.openng.org/dock/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/dock/)
  *
  * @module dockstyle
  *

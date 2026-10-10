@@ -1,6 +1,6 @@
-import type { InputNumberTokenSections } from '@openng/sparkng-themes/types/inputnumber';
+import type { InputNumberTokenSections } from '@bdspark/sparkng-themes/types/inputnumber';
 
-export * from '@openng/sparkng-themes/types/inputnumber';
+export * from '@bdspark/sparkng-themes/types/inputnumber';
 
 declare const root: InputNumberTokenSections.Root;
 declare const button: InputNumberTokenSections.Button;

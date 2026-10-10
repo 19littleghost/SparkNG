@@ -1,4 +1,4 @@
-import type { InputChipsDesignTokens, InputChipsTokenSections } from '@openng/sparkng-themes/types/inputchips';
+import type { InputChipsDesignTokens, InputChipsTokenSections } from '@bdspark/sparkng-themes/types/inputchips';
 
 export const root: InputChipsTokenSections.Root = {
     background: '{form.field.background}',

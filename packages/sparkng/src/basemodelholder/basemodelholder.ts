@@ -1,6 +1,6 @@
 import { computed, Directive, signal } from '@angular/core';
-import { isNotEmpty } from '@openng/sparkng-utils';
-import { BaseComponent } from '@openng/sparkng/basecomponent';
+import { isNotEmpty } from '@bdspark/sparkng-utils';
+import { BaseComponent } from '@bdspark/sparkng/basecomponent';
 
 @Directive({ standalone: true })
 export class BaseModelHolder<PT = any> extends BaseComponent<PT> {

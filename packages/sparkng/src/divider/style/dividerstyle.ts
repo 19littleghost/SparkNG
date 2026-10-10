@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/divider';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/divider';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 /* Position */
 const inlineStyles = {
@@ -40,7 +40,7 @@ export class DividerStyle extends BaseStyle {
  *
  * Divider is used to separate contents.
  *
- * [Live Demo](https://optimus.openng.org/divider)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/divider)
  *
  * @module dividerstyle
  *

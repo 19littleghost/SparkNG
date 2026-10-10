@@ -1,6 +1,6 @@
 import { TemplateRef } from '@angular/core';
-import type { MotionOptions } from '@openng/sparkng-motion';
-import type { PassThrough, PassThroughOption, ToastMessageOptions } from '@openng/sparkng/api';
+import type { MotionOptions } from '@bdspark/sparkng-motion';
+import type { PassThrough, PassThroughOption, ToastMessageOptions } from '@bdspark/sparkng/api';
 
 /**
  * Custom pass-through(pt) options for Toast.

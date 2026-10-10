@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, inject, InjectionToken, NgModule, ViewEncapsulation } from '@angular/core';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { FluidPassThrough } from '@openng/sparkng/types/fluid';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { FluidPassThrough } from '@bdspark/sparkng/types/fluid';
 import { FluidStyle } from './style/fluidstyle';
 
 const FLUID_INSTANCE = new InjectionToken<Fluid>('FLUID_INSTANCE');

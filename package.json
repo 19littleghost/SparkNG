@@ -1,22 +1,22 @@
 {
     "name": "@bdspark/sparkng-monorepo",
     "version": "2.0.2",
-    "author": "OpenNg",
-    "homepage": "https://www.openng.org/",
+    "author": "bdSpark",
+    "homepage": "https://TODO-BDSPARK-DOMAIN/",
     "repository": {
         "type": "git",
-        "url": "https://github.com/openng-org/sparkng.git"
+        "url": "https://github.com/TODO-BDSPARK-ORG/sparkng.git"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/openng-org/sparkng/issues"
+        "url": "https://github.com/TODO-BDSPARK-ORG/sparkng/issues"
     },
     "scripts": {
         "clean": "npx rimraf --glob **/node_modules **/dist **/.angular ./pnpm-lock.yaml",
-        "link": "pnpm --filter './packages/*' dev:link",
-        "release": "pnpm run build && pnpm recursive publish --filter './packages/*' --no-git-checks --report-summary",
-        "release:beta": "pnpm run build && pnpm recursive publish --filter './packages/*' --no-git-checks --report-summary --tag beta",
-        "release:rc": "pnpm run build && pnpm recursive publish --filter './packages/*' --no-git-checks --report-summary --tag rc",
+        "link": "pnpm --filter \"./packages/*\" dev:link",
+        "release": "pnpm run build && pnpm recursive publish --filter \"./packages/*\" --no-git-checks --report-summary",
+        "release:beta": "pnpm run build && pnpm recursive publish --filter \"./packages/*\" --no-git-checks --report-summary --tag beta",
+        "release:rc": "pnpm run build && pnpm recursive publish --filter \"./packages/*\" --no-git-checks --report-summary --tag rc",
         "build": "cross-env NODE_ENV=production pnpm run build:check && pnpm run build:packages",
         "build:check": "pnpm run format:check && pnpm run security:check",
         "build:packages": "pnpm run build:sparkng && pnpm run build:lib && pnpm run build:themes && pnpm run build:docs:content && pnpm run build:docs",

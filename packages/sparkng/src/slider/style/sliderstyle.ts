@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/slider';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/slider';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const inlineStyles = {
     handle: { position: 'absolute' },
@@ -37,7 +37,7 @@ export class SliderStyle extends BaseStyle {
  *
  * Slider is a component to provide input with a drag handle.
  *
- * [Live Demo](https://optimus.openng.org/slider/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/slider/)
  *
  * @module sliderstyle
  *

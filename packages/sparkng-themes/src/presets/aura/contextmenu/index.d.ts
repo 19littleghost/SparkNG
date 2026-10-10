@@ -1,6 +1,6 @@
-import type { ContextMenuTokenSections } from '@openng/sparkng-themes/types/contextmenu';
+import type { ContextMenuTokenSections } from '@bdspark/sparkng-themes/types/contextmenu';
 
-export * from '@openng/sparkng-themes/types/contextmenu';
+export * from '@bdspark/sparkng-themes/types/contextmenu';
 
 declare const root: ContextMenuTokenSections.Root;
 declare const list: ContextMenuTokenSections.List;

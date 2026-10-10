@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/megamenu';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/megamenu';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const inlineStyles = {
     rootList: ({ instance }) => ({ 'max-height': instance.scrollHeight, overflow: 'auto' })
@@ -93,7 +93,7 @@ export class MegaMenuStyle extends BaseStyle {
  *
  * MegaMenu is navigation component that displays submenus together.
  *
- * [Live Demo](https://optimus.openng.org/megamenu/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/megamenu/)
  *
  * @module megamenustyle
  *

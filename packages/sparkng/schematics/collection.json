@@ -7,7 +7,7 @@
             "schema": "./ng-add/schema.json"
         },
         "migrate-from-primeng": {
-            "description": "Deprecated on this line, maintained only on release/1.x (@openng/sparkng@1). Migrate a PrimeNG v21 project to Optimus UI (including PrimeIcons to @openng/icons).",
+            "description": "Deprecated on this line, maintained only on release/1.x (@bdspark/sparkng@1). Migrate a PrimeNG v21 project to Optimus UI (including PrimeIcons to @bdspark/icons).",
             "factory": "./migrate-from-primeng/index#migrateFromPrimeng",
             "schema": "./migrate-from-primeng/schema.json"
         },

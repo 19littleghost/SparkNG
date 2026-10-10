@@ -26,17 +26,17 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { findLastIndex, findSingle, focus, isEmpty, isNotEmpty, isPrintableCharacter, isTouchDevice, resolve, uuid } from '@openng/sparkng-utils';
-import { MenuItem, PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BadgeModule } from '@openng/sparkng/badge';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { AngleDownIcon, AngleRightIcon, BarsIcon } from '@openng/sparkng/icons';
-import { Ripple } from '@openng/sparkng/ripple';
-import { TooltipModule } from '@openng/sparkng/tooltip';
-import { VoidListener } from '@openng/sparkng/ts-helpers';
-import { MenubarItemTemplateContext, MenubarPassThrough } from '@openng/sparkng/types/menubar';
-import { ZIndexUtils } from '@openng/sparkng/utils';
+import { findLastIndex, findSingle, focus, isEmpty, isNotEmpty, isPrintableCharacter, isTouchDevice, resolve, uuid } from '@bdspark/sparkng-utils';
+import { MenuItem, PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BadgeModule } from '@bdspark/sparkng/badge';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { AngleDownIcon, AngleRightIcon, BarsIcon } from '@bdspark/sparkng/icons';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { TooltipModule } from '@bdspark/sparkng/tooltip';
+import { VoidListener } from '@bdspark/sparkng/ts-helpers';
+import { MenubarItemTemplateContext, MenubarPassThrough } from '@bdspark/sparkng/types/menubar';
+import { ZIndexUtils } from '@bdspark/sparkng/utils';
 import { interval, Subject, Subscription } from 'rxjs';
 import { debounce, filter } from 'rxjs/operators';
 import { MenuBarStyle } from './style/menubarstyle';

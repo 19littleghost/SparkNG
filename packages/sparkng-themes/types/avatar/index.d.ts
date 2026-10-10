@@ -177,7 +177,7 @@ export declare namespace AvatarTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface AvatarDesignTokens extends DesignTokens<AvatarDesignTokens> {

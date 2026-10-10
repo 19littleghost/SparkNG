@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/imagecompare';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/imagecompare';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: 'p-imagecompare',
@@ -20,7 +20,7 @@ export class ImageCompareStyle extends BaseStyle {
  *
  * ImageCompare compares two images side by side with a slider.
  *
- * [Live Demo](https://optimus.openng.org/imagecompare/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/imagecompare/)
  *
  * @module imagecomparestyle
  *

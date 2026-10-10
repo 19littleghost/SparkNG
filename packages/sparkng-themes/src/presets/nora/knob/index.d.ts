@@ -1,6 +1,6 @@
-import type { KnobTokenSections } from '@openng/sparkng-themes/types/knob';
+import type { KnobTokenSections } from '@bdspark/sparkng-themes/types/knob';
 
-export * from '@openng/sparkng-themes/types/knob';
+export * from '@bdspark/sparkng-themes/types/knob';
 
 declare const root: KnobTokenSections.Root;
 declare const value: KnobTokenSections.Value;

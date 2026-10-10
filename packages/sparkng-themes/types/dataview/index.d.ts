@@ -202,7 +202,7 @@ export declare namespace DataViewTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface DataViewDesignTokens extends DesignTokens<DataViewDesignTokens> {

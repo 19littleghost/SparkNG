@@ -1,4 +1,4 @@
-import { addClass, removeClass } from '@openng/sparkng-utils';
+import { addClass, removeClass } from '@bdspark/sparkng-utils';
 import type { MotionClassNamesWithPhase, MotionHooksWithPhase, MotionInstance, MotionOptions, MotionPhase, MotionType } from '../../types';
 import { getMotionHooks, getMotionMetadata, mergeOptions, resolveClassNames, resolveDuration, setAutoDimensionVariables, shouldSkipMotion } from '../utils';
 

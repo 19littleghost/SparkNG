@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/menubar';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/menubar';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const inlineStyles = {
     submenu: ({ instance, processedItem }) => ({ display: instance.isItemActive(processedItem) ? 'flex' : 'none' })
@@ -50,7 +50,7 @@ export class MenuBarStyle extends BaseStyle {
  *
  * Menubar is a horizontal menu component.
  *
- * [Live Demo](https://optimus.openng.org/menubar/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/menubar/)
  *
  * @module menubarstyle
  *

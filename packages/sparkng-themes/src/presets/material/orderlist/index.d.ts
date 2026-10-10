@@ -1,6 +1,6 @@
-import type { OrderListTokenSections } from '@openng/sparkng-themes/types/orderlist';
+import type { OrderListTokenSections } from '@bdspark/sparkng-themes/types/orderlist';
 
-export * from '@openng/sparkng-themes/types/orderlist';
+export * from '@bdspark/sparkng-themes/types/orderlist';
 
 declare const root: OrderListTokenSections.Root;
 declare const controls: OrderListTokenSections.Controls;

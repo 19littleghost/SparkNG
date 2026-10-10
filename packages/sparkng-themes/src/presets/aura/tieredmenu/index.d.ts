@@ -1,6 +1,6 @@
-import type { TieredMenuTokenSections } from '@openng/sparkng-themes/types/tieredmenu';
+import type { TieredMenuTokenSections } from '@bdspark/sparkng-themes/types/tieredmenu';
 
-export * from '@openng/sparkng-themes/types/tieredmenu';
+export * from '@bdspark/sparkng-themes/types/tieredmenu';
 
 declare const root: TieredMenuTokenSections.Root;
 declare const list: TieredMenuTokenSections.List;

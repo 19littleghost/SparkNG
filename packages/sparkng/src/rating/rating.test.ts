@@ -3,10 +3,10 @@ import { ChangeDetectionStrategy, Component, DebugElement, provideZonelessChange
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { By } from '@angular/platform-browser';
-import { SharedModule } from '@openng/sparkng/api';
+import { SharedModule } from '@bdspark/sparkng/api';
 import { Rating } from './rating';
 
-import { provideOptimus } from '@openng/sparkng/config';
+import { provideOptimus } from '@bdspark/sparkng/config';
 
 // Basic Rating test component
 @Component({

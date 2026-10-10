@@ -1,4 +1,4 @@
-import type { BreadcrumbDesignTokens, BreadcrumbTokenSections } from '@openng/sparkng-themes/types/breadcrumb';
+import type { BreadcrumbDesignTokens, BreadcrumbTokenSections } from '@bdspark/sparkng-themes/types/breadcrumb';
 
 export const root: BreadcrumbTokenSections.Root = {
     padding: '1rem',

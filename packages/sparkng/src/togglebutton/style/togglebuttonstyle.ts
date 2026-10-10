@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as togglebutton_style } from '@openng/sparkng-styles/togglebutton';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as togglebutton_style } from '@bdspark/sparkng-styles/togglebutton';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${togglebutton_style}
@@ -47,7 +47,7 @@ export class ToggleButtonStyle extends BaseStyle {
  *
  * ToggleButton is used to select a boolean value using a button.
  *
- * [Live Demo](https://optimus.openng.org/togglebutton/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/togglebutton/)
  *
  * @module togglebuttonstyle
  *

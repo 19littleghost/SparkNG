@@ -1,10 +1,10 @@
 import { DOCUMENT, isPlatformServer } from '@angular/common';
 import { ChangeDetectorRef, computed, Directive, effect, ElementRef, inject, InjectionToken, Injector, input, PLATFORM_ID, Renderer2, signal, SimpleChanges } from '@angular/core';
-import { Theme, ThemeService } from '@openng/sparkng-styled';
-import { cn, getKeyValue, isArray, isFunction, isNotEmpty, isString, mergeProps, resolve, toFlatCase, uuid } from '@openng/sparkng-utils';
-import type { Lifecycle, PassThroughOptions } from '@openng/sparkng/api';
-import { Base, BaseStyle } from '@openng/sparkng/base';
-import { Optimus } from '@openng/sparkng/config';
+import { Theme, ThemeService } from '@bdspark/sparkng-styled';
+import { cn, getKeyValue, isArray, isFunction, isNotEmpty, isString, mergeProps, resolve, toFlatCase, uuid } from '@bdspark/sparkng-utils';
+import type { Lifecycle, PassThroughOptions } from '@bdspark/sparkng/api';
+import { Base, BaseStyle } from '@bdspark/sparkng/base';
+import { Optimus } from '@bdspark/sparkng/config';
 import { BaseComponentStyle } from './style/basecomponentstyle';
 
 export const PARENT_INSTANCE = new InjectionToken<BaseComponent>('PARENT_INSTANCE');

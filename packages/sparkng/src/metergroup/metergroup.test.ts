@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection } fr
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
-import { MeterItem } from '@openng/sparkng/types/metergroup';
+import { MeterItem } from '@bdspark/sparkng/types/metergroup';
 import { MeterGroup, MeterGroupLabel, MeterGroupModule } from './metergroup';
 
 @Component({

@@ -1,13 +1,13 @@
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, contentChild, ContentChildren, ElementRef, EventEmitter, forwardRef, inject, InjectionToken, Input, NgModule, numberAttribute, Output, QueryList, ViewEncapsulation } from '@angular/core';
-import { addClass, getHeight, getOuterHeight, getOuterWidth, getWidth, hasClass, isRTL, removeClass } from '@openng/sparkng-utils';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { Nullable, VoidListener } from '@openng/sparkng/ts-helpers';
-import type { SplitterResizeEndEvent, SplitterResizeStartEvent } from '@openng/sparkng/types/splitter';
+import { addClass, getHeight, getOuterHeight, getOuterWidth, getWidth, hasClass, isRTL, removeClass } from '@bdspark/sparkng-utils';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { Nullable, VoidListener } from '@bdspark/sparkng/ts-helpers';
+import type { SplitterResizeEndEvent, SplitterResizeStartEvent } from '@bdspark/sparkng/types/splitter';
 import { SplitterStyle } from './style/splitterstyle';
-import { SplitterPassThrough } from '@openng/sparkng/types/splitter';
+import { SplitterPassThrough } from '@bdspark/sparkng/types/splitter';
 
 const SPLITTER_INSTANCE = new InjectionToken<Splitter>('SPLITTER_INSTANCE');
 

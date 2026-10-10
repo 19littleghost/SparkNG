@@ -1,12 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, ContentChild, ElementRef, EventEmitter, inject, InjectionToken, Input, NgModule, numberAttribute, Output, SimpleChanges, TemplateRef, ViewEncapsulation } from '@angular/core';
-import { resolveFieldData } from '@openng/sparkng-utils';
-import { BlockableUI, FilterService, Footer, Header, SharedModule, TranslationKeys } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { SpinnerIcon } from '@openng/sparkng/icons';
-import { PaginatorModule } from '@openng/sparkng/paginator';
-import { Nullable } from '@openng/sparkng/ts-helpers';
+import { resolveFieldData } from '@bdspark/sparkng-utils';
+import { BlockableUI, FilterService, Footer, Header, SharedModule, TranslationKeys } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { SpinnerIcon } from '@bdspark/sparkng/icons';
+import { PaginatorModule } from '@bdspark/sparkng/paginator';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
 import {
     DataViewGridTemplateContext,
     DataViewLayoutChangeEvent,
@@ -19,7 +19,7 @@ import {
     DataViewPaginatorState,
     DataViewPassThrough,
     DataViewSortEvent
-} from '@openng/sparkng/types/dataview';
+} from '@bdspark/sparkng/types/dataview';
 import { Subscription } from 'rxjs';
 import { DataViewStyle } from './style/dataviewstyle';
 

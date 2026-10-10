@@ -1,4 +1,4 @@
-import type { StyleType } from '@openng/sparkng-styled';
+import type { StyleType } from '@bdspark/sparkng-styled';
 
 export declare const style: StyleType;
 

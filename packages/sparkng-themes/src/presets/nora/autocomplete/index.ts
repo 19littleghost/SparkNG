@@ -1,4 +1,4 @@
-import type { AutoCompleteDesignTokens, AutoCompleteTokenSections } from '@openng/sparkng-themes/types/autocomplete';
+import type { AutoCompleteDesignTokens, AutoCompleteTokenSections } from '@bdspark/sparkng-themes/types/autocomplete';
 
 export const root: AutoCompleteTokenSections.Root = {
     background: '{form.field.background}',

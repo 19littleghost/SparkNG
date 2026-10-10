@@ -1,6 +1,6 @@
-import type { IconFieldTokenSections } from '@openng/sparkng-themes/types/iconfield';
+import type { IconFieldTokenSections } from '@bdspark/sparkng-themes/types/iconfield';
 
-export * from '@openng/sparkng-themes/types/iconfield';
+export * from '@bdspark/sparkng-themes/types/iconfield';
 
 declare const icon: IconFieldTokenSections.Icon;
 declare const css: IconFieldTokenSections.CSS;

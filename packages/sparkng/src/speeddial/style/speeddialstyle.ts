@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/speeddial';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/speeddial';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 /* Direction */
 const inlineStyles = {
@@ -51,7 +51,7 @@ export class SpeedDialStyle extends BaseStyle {
  *
  * When pressed, a floating action button can display multiple primary actions that can be performed on a page.
  *
- * [Live Demo](https://optimus.openng.org/speeddial/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/speeddial/)
  *
  * @module speeddialstyle
  *

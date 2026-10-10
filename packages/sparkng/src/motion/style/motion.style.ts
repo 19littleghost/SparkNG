@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BaseStyle } from '@openng/sparkng/base';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     .p-motion {
@@ -24,7 +24,7 @@ export class MotionStyle extends BaseStyle {
  *
  * Motion and MotionDirective provide an easy way to add motion effects to Angular applications.
  *
- * [Live Demo](https://optimus.openng.org/motion)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/motion)
  *
  * @module motionstyle
  *

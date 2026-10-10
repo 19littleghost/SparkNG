@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/avatar';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/avatar';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => [
@@ -29,7 +29,7 @@ export class AvatarStyle extends BaseStyle {
  *
  * Avatar represents people using icons, labels and images.
  *
- * - [Live Demo](https://optimus.openng.org/avatar)
+ * - [Live Demo](https://TODO-BDSPARK-DOMAIN/avatar)
  *
  * @module avatarstyle
  *

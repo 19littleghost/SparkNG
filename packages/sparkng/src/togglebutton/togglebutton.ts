@@ -19,14 +19,14 @@ import {
     TemplateRef
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseEditableHolder } from '@openng/sparkng/baseeditableholder';
-import { Bind } from '@openng/sparkng/bind';
-import { BindModule } from '@openng/sparkng/bind';
-import { Ripple } from '@openng/sparkng/ripple';
-import { Nullable } from '@openng/sparkng/ts-helpers';
-import { ToggleButtonChangeEvent, ToggleButtonContentTemplateContext, ToggleButtonIconTemplateContext, ToggleButtonPassThrough } from '@openng/sparkng/types/togglebutton';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseEditableHolder } from '@bdspark/sparkng/baseeditableholder';
+import { Bind } from '@bdspark/sparkng/bind';
+import { BindModule } from '@bdspark/sparkng/bind';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
+import { ToggleButtonChangeEvent, ToggleButtonContentTemplateContext, ToggleButtonIconTemplateContext, ToggleButtonPassThrough } from '@bdspark/sparkng/types/togglebutton';
 import { ToggleButtonStyle } from './style/togglebuttonstyle';
 
 const TOGGLEBUTTON_INSTANCE = new InjectionToken<ToggleButton>('TOGGLEBUTTON_INSTANCE');

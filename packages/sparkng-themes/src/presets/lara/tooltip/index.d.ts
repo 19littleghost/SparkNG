@@ -1,6 +1,6 @@
-import type { TooltipTokenSections } from '@openng/sparkng-themes/types/tooltip';
+import type { TooltipTokenSections } from '@bdspark/sparkng-themes/types/tooltip';
 
-export * from '@openng/sparkng-themes/types/tooltip';
+export * from '@bdspark/sparkng-themes/types/tooltip';
 
 declare const root: TooltipTokenSections.Root;
 declare const colorScheme: TooltipTokenSections.ColorScheme;

@@ -167,7 +167,7 @@ export declare namespace FloatLabelTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface FloatLabelDesignTokens extends DesignTokens<FloatLabelDesignTokens> {

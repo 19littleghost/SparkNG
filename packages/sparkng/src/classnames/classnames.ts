@@ -1,5 +1,5 @@
 import { Directive, NgModule, computed, input } from '@angular/core';
-import { cn } from '@openng/sparkng-utils';
+import { cn } from '@bdspark/sparkng-utils';
 /**
  * Represents the suitable value types of pClass directive.
  * @group Types

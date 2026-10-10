@@ -1,6 +1,6 @@
-import type { EditorTokenSections } from '@openng/sparkng-themes/types/editor';
+import type { EditorTokenSections } from '@bdspark/sparkng-themes/types/editor';
 
-export * from '@openng/sparkng-themes/types/editor';
+export * from '@bdspark/sparkng-themes/types/editor';
 
 declare const toolbar: EditorTokenSections.Toolbar;
 declare const toolbarItem: EditorTokenSections.ToolbarItem;

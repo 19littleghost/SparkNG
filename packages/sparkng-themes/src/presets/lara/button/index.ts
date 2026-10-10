@@ -1,4 +1,4 @@
-import type { ButtonDesignTokens, ButtonTokenSections } from '@openng/sparkng-themes/types/button';
+import type { ButtonDesignTokens, ButtonTokenSections } from '@bdspark/sparkng-themes/types/button';
 
 export const root: ButtonTokenSections.Root = {
     borderRadius: '{form.field.border.radius}',

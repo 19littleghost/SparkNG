@@ -1,6 +1,6 @@
-import type { DialogTokenSections } from '@openng/sparkng-themes/types/dialog';
+import type { DialogTokenSections } from '@bdspark/sparkng-themes/types/dialog';
 
-export * from '@openng/sparkng-themes/types/dialog';
+export * from '@bdspark/sparkng-themes/types/dialog';
 
 declare const root: DialogTokenSections.Root;
 declare const header: DialogTokenSections.Header;

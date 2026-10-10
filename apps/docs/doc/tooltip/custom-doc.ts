@@ -17,7 +17,7 @@ import { TooltipModule } from '@bdspark/sparkng/tooltip';
             <p-button [pTooltip]="tooltipContent" severity="secondary" tooltipPosition="bottom" label="Button" />
             <ng-template #tooltipContent>
                 <div class="flex items-center">
-                    <img src="https://optimus.openng.org/logo-icon.svg" alt="Optimus UI" width="32" height="32" class="mr-2" />
+                    <img src="https://TODO-BDSPARK-DOMAIN/logo-icon.svg" alt="Optimus UI" width="32" height="32" class="mr-2" />
                     <span> <b>Optimus UI</b> rocks! </span>
                 </div>
             </ng-template>

@@ -3,7 +3,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
 import { FormControl, FormGroup, FormsModule, NgModel, ReactiveFormsModule } from '@angular/forms';
-import { TreeDragDropService, TreeNode } from '@openng/sparkng/api';
+import { TreeDragDropService, TreeNode } from '@bdspark/sparkng/api';
 import { Tree, UITreeNode } from './tree';
 
 // Test component for basic use cases

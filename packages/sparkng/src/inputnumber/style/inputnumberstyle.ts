@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as inputnumber_style } from '@openng/sparkng-styles/inputnumber';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as inputnumber_style } from '@bdspark/sparkng-styles/inputnumber';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${inputnumber_style}
@@ -68,7 +68,7 @@ export class InputNumberStyle extends BaseStyle {
  *
  * InputNumber is an input component to provide numerical input.
  *
- * [Live Demo](https:/optimus.openng.org/inputnumber/)
+ * [Live Demo](https:/TODO-BDSPARK-DOMAIN/inputnumber/)
  *
  * @module inputnumberstyle
  *

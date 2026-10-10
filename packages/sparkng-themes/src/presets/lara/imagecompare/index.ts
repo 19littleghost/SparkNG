@@ -1,4 +1,4 @@
-import type { ImageCompareDesignTokens, ImageCompareTokenSections } from '@openng/sparkng-themes/types/imagecompare';
+import type { ImageCompareDesignTokens, ImageCompareTokenSections } from '@bdspark/sparkng-themes/types/imagecompare';
 
 export const handle: ImageCompareTokenSections.Handle = {
     size: '15px',

@@ -1,8 +1,8 @@
 import { isPlatformBrowser } from '@angular/common';
 import { Directive, effect, inject, NgModule, NgZone } from '@angular/core';
-import { addClass, getHeight, getOffset, getOuterHeight, getOuterWidth, getWidth, removeClass, remove as utils_remove } from '@openng/sparkng-utils';
-import { BaseComponent } from '@openng/sparkng/basecomponent';
-import { VoidListener } from '@openng/sparkng/ts-helpers';
+import { addClass, getHeight, getOffset, getOuterHeight, getOuterWidth, getWidth, removeClass, remove as utils_remove } from '@bdspark/sparkng-utils';
+import { BaseComponent } from '@bdspark/sparkng/basecomponent';
+import { VoidListener } from '@bdspark/sparkng/ts-helpers';
 import { RippleStyle } from './style/ripplestyle';
 
 /**

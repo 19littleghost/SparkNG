@@ -1,4 +1,4 @@
-import { isObject, matchRegex, toKebabCase } from '@openng/sparkng-utils/object';
+import { isObject, matchRegex, toKebabCase } from '@bdspark/sparkng-utils/object';
 import Theme from '../config/index';
 import { getRule, getVariableName, getVariableValue, setProperty, toNormalizeVariable, toValue } from '../utils/index';
 

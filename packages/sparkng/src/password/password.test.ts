@@ -5,8 +5,8 @@ import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } 
 import { By } from '@angular/platform-browser';
 
 import { CommonModule } from '@angular/common';
-import { SharedModule } from '@openng/sparkng/api';
-import { provideOptimus } from '@openng/sparkng/config';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { provideOptimus } from '@bdspark/sparkng/config';
 import { MapperPipe, Password, PasswordDirective, PasswordModule } from './password';
 
 // Test Components

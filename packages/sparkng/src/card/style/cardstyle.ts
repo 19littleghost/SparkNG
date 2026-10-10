@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as card_style } from '@openng/sparkng-styles/card';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as card_style } from '@bdspark/sparkng-styles/card';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${card_style}
@@ -34,7 +34,7 @@ export class CardStyle extends BaseStyle {
  *
  * Card is a flexible container component.
  *
- * [Live Demo](https://optimus.openng.org/card/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/card/)
  *
  * @module cardstyle
  *

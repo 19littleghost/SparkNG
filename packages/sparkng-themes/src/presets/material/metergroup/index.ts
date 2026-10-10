@@ -1,4 +1,4 @@
-import type { MeterGroupDesignTokens, MeterGroupTokenSections } from '@openng/sparkng-themes/types/metergroup';
+import type { MeterGroupDesignTokens, MeterGroupTokenSections } from '@bdspark/sparkng-themes/types/metergroup';
 
 export const root: MeterGroupTokenSections.Root = {
     borderRadius: '{content.border.radius}',

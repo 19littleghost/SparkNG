@@ -1,6 +1,6 @@
-import type { ButtonTokenSections } from '@openng/sparkng-themes/types/button';
+import type { ButtonTokenSections } from '@bdspark/sparkng-themes/types/button';
 
-export * from '@openng/sparkng-themes/types/button';
+export * from '@bdspark/sparkng-themes/types/button';
 
 declare const root: ButtonTokenSections.Root;
 declare const colorScheme: ButtonTokenSections.ColorScheme;

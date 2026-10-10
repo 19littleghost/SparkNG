@@ -1,10 +1,10 @@
 import { TemplateRef } from '@angular/core';
-import type { PassThrough, PassThroughOption, ScrollerOptions } from '@openng/sparkng/api';
-import type { CheckboxPassThrough } from '@openng/sparkng/types/checkbox';
-import type { ChipPassThrough } from '@openng/sparkng/types/chip';
-import type { IconFieldPassThrough } from '@openng/sparkng/types/iconfield';
-import type { InputIconPassThrough } from '@openng/sparkng/types/inputicon';
-import type { InputTextPassThrough } from '@openng/sparkng/types/inputtext';
+import type { PassThrough, PassThroughOption, ScrollerOptions } from '@bdspark/sparkng/api';
+import type { CheckboxPassThrough } from '@bdspark/sparkng/types/checkbox';
+import type { ChipPassThrough } from '@bdspark/sparkng/types/chip';
+import type { IconFieldPassThrough } from '@bdspark/sparkng/types/iconfield';
+import type { InputIconPassThrough } from '@bdspark/sparkng/types/inputicon';
+import type { InputTextPassThrough } from '@bdspark/sparkng/types/inputtext';
 
 /**
  * Custom pass-through(pt) options.

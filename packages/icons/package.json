@@ -1,0 +1,18 @@
+{
+  "name": "@bdspark/icons",
+  "version": "1.0.0",
+  "description": "Icon Library for bdSpark UI Libraries",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TODO-BDSPARK-ORG/icons.git"
+  },
+  "keywords": [
+    "Icon"
+  ],
+  "author": "bdSpark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TODO-BDSPARK-ORG/icons/issues"
+  },
+  "homepage": "https://TODO-BDSPARK-DOMAIN/"
+}

@@ -1,11 +1,11 @@
 import { NgTemplateOutlet } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, computed, contentChild, forwardRef, inject, InjectionToken, input, model, ViewEncapsulation } from '@angular/core';
-import { equals } from '@openng/sparkng-utils';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
+import { equals } from '@bdspark/sparkng-utils';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
 import { TabPanelStyle } from './style/tabpanelstyle';
 import { Tabs } from './tabs';
-import { TabPanelPassThrough } from '@openng/sparkng/types/tabs';
+import { TabPanelPassThrough } from '@bdspark/sparkng/types/tabs';
 
 const TABPANEL_INSTANCE = new InjectionToken<TabPanel>('TABPANEL_INSTANCE');
 

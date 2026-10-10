@@ -12,7 +12,7 @@ import { RouterModule } from '@angular/router';
         <app-docsectiontext>
             <p>
                 Optimus UI components accept any icon through templating, so an icon library is optional. That said, every example in this documentation uses the <i>pi pi-&#123;icon&#125;</i> classes from
-                <a [routerLink]="'/icons'" class="doc-link">OpenNG Icons</a>, and component defaults such as the DatePicker arrows reference them too. Install it if you want the demos to look the way they do here.
+                <a [routerLink]="'/icons'" class="doc-link">bdSpark Icons</a>, and component defaults such as the DatePicker arrows reference them too. Install it if you want the demos to look the way they do here.
             </p>
             <app-code [code]="installCode" [hideToggleCode]="true" class="block mb-4"></app-code>
             <p>Then import the stylesheet, either from your global stylesheet or from the <i>styles</i> array in <i>angular.json</i>.</p>
@@ -22,10 +22,10 @@ import { RouterModule } from '@angular/router';
 })
 export class InstallationIconsDoc {
     installCode: Code = {
-        command: `npm install @openng/icons`
+        command: `npm install @bdspark/icons`
     };
 
     importCode: Code = {
-        scss: `@import "@openng/icons/openng-icons.css";`
+        scss: `@import "@bdspark/icons/bdspark-icons.css";`
     };
 }

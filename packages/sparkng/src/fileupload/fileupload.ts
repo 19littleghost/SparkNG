@@ -23,17 +23,17 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
-import { addClass, removeClass } from '@openng/sparkng-utils';
-import { BlockableUI, PrimeTemplate, SharedModule, TranslationKeys } from '@openng/sparkng/api';
-import { Badge } from '@openng/sparkng/badge';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { Button, ButtonProps } from '@openng/sparkng/button';
-import { PlusIcon, TimesIcon, UploadIcon } from '@openng/sparkng/icons';
-import { Message } from '@openng/sparkng/message';
-import { ProgressBar } from '@openng/sparkng/progressbar';
-import { VoidListener } from '@openng/sparkng/ts-helpers';
-import type { BadgeSeverity } from '@openng/sparkng/types/badge';
+import { addClass, removeClass } from '@bdspark/sparkng-utils';
+import { BlockableUI, PrimeTemplate, SharedModule, TranslationKeys } from '@bdspark/sparkng/api';
+import { Badge } from '@bdspark/sparkng/badge';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { Button, ButtonProps } from '@bdspark/sparkng/button';
+import { PlusIcon, TimesIcon, UploadIcon } from '@bdspark/sparkng/icons';
+import { Message } from '@bdspark/sparkng/message';
+import { ProgressBar } from '@bdspark/sparkng/progressbar';
+import { VoidListener } from '@bdspark/sparkng/ts-helpers';
+import type { BadgeSeverity } from '@bdspark/sparkng/types/badge';
 import {
     FileBeforeUploadEvent,
     FileProgressEvent,
@@ -48,7 +48,7 @@ import {
     FileUploadHeaderTemplateContext,
     FileUploadPassThrough,
     RemoveUploadedFileEvent
-} from '@openng/sparkng/types/fileupload';
+} from '@bdspark/sparkng/types/fileupload';
 import { Subscription } from 'rxjs';
 import { FileUploadStyle } from './style/fileuploadstyle';
 

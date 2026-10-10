@@ -1,6 +1,6 @@
-import type { TimelineTokenSections } from '@openng/sparkng-themes/types/timeline';
+import type { TimelineTokenSections } from '@bdspark/sparkng-themes/types/timeline';
 
-export * from '@openng/sparkng-themes/types/timeline';
+export * from '@bdspark/sparkng-themes/types/timeline';
 
 declare const event: TimelineTokenSections.Event;
 declare const horizontal: TimelineTokenSections.Horizontal;

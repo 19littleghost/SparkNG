@@ -1,6 +1,6 @@
-import type { DrawerTokenSections } from '@openng/sparkng-themes/types/drawer';
+import type { DrawerTokenSections } from '@bdspark/sparkng-themes/types/drawer';
 
-export * from '@openng/sparkng-themes/types/drawer';
+export * from '@bdspark/sparkng-themes/types/drawer';
 
 declare const root: DrawerTokenSections.Root;
 declare const header: DrawerTokenSections.Header;

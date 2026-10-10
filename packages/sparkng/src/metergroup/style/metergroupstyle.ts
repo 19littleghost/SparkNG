@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/metergroup';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/metergroup';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => [
@@ -38,7 +38,7 @@ export class MeterGroupStyle extends BaseStyle {
  *
  * MeterGroup is a group of process status indicators.
  *
- * [Live Demo](https://optimus.openng.org/metergroup)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/metergroup)
  *
  * @module metergroupstyle
  *

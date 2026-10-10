@@ -3,7 +3,7 @@ import { ChangeDetectionStrategy, Component, DebugElement, provideZonelessChange
 import { FormsModule, ReactiveFormsModule, FormControl, Validators } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { InputOtp, InputOtpChangeEvent } from './inputotp';
-import { provideOptimus } from '@openng/sparkng/config';
+import { provideOptimus } from '@bdspark/sparkng/config';
 
 // Temel test component'i
 @Component({

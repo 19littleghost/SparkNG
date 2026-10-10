@@ -2,8 +2,8 @@ import { ChangeDetectionStrategy, Component, DebugElement, provideZonelessChange
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
-import { provideOptimus } from '@openng/sparkng/config';
-import { FieldsetAfterToggleEvent, FieldsetBeforeToggleEvent } from '@openng/sparkng/types/fieldset';
+import { provideOptimus } from '@bdspark/sparkng/config';
+import { FieldsetAfterToggleEvent, FieldsetBeforeToggleEvent } from '@bdspark/sparkng/types/fieldset';
 import { Fieldset } from './fieldset';
 
 @Component({

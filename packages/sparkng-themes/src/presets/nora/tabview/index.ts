@@ -1,4 +1,4 @@
-import type { TabViewDesignTokens, TabViewTokenSections } from '@openng/sparkng-themes/types/tabview';
+import type { TabViewDesignTokens, TabViewTokenSections } from '@bdspark/sparkng-themes/types/tabview';
 
 export const root: TabViewTokenSections.Root = {
     transitionDuration: '{transition.duration}'

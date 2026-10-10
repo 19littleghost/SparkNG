@@ -1,21 +1,21 @@
 {
-    "name": "@openng/sparkng-locale",
+    "name": "@bdspark/sparkng-locale",
     "version": "2.0.2",
-    "author": "OpenNg",
+    "author": "bdSpark",
     "description": "i18n and l7n locales for Optimus UI components",
-    "homepage": "https://www.openng.org/",
+    "homepage": "https://TODO-BDSPARK-DOMAIN/",
     "license": "MIT",
     "type": "module",
     "repository": {
         "type": "git",
-        "url": "https://github.com/openng-org/sparkng.git",
+        "url": "https://github.com/TODO-BDSPARK-ORG/sparkng.git",
         "directory": "packages/sparkng-locale"
     },
     "bugs": {
-        "url": "https://github.com/openng-org/sparkng/issues"
+        "url": "https://github.com/TODO-BDSPARK-ORG/sparkng/issues"
     },
     "keywords": [
-        "openng",
+        "bdspark",
         "angular",
         "i18n",
         "l7n",

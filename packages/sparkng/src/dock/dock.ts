@@ -19,15 +19,15 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterModule } from '@angular/router';
-import { find, findSingle, resolve, uuid } from '@openng/sparkng-utils';
-import { MenuItem, PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { Badge } from '@openng/sparkng/badge';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { Ripple } from '@openng/sparkng/ripple';
-import { TooltipModule } from '@openng/sparkng/tooltip';
-import { Nullable } from '@openng/sparkng/ts-helpers';
-import { DockItemTemplateContext, DockPassThrough } from '@openng/sparkng/types/dock';
+import { find, findSingle, resolve, uuid } from '@bdspark/sparkng-utils';
+import { MenuItem, PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { Badge } from '@bdspark/sparkng/badge';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { TooltipModule } from '@bdspark/sparkng/tooltip';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
+import { DockItemTemplateContext, DockPassThrough } from '@bdspark/sparkng/types/dock';
 import { DockStyle } from './style/dockstyle';
 
 const DOCK_INSTANCE = new InjectionToken<Dock>('DOCK_INSTANCE');

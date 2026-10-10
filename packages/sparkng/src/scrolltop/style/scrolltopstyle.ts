@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/scrolltop';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/scrolltop';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => ['p-scrolltop', { 'p-scrolltop-sticky': instance.target !== 'window' }],
@@ -20,7 +20,7 @@ export class ScrollTopStyle extends BaseStyle {
  *
  * ScrollTop gets displayed after a certain scroll position and used to navigates to the top of the page quickly.
  *
- * [Live Demo](https://optimus.openng.org/scrolltop/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/scrolltop/)
  *
  * @module scrolltopstyle
  *

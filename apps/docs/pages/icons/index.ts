@@ -16,7 +16,7 @@ import { AppDoc } from '@/components/doc/app.doc';
         <app-doc
             docTitle="Icons - Optimus UI"
             header="Icons"
-            description="OpenNG Icons is the default icon library of Optimus UI with over 250 open source icons. OpenNG Icons library is optional as Optimus UI components can use any icon with templating."
+            description="bdSpark Icons is the default icon library of Optimus UI with over 250 open source icons. bdSpark Icons library is optional as Optimus UI components can use any icon with templating."
             [docs]="docs"
             docType="page"
         ></app-doc>

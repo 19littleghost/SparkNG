@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as inputtext_style } from '@openng/sparkng-styles/inputtext';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as inputtext_style } from '@bdspark/sparkng-styles/inputtext';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${inputtext_style}
@@ -42,7 +42,7 @@ export class InputTextStyle extends BaseStyle {
  *
  * InputText renders a text field to enter data.
  *
- * [Live Demo](https://optimus.openng.org/inputtext/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/inputtext/)
  *
  * @module inputtextstyle
  *

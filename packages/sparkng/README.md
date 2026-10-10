@@ -1,18 +1,18 @@
 <div align="center">
-  <img src="https://optimus.openng.org/large-icon.svg" alt="Optimus UI" width="140" />
+  <img src="https://TODO-BDSPARK-DOMAIN/large-icon.svg" alt="Optimus UI" width="140" />
 
   <h1>Optimus UI</h1>
   <p><strong>A rich set of open-source UI Components for Angular</strong></p>
 
   <p>
-    <a href="https://www.npmjs.com/package/@openng/sparkng">
-      <img src="https://img.shields.io/npm/v/@openng/sparkng.svg" alt="npm version">
+    <a href="https://www.npmjs.com/package/@bdspark/sparkng">
+      <img src="https://img.shields.io/npm/v/@bdspark/sparkng.svg" alt="npm version">
     </a>
-    <a href="https://www.npmjs.com/package/@openng/sparkng">
-      <img src="https://img.shields.io/npm/dm/@openng/sparkng.svg" alt="npm downloads">
+    <a href="https://www.npmjs.com/package/@bdspark/sparkng">
+      <img src="https://img.shields.io/npm/dm/@bdspark/sparkng.svg" alt="npm downloads">
     </a>
-    <a href="https://github.com/openng-org/sparkng/blob/main/LICENSE">
-      <img src="https://img.shields.io/npm/l/@openng/sparkng.svg" alt="License">
+    <a href="https://github.com/TODO-BDSPARK-ORG/sparkng/blob/main/LICENSE">
+      <img src="https://img.shields.io/npm/l/@bdspark/sparkng.svg" alt="License">
     </a>
   </p>
 </div>
@@ -26,7 +26,7 @@ Optimus UI is a comprehensive library of open-source UI Components for Angular a
 Optimus UI provides an Angular CLI schematic for quick and easy installation in a new project. Run:
 
 ```bash
-ng add @openng/sparkng
+ng add @bdspark/sparkng
 ```
 
 This installs the library and wires `provideOptimus({ theme: { preset: Aura } })` into your
@@ -43,12 +43,12 @@ Optimus UI is API-compatible with PrimeNG v21. On a PrimeNG v21 workspace, run t
 migration schematic:
 
 ```bash
-ng generate @openng/sparkng@1:migrate-from-primeng          # options: --skip-install, --force
+ng generate @bdspark/sparkng@1:migrate-from-primeng          # options: --skip-install, --force
 ```
 
-This replaces `primeng` and `@primeuix/*` dependencies with their `@openng` counterparts, rewrites
-TypeScript imports (`primeng/button` → `@openng/sparkng/button`, `@primeuix/themes/aura` →
-`@openng/sparkng-themes/aura`), and renames the config API (`providePrimeNG` → `provideOptimus`,
+This replaces `primeng` and `@primeuix/*` dependencies with their `@bdspark` counterparts, rewrites
+TypeScript imports (`primeng/button` → `@bdspark/sparkng/button`, `@primeuix/themes/aura` →
+`@bdspark/sparkng-themes/aura`), and renames the config API (`providePrimeNG` → `provideOptimus`,
 `PrimeNG` → `Optimus`, `PrimeNGConfigType` → `OptimusConfigType`). Anything it cannot migrate is
 listed as a warning for manual review.
 
@@ -63,7 +63,7 @@ Optimus UI components can be imported as standalone components or via their resp
 
 ```typescript
 import { Component } from '@angular/core';
-import { ButtonModule } from '@openng/sparkng/button';
+import { ButtonModule } from '@bdspark/sparkng/button';
 
 @Component({
   selector: 'app-root',
@@ -77,13 +77,13 @@ export class AppComponent {}
 
 For detailed documentation, interactive component demos, theming guides, and more, please visit the official website:
 
-**[Optimus UI Documentation](https://optimus.openng.org/)**
+**[Optimus UI Documentation](https://TODO-BDSPARK-DOMAIN/)**
 
 
 ## 🤝 Contributing
 
-We welcome and appreciate contributions from the community! If you're interested in helping improve Optimus UI, please take a look at our [Contributing Guide](https://github.com/openng-org/sparkng/blob/main/CONTRIBUTING.md) for instructions on how to get started.
+We welcome and appreciate contributions from the community! If you're interested in helping improve Optimus UI, please take a look at our [Contributing Guide](https://github.com/TODO-BDSPARK-ORG/sparkng/blob/main/CONTRIBUTING.md) for instructions on how to get started.
 
 ## 📄 License
 
-Optimus UI is licensed under the [MIT License](https://github.com/openng-org/sparkng/blob/main/LICENSE.md).
+Optimus UI is licensed under the [MIT License](https://github.com/TODO-BDSPARK-ORG/sparkng/blob/main/LICENSE.md).

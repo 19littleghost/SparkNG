@@ -9,8 +9,8 @@ import { RouterModule } from '@angular/router';
     template: `
         <app-docsectiontext>
             <p>
-                The honest answer to "how is this funded" is: it mostly is not. OpenNG covers the hosting and the domain; the work is volunteered. That is a fragile arrangement, and it is the main risk to this project — larger than any technical risk
-                we can see today.
+                The honest answer to "how is this funded" is: it mostly is not. bdSpark covers the hosting and the domain; the work is volunteered. That is a fragile arrangement, and it is the main risk to this project — larger than any technical
+                risk we can see today.
             </p>
             <p>The things that actually help, roughly in order of impact:</p>
             <ul class="leading-relaxed">

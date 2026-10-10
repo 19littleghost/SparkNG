@@ -114,14 +114,14 @@ export class AppDoc implements OnInit, OnChanges {
 
     githubIssuesUrl = computed(() => {
         const name = this._componentName();
-        return name ? `https://github.com/openng-org/sparkng/issues?q=${encodeURIComponent(`is:issue state:open label:"Component: ${name}"`)}` : null;
+        return name ? `https://github.com/TODO-BDSPARK-ORG/sparkng/issues?q=${encodeURIComponent(`is:issue state:open label:"Component: ${name}"`)}` : null;
     });
 
     githubIssuesCount = toSignal(
         toObservable(this._componentName).pipe(
             switchMap((name) => {
                 if (!name) return of(0);
-                const query = encodeURIComponent(`repo:openng-org/sparkng is:issue state:open label:"Component: ${name}"`);
+                const query = encodeURIComponent(`repo:TODO-BDSPARK-ORG/sparkng is:issue state:open label:"Component: ${name}"`);
                 return from(fetch(`https://api.github.com/search/issues?q=${query}&per_page=1`).then((res) => res.json())).pipe(
                     map((data: any) => data.total_count ?? 0),
                     catchError(() => of(0))

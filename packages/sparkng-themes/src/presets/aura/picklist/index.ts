@@ -1,4 +1,4 @@
-import type { PickListDesignTokens, PickListTokenSections } from '@openng/sparkng-themes/types/picklist';
+import type { PickListDesignTokens, PickListTokenSections } from '@bdspark/sparkng-themes/types/picklist';
 
 export const root: PickListTokenSections.Root = {
     gap: '1.125rem'

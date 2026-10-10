@@ -1,4 +1,4 @@
-import type { KnobDesignTokens, KnobTokenSections } from '@openng/sparkng-themes/types/knob';
+import type { KnobDesignTokens, KnobTokenSections } from '@bdspark/sparkng-themes/types/knob';
 
 export const root: KnobTokenSections.Root = {
     transitionDuration: '{transition.duration}',

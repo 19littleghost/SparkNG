@@ -51,17 +51,17 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { getUserAgent, isClient } from '@openng/sparkng-utils';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { AutoFocus } from '@openng/sparkng/autofocus';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseInput } from '@openng/sparkng/baseinput';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { TimesIcon } from '@openng/sparkng/icons';
-import { InputText } from '@openng/sparkng/inputtext';
-import { Nullable } from '@openng/sparkng/ts-helpers';
-import type { Caret } from '@openng/sparkng/types/inputmask';
-import { InputMaskPassThrough } from '@openng/sparkng/types/inputmask';
+import { getUserAgent, isClient } from '@bdspark/sparkng-utils';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { AutoFocus } from '@bdspark/sparkng/autofocus';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseInput } from '@bdspark/sparkng/baseinput';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { TimesIcon } from '@bdspark/sparkng/icons';
+import { InputText } from '@bdspark/sparkng/inputtext';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
+import type { Caret } from '@bdspark/sparkng/types/inputmask';
+import { InputMaskPassThrough } from '@bdspark/sparkng/types/inputmask';
 import { InputMaskStyle } from './style/inputmaskstyle';
 
 const INPUTMASK_INSTANCE = new InjectionToken<InputMask>('INPUTMASK_INSTANCE');

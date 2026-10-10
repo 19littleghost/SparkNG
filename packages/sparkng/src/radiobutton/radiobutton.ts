@@ -20,15 +20,15 @@ import {
     ViewChild
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR, NgControl } from '@angular/forms';
-import { SharedModule } from '@openng/sparkng/api';
-import { AutoFocus } from '@openng/sparkng/autofocus';
-import { PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseEditableHolder } from '@openng/sparkng/baseeditableholder';
-import { Bind } from '@openng/sparkng/bind';
-import { BindModule } from '@openng/sparkng/bind';
-import { Nullable } from '@openng/sparkng/ts-helpers';
-import { RadioButtonPassThrough } from '@openng/sparkng/types/radiobutton';
-import type { RadioButtonClickEvent } from '@openng/sparkng/types/radiobutton';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { AutoFocus } from '@bdspark/sparkng/autofocus';
+import { PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseEditableHolder } from '@bdspark/sparkng/baseeditableholder';
+import { Bind } from '@bdspark/sparkng/bind';
+import { BindModule } from '@bdspark/sparkng/bind';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
+import { RadioButtonPassThrough } from '@bdspark/sparkng/types/radiobutton';
+import type { RadioButtonClickEvent } from '@bdspark/sparkng/types/radiobutton';
 import { RadioButtonStyle } from './style/radiobuttonstyle';
 
 const RADIOBUTTON_INSTANCE = new InjectionToken<RadioButton>('RADIOBUTTON_INSTANCE');

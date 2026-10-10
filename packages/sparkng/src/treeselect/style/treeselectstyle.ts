@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as treeselect_style } from '@openng/sparkng-styles/treeselect';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as treeselect_style } from '@bdspark/sparkng-styles/treeselect';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${treeselect_style}
@@ -79,7 +79,7 @@ export class TreeSelectStyle extends BaseStyle {
  *
  * TreeSelect is a form component to choose from hierarchical data.
  *
- * [Live Demo](https://optimus.openng.org/treeselect/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/treeselect/)
  *
  * @module treeselectstyle
  *

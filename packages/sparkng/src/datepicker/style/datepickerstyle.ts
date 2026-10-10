@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as datepicker_style } from '@openng/sparkng-styles/datepicker';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as datepicker_style } from '@bdspark/sparkng-styles/datepicker';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
 ${datepicker_style}
@@ -127,7 +127,7 @@ export class DatePickerStyle extends BaseStyle {
  *
  * DatePicker is a form component to work with dates.
  *
- * [Live Demo](https://optimus.openng.org/datepicker/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/datepicker/)
  *
  * @module datepickerstyle
  *

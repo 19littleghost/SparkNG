@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/tieredmenu';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/tieredmenu';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const inlineStyles = {
     submenu: ({ instance, processedItem }) => ({ display: instance.isItemActive(processedItem) ? 'flex' : 'none' })
@@ -50,7 +50,7 @@ export class TieredMenuStyle extends BaseStyle {
  *
  * TieredMenu displays submenus in nested overlays.
  *
- * [Live Demo](https://optimus.openng.org/menu/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/menu/)
  *
  * @module tieredmenustyle
  *

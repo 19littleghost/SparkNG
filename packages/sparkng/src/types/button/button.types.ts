@@ -1,6 +1,6 @@
 import { TemplateRef } from '@angular/core';
-import type { PassThrough, PassThroughOption } from '@openng/sparkng/api';
-import type { BadgePassThrough } from '@openng/sparkng/types/badge';
+import type { PassThrough, PassThroughOption } from '@bdspark/sparkng/api';
+import type { BadgePassThrough } from '@bdspark/sparkng/types/badge';
 
 /**
  * Custom pass-through(pt) options.
@@ -95,7 +95,7 @@ export interface ButtonTemplates {
     loadingicon(context: ButtonLoadingIconTemplateContext): TemplateRef<ButtonLoadingIconTemplateContext>;
 }
 
-type ButtonIconPosition = 'left' | 'right' | 'top' | 'bottom';
+export type ButtonIconPosition = 'left' | 'right' | 'top' | 'bottom';
 
 export interface ButtonProps {
     type?: string;

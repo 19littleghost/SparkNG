@@ -1,15 +1,15 @@
 import { isPlatformBrowser } from '@angular/common';
 import { booleanAttribute, computed, Directive, effect, ElementRef, inject, InjectionToken, input, Input, NgModule, NgZone, numberAttribute, SimpleChanges, TemplateRef, ViewContainerRef } from '@angular/core';
-import { appendChild, createElement, fadeIn, findSingle, getOuterHeight, getOuterWidth, getViewport, getWindowScrollLeft, getWindowScrollTop, hasClass, removeChild, uuid } from '@openng/sparkng-utils';
-import { TooltipOptions } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BindModule } from '@openng/sparkng/bind';
-import { ConnectedOverlayScrollHandler } from '@openng/sparkng/dom';
-import { Nullable } from '@openng/sparkng/ts-helpers';
-import { TooltipPassThroughOptions } from '@openng/sparkng/types/tooltip';
-import { ZIndexUtils } from '@openng/sparkng/utils';
+import { appendChild, createElement, fadeIn, findSingle, getOuterHeight, getOuterWidth, getViewport, getWindowScrollLeft, getWindowScrollTop, hasClass, removeChild, uuid } from '@bdspark/sparkng-utils';
+import { TooltipOptions } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BindModule } from '@bdspark/sparkng/bind';
+import { ConnectedOverlayScrollHandler } from '@bdspark/sparkng/dom';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
+import { TooltipPassThroughOptions } from '@bdspark/sparkng/types/tooltip';
+import { ZIndexUtils } from '@bdspark/sparkng/utils';
 import { TooltipStyle } from './style/tooltipstyle';
-import type { TooltipPassThrough } from '@openng/sparkng/types/tooltip';
+import type { TooltipPassThrough } from '@bdspark/sparkng/types/tooltip';
 
 const TOOLTIP_INSTANCE = new InjectionToken<Tooltip>('TOOLTIP_INSTANCE');
 

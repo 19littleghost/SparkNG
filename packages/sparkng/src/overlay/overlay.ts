@@ -20,17 +20,17 @@ import {
     ViewChild,
     ViewEncapsulation
 } from '@angular/core';
-import { MotionEvent, MotionOptions } from '@openng/sparkng-motion';
-import { absolutePosition, addClass, appendChild, focus, getOuterWidth, getTargetElement, isTouchDevice, relativePosition, removeClass } from '@openng/sparkng-utils';
-import { OverlayModeType, OverlayOnBeforeHideEvent, OverlayOnBeforeShowEvent, OverlayOnHideEvent, OverlayOnShowEvent, OverlayOptions, OverlayService, PrimeTemplate, ResponsiveOverlayOptions, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { ConnectedOverlayScrollHandler } from '@openng/sparkng/dom';
-import { MotionModule } from '@openng/sparkng/motion';
+import { MotionEvent, MotionOptions } from '@bdspark/sparkng-motion';
+import { absolutePosition, addClass, appendChild, focus, getOuterWidth, getTargetElement, isTouchDevice, relativePosition, removeClass } from '@bdspark/sparkng-utils';
+import { OverlayModeType, OverlayOnBeforeHideEvent, OverlayOnBeforeShowEvent, OverlayOnHideEvent, OverlayOnShowEvent, OverlayOptions, OverlayService, PrimeTemplate, ResponsiveOverlayOptions, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { ConnectedOverlayScrollHandler } from '@bdspark/sparkng/dom';
+import { MotionModule } from '@bdspark/sparkng/motion';
 import { Subscription } from 'rxjs';
-import { VoidListener } from '@openng/sparkng/ts-helpers';
-import { ObjectUtils, ZIndexUtils } from '@openng/sparkng/utils';
-import { OverlayContentTemplateContext } from '@openng/sparkng/types/overlay';
+import { VoidListener } from '@bdspark/sparkng/ts-helpers';
+import { ObjectUtils, ZIndexUtils } from '@bdspark/sparkng/utils';
+import { OverlayContentTemplateContext } from '@bdspark/sparkng/types/overlay';
 import { OverlayStyle } from './style/overlaystyle';
 
 const OVERLAY_INSTANCE = new InjectionToken<Overlay>('OVERLAY_INSTANCE');

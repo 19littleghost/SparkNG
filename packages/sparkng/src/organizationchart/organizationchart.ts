@@ -19,13 +19,13 @@ import {
     TemplateRef,
     ViewEncapsulation
 } from '@angular/core';
-import { hasClass, isAttributeEquals } from '@openng/sparkng-utils';
-import { PrimeTemplate, SharedModule, TreeNode } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { ChevronDownIcon, ChevronUpIcon } from '@openng/sparkng/icons';
-import { Nullable } from '@openng/sparkng/ts-helpers';
-import { OrganizationChartNodeCollapseEvent, OrganizationChartNodeExpandEvent, OrganizationChartNodeSelectEvent, OrganizationChartNodeUnSelectEvent, OrganizationChartPassThrough } from '@openng/sparkng/types/organizationchart';
+import { hasClass, isAttributeEquals } from '@bdspark/sparkng-utils';
+import { PrimeTemplate, SharedModule, TreeNode } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { ChevronDownIcon, ChevronUpIcon } from '@bdspark/sparkng/icons';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
+import { OrganizationChartNodeCollapseEvent, OrganizationChartNodeExpandEvent, OrganizationChartNodeSelectEvent, OrganizationChartNodeUnSelectEvent, OrganizationChartPassThrough } from '@bdspark/sparkng/types/organizationchart';
 import { Subject, Subscription } from 'rxjs';
 import { OrganizationChartStyle } from './style/organizationchartstyle';
 

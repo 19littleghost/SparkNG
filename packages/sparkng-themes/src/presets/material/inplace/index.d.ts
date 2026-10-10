@@ -1,6 +1,6 @@
-import type { InplaceTokenSections } from '@openng/sparkng-themes/types/inplace';
+import type { InplaceTokenSections } from '@bdspark/sparkng-themes/types/inplace';
 
-export * from '@openng/sparkng-themes/types/inplace';
+export * from '@bdspark/sparkng-themes/types/inplace';
 
 declare const root: InplaceTokenSections.Root;
 declare const display: InplaceTokenSections.Display;

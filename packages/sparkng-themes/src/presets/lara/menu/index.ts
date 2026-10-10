@@ -1,4 +1,4 @@
-import type { MenuDesignTokens, MenuTokenSections } from '@openng/sparkng-themes/types/menu';
+import type { MenuDesignTokens, MenuTokenSections } from '@bdspark/sparkng-themes/types/menu';
 
 export const root: MenuTokenSections.Root = {
     background: '{content.background}',

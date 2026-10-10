@@ -47,18 +47,18 @@ import {
     removeClass,
     reorderArray,
     resolveFieldData
-} from '@openng/sparkng-utils';
-import { BlockableUI, FilterMetadata, FilterService, PrimeTemplate, ScrollerOptions, SharedModule, SortMeta, TreeNode, TreeTableNode } from '@openng/sparkng/api';
-import { BadgeModule } from '@openng/sparkng/badge';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { Checkbox } from '@openng/sparkng/checkbox';
-import { DomHandler } from '@openng/sparkng/dom';
-import { ArrowDownIcon, ArrowUpIcon, CheckIcon, ChevronDownIcon, ChevronRightIcon, SortAltIcon, SortAmountDownIcon, SortAmountUpAltIcon, SpinnerIcon } from '@openng/sparkng/icons';
-import { PaginatorModule } from '@openng/sparkng/paginator';
-import { Ripple } from '@openng/sparkng/ripple';
-import { Scroller } from '@openng/sparkng/scroller';
-import { Nullable, VoidListener } from '@openng/sparkng/ts-helpers';
+} from '@bdspark/sparkng-utils';
+import { BlockableUI, FilterMetadata, FilterService, PrimeTemplate, ScrollerOptions, SharedModule, SortMeta, TreeNode, TreeTableNode } from '@bdspark/sparkng/api';
+import { BadgeModule } from '@bdspark/sparkng/badge';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { Checkbox } from '@bdspark/sparkng/checkbox';
+import { DomHandler } from '@bdspark/sparkng/dom';
+import { ArrowDownIcon, ArrowUpIcon, CheckIcon, ChevronDownIcon, ChevronRightIcon, SortAltIcon, SortAmountDownIcon, SortAmountUpAltIcon, SpinnerIcon } from '@bdspark/sparkng/icons';
+import { PaginatorModule } from '@bdspark/sparkng/paginator';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { Scroller } from '@bdspark/sparkng/scroller';
+import { Nullable, VoidListener } from '@bdspark/sparkng/ts-helpers';
 import {
     TreeTableBodyTemplateContext,
     TreeTableCheckboxIconTemplateContext,
@@ -81,7 +81,7 @@ import {
     TreeTableSortEvent,
     TreeTableSortIconTemplateContext,
     TreeTableTogglerIconTemplateContext
-} from '@openng/sparkng/types/treetable';
+} from '@bdspark/sparkng/types/treetable';
 import { Subject, Subscription } from 'rxjs';
 import { TreeTableStyle } from './style/treetablestyle';
 

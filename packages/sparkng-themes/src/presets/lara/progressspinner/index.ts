@@ -1,4 +1,4 @@
-import type { ProgressSpinnerDesignTokens, ProgressSpinnerTokenSections } from '@openng/sparkng-themes/types/progressspinner';
+import type { ProgressSpinnerDesignTokens, ProgressSpinnerTokenSections } from '@bdspark/sparkng-themes/types/progressspinner';
 
 export const colorScheme: ProgressSpinnerTokenSections.ColorScheme = {
     light: {

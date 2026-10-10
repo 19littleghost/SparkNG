@@ -1,4 +1,4 @@
-import type { OverlayBadgeDesignTokens, OverlayBadgeTokenSections } from '@openng/sparkng-themes/types/overlaybadge';
+import type { OverlayBadgeDesignTokens, OverlayBadgeTokenSections } from '@bdspark/sparkng-themes/types/overlaybadge';
 
 export const root: OverlayBadgeTokenSections.Root = {
     outline: {

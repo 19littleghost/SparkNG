@@ -1,4 +1,4 @@
-import type { RadioButtonDesignTokens, RadioButtonTokenSections } from '@openng/sparkng-themes/types/radiobutton';
+import type { RadioButtonDesignTokens, RadioButtonTokenSections } from '@bdspark/sparkng-themes/types/radiobutton';
 
 export const root: RadioButtonTokenSections.Root = {
     width: '20px',

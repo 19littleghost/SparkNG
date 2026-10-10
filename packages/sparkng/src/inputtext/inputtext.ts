@@ -1,10 +1,10 @@
 import { booleanAttribute, computed, Directive, effect, HostListener, inject, InjectionToken, input, Input, NgModule } from '@angular/core';
 import { NgControl } from '@angular/forms';
-import { PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseModelHolder } from '@openng/sparkng/basemodelholder';
-import { Bind } from '@openng/sparkng/bind';
-import { Fluid } from '@openng/sparkng/fluid';
-import { InputTextPassThrough } from '@openng/sparkng/types/inputtext';
+import { PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseModelHolder } from '@bdspark/sparkng/basemodelholder';
+import { Bind } from '@bdspark/sparkng/bind';
+import { Fluid } from '@bdspark/sparkng/fluid';
+import { InputTextPassThrough } from '@bdspark/sparkng/types/inputtext';
 import { InputTextStyle } from './style/inputtextstyle';
 
 const INPUTTEXT_INSTANCE = new InjectionToken<InputText>('INPUTTEXT_INSTANCE');

@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, HostBinding, inject, InjectionToken, Input, NgModule } from '@angular/core';
-import { SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { InputGroupAddonPassThrough } from '@openng/sparkng/types/inputgroupaddon';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { InputGroupAddonPassThrough } from '@bdspark/sparkng/types/inputgroupaddon';
 import { InputGroupAddonStyle } from './style/inputgroupaddonstyle';
 
 const INPUTGROUPADDON_INSTANCE = new InjectionToken<InputGroupAddon>('INPUTGROUPADDON_INSTANCE');

@@ -4,7 +4,7 @@ import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection } fr
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
-import { provideOptimus } from '@openng/sparkng/config';
+import { provideOptimus } from '@bdspark/sparkng/config';
 import {
     PickListMoveAllToSourceEvent,
     PickListMoveAllToTargetEvent,
@@ -14,7 +14,7 @@ import {
     PickListSourceSelectEvent,
     PickListTargetReorderEvent,
     PickListTargetSelectEvent
-} from '@openng/sparkng/types/picklist';
+} from '@bdspark/sparkng/types/picklist';
 import { PickList } from './picklist';
 
 @Component({

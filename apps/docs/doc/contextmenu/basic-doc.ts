@@ -16,7 +16,7 @@ import { ContextMenuModule } from '@bdspark/sparkng/contextmenu';
             </p>
         </app-docsectiontext>
         <div class="card flex justify-center">
-            <img #img src="https://optimus.openng.org/demo/nature/nature2.jpg" alt="Logo" aria-haspopup="true" class="w-full md:w-[30rem] rounded shadow-lg" />
+            <img #img src="https://TODO-BDSPARK-DOMAIN/demo/nature/nature2.jpg" alt="Logo" aria-haspopup="true" class="w-full md:w-[30rem] rounded shadow-lg" />
             <p-contextmenu [target]="img" [model]="items" />
         </div>
         <app-code></app-code>

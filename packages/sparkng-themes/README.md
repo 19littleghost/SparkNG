@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="https://optimus.openng.org/large-icon.svg" alt="Optimus UI" width="140" />
+  <img src="https://TODO-BDSPARK-DOMAIN/large-icon.svg" alt="Optimus UI" width="140" />
 </div>
 
-# @openng/sparkng-themes
+# @bdspark/sparkng-themes
 
-Official themes and presets for [Optimus UI](https://github.com/openng-org/sparkng).
+Official themes and presets for [Optimus UI](https://github.com/TODO-BDSPARK-ORG/sparkng).
 
-This package contains a collection of professionally designed themes and presets for Optimus UI, powered by the core engine in `@openng/sparkng-styled`. It includes design tokens, component styles, and various aesthetic flavors to jumpstart your project.
+This package contains a collection of professionally designed themes and presets for Optimus UI, powered by the core engine in `@bdspark/sparkng-styled`. It includes design tokens, component styles, and various aesthetic flavors to jumpstart your project.
 
 ## Features
 
@@ -19,7 +19,7 @@ This package contains a collection of professionally designed themes and presets
 ## Installation
 
 ```bash
-npm install @openng/sparkng-themes
+npm install @bdspark/sparkng-themes
 ```
 
 ## Core Presets
@@ -38,8 +38,8 @@ Optimus UI Themes comes with several curated presets:
 You can apply a preset globally using the `definePreset` utility:
 
 ```typescript
-import { definePreset } from '@openng/sparkng-themes';
-import Aura from '@openng/sparkng-themes/aura';
+import { definePreset } from '@bdspark/sparkng-themes';
+import Aura from '@bdspark/sparkng-themes/aura';
 
 const MyPreset = definePreset(Aura, {
     semantic: {
@@ -58,14 +58,14 @@ const MyPreset = definePreset(Aura, {
 Access design tokens directly for use in your own styled components:
 
 ```typescript
-import { tokens } from '@openng/sparkng-themes/tokens';
+import { tokens } from '@bdspark/sparkng-themes/tokens';
 
 const primaryColor = tokens['primary.color'];
 ```
 
 ## Usage in Optimus UI
 
-This package is the primary source of themes for `@openng/sparkng`. It provides the visual layer that brings components to life. Use this package when you want to switch between official themes or create a custom theme based on one of the existing presets.
+This package is the primary source of themes for `@bdspark/sparkng`. It provides the visual layer that brings components to life. Use this package when you want to switch between official themes or create a custom theme based on one of the existing presets.
 
 ## License
 

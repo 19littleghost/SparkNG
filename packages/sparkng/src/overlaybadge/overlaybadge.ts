@@ -1,10 +1,10 @@
 import { booleanAttribute, ChangeDetectionStrategy, Component, inject, InjectionToken, Input, NgModule, ViewEncapsulation } from '@angular/core';
-import { SharedModule } from '@openng/sparkng/api';
-import { BadgeModule } from '@openng/sparkng/badge';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import type { BadgeSeverity } from '@openng/sparkng/types/badge';
-import { OverlayBadgePassThrough } from '@openng/sparkng/types/overlaybadge';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { BadgeModule } from '@bdspark/sparkng/badge';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import type { BadgeSeverity } from '@bdspark/sparkng/types/badge';
+import { OverlayBadgePassThrough } from '@bdspark/sparkng/types/overlaybadge';
 import { OverlayBadgeStyle } from './style/overlaybadgestyle';
 
 const OVERLAYBADGE_INSTANCE = new InjectionToken<OverlayBadge>('OVERLAYBADGE_INSTANCE');

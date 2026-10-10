@@ -25,15 +25,15 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { Aria, PrimeTemplate, SelectItem, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { Select, SelectChangeEvent } from '@openng/sparkng/select';
-import { AngleDoubleLeftIcon, AngleDoubleRightIcon, AngleLeftIcon, AngleRightIcon } from '@openng/sparkng/icons';
-import { InputNumber } from '@openng/sparkng/inputnumber';
-import { Ripple } from '@openng/sparkng/ripple';
-import { Nullable } from '@openng/sparkng/ts-helpers';
-import { PaginatorDropdownItemTemplateContext, PaginatorPassThrough, PaginatorState, PaginatorTemplateContext } from '@openng/sparkng/types/paginator';
+import { Aria, PrimeTemplate, SelectItem, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { Select, SelectChangeEvent } from '@bdspark/sparkng/select';
+import { AngleDoubleLeftIcon, AngleDoubleRightIcon, AngleLeftIcon, AngleRightIcon } from '@bdspark/sparkng/icons';
+import { InputNumber } from '@bdspark/sparkng/inputnumber';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
+import { PaginatorDropdownItemTemplateContext, PaginatorPassThrough, PaginatorState, PaginatorTemplateContext } from '@bdspark/sparkng/types/paginator';
 import { PaginatorStyle } from './style/paginatorstyle';
 
 const PAGINATOR_INSTANCE = new InjectionToken<Paginator>('PAGINATOR_INSTANCE');

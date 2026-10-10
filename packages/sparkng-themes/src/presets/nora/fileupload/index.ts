@@ -1,4 +1,4 @@
-import type { FileUploadDesignTokens, FileUploadTokenSections } from '@openng/sparkng-themes/types/fileupload';
+import type { FileUploadDesignTokens, FileUploadTokenSections } from '@bdspark/sparkng-themes/types/fileupload';
 
 export const root: FileUploadTokenSections.Root = {
     background: '{content.background}',

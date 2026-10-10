@@ -4,35 +4,35 @@ import { declaresPackage, getPrimengMajor, swapDependencies } from './package-js
 
 describe('mapModuleSpecifier', () => {
     it('maps primeng root and secondary entry points', () => {
-        expect(mapModuleSpecifier('primeng')).toBe('@openng/sparkng');
-        expect(mapModuleSpecifier('primeng/button')).toBe('@openng/sparkng/button');
-        expect(mapModuleSpecifier('primeng/config')).toBe('@openng/sparkng/config');
+        expect(mapModuleSpecifier('primeng')).toBe('@bdspark/sparkng');
+        expect(mapModuleSpecifier('primeng/button')).toBe('@bdspark/sparkng/button');
+        expect(mapModuleSpecifier('primeng/config')).toBe('@bdspark/sparkng/config');
     });
 
     it('maps the five @primeuix packages including subpaths', () => {
-        expect(mapModuleSpecifier('@primeuix/themes')).toBe('@openng/sparkng-themes');
-        expect(mapModuleSpecifier('@primeuix/themes/aura')).toBe('@openng/sparkng-themes/aura');
-        expect(mapModuleSpecifier('@primeuix/styled')).toBe('@openng/sparkng-styled');
-        expect(mapModuleSpecifier('@primeuix/styles')).toBe('@openng/sparkng-styles');
-        expect(mapModuleSpecifier('@primeuix/utils')).toBe('@openng/sparkng-utils');
-        expect(mapModuleSpecifier('@primeuix/motion')).toBe('@openng/sparkng-motion');
+        expect(mapModuleSpecifier('@primeuix/themes')).toBe('@bdspark/sparkng-themes');
+        expect(mapModuleSpecifier('@primeuix/themes/aura')).toBe('@bdspark/sparkng-themes/aura');
+        expect(mapModuleSpecifier('@primeuix/styled')).toBe('@bdspark/sparkng-styled');
+        expect(mapModuleSpecifier('@primeuix/styles')).toBe('@bdspark/sparkng-styles');
+        expect(mapModuleSpecifier('@primeuix/utils')).toBe('@bdspark/sparkng-utils');
+        expect(mapModuleSpecifier('@primeuix/motion')).toBe('@bdspark/sparkng-motion');
     });
 
     it('maps primeicons, including the renamed stylesheet', () => {
-        expect(mapModuleSpecifier('primeicons')).toBe('@openng/icons');
-        expect(mapModuleSpecifier('primeicons/primeicons.css')).toBe('@openng/icons/openng-icons.css');
-        expect(mapModuleSpecifier('primeicons/raw-svg/check.svg')).toBe('@openng/icons/raw-svg/check.svg');
+        expect(mapModuleSpecifier('primeicons')).toBe('@bdspark/icons');
+        expect(mapModuleSpecifier('primeicons/primeicons.css')).toBe('@bdspark/icons/bdspark-icons.css');
+        expect(mapModuleSpecifier('primeicons/raw-svg/check.svg')).toBe('@bdspark/icons/raw-svg/check.svg');
     });
 
     it('maps tailwindcss-primeui including subpaths', () => {
-        expect(mapModuleSpecifier('tailwindcss-primeui')).toBe('@openng/sparkng-tailwindcss');
-        expect(mapModuleSpecifier('tailwindcss-primeui/v4/index.css')).toBe('@openng/sparkng-tailwindcss/v4/index.css');
+        expect(mapModuleSpecifier('tailwindcss-primeui')).toBe('@bdspark/sparkng-tailwindcss');
+        expect(mapModuleSpecifier('tailwindcss-primeui/v4/index.css')).toBe('@bdspark/sparkng-tailwindcss/v4/index.css');
     });
 
     it('maps primelocale including subpaths', () => {
-        expect(mapModuleSpecifier('primelocale')).toBe('@openng/sparkng-locale');
-        expect(mapModuleSpecifier('primelocale/de.json')).toBe('@openng/sparkng-locale/de.json');
-        expect(mapModuleSpecifier('primelocale/js/de.js')).toBe('@openng/sparkng-locale/js/de.js');
+        expect(mapModuleSpecifier('primelocale')).toBe('@bdspark/sparkng-locale');
+        expect(mapModuleSpecifier('primelocale/de.json')).toBe('@bdspark/sparkng-locale/de.json');
+        expect(mapModuleSpecifier('primelocale/js/de.js')).toBe('@bdspark/sparkng-locale/js/de.js');
     });
 
     it('leaves unrelated specifiers alone', () => {
@@ -56,15 +56,15 @@ describe('swapDependencies', () => {
         expect(result.changed).toBe(true);
         expect(pkg.dependencies.primeng).toBeUndefined();
         expect(pkg.dependencies['@primeuix/themes']).toBeUndefined();
-        expect(pkg.dependencies['@openng/sparkng']).toBe(VERSIONS['@openng/sparkng']);
-        expect(pkg.dependencies['@openng/sparkng-themes']).toBe(VERSIONS['@openng/sparkng-themes']);
-        expect(pkg.dependencies['@openng/sparkng-styled']).toBeUndefined();
+        expect(pkg.dependencies['@bdspark/sparkng']).toBe(VERSIONS['@bdspark/sparkng']);
+        expect(pkg.dependencies['@bdspark/sparkng-themes']).toBe(VERSIONS['@bdspark/sparkng-themes']);
+        expect(pkg.dependencies['@bdspark/sparkng-styled']).toBeUndefined();
         expect(pkg.dependencies['tailwindcss-primeui']).toBeUndefined();
-        expect(pkg.dependencies['@openng/sparkng-tailwindcss']).toBe(VERSIONS['@openng/sparkng-tailwindcss']);
+        expect(pkg.dependencies['@bdspark/sparkng-tailwindcss']).toBe(VERSIONS['@bdspark/sparkng-tailwindcss']);
         expect(pkg.dependencies['primeicons']).toBeUndefined();
-        expect(pkg.dependencies['@openng/icons']).toBe(VERSIONS['@openng/icons']);
+        expect(pkg.dependencies['@bdspark/icons']).toBe(VERSIONS['@bdspark/icons']);
         expect(pkg.dependencies['primelocale']).toBeUndefined();
-        expect(pkg.dependencies['@openng/sparkng-locale']).toBe(VERSIONS['@openng/sparkng-locale']);
+        expect(pkg.dependencies['@bdspark/sparkng-locale']).toBe(VERSIONS['@bdspark/sparkng-locale']);
         expect(result.removed.sort()).toEqual(['@primeuix/themes', 'primeicons', 'primelocale', 'primeng', 'tailwindcss-primeui']);
     });
 
@@ -75,7 +75,7 @@ describe('swapDependencies', () => {
         };
         const result = swapDependencies(pkg);
         expect(result.changed).toBe(true);
-        expect(pkg.devDependencies['@openng/sparkng-utils']).toBe(VERSIONS['@openng/sparkng-utils']);
+        expect(pkg.devDependencies['@bdspark/sparkng-utils']).toBe(VERSIONS['@bdspark/sparkng-utils']);
 
         const clean: Record<string, any> = { dependencies: { '@angular/core': '^21.0.0' } };
         expect(swapDependencies(clean).changed).toBe(false);

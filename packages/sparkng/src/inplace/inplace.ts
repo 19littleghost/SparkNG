@@ -1,12 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { AfterContentInit, booleanAttribute, ChangeDetectionStrategy, Component, ContentChild, ContentChildren, EventEmitter, inject, InjectionToken, Input, NgModule, Output, QueryList, TemplateRef, ViewEncapsulation } from '@angular/core';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { ButtonModule } from '@openng/sparkng/button';
-import { TimesIcon } from '@openng/sparkng/icons';
-import { Ripple } from '@openng/sparkng/ripple';
-import { InplaceContentTemplateContext, InplacePassThrough } from '@openng/sparkng/types/inplace';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { ButtonModule } from '@bdspark/sparkng/button';
+import { TimesIcon } from '@bdspark/sparkng/icons';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { InplaceContentTemplateContext, InplacePassThrough } from '@bdspark/sparkng/types/inplace';
 import { InplaceStyle } from './style/inplacestyle';
 
 const INPLACE_INSTANCE = new InjectionToken<Inplace>('INPLACE_INSTANCE');

@@ -23,14 +23,14 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 
-import { MotionOptions } from '@openng/sparkng-motion';
-import { find, findIndexInList, uuid } from '@openng/sparkng-utils';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { MotionModule } from '@openng/sparkng/motion';
-import { StepItemPassThrough, StepListPassThrough, StepPanelPassThrough, StepPanelsPassThrough, StepPassThrough, StepperPassThrough, StepperSeparatorPassThrough } from '@openng/sparkng/types/stepper';
-import { transformToBoolean } from '@openng/sparkng/utils';
+import { MotionOptions } from '@bdspark/sparkng-motion';
+import { find, findIndexInList, uuid } from '@bdspark/sparkng-utils';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { MotionModule } from '@bdspark/sparkng/motion';
+import { StepItemPassThrough, StepListPassThrough, StepPanelPassThrough, StepPanelsPassThrough, StepPassThrough, StepperPassThrough, StepperSeparatorPassThrough } from '@bdspark/sparkng/types/stepper';
+import { transformToBoolean } from '@bdspark/sparkng/utils';
 import { StepItemStyle } from './style/stepitemstyle';
 import { StepListStyle } from './style/stepliststyle';
 import { StepPanelsStyle } from './style/steppanelsstyle';

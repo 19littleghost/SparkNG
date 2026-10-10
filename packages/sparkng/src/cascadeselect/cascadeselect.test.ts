@@ -3,8 +3,8 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormControl, FormGroup, FormsModule, NG_VALUE_ACCESSOR, ReactiveFormsModule, Validators } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { provideNoopAnimations } from '@angular/platform-browser/animations';
-import { SharedModule } from '@openng/sparkng/api';
-import { CascadeSelectBeforeHideEvent, CascadeSelectBeforeShowEvent, CascadeSelectChangeEvent, CascadeSelectHideEvent, CascadeSelectShowEvent } from '@openng/sparkng/types/cascadeselect';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { CascadeSelectBeforeHideEvent, CascadeSelectBeforeShowEvent, CascadeSelectChangeEvent, CascadeSelectHideEvent, CascadeSelectShowEvent } from '@bdspark/sparkng/types/cascadeselect';
 import { BehaviorSubject } from 'rxjs';
 import { CASCADESELECT_VALUE_ACCESSOR, CascadeSelect, CascadeSelectModule } from './cascadeselect';
 

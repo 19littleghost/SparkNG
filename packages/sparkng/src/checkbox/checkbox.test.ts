@@ -2,8 +2,8 @@ import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection } fr
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { By } from '@angular/platform-browser';
-import { SharedModule } from '@openng/sparkng/api';
-import { CheckboxChangeEvent } from '@openng/sparkng/types/checkbox';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { CheckboxChangeEvent } from '@bdspark/sparkng/types/checkbox';
 import { Checkbox } from './checkbox';
 
 // Mock data for testing

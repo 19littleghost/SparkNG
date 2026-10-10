@@ -19,16 +19,16 @@ import {
     TemplateRef,
     ViewEncapsulation
 } from '@angular/core';
-import { MotionOptions } from '@openng/sparkng-motion';
-import { findSingle, focus, getAttribute, uuid } from '@openng/sparkng-utils';
-import { BlockableUI, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { ChevronDownIcon, ChevronUpIcon } from '@openng/sparkng/icons';
-import { MotionModule } from '@openng/sparkng/motion';
-import { Ripple } from '@openng/sparkng/ripple';
-import { AccordionContentPassThrough, AccordionHeaderPassThrough, AccordionPanelPassThrough, AccordionPassThrough } from '@openng/sparkng/types/accordion';
-import { transformToBoolean } from '@openng/sparkng/utils';
+import { MotionOptions } from '@bdspark/sparkng-motion';
+import { findSingle, focus, getAttribute, uuid } from '@bdspark/sparkng-utils';
+import { BlockableUI, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { ChevronDownIcon, ChevronUpIcon } from '@bdspark/sparkng/icons';
+import { MotionModule } from '@bdspark/sparkng/motion';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { AccordionContentPassThrough, AccordionHeaderPassThrough, AccordionPanelPassThrough, AccordionPassThrough } from '@bdspark/sparkng/types/accordion';
+import { transformToBoolean } from '@bdspark/sparkng/utils';
 import { AccordionStyle } from './style/accordionstyle';
 
 /**

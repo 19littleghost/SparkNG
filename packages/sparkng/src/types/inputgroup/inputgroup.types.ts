@@ -1,4 +1,4 @@
-import type { PassThrough, PassThroughOption } from '@openng/sparkng/api';
+import type { PassThrough, PassThroughOption } from '@bdspark/sparkng/api';
 
 /**
  * Custom pass-through(pt) options.

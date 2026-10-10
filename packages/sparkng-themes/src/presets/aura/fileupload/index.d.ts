@@ -1,6 +1,6 @@
-import type { FileUploadTokenSections } from '@openng/sparkng-themes/types/fileupload';
+import type { FileUploadTokenSections } from '@bdspark/sparkng-themes/types/fileupload';
 
-export * from '@openng/sparkng-themes/types/fileupload';
+export * from '@bdspark/sparkng-themes/types/fileupload';
 
 declare const root: FileUploadTokenSections.Root;
 declare const header: FileUploadTokenSections.Header;

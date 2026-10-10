@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/button';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/button';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => [
@@ -55,7 +55,7 @@ export class ButtonStyle extends BaseStyle {
  *
  * Button is an extension to standard button element with icons and theming.
  *
- * [Live Demo](https://optimus.openng.org/button/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/button/)
  *
  * @module buttonstyle
  *

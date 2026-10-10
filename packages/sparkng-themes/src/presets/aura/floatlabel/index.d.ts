@@ -1,6 +1,6 @@
-import type { FloatLabelTokenSections } from '@openng/sparkng-themes/types/floatlabel';
+import type { FloatLabelTokenSections } from '@bdspark/sparkng-themes/types/floatlabel';
 
-export * from '@openng/sparkng-themes/types/floatlabel';
+export * from '@bdspark/sparkng-themes/types/floatlabel';
 
 declare const root: FloatLabelTokenSections.Root;
 declare const over: FloatLabelTokenSections.Over;

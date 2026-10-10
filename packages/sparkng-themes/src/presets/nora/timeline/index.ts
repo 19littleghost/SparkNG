@@ -1,4 +1,4 @@
-import type { TimelineDesignTokens, TimelineTokenSections } from '@openng/sparkng-themes/types/timeline';
+import type { TimelineDesignTokens, TimelineTokenSections } from '@bdspark/sparkng-themes/types/timeline';
 
 export const event: TimelineTokenSections.Event = {
     minHeight: '5rem'

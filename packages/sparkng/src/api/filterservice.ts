@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { equals, removeAccents, resolveFieldData } from '@openng/sparkng-utils';
+import { equals, removeAccents, resolveFieldData } from '@bdspark/sparkng-utils';
 
 @Injectable({ providedIn: 'root' })
 export class FilterService {

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as iftalabel_style } from '@openng/sparkng-styles/iftalabel';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as iftalabel_style } from '@bdspark/sparkng-styles/iftalabel';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${iftalabel_style}
@@ -28,7 +28,7 @@ export class IftaLabelStyle extends BaseStyle {
  *
  * IftaLabel visually integrates a label within its form element.
  *
- * [Live Demo](https://optimus.openng.org/iftalabel/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/iftalabel/)
  *
  * @module iftalabelstyle
  *

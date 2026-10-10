@@ -70,7 +70,7 @@ import { RippleModule } from '@bdspark/sparkng/ripple';
                     </div>
                 </ng-template>
                 <ng-template #end>
-                    <p-avatar image="https://optimus.openng.org/demo/avatar/amyelsner.png" shape="circle" />
+                    <p-avatar image="https://TODO-BDSPARK-DOMAIN/demo/avatar/amyelsner.png" shape="circle" />
                 </ng-template>
             </p-megamenu>
         </div>

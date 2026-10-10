@@ -1,4 +1,4 @@
-import type { TreeTableDesignTokens, TreeTableTokenSections } from '@openng/sparkng-themes/types/treetable';
+import type { TreeTableDesignTokens, TreeTableTokenSections } from '@bdspark/sparkng-themes/types/treetable';
 
 export const root: TreeTableTokenSections.Root = {
     transitionDuration: '{transition.duration}'

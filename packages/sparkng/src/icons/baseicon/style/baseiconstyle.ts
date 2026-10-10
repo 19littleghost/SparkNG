@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BaseStyle } from '@openng/sparkng/base';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const css = /*css*/ `
 .p-icon {
@@ -46,7 +46,7 @@ export class BaseIconStyle extends BaseStyle {
 }
 /**
  *
- * [Live Demo](https:/optimus.openng.org/)
+ * [Live Demo](https:/TODO-BDSPARK-DOMAIN/)
  *
  * @module baseiconstyle
  *

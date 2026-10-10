@@ -261,7 +261,7 @@ export declare namespace StepperTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface StepperDesignTokens extends DesignTokens<StepperDesignTokens> {

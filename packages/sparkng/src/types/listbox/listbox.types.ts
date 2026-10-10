@@ -1,5 +1,5 @@
 import { TemplateRef } from '@angular/core';
-import type { PassThrough, PassThroughOption, ScrollerOptions } from '@openng/sparkng/api';
+import type { PassThrough, PassThroughOption, ScrollerOptions } from '@bdspark/sparkng/api';
 /**
  * Defines valid pass-through options in ListBox component.
  * @template I Type of instance.

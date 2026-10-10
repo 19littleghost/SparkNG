@@ -67,7 +67,7 @@ export declare namespace InputGroupTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface InputGroupDesignTokens extends DesignTokens<InputGroupDesignTokens> {

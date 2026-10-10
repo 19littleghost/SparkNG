@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BaseStyle } from '@openng/sparkng/base';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: 'p-steplist'
@@ -16,7 +16,7 @@ export class StepListStyle extends BaseStyle {
  *
  * Stepper is a component that streamlines a wizard-like workflow, organizing content into coherent steps and visually guiding users through a numbered progression in a multi-step process.
  *
- * [Live Demo](https://optimus.openng.org/stepper/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/stepper/)
  *
  * @module stepliststyle
  *

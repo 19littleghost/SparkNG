@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/panel';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/panel';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => [
@@ -40,7 +40,7 @@ export class PanelStyle extends BaseStyle {
  *
  * Panel is a container with the optional content toggle feature.
  *
- * [Live Demo](https://optimus.openng.org/panel/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/panel/)
  *
  * @module panelstyle
  *

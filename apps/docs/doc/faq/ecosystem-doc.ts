@@ -10,7 +10,7 @@ import { RouterModule } from '@angular/router';
         <app-docsectiontext>
             <h3>Do the PrimeNG themes work?</h3>
             <p>
-                The built-in presets do — Aura, Material, Lara and Nora ship in <i>&#64;openng/sparkng-themes</i> and are configured the same way. A preset you wrote yourself against PrimeNG v21 will work after the import paths are updated, which
+                The built-in presets do — Aura, Material, Lara and Nora ship in <i>&#64;bdspark/sparkng-themes</i> and are configured the same way. A preset you wrote yourself against PrimeNG v21 will work after the import paths are updated, which
                 the migration schematic handles.
             </p>
 
@@ -22,13 +22,13 @@ import { RouterModule } from '@angular/router';
 
             <h3>What replaced PrimeIcons?</h3>
             <p>
-                <a [routerLink]="'/icons'" class="doc-link">OpenNG Icons</a>, installed as <i>&#64;openng/icons</i>. The <i>pi pi-&#123;icon&#125;</i> class names are unchanged, so templates do not need editing — only the package name and the
+                <a [routerLink]="'/icons'" class="doc-link">bdSpark Icons</a>, installed as <i>&#64;bdspark/icons</i>. The <i>pi pi-&#123;icon&#125;</i> class names are unchanged, so templates do not need editing — only the package name and the
                 stylesheet import, both of which the migration schematic rewrites.
             </p>
 
             <h3>What about PrimeFlex?</h3>
             <p>
-                PrimeFlex is not maintained here. We suggest Tailwind CSS instead, and ship <i>&#64;openng/sparkng-tailwindcss</i> for first-class integration — see the <a [routerLink]="'/tailwind'" class="doc-link">Tailwind guide</a>. The
+                PrimeFlex is not maintained here. We suggest Tailwind CSS instead, and ship <i>&#64;bdspark/sparkng-tailwindcss</i> for first-class integration — see the <a [routerLink]="'/tailwind'" class="doc-link">Tailwind guide</a>. The
                 <a [routerLink]="'/guides/primeflex'" class="doc-link">PrimeFlex guide</a> covers moving across.
             </p>
 

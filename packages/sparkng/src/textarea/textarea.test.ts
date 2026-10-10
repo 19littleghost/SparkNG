@@ -3,8 +3,8 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 
-import { provideOptimus } from '@openng/sparkng/config';
-import { TextareaPassThrough } from '@openng/sparkng/types/textarea';
+import { provideOptimus } from '@bdspark/sparkng/config';
+import { TextareaPassThrough } from '@bdspark/sparkng/types/textarea';
 import { Textarea } from './textarea';
 
 @Component({

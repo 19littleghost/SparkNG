@@ -547,7 +547,7 @@
             "icon": "pi pi-eye",
             "children": [
                 {
-                    "name": "OpenNG Icons",
+                    "name": "bdSpark Icons",
                     "routerLink": "/icons"
                 },
                 {
@@ -562,7 +562,7 @@
             "children": [
                 {
                     "name": "From PrimeNG",
-                    "href": "https://v1.optimus.openng.org/migration/primeng"
+                    "href": "https://v1.TODO-BDSPARK-DOMAIN/migration/primeng"
                 },
                 {
                     "name": "Update Optimus UI",
@@ -584,7 +584,7 @@
                 },
                 {
                     "name": "GitHub Discussions",
-                    "href": "https://github.com/openng-org/sparkng/discussions"
+                    "href": "https://github.com/TODO-BDSPARK-ORG/sparkng/discussions"
                 }
             ]
         },
@@ -598,11 +598,11 @@
                 },
                 {
                     "name": "Source Code",
-                    "href": "https://github.com/openng-org/sparkng"
+                    "href": "https://github.com/TODO-BDSPARK-ORG/sparkng"
                 },
                 {
                     "name": "Changelog",
-                    "href": "https://github.com/openng-org/sparkng/releases"
+                    "href": "https://github.com/TODO-BDSPARK-ORG/sparkng/releases"
                 },
                 {
                     "name": "Contribution",

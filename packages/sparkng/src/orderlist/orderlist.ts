@@ -20,16 +20,16 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { findIndexInList, setAttribute, uuid } from '@openng/sparkng-utils';
-import { FilterService, PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { ButtonModule, ButtonProps } from '@openng/sparkng/button';
-import { AngleDoubleDownIcon, AngleDoubleUpIcon, AngleDownIcon, AngleUpIcon } from '@openng/sparkng/icons';
-import { Listbox, ListboxChangeEvent } from '@openng/sparkng/listbox';
-import { Ripple } from '@openng/sparkng/ripple';
-import { Nullable } from '@openng/sparkng/ts-helpers';
-import { OrderListFilterEvent, OrderListFilterOptions, OrderListFilterTemplateContext, OrderListItemTemplateContext, OrderListPassThrough, OrderListSelectionChangeEvent } from '@openng/sparkng/types/orderlist';
+import { findIndexInList, setAttribute, uuid } from '@bdspark/sparkng-utils';
+import { FilterService, PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { ButtonModule, ButtonProps } from '@bdspark/sparkng/button';
+import { AngleDoubleDownIcon, AngleDoubleUpIcon, AngleDownIcon, AngleUpIcon } from '@bdspark/sparkng/icons';
+import { Listbox, ListboxChangeEvent } from '@bdspark/sparkng/listbox';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
+import { OrderListFilterEvent, OrderListFilterOptions, OrderListFilterTemplateContext, OrderListItemTemplateContext, OrderListPassThrough, OrderListSelectionChangeEvent } from '@bdspark/sparkng/types/orderlist';
 import { OrderListStyle } from './style/orderliststyle';
 
 const ORDERLIST_INSTANCE = new InjectionToken<OrderList>('ORDERLIST_INSTANCE');

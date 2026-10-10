@@ -29,36 +29,36 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MotionEvent, MotionOptions } from '@openng/sparkng-motion';
-import { absolutePosition, addStyle, appendChild, find, findSingle, getAttribute, isClickable, setAttribute } from '@openng/sparkng-utils';
-import { BlockableUI, FilterMatchMode, FilterMetadata, FilterOperator, FilterService, LazyLoadMeta, OverlayService, PrimeTemplate, ScrollerOptions, SelectItem, SharedModule, SortMeta, TableState, TranslationKeys } from '@openng/sparkng/api';
-import { BadgeModule } from '@openng/sparkng/badge';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { Button, ButtonModule } from '@openng/sparkng/button';
-import { CheckboxChangeEvent, CheckboxModule } from '@openng/sparkng/checkbox';
-import { DatePickerModule } from '@openng/sparkng/datepicker';
-import { ConnectedOverlayScrollHandler, DomHandler } from '@openng/sparkng/dom';
-import { ArrowDownIcon } from '@openng/sparkng/icons/arrowdown';
-import { ArrowUpIcon } from '@openng/sparkng/icons/arrowup';
-import { FilterIcon } from '@openng/sparkng/icons/filter';
-import { FilterFillIcon } from '@openng/sparkng/icons/filterfill';
-import { FilterSlashIcon } from '@openng/sparkng/icons/filterslash';
-import { PlusIcon } from '@openng/sparkng/icons/plus';
-import { SortAltIcon } from '@openng/sparkng/icons/sortalt';
-import { SortAmountDownIcon } from '@openng/sparkng/icons/sortamountdown';
-import { SortAmountUpAltIcon } from '@openng/sparkng/icons/sortamountupalt';
-import { SpinnerIcon } from '@openng/sparkng/icons/spinner';
-import { TrashIcon } from '@openng/sparkng/icons/trash';
-import { InputNumberModule } from '@openng/sparkng/inputnumber';
-import { InputTextModule } from '@openng/sparkng/inputtext';
-import { MotionModule } from '@openng/sparkng/motion';
-import { PaginatorModule } from '@openng/sparkng/paginator';
-import { RadioButton, RadioButtonClickEvent, RadioButtonModule } from '@openng/sparkng/radiobutton';
-import { Scroller, ScrollerModule } from '@openng/sparkng/scroller';
-import { SelectModule } from '@openng/sparkng/select';
-import { SelectButtonModule } from '@openng/sparkng/selectbutton';
-import { Nullable, VoidListener } from '@openng/sparkng/ts-helpers';
+import { MotionEvent, MotionOptions } from '@bdspark/sparkng-motion';
+import { absolutePosition, addStyle, appendChild, find, findSingle, getAttribute, isClickable, setAttribute } from '@bdspark/sparkng-utils';
+import { BlockableUI, FilterMatchMode, FilterMetadata, FilterOperator, FilterService, LazyLoadMeta, OverlayService, PrimeTemplate, ScrollerOptions, SelectItem, SharedModule, SortMeta, TableState, TranslationKeys } from '@bdspark/sparkng/api';
+import { BadgeModule } from '@bdspark/sparkng/badge';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { Button, ButtonModule } from '@bdspark/sparkng/button';
+import { CheckboxChangeEvent, CheckboxModule } from '@bdspark/sparkng/checkbox';
+import { DatePickerModule } from '@bdspark/sparkng/datepicker';
+import { ConnectedOverlayScrollHandler, DomHandler } from '@bdspark/sparkng/dom';
+import { ArrowDownIcon } from '@bdspark/sparkng/icons/arrowdown';
+import { ArrowUpIcon } from '@bdspark/sparkng/icons/arrowup';
+import { FilterIcon } from '@bdspark/sparkng/icons/filter';
+import { FilterFillIcon } from '@bdspark/sparkng/icons/filterfill';
+import { FilterSlashIcon } from '@bdspark/sparkng/icons/filterslash';
+import { PlusIcon } from '@bdspark/sparkng/icons/plus';
+import { SortAltIcon } from '@bdspark/sparkng/icons/sortalt';
+import { SortAmountDownIcon } from '@bdspark/sparkng/icons/sortamountdown';
+import { SortAmountUpAltIcon } from '@bdspark/sparkng/icons/sortamountupalt';
+import { SpinnerIcon } from '@bdspark/sparkng/icons/spinner';
+import { TrashIcon } from '@bdspark/sparkng/icons/trash';
+import { InputNumberModule } from '@bdspark/sparkng/inputnumber';
+import { InputTextModule } from '@bdspark/sparkng/inputtext';
+import { MotionModule } from '@bdspark/sparkng/motion';
+import { PaginatorModule } from '@bdspark/sparkng/paginator';
+import { RadioButton, RadioButtonClickEvent, RadioButtonModule } from '@bdspark/sparkng/radiobutton';
+import { Scroller, ScrollerModule } from '@bdspark/sparkng/scroller';
+import { SelectModule } from '@bdspark/sparkng/select';
+import { SelectButtonModule } from '@bdspark/sparkng/selectbutton';
+import { Nullable, VoidListener } from '@bdspark/sparkng/ts-helpers';
 import {
     ColumnFilterPassThrough,
     ExportCSVOptions,
@@ -80,8 +80,8 @@ import {
     TableRowSelectEvent,
     TableRowUnSelectEvent,
     TableSelectAllChangeEvent
-} from '@openng/sparkng/types/table';
-import { ObjectUtils, UniqueComponentId, ZIndexUtils } from '@openng/sparkng/utils';
+} from '@bdspark/sparkng/types/table';
+import { ObjectUtils, UniqueComponentId, ZIndexUtils } from '@bdspark/sparkng/utils';
 import { Subject, Subscription } from 'rxjs';
 import { TableStyle } from './style/tablestyle';
 

@@ -1,4 +1,4 @@
-import type { Preset } from '@openng/sparkng-themes/types';
+import type { Preset } from '@bdspark/sparkng-themes/types';
 import type { NoraBaseDesignTokens } from './base/index.d';
 
 /**
@@ -11,7 +11,7 @@ import type { NoraBaseDesignTokens } from './base/index.d';
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 declare const _default: Preset<NoraBaseDesignTokens>;

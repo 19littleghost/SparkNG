@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/knob';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/knob';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => ['p-knob p-component', { 'p-disabled': instance.$disabled() }],
@@ -22,7 +22,7 @@ export class KnobStyle extends BaseStyle {
  *
  * Knob is a form component to define number inputs with a dial.
  *
- * [Live Demo](https://optimus.openng.org/knob/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/knob/)
  *
  * @module knobstyle
  *

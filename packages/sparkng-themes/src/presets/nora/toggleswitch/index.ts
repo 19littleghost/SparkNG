@@ -1,4 +1,4 @@
-import type { ToggleSwitchDesignTokens, ToggleSwitchTokenSections } from '@openng/sparkng-themes/types/toggleswitch';
+import type { ToggleSwitchDesignTokens, ToggleSwitchTokenSections } from '@bdspark/sparkng-themes/types/toggleswitch';
 
 export const root: ToggleSwitchTokenSections.Root = {
     width: '2.5rem',

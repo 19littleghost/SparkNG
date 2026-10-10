@@ -3,8 +3,8 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import type { Mock } from 'vitest';
 
-import { SharedModule } from '@openng/sparkng/api';
-import { ChipProps } from '@openng/sparkng/types/chip';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { ChipProps } from '@bdspark/sparkng/types/chip';
 import { Chip, ChipModule } from './chip';
 
 const TEST_IMAGE = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';

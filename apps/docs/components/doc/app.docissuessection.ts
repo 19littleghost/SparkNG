@@ -32,7 +32,7 @@ import { ChangeDetectionStrategy, Component, Input, ViewEncapsulation } from '@a
                 </a>
 
                 <a
-                    href="https://github.com/openng-org/sparkng/blob/main/CONTRIBUTING.md"
+                    href="https://github.com/TODO-BDSPARK-ORG/sparkng/blob/main/CONTRIBUTING.md"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="flex flex-col bg-surface-0 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 p-4 rounded-xl hover:border-primary-500 hover:bg-surface-50 dark:hover:bg-surface-800 transition-colors"
@@ -46,7 +46,7 @@ import { ChangeDetectionStrategy, Component, Input, ViewEncapsulation } from '@a
                 </a>
 
                 <a
-                    [href]="'https://github.com/openng-org/sparkng/issues/new?labels=bug&title=Bug:+[' + componentName + ']'"
+                    [href]="'https://github.com/TODO-BDSPARK-ORG/sparkng/issues/new?labels=bug&title=Bug:+[' + componentName + ']'"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="flex flex-col bg-surface-0 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 p-4 rounded-xl hover:border-primary-500 hover:bg-surface-50 dark:hover:bg-surface-800 transition-colors"
@@ -60,7 +60,7 @@ import { ChangeDetectionStrategy, Component, Input, ViewEncapsulation } from '@a
                 </a>
 
                 <a
-                    [href]="'https://github.com/openng-org/sparkng/issues/new?labels=enhancement&title=Feature:+[' + componentName + ']'"
+                    [href]="'https://github.com/TODO-BDSPARK-ORG/sparkng/issues/new?labels=enhancement&title=Feature:+[' + componentName + ']'"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="flex flex-col bg-surface-0 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 p-4 rounded-xl hover:border-primary-500 hover:bg-surface-50 dark:hover:bg-surface-800 transition-colors"

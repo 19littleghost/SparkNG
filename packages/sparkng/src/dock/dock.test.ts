@@ -3,8 +3,8 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
 import { RouterTestingModule } from '@angular/router/testing';
-import { MenuItem, SharedModule } from '@openng/sparkng/api';
-import { provideOptimus } from '@openng/sparkng/config';
+import { MenuItem, SharedModule } from '@bdspark/sparkng/api';
+import { provideOptimus } from '@bdspark/sparkng/config';
 import { Dock } from './dock';
 
 @Component({

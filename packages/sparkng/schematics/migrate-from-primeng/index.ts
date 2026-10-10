@@ -29,9 +29,9 @@ const LOCKFILE_NAMES = new Set(['package-lock.json', 'npm-shrinkwrap.json', 'yar
 /**
  * Migrates a PrimeNG v21 workspace to Optimus UI.
  *
- * @deprecated This schematic is only maintained on the `release/1.x` line (the `@openng/sparkng@1`
- * package, published to v1.optimus.openng.org). It is not actively maintained on `main` going forward.
- * Run it via `ng generate @openng/sparkng@1:migrate-from-primeng` rather than an unpinned install.
+ * @deprecated This schematic is only maintained on the `release/1.x` line (the `@bdspark/sparkng@1`
+ * package, published to v1.TODO-BDSPARK-DOMAIN). It is not actively maintained on `main` going forward.
+ * Run it via `ng generate @bdspark/sparkng@1:migrate-from-primeng` rather than an unpinned install.
  */
 export function migrateFromPrimeng(options: Schema): Rule {
     return (tree: Tree, context: SchematicContext) => {
@@ -97,10 +97,10 @@ export function migrateFromPrimeng(options: Schema): Rule {
  */
 function warnDeprecated(context: SchematicContext): void {
     context.logger.warn(
-        'migrate-from-primeng is deprecated on this line of @openng/sparkng and is only maintained on release/1.x. ' +
+        'migrate-from-primeng is deprecated on this line of @bdspark/sparkng and is only maintained on release/1.x. ' +
             'Run it via the pinned v1 package instead:\n' +
-            '  npm install @openng/sparkng@1\n' +
-            '  ng generate @openng/sparkng@1:migrate-from-primeng'
+            '  npm install @bdspark/sparkng@1\n' +
+            '  ng generate @bdspark/sparkng@1:migrate-from-primeng'
     );
 }
 
@@ -116,7 +116,7 @@ function warnAboutPrimeflex(tree: Tree, context: SchematicContext): void {
     context.logger.warn(
         'PrimeFlex detected in this workspace. PrimeFlex is a separate utility-CSS library and is not migrated by this schematic. ' +
             'Optimus UI recommends Tailwind CSS — run the following to translate your PrimeFlex classes:\n' +
-            '  ng generate @openng/sparkng:migrate-from-primeflex'
+            '  ng generate @bdspark/sparkng:migrate-from-primeflex'
     );
 }
 
@@ -183,7 +183,7 @@ function isLockfile(path: string): boolean {
     return LOCKFILE_NAMES.has(basename);
 }
 
-const MIGRATION_GUIDE_URL = 'https://www.openng.org/migration/primeng';
+const MIGRATION_GUIDE_URL = 'https://TODO-BDSPARK-DOMAIN/migration/primeng';
 
 function reportLeftovers(tree: Tree, context: SchematicContext, isIgnored: IgnoreMatcher): void {
     const leftovers: string[] = [];

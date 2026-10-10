@@ -4,8 +4,8 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 
-import { SharedModule, SortMeta } from '@openng/sparkng/api';
-import { Select } from '@openng/sparkng/select';
+import { SharedModule, SortMeta } from '@bdspark/sparkng/api';
+import { Select } from '@bdspark/sparkng/select';
 import { Table, TableModule, TableService } from './table';
 
 describe('Table', () => {

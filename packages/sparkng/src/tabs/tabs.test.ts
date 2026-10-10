@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, DebugElement, Input, provideZonelessChangeDetection } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
-import { provideOptimus } from '@openng/sparkng/config';
-import { Tooltip } from '@openng/sparkng/tooltip';
+import { provideOptimus } from '@bdspark/sparkng/config';
+import { Tooltip } from '@bdspark/sparkng/tooltip';
 import { TabList } from './tablist';
 import { Tabs } from './tabs';
 import { TabsModule } from './tabs.module';

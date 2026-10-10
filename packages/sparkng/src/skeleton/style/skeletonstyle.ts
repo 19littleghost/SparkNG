@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/skeleton';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/skeleton';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const inlineStyles = {
     root: { position: 'relative' }
@@ -31,7 +31,7 @@ export class SkeletonStyle extends BaseStyle {
  *
  * Skeleton is a placeholder to display instead of the actual content.
  *
- * [Live Demo](https://optimus.openng.org/skeleton/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/skeleton/)
  *
  * @module skeletonstyle
  *

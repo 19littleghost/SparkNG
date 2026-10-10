@@ -1,7 +1,7 @@
 import { isPlatformBrowser } from '@angular/common';
 import { booleanAttribute, Directive, Input, NgModule, numberAttribute } from '@angular/core';
-import { addClass, removeClass } from '@openng/sparkng-utils';
-import { BaseComponent } from '@openng/sparkng/basecomponent';
+import { addClass, removeClass } from '@bdspark/sparkng-utils';
+import { BaseComponent } from '@bdspark/sparkng/basecomponent';
 
 interface AnimateOnScrollOptions {
     root?: HTMLElement | null;

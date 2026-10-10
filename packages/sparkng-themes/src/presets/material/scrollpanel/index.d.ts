@@ -1,6 +1,6 @@
-import type { ScrollPanelTokenSections } from '@openng/sparkng-themes/types/scrollpanel';
+import type { ScrollPanelTokenSections } from '@bdspark/sparkng-themes/types/scrollpanel';
 
-export * from '@openng/sparkng-themes/types/scrollpanel';
+export * from '@bdspark/sparkng-themes/types/scrollpanel';
 
 declare const root: ScrollPanelTokenSections.Root;
 declare const bar: ScrollPanelTokenSections.Bar;

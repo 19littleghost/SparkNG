@@ -15,10 +15,10 @@ import { RatingModule } from '@bdspark/sparkng/rating';
         <div class="card flex justify-center">
             <p-rating [(ngModel)]="value">
                 <ng-template #onicon>
-                    <img src="https://optimus.openng.org/demo/rating/custom-icon-active.png" height="24" width="24" />
+                    <img src="https://TODO-BDSPARK-DOMAIN/demo/rating/custom-icon-active.png" height="24" width="24" />
                 </ng-template>
                 <ng-template #officon>
-                    <img src="https://optimus.openng.org/demo/rating/custom-icon.png" height="24" width="24" />
+                    <img src="https://TODO-BDSPARK-DOMAIN/demo/rating/custom-icon.png" height="24" width="24" />
                 </ng-template>
             </p-rating>
         </div>

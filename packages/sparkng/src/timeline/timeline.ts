@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, ContentChild, ContentChildren, inject, InjectionToken, Input, NgModule, QueryList, TemplateRef, ViewEncapsulation } from '@angular/core';
-import { BlockableUI, PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { Nullable } from '@openng/sparkng/ts-helpers';
-import { TimelineItemTemplateContext, TimelinePassThrough } from '@openng/sparkng/types/timeline';
+import { BlockableUI, PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
+import { TimelineItemTemplateContext, TimelinePassThrough } from '@bdspark/sparkng/types/timeline';
 import { TimelineStyle } from './style/timelinestyle';
 
 const TIMELINE_INSTANCE = new InjectionToken<Timeline>('TIMELINE_INSTANCE');

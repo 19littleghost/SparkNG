@@ -1,4 +1,4 @@
-import type { StepperDesignTokens, StepperTokenSections } from '@openng/sparkng-themes/types/stepper';
+import type { StepperDesignTokens, StepperTokenSections } from '@bdspark/sparkng-themes/types/stepper';
 
 export const root: StepperTokenSections.Root = {
     transitionDuration: '{transition.duration}'

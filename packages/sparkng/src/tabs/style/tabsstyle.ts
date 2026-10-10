@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/tabs';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/tabs';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => [
@@ -24,7 +24,7 @@ export class TabsStyle extends BaseStyle {
  *
  * Tabs facilitates seamless switching between different views.
  *
- * [Live Demo](https://optimus.openng.org/tabs/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/tabs/)
  *
  * @module tabsstyle
  *

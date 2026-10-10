@@ -23,20 +23,20 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { MotionEvent, MotionOptions } from '@openng/sparkng-motion';
-import { absolutePosition, addClass, addStyle, appendChild, find, findSingle, getFocusableElements, getIndex, getOuterWidth, hasClass, isDate, isNotEmpty, isTouchDevice, relativePosition, setAttribute, uuid } from '@openng/sparkng-utils';
-import { OverlayService, PrimeTemplate, SharedModule, TranslationKeys } from '@openng/sparkng/api';
-import { AutoFocus } from '@openng/sparkng/autofocus';
-import { PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseInput } from '@openng/sparkng/baseinput';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { Button } from '@openng/sparkng/button';
-import { blockBodyScroll, ConnectedOverlayScrollHandler, unblockBodyScroll } from '@openng/sparkng/dom';
-import { CalendarIcon, ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, ChevronUpIcon, TimesIcon } from '@openng/sparkng/icons';
-import { InputText } from '@openng/sparkng/inputtext';
-import { MotionModule } from '@openng/sparkng/motion';
-import { Ripple } from '@openng/sparkng/ripple';
-import { Nullable, VoidListener } from '@openng/sparkng/ts-helpers';
+import { MotionEvent, MotionOptions } from '@bdspark/sparkng-motion';
+import { absolutePosition, addClass, addStyle, appendChild, find, findSingle, getFocusableElements, getIndex, getOuterWidth, hasClass, isDate, isNotEmpty, isTouchDevice, relativePosition, setAttribute, uuid } from '@bdspark/sparkng-utils';
+import { OverlayService, PrimeTemplate, SharedModule, TranslationKeys } from '@bdspark/sparkng/api';
+import { AutoFocus } from '@bdspark/sparkng/autofocus';
+import { PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseInput } from '@bdspark/sparkng/baseinput';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { Button } from '@bdspark/sparkng/button';
+import { blockBodyScroll, ConnectedOverlayScrollHandler, unblockBodyScroll } from '@bdspark/sparkng/dom';
+import { CalendarIcon, ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, ChevronUpIcon, TimesIcon } from '@bdspark/sparkng/icons';
+import { InputText } from '@bdspark/sparkng/inputtext';
+import { MotionModule } from '@bdspark/sparkng/motion';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { Nullable, VoidListener } from '@bdspark/sparkng/ts-helpers';
 import {
     DatePickerButtonBarTemplateContext,
     DatePickerDateTemplateContext,
@@ -51,8 +51,8 @@ import {
     LocaleSettings,
     Month,
     NavigationState
-} from '@openng/sparkng/types/datepicker';
-import { ZIndexUtils } from '@openng/sparkng/utils';
+} from '@bdspark/sparkng/types/datepicker';
+import { ZIndexUtils } from '@bdspark/sparkng/utils';
 import { Subscription } from 'rxjs';
 import { DatePickerStyle } from './style/datepickerstyle';
 

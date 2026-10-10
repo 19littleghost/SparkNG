@@ -1,6 +1,6 @@
-import type { InlineMessageTokenSections } from '@openng/sparkng-themes/types/inlinemessage';
+import type { InlineMessageTokenSections } from '@bdspark/sparkng-themes/types/inlinemessage';
 
-export * from '@openng/sparkng-themes/types/inlinemessage';
+export * from '@bdspark/sparkng-themes/types/inlinemessage';
 
 declare const root: InlineMessageTokenSections.Root;
 declare const text: InlineMessageTokenSections.Text;

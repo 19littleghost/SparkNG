@@ -51,7 +51,7 @@ import { RouterModule } from '@angular/router';
                                 <a [href]="sparkedDemoUrl" target="_blank" rel="noopener noreferrer" class="text-surface-500 dark:text-surface-400 font-medium hover:text-primary rounded transition-all duration-300">Sparked Demo</a>
                             </li>
                             <li class="mb-6">
-                                <a href="mailto:contact@openng.org" target="_blank" rel="noopener noreferrer" class="text-surface-500 dark:text-surface-400 font-medium hover:text-primary rounded transition-all duration-300">Contact Us</a>
+                                <a href="mailto:contact@TODO-BDSPARK-DOMAIN" target="_blank" rel="noopener noreferrer" class="text-surface-500 dark:text-surface-400 font-medium hover:text-primary rounded transition-all duration-300">Contact Us</a>
                             </li>
                         </ul>
                     </div>

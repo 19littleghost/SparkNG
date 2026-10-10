@@ -1,11 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, ContentChild, ContentChildren, inject, InjectionToken, Input, NgModule, QueryList, signal, TemplateRef, ViewEncapsulation } from '@angular/core';
-import { equals } from '@openng/sparkng-utils';
-import { BlockableUI, Footer, Header, PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
+import { equals } from '@bdspark/sparkng-utils';
+import { BlockableUI, Footer, Header, PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
 import { CardStyle } from './style/cardstyle';
-import { CardPassThrough } from '@openng/sparkng/types/card';
+import { CardPassThrough } from '@bdspark/sparkng/types/card';
 
 const CARD_INSTANCE = new InjectionToken<Card>('CARD_INSTANCE');
 

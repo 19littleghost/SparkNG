@@ -3,8 +3,8 @@ import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection } fr
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
-import { MessageService, PrimeTemplate, SharedModule, ToastMessageOptions } from '@openng/sparkng/api';
-import { provideOptimus } from '@openng/sparkng/config';
+import { MessageService, PrimeTemplate, SharedModule, ToastMessageOptions } from '@bdspark/sparkng/api';
+import { provideOptimus } from '@bdspark/sparkng/config';
 import { Toast, ToastItem } from './toast';
 
 // Test Components for different scenarios

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/paginator';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/paginator';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     paginator: ({ instance }) => ['p-paginator p-component'],
@@ -61,7 +61,7 @@ export class PaginatorStyle extends BaseStyle {
  *
  * Paginator is a generic component to display content in paged format.
  *
- * [Live Demo](https://optimus.openng.org/paginator)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/paginator)
  *
  * @module paginatorstyle
  *

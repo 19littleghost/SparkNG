@@ -1,4 +1,4 @@
-import { MotionOptions } from '@openng/sparkng-motion';
+import { MotionOptions } from '@bdspark/sparkng-motion';
 
 /**
  * Represents the type of overlay mode, which can be 'modal', 'overlay', or undefined.

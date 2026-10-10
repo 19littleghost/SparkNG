@@ -2,8 +2,8 @@ import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection, sig
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormControl, FormGroup, FormsModule, NG_VALUE_ACCESSOR, ReactiveFormsModule, Validators } from '@angular/forms';
 import { By } from '@angular/platform-browser';
-import { SharedModule } from '@openng/sparkng/api';
-import { AutoCompleteCompleteEvent, AutoCompleteDropdownClickEvent, AutoCompleteSelectEvent, AutoCompleteUnselectEvent } from '@openng/sparkng/types/autocomplete';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { AutoCompleteCompleteEvent, AutoCompleteDropdownClickEvent, AutoCompleteSelectEvent, AutoCompleteUnselectEvent } from '@bdspark/sparkng/types/autocomplete';
 import { BehaviorSubject } from 'rxjs';
 import type { Mock } from 'vitest';
 import { AUTOCOMPLETE_VALUE_ACCESSOR, AutoComplete, AutoCompleteModule } from './autocomplete';

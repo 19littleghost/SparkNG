@@ -4,9 +4,9 @@ import { By } from '@angular/platform-browser';
 
 import { Router } from '@angular/router';
 import { RouterTestingModule } from '@angular/router/testing';
-import { MenuItem } from '@openng/sparkng/api';
-import { provideOptimus } from '@openng/sparkng/config';
-import { Tooltip } from '@openng/sparkng/tooltip';
+import { MenuItem } from '@bdspark/sparkng/api';
+import { provideOptimus } from '@bdspark/sparkng/config';
+import { Tooltip } from '@bdspark/sparkng/tooltip';
 import { TieredMenu } from './tieredmenu';
 
 @Component({

@@ -1,6 +1,6 @@
-import type { MeterGroupTokenSections } from '@openng/sparkng-themes/types/metergroup';
+import type { MeterGroupTokenSections } from '@bdspark/sparkng-themes/types/metergroup';
 
-export * from '@openng/sparkng-themes/types/metergroup';
+export * from '@bdspark/sparkng-themes/types/metergroup';
 
 declare const root: MeterGroupTokenSections.Root;
 declare const meters: MeterGroupTokenSections.Meters;

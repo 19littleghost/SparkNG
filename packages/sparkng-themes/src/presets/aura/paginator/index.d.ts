@@ -1,6 +1,6 @@
-import type { PaginatorTokenSections } from '@openng/sparkng-themes/types/paginator';
+import type { PaginatorTokenSections } from '@bdspark/sparkng-themes/types/paginator';
 
-export * from '@openng/sparkng-themes/types/paginator';
+export * from '@bdspark/sparkng-themes/types/paginator';
 
 declare const root: PaginatorTokenSections.Root;
 declare const navButton: PaginatorTokenSections.NavButton;

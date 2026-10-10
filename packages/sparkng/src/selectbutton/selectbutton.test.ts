@@ -4,8 +4,8 @@ import { FormControl, FormGroup, FormsModule, NgModel, ReactiveFormsModule, Vali
 import { By } from '@angular/platform-browser';
 
 import { CommonModule } from '@angular/common';
-import { SharedModule } from '@openng/sparkng/api';
-import { provideOptimus } from '@openng/sparkng/config';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { provideOptimus } from '@bdspark/sparkng/config';
 import { SelectButton, SelectButtonModule } from './selectbutton';
 
 describe('SelectButton', () => {

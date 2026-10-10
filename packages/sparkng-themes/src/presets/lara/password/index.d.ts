@@ -1,6 +1,6 @@
-import type { PasswordTokenSections } from '@openng/sparkng-themes/types/password';
+import type { PasswordTokenSections } from '@bdspark/sparkng-themes/types/password';
 
-export * from '@openng/sparkng-themes/types/password';
+export * from '@bdspark/sparkng-themes/types/password';
 
 declare const meter: PasswordTokenSections.Meter;
 declare const icon: PasswordTokenSections.Icon;

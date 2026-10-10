@@ -26,7 +26,7 @@ import { Component } from '@angular/core';
             <h3>The bus factor is real</h3>
             <p>
                 This is maintained by a small group of people in their own time. We would rather say that plainly than imply a larger organisation stands behind it. The best way to change that number is to
-                <a href="https://github.com/openng-org/sparkng" target="_blank" rel="noopener noreferrer">contribute</a>.
+                <a href="https://github.com/TODO-BDSPARK-ORG/sparkng" target="_blank" rel="noopener noreferrer">contribute</a>.
             </p>
         </app-docsectiontext>
     `

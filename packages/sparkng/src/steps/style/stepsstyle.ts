@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/steps';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/steps';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => ['p-steps p-component', { 'p-readonly': instance.readonly }],
@@ -29,7 +29,7 @@ export class StepsStyle extends BaseStyle {
  *
  * Steps components is an indicator for the steps in a wizard workflow. Example below uses nested routes with Steps.
  *
- * [Live Demo](https://optimus.openng.org/steps/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/steps/)
  *
  * @module stepsstyle
  *

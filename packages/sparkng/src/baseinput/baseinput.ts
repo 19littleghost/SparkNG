@@ -1,6 +1,6 @@
 import { booleanAttribute, computed, Directive, inject, input } from '@angular/core';
-import { BaseEditableHolder } from '@openng/sparkng/baseeditableholder';
-import { Fluid } from '@openng/sparkng/fluid';
+import { BaseEditableHolder } from '@bdspark/sparkng/baseeditableholder';
+import { Fluid } from '@bdspark/sparkng/fluid';
 
 @Directive({ standalone: true })
 export class BaseInput<PT = any> extends BaseEditableHolder<PT> {

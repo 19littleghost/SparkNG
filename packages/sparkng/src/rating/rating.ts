@@ -19,17 +19,17 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { focus, getFirstFocusableElement, uuid } from '@openng/sparkng-utils';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { AutoFocus } from '@openng/sparkng/autofocus';
-import { PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseEditableHolder } from '@openng/sparkng/baseeditableholder';
-import { Bind } from '@openng/sparkng/bind';
-import { BindModule } from '@openng/sparkng/bind';
-import { StarFillIcon, StarIcon } from '@openng/sparkng/icons';
-import { Nullable } from '@openng/sparkng/ts-helpers';
-import { RatingIconTemplateContext, RatingPassThrough } from '@openng/sparkng/types/rating';
-import type { RatingRateEvent } from '@openng/sparkng/types/rating';
+import { focus, getFirstFocusableElement, uuid } from '@bdspark/sparkng-utils';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { AutoFocus } from '@bdspark/sparkng/autofocus';
+import { PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseEditableHolder } from '@bdspark/sparkng/baseeditableholder';
+import { Bind } from '@bdspark/sparkng/bind';
+import { BindModule } from '@bdspark/sparkng/bind';
+import { StarFillIcon, StarIcon } from '@bdspark/sparkng/icons';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
+import { RatingIconTemplateContext, RatingPassThrough } from '@bdspark/sparkng/types/rating';
+import type { RatingRateEvent } from '@bdspark/sparkng/types/rating';
 import { RatingStyle } from './style/ratingstyle';
 
 const RATING_INSTANCE = new InjectionToken<Rating>('RATING_INSTANCE');

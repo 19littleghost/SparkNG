@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/carousel';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/carousel';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => [
@@ -67,7 +67,7 @@ export class CarouselStyle extends BaseStyle {
  *
  * Carousel is a content slider featuring various customization options.
  *
- * [Live Demo](https://optimus.openng.org/carousel/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/carousel/)
  *
  * @module carouselstyle
  *

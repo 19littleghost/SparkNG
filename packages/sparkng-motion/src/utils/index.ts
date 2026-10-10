@@ -1,4 +1,4 @@
-import { getHiddenElementDimensions, isPrefersReducedMotion, setCSSProperty, toMs } from '@openng/sparkng-utils';
+import { getHiddenElementDimensions, isPrefersReducedMotion, setCSSProperty, toMs } from '@bdspark/sparkng-utils';
 import type { MotionClassNamesWithPhase, MotionHooksWithPhase, MotionMetadata, MotionOptions, MotionPhase, MotionType } from '../../types';
 
 export const ANIMATION = 'animation';

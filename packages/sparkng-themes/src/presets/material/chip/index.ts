@@ -1,4 +1,4 @@
-import type { ChipDesignTokens, ChipTokenSections } from '@openng/sparkng-themes/types/chip';
+import type { ChipDesignTokens, ChipTokenSections } from '@bdspark/sparkng-themes/types/chip';
 
 export const root: ChipTokenSections.Root = {
     borderRadius: '2rem',

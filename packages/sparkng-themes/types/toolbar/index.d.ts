@@ -67,7 +67,7 @@ export declare namespace ToolbarTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface ToolbarDesignTokens extends DesignTokens<ToolbarDesignTokens> {

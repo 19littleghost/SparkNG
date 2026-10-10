@@ -1,4 +1,4 @@
-import type { MessageDesignTokens, MessageTokenSections } from '@openng/sparkng-themes/types/message';
+import type { MessageDesignTokens, MessageTokenSections } from '@bdspark/sparkng-themes/types/message';
 
 export const root: MessageTokenSections.Root = {
     borderRadius: '{content.border.radius}',

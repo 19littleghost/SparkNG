@@ -1,4 +1,4 @@
-import type { ColorPickerDesignTokens, ColorPickerTokenSections } from '@openng/sparkng-themes/types/colorpicker';
+import type { ColorPickerDesignTokens, ColorPickerTokenSections } from '@bdspark/sparkng-themes/types/colorpicker';
 
 export const root: ColorPickerTokenSections.Root = {
     transitionDuration: '{transition.duration}'

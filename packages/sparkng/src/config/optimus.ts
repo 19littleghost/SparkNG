@@ -1,5 +1,5 @@
 import { ElementRef, inject, Injectable, PLATFORM_ID, signal, TemplateRef } from '@angular/core';
-import { FilterMatchMode, OverlayOptions, Translation } from '@openng/sparkng/api';
+import { FilterMatchMode, OverlayOptions, Translation } from '@bdspark/sparkng/api';
 import { Subject } from 'rxjs';
 import type { OptimusConfigType, ThemeConfigType, ZIndex } from './optimus.types';
 import { ThemeProvider } from './themeprovider';

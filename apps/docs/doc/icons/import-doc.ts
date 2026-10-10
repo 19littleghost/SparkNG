@@ -16,6 +16,6 @@ import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 })
 export class ImportDoc {
     code: Code = {
-        scss: `@import "@openng/icons/openng-icons.css";`
+        scss: `@import "@bdspark/icons/bdspark-icons.css";`
     };
 }

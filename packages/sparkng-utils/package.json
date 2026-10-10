@@ -1,17 +1,17 @@
 {
-    "name": "@openng/sparkng-utils",
+    "name": "@bdspark/sparkng-utils",
     "version": "2.0.2",
-    "author": "OpenNG",
+    "author": "bdSpark",
     "description": "Utility functions and helpers for Optimus UI Libraries",
     "keywords": ["utilities", "helpers", "sparkng", "angular"],
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/openng-org/sparkng.git",
+        "url": "git+https://github.com/TODO-BDSPARK-ORG/sparkng.git",
         "directory": "packages/sparkng-utils"
     },
     "bugs": {
-        "url": "https://github.com/openng-org/sparkng/issues"
+        "url": "https://github.com/TODO-BDSPARK-ORG/sparkng/issues"
     },
     "main": "./dist/index.mjs",
     "module": "./dist/index.mjs",

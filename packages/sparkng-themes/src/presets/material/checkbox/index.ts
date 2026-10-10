@@ -1,4 +1,4 @@
-import type { CheckboxDesignTokens, CheckboxTokenSections } from '@openng/sparkng-themes/types/checkbox';
+import type { CheckboxDesignTokens, CheckboxTokenSections } from '@bdspark/sparkng-themes/types/checkbox';
 
 export const root: CheckboxTokenSections.Root = {
     borderRadius: '{border.radius.xs}',

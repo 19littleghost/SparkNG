@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/organizationchart';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/organizationchart';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => ['p-organizationchart p-component', { 'p-organizationchart-preservespace': instance.preserveSpace }],
@@ -31,7 +31,7 @@ export class OrganizationChartStyle extends BaseStyle {
  *
  * OrganizationChart visualizes hierarchical organization data.
  *
- * [Live Demo](https://optimus.openng.org/organizationchart)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/organizationchart)
  *
  * @module organizationchartstyle
  *

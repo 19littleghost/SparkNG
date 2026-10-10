@@ -4,11 +4,11 @@ import { By } from '@angular/platform-browser';
 import { FormControl, FormGroup, FormsModule, NgModel, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { Paginator, PaginatorModule } from './paginator';
-import { Select } from '@openng/sparkng/select';
-import { InputNumber } from '@openng/sparkng/inputnumber';
-import { Ripple } from '@openng/sparkng/ripple';
-import { SharedModule } from '@openng/sparkng/api';
-import { PaginatorState } from '@openng/sparkng/types/paginator';
+import { Select } from '@bdspark/sparkng/select';
+import { InputNumber } from '@bdspark/sparkng/inputnumber';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { PaginatorState } from '@bdspark/sparkng/types/paginator';
 
 // Test component for basic paginator functionality
 @Component({

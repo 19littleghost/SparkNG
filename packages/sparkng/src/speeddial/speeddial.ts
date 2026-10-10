@@ -20,15 +20,15 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { find, findSingle, focus, hasClass, uuid } from '@openng/sparkng-utils';
-import { MenuItem, PrimeTemplate, SharedModule, TooltipOptions } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { ButtonModule, ButtonProps } from '@openng/sparkng/button';
-import { PlusIcon } from '@openng/sparkng/icons';
-import { Ripple } from '@openng/sparkng/ripple';
-import { TooltipModule } from '@openng/sparkng/tooltip';
-import { SpeedDialButtonTemplateContext, SpeedDialItemTemplateContext, SpeedDialPassThrough } from '@openng/sparkng/types/speeddial';
+import { find, findSingle, focus, hasClass, uuid } from '@bdspark/sparkng-utils';
+import { MenuItem, PrimeTemplate, SharedModule, TooltipOptions } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { ButtonModule, ButtonProps } from '@bdspark/sparkng/button';
+import { PlusIcon } from '@bdspark/sparkng/icons';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { TooltipModule } from '@bdspark/sparkng/tooltip';
+import { SpeedDialButtonTemplateContext, SpeedDialItemTemplateContext, SpeedDialPassThrough } from '@bdspark/sparkng/types/speeddial';
 import { asapScheduler } from 'rxjs';
 import { SpeedDialStyle } from './style/speeddialstyle';
 

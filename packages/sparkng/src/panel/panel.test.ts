@@ -2,9 +2,9 @@ import { ChangeDetectionStrategy, Component, DebugElement, provideZonelessChange
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { provideNoopAnimations } from '@angular/platform-browser/animations';
-import { ButtonModule } from '@openng/sparkng/button';
-import { MinusIcon, PlusIcon } from '@openng/sparkng/icons';
-import { PanelAfterToggleEvent, PanelBeforeToggleEvent } from '@openng/sparkng/types/panel';
+import { ButtonModule } from '@bdspark/sparkng/button';
+import { MinusIcon, PlusIcon } from '@bdspark/sparkng/icons';
+import { PanelAfterToggleEvent, PanelBeforeToggleEvent } from '@bdspark/sparkng/types/panel';
 import { Panel } from './panel';
 
 @Component({

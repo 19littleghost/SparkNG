@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/editor';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/editor';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => [
@@ -26,7 +26,7 @@ export class EditorStyle extends BaseStyle {
  *
  * Editor groups a collection of contents in tabs.
  *
- * [Live Demo](https://optimus.openng.org/editor/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/editor/)
  *
  * @module editorstyle
  *

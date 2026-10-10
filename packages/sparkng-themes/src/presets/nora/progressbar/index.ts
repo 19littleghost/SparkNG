@@ -1,4 +1,4 @@
-import type { ProgressBarDesignTokens, ProgressBarTokenSections } from '@openng/sparkng-themes/types/progressbar';
+import type { ProgressBarDesignTokens, ProgressBarTokenSections } from '@bdspark/sparkng-themes/types/progressbar';
 
 export const root: ProgressBarTokenSections.Root = {
     borderRadius: '{content.border.radius}',

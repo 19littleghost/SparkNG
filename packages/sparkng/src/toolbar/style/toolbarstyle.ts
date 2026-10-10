@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/toolbar';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/toolbar';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: () => ['p-toolbar p-component'],
@@ -22,7 +22,7 @@ export class ToolbarStyle extends BaseStyle {
  *
  * Toolbar is a grouping component for buttons and other content.
  *
- * [Live Demo](https://optimus.openng.org/toolbar/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/toolbar/)
  *
  * @module toolbarstyle
  *

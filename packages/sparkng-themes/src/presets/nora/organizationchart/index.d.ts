@@ -1,6 +1,6 @@
-import type { OrganizationChartTokenSections } from '@openng/sparkng-themes/types/organizationchart';
+import type { OrganizationChartTokenSections } from '@bdspark/sparkng-themes/types/organizationchart';
 
-export * from '@openng/sparkng-themes/types/organizationchart';
+export * from '@bdspark/sparkng-themes/types/organizationchart';
 
 declare const root: OrganizationChartTokenSections.Root;
 declare const node: OrganizationChartTokenSections.Node;

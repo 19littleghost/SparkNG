@@ -1,4 +1,4 @@
-import type { OrderListDesignTokens, OrderListTokenSections } from '@openng/sparkng-themes/types/orderlist';
+import type { OrderListDesignTokens, OrderListTokenSections } from '@bdspark/sparkng-themes/types/orderlist';
 
 export const root: OrderListTokenSections.Root = {
     gap: '1.125rem'

@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@openng/sparkng-styled';
-import type { CheckboxTokenSections } from '@openng/sparkng-themes/types/checkbox';
+import type { StyleOptions } from '@bdspark/sparkng-styled';
+import type { CheckboxTokenSections } from '@bdspark/sparkng-themes/types/checkbox';
 
-export * from '@openng/sparkng-themes/types/checkbox';
+export * from '@bdspark/sparkng-themes/types/checkbox';
 
 declare const root: CheckboxTokenSections.Root;
 declare const icon: CheckboxTokenSections.Icon;

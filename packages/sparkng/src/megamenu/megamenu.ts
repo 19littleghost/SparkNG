@@ -22,17 +22,17 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { findLastIndex, findSingle, focus, isEmpty, isNotEmpty, isPrintableCharacter, isTouchDevice, resolve, uuid } from '@openng/sparkng-utils';
-import { MegaMenuItem, PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BadgeModule } from '@openng/sparkng/badge';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { AngleDownIcon, AngleRightIcon, BarsIcon } from '@openng/sparkng/icons';
-import { Ripple } from '@openng/sparkng/ripple';
-import { TooltipModule } from '@openng/sparkng/tooltip';
-import { VoidListener } from '@openng/sparkng/ts-helpers';
-import { MegaMenuItemTemplateContext, MegaMenuPassThrough } from '@openng/sparkng/types/megamenu';
-import { ZIndexUtils } from '@openng/sparkng/utils';
+import { findLastIndex, findSingle, focus, isEmpty, isNotEmpty, isPrintableCharacter, isTouchDevice, resolve, uuid } from '@bdspark/sparkng-utils';
+import { MegaMenuItem, PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BadgeModule } from '@bdspark/sparkng/badge';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { AngleDownIcon, AngleRightIcon, BarsIcon } from '@bdspark/sparkng/icons';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { TooltipModule } from '@bdspark/sparkng/tooltip';
+import { VoidListener } from '@bdspark/sparkng/ts-helpers';
+import { MegaMenuItemTemplateContext, MegaMenuPassThrough } from '@bdspark/sparkng/types/megamenu';
+import { ZIndexUtils } from '@bdspark/sparkng/utils';
 import { MegaMenuStyle } from './style/megamenustyle';
 
 const MEGAMENU_INSTANCE = new InjectionToken<MegaMenu>('MEGAMENU_INSTANCE');

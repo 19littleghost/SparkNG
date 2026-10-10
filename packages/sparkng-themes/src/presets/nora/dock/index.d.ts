@@ -1,6 +1,6 @@
-import type { DockTokenSections } from '@openng/sparkng-themes/types/dock';
+import type { DockTokenSections } from '@bdspark/sparkng-themes/types/dock';
 
-export * from '@openng/sparkng-themes/types/dock';
+export * from '@bdspark/sparkng-themes/types/dock';
 
 declare const root: DockTokenSections.Root;
 declare const item: DockTokenSections.Item;

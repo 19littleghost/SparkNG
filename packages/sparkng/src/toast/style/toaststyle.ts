@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/toast';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/toast';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 // Position
 const inlineStyles = {
@@ -59,7 +59,7 @@ export class ToastStyle extends BaseStyle {
  *
  * Toast is used to display messages in an overlay.
  *
- * [Live Demo](https://optimus.openng.org/toast/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/toast/)
  *
  * @module toaststyle
  *

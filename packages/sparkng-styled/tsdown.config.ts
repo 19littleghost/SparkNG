@@ -9,7 +9,7 @@ export default defineConfig({
     dts: true,
     target: false,
     deps: {
-        neverBundle: [/^@openng\/sparkng-(.*)$/]
+        neverBundle: [/^@bdspark\/sparkng-(.*)$/]
     },
     minify: isProduction,
     sourcemap: isProduction,

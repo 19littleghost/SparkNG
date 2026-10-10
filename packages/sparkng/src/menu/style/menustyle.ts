@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/menu';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/menu';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const inlineStyles = {
     root: ({ instance }) => ({ position: instance.popup ? 'absolute' : 'relative' })
@@ -47,7 +47,7 @@ export class MenuStyle extends BaseStyle {
  *
  * Menu is a navigation / command component that supports dynamic and static positioning.
  *
- * [Live Demo](https://optimus.openng.org/menu/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/menu/)
  *
  * @module menustyle
  *

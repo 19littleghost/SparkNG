@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, inject, NgModule, ViewEncapsulation } from '@angular/core';
-import { BaseComponent } from '@openng/sparkng/basecomponent';
+import { BaseComponent } from '@bdspark/sparkng/basecomponent';
 import { ButtonGroupStyle } from './style/buttongroupstyle';
 
 @Component({

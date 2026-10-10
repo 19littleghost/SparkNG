@@ -7,27 +7,27 @@ describe('rewriteSource — module specifiers', () => {
     it('rewrites primeng and @primeuix import paths', () => {
         const { text, changed } = rw(`import { ButtonModule } from 'primeng/button';\n` + `import { MessageService } from 'primeng/api';\n` + `import Aura from '@primeuix/themes/aura';\n`);
         expect(changed).toBe(true);
-        expect(text).toContain(`from '@openng/sparkng/button'`);
-        expect(text).toContain(`from '@openng/sparkng/api'`);
-        expect(text).toContain(`import Aura from '@openng/sparkng-themes/aura'`);
+        expect(text).toContain(`from '@bdspark/sparkng/button'`);
+        expect(text).toContain(`from '@bdspark/sparkng/api'`);
+        expect(text).toContain(`import Aura from '@bdspark/sparkng-themes/aura'`);
     });
 
     it('rewrites export-from and dynamic import()', () => {
         const { text } = rw(`export { ButtonModule } from 'primeng/button';\n` + `const mod = await import('primeng/chart');\n`);
-        expect(text).toContain(`export { ButtonModule } from '@openng/sparkng/button'`);
-        expect(text).toContain(`import('@openng/sparkng/chart')`);
+        expect(text).toContain(`export { ButtonModule } from '@bdspark/sparkng/button'`);
+        expect(text).toContain(`import('@bdspark/sparkng/chart')`);
     });
 
     it('preserves quote style and leaves unrelated modules untouched', () => {
         const { text } = rw(`import { X } from "primeng/table";\nimport 'chart.js';\n`);
-        expect(text).toContain(`from "@openng/sparkng/table"`);
+        expect(text).toContain(`from "@bdspark/sparkng/table"`);
         expect(text).toContain(`import 'chart.js';`);
     });
 
     it('rewrites the primeicons stylesheet import to the renamed file', () => {
         const { text, changed } = rw(`import 'primeicons/primeicons.css';\n`);
         expect(changed).toBe(true);
-        expect(text).toContain(`import '@openng/icons/openng-icons.css';`);
+        expect(text).toContain(`import '@bdspark/icons/bdspark-icons.css';`);
     });
 
     it('reports changed: false for untouched files', () => {
@@ -41,21 +41,21 @@ describe('rewriteSource — module specifiers', () => {
 describe('rewriteSource — identifier renames', () => {
     it('renames providePrimeNG import and its usages', () => {
         const { text } = rw(`import { providePrimeNG } from 'primeng/config';\n` + `export const appConfig = { providers: [providePrimeNG({ ripple: true })] };\n`);
-        expect(text).toContain(`import { provideOptimus } from '@openng/sparkng/config'`);
+        expect(text).toContain(`import { provideOptimus } from '@bdspark/sparkng/config'`);
         expect(text).toContain(`provideOptimus({ ripple: true })`);
         expect(text).not.toContain('providePrimeNG');
     });
 
     it('renames the PrimeNG class and PrimeNGConfigType, including type positions', () => {
         const { text } = rw(`import { PrimeNG, PrimeNGConfigType } from 'primeng/config';\n` + `import { inject } from '@angular/core';\n` + `const config: PrimeNGConfigType = {};\n` + `const svc = inject(PrimeNG);\n`);
-        expect(text).toContain(`import { Optimus, OptimusConfigType } from '@openng/sparkng/config'`);
+        expect(text).toContain(`import { Optimus, OptimusConfigType } from '@bdspark/sparkng/config'`);
         expect(text).toContain(`const config: OptimusConfigType = {}`);
         expect(text).toContain(`inject(Optimus)`);
     });
 
     it('only rewrites the imported name for aliased imports', () => {
         const { text } = rw(`import { PrimeNG as Cfg } from 'primeng/config';\n` + `const svc: Cfg = null!;\n`);
-        expect(text).toContain(`import { Optimus as Cfg } from '@openng/sparkng/config'`);
+        expect(text).toContain(`import { Optimus as Cfg } from '@bdspark/sparkng/config'`);
         expect(text).toContain(`const svc: Cfg = null!;`);
     });
 
@@ -67,8 +67,8 @@ describe('rewriteSource — identifier renames', () => {
 
     it('renames the PrimeIcons constants class and its usages', () => {
         const { text } = rw(`import { PrimeIcons } from 'primeng/api';\n` + `const item = { icon: PrimeIcons.PLUS };\n`);
-        expect(text).toContain(`import { OpenngIcons } from '@openng/sparkng/api'`);
-        expect(text).toContain(`icon: OpenngIcons.PLUS`);
+        expect(text).toContain(`import { BdsparkIcons } from '@bdspark/sparkng/api'`);
+        expect(text).toContain(`icon: BdsparkIcons.PLUS`);
         expect(text).not.toContain('PrimeIcons');
     });
 
@@ -88,7 +88,7 @@ describe('rewriteSource — identifier renames', () => {
 
     it('renames re-exports', () => {
         const { text } = rw(`export { providePrimeNG } from 'primeng/config';\n`);
-        expect(text).toContain(`export { provideOptimus } from '@openng/sparkng/config';`);
+        expect(text).toContain(`export { provideOptimus } from '@bdspark/sparkng/config';`);
     });
 
     it('renames a local re-export of the imported symbol', () => {
@@ -110,7 +110,7 @@ describe('rewriteSource — identifier renames', () => {
 
     it('falls back to an aliased import when the original name is shadowed elsewhere', () => {
         const { text } = rw(`import { PrimeNG } from 'primeng/config';\n` + `const svc = new PrimeNG();\n` + `function g(PrimeNG: number) { return PrimeNG + 1; }\n`);
-        expect(text).toContain(`import { Optimus as PrimeNG } from '@openng/sparkng/config';`);
+        expect(text).toContain(`import { Optimus as PrimeNG } from '@bdspark/sparkng/config';`);
         expect(text).toContain(`const svc = new PrimeNG();`);
         expect(text).toContain(`function g(PrimeNG: number) { return PrimeNG + 1; }`);
     });

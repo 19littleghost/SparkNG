@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@openng/sparkng-styled';
-import type { MenubarTokenSections } from '@openng/sparkng-themes/types/menubar';
+import type { StyleOptions } from '@bdspark/sparkng-styled';
+import type { MenubarTokenSections } from '@bdspark/sparkng-themes/types/menubar';
 
-export * from '@openng/sparkng-themes/types/menubar';
+export * from '@bdspark/sparkng-themes/types/menubar';
 
 declare const root: MenubarTokenSections.Root;
 declare const baseItem: MenubarTokenSections.BaseItem;

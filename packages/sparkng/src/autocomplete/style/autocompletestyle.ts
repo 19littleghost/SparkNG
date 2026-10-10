@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as autocomplete_style } from '@openng/sparkng-styles/autocomplete';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as autocomplete_style } from '@bdspark/sparkng-styles/autocomplete';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
 ${autocomplete_style}
@@ -101,7 +101,7 @@ export class AutoCompleteStyle extends BaseStyle {
  *
  * AutoComplete is an input component that provides real-time suggestions while being typed.
  *
- * [Live Demo](https://optimus.openng.org/autocomplete/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/autocomplete/)
  *
  * @module autocompletestyle
  *

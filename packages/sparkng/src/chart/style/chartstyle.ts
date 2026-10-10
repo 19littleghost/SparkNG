@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BaseStyle } from '@openng/sparkng/base';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const inlineStyles = {
     root: ({ instance }) => ({ display: 'block', position: 'relative', width: instance.width, height: instance.height })
@@ -22,7 +22,7 @@ export class ChartStyle extends BaseStyle {
  *
  * Chart groups a collection of contents in tabs.
  *
- * [Live Demo](https://optimus.openng.org/chart/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/chart/)
  *
  * @module chartstyle
  *

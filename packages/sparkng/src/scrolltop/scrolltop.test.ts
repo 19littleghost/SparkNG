@@ -2,10 +2,10 @@ import { ChangeDetectionStrategy, Component, DebugElement, PLATFORM_ID, provideZ
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
-import { BaseComponent } from '@openng/sparkng/basecomponent';
-import { Button } from '@openng/sparkng/button';
-import { ZIndexUtils } from '@openng/sparkng/utils';
-import { provideOptimus } from '@openng/sparkng/config';
+import { BaseComponent } from '@bdspark/sparkng/basecomponent';
+import { Button } from '@bdspark/sparkng/button';
+import { ZIndexUtils } from '@bdspark/sparkng/utils';
+import { provideOptimus } from '@bdspark/sparkng/config';
 import { ScrollTop, ScrollTopModule } from './scrolltop';
 
 @Component({

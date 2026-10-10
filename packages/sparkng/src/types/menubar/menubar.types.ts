@@ -1,7 +1,7 @@
 import { TemplateRef } from '@angular/core';
-import type { PassThrough, PassThroughOption } from '@openng/sparkng/api';
-import { MenuItem } from '@openng/sparkng/api';
-import type { BadgePassThrough } from '@openng/sparkng/types/badge';
+import type { PassThrough, PassThroughOption } from '@bdspark/sparkng/api';
+import { MenuItem } from '@bdspark/sparkng/api';
+import type { BadgePassThrough } from '@bdspark/sparkng/types/badge';
 
 /**
  * Custom pass-through(pt) options.

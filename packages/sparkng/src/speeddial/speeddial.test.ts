@@ -3,8 +3,8 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
 import { RouterTestingModule } from '@angular/router/testing';
-import { MenuItem } from '@openng/sparkng/api';
-import { ButtonModule } from '@openng/sparkng/button';
+import { MenuItem } from '@bdspark/sparkng/api';
+import { ButtonModule } from '@bdspark/sparkng/button';
 import { SpeedDial } from './speeddial';
 
 // Basic SpeedDial Test Component

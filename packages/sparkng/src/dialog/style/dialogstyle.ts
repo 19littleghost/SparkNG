@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/dialog';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/dialog';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 /* Position */
 const inlineStyles = {
@@ -70,7 +70,7 @@ export class DialogStyle extends BaseStyle {
  *
  * Dialog is a container to display content in an overlay window.
  *
- * [Live Demo](https://optimus.openng.org/dialog)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/dialog)
  *
  * @module dialogstyle
  *

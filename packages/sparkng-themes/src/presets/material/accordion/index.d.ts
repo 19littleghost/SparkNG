@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@openng/sparkng-styled';
-import type { AccordionTokenSections } from '@openng/sparkng-themes/types/accordion';
+import type { StyleOptions } from '@bdspark/sparkng-styled';
+import type { AccordionTokenSections } from '@bdspark/sparkng-themes/types/accordion';
 
-export * from '@openng/sparkng-themes/types/accordion';
+export * from '@bdspark/sparkng-themes/types/accordion';
 
 declare const root: AccordionTokenSections.Root;
 declare const panel: AccordionTokenSections.Panel;

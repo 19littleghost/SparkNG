@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as scrollpanel_style } from '@openng/sparkng-styles/scrollpanel';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as scrollpanel_style } from '@bdspark/sparkng-styles/scrollpanel';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${scrollpanel_style}
@@ -31,7 +31,7 @@ export class ScrollPanelStyle extends BaseStyle {
  *
  * ScrollPanel is a cross browser, lightweight and themable alternative to native browser scrollbar.
  *
- * [Live Demo](https://optimus.openng.org/scrollpanel/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/scrollpanel/)
  *
  * @module scrollpanelstyle
  *

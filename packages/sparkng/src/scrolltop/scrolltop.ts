@@ -1,15 +1,15 @@
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, ContentChild, ContentChildren, inject, InjectionToken, input, Input, NgModule, numberAttribute, QueryList, signal, TemplateRef, ViewEncapsulation } from '@angular/core';
-import { MotionEvent, MotionOptions } from '@openng/sparkng-motion';
-import { getWindowScrollTop } from '@openng/sparkng-utils';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { Button, ButtonProps } from '@openng/sparkng/button';
-import { ChevronUpIcon } from '@openng/sparkng/icons';
-import { MotionDirective } from '@openng/sparkng/motion';
-import { ScrollTopIconTemplateContext, ScrollTopPassThrough } from '@openng/sparkng/types/scrolltop';
-import { ZIndexUtils } from '@openng/sparkng/utils';
+import { MotionEvent, MotionOptions } from '@bdspark/sparkng-motion';
+import { getWindowScrollTop } from '@bdspark/sparkng-utils';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { Button, ButtonProps } from '@bdspark/sparkng/button';
+import { ChevronUpIcon } from '@bdspark/sparkng/icons';
+import { MotionDirective } from '@bdspark/sparkng/motion';
+import { ScrollTopIconTemplateContext, ScrollTopPassThrough } from '@bdspark/sparkng/types/scrolltop';
+import { ZIndexUtils } from '@bdspark/sparkng/utils';
 import { ScrollTopStyle } from './style/scrolltopstyle';
 
 const SCROLLTOP_INSTANCE = new InjectionToken<ScrollTop>('SCROLLTOP_INSTANCE');

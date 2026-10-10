@@ -1,6 +1,6 @@
-import type { BadgeTokenSections } from '@openng/sparkng-themes/types/badge';
+import type { BadgeTokenSections } from '@bdspark/sparkng-themes/types/badge';
 
-export * from '@openng/sparkng-themes/types/badge';
+export * from '@bdspark/sparkng-themes/types/badge';
 
 declare const root: BadgeTokenSections.Root;
 declare const dot: BadgeTokenSections.Dot;

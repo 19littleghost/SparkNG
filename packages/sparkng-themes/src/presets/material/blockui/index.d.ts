@@ -1,6 +1,6 @@
-import type { BlockUITokenSections } from '@openng/sparkng-themes/types/blockui';
+import type { BlockUITokenSections } from '@bdspark/sparkng-themes/types/blockui';
 
-export * from '@openng/sparkng-themes/types/blockui';
+export * from '@bdspark/sparkng-themes/types/blockui';
 
 declare const root: BlockUITokenSections.Root;
 declare const css: BlockUITokenSections.CSS;

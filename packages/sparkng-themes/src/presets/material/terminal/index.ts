@@ -1,4 +1,4 @@
-import type { TerminalDesignTokens, TerminalTokenSections } from '@openng/sparkng-themes/types/terminal';
+import type { TerminalDesignTokens, TerminalTokenSections } from '@bdspark/sparkng-themes/types/terminal';
 
 export const root: TerminalTokenSections.Root = {
     background: '{form.field.background}',

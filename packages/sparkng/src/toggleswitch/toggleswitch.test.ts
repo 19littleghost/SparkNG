@@ -5,10 +5,10 @@ import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } 
 import { By } from '@angular/platform-browser';
 
 import { CommonModule } from '@angular/common';
-import { SharedModule } from '@openng/sparkng/api';
-import { AutoFocus } from '@openng/sparkng/autofocus';
-import { provideOptimus } from '@openng/sparkng/config';
-import { ToggleSwitchChangeEvent } from '@openng/sparkng/types/toggleswitch';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { AutoFocus } from '@bdspark/sparkng/autofocus';
+import { provideOptimus } from '@bdspark/sparkng/config';
+import { ToggleSwitchChangeEvent } from '@bdspark/sparkng/types/toggleswitch';
 import { ToggleSwitch, ToggleSwitchModule } from './toggleswitch';
 
 describe('ToggleSwitch', () => {

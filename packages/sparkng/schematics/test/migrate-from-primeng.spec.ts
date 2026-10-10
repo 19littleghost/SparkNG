@@ -48,14 +48,14 @@ describe('migrate-from-primeng', () => {
         const runner = createRunner();
         const tree = primengTree({}, { ...PRIMENG_PKG, dependencies: { ...PRIMENG_PKG.dependencies, primeng: '^19.0.0' } });
         const result = await runner.runSchematic('migrate-from-primeng', { skipInstall: true, force: true }, tree);
-        expect(JSON.parse(result.readContent('/package.json')).dependencies['@openng/sparkng']).toBe(VERSIONS['@openng/sparkng']);
+        expect(JSON.parse(result.readContent('/package.json')).dependencies['@bdspark/sparkng']).toBe(VERSIONS['@bdspark/sparkng']);
     });
 
     it('version gate accepts primeng v21 declared only in peerDependencies (#1448)', async () => {
         const { primeng, ...dependencies } = PRIMENG_PKG.dependencies;
         const tree = primengTree({}, { ...PRIMENG_PKG, dependencies, peerDependencies: { primeng } });
         const result = await createRunner().runSchematic('migrate-from-primeng', { skipInstall: true }, tree);
-        expect(result.readContent('/src/app/app.config.ts')).toContain(`from '@openng/sparkng/config'`);
+        expect(result.readContent('/src/app/app.config.ts')).toContain(`from '@bdspark/sparkng/config'`);
     });
 
     it('version gate reports the version (not "not installed") for old primeng in peerDependencies (#1448)', async () => {
@@ -72,7 +72,7 @@ describe('migrate-from-primeng', () => {
         const result = await runner.runSchematic('migrate-from-primeng', { skipInstall: true }, tree);
         const libPkg = JSON.parse(result.readContent('/libs/app/package.json'));
         expect(libPkg.dependencies.primeng).toBeUndefined();
-        expect(libPkg.dependencies['@openng/sparkng']).toBe(VERSIONS['@openng/sparkng']);
+        expect(libPkg.dependencies['@bdspark/sparkng']).toBe(VERSIONS['@bdspark/sparkng']);
     });
 
     it('swaps dependencies in every workspace package.json', async () => {
@@ -84,15 +84,15 @@ describe('migrate-from-primeng', () => {
 
         const rootPkg = JSON.parse(result.readContent('/package.json'));
         expect(rootPkg.dependencies.primeng).toBeUndefined();
-        expect(rootPkg.dependencies['@openng/sparkng']).toBe(VERSIONS['@openng/sparkng']);
-        expect(rootPkg.dependencies['@openng/sparkng-themes']).toBe(VERSIONS['@openng/sparkng-themes']);
+        expect(rootPkg.dependencies['@bdspark/sparkng']).toBe(VERSIONS['@bdspark/sparkng']);
+        expect(rootPkg.dependencies['@bdspark/sparkng-themes']).toBe(VERSIONS['@bdspark/sparkng-themes']);
         expect(rootPkg.dependencies['tailwindcss-primeui']).toBeUndefined();
-        expect(rootPkg.dependencies['@openng/sparkng-tailwindcss']).toBe(VERSIONS['@openng/sparkng-tailwindcss']);
+        expect(rootPkg.dependencies['@bdspark/sparkng-tailwindcss']).toBe(VERSIONS['@bdspark/sparkng-tailwindcss']);
         expect(rootPkg.dependencies.primelocale).toBeUndefined();
-        expect(rootPkg.dependencies['@openng/sparkng-locale']).toBe(VERSIONS['@openng/sparkng-locale']);
+        expect(rootPkg.dependencies['@bdspark/sparkng-locale']).toBe(VERSIONS['@bdspark/sparkng-locale']);
 
         const libPkg = JSON.parse(result.readContent('/libs/ui/package.json'));
-        expect(libPkg.dependencies['@openng/sparkng-styled']).toBe(VERSIONS['@openng/sparkng-styled']);
+        expect(libPkg.dependencies['@bdspark/sparkng-styled']).toBe(VERSIONS['@bdspark/sparkng-styled']);
     });
 
     it('rewrites TypeScript sources', async () => {
@@ -104,12 +104,12 @@ describe('migrate-from-primeng', () => {
         const result = await runner.runSchematic('migrate-from-primeng', { skipInstall: true }, tree);
 
         const appConfig = result.readContent('/src/app/app.config.ts');
-        expect(appConfig).toContain(`import { provideOptimus } from '@openng/sparkng/config';`);
-        expect(appConfig).toContain(`import Aura from '@openng/sparkng-themes/aura';`);
+        expect(appConfig).toContain(`import { provideOptimus } from '@bdspark/sparkng/config';`);
+        expect(appConfig).toContain(`import Aura from '@bdspark/sparkng-themes/aura';`);
         expect(appConfig).toContain(`provideOptimus({ theme: { preset: Aura } })`);
 
         const component = result.readContent('/src/app/list.component.ts');
-        expect(component).toContain(`from '@openng/sparkng/table'`);
+        expect(component).toContain(`from '@bdspark/sparkng/table'`);
         expect(component).toContain(`inject(Optimus)`);
     });
 
@@ -127,7 +127,7 @@ describe('migrate-from-primeng', () => {
         const result = await runner.runSchematic('migrate-from-primeng', { skipInstall: true }, tree);
 
         const appConfig = result.readContent('/src/app/app.config.ts');
-        expect(appConfig).toContain(`import { provideOptimus } from '@openng/sparkng/config';`);
+        expect(appConfig).toContain(`import { provideOptimus } from '@bdspark/sparkng/config';`);
         expect(appConfig).toContain(`cssLayer: { name: 'optimus', order: 'theme, base, optimus' }`);
         expect(appConfig).not.toContain('primeng');
     });
@@ -187,11 +187,11 @@ describe('migrate-from-primeng', () => {
 
         const pkg = JSON.parse(result.readContent('/package.json'));
         expect(pkg.dependencies.primeicons).toBeUndefined();
-        expect(pkg.dependencies['@openng/icons']).toBe(VERSIONS['@openng/icons']);
+        expect(pkg.dependencies['@bdspark/icons']).toBe(VERSIONS['@bdspark/icons']);
 
-        expect(result.readContent('/angular.json')).toContain('node_modules/@openng/icons/openng-icons.css');
-        expect(result.readContent('/src/styles.scss')).toBe(`@import "@openng/icons/openng-icons.css";\nbody { margin: 0; }\n`);
-        expect(result.readContent('/src/main.ts')).toContain(`import '@openng/icons/openng-icons.css';`);
+        expect(result.readContent('/angular.json')).toContain('node_modules/@bdspark/icons/bdspark-icons.css');
+        expect(result.readContent('/src/styles.scss')).toBe(`@import "@bdspark/icons/bdspark-icons.css";\nbody { margin: 0; }\n`);
+        expect(result.readContent('/src/main.ts')).toContain(`import '@bdspark/icons/bdspark-icons.css';`);
     });
 
     it('does not touch node_modules or dist', async () => {
@@ -269,7 +269,7 @@ describe('migrate-from-primeng', () => {
         expect(combined).toContain('1 reference in 1 file');
         expect(combined).toContain('still need manual review');
         expect(combined).toContain('CREATE/UPDATE');
-        expect(combined).toContain('https://www.openng.org/migration/primeng');
+        expect(combined).toContain('https://TODO-BDSPARK-DOMAIN/migration/primeng');
     });
 
     it('says so when there is nothing left to review', async () => {
@@ -291,8 +291,8 @@ describe('migrate-from-primeng', () => {
             '/src/styles.scss': `@use '~primeng/resources/primeng.css';\n@import url(node_modules/primeicons/primeicons.css);\n`
         });
         const result = await runner.runSchematic('migrate-from-primeng', { skipInstall: true }, tree);
-        expect(result.readContent('/src/tailwind.css')).toBe(`@import 'tailwindcss';\n@import '@openng/sparkng-tailwindcss';\n@plugin "@openng/sparkng-tailwindcss";\n`);
-        expect(result.readContent('/src/styles.scss')).toBe(`@use '~@openng/sparkng/resources/primeng.css';\n@import url(node_modules/@openng/icons/openng-icons.css);\n`);
+        expect(result.readContent('/src/tailwind.css')).toBe(`@import 'tailwindcss';\n@import '@bdspark/sparkng-tailwindcss';\n@plugin "@bdspark/sparkng-tailwindcss";\n`);
+        expect(result.readContent('/src/styles.scss')).toBe(`@use '~@bdspark/sparkng/resources/primeng.css';\n@import url(node_modules/@bdspark/icons/bdspark-icons.css);\n`);
     });
 
     it('leaves declaration values that merely look like a package alone', async () => {
@@ -344,7 +344,7 @@ describe('migrate-from-primeng', () => {
             '/tailwind.config.js': "import PrimeUI from 'tailwindcss-primeui';\n\nexport default {\n    plugins: [PrimeUI]\n};\n"
         });
         const result = await runner.runSchematic('migrate-from-primeng', { skipInstall: true }, tree);
-        expect(result.readContent('/tailwind.config.js')).toContain("from '@openng/sparkng-tailwindcss'");
+        expect(result.readContent('/tailwind.config.js')).toContain("from '@bdspark/sparkng-tailwindcss'");
     });
 
     it('rewrites require() in a CommonJS tailwind config', async () => {
@@ -353,7 +353,7 @@ describe('migrate-from-primeng', () => {
             '/tailwind.config.cjs': "const PrimeUI = require('tailwindcss-primeui');\n\nmodule.exports = {\n    plugins: [PrimeUI]\n};\n"
         });
         const result = await runner.runSchematic('migrate-from-primeng', { skipInstall: true }, tree);
-        expect(result.readContent('/tailwind.config.cjs')).toContain("require('@openng/sparkng-tailwindcss')");
+        expect(result.readContent('/tailwind.config.cjs')).toContain("require('@bdspark/sparkng-tailwindcss')");
     });
 
     it('warns to run migrate-from-primeflex when primeflex is also present', async () => {
@@ -388,8 +388,8 @@ describe('migrate-from-primeng', () => {
         });
         const result = await runner.runSchematic('migrate-from-primeng', { skipInstall: true }, tree);
         const content = result.readContent('/src/app/locale.ts');
-        expect(content).toContain(`import { de } from '@openng/sparkng-locale';`);
-        expect(content).toContain(`import ja from '@openng/sparkng-locale/ja.json';`);
+        expect(content).toContain(`import { de } from '@bdspark/sparkng-locale';`);
+        expect(content).toContain(`import ja from '@bdspark/sparkng-locale/ja.json';`);
         expect(content).not.toContain('primelocale');
     });
 });

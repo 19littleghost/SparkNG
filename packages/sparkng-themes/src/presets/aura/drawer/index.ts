@@ -1,4 +1,4 @@
-import type { DrawerDesignTokens, DrawerTokenSections } from '@openng/sparkng-themes/types/drawer';
+import type { DrawerDesignTokens, DrawerTokenSections } from '@bdspark/sparkng-themes/types/drawer';
 
 export const root: DrawerTokenSections.Root = {
     background: '{overlay.modal.background}',

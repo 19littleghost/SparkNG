@@ -1,13 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, computed, ContentChild, ContentChildren, EventEmitter, inject, InjectionToken, input, Input, NgModule, Output, QueryList, signal, TemplateRef, ViewEncapsulation } from '@angular/core';
-import { MotionOptions } from '@openng/sparkng-motion';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { TimesIcon } from '@openng/sparkng/icons';
-import { MotionModule } from '@openng/sparkng/motion';
-import { Ripple } from '@openng/sparkng/ripple';
-import { MessageContainerTemplateContext, MessagePassThrough, MessageSeverity } from '@openng/sparkng/types/message';
+import { MotionOptions } from '@bdspark/sparkng-motion';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { TimesIcon } from '@bdspark/sparkng/icons';
+import { MotionModule } from '@bdspark/sparkng/motion';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { MessageContainerTemplateContext, MessagePassThrough, MessageSeverity } from '@bdspark/sparkng/types/message';
 import { MessageStyle } from './style/messagestyle';
 
 const MESSAGE_INSTANCE = new InjectionToken<Message>('MESSAGE_INSTANCE');

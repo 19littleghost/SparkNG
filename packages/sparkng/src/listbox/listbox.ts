@@ -25,19 +25,19 @@ import {
     signal
 } from '@angular/core';
 import { FormsModule, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { equals, findLastIndex, findSingle, focus, getFirstFocusableElement, isEmpty, isFunction, isNotEmpty, isPrintableCharacter, resolveFieldData, uuid } from '@openng/sparkng-utils';
-import { FilterService, Footer, Header, PrimeTemplate, ScrollerOptions, SharedModule } from '@openng/sparkng/api';
-import { PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseEditableHolder } from '@openng/sparkng/baseeditableholder';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { Checkbox } from '@openng/sparkng/checkbox';
-import { IconField } from '@openng/sparkng/iconfield';
-import { BlankIcon, CheckIcon, SearchIcon } from '@openng/sparkng/icons';
-import { InputIcon } from '@openng/sparkng/inputicon';
-import { InputText } from '@openng/sparkng/inputtext';
-import { Ripple } from '@openng/sparkng/ripple';
-import { Scroller, ScrollerLazyLoadEvent } from '@openng/sparkng/scroller';
-import { Nullable } from '@openng/sparkng/ts-helpers';
+import { equals, findLastIndex, findSingle, focus, getFirstFocusableElement, isEmpty, isFunction, isNotEmpty, isPrintableCharacter, resolveFieldData, uuid } from '@bdspark/sparkng-utils';
+import { FilterService, Footer, Header, PrimeTemplate, ScrollerOptions, SharedModule } from '@bdspark/sparkng/api';
+import { PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseEditableHolder } from '@bdspark/sparkng/baseeditableholder';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { Checkbox } from '@bdspark/sparkng/checkbox';
+import { IconField } from '@bdspark/sparkng/iconfield';
+import { BlankIcon, CheckIcon, SearchIcon } from '@bdspark/sparkng/icons';
+import { InputIcon } from '@bdspark/sparkng/inputicon';
+import { InputText } from '@bdspark/sparkng/inputtext';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { Scroller, ScrollerLazyLoadEvent } from '@bdspark/sparkng/scroller';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
 import {
     ListBoxPassThrough,
     ListboxChangeEvent,
@@ -54,7 +54,7 @@ import {
     ListboxItemTemplateContext,
     ListboxLoaderTemplateContext,
     ListboxSelectAllChangeEvent
-} from '@openng/sparkng/types/listbox';
+} from '@bdspark/sparkng/types/listbox';
 import { Subscription } from 'rxjs';
 import { ListBoxStyle } from './style/listboxstyle';
 

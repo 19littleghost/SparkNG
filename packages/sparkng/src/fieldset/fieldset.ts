@@ -19,14 +19,14 @@ import {
     ViewChild,
     ViewEncapsulation
 } from '@angular/core';
-import { MotionEvent, MotionOptions } from '@openng/sparkng-motion';
-import { uuid } from '@openng/sparkng-utils';
-import { BlockableUI, PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { MinusIcon, PlusIcon } from '@openng/sparkng/icons';
-import { MotionModule } from '@openng/sparkng/motion';
-import type { FieldsetAfterToggleEvent, FieldsetBeforeToggleEvent, FieldsetPassThrough } from '@openng/sparkng/types/fieldset';
+import { MotionEvent, MotionOptions } from '@bdspark/sparkng-motion';
+import { uuid } from '@bdspark/sparkng-utils';
+import { BlockableUI, PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { MinusIcon, PlusIcon } from '@bdspark/sparkng/icons';
+import { MotionModule } from '@bdspark/sparkng/motion';
+import type { FieldsetAfterToggleEvent, FieldsetBeforeToggleEvent, FieldsetPassThrough } from '@bdspark/sparkng/types/fieldset';
 import { FieldsetStyle } from './style/fieldsetstyle';
 
 const FIELDSET_INSTANCE = new InjectionToken<Fieldset>('FIELDSET_INSTANCE');

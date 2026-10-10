@@ -1,9 +1,9 @@
 import { TemplateRef } from '@angular/core';
-import type { FilterMetadata, LazyLoadMeta, PassThrough, PassThroughOption, SortMeta, TreeNode, TreeTableNode } from '@openng/sparkng/api';
-import type { BadgePassThrough } from '@openng/sparkng/types/badge';
-import type { CheckboxPassThrough } from '@openng/sparkng/types/checkbox';
-import type { PaginatorPassThrough } from '@openng/sparkng/types/paginator';
-import type { VirtualScrollerPassThrough } from '@openng/sparkng/types/scroller';
+import type { FilterMetadata, LazyLoadMeta, PassThrough, PassThroughOption, SortMeta, TreeNode, TreeTableNode } from '@bdspark/sparkng/api';
+import type { BadgePassThrough } from '@bdspark/sparkng/types/badge';
+import type { CheckboxPassThrough } from '@bdspark/sparkng/types/checkbox';
+import type { PaginatorPassThrough } from '@bdspark/sparkng/types/paginator';
+import type { VirtualScrollerPassThrough } from '@bdspark/sparkng/types/scroller';
 
 /**
  * Custom pass-through(pt) options.

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as buttongroup_style } from '@openng/sparkng-styles/buttongroup';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as buttongroup_style } from '@bdspark/sparkng-styles/buttongroup';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${buttongroup_style}
@@ -48,7 +48,7 @@ export class ButtonGroupStyle extends BaseStyle {
  *
  * A set of Buttons can be displayed together using the ButtonGroup component.
  *
- * [Live Demo](https://optimus.openng.org/button/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/button/)
  *
  * @module buttongroupstyle
  *

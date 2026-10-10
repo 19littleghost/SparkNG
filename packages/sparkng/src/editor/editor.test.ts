@@ -4,9 +4,9 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { provideOptimus } from '@openng/sparkng/config';
-import type { EditorBlurEvent, EditorChangeEvent, EditorFocusEvent, EditorInitEvent, EditorSelectionChangeEvent, EditorTextChangeEvent } from '@openng/sparkng/types/editor';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { provideOptimus } from '@bdspark/sparkng/config';
+import type { EditorBlurEvent, EditorChangeEvent, EditorFocusEvent, EditorInitEvent, EditorSelectionChangeEvent, EditorTextChangeEvent } from '@bdspark/sparkng/types/editor';
 import { Editor } from './editor';
 // Test Components for different scenarios
 @Component({

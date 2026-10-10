@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@openng/sparkng-styled';
-import type { PanelMenuTokenSections } from '@openng/sparkng-themes/types/panelmenu';
+import type { StyleOptions } from '@bdspark/sparkng-styled';
+import type { PanelMenuTokenSections } from '@bdspark/sparkng-themes/types/panelmenu';
 
-export * from '@openng/sparkng-themes/types/panelmenu';
+export * from '@bdspark/sparkng-themes/types/panelmenu';
 
 declare const root: PanelMenuTokenSections.Root;
 declare const panel: PanelMenuTokenSections.Panel;

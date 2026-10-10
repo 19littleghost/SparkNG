@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as accordion_style } from '@openng/sparkng-styles/accordion';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as accordion_style } from '@bdspark/sparkng-styles/accordion';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
 ${accordion_style}
@@ -55,7 +55,7 @@ export class AccordionStyle extends BaseStyle {
  *
  * Accordion groups a collection of contents in tabs.
  *
- * [Live Demo](https://optimus.openng.org/accordion/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/accordion/)
  *
  * @module accordionstyle
  *

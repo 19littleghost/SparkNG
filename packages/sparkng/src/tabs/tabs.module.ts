@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BindModule } from '@openng/sparkng/bind';
+import { BindModule } from '@bdspark/sparkng/bind';
 import { Tab } from './tab';
 import { TabList } from './tablist';
 import { TabPanel } from './tabpanel';

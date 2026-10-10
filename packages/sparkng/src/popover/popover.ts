@@ -22,17 +22,17 @@ import {
     ViewEncapsulation,
     ViewRef
 } from '@angular/core';
-import { MotionEvent, MotionOptions } from '@openng/sparkng-motion';
-import { $dt } from '@openng/sparkng-styled';
-import { absolutePosition, addClass, appendChild, findSingle, getOffset, isIOS, isTouchDevice } from '@openng/sparkng-utils';
-import { OverlayService, PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { ConnectedOverlayScrollHandler } from '@openng/sparkng/dom';
-import { MotionModule } from '@openng/sparkng/motion';
-import { Nullable, VoidListener } from '@openng/sparkng/ts-helpers';
-import { PopoverContentTemplateContext, PopoverPassThrough } from '@openng/sparkng/types/popover';
-import { ZIndexUtils } from '@openng/sparkng/utils';
+import { MotionEvent, MotionOptions } from '@bdspark/sparkng-motion';
+import { $dt } from '@bdspark/sparkng-styled';
+import { absolutePosition, addClass, appendChild, findSingle, getOffset, isIOS, isTouchDevice } from '@bdspark/sparkng-utils';
+import { OverlayService, PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { ConnectedOverlayScrollHandler } from '@bdspark/sparkng/dom';
+import { MotionModule } from '@bdspark/sparkng/motion';
+import { Nullable, VoidListener } from '@bdspark/sparkng/ts-helpers';
+import { PopoverContentTemplateContext, PopoverPassThrough } from '@bdspark/sparkng/types/popover';
+import { ZIndexUtils } from '@bdspark/sparkng/utils';
 import { Subscription } from 'rxjs';
 import { PopoverStyle } from './style/popoverstyle';
 

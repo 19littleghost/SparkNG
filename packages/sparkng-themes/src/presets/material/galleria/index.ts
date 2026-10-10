@@ -1,4 +1,4 @@
-import type { GalleriaDesignTokens, GalleriaTokenSections } from '@openng/sparkng-themes/types/galleria';
+import type { GalleriaDesignTokens, GalleriaTokenSections } from '@bdspark/sparkng-themes/types/galleria';
 
 export const root: GalleriaTokenSections.Root = {
     borderWidth: '1px',

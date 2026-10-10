@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as checkbox_style } from '@openng/sparkng-styles/checkbox';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as checkbox_style } from '@bdspark/sparkng-styles/checkbox';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${checkbox_style}
@@ -43,7 +43,7 @@ export class CheckboxStyle extends BaseStyle {
  *
  * Checkbox is an extension to standard checkbox element with theming.
  *
- * [Live Demo](https://optimus.openng.org/checkbox/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/checkbox/)
  *
  * @module checkboxstyle
  *

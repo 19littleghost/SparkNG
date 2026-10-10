@@ -1,4 +1,4 @@
-import { matchRegex } from '@openng/sparkng-utils';
+import { matchRegex } from '@bdspark/sparkng-utils';
 import type { ColorScale } from '../..';
 import { EXPR_REGEX } from '../../utils/index';
 import shade from './shade';

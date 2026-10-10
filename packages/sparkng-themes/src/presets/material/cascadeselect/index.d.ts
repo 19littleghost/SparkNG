@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@openng/sparkng-styled';
-import type { CascadeSelectTokenSections } from '@openng/sparkng-themes/types/cascadeselect';
+import type { StyleOptions } from '@bdspark/sparkng-styled';
+import type { CascadeSelectTokenSections } from '@bdspark/sparkng-themes/types/cascadeselect';
 
-export * from '@openng/sparkng-themes/types/cascadeselect';
+export * from '@bdspark/sparkng-themes/types/cascadeselect';
 
 declare const root: CascadeSelectTokenSections.Root;
 declare const dropdown: CascadeSelectTokenSections.Dropdown;

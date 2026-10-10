@@ -1,4 +1,4 @@
-import type { InputGroupDesignTokens, InputGroupTokenSections } from '@openng/sparkng-themes/types/inputgroup';
+import type { InputGroupDesignTokens, InputGroupTokenSections } from '@bdspark/sparkng-themes/types/inputgroup';
 
 export const addon: InputGroupTokenSections.Addon = {
     borderRadius: '{form.field.border.radius}',

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/tooltip';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/tooltip';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: 'p-tooltip p-component',
@@ -21,7 +21,7 @@ export class TooltipStyle extends BaseStyle {
  *
  * Tooltip directive provides advisory information for a component.
  *
- * [Live Demo](https://optimus.openng.org/tooltip)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/tooltip)
  *
  * @module tooltipstyle
  *

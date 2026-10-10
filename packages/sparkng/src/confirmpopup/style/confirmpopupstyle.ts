@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/confirmpopup';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/confirmpopup';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: () => ['p-confirmpopup p-component'],
@@ -25,7 +25,7 @@ export class ConfirmPopupStyle extends BaseStyle {
  *
  * ConfirmPopup displays a confirmation overlay displayed relatively to its target.
  *
- * [Live Demo](https://optimus.openng.org/confirmpopup)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/confirmpopup)
  *
  * @module confirmpopupstyle
  *

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as rating_style } from '@openng/sparkng-styles/rating';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as rating_style } from '@bdspark/sparkng-styles/rating';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${rating_style}
@@ -44,7 +44,7 @@ export class RatingStyle extends BaseStyle {
  *
  * Rating component is a star based selection input.
  *
- * [Live Demo](https://optimus.openng.org/rating/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/rating/)
  *
  * @module ratingstyle
  *

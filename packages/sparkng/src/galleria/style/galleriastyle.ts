@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/galleria';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/galleria';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     mask: 'p-galleria-mask p-overlay-mask',
@@ -93,7 +93,7 @@ export class GalleriaStyle extends BaseStyle {
  *
  * Galleria is an advanced content gallery component.
  *
- * [Live Demo](https://optimus.openng.org/galleria/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/galleria/)
  *
  * @module galleriastyle
  *

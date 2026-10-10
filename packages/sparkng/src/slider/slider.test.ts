@@ -4,9 +4,9 @@ import { FormControl, FormGroup, FormsModule, Validators } from '@angular/forms'
 import { By } from '@angular/platform-browser';
 
 import { CommonModule } from '@angular/common';
-import { SharedModule } from '@openng/sparkng/api';
-import { provideOptimus } from '@openng/sparkng/config';
-import { SliderChangeEvent, SliderSlideEndEvent } from '@openng/sparkng/types/slider';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { provideOptimus } from '@bdspark/sparkng/config';
+import { SliderChangeEvent, SliderSlideEndEvent } from '@bdspark/sparkng/types/slider';
 import { Slider, SliderModule } from './slider';
 
 // Test Components

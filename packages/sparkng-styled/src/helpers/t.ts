@@ -1,4 +1,4 @@
-import { mergeKeys } from '@openng/sparkng-utils/object';
+import { mergeKeys } from '@bdspark/sparkng-utils/object';
 import Theme from '../config/index';
 
 export const $t = (theme: any = {}) => {

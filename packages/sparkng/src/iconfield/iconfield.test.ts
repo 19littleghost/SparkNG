@@ -3,8 +3,8 @@ import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection } fr
 import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { IconField } from './iconfield';
-import { InputIcon } from '@openng/sparkng/inputicon';
-import { provideOptimus } from '@openng/sparkng/config';
+import { InputIcon } from '@bdspark/sparkng/inputicon';
+import { provideOptimus } from '@bdspark/sparkng/config';
 
 @Component({
     changeDetection: ChangeDetectionStrategy.Eager,

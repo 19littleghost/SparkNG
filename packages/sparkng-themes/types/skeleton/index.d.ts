@@ -49,7 +49,7 @@ export declare namespace SkeletonTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface SkeletonDesignTokens extends DesignTokens<SkeletonDesignTokens> {

@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, inject, InjectionToken, Input, NgModule, ViewEncapsulation } from '@angular/core';
-import { SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { ProgressSpinnerPassThrough } from '@openng/sparkng/types/progressspinner';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { ProgressSpinnerPassThrough } from '@bdspark/sparkng/types/progressspinner';
 import { ProgressSpinnerStyle } from './style/progressspinnerstyle';
 
 const PROGRESSSPINNER_INSTANCE = new InjectionToken<ProgressSpinner>('PROGRESSSPINNER_INSTANCE');

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { DialogStyle } from '@openng/sparkng/dialog';
+import { DialogStyle } from '@bdspark/sparkng/dialog';
 
 @Injectable()
 export class DynamicDialogStyle extends DialogStyle {
@@ -10,7 +10,7 @@ export class DynamicDialogStyle extends DialogStyle {
  *
  * DynamicDialog is a container to display content in an overlay window.
  *
- * [Live Demo](https://optimus.openng.org/dynamicdialog)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/dynamicdialog)
  *
  * @module dynamicdialogstyle
  *

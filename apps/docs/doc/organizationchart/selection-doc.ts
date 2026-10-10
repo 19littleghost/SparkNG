@@ -38,7 +38,7 @@ export class SelectionDoc {
             expanded: true,
             type: 'person',
             data: {
-                image: 'https://optimus.openng.org/demo/avatar/amyelsner.png',
+                image: 'https://TODO-BDSPARK-DOMAIN/demo/avatar/amyelsner.png',
                 name: 'Amy Elsner',
                 title: 'CEO'
             },
@@ -47,7 +47,7 @@ export class SelectionDoc {
                     expanded: true,
                     type: 'person',
                     data: {
-                        image: 'https://optimus.openng.org/demo/avatar/annafali.png',
+                        image: 'https://TODO-BDSPARK-DOMAIN/demo/avatar/annafali.png',
                         name: 'Anna Fali',
                         title: 'CMO'
                     },
@@ -64,7 +64,7 @@ export class SelectionDoc {
                     expanded: true,
                     type: 'person',
                     data: {
-                        image: 'https://optimus.openng.org/demo/avatar/stephenshaw.png',
+                        image: 'https://TODO-BDSPARK-DOMAIN/demo/avatar/stephenshaw.png',
                         name: 'Stephen Shaw',
                         title: 'CTO'
                     },

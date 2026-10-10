@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://optimus.openng.org/large-icon.svg" alt="Optimus UI" width="140" />
+  <img src="https://TODO-BDSPARK-DOMAIN/large-icon.svg" alt="Optimus UI" width="140" />
 </div>
 
-# @openng/sparkng-motion
+# @bdspark/sparkng-motion
 
-Motion and animation utilities for [Optimus UI](https://github.com/openng-org/sparkng).
+Motion and animation utilities for [Optimus UI](https://github.com/TODO-BDSPARK-ORG/sparkng).
 
 This package provides a programmatic way to manage CSS transitions and animations within the Optimus UI ecosystem. It offers a robust API for controlling motion lifecycles, handling dynamic dimensions, and ensuring accessibility.
 
@@ -20,7 +20,7 @@ This package provides a programmatic way to manage CSS transitions and animation
 ## Installation
 
 ```bash
-npm install @openng/sparkng-motion
+npm install @bdspark/sparkng-motion
 ```
 
 ## Core Concepts
@@ -29,7 +29,7 @@ npm install @openng/sparkng-motion
 The primary entry point to create a motion instance for a target element.
 
 ```typescript
-import { createMotion } from '@openng/sparkng-motion';
+import { createMotion } from '@bdspark/sparkng-motion';
 
 const motion = createMotion(element, {
     name: 'my-fade',
@@ -57,7 +57,7 @@ Stay in sync with your animations:
 
 ## Usage in Optimus UI
 
-This package is a core dependency of `@openng/sparkng`, powering the animations found in overlays, transitions, and interactive components. It can also be used independently to add standard-compliant motion to custom Angular components.
+This package is a core dependency of `@bdspark/sparkng`, powering the animations found in overlays, transitions, and interactive components. It can also be used independently to add standard-compliant motion to custom Angular components.
 
 ## License
 

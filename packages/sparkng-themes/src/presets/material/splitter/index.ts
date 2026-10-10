@@ -1,4 +1,4 @@
-import type { SplitterDesignTokens, SplitterTokenSections } from '@openng/sparkng-themes/types/splitter';
+import type { SplitterDesignTokens, SplitterTokenSections } from '@bdspark/sparkng-themes/types/splitter';
 
 export const root: SplitterTokenSections.Root = {
     background: '{content.background}',

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BaseStyle } from '@openng/sparkng/base';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     /* For Optimus */
@@ -64,7 +64,7 @@ export class InputMaskStyle extends BaseStyle {
  *
  * InputMask component is used to enter input in a certain format such as numeric, date, currency, email and phone.
  *
- * [Live Demo](https://optimus.openng.org/inputmask/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/inputmask/)
  *
  * @module inputmaskstyle
  *

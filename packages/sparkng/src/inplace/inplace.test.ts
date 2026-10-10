@@ -3,8 +3,8 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 
-import { SharedModule } from '@openng/sparkng/api';
-import { ButtonModule } from '@openng/sparkng/button';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { ButtonModule } from '@bdspark/sparkng/button';
 import { Inplace, InplaceContent, InplaceDisplay, InplaceModule } from './inplace';
 
 @Component({

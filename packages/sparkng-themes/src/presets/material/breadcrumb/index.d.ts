@@ -1,6 +1,6 @@
-import type { BreadcrumbTokenSections } from '@openng/sparkng-themes/types/breadcrumb';
+import type { BreadcrumbTokenSections } from '@bdspark/sparkng-themes/types/breadcrumb';
 
-export * from '@openng/sparkng-themes/types/breadcrumb';
+export * from '@bdspark/sparkng-themes/types/breadcrumb';
 
 declare const root: BreadcrumbTokenSections.Root;
 declare const item: BreadcrumbTokenSections.Item;

@@ -2,8 +2,8 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, DebugElement, provideZonelessChangeDetection } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { provideOptimus } from '@openng/sparkng/config';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { provideOptimus } from '@bdspark/sparkng/config';
 import { Message } from './message';
 
 @Component({

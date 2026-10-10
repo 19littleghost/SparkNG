@@ -1,4 +1,4 @@
-import type { TreeSelectDesignTokens, TreeSelectTokenSections } from '@openng/sparkng-themes/types/treeselect';
+import type { TreeSelectDesignTokens, TreeSelectTokenSections } from '@bdspark/sparkng-themes/types/treeselect';
 
 export const root: TreeSelectTokenSections.Root = {
     background: '{form.field.background}',

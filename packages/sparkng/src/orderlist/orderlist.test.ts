@@ -5,10 +5,10 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { provideNoopAnimations } from '@angular/platform-browser/animations';
-import { SharedModule } from '@openng/sparkng/api';
-import { ButtonModule } from '@openng/sparkng/button';
-import { ListboxModule } from '@openng/sparkng/listbox';
-import { RippleModule } from '@openng/sparkng/ripple';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { ButtonModule } from '@bdspark/sparkng/button';
+import { ListboxModule } from '@bdspark/sparkng/listbox';
+import { RippleModule } from '@bdspark/sparkng/ripple';
 import { OrderList } from './orderlist';
 
 interface Product {

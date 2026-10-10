@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, DebugElement, ElementRef, input, provideZonelessChangeDetection, ViewChild } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
-import { SharedModule } from '@openng/sparkng/api';
+import { SharedModule } from '@bdspark/sparkng/api';
 import { Badge, BadgeDirective, BadgeModule } from './badge';
 
 @Component({

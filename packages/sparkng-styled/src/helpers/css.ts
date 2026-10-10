@@ -1,4 +1,4 @@
-import { resolve } from '@openng/sparkng-utils';
+import { resolve } from '@bdspark/sparkng-utils';
 import { evaluateDtExpressions, type StyleType } from '..';
 import { dt } from './dt';
 

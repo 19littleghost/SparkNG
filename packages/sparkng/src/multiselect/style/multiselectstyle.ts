@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as multiselect_style } from '@openng/sparkng-styles/multiselect';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as multiselect_style } from '@bdspark/sparkng-styles/multiselect';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${multiselect_style}
@@ -82,7 +82,7 @@ export class MultiSelectStyle extends BaseStyle {
  *
  * MultiSelect is used to select multiple items from a collection.
  *
- * [Live Demo](https://optimus.openng.org/multiselect/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/multiselect/)
  *
  * @module multiselectstyle
  *

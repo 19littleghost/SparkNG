@@ -2,9 +2,9 @@ import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection } fr
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
-import { ConfirmationService, OverlayService } from '@openng/sparkng/api';
-import { ButtonModule } from '@openng/sparkng/button';
-import { FocusTrap } from '@openng/sparkng/focustrap';
+import { ConfirmationService, OverlayService } from '@bdspark/sparkng/api';
+import { ButtonModule } from '@bdspark/sparkng/button';
+import { FocusTrap } from '@bdspark/sparkng/focustrap';
 import { ConfirmPopup } from './confirmpopup';
 
 // Basic ConfirmPopup Component Test

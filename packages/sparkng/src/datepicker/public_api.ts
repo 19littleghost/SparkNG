@@ -1,3 +1,3 @@
-export * from '@openng/sparkng/types/datepicker';
+export * from '@bdspark/sparkng/types/datepicker';
 export * from './datepicker';
 export * from './style/datepickerstyle';

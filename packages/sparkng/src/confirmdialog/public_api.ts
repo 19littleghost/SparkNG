@@ -1,3 +1,3 @@
 export * from './confirmdialog';
-export * from '@openng/sparkng/types/confirmdialog';
+export * from '@bdspark/sparkng/types/confirmdialog';
 export * from './style/confirmdialogstyle';

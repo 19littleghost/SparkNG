@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, inject, InjectionToken, Input, NgModule, ViewEncapsulation } from '@angular/core';
-import { SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { SkeletonPassThrough } from '@openng/sparkng/types/skeleton';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { SkeletonPassThrough } from '@bdspark/sparkng/types/skeleton';
 import { SkeletonStyle } from './style/skeletonstyle';
 
 const SKELETON_INSTANCE = new InjectionToken<Skeleton>('SKELETON_INSTANCE');

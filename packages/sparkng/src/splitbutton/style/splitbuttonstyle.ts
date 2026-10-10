@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/splitbutton';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/splitbutton';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => [
@@ -30,7 +30,7 @@ export class SplitButtonStyle extends BaseStyle {
  *
  * SplitButton groups a set of commands in an overlay with a default command.
  *
- * [Live Demo](https://optimus.openng.org/splitbutton/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/splitbutton/)
  *
  * @module splitbuttonstyle
  *

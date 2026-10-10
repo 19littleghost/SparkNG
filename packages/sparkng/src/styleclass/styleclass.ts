@@ -1,6 +1,6 @@
 import { booleanAttribute, Directive, ElementRef, HostListener, Input, NgModule, NgZone, OnDestroy, Renderer2 } from '@angular/core';
-import { addClass, getTargetElement, hasClass, isElement, removeClass } from '@openng/sparkng-utils';
-import { VoidListener } from '@openng/sparkng/ts-helpers';
+import { addClass, getTargetElement, hasClass, isElement, removeClass } from '@bdspark/sparkng-utils';
+import { VoidListener } from '@bdspark/sparkng/ts-helpers';
 
 /**
  * StyleClass manages css classes declaratively to during enter/leave animations or just to toggle classes on an element.

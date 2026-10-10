@@ -33,7 +33,7 @@ export class AppDocCopyMarkdown implements OnInit {
         if (isPlatformBrowser(this.platformId)) {
             return this.document.location.origin;
         }
-        return 'https://optimus.openng.org';
+        return 'https://TODO-BDSPARK-DOMAIN';
     }
 
     get currentComponentName(): string {

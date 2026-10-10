@@ -32,7 +32,7 @@ import { TableModule } from '@bdspark/sparkng/table';
                         <tr pRowGroupHeader>
                             <td colspan="5">
                                 <div class="flex items-center gap-2">
-                                    <img [alt]="customer.representative.name" src="https://optimus.openng.org/demo/avatar/{{ customer.representative.image }}" width="32" style="vertical-align: middle" />
+                                    <img [alt]="customer.representative.name" src="https://TODO-BDSPARK-DOMAIN/demo/avatar/{{ customer.representative.image }}" width="32" style="vertical-align: middle" />
                                     <span class="font-bold">{{ customer.representative.name }}</span>
                                 </div>
                             </td>
@@ -52,7 +52,7 @@ import { TableModule } from '@bdspark/sparkng/table';
                             </td>
                             <td>
                                 <div class="flex items-center gap-2">
-                                    <img src="https://optimus.openng.org/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px" />
+                                    <img src="https://TODO-BDSPARK-DOMAIN/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px" />
                                     <span>{{ customer.country.name }}</span>
                                 </div>
                             </td>

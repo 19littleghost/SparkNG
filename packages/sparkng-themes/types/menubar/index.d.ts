@@ -313,7 +313,7 @@ export declare namespace MenubarTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface MenubarDesignTokens extends DesignTokens<MenubarDesignTokens> {

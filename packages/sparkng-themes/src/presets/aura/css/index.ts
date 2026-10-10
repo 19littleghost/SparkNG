@@ -1,4 +1,4 @@
-import { ExtendedCSS } from '@openng/sparkng-themes/types';
+import { ExtendedCSS } from '@bdspark/sparkng-themes/types';
 
 const css = /*css*/ `
     li.p-autocomplete-option,

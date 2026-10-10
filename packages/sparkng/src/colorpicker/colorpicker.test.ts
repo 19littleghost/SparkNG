@@ -2,8 +2,8 @@ import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection } fr
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { By } from '@angular/platform-browser';
-import { provideOptimus } from '@openng/sparkng/config';
-import { ColorPickerChangeEvent } from '@openng/sparkng/types/colorpicker';
+import { provideOptimus } from '@bdspark/sparkng/config';
+import { ColorPickerChangeEvent } from '@bdspark/sparkng/types/colorpicker';
 import { ColorPicker } from './colorpicker';
 
 @Component({

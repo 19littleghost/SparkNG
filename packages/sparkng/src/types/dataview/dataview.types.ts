@@ -1,6 +1,6 @@
-import type { PassThrough, PassThroughOption } from '@openng/sparkng/api';
+import type { PassThrough, PassThroughOption } from '@bdspark/sparkng/api';
 import { TemplateRef } from '@angular/core';
-import { PaginatorPassThrough } from '@openng/sparkng/types/paginator';
+import { PaginatorPassThrough } from '@bdspark/sparkng/types/paginator';
 
 /**
  * Custom pass-through(pt) options.

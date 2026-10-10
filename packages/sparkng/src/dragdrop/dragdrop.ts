@@ -1,7 +1,7 @@
 import { AfterViewInit, booleanAttribute, Directive, ElementRef, EventEmitter, HostListener, Input, NgModule, NgZone, OnDestroy, Output, Renderer2 } from '@angular/core';
-import { addClass, removeClass } from '@openng/sparkng-utils';
-import { DomHandler } from '@openng/sparkng/dom';
-import { VoidListener } from '@openng/sparkng/ts-helpers';
+import { addClass, removeClass } from '@bdspark/sparkng-utils';
+import { DomHandler } from '@bdspark/sparkng/dom';
+import { VoidListener } from '@bdspark/sparkng/ts-helpers';
 
 /**
  * pDraggable directive apply draggable behavior to any element.

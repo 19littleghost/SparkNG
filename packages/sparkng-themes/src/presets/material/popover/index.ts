@@ -1,4 +1,4 @@
-import type { PopoverDesignTokens, PopoverTokenSections } from '@openng/sparkng-themes/types/popover';
+import type { PopoverDesignTokens, PopoverTokenSections } from '@bdspark/sparkng-themes/types/popover';
 
 export const root: PopoverTokenSections.Root = {
     background: '{overlay.popover.background}',

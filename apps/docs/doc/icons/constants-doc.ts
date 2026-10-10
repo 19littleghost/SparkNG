@@ -2,7 +2,7 @@ import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { Code } from '@/domain/code';
 import { Component, OnInit } from '@angular/core';
-import { MenuItem, OpenngIcons } from '@bdspark/sparkng/api';
+import { MenuItem, BdsparkIcons } from '@bdspark/sparkng/api';
 import { MenuModule } from '@bdspark/sparkng/menu';
 
 @Component({
@@ -26,11 +26,11 @@ export class ConstantsDoc implements OnInit {
         this.items = [
             {
                 label: 'New',
-                icon: OpenngIcons.PLUS
+                icon: BdsparkIcons.PLUS
             },
             {
                 label: 'Delete',
-                icon: OpenngIcons.TRASH
+                icon: BdsparkIcons.TRASH
             }
         ];
     }
@@ -38,24 +38,24 @@ export class ConstantsDoc implements OnInit {
     code: Code = {
         typescript: `
 import { Component } from '@angular/core';
-import { OpenngIcons, MenuItem } from '@bdspark/sparkng/api';
+import { BdsparkIcons, MenuItem } from '@bdspark/sparkng/api';
 
 @Component({
-    selector: 'openng-icons-constants-demo',
-    templateUrl: './openng-icons-constants-demo.html'
+    selector: 'bdspark-icons-constants-demo',
+    templateUrl: './bdspark-icons-constants-demo.html'
 })
-export class OpenngIconsConstantsDemo {
+export class BdsparkIconsConstantsDemo {
     items: MenuItem[];
 
     ngOnInit() {
         this.items = [
             {
                 label: 'New',
-                icon: OpenngIcons.PLUS,
+                icon: BdsparkIcons.PLUS,
             },
             {
                 label: 'Delete',
-                icon: OpenngIcons.TRASH
+                icon: BdsparkIcons.TRASH
             }
         ];
     }

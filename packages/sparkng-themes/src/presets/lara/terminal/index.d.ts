@@ -1,6 +1,6 @@
-import type { TerminalTokenSections } from '@openng/sparkng-themes/types/terminal';
+import type { TerminalTokenSections } from '@bdspark/sparkng-themes/types/terminal';
 
-export * from '@openng/sparkng-themes/types/terminal';
+export * from '@bdspark/sparkng-themes/types/terminal';
 
 declare const root: TerminalTokenSections.Root;
 declare const prompt: TerminalTokenSections.Prompt;

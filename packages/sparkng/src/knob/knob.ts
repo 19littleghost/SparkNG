@@ -1,13 +1,13 @@
 import { booleanAttribute, ChangeDetectionStrategy, Component, EventEmitter, forwardRef, inject, InjectionToken, Input, NgModule, numberAttribute, Output, signal, ViewEncapsulation } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { $dt } from '@openng/sparkng-styled';
-import { SharedModule } from '@openng/sparkng/api';
-import { PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseEditableHolder } from '@openng/sparkng/baseeditableholder';
-import { Bind } from '@openng/sparkng/bind';
-import { BindModule } from '@openng/sparkng/bind';
-import { VoidListener } from '@openng/sparkng/ts-helpers';
-import { KnobPassThrough } from '@openng/sparkng/types/knob';
+import { $dt } from '@bdspark/sparkng-styled';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseEditableHolder } from '@bdspark/sparkng/baseeditableholder';
+import { Bind } from '@bdspark/sparkng/bind';
+import { BindModule } from '@bdspark/sparkng/bind';
+import { VoidListener } from '@bdspark/sparkng/ts-helpers';
+import { KnobPassThrough } from '@bdspark/sparkng/types/knob';
 import { KnobStyle } from './style/knobstyle';
 
 const KNOB_INSTANCE = new InjectionToken<Knob>('KNOB_INSTANCE');

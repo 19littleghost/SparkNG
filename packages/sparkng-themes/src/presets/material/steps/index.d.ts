@@ -1,6 +1,6 @@
-import type { StepsTokenSections } from '@openng/sparkng-themes/types/steps';
+import type { StepsTokenSections } from '@bdspark/sparkng-themes/types/steps';
 
-export * from '@openng/sparkng-themes/types/steps';
+export * from '@bdspark/sparkng-themes/types/steps';
 
 declare const root: StepsTokenSections.Root;
 declare const separator: StepsTokenSections.Separator;

@@ -18,31 +18,31 @@ for (const entry of fs.readdirSync(packagesDir)) {
         continue;
     }
     const pkg = fs.readJsonSync(pkgPath);
-    if (pkg.name?.startsWith('@openng/') && pkg.version) {
+    if (pkg.name?.startsWith('@bdspark/') && pkg.version) {
         versions[pkg.name] = `^${pkg.version}`;
         monorepoPackages.push(pkg);
     }
 }
 
-// All packages share the same version policy, so `ng update @openng/sparkng` must update
+// All packages share the same version policy, so `ng update @bdspark/sparkng` must update
 // them all: the main package declares the full monorepo package list as its ng-update
 // packageGroup. Fail the build when its package.json falls out of sync.
 const expectedGroup = monorepoPackages
     .map((pkg) => pkg.name)
     .sort()
     .join(',');
-const mainPkg = monorepoPackages.find((pkg) => pkg.name === '@openng/sparkng');
+const mainPkg = monorepoPackages.find((pkg) => pkg.name === '@bdspark/sparkng');
 const packageGroup = mainPkg?.['ng-update']?.packageGroup;
 if (!Array.isArray(packageGroup) || [...packageGroup].sort().join(',') !== expectedGroup) {
-    throw new Error(`@openng/sparkng: "ng-update".packageGroup must list every @openng package in packages/ (${expectedGroup.split(',').join(', ')})`);
+    throw new Error(`@bdspark/sparkng: "ng-update".packageGroup must list every @bdspark package in packages/ (${expectedGroup.split(',').join(', ')})`);
 }
 
 const workspaceYaml = fs.readFileSync(path.join(workspaceDir, 'pnpm-workspace.yaml'), 'utf8');
-const iconsCatalogEntry = workspaceYaml.match(/^catalog:[^]*?'@openng\/icons':\s*(\S+)/m);
+const iconsCatalogEntry = workspaceYaml.match(/^catalog:[^]*?'@bdspark\/icons':\s*(\S+)/m);
 if (!iconsCatalogEntry) {
-    throw new Error('Could not find the @openng/icons catalog entry in pnpm-workspace.yaml');
+    throw new Error('Could not find the @bdspark/icons catalog entry in pnpm-workspace.yaml');
 }
-versions['@openng/icons'] = iconsCatalogEntry[1];
+versions['@bdspark/icons'] = iconsCatalogEntry[1];
 
 fs.writeJsonSync(path.join(schematicsDir, 'utils/versions.json'), versions, { spaces: 4 });
 

@@ -1,4 +1,4 @@
-import type { InputOtpDesignTokens, InputOtpTokenSections } from '@openng/sparkng-themes/types/inputotp';
+import type { InputOtpDesignTokens, InputOtpTokenSections } from '@bdspark/sparkng-themes/types/inputotp';
 
 export const root: InputOtpTokenSections.Root = {
     gap: '0.5rem'

@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, input, provideZonelessChangeDetection } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
-import { SharedModule } from '@openng/sparkng/api';
+import { SharedModule } from '@bdspark/sparkng/api';
 import { Avatar, AvatarModule } from './avatar';
 
 const TEST_IMAGE = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';

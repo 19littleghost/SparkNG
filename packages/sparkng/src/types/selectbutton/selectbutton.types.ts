@@ -1,6 +1,6 @@
 import { TemplateRef } from '@angular/core';
-import type { PassThrough, PassThroughOption } from '@openng/sparkng/api';
-import type { ToggleButtonPassThrough } from '@openng/sparkng/types/togglebutton';
+import type { PassThrough, PassThroughOption } from '@bdspark/sparkng/api';
+import type { ToggleButtonPassThrough } from '@bdspark/sparkng/types/togglebutton';
 
 /**
  * Custom pass-through(pt) options.

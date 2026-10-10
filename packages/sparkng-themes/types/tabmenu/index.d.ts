@@ -222,7 +222,7 @@ export declare namespace TabmenuTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface TabmenuDesignTokens extends DesignTokens<TabmenuDesignTokens> {

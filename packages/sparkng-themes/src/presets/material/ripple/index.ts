@@ -1,4 +1,4 @@
-import type { RippleDesignTokens, RippleTokenSections } from '@openng/sparkng-themes/types/ripple';
+import type { RippleDesignTokens, RippleTokenSections } from '@bdspark/sparkng-themes/types/ripple';
 
 export const colorScheme: RippleTokenSections.ColorScheme = {
     light: {

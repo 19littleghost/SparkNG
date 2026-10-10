@@ -1,6 +1,6 @@
-import type { SpeedDialTokenSections } from '@openng/sparkng-themes/types/speeddial';
+import type { SpeedDialTokenSections } from '@bdspark/sparkng-themes/types/speeddial';
 
-export * from '@openng/sparkng-themes/types/speeddial';
+export * from '@bdspark/sparkng-themes/types/speeddial';
 
 declare const root: SpeedDialTokenSections.Root;
 declare const css: SpeedDialTokenSections.CSS;

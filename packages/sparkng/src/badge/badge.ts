@@ -1,9 +1,9 @@
 import { booleanAttribute, ChangeDetectionStrategy, Component, Directive, effect, inject, InjectionToken, Input, input, NgModule, SimpleChanges, ViewEncapsulation } from '@angular/core';
-import { addClass, createElement, hasClass, isNotEmpty, removeClass, uuid } from '@openng/sparkng-utils';
-import { SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import type { BadgePassThrough, BadgeSeverity } from '@openng/sparkng/types/badge';
+import { addClass, createElement, hasClass, isNotEmpty, removeClass, uuid } from '@bdspark/sparkng-utils';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import type { BadgePassThrough, BadgeSeverity } from '@bdspark/sparkng/types/badge';
 import { BadgeStyle } from './style/badgestyle';
 
 const BADGE_INSTANCE = new InjectionToken<Badge>('BADGE_INSTANCE');

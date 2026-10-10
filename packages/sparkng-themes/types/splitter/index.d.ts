@@ -120,7 +120,7 @@ export declare namespace SplitterTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface SplitterDesignTokens extends DesignTokens<SplitterDesignTokens> {

@@ -1,4 +1,4 @@
-import { resolve } from '@openng/sparkng-utils/object';
+import { resolve } from '@bdspark/sparkng-utils/object';
 import isElement from './isElement';
 
 /**

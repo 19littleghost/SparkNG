@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as ripple_style } from '@openng/sparkng-styles/ripple';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as ripple_style } from '@bdspark/sparkng-styles/ripple';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${ripple_style}
@@ -40,7 +40,7 @@ export class RippleStyle extends BaseStyle {
  *
  * Ripple directive adds ripple effect to the host element.
  *
- * [Live Demo](https://optimus.openng.org/ripple)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/ripple)
  *
  * @module ripplestyle
  *

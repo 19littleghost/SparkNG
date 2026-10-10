@@ -1,6 +1,6 @@
-import type { TreeTableTokenSections } from '@openng/sparkng-themes/types/treetable';
+import type { TreeTableTokenSections } from '@bdspark/sparkng-themes/types/treetable';
 
-export * from '@openng/sparkng-themes/types/treetable';
+export * from '@bdspark/sparkng-themes/types/treetable';
 
 declare const root: TreeTableTokenSections.Root;
 declare const header: TreeTableTokenSections.Header;

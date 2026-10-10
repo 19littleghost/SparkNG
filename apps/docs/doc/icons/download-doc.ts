@@ -16,6 +16,6 @@ import { AppCode } from '@/components/doc/app.code';
 })
 export class DownloadDoc {
     code: Code = {
-        command: `npm install @openng/icons`
+        command: `npm install @bdspark/icons`
     };
 }

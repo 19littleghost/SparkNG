@@ -1,6 +1,6 @@
-import type { ChipTokenSections } from '@openng/sparkng-themes/types/chip';
+import type { ChipTokenSections } from '@bdspark/sparkng-themes/types/chip';
 
-export * from '@openng/sparkng-themes/types/chip';
+export * from '@bdspark/sparkng-themes/types/chip';
 
 declare const root: ChipTokenSections.Root;
 declare const image: ChipTokenSections.Image;

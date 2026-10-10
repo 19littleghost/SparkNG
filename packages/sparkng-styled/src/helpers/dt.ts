@@ -1,4 +1,4 @@
-import { isEmpty, matchRegex } from '@openng/sparkng-utils/object';
+import { isEmpty, matchRegex } from '@bdspark/sparkng-utils/object';
 import Theme from '../config/index';
 import { EXPR_REGEX, getVariableValue } from '../utils/index';
 

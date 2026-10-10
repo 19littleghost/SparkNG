@@ -1,4 +1,4 @@
-import type { ToastDesignTokens, ToastTokenSections } from '@openng/sparkng-themes/types/toast';
+import type { ToastDesignTokens, ToastTokenSections } from '@bdspark/sparkng-themes/types/toast';
 
 export const root: ToastTokenSections.Root = {
     width: '25rem',

@@ -19,13 +19,13 @@ import {
     ViewChild,
     ViewEncapsulation
 } from '@angular/core';
-import { addClass, find, findSingle, getAttribute, removeClass, setAttribute, uuid } from '@openng/sparkng-utils';
-import { Footer, Header, PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { ButtonModule, ButtonProps } from '@openng/sparkng/button';
-import { ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, ChevronUpIcon } from '@openng/sparkng/icons';
-import { CarouselItemTemplateContext, CarouselPageEvent, CarouselResponsiveOptions } from '@openng/sparkng/types/carousel';
+import { addClass, find, findSingle, getAttribute, removeClass, setAttribute, uuid } from '@bdspark/sparkng-utils';
+import { Footer, Header, PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { ButtonModule, ButtonProps } from '@bdspark/sparkng/button';
+import { ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, ChevronUpIcon } from '@bdspark/sparkng/icons';
+import { CarouselItemTemplateContext, CarouselPageEvent, CarouselResponsiveOptions } from '@bdspark/sparkng/types/carousel';
 import { CarouselStyle } from './style/carouselstyle';
 
 /**

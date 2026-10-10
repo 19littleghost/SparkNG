@@ -1,6 +1,6 @@
 import { TemplateRef } from '@angular/core';
-import type { PassThrough, PassThroughOption } from '@openng/sparkng/api';
-import type { InputTextPassThrough } from '@openng/sparkng/types/inputtext';
+import type { PassThrough, PassThroughOption } from '@bdspark/sparkng/api';
+import type { InputTextPassThrough } from '@bdspark/sparkng/types/inputtext';
 
 /**
  * Custom pass-through(pt) options.

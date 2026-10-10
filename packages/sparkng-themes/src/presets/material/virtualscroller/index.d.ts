@@ -1,6 +1,6 @@
-import type { VirtualScrollerTokenSections } from '@openng/sparkng-themes/types/virtualscroller';
+import type { VirtualScrollerTokenSections } from '@bdspark/sparkng-themes/types/virtualscroller';
 
-export * from '@openng/sparkng-themes/types/virtualscroller';
+export * from '@bdspark/sparkng-themes/types/virtualscroller';
 
 declare const loader: VirtualScrollerTokenSections.Loader;
 declare const css: VirtualScrollerTokenSections.CSS;

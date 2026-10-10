@@ -1,6 +1,6 @@
-import type { GalleriaTokenSections } from '@openng/sparkng-themes/types/galleria';
+import type { GalleriaTokenSections } from '@bdspark/sparkng-themes/types/galleria';
 
-export * from '@openng/sparkng-themes/types/galleria';
+export * from '@bdspark/sparkng-themes/types/galleria';
 
 declare const root: GalleriaTokenSections.Root;
 declare const navButton: GalleriaTokenSections.NavButton;

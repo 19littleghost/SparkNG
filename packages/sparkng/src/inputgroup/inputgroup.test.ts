@@ -3,8 +3,8 @@ import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection } fr
 import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { InputGroup } from './inputgroup';
-import { InputGroupAddon } from '@openng/sparkng/inputgroupaddon';
-import { provideOptimus } from '@openng/sparkng/config';
+import { InputGroupAddon } from '@bdspark/sparkng/inputgroupaddon';
+import { provideOptimus } from '@bdspark/sparkng/config';
 
 @Component({
     changeDetection: ChangeDetectionStrategy.Eager,

@@ -1,4 +1,4 @@
-import type { IconFieldDesignTokens, IconFieldTokenSections } from '@openng/sparkng-themes/types/iconfield';
+import type { IconFieldDesignTokens, IconFieldTokenSections } from '@bdspark/sparkng-themes/types/iconfield';
 
 export const icon: IconFieldTokenSections.Icon = {
     color: '{form.field.icon.color}'

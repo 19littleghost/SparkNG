@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as select_style } from '@openng/sparkng-styles/select';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as select_style } from '@bdspark/sparkng-styles/select';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${select_style}
@@ -81,7 +81,7 @@ export class SelectStyle extends BaseStyle {
  *
  * Select also known as Select, is used to choose an item from a collection of options.
  *
- * [Live Demo](https://optimus.openng.org/select/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/select/)
  *
  * @module selectstyle
  *

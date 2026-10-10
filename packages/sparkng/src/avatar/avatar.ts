@@ -1,9 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, EventEmitter, HostBinding, inject, InjectionToken, Input, NgModule, Output, ViewEncapsulation } from '@angular/core';
-import { SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { AvatarPassThrough } from '@openng/sparkng/types/avatar';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { AvatarPassThrough } from '@bdspark/sparkng/types/avatar';
 import { AvatarStyle } from './style/avatarstyle';
 
 const AVATAR_INSTANCE = new InjectionToken<Avatar>('AVATAR_INSTANCE');

@@ -4,8 +4,8 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormControl, FormGroup, FormsModule, NgModel, ReactiveFormsModule, Validators } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { provideNoopAnimations } from '@angular/platform-browser/animations';
-import { provideOptimus } from '@openng/sparkng/config';
-import { ListboxChangeEvent } from '@openng/sparkng/types/listbox';
+import { provideOptimus } from '@bdspark/sparkng/config';
+import { ListboxChangeEvent } from '@bdspark/sparkng/types/listbox';
 import { BehaviorSubject, Observable, delay, of } from 'rxjs';
 import { Listbox } from './listbox';
 

@@ -1,7 +1,7 @@
 import { AfterViewChecked, ChangeDetectionStrategy, Component, inject, InjectionToken, Input, NgModule, ViewEncapsulation } from '@angular/core';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { IconFieldPassThrough } from '@openng/sparkng/types/iconfield';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { IconFieldPassThrough } from '@bdspark/sparkng/types/iconfield';
 import { IconFieldStyle } from './style/iconfieldstyle';
 
 const ICONFIELD_INSTANCE = new InjectionToken<IconField>('ICONFIELD_INSTANCE');

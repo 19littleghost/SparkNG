@@ -1,5 +1,5 @@
-import type { BadgePassThrough } from '@openng/sparkng/types/badge';
-import type { PassThrough, PassThroughOption } from '@openng/sparkng/api';
+import type { BadgePassThrough } from '@bdspark/sparkng/types/badge';
+import type { PassThrough, PassThroughOption } from '@bdspark/sparkng/api';
 
 /**
  * Custom pass-through(pt) options.

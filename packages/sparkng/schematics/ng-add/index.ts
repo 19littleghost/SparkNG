@@ -7,9 +7,9 @@ import { VERSIONS } from '../utils/mappings';
 import { hasPrimeng, SKIP_DIRS } from '../utils/package-json';
 import { Schema, Theme } from './schema';
 
-const THEMES_PACKAGE = '@openng/sparkng-themes';
+const THEMES_PACKAGE = '@bdspark/sparkng-themes';
 const DEFAULT_THEME: Theme = 'Aura';
-const MIGRATE_COMMAND = 'ng generate @openng/sparkng@1:migrate-from-primeng';
+const MIGRATE_COMMAND = 'ng generate @bdspark/sparkng@1:migrate-from-primeng';
 
 function projectNotFound(name: string): string {
     return `Project "${name}" was not found in the workspace.`;
@@ -17,24 +17,24 @@ function projectNotFound(name: string): string {
 
 /**
  * Why ng-add refuses a PrimeNG workspace, and what the user is left holding. The Angular CLI has
- * already installed `@openng/sparkng` and written it into `dependencies` by the time the
+ * already installed `@bdspark/sparkng` and written it into `dependencies` by the time the
  * factory runs (`ng-add.save` is `"dependencies"`, and the CLI only cleans the entry up when
  * `save` is `false`), so the message has to account for it rather than pretend nothing happened.
  */
 function primengBailMessage(): string {
     return `primeng detected — ng add only sets up Optimus UI in new projects, so no changes were made and the theme preset was not configured.
 To migrate this workspace, run: ${MIGRATE_COMMAND}
-The Angular CLI has already added @openng/sparkng to your dependencies. The migration schematic needs it there, so keep it — or remove it with your package manager if you did not mean to add Optimus UI to this workspace.`;
+The Angular CLI has already added @bdspark/sparkng to your dependencies. The migration schematic needs it there, so keep it — or remove it with your package manager if you did not mean to add Optimus UI to this workspace.`;
 }
 
-/** The preset import name and its subpath module for the chosen theme (e.g. `Aura` → `@openng/sparkng-themes/aura`). */
+/** The preset import name and its subpath module for the chosen theme (e.g. `Aura` → `@bdspark/sparkng-themes/aura`). */
 function themeImport(theme: Theme): { preset: string; module: string } {
     return { preset: theme, module: `${THEMES_PACKAGE}/${theme.toLowerCase()}` };
 }
 
 function manualSteps(theme: Theme): string {
     const { preset, module } = themeImport(theme);
-    return `  1. import { provideOptimus } from '@openng/sparkng/config';
+    return `  1. import { provideOptimus } from '@bdspark/sparkng/config';
   2. import ${preset} from '${module}';
   3. add provideOptimus({ theme: { preset: ${preset} } }) to your root providers
      (bootstrapApplication providers, or an NgModule's providers array).`;
@@ -47,7 +47,7 @@ function manualInstructions(theme: Theme): string {
 /**
  * Sets up Optimus UI in a fresh (non-PrimeNG) project. Migrating an existing PrimeNG workspace is
  * a separate concern handled by the `migrate-from-primeng` schematic
- * (`ng generate @openng/sparkng@1:migrate-from-primeng`) — when primeng is detected, ng-add
+ * (`ng generate @bdspark/sparkng@1:migrate-from-primeng`) — when primeng is detected, ng-add
  * makes no changes and throws, so the CLI reports the refusal as a failure (#1447). A warning was
  * not enough: the command exited 0 after asking for a theme preset it then discarded, which reads
  * as a successful setup, and the freshly-installed dependency in package.json reinforces that.
@@ -185,7 +185,7 @@ ${manualSteps(theme)}`);
     // source files to roll those edits back if wiring has to degrade to manual instructions.
     const snapshot = snapshotSourceFiles(tree, sourceRoot);
     try {
-        const rule = addRootProvider(projectName, ({ code, external }) => code`${external('provideOptimus', '@openng/sparkng/config')}({ theme: { preset: ${preset} } })`);
+        const rule = addRootProvider(projectName, ({ code, external }) => code`${external('provideOptimus', '@bdspark/sparkng/config')}({ theme: { preset: ${preset} } })`);
         await applyRule(rule, tree, context);
 
         const wiredFile = findProvideOptimusFile(tree, sourceRoot);
@@ -195,7 +195,7 @@ ${manualSteps(theme)}`);
             return;
         }
 
-        // `external()` only emits named imports, and `@openng/sparkng-themes/aura` only has a
+        // `external()` only emits named imports, and `@bdspark/sparkng-themes/aura` only has a
         // default export — add it ourselves.
         const original = tree.read(wiredFile)!.toString();
         const imported = addDefaultImport(original, preset, module);

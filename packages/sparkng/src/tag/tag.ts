@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { AfterContentInit, booleanAttribute, ChangeDetectionStrategy, Component, ContentChild, ContentChildren, inject, InjectionToken, Input, NgModule, QueryList, TemplateRef, ViewEncapsulation } from '@angular/core';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import type { BadgeSeverity } from '@openng/sparkng/types/badge';
-import { TagPassThrough } from '@openng/sparkng/types/tag';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import type { BadgeSeverity } from '@bdspark/sparkng/types/badge';
+import { TagPassThrough } from '@bdspark/sparkng/types/tag';
 import { TagStyle } from './style/tagstyle';
 
 const TAG_INSTANCE = new InjectionToken<Tag>('TAG_INSTANCE');

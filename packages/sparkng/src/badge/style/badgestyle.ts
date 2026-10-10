@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import { style as badge_style } from '@openng/sparkng-styles/badge';
-import { isEmpty, isNotEmpty } from '@openng/sparkng-utils';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as badge_style } from '@bdspark/sparkng-styles/badge';
+import { isEmpty, isNotEmpty } from '@bdspark/sparkng-utils';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${badge_style}
@@ -60,7 +60,7 @@ export class BadgeStyle extends BaseStyle {
  *
  * Badge represents people using icons, labels and images.
  *
- * [Live Demo](https://optimus.openng.org/badge)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/badge)
  *
  * @module badgestyle
  *

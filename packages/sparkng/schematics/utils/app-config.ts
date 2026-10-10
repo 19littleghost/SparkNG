@@ -20,7 +20,7 @@ interface DefaultImportInfo {
  * - If `module` already has a default import (under any name), the file is left untouched and the
  *   existing binding is reported.
  * - If a default import of the legacy module that `module` replaces is present (per
- *   `mapModuleSpecifier`, e.g. `@primeuix/themes/aura` → `@openng/sparkng-themes/aura`), that
+ *   `mapModuleSpecifier`, e.g. `@primeuix/themes/aura` → `@bdspark/sparkng-themes/aura`), that
  *   import is retargeted in place, keeping its binding name — no alias, no duplicate.
  * - Otherwise `import <name> from '<module>';` is inserted after the last top-level import
  *   statement (or at the very top of the file if there are no imports). When `name` is already

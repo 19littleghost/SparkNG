@@ -2,6 +2,7 @@
 
 The MIT License (MIT)
 
+Copyright (c) 2026 bdSpark
 Copyright (c) 2026 OpenNG
 Copyright (c) 2016-2026 PrimeTek (as per the PrimeNG community version license)
 

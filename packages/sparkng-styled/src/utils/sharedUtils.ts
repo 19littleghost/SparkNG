@@ -1,4 +1,4 @@
-import { getKeyValue, isArray, isNotEmpty, isNumber, isObject, isString, matchRegex, toKebabCase } from '@openng/sparkng-utils/object';
+import { getKeyValue, isArray, isNotEmpty, isNumber, isObject, isString, matchRegex, toKebabCase } from '@bdspark/sparkng-utils/object';
 
 export const EXPR_REGEX = /{([^}]*)}/g; // Exp: '{a}', '{a.b}', '{a.b.c}' etc.
 export const CALC_REGEX = /(\d+\s+[\+\-\*\/]\s+\d+)/g;

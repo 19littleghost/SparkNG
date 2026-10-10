@@ -1,6 +1,6 @@
 import type { TemplateRef } from '@angular/core';
-import type { MotionOptions } from '@openng/sparkng-motion';
-import type { OverlayModeType, PassThrough, PassThroughOption } from '@openng/sparkng/api';
+import type { MotionOptions } from '@bdspark/sparkng-motion';
+import type { OverlayModeType, PassThrough, PassThroughOption } from '@bdspark/sparkng/api';
 
 /**
  * Custom content template context.

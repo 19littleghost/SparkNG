@@ -1,4 +1,4 @@
-import type { DataViewDesignTokens, DataViewTokenSections } from '@openng/sparkng-themes/types/dataview';
+import type { DataViewDesignTokens, DataViewTokenSections } from '@bdspark/sparkng-themes/types/dataview';
 
 export const root: DataViewTokenSections.Root = {
     borderColor: '{content.border.color}',

@@ -25,7 +25,7 @@ import { RouterModule } from '@angular/router';
 
             <h3>Who maintains it, and how is it funded?</h3>
             <p>
-                A small group of volunteers, with OpenNG covering hosting and the domain. We are deliberate about not implying more than that — see
+                A small group of volunteers, with bdSpark covering hosting and the domain. We are deliberate about not implying more than that — see
                 <a [routerLink]="'/philosophy'" class="doc-link">sustainability</a> for the honest version and the ways that can change.
             </p>
 

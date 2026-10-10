@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
-import { DomHandler } from '@openng/sparkng/dom';
-import { ZIndexUtils } from '@openng/sparkng/utils';
+import { DomHandler } from '@bdspark/sparkng/dom';
+import { ZIndexUtils } from '@bdspark/sparkng/utils';
 import { Subject } from 'rxjs';
 import { DynamicDialog } from './dynamicdialog';
 import { DynamicDialogConfig } from './dynamicdialog-config';

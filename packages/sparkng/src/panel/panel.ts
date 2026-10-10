@@ -19,16 +19,16 @@ import {
     ViewChild,
     ViewEncapsulation
 } from '@angular/core';
-import { MotionEvent, MotionOptions } from '@openng/sparkng-motion';
-import { uuid } from '@openng/sparkng-utils';
-import { BlockableUI, Footer, PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { ButtonModule } from '@openng/sparkng/button';
-import { MinusIcon, PlusIcon } from '@openng/sparkng/icons';
-import { MotionModule } from '@openng/sparkng/motion';
-import { Nullable } from '@openng/sparkng/ts-helpers';
-import type { PanelAfterToggleEvent, PanelBeforeToggleEvent, PanelHeaderIconsTemplateContext, PanelPassThrough } from '@openng/sparkng/types/panel';
+import { MotionEvent, MotionOptions } from '@bdspark/sparkng-motion';
+import { uuid } from '@bdspark/sparkng-utils';
+import { BlockableUI, Footer, PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { ButtonModule } from '@bdspark/sparkng/button';
+import { MinusIcon, PlusIcon } from '@bdspark/sparkng/icons';
+import { MotionModule } from '@bdspark/sparkng/motion';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
+import type { PanelAfterToggleEvent, PanelBeforeToggleEvent, PanelHeaderIconsTemplateContext, PanelPassThrough } from '@bdspark/sparkng/types/panel';
 import { PanelStyle } from './style/panelstyle';
 
 const PANEL_INSTANCE = new InjectionToken<Panel>('PANEL_INSTANCE');

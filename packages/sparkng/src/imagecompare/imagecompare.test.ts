@@ -3,7 +3,7 @@ import { By } from '@angular/platform-browser';
 import { ChangeDetectionStrategy, Component, DebugElement, provideZonelessChangeDetection } from '@angular/core';
 import type { Mock } from 'vitest';
 import { ImageCompare, ImageCompareModule } from './imagecompare';
-import { SharedModule } from '@openng/sparkng/api';
+import { SharedModule } from '@bdspark/sparkng/api';
 
 // Using image paths from photoservice.ts to ensure consistency
 const mockImages = {

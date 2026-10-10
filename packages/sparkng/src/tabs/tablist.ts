@@ -1,14 +1,14 @@
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, ContentChild, ContentChildren, effect, ElementRef, forwardRef, inject, InjectionToken, QueryList, signal, TemplateRef, ViewChild, ViewEncapsulation } from '@angular/core';
-import { findSingle, getOffset, getOuterWidth, getWidth, isRTL } from '@openng/sparkng-utils';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { ChevronLeftIcon, ChevronRightIcon } from '@openng/sparkng/icons';
-import { RippleModule } from '@openng/sparkng/ripple';
+import { findSingle, getOffset, getOuterWidth, getWidth, isRTL } from '@bdspark/sparkng-utils';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { ChevronLeftIcon, ChevronRightIcon } from '@bdspark/sparkng/icons';
+import { RippleModule } from '@bdspark/sparkng/ripple';
 import { TabListStyle } from './style/tabliststyle';
 import { Tabs } from './tabs';
-import { TabListPassThrough } from '@openng/sparkng/types/tabs';
+import { TabListPassThrough } from '@bdspark/sparkng/types/tabs';
 
 const TABLIST_INSTANCE = new InjectionToken<TabList>('TABLIST_INSTANCE');
 

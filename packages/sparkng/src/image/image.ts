@@ -22,18 +22,18 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { SafeUrl } from '@angular/platform-browser';
-import { MotionEvent, MotionOptions } from '@openng/sparkng-motion';
-import { appendChild, focus } from '@openng/sparkng-utils';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { blockBodyScroll, unblockBodyScroll } from '@openng/sparkng/dom';
-import { FocusTrap } from '@openng/sparkng/focustrap';
-import { EyeIcon, RefreshIcon, SearchMinusIcon, SearchPlusIcon, TimesIcon, UndoIcon } from '@openng/sparkng/icons';
-import { MotionModule } from '@openng/sparkng/motion';
-import { Nullable } from '@openng/sparkng/ts-helpers';
-import { ImageImageTemplateContext, ImagePassThrough, ImagePreviewTemplateContext } from '@openng/sparkng/types/image';
-import { ZIndexUtils } from '@openng/sparkng/utils';
+import { MotionEvent, MotionOptions } from '@bdspark/sparkng-motion';
+import { appendChild, focus } from '@bdspark/sparkng-utils';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { blockBodyScroll, unblockBodyScroll } from '@bdspark/sparkng/dom';
+import { FocusTrap } from '@bdspark/sparkng/focustrap';
+import { EyeIcon, RefreshIcon, SearchMinusIcon, SearchPlusIcon, TimesIcon, UndoIcon } from '@bdspark/sparkng/icons';
+import { MotionModule } from '@bdspark/sparkng/motion';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
+import { ImageImageTemplateContext, ImagePassThrough, ImagePreviewTemplateContext } from '@bdspark/sparkng/types/image';
+import { ZIndexUtils } from '@bdspark/sparkng/utils';
 import { ImageStyle } from './style/imagestyle';
 
 const IMAGE_INSTANCE = new InjectionToken<Image>('IMAGE_INSTANCE');

@@ -1,6 +1,6 @@
 import { TemplateRef } from '@angular/core';
-import type { PassThrough, PassThroughOption } from '@openng/sparkng/api';
-import { TreeNode } from '@openng/sparkng/api';
+import type { PassThrough, PassThroughOption } from '@bdspark/sparkng/api';
+import { TreeNode } from '@bdspark/sparkng/api';
 
 /**
  * Custom pass-through(pt) options.

@@ -1,6 +1,6 @@
-import type { ToggleButtonTokenSections } from '@openng/sparkng-themes/types/togglebutton';
+import type { ToggleButtonTokenSections } from '@bdspark/sparkng-themes/types/togglebutton';
 
-export * from '@openng/sparkng-themes/types/togglebutton';
+export * from '@bdspark/sparkng-themes/types/togglebutton';
 
 declare const root: ToggleButtonTokenSections.Root;
 declare const icon: ToggleButtonTokenSections.Icon;

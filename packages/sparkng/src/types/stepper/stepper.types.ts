@@ -1,5 +1,5 @@
-import type { MotionOptions } from '@openng/sparkng-motion';
-import type { PassThrough, PassThroughOption } from '@openng/sparkng/api';
+import type { MotionOptions } from '@bdspark/sparkng-motion';
+import type { PassThrough, PassThroughOption } from '@bdspark/sparkng/api';
 
 /**
  * Defines valid pass-through options in Stepper component.

@@ -17,11 +17,11 @@ import {
     TemplateRef,
     ViewEncapsulation
 } from '@angular/core';
-import { PrimeTemplate, SharedModule, TranslationKeys } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { TimesCircleIcon } from '@openng/sparkng/icons';
-import { ChipProps, ChipPassThrough } from '@openng/sparkng/types/chip';
+import { PrimeTemplate, SharedModule, TranslationKeys } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { TimesCircleIcon } from '@bdspark/sparkng/icons';
+import { ChipProps, ChipPassThrough } from '@bdspark/sparkng/types/chip';
 import { ChipStyle } from './style/chipstyle';
 
 const CHIP_INSTANCE = new InjectionToken<Chip>('CHIP_INSTANCE');

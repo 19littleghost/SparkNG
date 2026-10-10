@@ -1,4 +1,4 @@
-import type { SkeletonDesignTokens, SkeletonTokenSections } from '@openng/sparkng-themes/types/skeleton';
+import type { SkeletonDesignTokens, SkeletonTokenSections } from '@bdspark/sparkng-themes/types/skeleton';
 
 export const root: SkeletonTokenSections.Root = {
     borderRadius: '{content.border.radius}'

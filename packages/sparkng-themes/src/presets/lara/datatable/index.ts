@@ -1,4 +1,4 @@
-import type { DataTableDesignTokens, DataTableTokenSections } from '@openng/sparkng-themes/types/datatable';
+import type { DataTableDesignTokens, DataTableTokenSections } from '@bdspark/sparkng-themes/types/datatable';
 
 export const root: DataTableTokenSections.Root = {
     transitionDuration: '{transition.duration}'

@@ -21,13 +21,13 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { FormsModule, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { equals, resolveFieldData } from '@openng/sparkng-utils';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseEditableHolder } from '@openng/sparkng/baseeditableholder';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { ToggleButton } from '@openng/sparkng/togglebutton';
-import { SelectButtonChangeEvent, SelectButtonItemTemplateContext, SelectButtonOptionClickEvent, SelectButtonPassThrough } from '@openng/sparkng/types/selectbutton';
+import { equals, resolveFieldData } from '@bdspark/sparkng-utils';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseEditableHolder } from '@bdspark/sparkng/baseeditableholder';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { ToggleButton } from '@bdspark/sparkng/togglebutton';
+import { SelectButtonChangeEvent, SelectButtonItemTemplateContext, SelectButtonOptionClickEvent, SelectButtonPassThrough } from '@bdspark/sparkng/types/selectbutton';
 import { SelectButtonStyle } from './style/selectbuttonstyle';
 
 const SELECTBUTTON_INSTANCE = new InjectionToken<SelectButton>('SELECTBUTTON_INSTANCE');

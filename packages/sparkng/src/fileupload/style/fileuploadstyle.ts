@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/fileupload';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/fileupload';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => `p-fileupload p-fileupload-${instance.mode} p-component`,
@@ -34,7 +34,7 @@ export class FileUploadStyle extends BaseStyle {
  *
  * FileUpload is an advanced uploader with dragdrop support, multi file uploads, auto uploading, progress tracking and validations.
  *
- * [Live Demo](https://optimus.openng.org/fileupload/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/fileupload/)
  *
  * @module fileuploadstyle
  *

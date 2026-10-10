@@ -7502,8 +7502,8 @@
     ],
     "height": 1024,
     "metadata": {
-        "name": "openng-icons",
-        "url": "https://github.com/openng-org/icons",
+        "name": "bdspark-icons",
+        "url": "https://github.com/TODO-BDSPARK-ORG/icons",
         "designer": "",
         "license": "MIT",
         "licenseURL": "https://opensource.org/licenses/MIT"
@@ -7519,10 +7519,10 @@
                 "fontFamily": "primeicons",
                 "majorVersion": 1,
                 "minorVersion": 0,
-                "copyright": "OpenNG",
+                "copyright": "bdSpark",
                 "designer": "",
                 "description": "Icon Library for UI Libraries",
-                "fontURL": "https://github.com/openng-org/icons",
+                "fontURL": "https://github.com/TODO-BDSPARK-ORG/icons",
                 "license": "MIT",
                 "licenseURL": "https://opensource.org/licenses/MIT"
             },

@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@openng/sparkng-styled';
-import type { MegaMenuTokenSections } from '@openng/sparkng-themes/types/megamenu';
+import type { StyleOptions } from '@bdspark/sparkng-styled';
+import type { MegaMenuTokenSections } from '@bdspark/sparkng-themes/types/megamenu';
 
-export * from '@openng/sparkng-themes/types/megamenu';
+export * from '@bdspark/sparkng-themes/types/megamenu';
 
 declare const root: MegaMenuTokenSections.Root;
 declare const baseItem: MegaMenuTokenSections.BaseItem;

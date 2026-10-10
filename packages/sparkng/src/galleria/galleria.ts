@@ -24,19 +24,19 @@ import {
     ViewChild,
     ViewEncapsulation
 } from '@angular/core';
-import { MotionEvent, MotionOptions } from '@openng/sparkng-motion';
-import { addClass, find, findSingle, focus, getAttribute, removeClass, setAttribute, uuid } from '@openng/sparkng-utils';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { blockBodyScroll, unblockBodyScroll } from '@openng/sparkng/dom';
-import { FocusTrap } from '@openng/sparkng/focustrap';
-import { ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, ChevronUpIcon, TimesIcon } from '@openng/sparkng/icons';
-import { MotionModule } from '@openng/sparkng/motion';
-import { Ripple } from '@openng/sparkng/ripple';
-import { VoidListener } from '@openng/sparkng/ts-helpers';
-import { GalleriaCaptionTemplateContext, GalleriaIndicatorTemplateContext, GalleriaItemTemplateContext, GalleriaPassThrough, GalleriaResponsiveOptions, GalleriaThumbnailTemplateContext } from '@openng/sparkng/types/galleria';
-import { ZIndexUtils } from '@openng/sparkng/utils';
+import { MotionEvent, MotionOptions } from '@bdspark/sparkng-motion';
+import { addClass, find, findSingle, focus, getAttribute, removeClass, setAttribute, uuid } from '@bdspark/sparkng-utils';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { blockBodyScroll, unblockBodyScroll } from '@bdspark/sparkng/dom';
+import { FocusTrap } from '@bdspark/sparkng/focustrap';
+import { ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, ChevronUpIcon, TimesIcon } from '@bdspark/sparkng/icons';
+import { MotionModule } from '@bdspark/sparkng/motion';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { VoidListener } from '@bdspark/sparkng/ts-helpers';
+import { GalleriaCaptionTemplateContext, GalleriaIndicatorTemplateContext, GalleriaItemTemplateContext, GalleriaPassThrough, GalleriaResponsiveOptions, GalleriaThumbnailTemplateContext } from '@bdspark/sparkng/types/galleria';
+import { ZIndexUtils } from '@bdspark/sparkng/utils';
 import { GalleriaStyle } from './style/galleriastyle';
 
 const GALLERIA_INSTANCE = new InjectionToken<Galleria>('GALLERIA_INSTANCE');

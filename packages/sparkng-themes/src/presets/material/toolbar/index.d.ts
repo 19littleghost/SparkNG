@@ -1,6 +1,6 @@
-import type { ToolbarTokenSections } from '@openng/sparkng-themes/types/toolbar';
+import type { ToolbarTokenSections } from '@bdspark/sparkng-themes/types/toolbar';
 
-export * from '@openng/sparkng-themes/types/toolbar';
+export * from '@bdspark/sparkng-themes/types/toolbar';
 
 declare const root: ToolbarTokenSections.Root;
 declare const colorScheme: ToolbarTokenSections.ColorScheme;

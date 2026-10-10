@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://optimus.openng.org/large-icon.svg" alt="Optimus UI" width="140" />
+  <img src="https://TODO-BDSPARK-DOMAIN/large-icon.svg" alt="Optimus UI" width="140" />
 </div>
 
-# @openng/sparkng-styles
+# @bdspark/sparkng-styles
 
-Core style definitions and CSS utilities for [Optimus UI](https://github.com/openng-org/sparkng).
+Core style definitions and CSS utilities for [Optimus UI](https://github.com/TODO-BDSPARK-ORG/sparkng).
 
 This package contains the base CSS architectural patterns and component-specific style definitions used across the Optimus UI ecosystem. It leverages design tokens for highly customizable and consistent styling.
 
@@ -18,7 +18,7 @@ This package contains the base CSS architectural patterns and component-specific
 ## Installation
 
 ```bash
-npm install @openng/sparkng-styles
+npm install @bdspark/sparkng-styles
 ```
 
 ## Core Concepts
@@ -37,11 +37,11 @@ Example of a button style fragment:
 ```
 
 ### Design Tokens (`dt`)
-The `dt()` function is used within the style strings to reference theme-specific values. These tokens are resolved at runtime by the `@openng/sparkng-styled` engine.
+The `dt()` function is used within the style strings to reference theme-specific values. These tokens are resolved at runtime by the `@bdspark/sparkng-styled` engine.
 
 ## Usage in Optimus UI
 
-This package is a core dependency of `@openng/sparkng`. Component styles are exported as named constants (e.g., `ButtonStyle`, `DataTableStyle`) and are automatically consumed by the component library to inject necessary styles into the DOM.
+This package is a core dependency of `@bdspark/sparkng`. Component styles are exported as named constants (e.g., `ButtonStyle`, `DataTableStyle`) and are automatically consumed by the component library to inject necessary styles into the DOM.
 
 ## License
 

@@ -3,7 +3,7 @@ import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection } fr
 import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { FloatLabel } from './floatlabel';
-import { provideOptimus } from '@openng/sparkng/config';
+import { provideOptimus } from '@bdspark/sparkng/config';
 
 @Component({
     changeDetection: ChangeDetectionStrategy.Eager,

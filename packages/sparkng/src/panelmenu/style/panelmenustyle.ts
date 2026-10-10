@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as panelmenu_style } from '@openng/sparkng-styles/panelmenu';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as panelmenu_style } from '@bdspark/sparkng-styles/panelmenu';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${panelmenu_style}
@@ -62,7 +62,7 @@ export class PanelMenuStyle extends BaseStyle {
  *
  * PanelMenu is a hybrid of Accordion and Tree components.
  *
- * [Live Demo](https://optimus.openng.org/panelmenu/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/panelmenu/)
  *
  * @module panelmenustyle
  *

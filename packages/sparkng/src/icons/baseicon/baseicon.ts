@@ -1,6 +1,6 @@
 import { booleanAttribute, ChangeDetectionStrategy, Component, inject, Input, ViewEncapsulation } from '@angular/core';
-import { cn } from '@openng/sparkng-utils';
-import { BaseComponent } from '@openng/sparkng/basecomponent';
+import { cn } from '@bdspark/sparkng-utils';
+import { BaseComponent } from '@bdspark/sparkng/basecomponent';
 import { BaseIconStyle } from './style/baseiconstyle';
 
 @Component({

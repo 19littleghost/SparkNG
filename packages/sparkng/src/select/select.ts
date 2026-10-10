@@ -28,23 +28,23 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { MotionOptions } from '@openng/sparkng-motion';
-import { deepEquals, equals, findLastIndex, findSingle, focus, getFirstFocusableElement, getFocusableElements, getLastFocusableElement, isEmpty, isNotEmpty, isPrintableCharacter, resolveFieldData, scrollInView, uuid } from '@openng/sparkng-utils';
-import { FilterService, OverlayOptions, PrimeTemplate, ScrollerOptions, SharedModule, TranslationKeys } from '@openng/sparkng/api';
-import { AutoFocus } from '@openng/sparkng/autofocus';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseInput } from '@openng/sparkng/baseinput';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { unblockBodyScroll } from '@openng/sparkng/dom';
-import { IconField } from '@openng/sparkng/iconfield';
-import { BlankIcon, CheckIcon, ChevronDownIcon, SearchIcon, TimesIcon } from '@openng/sparkng/icons';
-import { InputIcon } from '@openng/sparkng/inputicon';
-import { InputText } from '@openng/sparkng/inputtext';
-import { Overlay } from '@openng/sparkng/overlay';
-import { Ripple } from '@openng/sparkng/ripple';
-import { Scroller } from '@openng/sparkng/scroller';
-import { Tooltip } from '@openng/sparkng/tooltip';
-import { Nullable } from '@openng/sparkng/ts-helpers';
+import { MotionOptions } from '@bdspark/sparkng-motion';
+import { deepEquals, equals, findLastIndex, findSingle, focus, getFirstFocusableElement, getFocusableElements, getLastFocusableElement, isEmpty, isNotEmpty, isPrintableCharacter, resolveFieldData, scrollInView, uuid } from '@bdspark/sparkng-utils';
+import { FilterService, OverlayOptions, PrimeTemplate, ScrollerOptions, SharedModule, TranslationKeys } from '@bdspark/sparkng/api';
+import { AutoFocus } from '@bdspark/sparkng/autofocus';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseInput } from '@bdspark/sparkng/baseinput';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { unblockBodyScroll } from '@bdspark/sparkng/dom';
+import { IconField } from '@bdspark/sparkng/iconfield';
+import { BlankIcon, CheckIcon, ChevronDownIcon, SearchIcon, TimesIcon } from '@bdspark/sparkng/icons';
+import { InputIcon } from '@bdspark/sparkng/inputicon';
+import { InputText } from '@bdspark/sparkng/inputtext';
+import { Overlay } from '@bdspark/sparkng/overlay';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { Scroller } from '@bdspark/sparkng/scroller';
+import { Tooltip } from '@bdspark/sparkng/tooltip';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
 import {
     SelectChangeEvent,
     SelectFilterEvent,
@@ -57,7 +57,7 @@ import {
     SelectLoaderTemplateContext,
     SelectPassThrough,
     SelectSelectedItemTemplateContext
-} from '@openng/sparkng/types/select';
+} from '@bdspark/sparkng/types/select';
 import { SelectStyle } from './style/selectstyle';
 
 const SELECT_INSTANCE = new InjectionToken<Select>('SELECT_INSTANCE');

@@ -1,6 +1,6 @@
-import type { ProgressBarTokenSections } from '@openng/sparkng-themes/types/progressbar';
+import type { ProgressBarTokenSections } from '@bdspark/sparkng-themes/types/progressbar';
 
-export * from '@openng/sparkng-themes/types/progressbar';
+export * from '@bdspark/sparkng-themes/types/progressbar';
 
 declare const root: ProgressBarTokenSections.Root;
 declare const value: ProgressBarTokenSections.Value;

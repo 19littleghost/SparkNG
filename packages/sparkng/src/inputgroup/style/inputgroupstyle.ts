@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as inputgroup_style } from '@openng/sparkng-styles/inputgroup';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as inputgroup_style } from '@bdspark/sparkng-styles/inputgroup';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${inputgroup_style}
@@ -60,7 +60,7 @@ export class InputGroupStyle extends BaseStyle {
  *
  * InputGroup displays text, icon, buttons and other content can be grouped next to an input.
  *
- * [Live Demo](https://optimus.openng.org/inputgroup/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/inputgroup/)
  *
  * @module inputgroupstyle
  *

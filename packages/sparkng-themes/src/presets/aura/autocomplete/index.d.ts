@@ -1,6 +1,6 @@
-import type { AutoCompleteTokenSections } from '@openng/sparkng-themes/types/autocomplete';
+import type { AutoCompleteTokenSections } from '@bdspark/sparkng-themes/types/autocomplete';
 
-export * from '@openng/sparkng-themes/types/autocomplete';
+export * from '@bdspark/sparkng-themes/types/autocomplete';
 
 declare const root: AutoCompleteTokenSections.Root;
 declare const overlay: AutoCompleteTokenSections.Overlay;

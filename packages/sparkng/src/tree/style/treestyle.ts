@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/tree';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/tree';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => [
@@ -48,7 +48,7 @@ export class TreeStyle extends BaseStyle {
  *
  * Tree is used to display hierarchical data.
  *
- * [Live Demo](https://optimus.openng.org/tree/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/tree/)
  *
  * @module treestyle
  *

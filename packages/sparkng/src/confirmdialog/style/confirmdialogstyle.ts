@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/confirmdialog';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/confirmdialog';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: 'p-confirmdialog',
@@ -23,7 +23,7 @@ export class ConfirmDialogStyle extends BaseStyle {
  *
  * ConfirmDialog uses a Dialog UI with confirmDialog method or <ConfirmDialog> tag.
  *
- * [Live Demo](https://optimus.openng.org/confirmdialog)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/confirmdialog)
  *
  * @module confirmdialogstyle
  *

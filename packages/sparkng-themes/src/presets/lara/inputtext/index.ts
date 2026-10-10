@@ -1,4 +1,4 @@
-import type { InputTextDesignTokens, InputTextTokenSections } from '@openng/sparkng-themes/types/inputtext';
+import type { InputTextDesignTokens, InputTextTokenSections } from '@bdspark/sparkng-themes/types/inputtext';
 
 export const root: InputTextTokenSections.Root = {
     background: '{form.field.background}',

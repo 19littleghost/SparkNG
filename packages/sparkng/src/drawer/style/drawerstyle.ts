@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as drawer_style } from '@openng/sparkng-styles/drawer';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as drawer_style } from '@bdspark/sparkng-styles/drawer';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
 ${drawer_style}
@@ -123,7 +123,7 @@ export class DrawerStyle extends BaseStyle {
  *
  * Drawer is a panel component displayed as an overlay at the edges of the screen.
  *
- * [Live Demo](https://optimus.openng.org/drawer)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/drawer)
  *
  * @module drawerstyle
  *

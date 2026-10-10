@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/splitter';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/splitter';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => ['p-splitter p-component', 'p-splitter-' + instance.layout],
@@ -28,7 +28,7 @@ export class SplitterStyle extends BaseStyle {
  *
  * Splitter is utilized to separate and resize panels.
  *
- * [Live Demo](https://optimus.openng.org/splitter/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/splitter/)
  *
  * @module splitterstyle
  *

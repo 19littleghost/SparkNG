@@ -1,6 +1,6 @@
-import type { TagTokenSections } from '@openng/sparkng-themes/types/tag';
+import type { TagTokenSections } from '@bdspark/sparkng-themes/types/tag';
 
-export * from '@openng/sparkng-themes/types/tag';
+export * from '@bdspark/sparkng-themes/types/tag';
 
 declare const root: TagTokenSections.Root;
 declare const icon: TagTokenSections.Icon;

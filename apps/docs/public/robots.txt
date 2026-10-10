@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://optimus.openng.org/sitemap.xml
+Sitemap: https://TODO-BDSPARK-DOMAIN/sitemap.xml

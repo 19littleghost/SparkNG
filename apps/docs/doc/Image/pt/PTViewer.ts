@@ -9,7 +9,7 @@ import { ImageModule } from '@bdspark/sparkng/image';
     imports: [CommonModule, AppDocPtViewer, ImageModule],
     template: `
         <app-docptviewer [docs]="docs">
-            <p-image src="https://optimus.openng.org/demo/galleria/galleria1.jpg" alt="Image" width="250" [preview]="true"></p-image>
+            <p-image src="https://TODO-BDSPARK-DOMAIN/demo/galleria/galleria1.jpg" alt="Image" width="250" [preview]="true"></p-image>
         </app-docptviewer>
     `
 })

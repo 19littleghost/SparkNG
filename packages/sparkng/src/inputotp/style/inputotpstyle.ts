@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/inputotp';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/inputotp';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: 'p-inputotp p-component',
@@ -20,7 +20,7 @@ export class InputOtpStyle extends BaseStyle {
  *
  * InputOtp is used to enter one time passwords.
  *
- * [Live Demo](https://optimus.openng.org/inputotp/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/inputotp/)
  *
  * @module inputotpstyle
  *

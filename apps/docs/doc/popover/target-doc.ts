@@ -21,7 +21,7 @@ import { PopoverModule } from '@bdspark/sparkng/popover';
                 <span>Target Element</span>
             </div>
             <p-popover #op>
-                <img src="https://optimus.openng.org/demo/product/bamboo-watch.jpg" alt="product" />
+                <img src="https://TODO-BDSPARK-DOMAIN/demo/product/bamboo-watch.jpg" alt="product" />
             </p-popover>
         </div>
         <app-code></app-code>

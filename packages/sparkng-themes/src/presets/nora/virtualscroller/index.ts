@@ -1,4 +1,4 @@
-import type { VirtualScrollerDesignTokens, VirtualScrollerTokenSections } from '@openng/sparkng-themes/types/virtualscroller';
+import type { VirtualScrollerDesignTokens, VirtualScrollerTokenSections } from '@bdspark/sparkng-themes/types/virtualscroller';
 
 export const loader: VirtualScrollerTokenSections.Loader = {
     mask: {

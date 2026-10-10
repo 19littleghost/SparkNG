@@ -1,6 +1,6 @@
-import type { DataTableTokenSections } from '@openng/sparkng-themes/types/datatable';
+import type { DataTableTokenSections } from '@bdspark/sparkng-themes/types/datatable';
 
-export * from '@openng/sparkng-themes/types/datatable';
+export * from '@bdspark/sparkng-themes/types/datatable';
 
 declare const root: DataTableTokenSections.Root;
 declare const header: DataTableTokenSections.Header;

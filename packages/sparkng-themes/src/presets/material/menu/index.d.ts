@@ -1,6 +1,6 @@
-import type { MenuTokenSections } from '@openng/sparkng-themes/types/menu';
+import type { MenuTokenSections } from '@bdspark/sparkng-themes/types/menu';
 
-export * from '@openng/sparkng-themes/types/menu';
+export * from '@bdspark/sparkng-themes/types/menu';
 
 declare const root: MenuTokenSections.Root;
 declare const list: MenuTokenSections.List;

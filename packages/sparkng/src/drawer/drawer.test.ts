@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection } fr
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
-import { PrimeTemplate } from '@openng/sparkng/api';
+import { PrimeTemplate } from '@bdspark/sparkng/api';
 import { Drawer } from './drawer';
 
 @Component({

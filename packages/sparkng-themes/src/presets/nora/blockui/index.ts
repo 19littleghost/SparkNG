@@ -1,4 +1,4 @@
-import type { BlockUIDesignTokens, BlockUITokenSections } from '@openng/sparkng-themes/types/blockui';
+import type { BlockUIDesignTokens, BlockUITokenSections } from '@bdspark/sparkng-themes/types/blockui';
 
 export const root: BlockUITokenSections.Root = {
     borderRadius: '{content.border.radius}'

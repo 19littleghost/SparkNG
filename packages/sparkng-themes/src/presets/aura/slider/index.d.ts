@@ -1,6 +1,6 @@
-import type { SliderTokenSections } from '@openng/sparkng-themes/types/slider';
+import type { SliderTokenSections } from '@bdspark/sparkng-themes/types/slider';
 
-export * from '@openng/sparkng-themes/types/slider';
+export * from '@bdspark/sparkng-themes/types/slider';
 
 declare const root: SliderTokenSections.Root;
 declare const track: SliderTokenSections.Track;

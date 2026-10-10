@@ -1,4 +1,4 @@
-import type { ListboxDesignTokens, ListboxTokenSections } from '@openng/sparkng-themes/types/listbox';
+import type { ListboxDesignTokens, ListboxTokenSections } from '@bdspark/sparkng-themes/types/listbox';
 
 export const root: ListboxTokenSections.Root = {
     background: '{form.field.background}',

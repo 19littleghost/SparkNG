@@ -1,5 +1,5 @@
 import { Type } from '@angular/core';
-import type { DialogPassThrough } from '@openng/sparkng/types/dialog';
+import type { DialogPassThrough } from '@bdspark/sparkng/types/dialog';
 
 /**
  * Dialogs can be created dynamically with any component as the content using a DialogService.

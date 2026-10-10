@@ -1,4 +1,4 @@
-import { isEmpty, isNotEmpty, isObject, matchRegex, minifyCSS, omit, resolve } from '@openng/sparkng-utils/object';
+import { isEmpty, isNotEmpty, isObject, matchRegex, minifyCSS, omit, resolve } from '@bdspark/sparkng-utils/object';
 import { dt, toVariables } from '../helpers/index';
 import { CALC_REGEX, EXPR_REGEX, getRule, toTokenKey, VAR_REGEX } from './sharedUtils';
 

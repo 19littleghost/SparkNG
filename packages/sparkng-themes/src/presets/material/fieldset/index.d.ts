@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@openng/sparkng-styled';
-import type { FieldsetTokenSections } from '@openng/sparkng-themes/types/fieldset';
+import type { StyleOptions } from '@bdspark/sparkng-styled';
+import type { FieldsetTokenSections } from '@bdspark/sparkng-themes/types/fieldset';
 
-export * from '@openng/sparkng-themes/types/fieldset';
+export * from '@bdspark/sparkng-themes/types/fieldset';
 
 declare const root: FieldsetTokenSections.Root;
 declare const legend: FieldsetTokenSections.Legend;

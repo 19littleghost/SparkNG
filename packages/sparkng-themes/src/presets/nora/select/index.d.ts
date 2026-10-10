@@ -1,6 +1,6 @@
-import type { SelectTokenSections } from '@openng/sparkng-themes/types/select';
+import type { SelectTokenSections } from '@bdspark/sparkng-themes/types/select';
 
-export * from '@openng/sparkng-themes/types/select';
+export * from '@bdspark/sparkng-themes/types/select';
 
 declare const root: SelectTokenSections.Root;
 declare const dropdown: SelectTokenSections.Dropdown;

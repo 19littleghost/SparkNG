@@ -381,7 +381,7 @@ export declare namespace MegaMenuTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface MegaMenuDesignTokens extends DesignTokens<MegaMenuDesignTokens> {

@@ -1,6 +1,6 @@
-import type { ToastTokenSections } from '@openng/sparkng-themes/types/toast';
+import type { ToastTokenSections } from '@bdspark/sparkng-themes/types/toast';
 
-export * from '@openng/sparkng-themes/types/toast';
+export * from '@bdspark/sparkng-themes/types/toast';
 
 declare const root: ToastTokenSections.Root;
 declare const icon: ToastTokenSections.Icon;

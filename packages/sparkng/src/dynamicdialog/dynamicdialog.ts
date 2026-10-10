@@ -1,11 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, ComponentRef, inject, InjectionToken, NgModule, Type, ViewChild, ViewEncapsulation } from '@angular/core';
-import { uuid } from '@openng/sparkng-utils';
-import { SharedModule, TranslationKeys } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { Dialog, DialogPassThrough } from '@openng/sparkng/dialog';
-import { Nullable } from '@openng/sparkng/ts-helpers';
+import { uuid } from '@bdspark/sparkng-utils';
+import { SharedModule, TranslationKeys } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { Dialog, DialogPassThrough } from '@bdspark/sparkng/dialog';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
 import { DynamicDialogConfig } from './dynamicdialog-config';
 import { DynamicDialogRef } from './dynamicdialog-ref';
 import { DynamicDialogContent } from './dynamicdialogcontent';

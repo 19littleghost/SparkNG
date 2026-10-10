@@ -1,6 +1,6 @@
-import type { InputGroupTokenSections } from '@openng/sparkng-themes/types/inputgroup';
+import type { InputGroupTokenSections } from '@bdspark/sparkng-themes/types/inputgroup';
 
-export * from '@openng/sparkng-themes/types/inputgroup';
+export * from '@bdspark/sparkng-themes/types/inputgroup';
 
 declare const addon: InputGroupTokenSections.Addon;
 declare const colorScheme: InputGroupTokenSections.ColorScheme;

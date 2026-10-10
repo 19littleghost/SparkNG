@@ -14,7 +14,7 @@ import { Component } from '@angular/core';
                 <li>A package manager of your choice — npm, yarn or pnpm</li>
             </ul>
             <p>
-                Already using PrimeNG? Do not follow this page. The <a href="https://v1.optimus.openng.org/migration/primeng" target="_blank" rel="noopener noreferrer" class="doc-link">migration guide</a> covers moving an existing PrimeNG v21
+                Already using PrimeNG? Do not follow this page. The <a href="https://v1.TODO-BDSPARK-DOMAIN/migration/primeng" target="_blank" rel="noopener noreferrer" class="doc-link">migration guide</a> covers moving an existing PrimeNG v21
                 workspace across with the <i>migrate-from-primeng</i> schematic, which is a separate command from the <i>ng add</i> below.
             </p>
         </app-docsectiontext>

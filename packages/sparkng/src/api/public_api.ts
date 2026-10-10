@@ -16,7 +16,7 @@ export * from './messageservice';
 export * from './overlayoptions';
 export * from './overlayservice';
 export * from './passthrough';
-export * from './openngicons';
+export * from './bdsparkicons';
 export * from './scrolleroptions';
 export * from './selectitem';
 export * from './selectitemgroup';

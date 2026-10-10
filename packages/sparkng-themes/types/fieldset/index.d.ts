@@ -189,7 +189,7 @@ export declare namespace FieldsetTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface FieldsetDesignTokens extends DesignTokens<FieldsetDesignTokens> {

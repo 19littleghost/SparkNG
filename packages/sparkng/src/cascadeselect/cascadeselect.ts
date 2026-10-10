@@ -26,18 +26,18 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { MotionOptions } from '@openng/sparkng-motion';
-import { calculateScrollbarWidth, equals, findLastIndex, findSingle, focus, getHiddenElementOuterWidth, getOffset, getOuterWidth, getViewport, isEmpty, isNotEmpty, isPrintableCharacter, resolveFieldData, uuid } from '@openng/sparkng-utils';
-import { OverlayOptions, OverlayService, PrimeTemplate, SharedModule, TranslationKeys } from '@openng/sparkng/api';
-import { AutoFocus } from '@openng/sparkng/autofocus';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseEditableHolder } from '@openng/sparkng/baseeditableholder';
-import { Bind } from '@openng/sparkng/bind';
-import { Fluid } from '@openng/sparkng/fluid';
-import { AngleRightIcon, ChevronDownIcon, TimesIcon } from '@openng/sparkng/icons';
-import { Overlay } from '@openng/sparkng/overlay';
-import { Ripple } from '@openng/sparkng/ripple';
-import { Nullable, VoidListener } from '@openng/sparkng/ts-helpers';
+import { MotionOptions } from '@bdspark/sparkng-motion';
+import { calculateScrollbarWidth, equals, findLastIndex, findSingle, focus, getHiddenElementOuterWidth, getOffset, getOuterWidth, getViewport, isEmpty, isNotEmpty, isPrintableCharacter, resolveFieldData, uuid } from '@bdspark/sparkng-utils';
+import { OverlayOptions, OverlayService, PrimeTemplate, SharedModule, TranslationKeys } from '@bdspark/sparkng/api';
+import { AutoFocus } from '@bdspark/sparkng/autofocus';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseEditableHolder } from '@bdspark/sparkng/baseeditableholder';
+import { Bind } from '@bdspark/sparkng/bind';
+import { Fluid } from '@bdspark/sparkng/fluid';
+import { AngleRightIcon, ChevronDownIcon, TimesIcon } from '@bdspark/sparkng/icons';
+import { Overlay } from '@bdspark/sparkng/overlay';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { Nullable, VoidListener } from '@bdspark/sparkng/ts-helpers';
 import {
     CascadeSelectBeforeHideEvent,
     CascadeSelectBeforeShowEvent,
@@ -47,7 +47,7 @@ import {
     CascadeSelectPassThrough,
     CascadeSelectShowEvent,
     CascadeSelectValueTemplateContext
-} from '@openng/sparkng/types/cascadeselect';
+} from '@bdspark/sparkng/types/cascadeselect';
 import { CascadeSelectStyle } from './style/cascadeselectstyle';
 
 const CASCADESELECT_INSTANCE = new InjectionToken<CascadeSelect>('CASCADESELECT_INSTANCE');

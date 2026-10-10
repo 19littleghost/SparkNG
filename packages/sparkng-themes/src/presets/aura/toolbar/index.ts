@@ -1,4 +1,4 @@
-import type { ToolbarDesignTokens, ToolbarTokenSections } from '@openng/sparkng-themes/types/toolbar';
+import type { ToolbarDesignTokens, ToolbarTokenSections } from '@bdspark/sparkng-themes/types/toolbar';
 
 export const root: ToolbarTokenSections.Root = {
     background: '{content.background}',

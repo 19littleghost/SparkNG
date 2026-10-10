@@ -1,4 +1,4 @@
-import type { EditorDesignTokens, EditorTokenSections } from '@openng/sparkng-themes/types/editor';
+import type { EditorDesignTokens, EditorTokenSections } from '@bdspark/sparkng-themes/types/editor';
 
 export const toolbar: EditorTokenSections.Toolbar = {
     borderColor: '{content.border.color}',

@@ -1,6 +1,6 @@
-import type { TreeSelectTokenSections } from '@openng/sparkng-themes/types/treeselect';
+import type { TreeSelectTokenSections } from '@bdspark/sparkng-themes/types/treeselect';
 
-export * from '@openng/sparkng-themes/types/treeselect';
+export * from '@bdspark/sparkng-themes/types/treeselect';
 
 declare const root: TreeSelectTokenSections.Root;
 declare const dropdown: TreeSelectTokenSections.Dropdown;

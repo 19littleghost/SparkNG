@@ -1,6 +1,6 @@
-import type { TreeTokenSections } from '@openng/sparkng-themes/types/tree';
+import type { TreeTokenSections } from '@bdspark/sparkng-themes/types/tree';
 
-export * from '@openng/sparkng-themes/types/tree';
+export * from '@bdspark/sparkng-themes/types/tree';
 
 declare const root: TreeTokenSections.Root;
 declare const node: TreeTokenSections.Node;

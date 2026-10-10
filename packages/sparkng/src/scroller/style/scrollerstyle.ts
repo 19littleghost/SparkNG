@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BaseStyle } from '@openng/sparkng/base';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const css = /*css*/ `
 .p-virtualscroller {
@@ -94,7 +94,7 @@ export class ScrollerStyle extends BaseStyle {
  *
  * VirtualScroller is a performant approach to handle huge data efficiently.
  *
- * [Live Demo](https://optimus.openng.org/scroller/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/scroller/)
  *
  * @module scrollerstyle
  *

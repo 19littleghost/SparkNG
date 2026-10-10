@@ -1,4 +1,4 @@
-import type { PasswordDesignTokens, PasswordTokenSections } from '@openng/sparkng-themes/types/password';
+import type { PasswordDesignTokens, PasswordTokenSections } from '@bdspark/sparkng-themes/types/password';
 
 export const meter: PasswordTokenSections.Meter = {
     background: '{content.border.color}',

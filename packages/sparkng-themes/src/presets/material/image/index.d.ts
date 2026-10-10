@@ -1,6 +1,6 @@
-import type { ImageTokenSections } from '@openng/sparkng-themes/types/image';
+import type { ImageTokenSections } from '@bdspark/sparkng-themes/types/image';
 
-export * from '@openng/sparkng-themes/types/image';
+export * from '@bdspark/sparkng-themes/types/image';
 
 declare const root: ImageTokenSections.Root;
 declare const preview: ImageTokenSections.Preview;

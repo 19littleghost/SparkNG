@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/timeline';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/timeline';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => ['p-timeline p-component', 'p-timeline-' + instance.align, 'p-timeline-' + instance.layout],
@@ -25,7 +25,7 @@ export class TimelineStyle extends BaseStyle {
  *
  * Timeline visualizes a series of chained events.
  *
- * [Live Demo](https://optimus.openng.org/timeline)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/timeline)
  *
  * @module timelinestyle
  *

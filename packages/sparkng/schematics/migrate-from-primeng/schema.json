@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/schema",
     "$id": "OptimusUiMigrateFromPrimeng",
     "title": "Migrate a PrimeNG v21 project to Optimus UI",
-    "description": "Deprecated on this line \u2014 only maintained on release/1.x. Run via @openng/sparkng@1.",
+    "description": "Deprecated on this line \u2014 only maintained on release/1.x. Run via @bdspark/sparkng@1.",
     "deprecated": true,
     "type": "object",
     "properties": {

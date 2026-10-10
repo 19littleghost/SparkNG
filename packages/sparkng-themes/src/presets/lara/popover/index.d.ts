@@ -1,6 +1,6 @@
-import type { PopoverTokenSections } from '@openng/sparkng-themes/types/popover';
+import type { PopoverTokenSections } from '@bdspark/sparkng-themes/types/popover';
 
-export * from '@openng/sparkng-themes/types/popover';
+export * from '@bdspark/sparkng-themes/types/popover';
 
 declare const root: PopoverTokenSections.Root;
 declare const content: PopoverTokenSections.Content;

@@ -1,5 +1,5 @@
-import type { AuraBaseDesignTokens } from '@openng/sparkng-themes/aura/base';
-import type { Preset } from '@openng/sparkng-themes/types';
+import type { AuraBaseDesignTokens } from '@bdspark/sparkng-themes/aura/base';
+import type { Preset } from '@bdspark/sparkng-themes/types';
 
 /**
  *
@@ -11,7 +11,7 @@ import type { Preset } from '@openng/sparkng-themes/types';
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 declare const _default: Preset<AuraBaseDesignTokens>;

@@ -1,6 +1,6 @@
-import type { TabmenuTokenSections } from '@openng/sparkng-themes/types/tabmenu';
+import type { TabmenuTokenSections } from '@bdspark/sparkng-themes/types/tabmenu';
 
-export * from '@openng/sparkng-themes/types/tabmenu';
+export * from '@bdspark/sparkng-themes/types/tabmenu';
 
 declare const root: TabmenuTokenSections.Root;
 declare const tablist: TabmenuTokenSections.Tablist;

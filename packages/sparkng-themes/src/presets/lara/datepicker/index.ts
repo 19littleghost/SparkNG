@@ -1,4 +1,4 @@
-import type { DatePickerDesignTokens, DatePickerTokenSections } from '@openng/sparkng-themes/types/datepicker';
+import type { DatePickerDesignTokens, DatePickerTokenSections } from '@bdspark/sparkng-themes/types/datepicker';
 
 export const root: DatePickerTokenSections.Root = {
     transitionDuration: '{transition.duration}'

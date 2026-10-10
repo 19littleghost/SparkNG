@@ -1,11 +1,11 @@
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, ContentChild, ContentChildren, ElementRef, inject, InjectionToken, Input, NgModule, numberAttribute, QueryList, TemplateRef, ViewEncapsulation } from '@angular/core';
-import { blockBodyScroll, unblockBodyScroll } from '@openng/sparkng-utils';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { BlockUIPassThrough } from '@openng/sparkng/types/blockui';
-import { ZIndexUtils } from '@openng/sparkng/utils';
+import { blockBodyScroll, unblockBodyScroll } from '@bdspark/sparkng-utils';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { BlockUIPassThrough } from '@bdspark/sparkng/types/blockui';
+import { ZIndexUtils } from '@bdspark/sparkng/utils';
 import { BlockUiStyle } from './style/blockuistyle';
 
 const BLOCKUI_INSTANCE = new InjectionToken<BlockUI>('BLOCKUI_INSTANCE');

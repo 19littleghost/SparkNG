@@ -1,4 +1,4 @@
-import type { TagDesignTokens, TagTokenSections } from '@openng/sparkng-themes/types/tag';
+import type { TagDesignTokens, TagTokenSections } from '@bdspark/sparkng-themes/types/tag';
 
 export const root: TagTokenSections.Root = {
     fontSize: '0.875rem',

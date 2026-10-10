@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as datatable_style } from '@openng/sparkng-styles/datatable';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as datatable_style } from '@bdspark/sparkng-styles/datatable';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
 ${datatable_style}
@@ -257,7 +257,7 @@ export class TableStyle extends BaseStyle {
  *
  * DataTable displays data in tabular format.
  *
- * [Live Demo](https://optimus.openng.org/table/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/table/)
  *
  * @module tablestyle
  *

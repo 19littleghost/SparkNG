@@ -4,7 +4,7 @@ import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection } fr
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
-import { MessageService } from '@openng/sparkng/api';
+import { MessageService } from '@bdspark/sparkng/api';
 import { BehaviorSubject, delay, of, Subscription, timer } from 'rxjs';
 import { FileUpload } from './fileupload';
 

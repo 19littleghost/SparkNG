@@ -1,6 +1,6 @@
-import type { SelectButtonTokenSections } from '@openng/sparkng-themes/types/selectbutton';
+import type { SelectButtonTokenSections } from '@bdspark/sparkng-themes/types/selectbutton';
 
-export * from '@openng/sparkng-themes/types/selectbutton';
+export * from '@bdspark/sparkng-themes/types/selectbutton';
 
 declare const root: SelectButtonTokenSections.Root;
 declare const colorScheme: SelectButtonTokenSections.ColorScheme;

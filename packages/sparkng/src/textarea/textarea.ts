@@ -1,10 +1,10 @@
 import { booleanAttribute, computed, Directive, effect, EventEmitter, HostListener, inject, InjectionToken, input, Input, NgModule, Output } from '@angular/core';
 import { NgControl } from '@angular/forms';
-import { PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseModelHolder } from '@openng/sparkng/basemodelholder';
-import { Bind } from '@openng/sparkng/bind';
-import { Fluid } from '@openng/sparkng/fluid';
-import { TextareaPassThrough } from '@openng/sparkng/types/textarea';
+import { PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseModelHolder } from '@bdspark/sparkng/basemodelholder';
+import { Bind } from '@bdspark/sparkng/bind';
+import { Fluid } from '@bdspark/sparkng/fluid';
+import { TextareaPassThrough } from '@bdspark/sparkng/types/textarea';
 import { Subscription } from 'rxjs';
 import { TextareaStyle } from './style/textareastyle';
 

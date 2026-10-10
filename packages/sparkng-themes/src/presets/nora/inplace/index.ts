@@ -1,4 +1,4 @@
-import type { InplaceDesignTokens, InplaceTokenSections } from '@openng/sparkng-themes/types/inplace';
+import type { InplaceDesignTokens, InplaceTokenSections } from '@bdspark/sparkng-themes/types/inplace';
 
 export const root: InplaceTokenSections.Root = {
     padding: '{form.field.padding.y} {form.field.padding.x}',

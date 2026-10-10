@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/dataview';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/dataview';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => [
@@ -33,7 +33,7 @@ export class DataViewStyle extends BaseStyle {
  *
  * DataView displays data in grid or list layout with pagination and sorting features.
  *
- * [Live Demo](https://optimus.openng.org/dataview/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/dataview/)
  *
  * @module dataviewstyle
  *

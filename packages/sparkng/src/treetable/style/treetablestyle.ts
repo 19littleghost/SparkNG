@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BaseStyle } from '@openng/sparkng/base';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
 /* For Optimus */
@@ -589,7 +589,7 @@ export class TreeTableStyle extends BaseStyle {
  *
  * TreeTable is used to display hierarchical data in tabular format.
  *
- * [Live Demo](https://optimus.openng.org/treetable/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/treetable/)
  *
  * @module treetablestyle
  *

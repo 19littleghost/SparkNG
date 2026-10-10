@@ -4,9 +4,9 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 
-import { SharedModule } from '@openng/sparkng/api';
-import { provideOptimus } from '@openng/sparkng/config';
-import { ToggleButtonChangeEvent } from '@openng/sparkng/types/togglebutton';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { provideOptimus } from '@bdspark/sparkng/config';
+import { ToggleButtonChangeEvent } from '@bdspark/sparkng/types/togglebutton';
 import { ToggleButton } from './togglebutton';
 
 @Component({

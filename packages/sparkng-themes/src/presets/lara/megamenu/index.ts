@@ -1,4 +1,4 @@
-import type { MegaMenuDesignTokens, MegaMenuTokenSections } from '@openng/sparkng-themes/types/megamenu';
+import type { MegaMenuDesignTokens, MegaMenuTokenSections } from '@bdspark/sparkng-themes/types/megamenu';
 
 export const root: MegaMenuTokenSections.Root = {
     borderColor: 'transparent',

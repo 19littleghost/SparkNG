@@ -100,7 +100,7 @@ export declare namespace MeterGroupTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface MeterGroupDesignTokens extends DesignTokens<MeterGroupDesignTokens> {

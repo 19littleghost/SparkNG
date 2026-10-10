@@ -1,6 +1,6 @@
-import type { ConfirmPopupTokenSections } from '@openng/sparkng-themes/types/confirmpopup';
+import type { ConfirmPopupTokenSections } from '@bdspark/sparkng-themes/types/confirmpopup';
 
-export * from '@openng/sparkng-themes/types/confirmpopup';
+export * from '@bdspark/sparkng-themes/types/confirmpopup';
 
 declare const root: ConfirmPopupTokenSections.Root;
 declare const content: ConfirmPopupTokenSections.Content;

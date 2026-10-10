@@ -22,19 +22,19 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { MotionOptions } from '@openng/sparkng-motion';
-import { focus, getFirstFocusableElement, getFocusableElements, getLastFocusableElement, isNotEmpty, uuid } from '@openng/sparkng-utils';
-import { OverlayOptions, PrimeTemplate, ScrollerOptions, SharedModule, TreeNode } from '@openng/sparkng/api';
-import { AutoFocus } from '@openng/sparkng/autofocus';
-import { PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseEditableHolder } from '@openng/sparkng/baseeditableholder';
-import { Bind } from '@openng/sparkng/bind';
-import { Chip } from '@openng/sparkng/chip';
-import { Fluid } from '@openng/sparkng/fluid';
-import { ChevronDownIcon, TimesIcon } from '@openng/sparkng/icons';
-import { Overlay } from '@openng/sparkng/overlay';
-import { Tree, TreeFilterEvent, TreeNodeSelectEvent, TreeNodeUnSelectEvent } from '@openng/sparkng/tree';
-import { Nullable } from '@openng/sparkng/ts-helpers';
+import { MotionOptions } from '@bdspark/sparkng-motion';
+import { focus, getFirstFocusableElement, getFocusableElements, getLastFocusableElement, isNotEmpty, uuid } from '@bdspark/sparkng-utils';
+import { OverlayOptions, PrimeTemplate, ScrollerOptions, SharedModule, TreeNode } from '@bdspark/sparkng/api';
+import { AutoFocus } from '@bdspark/sparkng/autofocus';
+import { PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseEditableHolder } from '@bdspark/sparkng/baseeditableholder';
+import { Bind } from '@bdspark/sparkng/bind';
+import { Chip } from '@bdspark/sparkng/chip';
+import { Fluid } from '@bdspark/sparkng/fluid';
+import { ChevronDownIcon, TimesIcon } from '@bdspark/sparkng/icons';
+import { Overlay } from '@bdspark/sparkng/overlay';
+import { Tree, TreeFilterEvent, TreeNodeSelectEvent, TreeNodeUnSelectEvent } from '@bdspark/sparkng/tree';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
 import {
     TreeSelectHeaderTemplateContext,
     TreeSelectItemCheckboxIconTemplateContext,
@@ -43,7 +43,7 @@ import {
     TreeSelectNodeExpandEvent,
     TreeSelectPassThrough,
     TreeSelectValueTemplateContext
-} from '@openng/sparkng/types/treeselect';
+} from '@bdspark/sparkng/types/treeselect';
 import { take } from 'rxjs';
 import { TreeSelectStyle } from './style/treeselectstyle';
 

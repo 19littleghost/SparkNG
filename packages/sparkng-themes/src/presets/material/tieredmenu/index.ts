@@ -1,4 +1,4 @@
-import type { TieredMenuDesignTokens, TieredMenuTokenSections } from '@openng/sparkng-themes/types/tieredmenu';
+import type { TieredMenuDesignTokens, TieredMenuTokenSections } from '@bdspark/sparkng-themes/types/tieredmenu';
 
 export const root: TieredMenuTokenSections.Root = {
     background: '{content.background}',

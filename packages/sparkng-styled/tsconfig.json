@@ -3,41 +3,41 @@
     "compilerOptions": {
         "target": "es2016",
         "paths": {
-            "@openng/sparkng-utils": [
+            "@bdspark/sparkng-utils": [
                 "../sparkng-utils/src"
             ],
-            "@openng/sparkng-utils/*": [
+            "@bdspark/sparkng-utils/*": [
                 "../sparkng-utils/src/*"
             ],
-            "@openng/sparkng-styled": [
+            "@bdspark/sparkng-styled": [
                 "../sparkng-styled/src"
             ],
-            "@openng/sparkng-styled/*": [
+            "@bdspark/sparkng-styled/*": [
                 "../sparkng-styled/src/*"
             ],
-            "@openng/sparkng-styles": [
+            "@bdspark/sparkng-styles": [
                 "../sparkng-styles/src"
             ],
-            "@openng/sparkng-styles/*": [
+            "@bdspark/sparkng-styles/*": [
                 "../sparkng-styles/src/*"
             ],
-            "@openng/sparkng-motion": [
+            "@bdspark/sparkng-motion": [
                 "../sparkng-motion/src"
             ],
-            "@openng/sparkng-motion/*": [
+            "@bdspark/sparkng-motion/*": [
                 "../sparkng-motion/src/*",
                 "../sparkng-motion/types/*"
             ],
-            "@openng/sparkng-themes": [
+            "@bdspark/sparkng-themes": [
                 "../sparkng-themes/src"
             ],
-            "@openng/sparkng-themes/types": [
+            "@bdspark/sparkng-themes/types": [
                 "../sparkng-themes/types"
             ],
-            "@openng/sparkng-themes/types/*": [
+            "@bdspark/sparkng-themes/types/*": [
                 "../sparkng-themes/types/*"
             ],
-            "@openng/sparkng-themes/*": [
+            "@bdspark/sparkng-themes/*": [
                 "../sparkng-themes/src/*",
                 "../sparkng-themes/src/presets/*",
                 "../sparkng-themes/types/*"

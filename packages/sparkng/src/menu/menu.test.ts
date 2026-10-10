@@ -3,8 +3,8 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { provideNoopAnimations } from '@angular/platform-browser/animations';
 import { RouterTestingModule } from '@angular/router/testing';
-import { MenuItem, OverlayService, SharedModule } from '@openng/sparkng/api';
-import { provideOptimus } from '@openng/sparkng/config';
+import { MenuItem, OverlayService, SharedModule } from '@bdspark/sparkng/api';
+import { provideOptimus } from '@bdspark/sparkng/config';
 import { Menu } from './menu';
 import type { Mock } from 'vitest';
 

@@ -1,6 +1,6 @@
-import type { CardTokenSections } from '@openng/sparkng-themes/types/card';
+import type { CardTokenSections } from '@bdspark/sparkng-themes/types/card';
 
-export * from '@openng/sparkng-themes/types/card';
+export * from '@bdspark/sparkng-themes/types/card';
 
 declare const root: CardTokenSections.Root;
 declare const body: CardTokenSections.Body;

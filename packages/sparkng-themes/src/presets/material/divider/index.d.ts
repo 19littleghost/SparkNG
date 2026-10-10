@@ -1,6 +1,6 @@
-import type { DividerTokenSections } from '@openng/sparkng-themes/types/divider';
+import type { DividerTokenSections } from '@bdspark/sparkng-themes/types/divider';
 
-export * from '@openng/sparkng-themes/types/divider';
+export * from '@bdspark/sparkng-themes/types/divider';
 
 declare const root: DividerTokenSections.Root;
 declare const content: DividerTokenSections.Content;

@@ -1,8 +1,8 @@
 import { booleanAttribute, ChangeDetectionStrategy, Component, inject, InjectionToken, input, model, numberAttribute, signal, ViewEncapsulation } from '@angular/core';
-import { uuid } from '@openng/sparkng-utils';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { TabsPassThrough } from '@openng/sparkng/types/tabs';
+import { uuid } from '@bdspark/sparkng-utils';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { TabsPassThrough } from '@bdspark/sparkng/types/tabs';
 import { TabsStyle } from './style/tabsstyle';
 
 const TABS_INSTANCE = new InjectionToken<Tabs>('TABS_INSTANCE');

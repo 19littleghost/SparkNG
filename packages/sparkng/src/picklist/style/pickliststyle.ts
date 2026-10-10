@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/picklist';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/picklist';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: () => ['p-picklist p-component'],
@@ -24,7 +24,7 @@ export class PickListStyle extends BaseStyle {
  *
  * PickList is used to reorder items between different lists.
  *
- * [Live Demo](https://optimus.openng.org/picklist)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/picklist)
  *
  * @module pickliststyle
  *

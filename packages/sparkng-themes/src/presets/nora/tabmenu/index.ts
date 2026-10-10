@@ -1,4 +1,4 @@
-import type { TabmenuDesignTokens, TabmenuTokenSections } from '@openng/sparkng-themes/types/tabmenu';
+import type { TabmenuDesignTokens, TabmenuTokenSections } from '@bdspark/sparkng-themes/types/tabmenu';
 
 export const root: TabmenuTokenSections.Root = {
     transitionDuration: '{transition.duration}'

@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection } fr
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
-import { SharedModule } from '@openng/sparkng/api';
+import { SharedModule } from '@bdspark/sparkng/api';
 import { Image, ImageModule } from './image';
 
 // Using image paths from photoservice.ts to ensure consistency
@@ -971,7 +971,7 @@ describe('Image', () => {
             });
 
             it('should apply global PT configuration from OptimusConfig', async () => {
-                const { provideOptimus } = await import('@openng/sparkng/config');
+                const { provideOptimus } = await import('@bdspark/sparkng/config');
 
                 @Component({
                     changeDetection: ChangeDetectionStrategy.Eager,

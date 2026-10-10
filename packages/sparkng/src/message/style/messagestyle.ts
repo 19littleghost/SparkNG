@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/message';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/message';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => ['p-message p-component p-message-' + instance.severity, instance.variant && 'p-message-' + instance.variant, { 'p-message-sm': instance.size === 'small', 'p-message-lg': instance.size === 'large' }],
@@ -25,7 +25,7 @@ export class MessageStyle extends BaseStyle {
  *
  * Message groups a collection of contents in tabs.
  *
- * [Live Demo](https://optimus.openng.org/message/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/message/)
  *
  * @module messagestyle
  *

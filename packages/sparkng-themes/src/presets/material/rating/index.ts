@@ -1,4 +1,4 @@
-import type { RatingDesignTokens, RatingTokenSections } from '@openng/sparkng-themes/types/rating';
+import type { RatingDesignTokens, RatingTokenSections } from '@bdspark/sparkng-themes/types/rating';
 
 export const root: RatingTokenSections.Root = {
     gap: '0.5rem',

@@ -24,15 +24,15 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { MotionOptions } from '@openng/sparkng-motion';
-import { equals, findLast, findSingle, focus, getAttribute, isEmpty, isNotEmpty, isPrintableCharacter, resolve, uuid } from '@openng/sparkng-utils';
-import { MenuItem, PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { ChevronDownIcon, ChevronRightIcon } from '@openng/sparkng/icons';
-import { MotionModule } from '@openng/sparkng/motion';
-import { TooltipModule } from '@openng/sparkng/tooltip';
-import { PanelMenuItemTemplateContext, PanelMenuPassThrough } from '@openng/sparkng/types/panelmenu';
+import { MotionOptions } from '@bdspark/sparkng-motion';
+import { equals, findLast, findSingle, focus, getAttribute, isEmpty, isNotEmpty, isPrintableCharacter, resolve, uuid } from '@bdspark/sparkng-utils';
+import { MenuItem, PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { ChevronDownIcon, ChevronRightIcon } from '@bdspark/sparkng/icons';
+import { MotionModule } from '@bdspark/sparkng/motion';
+import { TooltipModule } from '@bdspark/sparkng/tooltip';
+import { PanelMenuItemTemplateContext, PanelMenuPassThrough } from '@bdspark/sparkng/types/panelmenu';
 import { PanelMenuStyle } from './style/panelmenustyle';
 
 const PANELMENU_INSTANCE = new InjectionToken<PanelMenu>('PANELMENU_INSTANCE');

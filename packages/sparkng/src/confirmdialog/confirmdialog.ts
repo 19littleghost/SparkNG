@@ -23,14 +23,14 @@ import {
     TemplateRef,
     ViewEncapsulation
 } from '@angular/core';
-import { findSingle, setAttribute, uuid } from '@openng/sparkng-utils';
-import { Confirmation, ConfirmationService, ConfirmEventType, Footer, PrimeTemplate, SharedModule, TranslationKeys } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { Button } from '@openng/sparkng/button';
-import { Dialog } from '@openng/sparkng/dialog';
-import { Nullable } from '@openng/sparkng/ts-helpers';
-import { ConfirmDialogHeadlessTemplateContext, ConfirmDialogMessageTemplateContext, ConfirmDialogPassThrough } from '@openng/sparkng/types/confirmdialog';
+import { findSingle, setAttribute, uuid } from '@bdspark/sparkng-utils';
+import { Confirmation, ConfirmationService, ConfirmEventType, Footer, PrimeTemplate, SharedModule, TranslationKeys } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { Button } from '@bdspark/sparkng/button';
+import { Dialog } from '@bdspark/sparkng/dialog';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
+import { ConfirmDialogHeadlessTemplateContext, ConfirmDialogMessageTemplateContext, ConfirmDialogPassThrough } from '@bdspark/sparkng/types/confirmdialog';
 import { Subscription } from 'rxjs';
 import { ConfirmDialogStyle } from './style/confirmdialogstyle';
 

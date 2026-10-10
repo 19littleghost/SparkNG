@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/iconfield';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/iconfield';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => [
@@ -25,7 +25,7 @@ export class IconFieldStyle extends BaseStyle {
  *
  * IconField wraps an input and an icon.
  *
- * [Live Demo](https://optimus.openng.org/iconfield/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/iconfield/)
  *
  * @module iconfieldstyle
  *

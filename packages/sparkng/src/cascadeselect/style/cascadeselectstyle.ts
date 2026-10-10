@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as cascadeselect_style } from '@openng/sparkng-styles/cascadeselect';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as cascadeselect_style } from '@bdspark/sparkng-styles/cascadeselect';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${cascadeselect_style}
@@ -87,7 +87,7 @@ export class CascadeSelectStyle extends BaseStyle {
  *
  * CascadeSelect is a form component to select a value from a nested structure of options.
  *
- * [Live Demo](https://optimus.openng.org/cascadeselect/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/cascadeselect/)
  *
  * @module cascadeselectstyle
  *

@@ -1,6 +1,6 @@
-import type { PanelTokenSections } from '@openng/sparkng-themes/types/panel';
+import type { PanelTokenSections } from '@bdspark/sparkng-themes/types/panel';
 
-export * from '@openng/sparkng-themes/types/panel';
+export * from '@bdspark/sparkng-themes/types/panel';
 
 declare const root: PanelTokenSections.Root;
 declare const header: PanelTokenSections.Header;

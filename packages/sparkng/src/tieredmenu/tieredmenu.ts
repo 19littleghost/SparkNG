@@ -27,19 +27,19 @@ import {
     ViewRef
 } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { MotionEvent, MotionOptions } from '@openng/sparkng-motion';
-import { absolutePosition, addStyle, appendChild, findLastIndex, findSingle, focus, getOuterWidth, isEmpty, isNotEmpty, isPrintableCharacter, isTouchDevice, nestedPosition, relativePosition, resolve, uuid } from '@openng/sparkng-utils';
-import { MenuItem, OverlayService, PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { ConnectedOverlayScrollHandler } from '@openng/sparkng/dom';
-import { AngleRightIcon } from '@openng/sparkng/icons';
-import { MotionModule } from '@openng/sparkng/motion';
-import { Ripple } from '@openng/sparkng/ripple';
-import { TooltipModule } from '@openng/sparkng/tooltip';
-import { Nullable, VoidListener } from '@openng/sparkng/ts-helpers';
-import { TieredMenuItemTemplateContext, TieredMenuPassThrough } from '@openng/sparkng/types/tieredmenu';
-import { ZIndexUtils } from '@openng/sparkng/utils';
+import { MotionEvent, MotionOptions } from '@bdspark/sparkng-motion';
+import { absolutePosition, addStyle, appendChild, findLastIndex, findSingle, focus, getOuterWidth, isEmpty, isNotEmpty, isPrintableCharacter, isTouchDevice, nestedPosition, relativePosition, resolve, uuid } from '@bdspark/sparkng-utils';
+import { MenuItem, OverlayService, PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { ConnectedOverlayScrollHandler } from '@bdspark/sparkng/dom';
+import { AngleRightIcon } from '@bdspark/sparkng/icons';
+import { MotionModule } from '@bdspark/sparkng/motion';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { TooltipModule } from '@bdspark/sparkng/tooltip';
+import { Nullable, VoidListener } from '@bdspark/sparkng/ts-helpers';
+import { TieredMenuItemTemplateContext, TieredMenuPassThrough } from '@bdspark/sparkng/types/tieredmenu';
+import { ZIndexUtils } from '@bdspark/sparkng/utils';
 import { TieredMenuStyle } from './style/tieredmenustyle';
 
 const TIEREDMENU_INSTANCE = new InjectionToken<TieredMenu>('TIEREDMENU_INSTANCE');

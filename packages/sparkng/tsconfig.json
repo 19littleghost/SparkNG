@@ -18,7 +18,7 @@
         "strictInjectionParameters": true,
         "strictInputAccessModifiers": true,
         "flatModuleOutFile": "sparkng.js",
-        "flatModuleId": "@openng/sparkng",
+        "flatModuleId": "@bdspark/sparkng",
         "compilationMode": "partial"
     }
 }

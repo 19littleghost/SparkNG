@@ -16,7 +16,7 @@ import { MessageModule } from '@bdspark/sparkng/message';
             <p-message severity="info" icon="pi pi-send" text="Info Message" styleClass="h-full" />
             <p-message severity="success">
                 <ng-template #icon>
-                    <p-avatar image="https://optimus.openng.org/demo/avatar/amyelsner.png" shape="circle" />
+                    <p-avatar image="https://TODO-BDSPARK-DOMAIN/demo/avatar/amyelsner.png" shape="circle" />
                 </ng-template>
                 <span class="ms-2">How may I help you?</span>
             </p-message>

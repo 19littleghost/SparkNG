@@ -1,3 +1,3 @@
-import { ExtendedCSS } from '@openng/sparkng-themes/types';
+import { ExtendedCSS } from '@bdspark/sparkng-themes/types';
 
 export const css: ExtendedCSS;

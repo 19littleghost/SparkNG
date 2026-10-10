@@ -5,7 +5,7 @@
  * @module base
  *
  */
-import type { ColorScale } from '@openng/sparkng-styled';
+import type { ColorScale } from '@bdspark/sparkng-styled';
 
 /**
  * Design Token Sections
@@ -377,7 +377,7 @@ export declare namespace AuraBaseTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface AuraBaseDesignTokens {

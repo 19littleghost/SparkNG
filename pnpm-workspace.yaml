@@ -5,6 +5,10 @@ packages:
 
 shamefullyHoist: true
 
+# @bdspark/icons is vendored in packages/icons (not yet published to npm);
+# link workspace packages when the version range is satisfied.
+linkWorkspacePackages: true
+
 allowBuilds:
   '@parcel/watcher': true
   core-js: true

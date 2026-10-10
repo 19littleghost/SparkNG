@@ -1,4 +1,4 @@
-import type { InputNumberDesignTokens, InputNumberTokenSections } from '@openng/sparkng-themes/types/inputnumber';
+import type { InputNumberDesignTokens, InputNumberTokenSections } from '@bdspark/sparkng-themes/types/inputnumber';
 
 export const root: InputNumberTokenSections.Root = {
     transitionDuration: '{transition.duration}'

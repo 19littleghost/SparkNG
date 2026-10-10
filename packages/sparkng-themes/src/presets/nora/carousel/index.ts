@@ -1,4 +1,4 @@
-import type { CarouselDesignTokens, CarouselTokenSections } from '@openng/sparkng-themes/types/carousel';
+import type { CarouselDesignTokens, CarouselTokenSections } from '@bdspark/sparkng-themes/types/carousel';
 
 export const root: CarouselTokenSections.Root = {
     transitionDuration: '{transition.duration}'

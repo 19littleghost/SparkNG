@@ -22,16 +22,16 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR, NgControl } from '@angular/forms';
-import { getSelection } from '@openng/sparkng-utils';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { AutoFocus } from '@openng/sparkng/autofocus';
-import { PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseInput } from '@openng/sparkng/baseinput';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { AngleDownIcon, AngleUpIcon, TimesIcon } from '@openng/sparkng/icons';
-import { InputText } from '@openng/sparkng/inputtext';
-import { Nullable } from '@openng/sparkng/ts-helpers';
-import type { InputNumberInputEvent, InputNumberPassThrough } from '@openng/sparkng/types/inputnumber';
+import { getSelection } from '@bdspark/sparkng-utils';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { AutoFocus } from '@bdspark/sparkng/autofocus';
+import { PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseInput } from '@bdspark/sparkng/baseinput';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { AngleDownIcon, AngleUpIcon, TimesIcon } from '@bdspark/sparkng/icons';
+import { InputText } from '@bdspark/sparkng/inputtext';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
+import type { InputNumberInputEvent, InputNumberPassThrough } from '@bdspark/sparkng/types/inputnumber';
 import { InputNumberStyle } from './style/inputnumberstyle';
 
 const INPUTNUMBER_INSTANCE = new InjectionToken<InputNumber>('INPUTNUMBER_INSTANCE');

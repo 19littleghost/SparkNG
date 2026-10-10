@@ -1,4 +1,4 @@
-import type { IftaLabelDesignTokens, IftaLabelTokenSections } from '@openng/sparkng-themes/types/iftalabel';
+import type { IftaLabelDesignTokens, IftaLabelTokenSections } from '@bdspark/sparkng-themes/types/iftalabel';
 
 export const root: IftaLabelTokenSections.Root = {
     color: '{form.field.float.label.color}',

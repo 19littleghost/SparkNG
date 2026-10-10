@@ -1,8 +1,8 @@
 import { TemplateRef } from '@angular/core';
-import type { PassThrough, PassThroughOption, TreeNode } from '@openng/sparkng/api';
-import { ChipPassThrough } from '@openng/sparkng/types/chip';
-import { OverlayPassThrough } from '@openng/sparkng/types/overlay';
-import { TreePassThrough } from '@openng/sparkng/types/tree';
+import type { PassThrough, PassThroughOption, TreeNode } from '@bdspark/sparkng/api';
+import { ChipPassThrough } from '@bdspark/sparkng/types/chip';
+import { OverlayPassThrough } from '@bdspark/sparkng/types/overlay';
+import { TreePassThrough } from '@bdspark/sparkng/types/tree';
 
 /**
  * Custom pass-through(pt) options.

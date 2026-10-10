@@ -3,8 +3,8 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 
-import { TreeNode } from '@openng/sparkng/api';
-import { provideOptimus } from '@openng/sparkng/config';
+import { TreeNode } from '@bdspark/sparkng/api';
+import { provideOptimus } from '@bdspark/sparkng/config';
 import { of } from 'rxjs';
 import { TreeTable, TreeTableModule } from './treetable';
 

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BaseStyle } from '@openng/sparkng/base';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: 'p-tabpanels'
@@ -16,7 +16,7 @@ export class TabPanelsStyle extends BaseStyle {
  *
  * Tab is a helper component for Tabs component.
  *
- * [Live Demo](https://optimus.openng.org/tabs/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/tabs/)
  *
  * @module tabpanelstyle
  *

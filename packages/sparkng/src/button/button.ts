@@ -21,16 +21,16 @@ import {
     TemplateRef,
     ViewEncapsulation
 } from '@angular/core';
-import { addClass, createElement, findSingle, isEmpty } from '@openng/sparkng-utils';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { AutoFocus } from '@openng/sparkng/autofocus';
-import { BadgeModule } from '@openng/sparkng/badge';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { Fluid } from '@openng/sparkng/fluid';
-import { SpinnerIcon } from '@openng/sparkng/icons';
-import { Ripple } from '@openng/sparkng/ripple';
-import type { ButtonIconTemplateContext, ButtonLoadingIconTemplateContext, ButtonPassThrough, ButtonProps, ButtonSeverity } from '@openng/sparkng/types/button';
+import { addClass, createElement, findSingle, isEmpty } from '@bdspark/sparkng-utils';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { AutoFocus } from '@bdspark/sparkng/autofocus';
+import { BadgeModule } from '@bdspark/sparkng/badge';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { Fluid } from '@bdspark/sparkng/fluid';
+import { SpinnerIcon } from '@bdspark/sparkng/icons';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import type { ButtonIconPosition, ButtonIconTemplateContext, ButtonLoadingIconTemplateContext, ButtonPassThrough, ButtonProps, ButtonSeverity } from '@bdspark/sparkng/types/button';
 import { ButtonStyle } from './style/buttonstyle';
 
 const BUTTON_INSTANCE = new InjectionToken<Button>('BUTTON_INSTANCE');
@@ -40,8 +40,6 @@ const BUTTON_DIRECTIVE_INSTANCE = new InjectionToken<ButtonDirective>('BUTTON_DI
 const BUTTON_LABEL_INSTANCE = new InjectionToken<ButtonLabel>('BUTTON_LABEL_INSTANCE');
 
 const BUTTON_ICON_INSTANCE = new InjectionToken<ButtonIcon>('BUTTON_ICON_INSTANCE');
-
-export type ButtonIconPosition = 'left' | 'right' | 'top' | 'bottom';
 
 const INTERNAL_BUTTON_CLASSES = {
     button: 'p-button',

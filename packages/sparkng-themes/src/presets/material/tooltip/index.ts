@@ -1,4 +1,4 @@
-import type { TooltipDesignTokens, TooltipTokenSections } from '@openng/sparkng-themes/types/tooltip';
+import type { TooltipDesignTokens, TooltipTokenSections } from '@bdspark/sparkng-themes/types/tooltip';
 
 export const root: TooltipTokenSections.Root = {
     background: '{surface.600}',

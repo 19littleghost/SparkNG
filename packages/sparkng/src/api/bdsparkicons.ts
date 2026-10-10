@@ -1,4 +1,4 @@
-export class OpenngIcons {
+export class BdsparkIcons {
     public static readonly ADDRESS_BOOK = 'pi pi-address-book';
     public static readonly ALIGN_CENTER = 'pi pi-align-center';
     public static readonly ALIGN_JUSTIFY = 'pi pi-align-justify';
@@ -313,7 +313,7 @@ export class OpenngIcons {
 }
 
 /**
- * @deprecated Use `OpenngIcons` instead. This alias is kept for backward compatibility
+ * @deprecated Use `BdsparkIcons` instead. This alias is kept for backward compatibility
  * with PrimeIcons and will be removed in a future major version.
  */
-export const PrimeIcons = OpenngIcons;
+export const PrimeIcons = BdsparkIcons;

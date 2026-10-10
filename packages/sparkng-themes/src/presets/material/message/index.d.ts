@@ -1,6 +1,6 @@
-import type { MessageTokenSections } from '@openng/sparkng-themes/types/message';
+import type { MessageTokenSections } from '@bdspark/sparkng-themes/types/message';
 
-export * from '@openng/sparkng-themes/types/message';
+export * from '@bdspark/sparkng-themes/types/message';
 
 declare const root: MessageTokenSections.Root;
 declare const content: MessageTokenSections.Content;

@@ -1,6 +1,6 @@
-import type { ColorPickerTokenSections } from '@openng/sparkng-themes/types/colorpicker';
+import type { ColorPickerTokenSections } from '@bdspark/sparkng-themes/types/colorpicker';
 
-export * from '@openng/sparkng-themes/types/colorpicker';
+export * from '@bdspark/sparkng-themes/types/colorpicker';
 
 declare const root: ColorPickerTokenSections.Root;
 declare const preview: ColorPickerTokenSections.Preview;

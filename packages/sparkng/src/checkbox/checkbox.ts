@@ -24,15 +24,15 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { FormControl, NG_VALUE_ACCESSOR, NgControl } from '@angular/forms';
-import { contains, equals } from '@openng/sparkng-utils';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseEditableHolder } from '@openng/sparkng/baseeditableholder';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { CheckIcon } from '@openng/sparkng/icons/check';
-import { MinusIcon } from '@openng/sparkng/icons/minus';
-import { Nullable } from '@openng/sparkng/ts-helpers';
-import { CheckboxChangeEvent, CheckboxIconTemplateContext, CheckboxPassThrough } from '@openng/sparkng/types/checkbox';
+import { contains, equals } from '@bdspark/sparkng-utils';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseEditableHolder } from '@bdspark/sparkng/baseeditableholder';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { CheckIcon } from '@bdspark/sparkng/icons/check';
+import { MinusIcon } from '@bdspark/sparkng/icons/minus';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
+import { CheckboxChangeEvent, CheckboxIconTemplateContext, CheckboxPassThrough } from '@bdspark/sparkng/types/checkbox';
 import { CheckboxStyle } from './style/checkboxstyle';
 
 const CHECKBOX_INSTANCE = new InjectionToken<Checkbox>('CHECKBOX_INSTANCE');

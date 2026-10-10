@@ -1,4 +1,4 @@
-import type { FieldsetDesignTokens, FieldsetTokenSections } from '@openng/sparkng-themes/types/fieldset';
+import type { FieldsetDesignTokens, FieldsetTokenSections } from '@bdspark/sparkng-themes/types/fieldset';
 
 export const root: FieldsetTokenSections.Root = {
     background: '{content.background}',

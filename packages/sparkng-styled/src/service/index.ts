@@ -1,4 +1,4 @@
-import { EventBus } from '@openng/sparkng-utils/eventbus';
+import { EventBus } from '@bdspark/sparkng-utils/eventbus';
 
 const ThemeService = EventBus();
 

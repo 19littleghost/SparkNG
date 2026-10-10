@@ -21,19 +21,19 @@ import {
     ViewChild,
     ViewEncapsulation
 } from '@angular/core';
-import { MotionOptions } from '@openng/sparkng-motion';
-import { uuid } from '@openng/sparkng-utils';
-import { MenuItem, PrimeTemplate, SharedModule, TooltipOptions } from '@openng/sparkng/api';
-import { AutoFocus } from '@openng/sparkng/autofocus';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { ButtonDirective } from '@openng/sparkng/button';
-import { ChevronDownIcon } from '@openng/sparkng/icons';
-import { Ripple } from '@openng/sparkng/ripple';
-import { TieredMenu } from '@openng/sparkng/tieredmenu';
-import { TooltipModule } from '@openng/sparkng/tooltip';
-import type { ButtonSeverity } from '@openng/sparkng/types/button';
-import { ButtonProps, MenuButtonProps, SplitButtonPassThrough } from '@openng/sparkng/types/splitbutton';
+import { MotionOptions } from '@bdspark/sparkng-motion';
+import { uuid } from '@bdspark/sparkng-utils';
+import { MenuItem, PrimeTemplate, SharedModule, TooltipOptions } from '@bdspark/sparkng/api';
+import { AutoFocus } from '@bdspark/sparkng/autofocus';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { ButtonDirective } from '@bdspark/sparkng/button';
+import { ChevronDownIcon } from '@bdspark/sparkng/icons';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { TieredMenu } from '@bdspark/sparkng/tieredmenu';
+import { TooltipModule } from '@bdspark/sparkng/tooltip';
+import type { ButtonSeverity } from '@bdspark/sparkng/types/button';
+import { ButtonProps, MenuButtonProps, SplitButtonPassThrough } from '@bdspark/sparkng/types/splitbutton';
 import { SplitButtonStyle } from './style/splitbuttonstyle';
 
 const SPLITBUTTON_INSTANCE = new InjectionToken<SplitButton>('SPLITBUTTON_INSTANCE');

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as textarea_style } from '@openng/sparkng-styles/textarea';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as textarea_style } from '@bdspark/sparkng-styles/textarea';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${textarea_style}
@@ -42,7 +42,7 @@ export class TextareaStyle extends BaseStyle {
  *
  * Textarea is a multi-line text input element.
  *
- * [Live Demo](https://optimus.openng.org/textarea/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/textarea/)
  *
  * @module textareastyle
  *

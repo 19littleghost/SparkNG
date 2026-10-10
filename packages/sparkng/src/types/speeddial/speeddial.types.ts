@@ -1,6 +1,6 @@
 import { TemplateRef } from '@angular/core';
-import type { MenuItem, PassThrough, PassThroughOption } from '@openng/sparkng/api';
-import type { ButtonPassThrough } from '@openng/sparkng/types/button';
+import type { MenuItem, PassThrough, PassThroughOption } from '@bdspark/sparkng/api';
+import type { ButtonPassThrough } from '@bdspark/sparkng/types/button';
 
 /**
  * Custom pass-through(pt) options.

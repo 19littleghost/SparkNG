@@ -1,4 +1,4 @@
-import type { ScrollPanelDesignTokens, ScrollPanelTokenSections } from '@openng/sparkng-themes/types/scrollpanel';
+import type { ScrollPanelDesignTokens, ScrollPanelTokenSections } from '@bdspark/sparkng-themes/types/scrollpanel';
 
 export const root: ScrollPanelTokenSections.Root = {
     transitionDuration: '{transition.duration}'

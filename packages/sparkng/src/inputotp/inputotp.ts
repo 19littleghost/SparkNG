@@ -21,14 +21,14 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { AutoFocus } from '@openng/sparkng/autofocus';
-import { BaseEditableHolder } from '@openng/sparkng/baseeditableholder';
-import { PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { InputText } from '@openng/sparkng/inputtext';
-import { Nullable } from '@openng/sparkng/ts-helpers';
-import { InputOtpChangeEvent, InputOtpInputTemplateContext, InputOtpPassThrough } from '@openng/sparkng/types/inputotp';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { AutoFocus } from '@bdspark/sparkng/autofocus';
+import { BaseEditableHolder } from '@bdspark/sparkng/baseeditableholder';
+import { PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { InputText } from '@bdspark/sparkng/inputtext';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
+import { InputOtpChangeEvent, InputOtpInputTemplateContext, InputOtpPassThrough } from '@bdspark/sparkng/types/inputotp';
 import { InputOtpStyle } from './style/inputotpstyle';
 
 const INPUTOTP_INSTANCE = new InjectionToken<InputOtp>('INPUTOTP_INSTANCE');
@@ -40,7 +40,7 @@ export const INPUT_OTP_VALUE_ACCESSOR: any = {
 };
 
 // Re-export interfaces from types for backwards compatibility
-export { InputOtpChangeEvent, InputOtpInputTemplateContext, InputOtpTemplateEvents } from '@openng/sparkng/types/inputotp';
+export { InputOtpChangeEvent, InputOtpInputTemplateContext, InputOtpTemplateEvents } from '@bdspark/sparkng/types/inputotp';
 
 /**
  * Input Otp is used to enter one time passwords.

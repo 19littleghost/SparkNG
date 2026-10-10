@@ -1,6 +1,6 @@
-import type { ListboxTokenSections } from '@openng/sparkng-themes/types/listbox';
+import type { ListboxTokenSections } from '@bdspark/sparkng-themes/types/listbox';
 
-export * from '@openng/sparkng-themes/types/listbox';
+export * from '@bdspark/sparkng-themes/types/listbox';
 
 declare const root: ListboxTokenSections.Root;
 declare const list: ListboxTokenSections.List;

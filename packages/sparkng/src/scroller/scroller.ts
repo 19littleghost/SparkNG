@@ -19,12 +19,12 @@ import {
     ViewChild,
     ViewEncapsulation
 } from '@angular/core';
-import { findSingle, getHeight, getWidth, isTouchDevice, isVisible } from '@openng/sparkng-utils';
-import { PrimeTemplate, ScrollerOptions, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { SpinnerIcon } from '@openng/sparkng/icons';
-import { Nullable, VoidListener } from '@openng/sparkng/ts-helpers';
+import { findSingle, getHeight, getWidth, isTouchDevice, isVisible } from '@bdspark/sparkng-utils';
+import { PrimeTemplate, ScrollerOptions, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { SpinnerIcon } from '@bdspark/sparkng/icons';
+import { Nullable, VoidListener } from '@bdspark/sparkng/ts-helpers';
 import {
     ScrollerContentTemplateContext,
     ScrollerItemTemplateContext,
@@ -35,7 +35,7 @@ import {
     ScrollerScrollIndexChangeEvent,
     ScrollerToType,
     VirtualScrollerPassThrough
-} from '@openng/sparkng/types/scroller';
+} from '@bdspark/sparkng/types/scroller';
 import { ScrollerStyle } from './style/scrollerstyle';
 
 const SCROLLER_INSTANCE = new InjectionToken<Scroller>('SCROLLER_INSTANCE');

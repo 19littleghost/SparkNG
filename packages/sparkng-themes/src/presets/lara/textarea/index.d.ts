@@ -1,6 +1,6 @@
-import type { TextareaTokenSections } from '@openng/sparkng-themes/types/textarea';
+import type { TextareaTokenSections } from '@bdspark/sparkng-themes/types/textarea';
 
-export * from '@openng/sparkng-themes/types/textarea';
+export * from '@bdspark/sparkng-themes/types/textarea';
 
 declare const root: TextareaTokenSections.Root;
 declare const _default: {

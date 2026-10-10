@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { BaseIcon } from '@openng/sparkng/icons/baseicon';
+import { BaseIcon } from '@bdspark/sparkng/icons/baseicon';
 
 @Component({
     changeDetection: ChangeDetectionStrategy.Eager,

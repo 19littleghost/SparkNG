@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as floatlabel_style } from '@openng/sparkng-styles/floatlabel';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as floatlabel_style } from '@bdspark/sparkng-styles/floatlabel';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${floatlabel_style}
@@ -35,7 +35,7 @@ export class FloatLabelStyle extends BaseStyle {
  *
  * FloatLabel visually integrates a label with its form element.
  *
- * [Live Demo](https://optimus.openng.org/floatlabel/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/floatlabel/)
  *
  * @module floatlabelstyle
  *

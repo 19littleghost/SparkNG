@@ -1,4 +1,4 @@
-import type { ImageDesignTokens, ImageTokenSections } from '@openng/sparkng-themes/types/image';
+import type { ImageDesignTokens, ImageTokenSections } from '@bdspark/sparkng-themes/types/image';
 
 export const root: ImageTokenSections.Root = {
     transitionDuration: '{transition.duration}'

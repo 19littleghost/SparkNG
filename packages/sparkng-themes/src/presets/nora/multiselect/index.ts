@@ -1,4 +1,4 @@
-import type { MultiSelectDesignTokens, MultiSelectTokenSections } from '@openng/sparkng-themes/types/multiselect';
+import type { MultiSelectDesignTokens, MultiSelectTokenSections } from '@bdspark/sparkng-themes/types/multiselect';
 
 export const root: MultiSelectTokenSections.Root = {
     background: '{form.field.background}',

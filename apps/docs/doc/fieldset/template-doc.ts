@@ -16,7 +16,7 @@ import { FieldsetModule } from '@bdspark/sparkng/fieldset';
             <p-fieldset>
                 <ng-template #header>
                     <div class="flex items-center gap-2 px-2">
-                        <p-avatar image="https://optimus.openng.org/demo/avatar/amyelsner.png" shape="circle" />
+                        <p-avatar image="https://TODO-BDSPARK-DOMAIN/demo/avatar/amyelsner.png" shape="circle" />
                         <span class="font-bold">Amy Elsner</span>
                     </div>
                 </ng-template>

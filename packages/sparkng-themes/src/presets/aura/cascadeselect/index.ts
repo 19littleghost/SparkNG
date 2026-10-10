@@ -1,4 +1,4 @@
-import type { CascadeSelectDesignTokens, CascadeSelectTokenSections } from '@openng/sparkng-themes/types/cascadeselect';
+import type { CascadeSelectDesignTokens, CascadeSelectTokenSections } from '@bdspark/sparkng-themes/types/cascadeselect';
 
 export const root: CascadeSelectTokenSections.Root = {
     background: '{form.field.background}',

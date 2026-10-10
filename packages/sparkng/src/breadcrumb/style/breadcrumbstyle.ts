@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/breadcrumb';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/breadcrumb';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: () => ['p-breadcrumb p-component'],
@@ -26,7 +26,7 @@ export class BreadCrumbStyle extends BaseStyle {
  *
  * Breadcrumb provides contextual information about page hierarchy.
  *
- * [Live Demo](https://optimus.openng.org/breadcrumb/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/breadcrumb/)
  *
  * @module breadcrumbstyle
  *

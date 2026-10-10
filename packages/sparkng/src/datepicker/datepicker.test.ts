@@ -4,7 +4,7 @@ import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } 
 import { By } from '@angular/platform-browser';
 
 import { CommonModule } from '@angular/common';
-import type { DatePickerMonthChangeEvent, DatePickerYearChangeEvent } from '@openng/sparkng/types/datepicker';
+import type { DatePickerMonthChangeEvent, DatePickerYearChangeEvent } from '@bdspark/sparkng/types/datepicker';
 import { DatePicker } from './datepicker';
 @Component({
     changeDetection: ChangeDetectionStrategy.Eager,

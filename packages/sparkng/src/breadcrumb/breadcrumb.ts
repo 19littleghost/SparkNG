@@ -1,13 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, ContentChild, ContentChildren, EventEmitter, inject, InjectionToken, Input, NgModule, Output, QueryList, TemplateRef, ViewEncapsulation } from '@angular/core';
 import { Router, RouterLink, RouterLinkActive, RouterModule } from '@angular/router';
-import { MenuItem, PrimeTemplate, SharedModule, TranslationKeys } from '@openng/sparkng/api';
-import { Badge } from '@openng/sparkng/badge';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { ChevronRightIcon, HomeIcon } from '@openng/sparkng/icons';
-import { TooltipModule } from '@openng/sparkng/tooltip';
-import { BreadcrumbItemClickEvent, BreadcrumbItemTemplateContext, BreadcrumbPassThrough } from '@openng/sparkng/types/breadcrumb';
+import { MenuItem, PrimeTemplate, SharedModule, TranslationKeys } from '@bdspark/sparkng/api';
+import { Badge } from '@bdspark/sparkng/badge';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { ChevronRightIcon, HomeIcon } from '@bdspark/sparkng/icons';
+import { TooltipModule } from '@bdspark/sparkng/tooltip';
+import { BreadcrumbItemClickEvent, BreadcrumbItemTemplateContext, BreadcrumbPassThrough } from '@bdspark/sparkng/types/breadcrumb';
 import { BreadCrumbStyle } from './style/breadcrumbstyle';
 
 const BREADCRUMB_INSTANCE = new InjectionToken<Breadcrumb>('BREADCRUMB_INSTANCE');

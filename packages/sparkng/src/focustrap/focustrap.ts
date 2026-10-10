@@ -1,7 +1,7 @@
 import { DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { booleanAttribute, Directive, inject, Input, NgModule, PLATFORM_ID, SimpleChanges } from '@angular/core';
-import { createElement, focus, getFirstFocusableElement, getLastFocusableElement } from '@openng/sparkng-utils';
-import { BaseComponent } from '@openng/sparkng/basecomponent';
+import { createElement, focus, getFirstFocusableElement, getLastFocusableElement } from '@bdspark/sparkng-utils';
+import { BaseComponent } from '@bdspark/sparkng/basecomponent';
 
 /**
  * Focus Trap keeps focus within a certain DOM element while tabbing.

@@ -28,7 +28,7 @@ import {
     ViewRef
 } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { MotionEvent, MotionOptions } from '@openng/sparkng-motion';
+import { MotionEvent, MotionOptions } from '@bdspark/sparkng-motion';
 import {
     appendChild,
     calculateScrollbarWidth,
@@ -47,18 +47,18 @@ import {
     isPrintableCharacter,
     resolve,
     uuid
-} from '@openng/sparkng-utils';
-import { MenuItem, OverlayService, PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BadgeModule } from '@openng/sparkng/badge';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BindModule } from '@openng/sparkng/bind';
-import { AngleRightIcon } from '@openng/sparkng/icons';
-import { MotionModule } from '@openng/sparkng/motion';
-import { Ripple } from '@openng/sparkng/ripple';
-import { TooltipModule } from '@openng/sparkng/tooltip';
-import { VoidListener } from '@openng/sparkng/ts-helpers';
-import { ContextMenuItemTemplateContext, ContextMenuPassThrough, ContextMenuSubmenuIconTemplateContext } from '@openng/sparkng/types/contextmenu';
-import { ZIndexUtils } from '@openng/sparkng/utils';
+} from '@bdspark/sparkng-utils';
+import { MenuItem, OverlayService, PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BadgeModule } from '@bdspark/sparkng/badge';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BindModule } from '@bdspark/sparkng/bind';
+import { AngleRightIcon } from '@bdspark/sparkng/icons';
+import { MotionModule } from '@bdspark/sparkng/motion';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { TooltipModule } from '@bdspark/sparkng/tooltip';
+import { VoidListener } from '@bdspark/sparkng/ts-helpers';
+import { ContextMenuItemTemplateContext, ContextMenuPassThrough, ContextMenuSubmenuIconTemplateContext } from '@bdspark/sparkng/types/contextmenu';
+import { ZIndexUtils } from '@bdspark/sparkng/utils';
 import { ContextMenuStyle } from './style/contextmenustyle';
 
 const CONTEXTMENU_INSTANCE = new InjectionToken<ContextMenu>('CONTEXTMENU_INSTANCE');

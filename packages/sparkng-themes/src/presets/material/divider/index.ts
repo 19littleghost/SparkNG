@@ -1,4 +1,4 @@
-import type { DividerDesignTokens, DividerTokenSections } from '@openng/sparkng-themes/types/divider';
+import type { DividerDesignTokens, DividerTokenSections } from '@bdspark/sparkng-themes/types/divider';
 
 export const root: DividerTokenSections.Root = {
     borderColor: '{content.border.color}'

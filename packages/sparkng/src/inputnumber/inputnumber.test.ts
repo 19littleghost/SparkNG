@@ -4,8 +4,8 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 
-import { provideOptimus } from '@openng/sparkng/config';
-import type { InputNumberInputEvent } from '@openng/sparkng/types/inputnumber';
+import { provideOptimus } from '@bdspark/sparkng/config';
+import type { InputNumberInputEvent } from '@bdspark/sparkng/types/inputnumber';
 import { InputNumber, InputNumberModule } from './inputnumber';
 
 // Test Components

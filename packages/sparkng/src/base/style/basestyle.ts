@@ -1,8 +1,8 @@
 import { inject, Injectable } from '@angular/core';
-import { css as Css, dt, Theme } from '@openng/sparkng-styled';
-import { style as base_style } from '@openng/sparkng-styles/base';
-import { minifyCSS, resolve } from '@openng/sparkng-utils';
-import { UseStyle } from '@openng/sparkng/usestyle';
+import { css as Css, dt, Theme } from '@bdspark/sparkng-styled';
+import { style as base_style } from '@bdspark/sparkng-styles/base';
+import { minifyCSS, resolve } from '@bdspark/sparkng-utils';
+import { UseStyle } from '@bdspark/sparkng/usestyle';
 
 const css = /*css*/ `
 .p-hidden-accessible {

@@ -1,6 +1,6 @@
-import type { ConfirmDialogTokenSections } from '@openng/sparkng-themes/types/confirmdialog';
+import type { ConfirmDialogTokenSections } from '@bdspark/sparkng-themes/types/confirmdialog';
 
-export * from '@openng/sparkng-themes/types/confirmdialog';
+export * from '@bdspark/sparkng-themes/types/confirmdialog';
 
 declare const icon: ConfirmDialogTokenSections.Icon;
 declare const content: ConfirmDialogTokenSections.Content;

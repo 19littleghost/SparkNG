@@ -1,4 +1,4 @@
-import type { FloatLabelDesignTokens, FloatLabelTokenSections } from '@openng/sparkng-themes/types/floatlabel';
+import type { FloatLabelDesignTokens, FloatLabelTokenSections } from '@bdspark/sparkng-themes/types/floatlabel';
 
 export const root: FloatLabelTokenSections.Root = {
     color: '{form.field.float.label.color}',

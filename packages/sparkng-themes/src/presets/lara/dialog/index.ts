@@ -1,4 +1,4 @@
-import type { DialogDesignTokens, DialogTokenSections } from '@openng/sparkng-themes/types/dialog';
+import type { DialogDesignTokens, DialogTokenSections } from '@bdspark/sparkng-themes/types/dialog';
 
 export const root: DialogTokenSections.Root = {
     background: '{overlay.modal.background}',

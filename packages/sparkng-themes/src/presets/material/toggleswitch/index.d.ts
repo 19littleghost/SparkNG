@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@openng/sparkng-styled';
-import type { ToggleSwitchTokenSections } from '@openng/sparkng-themes/types/toggleswitch';
+import type { StyleOptions } from '@bdspark/sparkng-styled';
+import type { ToggleSwitchTokenSections } from '@bdspark/sparkng-themes/types/toggleswitch';
 
-export * from '@openng/sparkng-themes/types/toggleswitch';
+export * from '@bdspark/sparkng-themes/types/toggleswitch';
 
 declare const root: ToggleSwitchTokenSections.Root;
 declare const handle: ToggleSwitchTokenSections.Handle;

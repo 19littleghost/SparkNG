@@ -1,11 +1,11 @@
 import { TemplateRef } from '@angular/core';
-import type { PassThrough, PassThroughOption } from '@openng/sparkng/api';
-import { ScrollerOptions, TreeNode } from '@openng/sparkng/api';
-import type { CheckboxPassThrough } from '@openng/sparkng/types/checkbox';
-import type { IconFieldPassThrough } from '@openng/sparkng/types/iconfield';
-import type { InputIconPassThrough } from '@openng/sparkng/types/inputicon';
-import type { InputTextPassThrough } from '@openng/sparkng/types/inputtext';
-import type { VirtualScrollerPassThrough } from '@openng/sparkng/types/scroller';
+import type { PassThrough, PassThroughOption } from '@bdspark/sparkng/api';
+import { ScrollerOptions, TreeNode } from '@bdspark/sparkng/api';
+import type { CheckboxPassThrough } from '@bdspark/sparkng/types/checkbox';
+import type { IconFieldPassThrough } from '@bdspark/sparkng/types/iconfield';
+import type { InputIconPassThrough } from '@bdspark/sparkng/types/inputicon';
+import type { InputTextPassThrough } from '@bdspark/sparkng/types/inputtext';
+import type { VirtualScrollerPassThrough } from '@bdspark/sparkng/types/scroller';
 
 /**
  * Custom pass-through(pt) options.

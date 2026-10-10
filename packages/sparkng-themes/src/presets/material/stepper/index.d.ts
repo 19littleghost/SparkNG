@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@openng/sparkng-styled';
-import type { StepperTokenSections } from '@openng/sparkng-themes/types/stepper';
+import type { StyleOptions } from '@bdspark/sparkng-styled';
+import type { StepperTokenSections } from '@bdspark/sparkng-themes/types/stepper';
 
-export * from '@openng/sparkng-themes/types/stepper';
+export * from '@bdspark/sparkng-themes/types/stepper';
 
 declare const root: StepperTokenSections.Root;
 declare const separator: StepperTokenSections.Separator;

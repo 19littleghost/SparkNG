@@ -1,11 +1,11 @@
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { ChangeDetectionStrategy, Component, ContentChild, ContentChildren, ElementRef, inject, InjectionToken, Input, NgModule, NgZone, numberAttribute, QueryList, TemplateRef, ViewChild, ViewEncapsulation } from '@angular/core';
-import { addClass, getHeight, removeClass, uuid } from '@openng/sparkng-utils';
-import { PrimeTemplate, SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { Nullable } from '@openng/sparkng/ts-helpers';
-import { ScrollPanelPassThrough } from '@openng/sparkng/types/scrollpanel';
+import { addClass, getHeight, removeClass, uuid } from '@bdspark/sparkng-utils';
+import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { Nullable } from '@bdspark/sparkng/ts-helpers';
+import { ScrollPanelPassThrough } from '@bdspark/sparkng/types/scrollpanel';
 import { ScrollPanelStyle } from './style/scrollpanelstyle';
 
 const SCROLLPANEL_INSTANCE = new InjectionToken<ScrollPanel>('SCROLLPANEL_INSTANCE');

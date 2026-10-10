@@ -220,7 +220,7 @@ export declare namespace TextareaTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface TextareaDesignTokens extends DesignTokens<TextareaDesignTokens> {

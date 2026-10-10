@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/terminal';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/terminal';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: () => ['p-terminal p-component'],
@@ -27,7 +27,7 @@ export class TerminalStyle extends BaseStyle {
  *
  * Terminal is a text based user interface.
  *
- * [Live Demo](https://optimus.openng.org/terminal)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/terminal)
  *
  * @module terminalstyle
  *

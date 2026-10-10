@@ -1,6 +1,6 @@
-import type { RippleTokenSections } from '@openng/sparkng-themes/types/ripple';
+import type { RippleTokenSections } from '@bdspark/sparkng-themes/types/ripple';
 
-export * from '@openng/sparkng-themes/types/ripple';
+export * from '@bdspark/sparkng-themes/types/ripple';
 
 declare const colorScheme: RippleTokenSections.ColorScheme;
 declare const css: RippleTokenSections.CSS;

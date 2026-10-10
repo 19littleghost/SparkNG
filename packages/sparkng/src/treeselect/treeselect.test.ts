@@ -2,9 +2,9 @@ import { ChangeDetectionStrategy, Component, provideZonelessChangeDetection, sig
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { By } from '@angular/platform-browser';
-import { SharedModule, TreeNode } from '@openng/sparkng/api';
-import { provideOptimus } from '@openng/sparkng/config';
-import { TreeSelectNodeCollapseEvent, TreeSelectNodeExpandEvent } from '@openng/sparkng/types/treeselect';
+import { SharedModule, TreeNode } from '@bdspark/sparkng/api';
+import { provideOptimus } from '@bdspark/sparkng/config';
+import { TreeSelectNodeCollapseEvent, TreeSelectNodeExpandEvent } from '@bdspark/sparkng/types/treeselect';
 import { BehaviorSubject } from 'rxjs';
 import { TreeSelect, TreeSelectModule } from './treeselect';
 

@@ -26,18 +26,18 @@ import {
     viewChild,
     ViewEncapsulation
 } from '@angular/core';
-import { MotionEvent, MotionOptions } from '@openng/sparkng-motion';
-import { absolutePosition, addClass, appendChild, findSingle, focus, getOffset, isIOS, isTouchDevice } from '@openng/sparkng-utils';
-import { Confirmation, ConfirmationService, OverlayService, PrimeTemplate, SharedModule, TranslationKeys } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { ButtonModule } from '@openng/sparkng/button';
-import { ConnectedOverlayScrollHandler } from '@openng/sparkng/dom';
-import { FocusTrap } from '@openng/sparkng/focustrap';
-import { MotionModule } from '@openng/sparkng/motion';
-import { Nullable, VoidListener } from '@openng/sparkng/ts-helpers';
-import { ConfirmPopupContentTemplateContext, ConfirmPopupHeadlessTemplateContext, ConfirmPopupPassThrough } from '@openng/sparkng/types/confirmpopup';
-import { ZIndexUtils } from '@openng/sparkng/utils';
+import { MotionEvent, MotionOptions } from '@bdspark/sparkng-motion';
+import { absolutePosition, addClass, appendChild, findSingle, focus, getOffset, isIOS, isTouchDevice } from '@bdspark/sparkng-utils';
+import { Confirmation, ConfirmationService, OverlayService, PrimeTemplate, SharedModule, TranslationKeys } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { ButtonModule } from '@bdspark/sparkng/button';
+import { ConnectedOverlayScrollHandler } from '@bdspark/sparkng/dom';
+import { FocusTrap } from '@bdspark/sparkng/focustrap';
+import { MotionModule } from '@bdspark/sparkng/motion';
+import { Nullable, VoidListener } from '@bdspark/sparkng/ts-helpers';
+import { ConfirmPopupContentTemplateContext, ConfirmPopupHeadlessTemplateContext, ConfirmPopupPassThrough } from '@bdspark/sparkng/types/confirmpopup';
+import { ZIndexUtils } from '@bdspark/sparkng/utils';
 import { Subscription } from 'rxjs';
 import { ConfirmPopupStyle } from './style/confirmpopupstyle';
 

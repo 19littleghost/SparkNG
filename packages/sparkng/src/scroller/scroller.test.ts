@@ -2,8 +2,8 @@ import { ChangeDetectionStrategy, Component, DebugElement, input, provideZoneles
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
-import { provideOptimus } from '@openng/sparkng/config';
-import type { ScrollerLazyLoadEvent, ScrollerScrollEvent, ScrollerScrollIndexChangeEvent } from '@openng/sparkng/types/scroller';
+import { provideOptimus } from '@bdspark/sparkng/config';
+import type { ScrollerLazyLoadEvent, ScrollerScrollEvent, ScrollerScrollIndexChangeEvent } from '@bdspark/sparkng/types/scroller';
 import { BehaviorSubject, Observable, of } from 'rxjs';
 import { Scroller } from './scroller';
 @Component({

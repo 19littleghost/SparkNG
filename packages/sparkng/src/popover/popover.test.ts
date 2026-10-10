@@ -4,7 +4,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import type { Mock } from 'vitest';
 
-import { OverlayService, PrimeTemplate } from '@openng/sparkng/api';
+import { OverlayService, PrimeTemplate } from '@bdspark/sparkng/api';
 import { Popover } from './popover';
 
 // function createMockAnimationEvent(toState: string, fromState: string = 'void'): AnimationEvent {

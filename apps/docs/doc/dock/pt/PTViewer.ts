@@ -24,19 +24,19 @@ export class PTViewer {
     items = [
         {
             label: 'Finder',
-            icon: 'https://optimus.openng.org/demo/dock/finder.svg'
+            icon: 'https://TODO-BDSPARK-DOMAIN/demo/dock/finder.svg'
         },
         {
             label: 'App Store',
-            icon: 'https://optimus.openng.org/demo/dock/appstore.svg'
+            icon: 'https://TODO-BDSPARK-DOMAIN/demo/dock/appstore.svg'
         },
         {
             label: 'Photos',
-            icon: 'https://optimus.openng.org/demo/dock/photos.svg'
+            icon: 'https://TODO-BDSPARK-DOMAIN/demo/dock/photos.svg'
         },
         {
             label: 'Trash',
-            icon: 'https://optimus.openng.org/demo/dock/trash.png'
+            icon: 'https://TODO-BDSPARK-DOMAIN/demo/dock/trash.png'
         }
     ];
 

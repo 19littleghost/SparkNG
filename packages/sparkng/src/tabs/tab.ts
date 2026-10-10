@@ -1,11 +1,11 @@
 import { isPlatformBrowser } from '@angular/common';
 import { booleanAttribute, ChangeDetectionStrategy, Component, computed, ElementRef, forwardRef, HostListener, inject, InjectionToken, input, model, ViewEncapsulation } from '@angular/core';
-import { equals, focus, getAttribute } from '@openng/sparkng-utils';
-import { SharedModule } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind, BindModule } from '@openng/sparkng/bind';
-import { Ripple } from '@openng/sparkng/ripple';
-import { TabPassThrough } from '@openng/sparkng/types/tabs';
+import { equals, focus, getAttribute } from '@bdspark/sparkng-utils';
+import { SharedModule } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind, BindModule } from '@bdspark/sparkng/bind';
+import { Ripple } from '@bdspark/sparkng/ripple';
+import { TabPassThrough } from '@bdspark/sparkng/types/tabs';
 import { TabStyle } from './style/tabstyle';
 import { TabList } from './tablist';
 import { Tabs } from './tabs';

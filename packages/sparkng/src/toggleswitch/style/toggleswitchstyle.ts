@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as toggleswitch_style } from '@openng/sparkng-styles/toggleswitch';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as toggleswitch_style } from '@bdspark/sparkng-styles/toggleswitch';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${toggleswitch_style}
@@ -45,7 +45,7 @@ export class ToggleSwitchStyle extends BaseStyle {
  *
  * ToggleSwitch is used to select a boolean value.
  *
- * [Live Demo](https://optimus.openng.org/toggleswitch/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/toggleswitch/)
  *
  * @module toggleswitchstyle
  *

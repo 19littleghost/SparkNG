@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BaseStyle } from '@openng/sparkng/base';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: 'p-avatar-group p-component'
@@ -16,7 +16,7 @@ export class AvatarGroupStyle extends BaseStyle {
  *
  * A set of Avatars can be displayed together using the AvatarGroup component.
  *
- * [Live Demo](https://optimus.openng.org/avatar/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/avatar/)
  *
  * @module avatargroupstyle
  *

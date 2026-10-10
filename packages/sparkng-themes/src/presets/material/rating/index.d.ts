@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@openng/sparkng-styled';
-import type { RatingTokenSections } from '@openng/sparkng-themes/types/rating';
+import type { StyleOptions } from '@bdspark/sparkng-styled';
+import type { RatingTokenSections } from '@bdspark/sparkng-themes/types/rating';
 
-export * from '@openng/sparkng-themes/types/rating';
+export * from '@bdspark/sparkng-themes/types/rating';
 
 declare const root: RatingTokenSections.Root;
 declare const icon: RatingTokenSections.Icon;

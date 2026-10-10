@@ -46,7 +46,7 @@ export declare namespace PickListTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface PickListDesignTokens extends DesignTokens<PickListDesignTokens> {

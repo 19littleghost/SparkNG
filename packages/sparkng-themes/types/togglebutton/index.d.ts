@@ -278,7 +278,7 @@ export declare namespace ToggleButtonTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface ToggleButtonDesignTokens extends DesignTokens<ToggleButtonDesignTokens> {

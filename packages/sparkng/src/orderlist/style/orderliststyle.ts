@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/orderlist';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/orderlist';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const theme = /*css*/ `
     ${style}
@@ -29,7 +29,7 @@ export class OrderListStyle extends BaseStyle {
  *
  * OrderList is used to maneged the order of a collection.
  *
- * [Live Demo](https://optimus.openng.org/orderlist)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/orderlist)
  *
  * @module orderliststyle
  *

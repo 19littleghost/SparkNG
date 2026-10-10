@@ -1,3 +1,3 @@
-export * from '@openng/sparkng/types/speeddial';
+export * from '@bdspark/sparkng/types/speeddial';
 export * from './speeddial';
 export * from './style/speeddialstyle';

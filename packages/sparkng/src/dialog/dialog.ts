@@ -26,19 +26,19 @@ import {
     ViewEncapsulation,
     ViewRef
 } from '@angular/core';
-import { MotionEvent, MotionOptions } from '@openng/sparkng-motion';
-import { addStyle, appendChild, getOuterHeight, getOuterWidth, getViewport, hasClass, removeClass, setAttribute, uuid } from '@openng/sparkng-utils';
-import { OverlayService, PrimeTemplate, SharedModule, TranslationKeys } from '@openng/sparkng/api';
-import { BaseComponent, PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { Bind } from '@openng/sparkng/bind';
-import { Button, ButtonProps } from '@openng/sparkng/button';
-import { blockBodyScroll, DomHandler, unblockBodyScroll } from '@openng/sparkng/dom';
-import { FocusTrap } from '@openng/sparkng/focustrap';
-import { TimesIcon, WindowMaximizeIcon, WindowMinimizeIcon } from '@openng/sparkng/icons';
-import { MotionModule } from '@openng/sparkng/motion';
-import { Nullable, VoidListener } from '@openng/sparkng/ts-helpers';
-import { DialogPassThrough } from '@openng/sparkng/types/dialog';
-import { ZIndexUtils } from '@openng/sparkng/utils';
+import { MotionEvent, MotionOptions } from '@bdspark/sparkng-motion';
+import { addStyle, appendChild, getOuterHeight, getOuterWidth, getViewport, hasClass, removeClass, setAttribute, uuid } from '@bdspark/sparkng-utils';
+import { OverlayService, PrimeTemplate, SharedModule, TranslationKeys } from '@bdspark/sparkng/api';
+import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { Bind } from '@bdspark/sparkng/bind';
+import { Button, ButtonProps } from '@bdspark/sparkng/button';
+import { blockBodyScroll, DomHandler, unblockBodyScroll } from '@bdspark/sparkng/dom';
+import { FocusTrap } from '@bdspark/sparkng/focustrap';
+import { TimesIcon, WindowMaximizeIcon, WindowMinimizeIcon } from '@bdspark/sparkng/icons';
+import { MotionModule } from '@bdspark/sparkng/motion';
+import { Nullable, VoidListener } from '@bdspark/sparkng/ts-helpers';
+import { DialogPassThrough } from '@bdspark/sparkng/types/dialog';
+import { ZIndexUtils } from '@bdspark/sparkng/utils';
 import { DialogStyle } from './style/dialogstyle';
 
 const DIALOG_INSTANCE = new InjectionToken<Dialog>('DIALOG_INSTANCE');

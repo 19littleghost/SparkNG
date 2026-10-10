@@ -1,18 +1,18 @@
 import { AfterViewChecked, booleanAttribute, ChangeDetectionStrategy, Component, computed, ElementRef, EventEmitter, forwardRef, inject, InjectionToken, input, Input, NgModule, Output, TemplateRef, ViewChild, ViewEncapsulation } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { MotionOptions } from '@openng/sparkng-motion';
-import { OverlayOptions, OverlayService, SharedModule, TranslationKeys } from '@openng/sparkng/api';
-import { AutoFocusModule } from '@openng/sparkng/autofocus';
-import { PARENT_INSTANCE } from '@openng/sparkng/basecomponent';
-import { BaseEditableHolder } from '@openng/sparkng/baseeditableholder';
-import { Bind } from '@openng/sparkng/bind';
-import { ConnectedOverlayScrollHandler } from '@openng/sparkng/dom';
-import { MotionModule } from '@openng/sparkng/motion';
-import { OverlayModule } from '@openng/sparkng/overlay';
-import { Nullable, VoidListener } from '@openng/sparkng/ts-helpers';
-import type { ColorPickerChangeEvent } from '@openng/sparkng/types/colorpicker';
-import { ColorPickerPassThrough } from '@openng/sparkng/types/colorpicker';
-import { ZIndexUtils } from '@openng/sparkng/utils';
+import { MotionOptions } from '@bdspark/sparkng-motion';
+import { OverlayOptions, OverlayService, SharedModule, TranslationKeys } from '@bdspark/sparkng/api';
+import { AutoFocusModule } from '@bdspark/sparkng/autofocus';
+import { PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
+import { BaseEditableHolder } from '@bdspark/sparkng/baseeditableholder';
+import { Bind } from '@bdspark/sparkng/bind';
+import { ConnectedOverlayScrollHandler } from '@bdspark/sparkng/dom';
+import { MotionModule } from '@bdspark/sparkng/motion';
+import { OverlayModule } from '@bdspark/sparkng/overlay';
+import { Nullable, VoidListener } from '@bdspark/sparkng/ts-helpers';
+import type { ColorPickerChangeEvent } from '@bdspark/sparkng/types/colorpicker';
+import { ColorPickerPassThrough } from '@bdspark/sparkng/types/colorpicker';
+import { ZIndexUtils } from '@bdspark/sparkng/utils';
 import { ColorPickerStyle } from './style/colorpickerstyle';
 
 export const COLORPICKER_VALUE_ACCESSOR: any = {

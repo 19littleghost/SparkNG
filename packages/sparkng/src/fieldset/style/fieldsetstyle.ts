@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/fieldset';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/fieldset';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => [
@@ -32,7 +32,7 @@ export class FieldsetStyle extends BaseStyle {
  *
  * Fieldset is a grouping component with the optional content toggle feature.
  *
- * [Live Demo](https://optimus.openng.org/fieldset/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/fieldset/)
  *
  * @module fieldsetstyle
  *

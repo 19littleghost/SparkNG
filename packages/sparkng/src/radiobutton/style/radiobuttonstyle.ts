@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style as radiobutton_style } from '@openng/sparkng-styles/radiobutton';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style as radiobutton_style } from '@bdspark/sparkng-styles/radiobutton';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${radiobutton_style}
@@ -43,7 +43,7 @@ export class RadioButtonStyle extends BaseStyle {
  *
  * RadioButton is an extension to standard radio button element with theming.
  *
- * [Live Demo](https://optimus.openng.org/radiobutton/)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/radiobutton/)
  *
  * @module radiobuttonstyle
  *

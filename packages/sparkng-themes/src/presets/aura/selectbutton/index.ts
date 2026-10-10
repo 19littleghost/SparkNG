@@ -1,4 +1,4 @@
-import type { SelectButtonDesignTokens, SelectButtonTokenSections } from '@openng/sparkng-themes/types/selectbutton';
+import type { SelectButtonDesignTokens, SelectButtonTokenSections } from '@bdspark/sparkng-themes/types/selectbutton';
 
 export const root: SelectButtonTokenSections.Root = {
     borderRadius: '{form.field.border.radius}'

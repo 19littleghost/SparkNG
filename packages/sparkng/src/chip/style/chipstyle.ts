@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/chip';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/chip';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const inlineStyles = {
     root: ({ instance }) => ({
@@ -36,7 +36,7 @@ export class ChipStyle extends BaseStyle {
  *
  * Chip represents people using icons, labels and images.
  *
- * [Live Demo](https://optimus.openng.org/chip)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/chip)
  *
  * @module chipstyle
  *

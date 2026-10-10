@@ -186,7 +186,7 @@ export declare namespace FileUploadTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://optimus.openng.org/theming/styled)
+ * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
  *
  */
 export interface FileUploadDesignTokens extends DesignTokens<FileUploadDesignTokens> {

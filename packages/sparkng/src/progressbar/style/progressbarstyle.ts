@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/progressbar';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/progressbar';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => [
@@ -27,7 +27,7 @@ export class ProgressBarStyle extends BaseStyle {
  *
  * ProgressBar is a process status indicator.
  *
- * [Live Demo](https://optimus.openng.org/progressbar)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/progressbar)
  *
  * @module progressbarstyle
  *

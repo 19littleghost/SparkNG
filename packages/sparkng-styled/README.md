@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://optimus.openng.org/large-icon.svg" alt="Optimus UI" width="140" />
+  <img src="https://TODO-BDSPARK-DOMAIN/large-icon.svg" alt="Optimus UI" width="140" />
 </div>
 
-# @openng/sparkng-styled
+# @bdspark/sparkng-styled
 
-Styled utilities and theme management system for [Optimus UI](https://github.com/openng-org/sparkng).
+Styled utilities and theme management system for [Optimus UI](https://github.com/TODO-BDSPARK-ORG/sparkng).
 
 This package provides the core engine for the design system in Optimus UI, offering powerful tools for theming, CSS-in-JS capabilities, and dynamic styling.
 
@@ -19,7 +19,7 @@ This package provides the core engine for the design system in Optimus UI, offer
 ## Installation
 
 ```bash
-npm install @openng/sparkng-styled
+npm install @bdspark/sparkng-styled
 ```
 
 ## Core Concepts
@@ -44,7 +44,7 @@ Utility functions to manage color scales:
 
 ## Usage in Optimus UI
 
-This package is automatically integrated into `@openng/sparkng`. If you are building custom components or themes that need to interact with the Optimus design system, this package provides the necessary low-level APIs.
+This package is automatically integrated into `@bdspark/sparkng`. If you are building custom components or themes that need to interact with the Optimus design system, this package provides the necessary low-level APIs.
 
 ## License
 

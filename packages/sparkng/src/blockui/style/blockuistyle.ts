@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { style } from '@openng/sparkng-styles/blockui';
-import { BaseStyle } from '@openng/sparkng/base';
+import { style } from '@bdspark/sparkng-styles/blockui';
+import { BaseStyle } from '@bdspark/sparkng/base';
 
 const classes = {
     root: ({ instance }) => [
@@ -24,7 +24,7 @@ export class BlockUiStyle extends BaseStyle {
  *
  * BlockUI represents people using icons, labels and images.
  *
- * [Live Demo](https://optimus.openng.org/blockui)
+ * [Live Demo](https://TODO-BDSPARK-DOMAIN/blockui)
  *
  * @module blockuistyle
  *

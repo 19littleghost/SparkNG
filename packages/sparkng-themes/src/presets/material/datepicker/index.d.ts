@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@openng/sparkng-styled';
-import type { DatePickerTokenSections } from '@openng/sparkng-themes/types/datepicker';
+import type { StyleOptions } from '@bdspark/sparkng-styled';
+import type { DatePickerTokenSections } from '@bdspark/sparkng-themes/types/datepicker';
 
-export * from '@openng/sparkng-themes/types/datepicker';
+export * from '@bdspark/sparkng-themes/types/datepicker';
 
 declare const root: DatePickerTokenSections.Root;
 declare const panel: DatePickerTokenSections.Panel;

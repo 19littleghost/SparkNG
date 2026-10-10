@@ -19,7 +19,7 @@ export default defineConfig([
         dts: false,
         target: false,
         deps: {
-            neverBundle: [/^@openng\/sparkng-(.*)$/]
+            neverBundle: [/^@bdspark\/sparkng-(.*)$/]
         },
         // oxc's mangler has no terser-style `reserved` list, so keep names intact
         minify: isProduction ? { compress: true, mangle: false, codegen: true } : false,
@@ -36,7 +36,7 @@ export default defineConfig([
         dts: true,
         target: false,
         deps: {
-            neverBundle: [/^@openng\/sparkng-(.*)$/]
+            neverBundle: [/^@bdspark\/sparkng-(.*)$/]
         },
         minify: isProduction,
         sourcemap: isProduction,

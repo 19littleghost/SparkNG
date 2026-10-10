@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
     imports: [AppCode, AppDocSectionText],
     template: `
         <app-docsectiontext>
-            <p>Optimus UI is a community-maintained Angular UI library, stewarded by OpenNG and dedicated to providing high-quality, versatile and accessible UI components that help developers build better applications faster.</p>
+            <p>Optimus UI is a community-maintained Angular UI library, stewarded by bdSpark and dedicated to providing high-quality, versatile and accessible UI components that help developers build better applications faster.</p>
             <h3>Development Setup</h3>
             <p>To begin with, clone the Optimus UI repository from GitHub:</p>
             <app-code [code]="code1" [hideToggleCode]="true" [hideStackBlitz]="true"></app-code>
@@ -23,7 +23,7 @@ import { Component } from '@angular/core';
 })
 export class IntroductionDoc {
     code1: Code = {
-        typescript: `git clone https://github.com/openng-org/sparkng.git
+        typescript: `git clone https://github.com/TODO-BDSPARK-ORG/sparkng.git
 cd sparkng`
     };
     code2: Code = {
