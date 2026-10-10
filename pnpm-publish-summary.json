@@ -1,12 +1,8542 @@
 {
 	"publishedPackages": [
 		{
-			"name": "@primeng/mcp",
-			"version": "21.1.9"
+			"id": "@bdspark/icons@1.0.0",
+			"name": "@bdspark/icons",
+			"version": "1.0.0",
+			"size": 339748,
+			"unpackedSize": 884293,
+			"shasum": "510457ef15a10f5352b58d749acca115a562e63f",
+			"integrity": "sha512-7UO3LHf57dHo6jViHix+08zE9915PpQpQcwvykt6tabmIcdpmtGbrTw9EUjuSlPJuc0oAAoySZZ3lY9ubTtyEg==",
+			"filename": "bdspark-icons-1.0.0.tgz",
+			"files": [
+				{
+					"path": "bdspark-icons.css"
+				},
+				{
+					"path": "CHANGELOG.md"
+				},
+				{
+					"path": "fonts/bdspark-icons.eot"
+				},
+				{
+					"path": "fonts/bdspark-icons.svg"
+				},
+				{
+					"path": "fonts/bdspark-icons.ttf"
+				},
+				{
+					"path": "fonts/bdspark-icons.woff"
+				},
+				{
+					"path": "fonts/bdspark-icons.woff2"
+				},
+				{
+					"path": "LICENSE"
+				},
+				{
+					"path": "package.json"
+				},
+				{
+					"path": "raw-svg/address-book.svg"
+				},
+				{
+					"path": "raw-svg/align-center.svg"
+				},
+				{
+					"path": "raw-svg/align-justify.svg"
+				},
+				{
+					"path": "raw-svg/align-left.svg"
+				},
+				{
+					"path": "raw-svg/align-right.svg"
+				},
+				{
+					"path": "raw-svg/android.svg"
+				},
+				{
+					"path": "raw-svg/angle-double-down.svg"
+				},
+				{
+					"path": "raw-svg/angle-double-left.svg"
+				},
+				{
+					"path": "raw-svg/angle-double-right.svg"
+				},
+				{
+					"path": "raw-svg/angle-double-up.svg"
+				},
+				{
+					"path": "raw-svg/angle-down.svg"
+				},
+				{
+					"path": "raw-svg/angle-left.svg"
+				},
+				{
+					"path": "raw-svg/angle-right.svg"
+				},
+				{
+					"path": "raw-svg/angle-up.svg"
+				},
+				{
+					"path": "raw-svg/apple.svg"
+				},
+				{
+					"path": "raw-svg/arrow-circle-down.svg"
+				},
+				{
+					"path": "raw-svg/arrow-circle-left.svg"
+				},
+				{
+					"path": "raw-svg/arrow-circle-right.svg"
+				},
+				{
+					"path": "raw-svg/arrow-circle-up.svg"
+				},
+				{
+					"path": "raw-svg/arrow-down-left-and-arrow-up-right-to-center.svg"
+				},
+				{
+					"path": "raw-svg/arrow-down-left.svg"
+				},
+				{
+					"path": "raw-svg/arrow-down-right.svg"
+				},
+				{
+					"path": "raw-svg/arrow-down.svg"
+				},
+				{
+					"path": "raw-svg/arrow-left.svg"
+				},
+				{
+					"path": "raw-svg/arrow-right-arrow-left.svg"
+				},
+				{
+					"path": "raw-svg/arrow-right.svg"
+				},
+				{
+					"path": "raw-svg/arrow-up-left.svg"
+				},
+				{
+					"path": "raw-svg/arrow-up-right-and-arrow-down-left-from-center.svg"
+				},
+				{
+					"path": "raw-svg/arrow-up-right.svg"
+				},
+				{
+					"path": "raw-svg/arrow-up.svg"
+				},
+				{
+					"path": "raw-svg/arrows-alt.svg"
+				},
+				{
+					"path": "raw-svg/arrows-h.svg"
+				},
+				{
+					"path": "raw-svg/arrows-v.svg"
+				},
+				{
+					"path": "raw-svg/asteriks.svg"
+				},
+				{
+					"path": "raw-svg/at.svg"
+				},
+				{
+					"path": "raw-svg/backward.svg"
+				},
+				{
+					"path": "raw-svg/ban.svg"
+				},
+				{
+					"path": "raw-svg/barcode.svg"
+				},
+				{
+					"path": "raw-svg/bars.svg"
+				},
+				{
+					"path": "raw-svg/bell-slash.svg"
+				},
+				{
+					"path": "raw-svg/bell.svg"
+				},
+				{
+					"path": "raw-svg/bitcoin.svg"
+				},
+				{
+					"path": "raw-svg/bolt.svg"
+				},
+				{
+					"path": "raw-svg/book.svg"
+				},
+				{
+					"path": "raw-svg/bookmark-fill.svg"
+				},
+				{
+					"path": "raw-svg/bookmark.svg"
+				},
+				{
+					"path": "raw-svg/box.svg"
+				},
+				{
+					"path": "raw-svg/briefcase.svg"
+				},
+				{
+					"path": "raw-svg/building-columns.svg"
+				},
+				{
+					"path": "raw-svg/building.svg"
+				},
+				{
+					"path": "raw-svg/bullseye.svg"
+				},
+				{
+					"path": "raw-svg/calculator.svg"
+				},
+				{
+					"path": "raw-svg/calendar-clock.svg"
+				},
+				{
+					"path": "raw-svg/calendar-minus.svg"
+				},
+				{
+					"path": "raw-svg/calendar-plus.svg"
+				},
+				{
+					"path": "raw-svg/calendar-times.svg"
+				},
+				{
+					"path": "raw-svg/calendar.svg"
+				},
+				{
+					"path": "raw-svg/camera.svg"
+				},
+				{
+					"path": "raw-svg/car.svg"
+				},
+				{
+					"path": "raw-svg/caret-down.svg"
+				},
+				{
+					"path": "raw-svg/caret-left.svg"
+				},
+				{
+					"path": "raw-svg/caret-right.svg"
+				},
+				{
+					"path": "raw-svg/caret-up.svg"
+				},
+				{
+					"path": "raw-svg/cart-arrow-down.svg"
+				},
+				{
+					"path": "raw-svg/cart-minus.svg"
+				},
+				{
+					"path": "raw-svg/cart-plus.svg"
+				},
+				{
+					"path": "raw-svg/chart-bar.svg"
+				},
+				{
+					"path": "raw-svg/chart-line.svg"
+				},
+				{
+					"path": "raw-svg/chart-pie.svg"
+				},
+				{
+					"path": "raw-svg/chart-scatter.svg"
+				},
+				{
+					"path": "raw-svg/check-circle.svg"
+				},
+				{
+					"path": "raw-svg/check-square.svg"
+				},
+				{
+					"path": "raw-svg/check.svg"
+				},
+				{
+					"path": "raw-svg/chevron-circle-down.svg"
+				},
+				{
+					"path": "raw-svg/chevron-circle-left.svg"
+				},
+				{
+					"path": "raw-svg/chevron-circle-right.svg"
+				},
+				{
+					"path": "raw-svg/chevron-circle-up.svg"
+				},
+				{
+					"path": "raw-svg/chevron-down.svg"
+				},
+				{
+					"path": "raw-svg/chevron-left.svg"
+				},
+				{
+					"path": "raw-svg/chevron-right.svg"
+				},
+				{
+					"path": "raw-svg/chevron-up.svg"
+				},
+				{
+					"path": "raw-svg/circle-fill.svg"
+				},
+				{
+					"path": "raw-svg/circle-off.svg"
+				},
+				{
+					"path": "raw-svg/circle-on.svg"
+				},
+				{
+					"path": "raw-svg/circle.svg"
+				},
+				{
+					"path": "raw-svg/clipboard.svg"
+				},
+				{
+					"path": "raw-svg/clock.svg"
+				},
+				{
+					"path": "raw-svg/clone.svg"
+				},
+				{
+					"path": "raw-svg/cloud-download.svg"
+				},
+				{
+					"path": "raw-svg/cloud-upload.svg"
+				},
+				{
+					"path": "raw-svg/cloud.svg"
+				},
+				{
+					"path": "raw-svg/code.svg"
+				},
+				{
+					"path": "raw-svg/cog.svg"
+				},
+				{
+					"path": "raw-svg/comment.svg"
+				},
+				{
+					"path": "raw-svg/comments.svg"
+				},
+				{
+					"path": "raw-svg/compass.svg"
+				},
+				{
+					"path": "raw-svg/copy.svg"
+				},
+				{
+					"path": "raw-svg/credit-card.svg"
+				},
+				{
+					"path": "raw-svg/crown.svg"
+				},
+				{
+					"path": "raw-svg/database.svg"
+				},
+				{
+					"path": "raw-svg/delete-left.svg"
+				},
+				{
+					"path": "raw-svg/desktop.svg"
+				},
+				{
+					"path": "raw-svg/directions-alt.svg"
+				},
+				{
+					"path": "raw-svg/directions.svg"
+				},
+				{
+					"path": "raw-svg/discord.svg"
+				},
+				{
+					"path": "raw-svg/dollar.svg"
+				},
+				{
+					"path": "raw-svg/download.svg"
+				},
+				{
+					"path": "raw-svg/eject.svg"
+				},
+				{
+					"path": "raw-svg/ellipsis-h.svg"
+				},
+				{
+					"path": "raw-svg/ellipsis-v.svg"
+				},
+				{
+					"path": "raw-svg/envelope.svg"
+				},
+				{
+					"path": "raw-svg/equals.svg"
+				},
+				{
+					"path": "raw-svg/eraser.svg"
+				},
+				{
+					"path": "raw-svg/ethereum.svg"
+				},
+				{
+					"path": "raw-svg/euro.svg"
+				},
+				{
+					"path": "raw-svg/exclamation-circle.svg"
+				},
+				{
+					"path": "raw-svg/exclamation-triangle.svg"
+				},
+				{
+					"path": "raw-svg/expand.svg"
+				},
+				{
+					"path": "raw-svg/external-link.svg"
+				},
+				{
+					"path": "raw-svg/eye-slash.svg"
+				},
+				{
+					"path": "raw-svg/eye.svg"
+				},
+				{
+					"path": "raw-svg/face-smile.svg"
+				},
+				{
+					"path": "raw-svg/facebook.svg"
+				},
+				{
+					"path": "raw-svg/fast-backward.svg"
+				},
+				{
+					"path": "raw-svg/fast-forward.svg"
+				},
+				{
+					"path": "raw-svg/file-arrow-up.svg"
+				},
+				{
+					"path": "raw-svg/file-check.svg"
+				},
+				{
+					"path": "raw-svg/file-edit.svg"
+				},
+				{
+					"path": "raw-svg/file-excel.svg"
+				},
+				{
+					"path": "raw-svg/file-export.svg"
+				},
+				{
+					"path": "raw-svg/file-import.svg"
+				},
+				{
+					"path": "raw-svg/file-o.svg"
+				},
+				{
+					"path": "raw-svg/file-pdf.svg"
+				},
+				{
+					"path": "raw-svg/file-plus.svg"
+				},
+				{
+					"path": "raw-svg/file-word.svg"
+				},
+				{
+					"path": "raw-svg/file.svg"
+				},
+				{
+					"path": "raw-svg/filter-fill.svg"
+				},
+				{
+					"path": "raw-svg/filter-slash.svg"
+				},
+				{
+					"path": "raw-svg/filter.svg"
+				},
+				{
+					"path": "raw-svg/flag-fill.svg"
+				},
+				{
+					"path": "raw-svg/flag.svg"
+				},
+				{
+					"path": "raw-svg/folder-open.svg"
+				},
+				{
+					"path": "raw-svg/folder-plus.svg"
+				},
+				{
+					"path": "raw-svg/folder.svg"
+				},
+				{
+					"path": "raw-svg/forward.svg"
+				},
+				{
+					"path": "raw-svg/gauge.svg"
+				},
+				{
+					"path": "raw-svg/gift.svg"
+				},
+				{
+					"path": "raw-svg/github.svg"
+				},
+				{
+					"path": "raw-svg/globe.svg"
+				},
+				{
+					"path": "raw-svg/google.svg"
+				},
+				{
+					"path": "raw-svg/graduation-cap.svg"
+				},
+				{
+					"path": "raw-svg/hammer.svg"
+				},
+				{
+					"path": "raw-svg/hashtag.svg"
+				},
+				{
+					"path": "raw-svg/headphones.svg"
+				},
+				{
+					"path": "raw-svg/heart-fill.svg"
+				},
+				{
+					"path": "raw-svg/heart.svg"
+				},
+				{
+					"path": "raw-svg/history.svg"
+				},
+				{
+					"path": "raw-svg/home.svg"
+				},
+				{
+					"path": "raw-svg/hourglass.svg"
+				},
+				{
+					"path": "raw-svg/id-card.svg"
+				},
+				{
+					"path": "raw-svg/image.svg"
+				},
+				{
+					"path": "raw-svg/images.svg"
+				},
+				{
+					"path": "raw-svg/inbox.svg"
+				},
+				{
+					"path": "raw-svg/indian-rupee.svg"
+				},
+				{
+					"path": "raw-svg/info-circle.svg"
+				},
+				{
+					"path": "raw-svg/info.svg"
+				},
+				{
+					"path": "raw-svg/instagram.svg"
+				},
+				{
+					"path": "raw-svg/key.svg"
+				},
+				{
+					"path": "raw-svg/language.svg"
+				},
+				{
+					"path": "raw-svg/lightbulb.svg"
+				},
+				{
+					"path": "raw-svg/link.svg"
+				},
+				{
+					"path": "raw-svg/linkedin.svg"
+				},
+				{
+					"path": "raw-svg/list-check.svg"
+				},
+				{
+					"path": "raw-svg/list.svg"
+				},
+				{
+					"path": "raw-svg/lock-open.svg"
+				},
+				{
+					"path": "raw-svg/lock.svg"
+				},
+				{
+					"path": "raw-svg/map-marker.svg"
+				},
+				{
+					"path": "raw-svg/map.svg"
+				},
+				{
+					"path": "raw-svg/mars.svg"
+				},
+				{
+					"path": "raw-svg/megaphone.svg"
+				},
+				{
+					"path": "raw-svg/microchip-ai.svg"
+				},
+				{
+					"path": "raw-svg/microchip.svg"
+				},
+				{
+					"path": "raw-svg/microphone.svg"
+				},
+				{
+					"path": "raw-svg/microsoft.svg"
+				},
+				{
+					"path": "raw-svg/minus-circle.svg"
+				},
+				{
+					"path": "raw-svg/minus.svg"
+				},
+				{
+					"path": "raw-svg/mobile.svg"
+				},
+				{
+					"path": "raw-svg/money-bill.svg"
+				},
+				{
+					"path": "raw-svg/moon.svg"
+				},
+				{
+					"path": "raw-svg/objects-column.svg"
+				},
+				{
+					"path": "raw-svg/palette.svg"
+				},
+				{
+					"path": "raw-svg/paperclip.svg"
+				},
+				{
+					"path": "raw-svg/pause-circle.svg"
+				},
+				{
+					"path": "raw-svg/pause.svg"
+				},
+				{
+					"path": "raw-svg/paypal.svg"
+				},
+				{
+					"path": "raw-svg/pen-to-square.svg"
+				},
+				{
+					"path": "raw-svg/pencil.svg"
+				},
+				{
+					"path": "raw-svg/percentage.svg"
+				},
+				{
+					"path": "raw-svg/phone.svg"
+				},
+				{
+					"path": "raw-svg/pinterest.svg"
+				},
+				{
+					"path": "raw-svg/play-circle.svg"
+				},
+				{
+					"path": "raw-svg/play.svg"
+				},
+				{
+					"path": "raw-svg/plus-circle.svg"
+				},
+				{
+					"path": "raw-svg/plus.svg"
+				},
+				{
+					"path": "raw-svg/pound.svg"
+				},
+				{
+					"path": "raw-svg/power-off.svg"
+				},
+				{
+					"path": "raw-svg/prime.svg"
+				},
+				{
+					"path": "raw-svg/print.svg"
+				},
+				{
+					"path": "raw-svg/qrcode.svg"
+				},
+				{
+					"path": "raw-svg/question-circle.svg"
+				},
+				{
+					"path": "raw-svg/question.svg"
+				},
+				{
+					"path": "raw-svg/receipt.svg"
+				},
+				{
+					"path": "raw-svg/reddit.svg"
+				},
+				{
+					"path": "raw-svg/refresh.svg"
+				},
+				{
+					"path": "raw-svg/replay.svg"
+				},
+				{
+					"path": "raw-svg/reply.svg"
+				},
+				{
+					"path": "raw-svg/save.svg"
+				},
+				{
+					"path": "raw-svg/search-minus.svg"
+				},
+				{
+					"path": "raw-svg/search-plus.svg"
+				},
+				{
+					"path": "raw-svg/search.svg"
+				},
+				{
+					"path": "raw-svg/send.svg"
+				},
+				{
+					"path": "raw-svg/server.svg"
+				},
+				{
+					"path": "raw-svg/share-alt.svg"
+				},
+				{
+					"path": "raw-svg/shield.svg"
+				},
+				{
+					"path": "raw-svg/shop.svg"
+				},
+				{
+					"path": "raw-svg/shopping-bag.svg"
+				},
+				{
+					"path": "raw-svg/shopping-cart.svg"
+				},
+				{
+					"path": "raw-svg/sign-in.svg"
+				},
+				{
+					"path": "raw-svg/sign-out.svg"
+				},
+				{
+					"path": "raw-svg/sitemap.svg"
+				},
+				{
+					"path": "raw-svg/slack.svg"
+				},
+				{
+					"path": "raw-svg/sliders-h.svg"
+				},
+				{
+					"path": "raw-svg/sliders-v.svg"
+				},
+				{
+					"path": "raw-svg/sort-alpha-alt-down.svg"
+				},
+				{
+					"path": "raw-svg/sort-alpha-alt-up.svg"
+				},
+				{
+					"path": "raw-svg/sort-alpha-down.svg"
+				},
+				{
+					"path": "raw-svg/sort-alpha-up.svg"
+				},
+				{
+					"path": "raw-svg/sort-alt-slash.svg"
+				},
+				{
+					"path": "raw-svg/sort-alt.svg"
+				},
+				{
+					"path": "raw-svg/sort-amount-down-alt.svg"
+				},
+				{
+					"path": "raw-svg/sort-amount-down.svg"
+				},
+				{
+					"path": "raw-svg/sort-amount-up-alt.svg"
+				},
+				{
+					"path": "raw-svg/sort-amount-up.svg"
+				},
+				{
+					"path": "raw-svg/sort-down-fill.svg"
+				},
+				{
+					"path": "raw-svg/sort-down.svg"
+				},
+				{
+					"path": "raw-svg/sort-numeric-alt-down.svg"
+				},
+				{
+					"path": "raw-svg/sort-numeric-alt-up.svg"
+				},
+				{
+					"path": "raw-svg/sort-numeric-down.svg"
+				},
+				{
+					"path": "raw-svg/sort-numeric-up.svg"
+				},
+				{
+					"path": "raw-svg/sort-up-fill.svg"
+				},
+				{
+					"path": "raw-svg/sort-up.svg"
+				},
+				{
+					"path": "raw-svg/sort.svg"
+				},
+				{
+					"path": "raw-svg/sparkles.svg"
+				},
+				{
+					"path": "raw-svg/spinner-dotted.svg"
+				},
+				{
+					"path": "raw-svg/spinner.svg"
+				},
+				{
+					"path": "raw-svg/star-fill.svg"
+				},
+				{
+					"path": "raw-svg/star-half-fill.svg"
+				},
+				{
+					"path": "raw-svg/star-half.svg"
+				},
+				{
+					"path": "raw-svg/star.svg"
+				},
+				{
+					"path": "raw-svg/step-backward-alt.svg"
+				},
+				{
+					"path": "raw-svg/step-backward.svg"
+				},
+				{
+					"path": "raw-svg/step-forward-alt.svg"
+				},
+				{
+					"path": "raw-svg/step-forward.svg"
+				},
+				{
+					"path": "raw-svg/stop-circle.svg"
+				},
+				{
+					"path": "raw-svg/stop.svg"
+				},
+				{
+					"path": "raw-svg/stopwatch.svg"
+				},
+				{
+					"path": "raw-svg/sun.svg"
+				},
+				{
+					"path": "raw-svg/sync.svg"
+				},
+				{
+					"path": "raw-svg/table.svg"
+				},
+				{
+					"path": "raw-svg/tablet.svg"
+				},
+				{
+					"path": "raw-svg/tag.svg"
+				},
+				{
+					"path": "raw-svg/tags.svg"
+				},
+				{
+					"path": "raw-svg/telegram.svg"
+				},
+				{
+					"path": "raw-svg/th-large.svg"
+				},
+				{
+					"path": "raw-svg/thumbs-down-fill.svg"
+				},
+				{
+					"path": "raw-svg/thumbs-down.svg"
+				},
+				{
+					"path": "raw-svg/thumbs-up-fill.svg"
+				},
+				{
+					"path": "raw-svg/thumbs-up.svg"
+				},
+				{
+					"path": "raw-svg/thumbtack.svg"
+				},
+				{
+					"path": "raw-svg/ticket.svg"
+				},
+				{
+					"path": "raw-svg/tiktok.svg"
+				},
+				{
+					"path": "raw-svg/times-circle.svg"
+				},
+				{
+					"path": "raw-svg/times.svg"
+				},
+				{
+					"path": "raw-svg/trash.svg"
+				},
+				{
+					"path": "raw-svg/trophy.svg"
+				},
+				{
+					"path": "raw-svg/truck.svg"
+				},
+				{
+					"path": "raw-svg/turkish-lira.svg"
+				},
+				{
+					"path": "raw-svg/twitch.svg"
+				},
+				{
+					"path": "raw-svg/twitter.svg"
+				},
+				{
+					"path": "raw-svg/undo.svg"
+				},
+				{
+					"path": "raw-svg/unlock.svg"
+				},
+				{
+					"path": "raw-svg/upload.svg"
+				},
+				{
+					"path": "raw-svg/user-edit.svg"
+				},
+				{
+					"path": "raw-svg/user-minus.svg"
+				},
+				{
+					"path": "raw-svg/user-plus.svg"
+				},
+				{
+					"path": "raw-svg/user.svg"
+				},
+				{
+					"path": "raw-svg/users.svg"
+				},
+				{
+					"path": "raw-svg/venus.svg"
+				},
+				{
+					"path": "raw-svg/verified.svg"
+				},
+				{
+					"path": "raw-svg/video.svg"
+				},
+				{
+					"path": "raw-svg/vimeo.svg"
+				},
+				{
+					"path": "raw-svg/volume-down.svg"
+				},
+				{
+					"path": "raw-svg/volume-off.svg"
+				},
+				{
+					"path": "raw-svg/volume-up.svg"
+				},
+				{
+					"path": "raw-svg/wallet.svg"
+				},
+				{
+					"path": "raw-svg/warehouse.svg"
+				},
+				{
+					"path": "raw-svg/wave-pulse.svg"
+				},
+				{
+					"path": "raw-svg/whatsapp.svg"
+				},
+				{
+					"path": "raw-svg/wifi.svg"
+				},
+				{
+					"path": "raw-svg/window-maximize.svg"
+				},
+				{
+					"path": "raw-svg/window-minimize.svg"
+				},
+				{
+					"path": "raw-svg/wrench.svg"
+				},
+				{
+					"path": "raw-svg/youtube.svg"
+				},
+				{
+					"path": "README.md"
+				}
+			],
+			"entryCount": 323,
+			"bundled": []
 		},
 		{
-			"name": "primeng",
-			"version": "21.1.9"
+			"id": "@bdspark/sparkng-locale@2.0.2",
+			"name": "@bdspark/sparkng-locale",
+			"version": "2.0.2",
+			"size": 180324,
+			"unpackedSize": 1158357,
+			"shasum": "ff2d63c436337fe66611e0f0d16be62c748df272",
+			"integrity": "sha512-xmBlTdyio/JUwpzwpLXHrYj0M27khB4gqANKsvqDd5hMeuVtFZPZ0hXprpbGG9wiqKkt6oCY4aYFUE+eocdwjw==",
+			"filename": "bdspark-sparkng-locale-2.0.2.tgz",
+			"files": [
+				{
+					"path": "ar-TN.json"
+				},
+				{
+					"path": "ar.json"
+				},
+				{
+					"path": "bg.json"
+				},
+				{
+					"path": "bn.json"
+				},
+				{
+					"path": "bs.json"
+				},
+				{
+					"path": "ca.json"
+				},
+				{
+					"path": "cjs/all.d.ts"
+				},
+				{
+					"path": "cjs/all.js"
+				},
+				{
+					"path": "cjs/ar_TN.d.ts"
+				},
+				{
+					"path": "cjs/ar_TN.js"
+				},
+				{
+					"path": "cjs/ar.d.ts"
+				},
+				{
+					"path": "cjs/ar.js"
+				},
+				{
+					"path": "cjs/bg.d.ts"
+				},
+				{
+					"path": "cjs/bg.js"
+				},
+				{
+					"path": "cjs/bn.d.ts"
+				},
+				{
+					"path": "cjs/bn.js"
+				},
+				{
+					"path": "cjs/bs.d.ts"
+				},
+				{
+					"path": "cjs/bs.js"
+				},
+				{
+					"path": "cjs/ca.d.ts"
+				},
+				{
+					"path": "cjs/ca.js"
+				},
+				{
+					"path": "cjs/ckb.d.ts"
+				},
+				{
+					"path": "cjs/ckb.js"
+				},
+				{
+					"path": "cjs/cs.d.ts"
+				},
+				{
+					"path": "cjs/cs.js"
+				},
+				{
+					"path": "cjs/da.d.ts"
+				},
+				{
+					"path": "cjs/da.js"
+				},
+				{
+					"path": "cjs/de_AT.d.ts"
+				},
+				{
+					"path": "cjs/de_AT.js"
+				},
+				{
+					"path": "cjs/de_CH.d.ts"
+				},
+				{
+					"path": "cjs/de_CH.js"
+				},
+				{
+					"path": "cjs/de.d.ts"
+				},
+				{
+					"path": "cjs/de.js"
+				},
+				{
+					"path": "cjs/el.d.ts"
+				},
+				{
+					"path": "cjs/el.js"
+				},
+				{
+					"path": "cjs/en_AU.d.ts"
+				},
+				{
+					"path": "cjs/en_AU.js"
+				},
+				{
+					"path": "cjs/en_CA.d.ts"
+				},
+				{
+					"path": "cjs/en_CA.js"
+				},
+				{
+					"path": "cjs/en_GB.d.ts"
+				},
+				{
+					"path": "cjs/en_GB.js"
+				},
+				{
+					"path": "cjs/en.d.ts"
+				},
+				{
+					"path": "cjs/en.js"
+				},
+				{
+					"path": "cjs/es.d.ts"
+				},
+				{
+					"path": "cjs/es.js"
+				},
+				{
+					"path": "cjs/et.d.ts"
+				},
+				{
+					"path": "cjs/et.js"
+				},
+				{
+					"path": "cjs/fa.d.ts"
+				},
+				{
+					"path": "cjs/fa.js"
+				},
+				{
+					"path": "cjs/fi.d.ts"
+				},
+				{
+					"path": "cjs/fi.js"
+				},
+				{
+					"path": "cjs/fr.d.ts"
+				},
+				{
+					"path": "cjs/fr.js"
+				},
+				{
+					"path": "cjs/gl.d.ts"
+				},
+				{
+					"path": "cjs/gl.js"
+				},
+				{
+					"path": "cjs/he.d.ts"
+				},
+				{
+					"path": "cjs/he.js"
+				},
+				{
+					"path": "cjs/hi.d.ts"
+				},
+				{
+					"path": "cjs/hi.js"
+				},
+				{
+					"path": "cjs/hr.d.ts"
+				},
+				{
+					"path": "cjs/hr.js"
+				},
+				{
+					"path": "cjs/ht.d.ts"
+				},
+				{
+					"path": "cjs/ht.js"
+				},
+				{
+					"path": "cjs/hu.d.ts"
+				},
+				{
+					"path": "cjs/hu.js"
+				},
+				{
+					"path": "cjs/id.d.ts"
+				},
+				{
+					"path": "cjs/id.js"
+				},
+				{
+					"path": "cjs/is.d.ts"
+				},
+				{
+					"path": "cjs/is.js"
+				},
+				{
+					"path": "cjs/it.d.ts"
+				},
+				{
+					"path": "cjs/it.js"
+				},
+				{
+					"path": "cjs/ja.d.ts"
+				},
+				{
+					"path": "cjs/ja.js"
+				},
+				{
+					"path": "cjs/kk.d.ts"
+				},
+				{
+					"path": "cjs/kk.js"
+				},
+				{
+					"path": "cjs/km.d.ts"
+				},
+				{
+					"path": "cjs/km.js"
+				},
+				{
+					"path": "cjs/ko.d.ts"
+				},
+				{
+					"path": "cjs/ko.js"
+				},
+				{
+					"path": "cjs/ku.d.ts"
+				},
+				{
+					"path": "cjs/ku.js"
+				},
+				{
+					"path": "cjs/ky.d.ts"
+				},
+				{
+					"path": "cjs/ky.js"
+				},
+				{
+					"path": "cjs/locale.d.ts"
+				},
+				{
+					"path": "cjs/lt.d.ts"
+				},
+				{
+					"path": "cjs/lt.js"
+				},
+				{
+					"path": "cjs/lv.d.ts"
+				},
+				{
+					"path": "cjs/lv.js"
+				},
+				{
+					"path": "cjs/ms.d.ts"
+				},
+				{
+					"path": "cjs/ms.js"
+				},
+				{
+					"path": "cjs/my.d.ts"
+				},
+				{
+					"path": "cjs/my.js"
+				},
+				{
+					"path": "cjs/nb_NO.d.ts"
+				},
+				{
+					"path": "cjs/nb_NO.js"
+				},
+				{
+					"path": "cjs/nl.d.ts"
+				},
+				{
+					"path": "cjs/nl.js"
+				},
+				{
+					"path": "cjs/pl.d.ts"
+				},
+				{
+					"path": "cjs/pl.js"
+				},
+				{
+					"path": "cjs/pt_BR.d.ts"
+				},
+				{
+					"path": "cjs/pt_BR.js"
+				},
+				{
+					"path": "cjs/pt.d.ts"
+				},
+				{
+					"path": "cjs/pt.js"
+				},
+				{
+					"path": "cjs/ro.d.ts"
+				},
+				{
+					"path": "cjs/ro.js"
+				},
+				{
+					"path": "cjs/ru.d.ts"
+				},
+				{
+					"path": "cjs/ru.js"
+				},
+				{
+					"path": "cjs/sk.d.ts"
+				},
+				{
+					"path": "cjs/sk.js"
+				},
+				{
+					"path": "cjs/sl.d.ts"
+				},
+				{
+					"path": "cjs/sl.js"
+				},
+				{
+					"path": "cjs/sq.d.ts"
+				},
+				{
+					"path": "cjs/sq.js"
+				},
+				{
+					"path": "cjs/sr_RS.d.ts"
+				},
+				{
+					"path": "cjs/sr_RS.js"
+				},
+				{
+					"path": "cjs/sv.d.ts"
+				},
+				{
+					"path": "cjs/sv.js"
+				},
+				{
+					"path": "cjs/th.d.ts"
+				},
+				{
+					"path": "cjs/th.js"
+				},
+				{
+					"path": "cjs/tl.d.ts"
+				},
+				{
+					"path": "cjs/tl.js"
+				},
+				{
+					"path": "cjs/tr.d.ts"
+				},
+				{
+					"path": "cjs/tr.js"
+				},
+				{
+					"path": "cjs/uk.d.ts"
+				},
+				{
+					"path": "cjs/uk.js"
+				},
+				{
+					"path": "cjs/ur.d.ts"
+				},
+				{
+					"path": "cjs/ur.js"
+				},
+				{
+					"path": "cjs/uz.d.ts"
+				},
+				{
+					"path": "cjs/uz.js"
+				},
+				{
+					"path": "cjs/vi.d.ts"
+				},
+				{
+					"path": "cjs/vi.js"
+				},
+				{
+					"path": "cjs/zh_CN.d.ts"
+				},
+				{
+					"path": "cjs/zh_CN.js"
+				},
+				{
+					"path": "cjs/zh_TW.d.ts"
+				},
+				{
+					"path": "cjs/zh_TW.js"
+				},
+				{
+					"path": "ckb.json"
+				},
+				{
+					"path": "cs.json"
+				},
+				{
+					"path": "da.json"
+				},
+				{
+					"path": "de-AT.json"
+				},
+				{
+					"path": "de-CH.json"
+				},
+				{
+					"path": "de.json"
+				},
+				{
+					"path": "el.json"
+				},
+				{
+					"path": "en-AU.json"
+				},
+				{
+					"path": "en-CA.json"
+				},
+				{
+					"path": "en-GB.json"
+				},
+				{
+					"path": "en.json"
+				},
+				{
+					"path": "es.json"
+				},
+				{
+					"path": "et.json"
+				},
+				{
+					"path": "fa.json"
+				},
+				{
+					"path": "fi.json"
+				},
+				{
+					"path": "fr.json"
+				},
+				{
+					"path": "gl.json"
+				},
+				{
+					"path": "he.json"
+				},
+				{
+					"path": "hi.json"
+				},
+				{
+					"path": "hr.json"
+				},
+				{
+					"path": "ht.json"
+				},
+				{
+					"path": "hu.json"
+				},
+				{
+					"path": "id.json"
+				},
+				{
+					"path": "is.json"
+				},
+				{
+					"path": "it.json"
+				},
+				{
+					"path": "ja.json"
+				},
+				{
+					"path": "js/all.d.ts"
+				},
+				{
+					"path": "js/all.js"
+				},
+				{
+					"path": "js/ar_TN.d.ts"
+				},
+				{
+					"path": "js/ar_TN.js"
+				},
+				{
+					"path": "js/ar.d.ts"
+				},
+				{
+					"path": "js/ar.js"
+				},
+				{
+					"path": "js/bg.d.ts"
+				},
+				{
+					"path": "js/bg.js"
+				},
+				{
+					"path": "js/bn.d.ts"
+				},
+				{
+					"path": "js/bn.js"
+				},
+				{
+					"path": "js/bs.d.ts"
+				},
+				{
+					"path": "js/bs.js"
+				},
+				{
+					"path": "js/ca.d.ts"
+				},
+				{
+					"path": "js/ca.js"
+				},
+				{
+					"path": "js/ckb.d.ts"
+				},
+				{
+					"path": "js/ckb.js"
+				},
+				{
+					"path": "js/cs.d.ts"
+				},
+				{
+					"path": "js/cs.js"
+				},
+				{
+					"path": "js/da.d.ts"
+				},
+				{
+					"path": "js/da.js"
+				},
+				{
+					"path": "js/de_AT.d.ts"
+				},
+				{
+					"path": "js/de_AT.js"
+				},
+				{
+					"path": "js/de_CH.d.ts"
+				},
+				{
+					"path": "js/de_CH.js"
+				},
+				{
+					"path": "js/de.d.ts"
+				},
+				{
+					"path": "js/de.js"
+				},
+				{
+					"path": "js/el.d.ts"
+				},
+				{
+					"path": "js/el.js"
+				},
+				{
+					"path": "js/en_AU.d.ts"
+				},
+				{
+					"path": "js/en_AU.js"
+				},
+				{
+					"path": "js/en_CA.d.ts"
+				},
+				{
+					"path": "js/en_CA.js"
+				},
+				{
+					"path": "js/en_GB.d.ts"
+				},
+				{
+					"path": "js/en_GB.js"
+				},
+				{
+					"path": "js/en.d.ts"
+				},
+				{
+					"path": "js/en.js"
+				},
+				{
+					"path": "js/es.d.ts"
+				},
+				{
+					"path": "js/es.js"
+				},
+				{
+					"path": "js/et.d.ts"
+				},
+				{
+					"path": "js/et.js"
+				},
+				{
+					"path": "js/fa.d.ts"
+				},
+				{
+					"path": "js/fa.js"
+				},
+				{
+					"path": "js/fi.d.ts"
+				},
+				{
+					"path": "js/fi.js"
+				},
+				{
+					"path": "js/fr.d.ts"
+				},
+				{
+					"path": "js/fr.js"
+				},
+				{
+					"path": "js/gl.d.ts"
+				},
+				{
+					"path": "js/gl.js"
+				},
+				{
+					"path": "js/he.d.ts"
+				},
+				{
+					"path": "js/he.js"
+				},
+				{
+					"path": "js/hi.d.ts"
+				},
+				{
+					"path": "js/hi.js"
+				},
+				{
+					"path": "js/hr.d.ts"
+				},
+				{
+					"path": "js/hr.js"
+				},
+				{
+					"path": "js/ht.d.ts"
+				},
+				{
+					"path": "js/ht.js"
+				},
+				{
+					"path": "js/hu.d.ts"
+				},
+				{
+					"path": "js/hu.js"
+				},
+				{
+					"path": "js/id.d.ts"
+				},
+				{
+					"path": "js/id.js"
+				},
+				{
+					"path": "js/is.d.ts"
+				},
+				{
+					"path": "js/is.js"
+				},
+				{
+					"path": "js/it.d.ts"
+				},
+				{
+					"path": "js/it.js"
+				},
+				{
+					"path": "js/ja.d.ts"
+				},
+				{
+					"path": "js/ja.js"
+				},
+				{
+					"path": "js/kk.d.ts"
+				},
+				{
+					"path": "js/kk.js"
+				},
+				{
+					"path": "js/km.d.ts"
+				},
+				{
+					"path": "js/km.js"
+				},
+				{
+					"path": "js/ko.d.ts"
+				},
+				{
+					"path": "js/ko.js"
+				},
+				{
+					"path": "js/ku.d.ts"
+				},
+				{
+					"path": "js/ku.js"
+				},
+				{
+					"path": "js/ky.d.ts"
+				},
+				{
+					"path": "js/ky.js"
+				},
+				{
+					"path": "js/locale.d.ts"
+				},
+				{
+					"path": "js/lt.d.ts"
+				},
+				{
+					"path": "js/lt.js"
+				},
+				{
+					"path": "js/lv.d.ts"
+				},
+				{
+					"path": "js/lv.js"
+				},
+				{
+					"path": "js/ms.d.ts"
+				},
+				{
+					"path": "js/ms.js"
+				},
+				{
+					"path": "js/my.d.ts"
+				},
+				{
+					"path": "js/my.js"
+				},
+				{
+					"path": "js/nb_NO.d.ts"
+				},
+				{
+					"path": "js/nb_NO.js"
+				},
+				{
+					"path": "js/nl.d.ts"
+				},
+				{
+					"path": "js/nl.js"
+				},
+				{
+					"path": "js/pl.d.ts"
+				},
+				{
+					"path": "js/pl.js"
+				},
+				{
+					"path": "js/pt_BR.d.ts"
+				},
+				{
+					"path": "js/pt_BR.js"
+				},
+				{
+					"path": "js/pt.d.ts"
+				},
+				{
+					"path": "js/pt.js"
+				},
+				{
+					"path": "js/ro.d.ts"
+				},
+				{
+					"path": "js/ro.js"
+				},
+				{
+					"path": "js/ru.d.ts"
+				},
+				{
+					"path": "js/ru.js"
+				},
+				{
+					"path": "js/sk.d.ts"
+				},
+				{
+					"path": "js/sk.js"
+				},
+				{
+					"path": "js/sl.d.ts"
+				},
+				{
+					"path": "js/sl.js"
+				},
+				{
+					"path": "js/sq.d.ts"
+				},
+				{
+					"path": "js/sq.js"
+				},
+				{
+					"path": "js/sr_RS.d.ts"
+				},
+				{
+					"path": "js/sr_RS.js"
+				},
+				{
+					"path": "js/sv.d.ts"
+				},
+				{
+					"path": "js/sv.js"
+				},
+				{
+					"path": "js/th.d.ts"
+				},
+				{
+					"path": "js/th.js"
+				},
+				{
+					"path": "js/tl.d.ts"
+				},
+				{
+					"path": "js/tl.js"
+				},
+				{
+					"path": "js/tr.d.ts"
+				},
+				{
+					"path": "js/tr.js"
+				},
+				{
+					"path": "js/uk.d.ts"
+				},
+				{
+					"path": "js/uk.js"
+				},
+				{
+					"path": "js/ur.d.ts"
+				},
+				{
+					"path": "js/ur.js"
+				},
+				{
+					"path": "js/uz.d.ts"
+				},
+				{
+					"path": "js/uz.js"
+				},
+				{
+					"path": "js/vi.d.ts"
+				},
+				{
+					"path": "js/vi.js"
+				},
+				{
+					"path": "js/zh_CN.d.ts"
+				},
+				{
+					"path": "js/zh_CN.js"
+				},
+				{
+					"path": "js/zh_TW.d.ts"
+				},
+				{
+					"path": "js/zh_TW.js"
+				},
+				{
+					"path": "kk.json"
+				},
+				{
+					"path": "km.json"
+				},
+				{
+					"path": "ko.json"
+				},
+				{
+					"path": "ku.json"
+				},
+				{
+					"path": "ky.json"
+				},
+				{
+					"path": "LICENSE"
+				},
+				{
+					"path": "lt.json"
+				},
+				{
+					"path": "lv.json"
+				},
+				{
+					"path": "ms.json"
+				},
+				{
+					"path": "my.json"
+				},
+				{
+					"path": "nb-NO.json"
+				},
+				{
+					"path": "nl.json"
+				},
+				{
+					"path": "package.json"
+				},
+				{
+					"path": "pl.json"
+				},
+				{
+					"path": "pt-BR.json"
+				},
+				{
+					"path": "pt.json"
+				},
+				{
+					"path": "README.md"
+				},
+				{
+					"path": "ro.json"
+				},
+				{
+					"path": "ru.json"
+				},
+				{
+					"path": "sk.json"
+				},
+				{
+					"path": "sl.json"
+				},
+				{
+					"path": "sq.json"
+				},
+				{
+					"path": "sr-RS.json"
+				},
+				{
+					"path": "sv.json"
+				},
+				{
+					"path": "th.json"
+				},
+				{
+					"path": "tl.json"
+				},
+				{
+					"path": "tr.json"
+				},
+				{
+					"path": "uk.json"
+				},
+				{
+					"path": "ur.json"
+				},
+				{
+					"path": "uz.json"
+				},
+				{
+					"path": "vi.json"
+				},
+				{
+					"path": "zh-CN.json"
+				},
+				{
+					"path": "zh-TW.json"
+				}
+			],
+			"entryCount": 319,
+			"bundled": []
+		},
+		{
+			"id": "@bdspark/sparkng-tailwindcss@2.0.2",
+			"name": "@bdspark/sparkng-tailwindcss",
+			"version": "2.0.2",
+			"size": 14746,
+			"unpackedSize": 142658,
+			"shasum": "9ba2737ed9528403c5105954028ad1831d9ccc2c",
+			"integrity": "sha512-1dUsSexHGWNn4Cy70OCz779KBtJJz4SzOReSbmnslkxPghe6WKgBkRYNWcCjj55KHPBSdXsBgmW3UowwXI56kw==",
+			"filename": "bdspark-sparkng-tailwindcss-2.0.2.tgz",
+			"files": [
+				{
+					"path": "LICENSE"
+				},
+				{
+					"path": "package.json"
+				},
+				{
+					"path": "README.md"
+				},
+				{
+					"path": "v3/index.cjs"
+				},
+				{
+					"path": "v3/index.cjs.map"
+				},
+				{
+					"path": "v3/index.d.ts"
+				},
+				{
+					"path": "v3/index.global.js"
+				},
+				{
+					"path": "v3/index.global.js.map"
+				},
+				{
+					"path": "v3/index.js"
+				},
+				{
+					"path": "v3/index.js.map"
+				},
+				{
+					"path": "v4/index.css"
+				},
+				{
+					"path": "v4/theme/colors.css"
+				},
+				{
+					"path": "v4/utils/animation.css"
+				},
+				{
+					"path": "v4/utils/backface.css"
+				},
+				{
+					"path": "v4/utils/delay.css"
+				},
+				{
+					"path": "v4/utils/direction.css"
+				},
+				{
+					"path": "v4/utils/duration.css"
+				},
+				{
+					"path": "v4/utils/enterleave.css"
+				},
+				{
+					"path": "v4/utils/fillMode.css"
+				},
+				{
+					"path": "v4/utils/iterationCount.css"
+				},
+				{
+					"path": "v4/utils/keyframes.css"
+				},
+				{
+					"path": "v4/utils/playState.css"
+				},
+				{
+					"path": "v4/utils/preset.css"
+				},
+				{
+					"path": "v4/utils/timingFunction.css"
+				},
+				{
+					"path": "v4/utils/variants.css"
+				}
+			],
+			"entryCount": 25,
+			"bundled": []
+		},
+		{
+			"id": "@bdspark/sparkng-utils@2.0.2",
+			"name": "@bdspark/sparkng-utils",
+			"version": "2.0.2",
+			"size": 47100,
+			"unpackedSize": 178755,
+			"shasum": "71b42c7f5ef874471ae6e3b60f9050d7680dc5e4",
+			"integrity": "sha512-l4O3tDPZ3o8HpKOAyo0S6pUFRcL4xGMpPfd+57pEdtyBdNOHAWCnDqx5HxkNvNVdtwalxlsHEQO4a03k4GQ0GA==",
+			"filename": "bdspark-sparkng-utils-2.0.2.tgz",
+			"files": [
+				{
+					"path": "dist/classnames/index.d.mts"
+				},
+				{
+					"path": "dist/classnames/index.mjs"
+				},
+				{
+					"path": "dist/classnames/index.mjs.map"
+				},
+				{
+					"path": "dist/dom/index.d.mts"
+				},
+				{
+					"path": "dist/dom/index.mjs"
+				},
+				{
+					"path": "dist/dom/index.mjs.map"
+				},
+				{
+					"path": "dist/eventbus/index.d.mts"
+				},
+				{
+					"path": "dist/eventbus/index.mjs"
+				},
+				{
+					"path": "dist/eventbus/index.mjs.map"
+				},
+				{
+					"path": "dist/index.d.mts"
+				},
+				{
+					"path": "dist/index.mjs"
+				},
+				{
+					"path": "dist/mergeprops/index.d.mts"
+				},
+				{
+					"path": "dist/mergeprops/index.mjs"
+				},
+				{
+					"path": "dist/mergeprops/index.mjs.map"
+				},
+				{
+					"path": "dist/object-DPu1ecLQ.mjs"
+				},
+				{
+					"path": "dist/object-DPu1ecLQ.mjs.map"
+				},
+				{
+					"path": "dist/object/index.d.mts"
+				},
+				{
+					"path": "dist/object/index.mjs"
+				},
+				{
+					"path": "dist/uuid/index.d.mts"
+				},
+				{
+					"path": "dist/uuid/index.mjs"
+				},
+				{
+					"path": "dist/uuid/index.mjs.map"
+				},
+				{
+					"path": "dist/zindex/index.d.mts"
+				},
+				{
+					"path": "dist/zindex/index.mjs"
+				},
+				{
+					"path": "dist/zindex/index.mjs.map"
+				},
+				{
+					"path": "LICENSE"
+				},
+				{
+					"path": "package.json"
+				},
+				{
+					"path": "README.md"
+				}
+			],
+			"entryCount": 27,
+			"bundled": []
+		},
+		{
+			"id": "@bdspark/sparkng-motion@2.0.2",
+			"name": "@bdspark/sparkng-motion",
+			"version": "2.0.2",
+			"size": 10451,
+			"unpackedSize": 34492,
+			"shasum": "d4d8b6cbdc9223511148dd810968d8d43d1bf8bd",
+			"integrity": "sha512-9P6+rv4bI3ZZTulqW/UcFY+1GNtGX5fpCnklxXBYlmSyyZbcXbJGV/1YtiyvDEE0TM4SnMT/UtMYH5Mv7G1wbQ==",
+			"filename": "bdspark-sparkng-motion-2.0.2.tgz",
+			"files": [
+				{
+					"path": "dist/index.d.mts"
+				},
+				{
+					"path": "dist/index.mjs"
+				},
+				{
+					"path": "dist/index.mjs.map"
+				},
+				{
+					"path": "LICENSE"
+				},
+				{
+					"path": "package.json"
+				},
+				{
+					"path": "README.md"
+				}
+			],
+			"entryCount": 6,
+			"bundled": []
+		},
+		{
+			"id": "@bdspark/sparkng-styled@2.0.2",
+			"name": "@bdspark/sparkng-styled",
+			"version": "2.0.2",
+			"size": 27659,
+			"unpackedSize": 99151,
+			"shasum": "4672e0e8c96e26a34784b699d1790184e336a4f4",
+			"integrity": "sha512-MAUw83dukzcUELW29ogUnRJXbkmph1kHfAhFHmKNTTuU9KsdP8nvRfQXhnL69xQIRwc/nvuDEct5vvdt0bqTgQ==",
+			"filename": "bdspark-sparkng-styled-2.0.2.tgz",
+			"files": [
+				{
+					"path": "dist/index.d.mts"
+				},
+				{
+					"path": "dist/index.mjs"
+				},
+				{
+					"path": "dist/index.mjs.map"
+				},
+				{
+					"path": "LICENSE"
+				},
+				{
+					"path": "package.json"
+				},
+				{
+					"path": "README.md"
+				}
+			],
+			"entryCount": 6,
+			"bundled": []
+		},
+		{
+			"id": "@bdspark/sparkng-styles@2.0.2",
+			"name": "@bdspark/sparkng-styles",
+			"version": "2.0.2",
+			"size": 95946,
+			"unpackedSize": 823152,
+			"shasum": "5b3ff025b3b4fac5e414822ec2d5969e240af4ec",
+			"integrity": "sha512-mNp4qIZfh57tWth+gHuo9h0eozVFWmx+NBiExjBpls0zyKT88PxT1uIZrxcS4luowfGNxZHDxzZgAjzmaFmvVw==",
+			"filename": "bdspark-sparkng-styles-2.0.2.tgz",
+			"files": [
+				{
+					"path": "dist/accordion/index.mjs"
+				},
+				{
+					"path": "dist/accordion/index.mjs.map"
+				},
+				{
+					"path": "dist/autocomplete/index.mjs"
+				},
+				{
+					"path": "dist/autocomplete/index.mjs.map"
+				},
+				{
+					"path": "dist/avatar/index.mjs"
+				},
+				{
+					"path": "dist/avatar/index.mjs.map"
+				},
+				{
+					"path": "dist/badge/index.mjs"
+				},
+				{
+					"path": "dist/badge/index.mjs.map"
+				},
+				{
+					"path": "dist/base/index.mjs"
+				},
+				{
+					"path": "dist/base/index.mjs.map"
+				},
+				{
+					"path": "dist/blockui/index.mjs"
+				},
+				{
+					"path": "dist/blockui/index.mjs.map"
+				},
+				{
+					"path": "dist/breadcrumb/index.mjs"
+				},
+				{
+					"path": "dist/breadcrumb/index.mjs.map"
+				},
+				{
+					"path": "dist/button/index.mjs"
+				},
+				{
+					"path": "dist/button/index.mjs.map"
+				},
+				{
+					"path": "dist/buttongroup/index.mjs"
+				},
+				{
+					"path": "dist/buttongroup/index.mjs.map"
+				},
+				{
+					"path": "dist/card/index.mjs"
+				},
+				{
+					"path": "dist/card/index.mjs.map"
+				},
+				{
+					"path": "dist/carousel/index.mjs"
+				},
+				{
+					"path": "dist/carousel/index.mjs.map"
+				},
+				{
+					"path": "dist/cascadeselect/index.mjs"
+				},
+				{
+					"path": "dist/cascadeselect/index.mjs.map"
+				},
+				{
+					"path": "dist/checkbox/index.mjs"
+				},
+				{
+					"path": "dist/checkbox/index.mjs.map"
+				},
+				{
+					"path": "dist/checkboxgroup/index.mjs"
+				},
+				{
+					"path": "dist/checkboxgroup/index.mjs.map"
+				},
+				{
+					"path": "dist/chip/index.mjs"
+				},
+				{
+					"path": "dist/chip/index.mjs.map"
+				},
+				{
+					"path": "dist/colorpicker/index.mjs"
+				},
+				{
+					"path": "dist/colorpicker/index.mjs.map"
+				},
+				{
+					"path": "dist/confirmdialog/index.mjs"
+				},
+				{
+					"path": "dist/confirmdialog/index.mjs.map"
+				},
+				{
+					"path": "dist/confirmpopup/index.mjs"
+				},
+				{
+					"path": "dist/confirmpopup/index.mjs.map"
+				},
+				{
+					"path": "dist/contextmenu/index.mjs"
+				},
+				{
+					"path": "dist/contextmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/datatable/index.mjs"
+				},
+				{
+					"path": "dist/datatable/index.mjs.map"
+				},
+				{
+					"path": "dist/dataview/index.mjs"
+				},
+				{
+					"path": "dist/dataview/index.mjs.map"
+				},
+				{
+					"path": "dist/datepicker/index.mjs"
+				},
+				{
+					"path": "dist/datepicker/index.mjs.map"
+				},
+				{
+					"path": "dist/dialog/index.mjs"
+				},
+				{
+					"path": "dist/dialog/index.mjs.map"
+				},
+				{
+					"path": "dist/divider/index.mjs"
+				},
+				{
+					"path": "dist/divider/index.mjs.map"
+				},
+				{
+					"path": "dist/dock/index.mjs"
+				},
+				{
+					"path": "dist/dock/index.mjs.map"
+				},
+				{
+					"path": "dist/drawer/index.mjs"
+				},
+				{
+					"path": "dist/drawer/index.mjs.map"
+				},
+				{
+					"path": "dist/editor/index.mjs"
+				},
+				{
+					"path": "dist/editor/index.mjs.map"
+				},
+				{
+					"path": "dist/fieldset/index.mjs"
+				},
+				{
+					"path": "dist/fieldset/index.mjs.map"
+				},
+				{
+					"path": "dist/fileupload/index.mjs"
+				},
+				{
+					"path": "dist/fileupload/index.mjs.map"
+				},
+				{
+					"path": "dist/floatlabel/index.mjs"
+				},
+				{
+					"path": "dist/floatlabel/index.mjs.map"
+				},
+				{
+					"path": "dist/galleria/index.mjs"
+				},
+				{
+					"path": "dist/galleria/index.mjs.map"
+				},
+				{
+					"path": "dist/iconfield/index.mjs"
+				},
+				{
+					"path": "dist/iconfield/index.mjs.map"
+				},
+				{
+					"path": "dist/iftalabel/index.mjs"
+				},
+				{
+					"path": "dist/iftalabel/index.mjs.map"
+				},
+				{
+					"path": "dist/image/index.mjs"
+				},
+				{
+					"path": "dist/image/index.mjs.map"
+				},
+				{
+					"path": "dist/imagecompare/index.mjs"
+				},
+				{
+					"path": "dist/imagecompare/index.mjs.map"
+				},
+				{
+					"path": "dist/index.d.mts"
+				},
+				{
+					"path": "dist/index.mjs"
+				},
+				{
+					"path": "dist/inlinemessage/index.mjs"
+				},
+				{
+					"path": "dist/inlinemessage/index.mjs.map"
+				},
+				{
+					"path": "dist/inplace/index.mjs"
+				},
+				{
+					"path": "dist/inplace/index.mjs.map"
+				},
+				{
+					"path": "dist/inputchips/index.mjs"
+				},
+				{
+					"path": "dist/inputchips/index.mjs.map"
+				},
+				{
+					"path": "dist/inputgroup/index.mjs"
+				},
+				{
+					"path": "dist/inputgroup/index.mjs.map"
+				},
+				{
+					"path": "dist/inputnumber/index.mjs"
+				},
+				{
+					"path": "dist/inputnumber/index.mjs.map"
+				},
+				{
+					"path": "dist/inputotp/index.mjs"
+				},
+				{
+					"path": "dist/inputotp/index.mjs.map"
+				},
+				{
+					"path": "dist/inputtext/index.mjs"
+				},
+				{
+					"path": "dist/inputtext/index.mjs.map"
+				},
+				{
+					"path": "dist/knob/index.mjs"
+				},
+				{
+					"path": "dist/knob/index.mjs.map"
+				},
+				{
+					"path": "dist/listbox/index.mjs"
+				},
+				{
+					"path": "dist/listbox/index.mjs.map"
+				},
+				{
+					"path": "dist/megamenu/index.mjs"
+				},
+				{
+					"path": "dist/megamenu/index.mjs.map"
+				},
+				{
+					"path": "dist/menu/index.mjs"
+				},
+				{
+					"path": "dist/menu/index.mjs.map"
+				},
+				{
+					"path": "dist/menubar/index.mjs"
+				},
+				{
+					"path": "dist/menubar/index.mjs.map"
+				},
+				{
+					"path": "dist/message/index.mjs"
+				},
+				{
+					"path": "dist/message/index.mjs.map"
+				},
+				{
+					"path": "dist/metergroup/index.mjs"
+				},
+				{
+					"path": "dist/metergroup/index.mjs.map"
+				},
+				{
+					"path": "dist/multiselect/index.mjs"
+				},
+				{
+					"path": "dist/multiselect/index.mjs.map"
+				},
+				{
+					"path": "dist/orderlist/index.mjs"
+				},
+				{
+					"path": "dist/orderlist/index.mjs.map"
+				},
+				{
+					"path": "dist/organizationchart/index.mjs"
+				},
+				{
+					"path": "dist/organizationchart/index.mjs.map"
+				},
+				{
+					"path": "dist/overlaybadge/index.mjs"
+				},
+				{
+					"path": "dist/overlaybadge/index.mjs.map"
+				},
+				{
+					"path": "dist/paginator/index.mjs"
+				},
+				{
+					"path": "dist/paginator/index.mjs.map"
+				},
+				{
+					"path": "dist/panel/index.mjs"
+				},
+				{
+					"path": "dist/panel/index.mjs.map"
+				},
+				{
+					"path": "dist/panelmenu/index.mjs"
+				},
+				{
+					"path": "dist/panelmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/password/index.mjs"
+				},
+				{
+					"path": "dist/password/index.mjs.map"
+				},
+				{
+					"path": "dist/picklist/index.mjs"
+				},
+				{
+					"path": "dist/picklist/index.mjs.map"
+				},
+				{
+					"path": "dist/popover/index.mjs"
+				},
+				{
+					"path": "dist/popover/index.mjs.map"
+				},
+				{
+					"path": "dist/progressbar/index.mjs"
+				},
+				{
+					"path": "dist/progressbar/index.mjs.map"
+				},
+				{
+					"path": "dist/progressspinner/index.mjs"
+				},
+				{
+					"path": "dist/progressspinner/index.mjs.map"
+				},
+				{
+					"path": "dist/radiobutton/index.mjs"
+				},
+				{
+					"path": "dist/radiobutton/index.mjs.map"
+				},
+				{
+					"path": "dist/radiobuttongroup/index.mjs"
+				},
+				{
+					"path": "dist/radiobuttongroup/index.mjs.map"
+				},
+				{
+					"path": "dist/rating/index.mjs"
+				},
+				{
+					"path": "dist/rating/index.mjs.map"
+				},
+				{
+					"path": "dist/ripple/index.mjs"
+				},
+				{
+					"path": "dist/ripple/index.mjs.map"
+				},
+				{
+					"path": "dist/scrollpanel/index.mjs"
+				},
+				{
+					"path": "dist/scrollpanel/index.mjs.map"
+				},
+				{
+					"path": "dist/scrolltop/index.mjs"
+				},
+				{
+					"path": "dist/scrolltop/index.mjs.map"
+				},
+				{
+					"path": "dist/select/index.mjs"
+				},
+				{
+					"path": "dist/select/index.mjs.map"
+				},
+				{
+					"path": "dist/selectbutton/index.mjs"
+				},
+				{
+					"path": "dist/selectbutton/index.mjs.map"
+				},
+				{
+					"path": "dist/skeleton/index.mjs"
+				},
+				{
+					"path": "dist/skeleton/index.mjs.map"
+				},
+				{
+					"path": "dist/slider/index.mjs"
+				},
+				{
+					"path": "dist/slider/index.mjs.map"
+				},
+				{
+					"path": "dist/speeddial/index.mjs"
+				},
+				{
+					"path": "dist/speeddial/index.mjs.map"
+				},
+				{
+					"path": "dist/splitbutton/index.mjs"
+				},
+				{
+					"path": "dist/splitbutton/index.mjs.map"
+				},
+				{
+					"path": "dist/splitter/index.mjs"
+				},
+				{
+					"path": "dist/splitter/index.mjs.map"
+				},
+				{
+					"path": "dist/stepper/index.mjs"
+				},
+				{
+					"path": "dist/stepper/index.mjs.map"
+				},
+				{
+					"path": "dist/steps/index.mjs"
+				},
+				{
+					"path": "dist/steps/index.mjs.map"
+				},
+				{
+					"path": "dist/tabmenu/index.mjs"
+				},
+				{
+					"path": "dist/tabmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/tabs/index.mjs"
+				},
+				{
+					"path": "dist/tabs/index.mjs.map"
+				},
+				{
+					"path": "dist/tabview/index.mjs"
+				},
+				{
+					"path": "dist/tabview/index.mjs.map"
+				},
+				{
+					"path": "dist/tag/index.mjs"
+				},
+				{
+					"path": "dist/tag/index.mjs.map"
+				},
+				{
+					"path": "dist/terminal/index.mjs"
+				},
+				{
+					"path": "dist/terminal/index.mjs.map"
+				},
+				{
+					"path": "dist/textarea/index.mjs"
+				},
+				{
+					"path": "dist/textarea/index.mjs.map"
+				},
+				{
+					"path": "dist/tieredmenu/index.mjs"
+				},
+				{
+					"path": "dist/tieredmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/timeline/index.mjs"
+				},
+				{
+					"path": "dist/timeline/index.mjs.map"
+				},
+				{
+					"path": "dist/toast/index.mjs"
+				},
+				{
+					"path": "dist/toast/index.mjs.map"
+				},
+				{
+					"path": "dist/togglebutton/index.mjs"
+				},
+				{
+					"path": "dist/togglebutton/index.mjs.map"
+				},
+				{
+					"path": "dist/toggleswitch/index.mjs"
+				},
+				{
+					"path": "dist/toggleswitch/index.mjs.map"
+				},
+				{
+					"path": "dist/toolbar/index.mjs"
+				},
+				{
+					"path": "dist/toolbar/index.mjs.map"
+				},
+				{
+					"path": "dist/tooltip/index.mjs"
+				},
+				{
+					"path": "dist/tooltip/index.mjs.map"
+				},
+				{
+					"path": "dist/tree/index.mjs"
+				},
+				{
+					"path": "dist/tree/index.mjs.map"
+				},
+				{
+					"path": "dist/treeselect/index.mjs"
+				},
+				{
+					"path": "dist/treeselect/index.mjs.map"
+				},
+				{
+					"path": "dist/treetable/index.mjs"
+				},
+				{
+					"path": "dist/treetable/index.mjs.map"
+				},
+				{
+					"path": "dist/types.d.mts"
+				},
+				{
+					"path": "dist/types.mjs"
+				},
+				{
+					"path": "dist/virtualscroller/index.mjs"
+				},
+				{
+					"path": "dist/virtualscroller/index.mjs.map"
+				},
+				{
+					"path": "LICENSE"
+				},
+				{
+					"path": "package.json"
+				},
+				{
+					"path": "README.md"
+				}
+			],
+			"entryCount": 193,
+			"bundled": []
+		},
+		{
+			"id": "@bdspark/sparkng-themes@2.0.2",
+			"name": "@bdspark/sparkng-themes",
+			"version": "2.0.2",
+			"size": 450458,
+			"unpackedSize": 3984562,
+			"shasum": "89ada9a5e791b7c4b66d0dc0558522af78073157",
+			"integrity": "sha512-YnN9VwYFfRKsmYzARAaqJE5fqAgnthTEPanPPOtlMBTQ3xxJY2xRdr8GndBQYKgAM5+4Mo4XIoeLUGKK78h/bA==",
+			"filename": "bdspark-sparkng-themes-2.0.2.tgz",
+			"files": [
+				{
+					"path": "dist/aura/accordion/index.d.ts"
+				},
+				{
+					"path": "dist/aura/accordion/index.mjs"
+				},
+				{
+					"path": "dist/aura/accordion/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/autocomplete/index.d.ts"
+				},
+				{
+					"path": "dist/aura/autocomplete/index.mjs"
+				},
+				{
+					"path": "dist/aura/autocomplete/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/avatar/index.d.ts"
+				},
+				{
+					"path": "dist/aura/avatar/index.mjs"
+				},
+				{
+					"path": "dist/aura/avatar/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/badge/index.d.ts"
+				},
+				{
+					"path": "dist/aura/badge/index.mjs"
+				},
+				{
+					"path": "dist/aura/badge/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/base/index.d.ts"
+				},
+				{
+					"path": "dist/aura/base/index.mjs"
+				},
+				{
+					"path": "dist/aura/base/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/blockui/index.d.ts"
+				},
+				{
+					"path": "dist/aura/blockui/index.mjs"
+				},
+				{
+					"path": "dist/aura/blockui/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/breadcrumb/index.d.ts"
+				},
+				{
+					"path": "dist/aura/breadcrumb/index.mjs"
+				},
+				{
+					"path": "dist/aura/breadcrumb/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/button/index.d.ts"
+				},
+				{
+					"path": "dist/aura/button/index.mjs"
+				},
+				{
+					"path": "dist/aura/button/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/card/index.d.ts"
+				},
+				{
+					"path": "dist/aura/card/index.mjs"
+				},
+				{
+					"path": "dist/aura/card/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/carousel/index.d.ts"
+				},
+				{
+					"path": "dist/aura/carousel/index.mjs"
+				},
+				{
+					"path": "dist/aura/carousel/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/cascadeselect/index.d.ts"
+				},
+				{
+					"path": "dist/aura/cascadeselect/index.mjs"
+				},
+				{
+					"path": "dist/aura/cascadeselect/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/checkbox/index.d.ts"
+				},
+				{
+					"path": "dist/aura/checkbox/index.mjs"
+				},
+				{
+					"path": "dist/aura/checkbox/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/chip/index.d.ts"
+				},
+				{
+					"path": "dist/aura/chip/index.mjs"
+				},
+				{
+					"path": "dist/aura/chip/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/colorpicker/index.d.ts"
+				},
+				{
+					"path": "dist/aura/colorpicker/index.mjs"
+				},
+				{
+					"path": "dist/aura/colorpicker/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/confirmdialog/index.d.ts"
+				},
+				{
+					"path": "dist/aura/confirmdialog/index.mjs"
+				},
+				{
+					"path": "dist/aura/confirmdialog/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/confirmpopup/index.d.ts"
+				},
+				{
+					"path": "dist/aura/confirmpopup/index.mjs"
+				},
+				{
+					"path": "dist/aura/confirmpopup/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/contextmenu/index.d.ts"
+				},
+				{
+					"path": "dist/aura/contextmenu/index.mjs"
+				},
+				{
+					"path": "dist/aura/contextmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/css/index.d.ts"
+				},
+				{
+					"path": "dist/aura/css/index.mjs"
+				},
+				{
+					"path": "dist/aura/css/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/datatable/index.d.ts"
+				},
+				{
+					"path": "dist/aura/datatable/index.mjs"
+				},
+				{
+					"path": "dist/aura/datatable/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/dataview/index.d.ts"
+				},
+				{
+					"path": "dist/aura/dataview/index.mjs"
+				},
+				{
+					"path": "dist/aura/dataview/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/datepicker/index.d.ts"
+				},
+				{
+					"path": "dist/aura/datepicker/index.mjs"
+				},
+				{
+					"path": "dist/aura/datepicker/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/dialog/index.d.ts"
+				},
+				{
+					"path": "dist/aura/dialog/index.mjs"
+				},
+				{
+					"path": "dist/aura/dialog/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/divider/index.d.ts"
+				},
+				{
+					"path": "dist/aura/divider/index.mjs"
+				},
+				{
+					"path": "dist/aura/divider/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/dock/index.d.ts"
+				},
+				{
+					"path": "dist/aura/dock/index.mjs"
+				},
+				{
+					"path": "dist/aura/dock/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/drawer/index.d.ts"
+				},
+				{
+					"path": "dist/aura/drawer/index.mjs"
+				},
+				{
+					"path": "dist/aura/drawer/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/editor/index.d.ts"
+				},
+				{
+					"path": "dist/aura/editor/index.mjs"
+				},
+				{
+					"path": "dist/aura/editor/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/fieldset/index.d.ts"
+				},
+				{
+					"path": "dist/aura/fieldset/index.mjs"
+				},
+				{
+					"path": "dist/aura/fieldset/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/fileupload/index.d.ts"
+				},
+				{
+					"path": "dist/aura/fileupload/index.mjs"
+				},
+				{
+					"path": "dist/aura/fileupload/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/floatlabel/index.d.ts"
+				},
+				{
+					"path": "dist/aura/floatlabel/index.mjs"
+				},
+				{
+					"path": "dist/aura/floatlabel/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/galleria/index.d.ts"
+				},
+				{
+					"path": "dist/aura/galleria/index.mjs"
+				},
+				{
+					"path": "dist/aura/galleria/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/iconfield/index.d.ts"
+				},
+				{
+					"path": "dist/aura/iconfield/index.mjs"
+				},
+				{
+					"path": "dist/aura/iconfield/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/iftalabel/index.d.ts"
+				},
+				{
+					"path": "dist/aura/iftalabel/index.mjs"
+				},
+				{
+					"path": "dist/aura/iftalabel/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/image/index.d.ts"
+				},
+				{
+					"path": "dist/aura/image/index.mjs"
+				},
+				{
+					"path": "dist/aura/image/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/imagecompare/index.d.ts"
+				},
+				{
+					"path": "dist/aura/imagecompare/index.mjs"
+				},
+				{
+					"path": "dist/aura/imagecompare/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/index.d.ts"
+				},
+				{
+					"path": "dist/aura/index.mjs"
+				},
+				{
+					"path": "dist/aura/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/inlinemessage/index.d.ts"
+				},
+				{
+					"path": "dist/aura/inlinemessage/index.mjs"
+				},
+				{
+					"path": "dist/aura/inlinemessage/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/inplace/index.d.ts"
+				},
+				{
+					"path": "dist/aura/inplace/index.mjs"
+				},
+				{
+					"path": "dist/aura/inplace/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/inputchips/index.d.ts"
+				},
+				{
+					"path": "dist/aura/inputchips/index.mjs"
+				},
+				{
+					"path": "dist/aura/inputchips/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/inputgroup/index.d.ts"
+				},
+				{
+					"path": "dist/aura/inputgroup/index.mjs"
+				},
+				{
+					"path": "dist/aura/inputgroup/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/inputnumber/index.d.ts"
+				},
+				{
+					"path": "dist/aura/inputnumber/index.mjs"
+				},
+				{
+					"path": "dist/aura/inputnumber/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/inputotp/index.d.ts"
+				},
+				{
+					"path": "dist/aura/inputotp/index.mjs"
+				},
+				{
+					"path": "dist/aura/inputotp/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/inputtext/index.d.ts"
+				},
+				{
+					"path": "dist/aura/inputtext/index.mjs"
+				},
+				{
+					"path": "dist/aura/inputtext/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/knob/index.d.ts"
+				},
+				{
+					"path": "dist/aura/knob/index.mjs"
+				},
+				{
+					"path": "dist/aura/knob/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/listbox/index.d.ts"
+				},
+				{
+					"path": "dist/aura/listbox/index.mjs"
+				},
+				{
+					"path": "dist/aura/listbox/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/megamenu/index.d.ts"
+				},
+				{
+					"path": "dist/aura/megamenu/index.mjs"
+				},
+				{
+					"path": "dist/aura/megamenu/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/menu/index.d.ts"
+				},
+				{
+					"path": "dist/aura/menu/index.mjs"
+				},
+				{
+					"path": "dist/aura/menu/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/menubar/index.d.ts"
+				},
+				{
+					"path": "dist/aura/menubar/index.mjs"
+				},
+				{
+					"path": "dist/aura/menubar/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/message/index.d.ts"
+				},
+				{
+					"path": "dist/aura/message/index.mjs"
+				},
+				{
+					"path": "dist/aura/message/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/metergroup/index.d.ts"
+				},
+				{
+					"path": "dist/aura/metergroup/index.mjs"
+				},
+				{
+					"path": "dist/aura/metergroup/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/multiselect/index.d.ts"
+				},
+				{
+					"path": "dist/aura/multiselect/index.mjs"
+				},
+				{
+					"path": "dist/aura/multiselect/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/orderlist/index.d.ts"
+				},
+				{
+					"path": "dist/aura/orderlist/index.mjs"
+				},
+				{
+					"path": "dist/aura/orderlist/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/organizationchart/index.d.ts"
+				},
+				{
+					"path": "dist/aura/organizationchart/index.mjs"
+				},
+				{
+					"path": "dist/aura/organizationchart/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/overlaybadge/index.d.ts"
+				},
+				{
+					"path": "dist/aura/overlaybadge/index.mjs"
+				},
+				{
+					"path": "dist/aura/overlaybadge/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/paginator/index.d.ts"
+				},
+				{
+					"path": "dist/aura/paginator/index.mjs"
+				},
+				{
+					"path": "dist/aura/paginator/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/panel/index.d.ts"
+				},
+				{
+					"path": "dist/aura/panel/index.mjs"
+				},
+				{
+					"path": "dist/aura/panel/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/panelmenu/index.d.ts"
+				},
+				{
+					"path": "dist/aura/panelmenu/index.mjs"
+				},
+				{
+					"path": "dist/aura/panelmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/password/index.d.ts"
+				},
+				{
+					"path": "dist/aura/password/index.mjs"
+				},
+				{
+					"path": "dist/aura/password/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/picklist/index.d.ts"
+				},
+				{
+					"path": "dist/aura/picklist/index.mjs"
+				},
+				{
+					"path": "dist/aura/picklist/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/popover/index.d.ts"
+				},
+				{
+					"path": "dist/aura/popover/index.mjs"
+				},
+				{
+					"path": "dist/aura/popover/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/progressbar/index.d.ts"
+				},
+				{
+					"path": "dist/aura/progressbar/index.mjs"
+				},
+				{
+					"path": "dist/aura/progressbar/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/progressspinner/index.d.ts"
+				},
+				{
+					"path": "dist/aura/progressspinner/index.mjs"
+				},
+				{
+					"path": "dist/aura/progressspinner/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/radiobutton/index.d.ts"
+				},
+				{
+					"path": "dist/aura/radiobutton/index.mjs"
+				},
+				{
+					"path": "dist/aura/radiobutton/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/rating/index.d.ts"
+				},
+				{
+					"path": "dist/aura/rating/index.mjs"
+				},
+				{
+					"path": "dist/aura/rating/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/ripple/index.d.ts"
+				},
+				{
+					"path": "dist/aura/ripple/index.mjs"
+				},
+				{
+					"path": "dist/aura/ripple/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/scrollpanel/index.d.ts"
+				},
+				{
+					"path": "dist/aura/scrollpanel/index.mjs"
+				},
+				{
+					"path": "dist/aura/scrollpanel/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/select/index.d.ts"
+				},
+				{
+					"path": "dist/aura/select/index.mjs"
+				},
+				{
+					"path": "dist/aura/select/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/selectbutton/index.d.ts"
+				},
+				{
+					"path": "dist/aura/selectbutton/index.mjs"
+				},
+				{
+					"path": "dist/aura/selectbutton/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/skeleton/index.d.ts"
+				},
+				{
+					"path": "dist/aura/skeleton/index.mjs"
+				},
+				{
+					"path": "dist/aura/skeleton/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/slider/index.d.ts"
+				},
+				{
+					"path": "dist/aura/slider/index.mjs"
+				},
+				{
+					"path": "dist/aura/slider/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/speeddial/index.d.ts"
+				},
+				{
+					"path": "dist/aura/speeddial/index.mjs"
+				},
+				{
+					"path": "dist/aura/speeddial/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/splitbutton/index.d.ts"
+				},
+				{
+					"path": "dist/aura/splitbutton/index.mjs"
+				},
+				{
+					"path": "dist/aura/splitbutton/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/splitter/index.d.ts"
+				},
+				{
+					"path": "dist/aura/splitter/index.mjs"
+				},
+				{
+					"path": "dist/aura/splitter/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/stepper/index.d.ts"
+				},
+				{
+					"path": "dist/aura/stepper/index.mjs"
+				},
+				{
+					"path": "dist/aura/stepper/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/steps/index.d.ts"
+				},
+				{
+					"path": "dist/aura/steps/index.mjs"
+				},
+				{
+					"path": "dist/aura/steps/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/tabmenu/index.d.ts"
+				},
+				{
+					"path": "dist/aura/tabmenu/index.mjs"
+				},
+				{
+					"path": "dist/aura/tabmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/tabs/index.d.ts"
+				},
+				{
+					"path": "dist/aura/tabs/index.mjs"
+				},
+				{
+					"path": "dist/aura/tabs/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/tabview/index.d.ts"
+				},
+				{
+					"path": "dist/aura/tabview/index.mjs"
+				},
+				{
+					"path": "dist/aura/tabview/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/tag/index.d.ts"
+				},
+				{
+					"path": "dist/aura/tag/index.mjs"
+				},
+				{
+					"path": "dist/aura/tag/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/terminal/index.d.ts"
+				},
+				{
+					"path": "dist/aura/terminal/index.mjs"
+				},
+				{
+					"path": "dist/aura/terminal/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/textarea/index.d.ts"
+				},
+				{
+					"path": "dist/aura/textarea/index.mjs"
+				},
+				{
+					"path": "dist/aura/textarea/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/tieredmenu/index.d.ts"
+				},
+				{
+					"path": "dist/aura/tieredmenu/index.mjs"
+				},
+				{
+					"path": "dist/aura/tieredmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/timeline/index.d.ts"
+				},
+				{
+					"path": "dist/aura/timeline/index.mjs"
+				},
+				{
+					"path": "dist/aura/timeline/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/toast/index.d.ts"
+				},
+				{
+					"path": "dist/aura/toast/index.mjs"
+				},
+				{
+					"path": "dist/aura/toast/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/togglebutton/index.d.ts"
+				},
+				{
+					"path": "dist/aura/togglebutton/index.mjs"
+				},
+				{
+					"path": "dist/aura/togglebutton/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/toggleswitch/index.d.ts"
+				},
+				{
+					"path": "dist/aura/toggleswitch/index.mjs"
+				},
+				{
+					"path": "dist/aura/toggleswitch/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/toolbar/index.d.ts"
+				},
+				{
+					"path": "dist/aura/toolbar/index.mjs"
+				},
+				{
+					"path": "dist/aura/toolbar/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/tooltip/index.d.ts"
+				},
+				{
+					"path": "dist/aura/tooltip/index.mjs"
+				},
+				{
+					"path": "dist/aura/tooltip/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/tree/index.d.ts"
+				},
+				{
+					"path": "dist/aura/tree/index.mjs"
+				},
+				{
+					"path": "dist/aura/tree/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/treeselect/index.d.ts"
+				},
+				{
+					"path": "dist/aura/treeselect/index.mjs"
+				},
+				{
+					"path": "dist/aura/treeselect/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/treetable/index.d.ts"
+				},
+				{
+					"path": "dist/aura/treetable/index.mjs"
+				},
+				{
+					"path": "dist/aura/treetable/index.mjs.map"
+				},
+				{
+					"path": "dist/aura/virtualscroller/index.d.ts"
+				},
+				{
+					"path": "dist/aura/virtualscroller/index.mjs"
+				},
+				{
+					"path": "dist/aura/virtualscroller/index.mjs.map"
+				},
+				{
+					"path": "dist/index.d.mts"
+				},
+				{
+					"path": "dist/index.mjs"
+				},
+				{
+					"path": "dist/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/accordion/index.d.ts"
+				},
+				{
+					"path": "dist/lara/accordion/index.mjs"
+				},
+				{
+					"path": "dist/lara/accordion/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/autocomplete/index.d.ts"
+				},
+				{
+					"path": "dist/lara/autocomplete/index.mjs"
+				},
+				{
+					"path": "dist/lara/autocomplete/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/avatar/index.d.ts"
+				},
+				{
+					"path": "dist/lara/avatar/index.mjs"
+				},
+				{
+					"path": "dist/lara/avatar/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/badge/index.d.ts"
+				},
+				{
+					"path": "dist/lara/badge/index.mjs"
+				},
+				{
+					"path": "dist/lara/badge/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/base/index.d.ts"
+				},
+				{
+					"path": "dist/lara/base/index.mjs"
+				},
+				{
+					"path": "dist/lara/base/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/blockui/index.d.ts"
+				},
+				{
+					"path": "dist/lara/blockui/index.mjs"
+				},
+				{
+					"path": "dist/lara/blockui/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/breadcrumb/index.d.ts"
+				},
+				{
+					"path": "dist/lara/breadcrumb/index.mjs"
+				},
+				{
+					"path": "dist/lara/breadcrumb/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/button/index.d.ts"
+				},
+				{
+					"path": "dist/lara/button/index.mjs"
+				},
+				{
+					"path": "dist/lara/button/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/card/index.d.ts"
+				},
+				{
+					"path": "dist/lara/card/index.mjs"
+				},
+				{
+					"path": "dist/lara/card/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/carousel/index.d.ts"
+				},
+				{
+					"path": "dist/lara/carousel/index.mjs"
+				},
+				{
+					"path": "dist/lara/carousel/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/cascadeselect/index.d.ts"
+				},
+				{
+					"path": "dist/lara/cascadeselect/index.mjs"
+				},
+				{
+					"path": "dist/lara/cascadeselect/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/checkbox/index.d.ts"
+				},
+				{
+					"path": "dist/lara/checkbox/index.mjs"
+				},
+				{
+					"path": "dist/lara/checkbox/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/chip/index.d.ts"
+				},
+				{
+					"path": "dist/lara/chip/index.mjs"
+				},
+				{
+					"path": "dist/lara/chip/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/colorpicker/index.d.ts"
+				},
+				{
+					"path": "dist/lara/colorpicker/index.mjs"
+				},
+				{
+					"path": "dist/lara/colorpicker/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/confirmdialog/index.d.ts"
+				},
+				{
+					"path": "dist/lara/confirmdialog/index.mjs"
+				},
+				{
+					"path": "dist/lara/confirmdialog/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/confirmpopup/index.d.ts"
+				},
+				{
+					"path": "dist/lara/confirmpopup/index.mjs"
+				},
+				{
+					"path": "dist/lara/confirmpopup/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/contextmenu/index.d.ts"
+				},
+				{
+					"path": "dist/lara/contextmenu/index.mjs"
+				},
+				{
+					"path": "dist/lara/contextmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/datatable/index.d.ts"
+				},
+				{
+					"path": "dist/lara/datatable/index.mjs"
+				},
+				{
+					"path": "dist/lara/datatable/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/dataview/index.d.ts"
+				},
+				{
+					"path": "dist/lara/dataview/index.mjs"
+				},
+				{
+					"path": "dist/lara/dataview/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/datepicker/index.d.ts"
+				},
+				{
+					"path": "dist/lara/datepicker/index.mjs"
+				},
+				{
+					"path": "dist/lara/datepicker/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/dialog/index.d.ts"
+				},
+				{
+					"path": "dist/lara/dialog/index.mjs"
+				},
+				{
+					"path": "dist/lara/dialog/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/divider/index.d.ts"
+				},
+				{
+					"path": "dist/lara/divider/index.mjs"
+				},
+				{
+					"path": "dist/lara/divider/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/dock/index.d.ts"
+				},
+				{
+					"path": "dist/lara/dock/index.mjs"
+				},
+				{
+					"path": "dist/lara/dock/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/drawer/index.d.ts"
+				},
+				{
+					"path": "dist/lara/drawer/index.mjs"
+				},
+				{
+					"path": "dist/lara/drawer/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/editor/index.d.ts"
+				},
+				{
+					"path": "dist/lara/editor/index.mjs"
+				},
+				{
+					"path": "dist/lara/editor/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/fieldset/index.d.ts"
+				},
+				{
+					"path": "dist/lara/fieldset/index.mjs"
+				},
+				{
+					"path": "dist/lara/fieldset/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/fileupload/index.d.ts"
+				},
+				{
+					"path": "dist/lara/fileupload/index.mjs"
+				},
+				{
+					"path": "dist/lara/fileupload/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/floatlabel/index.d.ts"
+				},
+				{
+					"path": "dist/lara/floatlabel/index.mjs"
+				},
+				{
+					"path": "dist/lara/floatlabel/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/galleria/index.d.ts"
+				},
+				{
+					"path": "dist/lara/galleria/index.mjs"
+				},
+				{
+					"path": "dist/lara/galleria/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/iconfield/index.d.ts"
+				},
+				{
+					"path": "dist/lara/iconfield/index.mjs"
+				},
+				{
+					"path": "dist/lara/iconfield/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/iftalabel/index.d.ts"
+				},
+				{
+					"path": "dist/lara/iftalabel/index.mjs"
+				},
+				{
+					"path": "dist/lara/iftalabel/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/image/index.d.ts"
+				},
+				{
+					"path": "dist/lara/image/index.mjs"
+				},
+				{
+					"path": "dist/lara/image/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/imagecompare/index.d.ts"
+				},
+				{
+					"path": "dist/lara/imagecompare/index.mjs"
+				},
+				{
+					"path": "dist/lara/imagecompare/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/index.d.ts"
+				},
+				{
+					"path": "dist/lara/index.mjs"
+				},
+				{
+					"path": "dist/lara/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/inlinemessage/index.d.ts"
+				},
+				{
+					"path": "dist/lara/inlinemessage/index.mjs"
+				},
+				{
+					"path": "dist/lara/inlinemessage/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/inplace/index.d.ts"
+				},
+				{
+					"path": "dist/lara/inplace/index.mjs"
+				},
+				{
+					"path": "dist/lara/inplace/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/inputchips/index.d.ts"
+				},
+				{
+					"path": "dist/lara/inputchips/index.mjs"
+				},
+				{
+					"path": "dist/lara/inputchips/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/inputgroup/index.d.ts"
+				},
+				{
+					"path": "dist/lara/inputgroup/index.mjs"
+				},
+				{
+					"path": "dist/lara/inputgroup/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/inputnumber/index.d.ts"
+				},
+				{
+					"path": "dist/lara/inputnumber/index.mjs"
+				},
+				{
+					"path": "dist/lara/inputnumber/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/inputotp/index.d.ts"
+				},
+				{
+					"path": "dist/lara/inputotp/index.mjs"
+				},
+				{
+					"path": "dist/lara/inputotp/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/inputtext/index.d.ts"
+				},
+				{
+					"path": "dist/lara/inputtext/index.mjs"
+				},
+				{
+					"path": "dist/lara/inputtext/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/knob/index.d.ts"
+				},
+				{
+					"path": "dist/lara/knob/index.mjs"
+				},
+				{
+					"path": "dist/lara/knob/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/listbox/index.d.ts"
+				},
+				{
+					"path": "dist/lara/listbox/index.mjs"
+				},
+				{
+					"path": "dist/lara/listbox/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/megamenu/index.d.ts"
+				},
+				{
+					"path": "dist/lara/megamenu/index.mjs"
+				},
+				{
+					"path": "dist/lara/megamenu/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/menu/index.d.ts"
+				},
+				{
+					"path": "dist/lara/menu/index.mjs"
+				},
+				{
+					"path": "dist/lara/menu/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/menubar/index.d.ts"
+				},
+				{
+					"path": "dist/lara/menubar/index.mjs"
+				},
+				{
+					"path": "dist/lara/menubar/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/message/index.d.ts"
+				},
+				{
+					"path": "dist/lara/message/index.mjs"
+				},
+				{
+					"path": "dist/lara/message/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/metergroup/index.d.ts"
+				},
+				{
+					"path": "dist/lara/metergroup/index.mjs"
+				},
+				{
+					"path": "dist/lara/metergroup/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/multiselect/index.d.ts"
+				},
+				{
+					"path": "dist/lara/multiselect/index.mjs"
+				},
+				{
+					"path": "dist/lara/multiselect/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/orderlist/index.d.ts"
+				},
+				{
+					"path": "dist/lara/orderlist/index.mjs"
+				},
+				{
+					"path": "dist/lara/orderlist/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/organizationchart/index.d.ts"
+				},
+				{
+					"path": "dist/lara/organizationchart/index.mjs"
+				},
+				{
+					"path": "dist/lara/organizationchart/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/overlaybadge/index.d.ts"
+				},
+				{
+					"path": "dist/lara/overlaybadge/index.mjs"
+				},
+				{
+					"path": "dist/lara/overlaybadge/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/paginator/index.d.ts"
+				},
+				{
+					"path": "dist/lara/paginator/index.mjs"
+				},
+				{
+					"path": "dist/lara/paginator/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/panel/index.d.ts"
+				},
+				{
+					"path": "dist/lara/panel/index.mjs"
+				},
+				{
+					"path": "dist/lara/panel/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/panelmenu/index.d.ts"
+				},
+				{
+					"path": "dist/lara/panelmenu/index.mjs"
+				},
+				{
+					"path": "dist/lara/panelmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/password/index.d.ts"
+				},
+				{
+					"path": "dist/lara/password/index.mjs"
+				},
+				{
+					"path": "dist/lara/password/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/picklist/index.d.ts"
+				},
+				{
+					"path": "dist/lara/picklist/index.mjs"
+				},
+				{
+					"path": "dist/lara/picklist/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/popover/index.d.ts"
+				},
+				{
+					"path": "dist/lara/popover/index.mjs"
+				},
+				{
+					"path": "dist/lara/popover/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/progressbar/index.d.ts"
+				},
+				{
+					"path": "dist/lara/progressbar/index.mjs"
+				},
+				{
+					"path": "dist/lara/progressbar/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/progressspinner/index.d.ts"
+				},
+				{
+					"path": "dist/lara/progressspinner/index.mjs"
+				},
+				{
+					"path": "dist/lara/progressspinner/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/radiobutton/index.d.ts"
+				},
+				{
+					"path": "dist/lara/radiobutton/index.mjs"
+				},
+				{
+					"path": "dist/lara/radiobutton/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/rating/index.d.ts"
+				},
+				{
+					"path": "dist/lara/rating/index.mjs"
+				},
+				{
+					"path": "dist/lara/rating/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/ripple/index.d.ts"
+				},
+				{
+					"path": "dist/lara/ripple/index.mjs"
+				},
+				{
+					"path": "dist/lara/ripple/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/scrollpanel/index.d.ts"
+				},
+				{
+					"path": "dist/lara/scrollpanel/index.mjs"
+				},
+				{
+					"path": "dist/lara/scrollpanel/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/select/index.d.ts"
+				},
+				{
+					"path": "dist/lara/select/index.mjs"
+				},
+				{
+					"path": "dist/lara/select/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/selectbutton/index.d.ts"
+				},
+				{
+					"path": "dist/lara/selectbutton/index.mjs"
+				},
+				{
+					"path": "dist/lara/selectbutton/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/skeleton/index.d.ts"
+				},
+				{
+					"path": "dist/lara/skeleton/index.mjs"
+				},
+				{
+					"path": "dist/lara/skeleton/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/slider/index.d.ts"
+				},
+				{
+					"path": "dist/lara/slider/index.mjs"
+				},
+				{
+					"path": "dist/lara/slider/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/speeddial/index.d.ts"
+				},
+				{
+					"path": "dist/lara/speeddial/index.mjs"
+				},
+				{
+					"path": "dist/lara/speeddial/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/splitbutton/index.d.ts"
+				},
+				{
+					"path": "dist/lara/splitbutton/index.mjs"
+				},
+				{
+					"path": "dist/lara/splitbutton/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/splitter/index.d.ts"
+				},
+				{
+					"path": "dist/lara/splitter/index.mjs"
+				},
+				{
+					"path": "dist/lara/splitter/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/stepper/index.d.ts"
+				},
+				{
+					"path": "dist/lara/stepper/index.mjs"
+				},
+				{
+					"path": "dist/lara/stepper/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/steps/index.d.ts"
+				},
+				{
+					"path": "dist/lara/steps/index.mjs"
+				},
+				{
+					"path": "dist/lara/steps/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/tabmenu/index.d.ts"
+				},
+				{
+					"path": "dist/lara/tabmenu/index.mjs"
+				},
+				{
+					"path": "dist/lara/tabmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/tabs/index.d.ts"
+				},
+				{
+					"path": "dist/lara/tabs/index.mjs"
+				},
+				{
+					"path": "dist/lara/tabs/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/tabview/index.d.ts"
+				},
+				{
+					"path": "dist/lara/tabview/index.mjs"
+				},
+				{
+					"path": "dist/lara/tabview/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/tag/index.d.ts"
+				},
+				{
+					"path": "dist/lara/tag/index.mjs"
+				},
+				{
+					"path": "dist/lara/tag/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/terminal/index.d.ts"
+				},
+				{
+					"path": "dist/lara/terminal/index.mjs"
+				},
+				{
+					"path": "dist/lara/terminal/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/textarea/index.d.ts"
+				},
+				{
+					"path": "dist/lara/textarea/index.mjs"
+				},
+				{
+					"path": "dist/lara/textarea/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/tieredmenu/index.d.ts"
+				},
+				{
+					"path": "dist/lara/tieredmenu/index.mjs"
+				},
+				{
+					"path": "dist/lara/tieredmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/timeline/index.d.ts"
+				},
+				{
+					"path": "dist/lara/timeline/index.mjs"
+				},
+				{
+					"path": "dist/lara/timeline/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/toast/index.d.ts"
+				},
+				{
+					"path": "dist/lara/toast/index.mjs"
+				},
+				{
+					"path": "dist/lara/toast/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/togglebutton/index.d.ts"
+				},
+				{
+					"path": "dist/lara/togglebutton/index.mjs"
+				},
+				{
+					"path": "dist/lara/togglebutton/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/toggleswitch/index.d.ts"
+				},
+				{
+					"path": "dist/lara/toggleswitch/index.mjs"
+				},
+				{
+					"path": "dist/lara/toggleswitch/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/toolbar/index.d.ts"
+				},
+				{
+					"path": "dist/lara/toolbar/index.mjs"
+				},
+				{
+					"path": "dist/lara/toolbar/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/tooltip/index.d.ts"
+				},
+				{
+					"path": "dist/lara/tooltip/index.mjs"
+				},
+				{
+					"path": "dist/lara/tooltip/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/tree/index.d.ts"
+				},
+				{
+					"path": "dist/lara/tree/index.mjs"
+				},
+				{
+					"path": "dist/lara/tree/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/treeselect/index.d.ts"
+				},
+				{
+					"path": "dist/lara/treeselect/index.mjs"
+				},
+				{
+					"path": "dist/lara/treeselect/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/treetable/index.d.ts"
+				},
+				{
+					"path": "dist/lara/treetable/index.mjs"
+				},
+				{
+					"path": "dist/lara/treetable/index.mjs.map"
+				},
+				{
+					"path": "dist/lara/virtualscroller/index.d.ts"
+				},
+				{
+					"path": "dist/lara/virtualscroller/index.mjs"
+				},
+				{
+					"path": "dist/lara/virtualscroller/index.mjs.map"
+				},
+				{
+					"path": "dist/material/accordion/index.d.ts"
+				},
+				{
+					"path": "dist/material/accordion/index.mjs"
+				},
+				{
+					"path": "dist/material/accordion/index.mjs.map"
+				},
+				{
+					"path": "dist/material/autocomplete/index.d.ts"
+				},
+				{
+					"path": "dist/material/autocomplete/index.mjs"
+				},
+				{
+					"path": "dist/material/autocomplete/index.mjs.map"
+				},
+				{
+					"path": "dist/material/avatar/index.d.ts"
+				},
+				{
+					"path": "dist/material/avatar/index.mjs"
+				},
+				{
+					"path": "dist/material/avatar/index.mjs.map"
+				},
+				{
+					"path": "dist/material/badge/index.d.ts"
+				},
+				{
+					"path": "dist/material/badge/index.mjs"
+				},
+				{
+					"path": "dist/material/badge/index.mjs.map"
+				},
+				{
+					"path": "dist/material/base/index.d.ts"
+				},
+				{
+					"path": "dist/material/base/index.mjs"
+				},
+				{
+					"path": "dist/material/base/index.mjs.map"
+				},
+				{
+					"path": "dist/material/blockui/index.d.ts"
+				},
+				{
+					"path": "dist/material/blockui/index.mjs"
+				},
+				{
+					"path": "dist/material/blockui/index.mjs.map"
+				},
+				{
+					"path": "dist/material/breadcrumb/index.d.ts"
+				},
+				{
+					"path": "dist/material/breadcrumb/index.mjs"
+				},
+				{
+					"path": "dist/material/breadcrumb/index.mjs.map"
+				},
+				{
+					"path": "dist/material/button/index.d.ts"
+				},
+				{
+					"path": "dist/material/button/index.mjs"
+				},
+				{
+					"path": "dist/material/button/index.mjs.map"
+				},
+				{
+					"path": "dist/material/card/index.d.ts"
+				},
+				{
+					"path": "dist/material/card/index.mjs"
+				},
+				{
+					"path": "dist/material/card/index.mjs.map"
+				},
+				{
+					"path": "dist/material/carousel/index.d.ts"
+				},
+				{
+					"path": "dist/material/carousel/index.mjs"
+				},
+				{
+					"path": "dist/material/carousel/index.mjs.map"
+				},
+				{
+					"path": "dist/material/cascadeselect/index.d.ts"
+				},
+				{
+					"path": "dist/material/cascadeselect/index.mjs"
+				},
+				{
+					"path": "dist/material/cascadeselect/index.mjs.map"
+				},
+				{
+					"path": "dist/material/checkbox/index.d.ts"
+				},
+				{
+					"path": "dist/material/checkbox/index.mjs"
+				},
+				{
+					"path": "dist/material/checkbox/index.mjs.map"
+				},
+				{
+					"path": "dist/material/chip/index.d.ts"
+				},
+				{
+					"path": "dist/material/chip/index.mjs"
+				},
+				{
+					"path": "dist/material/chip/index.mjs.map"
+				},
+				{
+					"path": "dist/material/colorpicker/index.d.ts"
+				},
+				{
+					"path": "dist/material/colorpicker/index.mjs"
+				},
+				{
+					"path": "dist/material/colorpicker/index.mjs.map"
+				},
+				{
+					"path": "dist/material/confirmdialog/index.d.ts"
+				},
+				{
+					"path": "dist/material/confirmdialog/index.mjs"
+				},
+				{
+					"path": "dist/material/confirmdialog/index.mjs.map"
+				},
+				{
+					"path": "dist/material/confirmpopup/index.d.ts"
+				},
+				{
+					"path": "dist/material/confirmpopup/index.mjs"
+				},
+				{
+					"path": "dist/material/confirmpopup/index.mjs.map"
+				},
+				{
+					"path": "dist/material/contextmenu/index.d.ts"
+				},
+				{
+					"path": "dist/material/contextmenu/index.mjs"
+				},
+				{
+					"path": "dist/material/contextmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/material/datatable/index.d.ts"
+				},
+				{
+					"path": "dist/material/datatable/index.mjs"
+				},
+				{
+					"path": "dist/material/datatable/index.mjs.map"
+				},
+				{
+					"path": "dist/material/dataview/index.d.ts"
+				},
+				{
+					"path": "dist/material/dataview/index.mjs"
+				},
+				{
+					"path": "dist/material/dataview/index.mjs.map"
+				},
+				{
+					"path": "dist/material/datepicker/index.d.ts"
+				},
+				{
+					"path": "dist/material/datepicker/index.mjs"
+				},
+				{
+					"path": "dist/material/datepicker/index.mjs.map"
+				},
+				{
+					"path": "dist/material/dialog/index.d.ts"
+				},
+				{
+					"path": "dist/material/dialog/index.mjs"
+				},
+				{
+					"path": "dist/material/dialog/index.mjs.map"
+				},
+				{
+					"path": "dist/material/divider/index.d.ts"
+				},
+				{
+					"path": "dist/material/divider/index.mjs"
+				},
+				{
+					"path": "dist/material/divider/index.mjs.map"
+				},
+				{
+					"path": "dist/material/dock/index.d.ts"
+				},
+				{
+					"path": "dist/material/dock/index.mjs"
+				},
+				{
+					"path": "dist/material/dock/index.mjs.map"
+				},
+				{
+					"path": "dist/material/drawer/index.d.ts"
+				},
+				{
+					"path": "dist/material/drawer/index.mjs"
+				},
+				{
+					"path": "dist/material/drawer/index.mjs.map"
+				},
+				{
+					"path": "dist/material/editor/index.d.ts"
+				},
+				{
+					"path": "dist/material/editor/index.mjs"
+				},
+				{
+					"path": "dist/material/editor/index.mjs.map"
+				},
+				{
+					"path": "dist/material/fieldset/index.d.ts"
+				},
+				{
+					"path": "dist/material/fieldset/index.mjs"
+				},
+				{
+					"path": "dist/material/fieldset/index.mjs.map"
+				},
+				{
+					"path": "dist/material/fileupload/index.d.ts"
+				},
+				{
+					"path": "dist/material/fileupload/index.mjs"
+				},
+				{
+					"path": "dist/material/fileupload/index.mjs.map"
+				},
+				{
+					"path": "dist/material/floatlabel/index.d.ts"
+				},
+				{
+					"path": "dist/material/floatlabel/index.mjs"
+				},
+				{
+					"path": "dist/material/floatlabel/index.mjs.map"
+				},
+				{
+					"path": "dist/material/galleria/index.d.ts"
+				},
+				{
+					"path": "dist/material/galleria/index.mjs"
+				},
+				{
+					"path": "dist/material/galleria/index.mjs.map"
+				},
+				{
+					"path": "dist/material/iconfield/index.d.ts"
+				},
+				{
+					"path": "dist/material/iconfield/index.mjs"
+				},
+				{
+					"path": "dist/material/iconfield/index.mjs.map"
+				},
+				{
+					"path": "dist/material/iftalabel/index.d.ts"
+				},
+				{
+					"path": "dist/material/iftalabel/index.mjs"
+				},
+				{
+					"path": "dist/material/iftalabel/index.mjs.map"
+				},
+				{
+					"path": "dist/material/image/index.d.ts"
+				},
+				{
+					"path": "dist/material/image/index.mjs"
+				},
+				{
+					"path": "dist/material/image/index.mjs.map"
+				},
+				{
+					"path": "dist/material/imagecompare/index.d.ts"
+				},
+				{
+					"path": "dist/material/imagecompare/index.mjs"
+				},
+				{
+					"path": "dist/material/imagecompare/index.mjs.map"
+				},
+				{
+					"path": "dist/material/index.d.ts"
+				},
+				{
+					"path": "dist/material/index.mjs"
+				},
+				{
+					"path": "dist/material/index.mjs.map"
+				},
+				{
+					"path": "dist/material/inlinemessage/index.d.ts"
+				},
+				{
+					"path": "dist/material/inlinemessage/index.mjs"
+				},
+				{
+					"path": "dist/material/inlinemessage/index.mjs.map"
+				},
+				{
+					"path": "dist/material/inplace/index.d.ts"
+				},
+				{
+					"path": "dist/material/inplace/index.mjs"
+				},
+				{
+					"path": "dist/material/inplace/index.mjs.map"
+				},
+				{
+					"path": "dist/material/inputchips/index.d.ts"
+				},
+				{
+					"path": "dist/material/inputchips/index.mjs"
+				},
+				{
+					"path": "dist/material/inputchips/index.mjs.map"
+				},
+				{
+					"path": "dist/material/inputgroup/index.d.ts"
+				},
+				{
+					"path": "dist/material/inputgroup/index.mjs"
+				},
+				{
+					"path": "dist/material/inputgroup/index.mjs.map"
+				},
+				{
+					"path": "dist/material/inputnumber/index.d.ts"
+				},
+				{
+					"path": "dist/material/inputnumber/index.mjs"
+				},
+				{
+					"path": "dist/material/inputnumber/index.mjs.map"
+				},
+				{
+					"path": "dist/material/inputotp/index.d.ts"
+				},
+				{
+					"path": "dist/material/inputotp/index.mjs"
+				},
+				{
+					"path": "dist/material/inputotp/index.mjs.map"
+				},
+				{
+					"path": "dist/material/inputtext/index.d.ts"
+				},
+				{
+					"path": "dist/material/inputtext/index.mjs"
+				},
+				{
+					"path": "dist/material/inputtext/index.mjs.map"
+				},
+				{
+					"path": "dist/material/knob/index.d.ts"
+				},
+				{
+					"path": "dist/material/knob/index.mjs"
+				},
+				{
+					"path": "dist/material/knob/index.mjs.map"
+				},
+				{
+					"path": "dist/material/listbox/index.d.ts"
+				},
+				{
+					"path": "dist/material/listbox/index.mjs"
+				},
+				{
+					"path": "dist/material/listbox/index.mjs.map"
+				},
+				{
+					"path": "dist/material/megamenu/index.d.ts"
+				},
+				{
+					"path": "dist/material/megamenu/index.mjs"
+				},
+				{
+					"path": "dist/material/megamenu/index.mjs.map"
+				},
+				{
+					"path": "dist/material/menu/index.d.ts"
+				},
+				{
+					"path": "dist/material/menu/index.mjs"
+				},
+				{
+					"path": "dist/material/menu/index.mjs.map"
+				},
+				{
+					"path": "dist/material/menubar/index.d.ts"
+				},
+				{
+					"path": "dist/material/menubar/index.mjs"
+				},
+				{
+					"path": "dist/material/menubar/index.mjs.map"
+				},
+				{
+					"path": "dist/material/message/index.d.ts"
+				},
+				{
+					"path": "dist/material/message/index.mjs"
+				},
+				{
+					"path": "dist/material/message/index.mjs.map"
+				},
+				{
+					"path": "dist/material/metergroup/index.d.ts"
+				},
+				{
+					"path": "dist/material/metergroup/index.mjs"
+				},
+				{
+					"path": "dist/material/metergroup/index.mjs.map"
+				},
+				{
+					"path": "dist/material/multiselect/index.d.ts"
+				},
+				{
+					"path": "dist/material/multiselect/index.mjs"
+				},
+				{
+					"path": "dist/material/multiselect/index.mjs.map"
+				},
+				{
+					"path": "dist/material/orderlist/index.d.ts"
+				},
+				{
+					"path": "dist/material/orderlist/index.mjs"
+				},
+				{
+					"path": "dist/material/orderlist/index.mjs.map"
+				},
+				{
+					"path": "dist/material/organizationchart/index.d.ts"
+				},
+				{
+					"path": "dist/material/organizationchart/index.mjs"
+				},
+				{
+					"path": "dist/material/organizationchart/index.mjs.map"
+				},
+				{
+					"path": "dist/material/overlaybadge/index.d.ts"
+				},
+				{
+					"path": "dist/material/overlaybadge/index.mjs"
+				},
+				{
+					"path": "dist/material/overlaybadge/index.mjs.map"
+				},
+				{
+					"path": "dist/material/paginator/index.d.ts"
+				},
+				{
+					"path": "dist/material/paginator/index.mjs"
+				},
+				{
+					"path": "dist/material/paginator/index.mjs.map"
+				},
+				{
+					"path": "dist/material/panel/index.d.ts"
+				},
+				{
+					"path": "dist/material/panel/index.mjs"
+				},
+				{
+					"path": "dist/material/panel/index.mjs.map"
+				},
+				{
+					"path": "dist/material/panelmenu/index.d.ts"
+				},
+				{
+					"path": "dist/material/panelmenu/index.mjs"
+				},
+				{
+					"path": "dist/material/panelmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/material/password/index.d.ts"
+				},
+				{
+					"path": "dist/material/password/index.mjs"
+				},
+				{
+					"path": "dist/material/password/index.mjs.map"
+				},
+				{
+					"path": "dist/material/picklist/index.d.ts"
+				},
+				{
+					"path": "dist/material/picklist/index.mjs"
+				},
+				{
+					"path": "dist/material/picklist/index.mjs.map"
+				},
+				{
+					"path": "dist/material/popover/index.d.ts"
+				},
+				{
+					"path": "dist/material/popover/index.mjs"
+				},
+				{
+					"path": "dist/material/popover/index.mjs.map"
+				},
+				{
+					"path": "dist/material/progressbar/index.d.ts"
+				},
+				{
+					"path": "dist/material/progressbar/index.mjs"
+				},
+				{
+					"path": "dist/material/progressbar/index.mjs.map"
+				},
+				{
+					"path": "dist/material/progressspinner/index.d.ts"
+				},
+				{
+					"path": "dist/material/progressspinner/index.mjs"
+				},
+				{
+					"path": "dist/material/progressspinner/index.mjs.map"
+				},
+				{
+					"path": "dist/material/radiobutton/index.d.ts"
+				},
+				{
+					"path": "dist/material/radiobutton/index.mjs"
+				},
+				{
+					"path": "dist/material/radiobutton/index.mjs.map"
+				},
+				{
+					"path": "dist/material/rating/index.d.ts"
+				},
+				{
+					"path": "dist/material/rating/index.mjs"
+				},
+				{
+					"path": "dist/material/rating/index.mjs.map"
+				},
+				{
+					"path": "dist/material/ripple/index.d.ts"
+				},
+				{
+					"path": "dist/material/ripple/index.mjs"
+				},
+				{
+					"path": "dist/material/ripple/index.mjs.map"
+				},
+				{
+					"path": "dist/material/scrollpanel/index.d.ts"
+				},
+				{
+					"path": "dist/material/scrollpanel/index.mjs"
+				},
+				{
+					"path": "dist/material/scrollpanel/index.mjs.map"
+				},
+				{
+					"path": "dist/material/select/index.d.ts"
+				},
+				{
+					"path": "dist/material/select/index.mjs"
+				},
+				{
+					"path": "dist/material/select/index.mjs.map"
+				},
+				{
+					"path": "dist/material/selectbutton/index.d.ts"
+				},
+				{
+					"path": "dist/material/selectbutton/index.mjs"
+				},
+				{
+					"path": "dist/material/selectbutton/index.mjs.map"
+				},
+				{
+					"path": "dist/material/skeleton/index.d.ts"
+				},
+				{
+					"path": "dist/material/skeleton/index.mjs"
+				},
+				{
+					"path": "dist/material/skeleton/index.mjs.map"
+				},
+				{
+					"path": "dist/material/slider/index.d.ts"
+				},
+				{
+					"path": "dist/material/slider/index.mjs"
+				},
+				{
+					"path": "dist/material/slider/index.mjs.map"
+				},
+				{
+					"path": "dist/material/speeddial/index.d.ts"
+				},
+				{
+					"path": "dist/material/speeddial/index.mjs"
+				},
+				{
+					"path": "dist/material/speeddial/index.mjs.map"
+				},
+				{
+					"path": "dist/material/splitbutton/index.d.ts"
+				},
+				{
+					"path": "dist/material/splitbutton/index.mjs"
+				},
+				{
+					"path": "dist/material/splitbutton/index.mjs.map"
+				},
+				{
+					"path": "dist/material/splitter/index.d.ts"
+				},
+				{
+					"path": "dist/material/splitter/index.mjs"
+				},
+				{
+					"path": "dist/material/splitter/index.mjs.map"
+				},
+				{
+					"path": "dist/material/stepper/index.d.ts"
+				},
+				{
+					"path": "dist/material/stepper/index.mjs"
+				},
+				{
+					"path": "dist/material/stepper/index.mjs.map"
+				},
+				{
+					"path": "dist/material/steps/index.d.ts"
+				},
+				{
+					"path": "dist/material/steps/index.mjs"
+				},
+				{
+					"path": "dist/material/steps/index.mjs.map"
+				},
+				{
+					"path": "dist/material/tabmenu/index.d.ts"
+				},
+				{
+					"path": "dist/material/tabmenu/index.mjs"
+				},
+				{
+					"path": "dist/material/tabmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/material/tabs/index.d.ts"
+				},
+				{
+					"path": "dist/material/tabs/index.mjs"
+				},
+				{
+					"path": "dist/material/tabs/index.mjs.map"
+				},
+				{
+					"path": "dist/material/tabview/index.d.ts"
+				},
+				{
+					"path": "dist/material/tabview/index.mjs"
+				},
+				{
+					"path": "dist/material/tabview/index.mjs.map"
+				},
+				{
+					"path": "dist/material/tag/index.d.ts"
+				},
+				{
+					"path": "dist/material/tag/index.mjs"
+				},
+				{
+					"path": "dist/material/tag/index.mjs.map"
+				},
+				{
+					"path": "dist/material/terminal/index.d.ts"
+				},
+				{
+					"path": "dist/material/terminal/index.mjs"
+				},
+				{
+					"path": "dist/material/terminal/index.mjs.map"
+				},
+				{
+					"path": "dist/material/textarea/index.d.ts"
+				},
+				{
+					"path": "dist/material/textarea/index.mjs"
+				},
+				{
+					"path": "dist/material/textarea/index.mjs.map"
+				},
+				{
+					"path": "dist/material/tieredmenu/index.d.ts"
+				},
+				{
+					"path": "dist/material/tieredmenu/index.mjs"
+				},
+				{
+					"path": "dist/material/tieredmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/material/timeline/index.d.ts"
+				},
+				{
+					"path": "dist/material/timeline/index.mjs"
+				},
+				{
+					"path": "dist/material/timeline/index.mjs.map"
+				},
+				{
+					"path": "dist/material/toast/index.d.ts"
+				},
+				{
+					"path": "dist/material/toast/index.mjs"
+				},
+				{
+					"path": "dist/material/toast/index.mjs.map"
+				},
+				{
+					"path": "dist/material/togglebutton/index.d.ts"
+				},
+				{
+					"path": "dist/material/togglebutton/index.mjs"
+				},
+				{
+					"path": "dist/material/togglebutton/index.mjs.map"
+				},
+				{
+					"path": "dist/material/toggleswitch/index.d.ts"
+				},
+				{
+					"path": "dist/material/toggleswitch/index.mjs"
+				},
+				{
+					"path": "dist/material/toggleswitch/index.mjs.map"
+				},
+				{
+					"path": "dist/material/toolbar/index.d.ts"
+				},
+				{
+					"path": "dist/material/toolbar/index.mjs"
+				},
+				{
+					"path": "dist/material/toolbar/index.mjs.map"
+				},
+				{
+					"path": "dist/material/tooltip/index.d.ts"
+				},
+				{
+					"path": "dist/material/tooltip/index.mjs"
+				},
+				{
+					"path": "dist/material/tooltip/index.mjs.map"
+				},
+				{
+					"path": "dist/material/tree/index.d.ts"
+				},
+				{
+					"path": "dist/material/tree/index.mjs"
+				},
+				{
+					"path": "dist/material/tree/index.mjs.map"
+				},
+				{
+					"path": "dist/material/treeselect/index.d.ts"
+				},
+				{
+					"path": "dist/material/treeselect/index.mjs"
+				},
+				{
+					"path": "dist/material/treeselect/index.mjs.map"
+				},
+				{
+					"path": "dist/material/treetable/index.d.ts"
+				},
+				{
+					"path": "dist/material/treetable/index.mjs"
+				},
+				{
+					"path": "dist/material/treetable/index.mjs.map"
+				},
+				{
+					"path": "dist/material/virtualscroller/index.d.ts"
+				},
+				{
+					"path": "dist/material/virtualscroller/index.mjs"
+				},
+				{
+					"path": "dist/material/virtualscroller/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/accordion/index.d.ts"
+				},
+				{
+					"path": "dist/nora/accordion/index.mjs"
+				},
+				{
+					"path": "dist/nora/accordion/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/autocomplete/index.d.ts"
+				},
+				{
+					"path": "dist/nora/autocomplete/index.mjs"
+				},
+				{
+					"path": "dist/nora/autocomplete/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/avatar/index.d.ts"
+				},
+				{
+					"path": "dist/nora/avatar/index.mjs"
+				},
+				{
+					"path": "dist/nora/avatar/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/badge/index.d.ts"
+				},
+				{
+					"path": "dist/nora/badge/index.mjs"
+				},
+				{
+					"path": "dist/nora/badge/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/base/index.d.ts"
+				},
+				{
+					"path": "dist/nora/base/index.mjs"
+				},
+				{
+					"path": "dist/nora/base/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/blockui/index.d.ts"
+				},
+				{
+					"path": "dist/nora/blockui/index.mjs"
+				},
+				{
+					"path": "dist/nora/blockui/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/breadcrumb/index.d.ts"
+				},
+				{
+					"path": "dist/nora/breadcrumb/index.mjs"
+				},
+				{
+					"path": "dist/nora/breadcrumb/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/button/index.d.ts"
+				},
+				{
+					"path": "dist/nora/button/index.mjs"
+				},
+				{
+					"path": "dist/nora/button/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/card/index.d.ts"
+				},
+				{
+					"path": "dist/nora/card/index.mjs"
+				},
+				{
+					"path": "dist/nora/card/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/carousel/index.d.ts"
+				},
+				{
+					"path": "dist/nora/carousel/index.mjs"
+				},
+				{
+					"path": "dist/nora/carousel/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/cascadeselect/index.d.ts"
+				},
+				{
+					"path": "dist/nora/cascadeselect/index.mjs"
+				},
+				{
+					"path": "dist/nora/cascadeselect/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/checkbox/index.d.ts"
+				},
+				{
+					"path": "dist/nora/checkbox/index.mjs"
+				},
+				{
+					"path": "dist/nora/checkbox/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/chip/index.d.ts"
+				},
+				{
+					"path": "dist/nora/chip/index.mjs"
+				},
+				{
+					"path": "dist/nora/chip/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/colorpicker/index.d.ts"
+				},
+				{
+					"path": "dist/nora/colorpicker/index.mjs"
+				},
+				{
+					"path": "dist/nora/colorpicker/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/confirmdialog/index.d.ts"
+				},
+				{
+					"path": "dist/nora/confirmdialog/index.mjs"
+				},
+				{
+					"path": "dist/nora/confirmdialog/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/confirmpopup/index.d.ts"
+				},
+				{
+					"path": "dist/nora/confirmpopup/index.mjs"
+				},
+				{
+					"path": "dist/nora/confirmpopup/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/contextmenu/index.d.ts"
+				},
+				{
+					"path": "dist/nora/contextmenu/index.mjs"
+				},
+				{
+					"path": "dist/nora/contextmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/datatable/index.d.ts"
+				},
+				{
+					"path": "dist/nora/datatable/index.mjs"
+				},
+				{
+					"path": "dist/nora/datatable/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/dataview/index.d.ts"
+				},
+				{
+					"path": "dist/nora/dataview/index.mjs"
+				},
+				{
+					"path": "dist/nora/dataview/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/datepicker/index.d.ts"
+				},
+				{
+					"path": "dist/nora/datepicker/index.mjs"
+				},
+				{
+					"path": "dist/nora/datepicker/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/dialog/index.d.ts"
+				},
+				{
+					"path": "dist/nora/dialog/index.mjs"
+				},
+				{
+					"path": "dist/nora/dialog/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/divider/index.d.ts"
+				},
+				{
+					"path": "dist/nora/divider/index.mjs"
+				},
+				{
+					"path": "dist/nora/divider/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/dock/index.d.ts"
+				},
+				{
+					"path": "dist/nora/dock/index.mjs"
+				},
+				{
+					"path": "dist/nora/dock/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/drawer/index.d.ts"
+				},
+				{
+					"path": "dist/nora/drawer/index.mjs"
+				},
+				{
+					"path": "dist/nora/drawer/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/editor/index.d.ts"
+				},
+				{
+					"path": "dist/nora/editor/index.mjs"
+				},
+				{
+					"path": "dist/nora/editor/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/fieldset/index.d.ts"
+				},
+				{
+					"path": "dist/nora/fieldset/index.mjs"
+				},
+				{
+					"path": "dist/nora/fieldset/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/fileupload/index.d.ts"
+				},
+				{
+					"path": "dist/nora/fileupload/index.mjs"
+				},
+				{
+					"path": "dist/nora/fileupload/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/floatlabel/index.d.ts"
+				},
+				{
+					"path": "dist/nora/floatlabel/index.mjs"
+				},
+				{
+					"path": "dist/nora/floatlabel/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/galleria/index.d.ts"
+				},
+				{
+					"path": "dist/nora/galleria/index.mjs"
+				},
+				{
+					"path": "dist/nora/galleria/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/iconfield/index.d.ts"
+				},
+				{
+					"path": "dist/nora/iconfield/index.mjs"
+				},
+				{
+					"path": "dist/nora/iconfield/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/iftalabel/index.d.ts"
+				},
+				{
+					"path": "dist/nora/iftalabel/index.mjs"
+				},
+				{
+					"path": "dist/nora/iftalabel/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/image/index.d.ts"
+				},
+				{
+					"path": "dist/nora/image/index.mjs"
+				},
+				{
+					"path": "dist/nora/image/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/imagecompare/index.d.ts"
+				},
+				{
+					"path": "dist/nora/imagecompare/index.mjs"
+				},
+				{
+					"path": "dist/nora/imagecompare/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/index.d.ts"
+				},
+				{
+					"path": "dist/nora/index.mjs"
+				},
+				{
+					"path": "dist/nora/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/inlinemessage/index.d.ts"
+				},
+				{
+					"path": "dist/nora/inlinemessage/index.mjs"
+				},
+				{
+					"path": "dist/nora/inlinemessage/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/inplace/index.d.ts"
+				},
+				{
+					"path": "dist/nora/inplace/index.mjs"
+				},
+				{
+					"path": "dist/nora/inplace/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/inputchips/index.d.ts"
+				},
+				{
+					"path": "dist/nora/inputchips/index.mjs"
+				},
+				{
+					"path": "dist/nora/inputchips/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/inputgroup/index.d.ts"
+				},
+				{
+					"path": "dist/nora/inputgroup/index.mjs"
+				},
+				{
+					"path": "dist/nora/inputgroup/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/inputnumber/index.d.ts"
+				},
+				{
+					"path": "dist/nora/inputnumber/index.mjs"
+				},
+				{
+					"path": "dist/nora/inputnumber/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/inputotp/index.d.ts"
+				},
+				{
+					"path": "dist/nora/inputotp/index.mjs"
+				},
+				{
+					"path": "dist/nora/inputotp/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/inputtext/index.d.ts"
+				},
+				{
+					"path": "dist/nora/inputtext/index.mjs"
+				},
+				{
+					"path": "dist/nora/inputtext/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/knob/index.d.ts"
+				},
+				{
+					"path": "dist/nora/knob/index.mjs"
+				},
+				{
+					"path": "dist/nora/knob/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/listbox/index.d.ts"
+				},
+				{
+					"path": "dist/nora/listbox/index.mjs"
+				},
+				{
+					"path": "dist/nora/listbox/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/megamenu/index.d.ts"
+				},
+				{
+					"path": "dist/nora/megamenu/index.mjs"
+				},
+				{
+					"path": "dist/nora/megamenu/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/menu/index.d.ts"
+				},
+				{
+					"path": "dist/nora/menu/index.mjs"
+				},
+				{
+					"path": "dist/nora/menu/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/menubar/index.d.ts"
+				},
+				{
+					"path": "dist/nora/menubar/index.mjs"
+				},
+				{
+					"path": "dist/nora/menubar/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/message/index.d.ts"
+				},
+				{
+					"path": "dist/nora/message/index.mjs"
+				},
+				{
+					"path": "dist/nora/message/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/metergroup/index.d.ts"
+				},
+				{
+					"path": "dist/nora/metergroup/index.mjs"
+				},
+				{
+					"path": "dist/nora/metergroup/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/multiselect/index.d.ts"
+				},
+				{
+					"path": "dist/nora/multiselect/index.mjs"
+				},
+				{
+					"path": "dist/nora/multiselect/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/orderlist/index.d.ts"
+				},
+				{
+					"path": "dist/nora/orderlist/index.mjs"
+				},
+				{
+					"path": "dist/nora/orderlist/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/organizationchart/index.d.ts"
+				},
+				{
+					"path": "dist/nora/organizationchart/index.mjs"
+				},
+				{
+					"path": "dist/nora/organizationchart/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/overlaybadge/index.d.ts"
+				},
+				{
+					"path": "dist/nora/overlaybadge/index.mjs"
+				},
+				{
+					"path": "dist/nora/overlaybadge/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/paginator/index.d.ts"
+				},
+				{
+					"path": "dist/nora/paginator/index.mjs"
+				},
+				{
+					"path": "dist/nora/paginator/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/panel/index.d.ts"
+				},
+				{
+					"path": "dist/nora/panel/index.mjs"
+				},
+				{
+					"path": "dist/nora/panel/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/panelmenu/index.d.ts"
+				},
+				{
+					"path": "dist/nora/panelmenu/index.mjs"
+				},
+				{
+					"path": "dist/nora/panelmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/password/index.d.ts"
+				},
+				{
+					"path": "dist/nora/password/index.mjs"
+				},
+				{
+					"path": "dist/nora/password/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/picklist/index.d.ts"
+				},
+				{
+					"path": "dist/nora/picklist/index.mjs"
+				},
+				{
+					"path": "dist/nora/picklist/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/popover/index.d.ts"
+				},
+				{
+					"path": "dist/nora/popover/index.mjs"
+				},
+				{
+					"path": "dist/nora/popover/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/progressbar/index.d.ts"
+				},
+				{
+					"path": "dist/nora/progressbar/index.mjs"
+				},
+				{
+					"path": "dist/nora/progressbar/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/progressspinner/index.d.ts"
+				},
+				{
+					"path": "dist/nora/progressspinner/index.mjs"
+				},
+				{
+					"path": "dist/nora/progressspinner/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/radiobutton/index.d.ts"
+				},
+				{
+					"path": "dist/nora/radiobutton/index.mjs"
+				},
+				{
+					"path": "dist/nora/radiobutton/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/rating/index.d.ts"
+				},
+				{
+					"path": "dist/nora/rating/index.mjs"
+				},
+				{
+					"path": "dist/nora/rating/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/ripple/index.d.ts"
+				},
+				{
+					"path": "dist/nora/ripple/index.mjs"
+				},
+				{
+					"path": "dist/nora/ripple/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/scrollpanel/index.d.ts"
+				},
+				{
+					"path": "dist/nora/scrollpanel/index.mjs"
+				},
+				{
+					"path": "dist/nora/scrollpanel/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/select/index.d.ts"
+				},
+				{
+					"path": "dist/nora/select/index.mjs"
+				},
+				{
+					"path": "dist/nora/select/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/selectbutton/index.d.ts"
+				},
+				{
+					"path": "dist/nora/selectbutton/index.mjs"
+				},
+				{
+					"path": "dist/nora/selectbutton/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/skeleton/index.d.ts"
+				},
+				{
+					"path": "dist/nora/skeleton/index.mjs"
+				},
+				{
+					"path": "dist/nora/skeleton/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/slider/index.d.ts"
+				},
+				{
+					"path": "dist/nora/slider/index.mjs"
+				},
+				{
+					"path": "dist/nora/slider/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/speeddial/index.d.ts"
+				},
+				{
+					"path": "dist/nora/speeddial/index.mjs"
+				},
+				{
+					"path": "dist/nora/speeddial/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/splitbutton/index.d.ts"
+				},
+				{
+					"path": "dist/nora/splitbutton/index.mjs"
+				},
+				{
+					"path": "dist/nora/splitbutton/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/splitter/index.d.ts"
+				},
+				{
+					"path": "dist/nora/splitter/index.mjs"
+				},
+				{
+					"path": "dist/nora/splitter/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/stepper/index.d.ts"
+				},
+				{
+					"path": "dist/nora/stepper/index.mjs"
+				},
+				{
+					"path": "dist/nora/stepper/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/steps/index.d.ts"
+				},
+				{
+					"path": "dist/nora/steps/index.mjs"
+				},
+				{
+					"path": "dist/nora/steps/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/tabmenu/index.d.ts"
+				},
+				{
+					"path": "dist/nora/tabmenu/index.mjs"
+				},
+				{
+					"path": "dist/nora/tabmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/tabs/index.d.ts"
+				},
+				{
+					"path": "dist/nora/tabs/index.mjs"
+				},
+				{
+					"path": "dist/nora/tabs/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/tabview/index.d.ts"
+				},
+				{
+					"path": "dist/nora/tabview/index.mjs"
+				},
+				{
+					"path": "dist/nora/tabview/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/tag/index.d.ts"
+				},
+				{
+					"path": "dist/nora/tag/index.mjs"
+				},
+				{
+					"path": "dist/nora/tag/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/terminal/index.d.ts"
+				},
+				{
+					"path": "dist/nora/terminal/index.mjs"
+				},
+				{
+					"path": "dist/nora/terminal/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/textarea/index.d.ts"
+				},
+				{
+					"path": "dist/nora/textarea/index.mjs"
+				},
+				{
+					"path": "dist/nora/textarea/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/tieredmenu/index.d.ts"
+				},
+				{
+					"path": "dist/nora/tieredmenu/index.mjs"
+				},
+				{
+					"path": "dist/nora/tieredmenu/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/timeline/index.d.ts"
+				},
+				{
+					"path": "dist/nora/timeline/index.mjs"
+				},
+				{
+					"path": "dist/nora/timeline/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/toast/index.d.ts"
+				},
+				{
+					"path": "dist/nora/toast/index.mjs"
+				},
+				{
+					"path": "dist/nora/toast/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/togglebutton/index.d.ts"
+				},
+				{
+					"path": "dist/nora/togglebutton/index.mjs"
+				},
+				{
+					"path": "dist/nora/togglebutton/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/toggleswitch/index.d.ts"
+				},
+				{
+					"path": "dist/nora/toggleswitch/index.mjs"
+				},
+				{
+					"path": "dist/nora/toggleswitch/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/toolbar/index.d.ts"
+				},
+				{
+					"path": "dist/nora/toolbar/index.mjs"
+				},
+				{
+					"path": "dist/nora/toolbar/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/tooltip/index.d.ts"
+				},
+				{
+					"path": "dist/nora/tooltip/index.mjs"
+				},
+				{
+					"path": "dist/nora/tooltip/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/tree/index.d.ts"
+				},
+				{
+					"path": "dist/nora/tree/index.mjs"
+				},
+				{
+					"path": "dist/nora/tree/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/treeselect/index.d.ts"
+				},
+				{
+					"path": "dist/nora/treeselect/index.mjs"
+				},
+				{
+					"path": "dist/nora/treeselect/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/treetable/index.d.ts"
+				},
+				{
+					"path": "dist/nora/treetable/index.mjs"
+				},
+				{
+					"path": "dist/nora/treetable/index.mjs.map"
+				},
+				{
+					"path": "dist/nora/virtualscroller/index.d.ts"
+				},
+				{
+					"path": "dist/nora/virtualscroller/index.mjs"
+				},
+				{
+					"path": "dist/nora/virtualscroller/index.mjs.map"
+				},
+				{
+					"path": "LICENSE"
+				},
+				{
+					"path": "package.json"
+				},
+				{
+					"path": "README.md"
+				},
+				{
+					"path": "tokens/index.d.mts"
+				},
+				{
+					"path": "tokens/index.mjs"
+				},
+				{
+					"path": "tokens/index.mjs.map"
+				},
+				{
+					"path": "types/accordion/index.d.ts"
+				},
+				{
+					"path": "types/autocomplete/index.d.ts"
+				},
+				{
+					"path": "types/avatar/index.d.ts"
+				},
+				{
+					"path": "types/badge/index.d.ts"
+				},
+				{
+					"path": "types/blockui/index.d.ts"
+				},
+				{
+					"path": "types/breadcrumb/index.d.ts"
+				},
+				{
+					"path": "types/button/index.d.ts"
+				},
+				{
+					"path": "types/card/index.d.ts"
+				},
+				{
+					"path": "types/carousel/index.d.ts"
+				},
+				{
+					"path": "types/cascadeselect/index.d.ts"
+				},
+				{
+					"path": "types/checkbox/index.d.ts"
+				},
+				{
+					"path": "types/chip/index.d.ts"
+				},
+				{
+					"path": "types/colorpicker/index.d.ts"
+				},
+				{
+					"path": "types/confirmdialog/index.d.ts"
+				},
+				{
+					"path": "types/confirmpopup/index.d.ts"
+				},
+				{
+					"path": "types/contextmenu/index.d.ts"
+				},
+				{
+					"path": "types/datatable/index.d.ts"
+				},
+				{
+					"path": "types/dataview/index.d.ts"
+				},
+				{
+					"path": "types/datepicker/index.d.ts"
+				},
+				{
+					"path": "types/dialog/index.d.ts"
+				},
+				{
+					"path": "types/divider/index.d.ts"
+				},
+				{
+					"path": "types/dock/index.d.ts"
+				},
+				{
+					"path": "types/drawer/index.d.ts"
+				},
+				{
+					"path": "types/editor/index.d.ts"
+				},
+				{
+					"path": "types/fieldset/index.d.ts"
+				},
+				{
+					"path": "types/fileupload/index.d.ts"
+				},
+				{
+					"path": "types/floatlabel/index.d.ts"
+				},
+				{
+					"path": "types/galleria/index.d.ts"
+				},
+				{
+					"path": "types/iconfield/index.d.ts"
+				},
+				{
+					"path": "types/iftalabel/index.d.ts"
+				},
+				{
+					"path": "types/image/index.d.ts"
+				},
+				{
+					"path": "types/imagecompare/index.d.ts"
+				},
+				{
+					"path": "types/index.d.ts"
+				},
+				{
+					"path": "types/inlinemessage/index.d.ts"
+				},
+				{
+					"path": "types/inplace/index.d.ts"
+				},
+				{
+					"path": "types/inputchips/index.d.ts"
+				},
+				{
+					"path": "types/inputgroup/index.d.ts"
+				},
+				{
+					"path": "types/inputnumber/index.d.ts"
+				},
+				{
+					"path": "types/inputotp/index.d.ts"
+				},
+				{
+					"path": "types/inputtext/index.d.ts"
+				},
+				{
+					"path": "types/knob/index.d.ts"
+				},
+				{
+					"path": "types/listbox/index.d.ts"
+				},
+				{
+					"path": "types/megamenu/index.d.ts"
+				},
+				{
+					"path": "types/menu/index.d.ts"
+				},
+				{
+					"path": "types/menubar/index.d.ts"
+				},
+				{
+					"path": "types/message/index.d.ts"
+				},
+				{
+					"path": "types/metergroup/index.d.ts"
+				},
+				{
+					"path": "types/multiselect/index.d.ts"
+				},
+				{
+					"path": "types/orderlist/index.d.ts"
+				},
+				{
+					"path": "types/organizationchart/index.d.ts"
+				},
+				{
+					"path": "types/overlaybadge/index.d.ts"
+				},
+				{
+					"path": "types/paginator/index.d.ts"
+				},
+				{
+					"path": "types/panel/index.d.ts"
+				},
+				{
+					"path": "types/panelmenu/index.d.ts"
+				},
+				{
+					"path": "types/password/index.d.ts"
+				},
+				{
+					"path": "types/picklist/index.d.ts"
+				},
+				{
+					"path": "types/popover/index.d.ts"
+				},
+				{
+					"path": "types/progressbar/index.d.ts"
+				},
+				{
+					"path": "types/progressspinner/index.d.ts"
+				},
+				{
+					"path": "types/radiobutton/index.d.ts"
+				},
+				{
+					"path": "types/rating/index.d.ts"
+				},
+				{
+					"path": "types/ripple/index.d.ts"
+				},
+				{
+					"path": "types/scrollpanel/index.d.ts"
+				},
+				{
+					"path": "types/select/index.d.ts"
+				},
+				{
+					"path": "types/selectbutton/index.d.ts"
+				},
+				{
+					"path": "types/skeleton/index.d.ts"
+				},
+				{
+					"path": "types/slider/index.d.ts"
+				},
+				{
+					"path": "types/speeddial/index.d.ts"
+				},
+				{
+					"path": "types/splitbutton/index.d.ts"
+				},
+				{
+					"path": "types/splitter/index.d.ts"
+				},
+				{
+					"path": "types/stepper/index.d.ts"
+				},
+				{
+					"path": "types/steps/index.d.ts"
+				},
+				{
+					"path": "types/tabmenu/index.d.ts"
+				},
+				{
+					"path": "types/tabs/index.d.ts"
+				},
+				{
+					"path": "types/tabview/index.d.ts"
+				},
+				{
+					"path": "types/tag/index.d.ts"
+				},
+				{
+					"path": "types/terminal/index.d.ts"
+				},
+				{
+					"path": "types/textarea/index.d.ts"
+				},
+				{
+					"path": "types/tieredmenu/index.d.ts"
+				},
+				{
+					"path": "types/timeline/index.d.ts"
+				},
+				{
+					"path": "types/toast/index.d.ts"
+				},
+				{
+					"path": "types/togglebutton/index.d.ts"
+				},
+				{
+					"path": "types/toggleswitch/index.d.ts"
+				},
+				{
+					"path": "types/toolbar/index.d.ts"
+				},
+				{
+					"path": "types/tooltip/index.d.ts"
+				},
+				{
+					"path": "types/tree/index.d.ts"
+				},
+				{
+					"path": "types/treeselect/index.d.ts"
+				},
+				{
+					"path": "types/treetable/index.d.ts"
+				},
+				{
+					"path": "types/virtualscroller/index.d.ts"
+				},
+				{
+					"path": "umd/aura.js"
+				},
+				{
+					"path": "umd/lara.js"
+				},
+				{
+					"path": "umd/material.js"
+				},
+				{
+					"path": "umd/nora.js"
+				}
+			],
+			"entryCount": 1185,
+			"bundled": []
+		},
+		{
+			"id": "@bdspark/sparkng@2.0.2",
+			"name": "@bdspark/sparkng",
+			"version": "2.0.2",
+			"size": 1769108,
+			"unpackedSize": 10598173,
+			"shasum": "0bd8e70eff0610319a1120c1a3633248ffe2ad04",
+			"integrity": "sha512-ZcqPwKmM296PgmxXZHqKgLCFZNkfoH8k3ETqH01Gfl444m1vHPqnB8l5VgIT0plBsPmBt3+TmUPsKOzqFWRHjg==",
+			"filename": "bdspark-sparkng-2.0.2.tgz",
+			"files": [
+				{
+					"path": "fesm2022/bdspark-sparkng-accordion.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-accordion.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-animateonscroll.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-animateonscroll.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-api.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-api.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-autocomplete.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-autocomplete.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-autofocus.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-autofocus.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-avatar.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-avatar.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-avatargroup.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-avatargroup.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-badge.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-badge.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-base.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-base.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-basecomponent.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-basecomponent.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-baseeditableholder.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-baseeditableholder.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-baseinput.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-baseinput.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-basemodelholder.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-basemodelholder.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-bind.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-bind.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-blockui.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-blockui.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-breadcrumb.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-breadcrumb.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-button.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-button.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-buttongroup.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-buttongroup.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-card.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-card.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-carousel.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-carousel.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-cascadeselect.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-cascadeselect.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-chart.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-chart.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-checkbox.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-checkbox.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-chip.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-chip.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-classnames.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-classnames.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-colorpicker.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-colorpicker.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-config.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-config.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-confirmdialog.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-confirmdialog.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-confirmpopup.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-confirmpopup.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-contextmenu.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-contextmenu.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-dataview.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-dataview.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-datepicker.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-datepicker.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-dialog.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-dialog.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-divider.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-divider.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-dock.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-dock.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-dom.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-dom.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-dragdrop.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-dragdrop.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-drawer.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-drawer.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-dynamicdialog.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-dynamicdialog.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-editor.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-editor.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-fieldset.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-fieldset.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-fileupload.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-fileupload.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-floatlabel.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-floatlabel.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-fluid.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-fluid.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-focustrap.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-focustrap.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-galleria.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-galleria.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-iconfield.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-iconfield.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-angledoubledown.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-angledoubledown.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-angledoubleleft.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-angledoubleleft.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-angledoubleright.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-angledoubleright.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-angledoubleup.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-angledoubleup.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-angledown.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-angledown.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-angleleft.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-angleleft.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-angleright.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-angleright.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-angleup.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-angleup.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-arrowdown.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-arrowdown.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-arrowdownleft.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-arrowdownleft.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-arrowdownright.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-arrowdownright.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-arrowleft.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-arrowleft.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-arrowright.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-arrowright.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-arrowup.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-arrowup.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-ban.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-ban.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-bars.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-bars.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-baseicon.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-baseicon.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-blank.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-blank.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-calendar.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-calendar.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-caretleft.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-caretleft.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-caretright.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-caretright.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-check.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-check.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-chevrondown.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-chevrondown.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-chevronleft.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-chevronleft.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-chevronright.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-chevronright.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-chevronup.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-chevronup.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-exclamationtriangle.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-exclamationtriangle.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-eye.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-eye.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-eyeslash.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-eyeslash.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-filter.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-filter.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-filterfill.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-filterfill.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-filterslash.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-filterslash.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-home.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-home.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-infocircle.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-infocircle.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-minus.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-minus.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-pencil.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-pencil.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-plus.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-plus.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-refresh.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-refresh.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-search.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-search.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-searchminus.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-searchminus.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-searchplus.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-searchplus.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-sortalt.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-sortalt.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-sortamountdown.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-sortamountdown.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-sortamountupalt.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-sortamountupalt.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-spinner.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-spinner.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-star.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-star.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-starfill.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-starfill.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-thlarge.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-thlarge.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-times.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-times.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-timescircle.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-timescircle.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-trash.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-trash.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-undo.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-undo.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-upload.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-upload.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-windowmaximize.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-windowmaximize.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-windowminimize.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons-windowminimize.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-icons.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-iftalabel.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-iftalabel.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-image.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-image.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-imagecompare.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-imagecompare.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-inplace.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-inplace.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-inputgroup.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-inputgroup.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-inputgroupaddon.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-inputgroupaddon.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-inputicon.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-inputicon.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-inputmask.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-inputmask.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-inputnumber.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-inputnumber.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-inputotp.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-inputotp.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-inputtext.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-inputtext.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-keyfilter.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-keyfilter.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-knob.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-knob.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-listbox.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-listbox.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-megamenu.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-megamenu.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-menu.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-menu.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-menubar.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-menubar.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-message.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-message.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-metergroup.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-metergroup.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-motion.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-motion.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-multiselect.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-multiselect.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-orderlist.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-orderlist.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-organizationchart.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-organizationchart.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-overlay.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-overlay.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-overlaybadge.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-overlaybadge.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-paginator.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-paginator.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-panel.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-panel.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-panelmenu.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-panelmenu.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-passthrough.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-passthrough.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-password.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-password.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-picklist.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-picklist.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-popover.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-popover.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-progressbar.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-progressbar.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-progressspinner.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-progressspinner.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-radiobutton.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-radiobutton.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-rating.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-rating.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-ripple.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-ripple.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-scroller.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-scroller.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-scrollpanel.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-scrollpanel.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-scrolltop.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-scrolltop.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-select.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-select.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-selectbutton.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-selectbutton.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-skeleton.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-skeleton.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-slider.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-slider.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-speeddial.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-speeddial.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-splitbutton.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-splitbutton.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-splitter.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-splitter.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-stepper.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-stepper.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-steps.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-steps.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-styleclass.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-styleclass.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-table.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-table.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-tabs.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-tabs.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-tag.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-tag.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-terminal.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-terminal.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-textarea.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-textarea.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-tieredmenu.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-tieredmenu.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-timeline.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-timeline.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-toast.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-toast.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-togglebutton.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-togglebutton.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-toggleswitch.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-toggleswitch.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-toolbar.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-toolbar.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-tooltip.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-tooltip.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-tree.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-tree.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-treeselect.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-treeselect.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-treetable.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-treetable.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-ts-helpers.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-accordion.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-autocomplete.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-avatar.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-avatargroup.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-badge.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-blockui.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-breadcrumb.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-button.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-card.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-carousel.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-cascadeselect.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-chart.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-checkbox.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-chip.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-colorpicker.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-confirmdialog.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-confirmpopup.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-contextmenu.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-dataview.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-datepicker.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-dialog.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-divider.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-dock.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-drawer.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-editor.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-fieldset.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-fileupload.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-floatlabel.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-fluid.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-galleria.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-iconfield.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-iftalabel.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-image.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-imagecompare.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-inplace.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-inputgroup.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-inputgroupaddon.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-inputicon.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-inputmask.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-inputnumber.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-inputotp.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-inputtext.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-knob.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-listbox.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-megamenu.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-menu.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-menubar.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-message.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-metergroup.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-motion.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-multiselect.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-orderlist.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-organizationchart.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-overlay.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-overlaybadge.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-paginator.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-panel.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-panelmenu.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-password.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-picklist.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-popover.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-progressbar.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-progressspinner.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-radiobutton.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-rating.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-scroller.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-scrollpanel.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-scrolltop.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-select.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-selectbutton.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-skeleton.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-slider.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-speeddial.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-splitbutton.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-splitter.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-stepper.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-table.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-tabs.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-tag.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-terminal.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-textarea.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-tieredmenu.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-timeline.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-toast.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-togglebutton.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-toggleswitch.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-toolbar.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-tooltip.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-tree.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-treeselect.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-types-treetable.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-usestyle.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-usestyle.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-utils.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng-utils.mjs.map"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng.mjs"
+				},
+				{
+					"path": "fesm2022/bdspark-sparkng.mjs.map"
+				},
+				{
+					"path": "LICENSE.md"
+				},
+				{
+					"path": "package.json"
+				},
+				{
+					"path": "README.md"
+				},
+				{
+					"path": "schematics/collection.json"
+				},
+				{
+					"path": "schematics/migrate-from-primeflex/index.js"
+				},
+				{
+					"path": "schematics/migrate-from-primeflex/schema.js"
+				},
+				{
+					"path": "schematics/migrate-from-primeflex/schema.json"
+				},
+				{
+					"path": "schematics/migrate-from-primeng/index.js"
+				},
+				{
+					"path": "schematics/migrate-from-primeng/schema.js"
+				},
+				{
+					"path": "schematics/migrate-from-primeng/schema.json"
+				},
+				{
+					"path": "schematics/migrations.json"
+				},
+				{
+					"path": "schematics/ng-add/index.js"
+				},
+				{
+					"path": "schematics/ng-add/schema.js"
+				},
+				{
+					"path": "schematics/ng-add/schema.json"
+				},
+				{
+					"path": "schematics/package.json"
+				},
+				{
+					"path": "schematics/utils/app-config.js"
+				},
+				{
+					"path": "schematics/utils/gitignore.js"
+				},
+				{
+					"path": "schematics/utils/mappings.js"
+				},
+				{
+					"path": "schematics/utils/package-json.js"
+				},
+				{
+					"path": "schematics/utils/primeflex-translations.json"
+				},
+				{
+					"path": "schematics/utils/primeflex.js"
+				},
+				{
+					"path": "schematics/utils/rewrite.js"
+				},
+				{
+					"path": "schematics/utils/versions.json"
+				},
+				{
+					"path": "schematics/utils/workspace-files.js"
+				},
+				{
+					"path": "types/bdspark-sparkng-accordion.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-animateonscroll.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-api.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-autocomplete.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-autofocus.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-avatar.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-avatargroup.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-badge.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-base.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-basecomponent.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-baseeditableholder.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-baseinput.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-basemodelholder.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-bind.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-blockui.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-breadcrumb.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-button.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-buttongroup.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-card.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-carousel.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-cascadeselect.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-chart.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-checkbox.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-chip.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-classnames.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-colorpicker.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-config.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-confirmdialog.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-confirmpopup.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-contextmenu.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-dataview.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-datepicker.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-dialog.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-divider.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-dock.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-dom.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-dragdrop.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-drawer.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-dynamicdialog.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-editor.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-fieldset.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-fileupload.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-floatlabel.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-fluid.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-focustrap.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-galleria.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-iconfield.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-angledoubledown.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-angledoubleleft.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-angledoubleright.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-angledoubleup.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-angledown.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-angleleft.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-angleright.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-angleup.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-arrowdown.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-arrowdownleft.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-arrowdownright.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-arrowleft.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-arrowright.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-arrowup.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-ban.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-bars.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-baseicon.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-blank.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-calendar.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-caretleft.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-caretright.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-check.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-chevrondown.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-chevronleft.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-chevronright.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-chevronup.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-exclamationtriangle.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-eye.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-eyeslash.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-filter.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-filterfill.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-filterslash.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-home.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-infocircle.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-minus.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-pencil.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-plus.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-refresh.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-search.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-searchminus.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-searchplus.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-sortalt.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-sortamountdown.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-sortamountupalt.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-spinner.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-star.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-starfill.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-thlarge.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-times.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-timescircle.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-trash.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-undo.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-upload.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-windowmaximize.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons-windowminimize.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-icons.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-iftalabel.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-image.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-imagecompare.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-inplace.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-inputgroup.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-inputgroupaddon.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-inputicon.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-inputmask.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-inputnumber.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-inputotp.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-inputtext.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-keyfilter.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-knob.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-listbox.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-megamenu.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-menu.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-menubar.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-message.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-metergroup.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-motion.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-multiselect.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-orderlist.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-organizationchart.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-overlay.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-overlaybadge.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-paginator.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-panel.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-panelmenu.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-passthrough.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-password.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-picklist.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-popover.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-progressbar.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-progressspinner.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-radiobutton.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-rating.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-ripple.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-scroller.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-scrollpanel.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-scrolltop.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-select.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-selectbutton.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-skeleton.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-slider.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-speeddial.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-splitbutton.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-splitter.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-stepper.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-steps.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-styleclass.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-table.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-tabs.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-tag.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-terminal.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-textarea.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-tieredmenu.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-timeline.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-toast.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-togglebutton.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-toggleswitch.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-toolbar.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-tooltip.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-tree.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-treeselect.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-treetable.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-ts-helpers.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-accordion.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-autocomplete.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-avatar.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-avatargroup.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-badge.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-blockui.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-breadcrumb.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-button.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-card.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-carousel.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-cascadeselect.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-chart.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-checkbox.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-chip.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-colorpicker.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-confirmdialog.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-confirmpopup.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-contextmenu.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-dataview.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-datepicker.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-dialog.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-divider.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-dock.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-drawer.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-editor.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-fieldset.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-fileupload.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-floatlabel.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-fluid.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-galleria.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-iconfield.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-iftalabel.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-image.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-imagecompare.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-inplace.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-inputgroup.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-inputgroupaddon.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-inputicon.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-inputmask.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-inputnumber.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-inputotp.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-inputtext.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-knob.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-listbox.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-megamenu.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-menu.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-menubar.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-message.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-metergroup.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-motion.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-multiselect.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-orderlist.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-organizationchart.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-overlay.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-overlaybadge.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-paginator.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-panel.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-panelmenu.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-password.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-picklist.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-popover.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-progressbar.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-progressspinner.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-radiobutton.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-rating.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-scroller.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-scrollpanel.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-scrolltop.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-select.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-selectbutton.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-skeleton.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-slider.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-speeddial.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-splitbutton.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-splitter.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-stepper.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-table.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-tabs.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-tag.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-terminal.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-textarea.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-tieredmenu.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-timeline.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-toast.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-togglebutton.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-toggleswitch.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-toolbar.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-tooltip.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-tree.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-treeselect.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-types-treetable.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-usestyle.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng-utils.d.ts"
+				},
+				{
+					"path": "types/bdspark-sparkng.d.ts"
+				}
+			],
+			"entryCount": 720,
+			"bundled": []
 		}
 	]
 }
