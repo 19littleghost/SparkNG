@@ -21,6 +21,12 @@ dist
 .settings/
 *.sublime-workspace
 
+# tool caches
+.eslintcache
+.prettier-cache
+.stylelintcache
+**/.cache/
+
 # misc
 /.sass-cache
 /connect.lock
