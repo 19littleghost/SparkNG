@@ -52,7 +52,7 @@ import { ToastModule } from '@bdspark/sparkng/toast';
                             </td>
                             <td>{{ product.name }}</td>
                             <td>
-                                <img [src]="'https://TODO-BDSPARK-DOMAIN/demo/product/' + product.image" [alt]="product.name" width="50" class="shadow-lg" />
+                                <img [src]="'https://sparkng.bdspark.com/demo/product/' + product.image" [alt]="product.name" width="50" class="shadow-lg" />
                             </td>
                             <td>{{ product.price | currency: 'USD' }}</td>
                             <td>{{ product.category }}</td>

@@ -34,7 +34,7 @@ export class CardStyle extends BaseStyle {
  *
  * Card is a flexible container component.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/card/)
+ * [Live Demo](https://sparkng.bdspark.com/card/)
  *
  * @module cardstyle
  *

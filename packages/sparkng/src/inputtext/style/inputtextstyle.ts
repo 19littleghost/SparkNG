@@ -42,7 +42,7 @@ export class InputTextStyle extends BaseStyle {
  *
  * InputText renders a text field to enter data.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/inputtext/)
+ * [Live Demo](https://sparkng.bdspark.com/inputtext/)
  *
  * @module inputtextstyle
  *

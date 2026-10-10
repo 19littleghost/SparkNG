@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="https://TODO-BDSPARK-DOMAIN/large-icon.svg" alt="Optimus UI" width="140" />
 
 # Optimus UI
 
@@ -10,7 +9,7 @@
 [![license](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE.md)
 [![angular](https://img.shields.io/badge/angular-%3E%3D21-black.svg)](https://angular.dev)
 
-[Documentation](https://TODO-BDSPARK-DOMAIN) · [Getting started](https://TODO-BDSPARK-DOMAIN/installation) · [Migrating from PrimeNG](https://v1.TODO-BDSPARK-DOMAIN/migration/primeng) · [Philosophy](https://TODO-BDSPARK-DOMAIN/philosophy) · [FAQ](https://TODO-BDSPARK-DOMAIN/faq)
+[Documentation](https://sparkng.bdspark.com) · [Getting started](https://sparkng.bdspark.com/installation) · [Migrating from PrimeNG](https://v1.sparkng.bdspark.com/migration/primeng) · [Philosophy](https://sparkng.bdspark.com/philosophy) · [FAQ](https://sparkng.bdspark.com/faq)
 
 </div>
 
@@ -22,7 +21,7 @@ In June 2026 PrimeTek archived the PrimeNG repository and moved future major ver
 
 Optimus UI is a community fork of PrimeNG v21, the last MIT licensed version, maintained by bdSpark and the community. It stays MIT. There is no paid tier and none is planned.
 
-It is not affiliated with, endorsed by, or sponsored by PrimeTek. The [philosophy page](https://TODO-BDSPARK-DOMAIN/philosophy) sets out what the project commits to and — just as importantly — what it does not do.
+It is not affiliated with, endorsed by, or sponsored by PrimeTek. The [philosophy page](https://sparkng.bdspark.com/philosophy) sets out what the project commits to and — just as importantly — what it does not do.
 
 ## Quick start
 
@@ -40,7 +39,7 @@ import { Button } from '@bdspark/sparkng/button';
 <p-button label="Check" />
 ```
 
-Full setup, including the manual path and icons, is in the [getting started guide](https://TODO-BDSPARK-DOMAIN/installation).
+Full setup, including the manual path and icons, is in the [getting started guide](https://sparkng.bdspark.com/installation).
 
 ## Migrating from PrimeNG
 
@@ -51,7 +50,7 @@ npm install @bdspark/sparkng@1
 ng generate @bdspark/sparkng@1:migrate-from-primeng
 ```
 
-See the [migration guide](https://v1.TODO-BDSPARK-DOMAIN/migration/primeng) for prerequisites and the manual cases. If you are on PrimeNG v20 or older, upgrade to v21 first.
+See the [migration guide](https://v1.sparkng.bdspark.com/migration/primeng) for prerequisites and the manual cases. If you are on PrimeNG v20 or older, upgrade to v21 first.
 
 ## Packages
 
@@ -82,7 +81,7 @@ pnpm install     # dependencies + git hooks
 pnpm run dev     # run the documentation site locally
 ```
 
-The [contribution guide](https://TODO-BDSPARK-DOMAIN/contribution) covers the workflow, and the [roadmap](https://TODO-BDSPARK-DOMAIN/roadmap) covers what is planned.
+The [contribution guide](https://sparkng.bdspark.com/contribution) covers the workflow, and the [roadmap](https://sparkng.bdspark.com/roadmap) covers what is planned.
 
 ## Support
 

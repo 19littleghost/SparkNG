@@ -33,7 +33,7 @@ export class ColorPickerStyle extends BaseStyle {
  *
  * ColorPicker groups a collection of contents in tabs.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/colorpicker/)
+ * [Live Demo](https://sparkng.bdspark.com/colorpicker/)
  *
  * @module colorpickerstyle
  *

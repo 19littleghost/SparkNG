@@ -28,7 +28,7 @@ export class IftaLabelStyle extends BaseStyle {
  *
  * IftaLabel visually integrates a label within its form element.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/iftalabel/)
+ * [Live Demo](https://sparkng.bdspark.com/iftalabel/)
  *
  * @module iftalabelstyle
  *

@@ -14,7 +14,7 @@ export function app(): express.Express {
     const llmsFolder = join(browserDistFolder, 'llms');
 
     const commonEngine = new CommonEngine({
-        allowedHosts: ['*.vercel.app', 'TODO-BDSPARK-DOMAIN', '*.TODO-BDSPARK-DOMAIN']
+        allowedHosts: ['*.vercel.app', 'sparkng.bdspark.com', '*.sparkng.bdspark.com']
     });
 
     server.set('view engine', 'html');
@@ -165,7 +165,7 @@ export function app(): express.Express {
 
     // The PrimeNG migration guide moved to the v1 docs archive — redirect rather than 404.
     server.get('/migration/primeng', (req, res) => {
-        res.redirect(301, 'https://v1.TODO-BDSPARK-DOMAIN/migration/primeng');
+        res.redirect(301, 'https://v1.sparkng.bdspark.com/migration/primeng');
     });
 
     // Serve static files from /browser.

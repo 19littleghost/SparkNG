@@ -35,7 +35,7 @@ export class FloatLabelStyle extends BaseStyle {
  *
  * FloatLabel visually integrates a label with its form element.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/floatlabel/)
+ * [Live Demo](https://sparkng.bdspark.com/floatlabel/)
  *
  * @module floatlabelstyle
  *

@@ -1,10 +1,9 @@
 <div align="center">
-  <img src="https://TODO-BDSPARK-DOMAIN/large-icon.svg" alt="Optimus UI" width="140" />
 </div>
 
 # Optimus UI Locale
 
-i18n and l7n locales for the components of [Optimus UI](https://TODO-BDSPARK-DOMAIN/), vendored from the community supported [PrimeLocale](https://github.com/primefaces/primelocale) repository.
+i18n and l7n locales for the components of [Optimus UI](https://sparkng.bdspark.com/), vendored from the community supported [PrimeLocale](https://github.com/primefaces/primelocale) repository.
 
 ## Installation
 

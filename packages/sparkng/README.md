@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://TODO-BDSPARK-DOMAIN/large-icon.svg" alt="Optimus UI" width="140" />
 
   <h1>Optimus UI</h1>
   <p><strong>A rich set of open-source UI Components for Angular</strong></p>
@@ -77,7 +76,7 @@ export class AppComponent {}
 
 For detailed documentation, interactive component demos, theming guides, and more, please visit the official website:
 
-**[Optimus UI Documentation](https://TODO-BDSPARK-DOMAIN/)**
+**[Optimus UI Documentation](https://sparkng.bdspark.com/)**
 
 
 ## 🤝 Contributing

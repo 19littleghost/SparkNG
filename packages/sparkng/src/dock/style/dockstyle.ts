@@ -37,7 +37,7 @@ export class DockStyle extends BaseStyle {
  *
  * Dock is a navigation component consisting of menuitems.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/dock/)
+ * [Live Demo](https://sparkng.bdspark.com/dock/)
  *
  * @module dockstyle
  *

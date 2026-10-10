@@ -19,7 +19,7 @@ import { ToastModule } from '@bdspark/sparkng/toast';
             <p-splitbutton label="Save" (onClick)="save()" severity="contrast" [model]="items">
                 <ng-template #content>
                     <span class="flex items-center font-bold">
-                        <img alt="logo" src="logo-icon.svg" style="height: 1rem; margin-right: 0.5rem" />
+                        <img alt="avatar" src="https://sparkng.bdspark.com/demo/avatar/amyelsner.png" style="height: 1rem; margin-right: 0.5rem" />
                         <span>Optimus UI</span>
                     </span>
                 </ng-template>

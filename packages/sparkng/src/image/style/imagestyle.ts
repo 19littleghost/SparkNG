@@ -44,7 +44,7 @@ export class ImageStyle extends BaseStyle {
  *
  * Displays an image with preview and tranformation options. For multiple image, see Galleria.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/image/)
+ * [Live Demo](https://sparkng.bdspark.com/image/)
  *
  * @module imagestyle
  *

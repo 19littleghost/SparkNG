@@ -1,6 +1,6 @@
 # bdSpark Icons
 
-[PrimeNG is no longer open source](https://www.TODO-BDSPARK-DOMAIN/blog/primeng-is-no-longer-open-source). As of June 2026, PrimeTek archived the official PrimeNG GitHub repository — along with PrimeIcons — and moved future major versions (starting with v22) to a commercial licensing model.
+[PrimeNG is no longer open source](https://www.sparkng.bdspark.com/blog/primeng-is-no-longer-open-source). As of June 2026, PrimeTek archived the official PrimeNG GitHub repository — along with PrimeIcons — and moved future major versions (starting with v22) to a commercial licensing model.
 
 To ensure continued open-source support for those who rely on it, bdSpark has created `@bdspark/icons`, a community fork based on the final MIT-licensed version of PrimeIcons. It is the icon library for [Optimus UI](https://github.com/TODO-BDSPARK-ORG/optimus-ui), our community fork of PrimeNG.
 

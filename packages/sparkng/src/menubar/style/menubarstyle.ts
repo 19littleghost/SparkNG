@@ -50,7 +50,7 @@ export class MenuBarStyle extends BaseStyle {
  *
  * Menubar is a horizontal menu component.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/menubar/)
+ * [Live Demo](https://sparkng.bdspark.com/menubar/)
  *
  * @module menubarstyle
  *

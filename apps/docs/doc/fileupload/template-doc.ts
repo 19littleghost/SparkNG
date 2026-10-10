@@ -24,7 +24,7 @@ import { ToastModule } from '@bdspark/sparkng/toast';
         >
         <div class="card">
             <p-toast />
-            <p-fileupload name="myfile[]" url="https://TODO-BDSPARK-DOMAIN/api/upload" [multiple]="true" accept="image/*" maxFileSize="1000000" (onUpload)="onTemplatedUpload()" (onSelect)="onSelectedFiles($event)">
+            <p-fileupload name="myfile[]" url="https://sparkng.bdspark.com/api/upload" [multiple]="true" accept="image/*" maxFileSize="1000000" (onUpload)="onTemplatedUpload()" (onSelect)="onSelectedFiles($event)">
                 <ng-template #header let-files let-chooseCallback="chooseCallback" let-clearCallback="clearCallback" let-uploadCallback="uploadCallback">
                     <div class="flex flex-wrap justify-between items-center flex-1 gap-4">
                         <div class="flex gap-2">

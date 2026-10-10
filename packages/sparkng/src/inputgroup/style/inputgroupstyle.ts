@@ -60,7 +60,7 @@ export class InputGroupStyle extends BaseStyle {
  *
  * InputGroup displays text, icon, buttons and other content can be grouped next to an input.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/inputgroup/)
+ * [Live Demo](https://sparkng.bdspark.com/inputgroup/)
  *
  * @module inputgroupstyle
  *

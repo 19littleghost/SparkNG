@@ -1,5 +1,5 @@
 import { AppConfigService } from '@/service/appconfigservice';
-import { CommonModule, isPlatformBrowser, NgOptimizedImage } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { ChangeDetectorRef, Component, Inject, OnDestroy, OnInit, PLATFORM_ID } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
@@ -48,8 +48,7 @@ import { OverviewApp } from './samples/overviewapp.component';
         DrawerModule,
         OverlayBadgeModule,
         KnobModule,
-        ButtonModule,
-        NgOptimizedImage
+        ButtonModule
     ],
     template: `
         <section class="landing-hero py-20 px-8 lg:px-20">
@@ -63,7 +62,7 @@ import { OverviewApp } from './samples/overviewapp.component';
                         <span>Get Started</span>
                         <i class="pi pi-arrow-right ms-4"></i>
                     </a>
-                    <a href="https://v1.TODO-BDSPARK-DOMAIN/migration/primeng" target="_blank" rel="noopener noreferrer" class="linkbox">
+                    <a href="https://v1.sparkng.bdspark.com/migration/primeng" target="_blank" rel="noopener noreferrer" class="linkbox">
                         <span>Migrate from PrimeNG</span>
                         <i class="pi pi-arrow-right-arrow-left ms-4"></i>
                     </a>
@@ -110,9 +109,6 @@ import { OverviewApp } from './samples/overviewapp.component';
                             }"
                         >
                             <div class="flex items-center gap-3">
-                                <div class="w-11 h-11 border border-primary rounded-xl flex items-center justify-center">
-                                    <img ngSrc="logo-icon.svg" height="30" width="30" class="dark:invert" />
-                                </div>
                                 <div
                                     [ngClass]="{
                                         hidden: isSlimMenu,

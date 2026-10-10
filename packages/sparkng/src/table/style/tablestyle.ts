@@ -257,7 +257,7 @@ export class TableStyle extends BaseStyle {
  *
  * DataTable displays data in tabular format.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/table/)
+ * [Live Demo](https://sparkng.bdspark.com/table/)
  *
  * @module tablestyle
  *

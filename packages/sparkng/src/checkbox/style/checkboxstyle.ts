@@ -43,7 +43,7 @@ export class CheckboxStyle extends BaseStyle {
  *
  * Checkbox is an extension to standard checkbox element with theming.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/checkbox/)
+ * [Live Demo](https://sparkng.bdspark.com/checkbox/)
  *
  * @module checkboxstyle
  *

@@ -25,7 +25,7 @@ export class ConfirmPopupStyle extends BaseStyle {
  *
  * ConfirmPopup displays a confirmation overlay displayed relatively to its target.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/confirmpopup)
+ * [Live Demo](https://sparkng.bdspark.com/confirmpopup)
  *
  * @module confirmpopupstyle
  *

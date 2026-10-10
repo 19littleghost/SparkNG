@@ -81,7 +81,7 @@ export class SelectStyle extends BaseStyle {
  *
  * Select also known as Select, is used to choose an item from a collection of options.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/select/)
+ * [Live Demo](https://sparkng.bdspark.com/select/)
  *
  * @module selectstyle
  *

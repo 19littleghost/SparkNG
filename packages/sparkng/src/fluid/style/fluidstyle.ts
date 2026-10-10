@@ -16,7 +16,7 @@ export class FluidStyle extends BaseStyle {
  *
  * Fluid is a layout component to make descendant components span full width of their container.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/fluid/)
+ * [Live Demo](https://sparkng.bdspark.com/fluid/)
  *
  * @module fluidstyle
  *

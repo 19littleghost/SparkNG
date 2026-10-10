@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://TODO-BDSPARK-DOMAIN/sitemap.xml
+Sitemap: https://sparkng.bdspark.com/sitemap.xml

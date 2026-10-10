@@ -42,7 +42,7 @@ export class TextareaStyle extends BaseStyle {
  *
  * Textarea is a multi-line text input element.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/textarea/)
+ * [Live Demo](https://sparkng.bdspark.com/textarea/)
  *
  * @module textareastyle
  *

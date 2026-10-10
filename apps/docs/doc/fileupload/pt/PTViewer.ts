@@ -10,7 +10,7 @@ import { FileUploadModule } from '@bdspark/sparkng/fileupload';
     template: `
         <app-docptviewer [docs]="docs">
             <div class="w-full">
-                <p-fileupload name="demo[]" url="https://TODO-BDSPARK-DOMAIN/api/upload" [multiple]="true" accept="image/*" [maxFileSize]="1000000">
+                <p-fileupload name="demo[]" url="https://sparkng.bdspark.com/api/upload" [multiple]="true" accept="image/*" [maxFileSize]="1000000">
                     <ng-template #empty>
                         <span>Drag and drop files to here to upload.</span>
                     </ng-template>

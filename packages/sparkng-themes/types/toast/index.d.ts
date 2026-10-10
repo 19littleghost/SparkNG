@@ -545,7 +545,7 @@ export declare namespace ToastTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
+ * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface ToastDesignTokens extends DesignTokens<ToastDesignTokens> {

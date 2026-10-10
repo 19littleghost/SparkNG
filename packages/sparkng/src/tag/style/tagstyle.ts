@@ -32,7 +32,7 @@ export class TagStyle extends BaseStyle {
  *
  * Tag component is used to categorize content.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/tag)
+ * [Live Demo](https://sparkng.bdspark.com/tag)
  *
  * @module tagstyle
  *

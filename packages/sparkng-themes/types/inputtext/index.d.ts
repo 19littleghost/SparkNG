@@ -220,7 +220,7 @@ export declare namespace InputTextTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
+ * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface InputTextDesignTokens extends DesignTokens<InputTextDesignTokens> {

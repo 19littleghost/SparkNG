@@ -29,7 +29,7 @@ export class OrderListStyle extends BaseStyle {
  *
  * OrderList is used to maneged the order of a collection.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/orderlist)
+ * [Live Demo](https://sparkng.bdspark.com/orderlist)
  *
  * @module orderliststyle
  *

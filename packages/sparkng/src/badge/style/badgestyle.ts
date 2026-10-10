@@ -60,7 +60,7 @@ export class BadgeStyle extends BaseStyle {
  *
  * Badge represents people using icons, labels and images.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/badge)
+ * [Live Demo](https://sparkng.bdspark.com/badge)
  *
  * @module badgestyle
  *

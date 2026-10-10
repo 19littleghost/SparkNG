@@ -4,7 +4,7 @@ import { Meta, Title } from '@angular/platform-browser';
 import { NavigationEnd, Router } from '@angular/router';
 import { filter } from 'rxjs';
 
-export const SITE_URL = 'https://TODO-BDSPARK-DOMAIN';
+export const SITE_URL = 'https://sparkng.bdspark.com';
 
 /**
  * Keeps the canonical link and the URL/title-derived Open Graph tags in sync

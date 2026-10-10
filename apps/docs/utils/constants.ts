@@ -7,5 +7,5 @@ export const GITHUB_DISCUSSIONS_URL = `${GITHUB_REPO_URL}/discussions`;
 export const LINKEDIN_URL = 'https://www.linkedin.com/company/bdspark';
 
 // Sparked — the MIT licensed Angular admin template built with Optimus UI.
-export const SPARKED_DEMO_URL = 'https://sparked.TODO-BDSPARK-DOMAIN';
+export const SPARKED_DEMO_URL = 'https://sparked.sparkng.bdspark.com';
 export const SPARKED_REPO_URL = 'https://github.com/TODO-BDSPARK-ORG/sparked';

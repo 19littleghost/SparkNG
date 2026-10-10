@@ -46,7 +46,7 @@ export class BaseIconStyle extends BaseStyle {
 }
 /**
  *
- * [Live Demo](https:/TODO-BDSPARK-DOMAIN/)
+ * [Live Demo](https:/sparkng.bdspark.com/)
  *
  * @module baseiconstyle
  *

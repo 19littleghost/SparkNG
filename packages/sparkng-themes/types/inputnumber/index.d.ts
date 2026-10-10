@@ -112,7 +112,7 @@ export declare namespace InputNumberTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
+ * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface InputNumberDesignTokens extends DesignTokens<InputNumberDesignTokens> {

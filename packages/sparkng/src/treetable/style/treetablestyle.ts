@@ -589,7 +589,7 @@ export class TreeTableStyle extends BaseStyle {
  *
  * TreeTable is used to display hierarchical data in tabular format.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/treetable/)
+ * [Live Demo](https://sparkng.bdspark.com/treetable/)
  *
  * @module treetablestyle
  *

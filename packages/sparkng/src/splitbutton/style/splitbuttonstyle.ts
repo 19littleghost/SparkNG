@@ -30,7 +30,7 @@ export class SplitButtonStyle extends BaseStyle {
  *
  * SplitButton groups a set of commands in an overlay with a default command.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/splitbutton/)
+ * [Live Demo](https://sparkng.bdspark.com/splitbutton/)
  *
  * @module splitbuttonstyle
  *

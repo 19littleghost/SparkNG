@@ -80,7 +80,7 @@ import { TagModule } from '@bdspark/sparkng/tag';
                                             <p-multiselect [filter]="false" [(ngModel)]="value" [options]="representatives" placeholder="Any" (onChange)="filter($event.value)" optionLabel="name" class="w-full">
                                                 <ng-template let-option #item>
                                                     <div class="flex items-center gap-2">
-                                                        <img [alt]="option.label" src="https://TODO-BDSPARK-DOMAIN/demo/avatar/{{ option.image }}" style="width: 32px" />
+                                                        <img [alt]="option.label" src="https://sparkng.bdspark.com/demo/avatar/{{ option.image }}" style="width: 32px" />
                                                         <span>{{ option.name }}</span>
                                                     </div>
                                                 </ng-template>
@@ -146,13 +146,13 @@ import { TagModule } from '@bdspark/sparkng/tag';
                             </td>
                             <td>
                                 <div class="flex items-center gap-2">
-                                    <img src="https://TODO-BDSPARK-DOMAIN/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px" />
+                                    <img src="https://sparkng.bdspark.com/demo/flag/flag_placeholder.png" [class]="'flag flag-' + customer.country.code" style="width: 20px" />
                                     <span class="ml-1 align-middle">{{ customer.country.name }}</span>
                                 </div>
                             </td>
                             <td>
                                 <div class="flex items-center gap-2">
-                                    <img [alt]="customer.representative.name" src="https://TODO-BDSPARK-DOMAIN/demo/avatar/{{ customer.representative.image }}" width="32" style="vertical-align: middle" />
+                                    <img [alt]="customer.representative.name" src="https://sparkng.bdspark.com/demo/avatar/{{ customer.representative.image }}" width="32" style="vertical-align: middle" />
                                     <span class="ml-1 align-middle">{{ customer.representative.name }}</span>
                                 </div>
                             </td>

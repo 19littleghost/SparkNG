@@ -127,7 +127,7 @@ export class DatePickerStyle extends BaseStyle {
  *
  * DatePicker is a form component to work with dates.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/datepicker/)
+ * [Live Demo](https://sparkng.bdspark.com/datepicker/)
  *
  * @module datepickerstyle
  *

@@ -11,10 +11,10 @@ import { ImageCompareModule } from '@bdspark/sparkng/imagecompare';
         <app-docptviewer [docs]="docs">
             <p-imagecompare>
                 <ng-template #left>
-                    <img src="https://TODO-BDSPARK-DOMAIN/demo/compare/island1.jpg" />
+                    <img src="https://sparkng.bdspark.com/demo/compare/island1.jpg" />
                 </ng-template>
                 <ng-template #right>
-                    <img src="https://TODO-BDSPARK-DOMAIN/demo/compare/island2.jpg" />
+                    <img src="https://sparkng.bdspark.com/demo/compare/island2.jpg" />
                 </ng-template>
             </p-imagecompare>
         </app-docptviewer>

@@ -61,7 +61,7 @@ export class PaginatorStyle extends BaseStyle {
  *
  * Paginator is a generic component to display content in paged format.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/paginator)
+ * [Live Demo](https://sparkng.bdspark.com/paginator)
  *
  * @module paginatorstyle
  *

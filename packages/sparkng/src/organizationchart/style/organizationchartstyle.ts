@@ -31,7 +31,7 @@ export class OrganizationChartStyle extends BaseStyle {
  *
  * OrganizationChart visualizes hierarchical organization data.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/organizationchart)
+ * [Live Demo](https://sparkng.bdspark.com/organizationchart)
  *
  * @module organizationchartstyle
  *

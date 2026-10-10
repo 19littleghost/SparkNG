@@ -19,7 +19,7 @@ import { AnimateOnScrollModule } from '@bdspark/sparkng/animateonscroll';
                             <span class="template-frame-dot"></span>
                             <span class="template-frame-dot"></span>
                             <span class="template-frame-dot"></span>
-                            <span class="template-frame-url">sparked.TODO-BDSPARK-DOMAIN</span>
+                            <span class="template-frame-url">sparked.sparkng.bdspark.com</span>
                         </div>
                         <a [href]="sparkedDemoUrl" target="_blank" rel="noopener noreferrer" class="template-frame-body" aria-label="Open the Sparked live demo">
                             <img [src]="screenshot()" alt="Sparked admin dashboard built with Optimus UI" width="1440" height="900" loading="lazy" />

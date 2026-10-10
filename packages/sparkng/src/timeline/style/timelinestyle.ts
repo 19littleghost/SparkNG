@@ -25,7 +25,7 @@ export class TimelineStyle extends BaseStyle {
  *
  * Timeline visualizes a series of chained events.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/timeline)
+ * [Live Demo](https://sparkng.bdspark.com/timeline)
  *
  * @module timelinestyle
  *

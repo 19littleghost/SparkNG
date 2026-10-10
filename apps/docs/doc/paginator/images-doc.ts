@@ -13,7 +13,7 @@ import { PaginatorModule, PaginatorState } from '@bdspark/sparkng/paginator';
         </app-docsectiontext>
         <div class="card flex flex-col gap-4 justify-center items-center">
             <p-paginator [first]="first" [rows]="1" [totalRecords]="12" (onPageChange)="onPageChange($event)" [showJumpToPageDropdown]="true" [showPageLinks]="false"></p-paginator>
-            <img [src]="'https://TODO-BDSPARK-DOMAIN/demo/nature/nature' + (first + 1) + '.jpg'" class="max-w-full rounded-xl" />
+            <img [src]="'https://sparkng.bdspark.com/demo/nature/nature' + (first + 1) + '.jpg'" class="max-w-full rounded-xl" />
         </div>
         <app-code></app-code>
     `

@@ -16,15 +16,15 @@ import { OverlayBadgeModule } from '@bdspark/sparkng/overlaybadge';
             <div class="flex flex-wrap gap-8">
                 <div class="flex-auto">
                     <h5>Image</h5>
-                    <p-avatar image="https://TODO-BDSPARK-DOMAIN/demo/avatar/amyelsner.png" class="mr-2" size="xlarge" shape="circle" />
-                    <p-avatar image="https://TODO-BDSPARK-DOMAIN/demo/avatar/asiyajavayant.png" class="mr-2" size="large" shape="circle" />
-                    <p-avatar image="https://TODO-BDSPARK-DOMAIN/demo/avatar/onyamalimba.png" shape="circle" />
+                    <p-avatar image="https://sparkng.bdspark.com/demo/avatar/amyelsner.png" class="mr-2" size="xlarge" shape="circle" />
+                    <p-avatar image="https://sparkng.bdspark.com/demo/avatar/asiyajavayant.png" class="mr-2" size="large" shape="circle" />
+                    <p-avatar image="https://sparkng.bdspark.com/demo/avatar/onyamalimba.png" shape="circle" />
                 </div>
 
                 <div class="flex-auto">
                     <h5>Badge</h5>
                     <p-overlay-badge value="4" severity="danger" class="inline-flex">
-                        <p-avatar class="p-overlay-badge" image="https://TODO-BDSPARK-DOMAIN/demo/avatar/walter.jpg" size="xlarge" />
+                        <p-avatar class="p-overlay-badge" image="https://sparkng.bdspark.com/demo/avatar/walter.jpg" size="xlarge" />
                     </p-overlay-badge>
                 </div>
 

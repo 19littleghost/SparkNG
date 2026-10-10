@@ -70,7 +70,7 @@ export class DialogStyle extends BaseStyle {
  *
  * Dialog is a container to display content in an overlay window.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/dialog)
+ * [Live Demo](https://sparkng.bdspark.com/dialog)
  *
  * @module dialogstyle
  *

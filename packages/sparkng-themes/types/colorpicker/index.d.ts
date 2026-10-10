@@ -129,7 +129,7 @@ export declare namespace ColorPickerTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
+ * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface ColorPickerDesignTokens extends DesignTokens<ColorPickerDesignTokens> {

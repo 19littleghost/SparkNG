@@ -12,10 +12,10 @@ import { ChipModule } from '@bdspark/sparkng/chip';
             <p>The <i>image</i> property is used to display an image like an avatar.</p>
         </app-docsectiontext>
         <div class="card flex items-center gap-2 flex-wrap">
-            <p-chip label="Amy Elsner" image="https://TODO-BDSPARK-DOMAIN/demo/avatar/amyelsner.png" alt="Avatar image" />
-            <p-chip label="Asiya Javayant" image="https://TODO-BDSPARK-DOMAIN/demo/avatar/asiyajavayant.png" alt="Avatar image" />
-            <p-chip label="Onyama Limba" image="https://TODO-BDSPARK-DOMAIN/demo/avatar/onyamalimba.png" alt="Avatar image" />
-            <p-chip label="Xuxue Feng" image="https://TODO-BDSPARK-DOMAIN/demo/avatar/xuxuefeng.png" alt="Avatar image" [removable]="true" />
+            <p-chip label="Amy Elsner" image="https://sparkng.bdspark.com/demo/avatar/amyelsner.png" alt="Avatar image" />
+            <p-chip label="Asiya Javayant" image="https://sparkng.bdspark.com/demo/avatar/asiyajavayant.png" alt="Avatar image" />
+            <p-chip label="Onyama Limba" image="https://sparkng.bdspark.com/demo/avatar/onyamalimba.png" alt="Avatar image" />
+            <p-chip label="Xuxue Feng" image="https://sparkng.bdspark.com/demo/avatar/xuxuefeng.png" alt="Avatar image" [removable]="true" />
         </div>
         <app-code></app-code>
     `

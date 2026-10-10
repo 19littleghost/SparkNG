@@ -21,7 +21,7 @@ import { RouterModule } from '@angular/router';
     `
 })
 export class AppFooterComponent {
-    readonly bdsparkUrl = 'https://TODO-BDSPARK-DOMAIN';
+    readonly bdsparkUrl = 'https://sparkng.bdspark.com';
 
     readonly githubRepoUrl = GITHUB_REPO_URL;
 

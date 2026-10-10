@@ -5,11 +5,11 @@
         "items": [
             {
                 "label": "v2",
-                "value": "https://TODO-BDSPARK-DOMAIN"
+                "value": "https://sparkng.bdspark.com"
             },
             {
                 "label": "v1",
-                "value": "https://v1.TODO-BDSPARK-DOMAIN"
+                "value": "https://v1.sparkng.bdspark.com"
             }
         ]
     },

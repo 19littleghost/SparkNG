@@ -28,7 +28,7 @@ export class SplitterStyle extends BaseStyle {
  *
  * Splitter is utilized to separate and resize panels.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/splitter/)
+ * [Live Demo](https://sparkng.bdspark.com/splitter/)
  *
  * @module splitterstyle
  *

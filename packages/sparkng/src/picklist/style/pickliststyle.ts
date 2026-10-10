@@ -24,7 +24,7 @@ export class PickListStyle extends BaseStyle {
  *
  * PickList is used to reorder items between different lists.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/picklist)
+ * [Live Demo](https://sparkng.bdspark.com/picklist)
  *
  * @module pickliststyle
  *

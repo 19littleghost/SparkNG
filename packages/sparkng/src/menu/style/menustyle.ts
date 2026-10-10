@@ -47,7 +47,7 @@ export class MenuStyle extends BaseStyle {
  *
  * Menu is a navigation / command component that supports dynamic and static positioning.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/menu/)
+ * [Live Demo](https://sparkng.bdspark.com/menu/)
  *
  * @module menustyle
  *

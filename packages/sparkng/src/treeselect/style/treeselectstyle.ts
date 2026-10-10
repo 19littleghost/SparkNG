@@ -79,7 +79,7 @@ export class TreeSelectStyle extends BaseStyle {
  *
  * TreeSelect is a form component to choose from hierarchical data.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/treeselect/)
+ * [Live Demo](https://sparkng.bdspark.com/treeselect/)
  *
  * @module treeselectstyle
  *

@@ -62,7 +62,7 @@ export class PanelMenuStyle extends BaseStyle {
  *
  * PanelMenu is a hybrid of Accordion and Tree components.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/panelmenu/)
+ * [Live Demo](https://sparkng.bdspark.com/panelmenu/)
  *
  * @module panelmenustyle
  *

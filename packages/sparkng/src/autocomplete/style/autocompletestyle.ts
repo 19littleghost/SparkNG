@@ -101,7 +101,7 @@ export class AutoCompleteStyle extends BaseStyle {
  *
  * AutoComplete is an input component that provides real-time suggestions while being typed.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/autocomplete/)
+ * [Live Demo](https://sparkng.bdspark.com/autocomplete/)
  *
  * @module autocompletestyle
  *

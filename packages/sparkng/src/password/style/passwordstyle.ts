@@ -99,7 +99,7 @@ export class PasswordStyle extends BaseStyle {
  *
  * Password displays strength indicator for password fields.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/password/)
+ * [Live Demo](https://sparkng.bdspark.com/password/)
  *
  * @module passwordstyle
  *

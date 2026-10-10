@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://TODO-BDSPARK-DOMAIN/large-icon.svg" alt="Optimus UI" width="140" />
 </div>
 
 # @bdspark/sparkng-motion

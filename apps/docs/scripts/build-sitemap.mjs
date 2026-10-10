@@ -13,7 +13,7 @@ const ROOT = path.resolve(__dirname, '..');
 const ROUTES = path.join(ROOT, 'router/routes.txt');
 const OUTPUT = path.join(ROOT, 'public/sitemap.xml');
 
-const SITE_URL = 'https://TODO-BDSPARK-DOMAIN';
+const SITE_URL = 'https://sparkng.bdspark.com';
 
 /** Landing page first, then guides, then everything else. */
 function priorityOf(route) {

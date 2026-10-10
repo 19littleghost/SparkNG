@@ -61,7 +61,7 @@ import { Ripple } from '@bdspark/sparkng/ripple';
                 <ng-template #end>
                     <div class="flex items-center gap-2">
                         <input type="text" pInputText placeholder="Search" class="w-36" />
-                        <p-avatar image="https://TODO-BDSPARK-DOMAIN/demo/avatar/amyelsner.png" shape="circle" />
+                        <p-avatar image="https://sparkng.bdspark.com/demo/avatar/amyelsner.png" shape="circle" />
                     </div>
                 </ng-template>
             </p-menubar>

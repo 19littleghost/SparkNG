@@ -51,7 +51,7 @@ export class SpeedDialStyle extends BaseStyle {
  *
  * When pressed, a floating action button can display multiple primary actions that can be performed on a page.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/speeddial/)
+ * [Live Demo](https://sparkng.bdspark.com/speeddial/)
  *
  * @module speeddialstyle
  *

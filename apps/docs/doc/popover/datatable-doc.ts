@@ -38,7 +38,7 @@ import { TagModule } from '@bdspark/sparkng/tag';
                         <td>{{ product.name }}</td>
                         <td>$ {{ product.price }}</td>
                         <td>
-                            <img [src]="'https://TODO-BDSPARK-DOMAIN/demo/product/' + product.image" [alt]="product.image" class="w-16 shadow-sm" />
+                            <img [src]="'https://sparkng.bdspark.com/demo/product/' + product.image" [alt]="product.image" class="w-16 shadow-sm" />
                         </td>
                         <td>
                             <p-button (onClick)="displayProduct($event, product)" icon="pi pi-search" severity="secondary" rounded />
@@ -51,7 +51,7 @@ import { TagModule } from '@bdspark/sparkng/tag';
                     <div *ngIf="selectedProduct()" class="rounded flex flex-col">
                         <div class="flex justify-center rounded">
                             <div class="relative mx-auto">
-                                <img class="rounded w-44 sm:w-64" [src]="'https://TODO-BDSPARK-DOMAIN/demo/product/' + selectedProduct().image" [alt]="selectedProduct().name" />
+                                <img class="rounded w-44 sm:w-64" [src]="'https://sparkng.bdspark.com/demo/product/' + selectedProduct().image" [alt]="selectedProduct().name" />
                                 <p-tag [value]="selectedProduct().inventoryStatus" [severity]="getSeverity(selectedProduct())" class="absolute dark:!bg-surface-900" [style.left.px]="4" [style.top.px]="4" />
                             </div>
                         </div>

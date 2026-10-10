@@ -23,7 +23,7 @@ export class StepPanelStyle extends BaseStyle {
  *
  * StepPanel is a helper component for Stepper component.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/stepper/)
+ * [Live Demo](https://sparkng.bdspark.com/stepper/)
  *
  * @module steppanelstyle
  *

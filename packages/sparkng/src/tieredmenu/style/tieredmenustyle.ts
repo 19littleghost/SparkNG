@@ -50,7 +50,7 @@ export class TieredMenuStyle extends BaseStyle {
  *
  * TieredMenu displays submenus in nested overlays.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/menu/)
+ * [Live Demo](https://sparkng.bdspark.com/menu/)
  *
  * @module tieredmenustyle
  *

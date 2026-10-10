@@ -59,7 +59,7 @@ export class ToastStyle extends BaseStyle {
  *
  * Toast is used to display messages in an overlay.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/toast/)
+ * [Live Demo](https://sparkng.bdspark.com/toast/)
  *
  * @module toaststyle
  *

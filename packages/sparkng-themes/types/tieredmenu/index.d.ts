@@ -201,7 +201,7 @@ export declare namespace TieredMenuTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
+ * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface TieredMenuDesignTokens extends DesignTokens<TieredMenuDesignTokens> {

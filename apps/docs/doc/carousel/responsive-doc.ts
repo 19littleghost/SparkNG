@@ -27,7 +27,7 @@ import { TagModule } from '@bdspark/sparkng/tag';
                     <div class="border border-surface-200 dark:border-surface-700 rounded m-2 p-4">
                         <div class="mb-4">
                             <div class="relative mx-auto">
-                                <img src="https://TODO-BDSPARK-DOMAIN/demo/product/{{ product.image }}" [alt]="product.name" class="w-full rounded-border" />
+                                <img src="https://sparkng.bdspark.com/demo/product/{{ product.image }}" [alt]="product.name" class="w-full rounded-border" />
                                 <p-tag [value]="product.inventoryStatus" [severity]="getSeverity(product.inventoryStatus)" class="absolute dark:!bg-surface-900" [ngStyle]="{ 'left.px': 5, 'top.px': 5 }" />
                             </div>
                         </div>

@@ -22,7 +22,7 @@ export class ChartStyle extends BaseStyle {
  *
  * Chart groups a collection of contents in tabs.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/chart/)
+ * [Live Demo](https://sparkng.bdspark.com/chart/)
  *
  * @module chartstyle
  *

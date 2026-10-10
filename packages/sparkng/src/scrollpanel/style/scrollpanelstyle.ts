@@ -31,7 +31,7 @@ export class ScrollPanelStyle extends BaseStyle {
  *
  * ScrollPanel is a cross browser, lightweight and themable alternative to native browser scrollbar.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/scrollpanel/)
+ * [Live Demo](https://sparkng.bdspark.com/scrollpanel/)
  *
  * @module scrollpanelstyle
  *

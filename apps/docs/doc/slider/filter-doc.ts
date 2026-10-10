@@ -15,7 +15,7 @@ import { SliderModule } from '@bdspark/sparkng/slider';
         </app-docsectiontext>
         <div class="card flex justify-center">
             <div class="flex flex-col items-center">
-                <img alt="user header" class="w-full md:w-80 rounded mb-6" src="https://TODO-BDSPARK-DOMAIN/demo/card-vue.jpg" [style]="filterStyle" />
+                <img alt="user header" class="w-full md:w-80 rounded mb-6" src="https://sparkng.bdspark.com/demo/card-vue.jpg" [style]="filterStyle" />
                 <p-selectbutton [(ngModel)]="filter" [options]="filterOptions" optionLabel="label" optionValue="value" class="mb-4" />
                 <p-slider [(ngModel)]="filterValues[filter]" class="w-56" [min]="0" [max]="200" />
             </div>

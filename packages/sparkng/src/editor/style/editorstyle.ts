@@ -26,7 +26,7 @@ export class EditorStyle extends BaseStyle {
  *
  * Editor groups a collection of contents in tabs.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/editor/)
+ * [Live Demo](https://sparkng.bdspark.com/editor/)
  *
  * @module editorstyle
  *

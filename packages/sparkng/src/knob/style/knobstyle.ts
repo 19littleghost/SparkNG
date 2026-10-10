@@ -22,7 +22,7 @@ export class KnobStyle extends BaseStyle {
  *
  * Knob is a form component to define number inputs with a dial.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/knob/)
+ * [Live Demo](https://sparkng.bdspark.com/knob/)
  *
  * @module knobstyle
  *

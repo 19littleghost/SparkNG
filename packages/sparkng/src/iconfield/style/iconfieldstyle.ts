@@ -25,7 +25,7 @@ export class IconFieldStyle extends BaseStyle {
  *
  * IconField wraps an input and an icon.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/iconfield/)
+ * [Live Demo](https://sparkng.bdspark.com/iconfield/)
  *
  * @module iconfieldstyle
  *

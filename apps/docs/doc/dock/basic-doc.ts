@@ -43,7 +43,7 @@ import { TooltipModule } from '@bdspark/sparkng/tooltip';
                     width: 100%;
                     height: 450px;
                     position: relative;
-                    background-image: url('https://TODO-BDSPARK-DOMAIN/demo/dock/window.jpg');
+                    background-image: url('https://sparkng.bdspark.com/demo/dock/window.jpg');
                     background-repeat: no-repeat;
                     background-size: cover;
                 }
@@ -83,19 +83,19 @@ export class BasicDoc implements OnInit {
         this.items = [
             {
                 label: 'Finder',
-                icon: 'https://TODO-BDSPARK-DOMAIN/demo/dock/finder.svg'
+                icon: 'https://sparkng.bdspark.com/demo/dock/finder.svg'
             },
             {
                 label: 'App Store',
-                icon: 'https://TODO-BDSPARK-DOMAIN/demo/dock/appstore.svg'
+                icon: 'https://sparkng.bdspark.com/demo/dock/appstore.svg'
             },
             {
                 label: 'Photos',
-                icon: 'https://TODO-BDSPARK-DOMAIN/demo/dock/photos.svg'
+                icon: 'https://sparkng.bdspark.com/demo/dock/photos.svg'
             },
             {
                 label: 'Trash',
-                icon: 'https://TODO-BDSPARK-DOMAIN/demo/dock/trash.png'
+                icon: 'https://sparkng.bdspark.com/demo/dock/trash.png'
             }
         ];
     }

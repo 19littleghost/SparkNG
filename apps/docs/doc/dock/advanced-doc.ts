@@ -82,7 +82,7 @@ import { Subscription } from 'rxjs';
                     width: 100%;
                     height: 450px;
                     position: relative;
-                    background-image: url('https://TODO-BDSPARK-DOMAIN/demo/dock/window.jpg');
+                    background-image: url('https://sparkng.bdspark.com/demo/dock/window.jpg');
                     background-repeat: no-repeat;
                     background-size: cover;
                 }
@@ -133,7 +133,7 @@ export class AdvancedDoc implements OnInit, OnDestroy {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://TODO-BDSPARK-DOMAIN/demo/dock/finder.svg',
+                icon: 'https://sparkng.bdspark.com/demo/dock/finder.svg',
                 command: () => {
                     this.displayFinder = true;
                 }
@@ -147,7 +147,7 @@ export class AdvancedDoc implements OnInit, OnDestroy {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://TODO-BDSPARK-DOMAIN/demo/dock/terminal.svg',
+                icon: 'https://sparkng.bdspark.com/demo/dock/terminal.svg',
                 command: () => {
                     this.displayTerminal = true;
                 }
@@ -161,7 +161,7 @@ export class AdvancedDoc implements OnInit, OnDestroy {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://TODO-BDSPARK-DOMAIN/demo/dock/appstore.svg',
+                icon: 'https://sparkng.bdspark.com/demo/dock/appstore.svg',
                 url: 'https://www.apple.com/app-store/'
             },
             {
@@ -173,7 +173,7 @@ export class AdvancedDoc implements OnInit, OnDestroy {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://TODO-BDSPARK-DOMAIN/demo/dock/safari.svg'
+                icon: 'https://sparkng.bdspark.com/demo/dock/safari.svg'
             },
             {
                 label: 'Photos',
@@ -184,7 +184,7 @@ export class AdvancedDoc implements OnInit, OnDestroy {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://TODO-BDSPARK-DOMAIN/demo/dock/photos.svg',
+                icon: 'https://sparkng.bdspark.com/demo/dock/photos.svg',
                 command: () => {
                     this.displayGalleria = true;
                 }
@@ -198,7 +198,7 @@ export class AdvancedDoc implements OnInit, OnDestroy {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://TODO-BDSPARK-DOMAIN/demo/dock/github.svg',
+                icon: 'https://sparkng.bdspark.com/demo/dock/github.svg',
                 url: 'https://github.com/TODO-BDSPARK-ORG/sparkng'
             },
             {
@@ -210,7 +210,7 @@ export class AdvancedDoc implements OnInit, OnDestroy {
                     positionLeft: 15,
                     showDelay: 1000
                 },
-                icon: 'https://TODO-BDSPARK-DOMAIN/demo/dock/trash.png',
+                icon: 'https://sparkng.bdspark.com/demo/dock/trash.png',
                 command: () => {
                     this.messageService.add({ severity: 'info', summary: 'Trash is empty', key: 'tc' });
                 }

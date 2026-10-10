@@ -2,7 +2,7 @@ import Versions from '@/assets/data/versions.json';
 import { AppConfiguratorComponent } from '@/components/layout/configurator/app.configurator.component';
 import { AppConfigService } from '@/service/appconfigservice';
 import { DISCORD_URL, GITHUB_DISCUSSIONS_URL, GITHUB_REPO_URL } from '@/utils/constants';
-import { CommonModule, DOCUMENT, NgOptimizedImage } from '@angular/common';
+import { CommonModule, DOCUMENT } from '@angular/common';
 import { afterNextRender, booleanAttribute, Component, computed, ElementRef, Inject, Input, OnDestroy, Renderer2 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
@@ -14,16 +14,12 @@ import docsearch from '@docsearch/js';
 @Component({
     selector: 'app-topbar',
     standalone: true,
-    imports: [CommonModule, FormsModule, StyleClass, RouterModule, AppConfiguratorComponent, SelectModule, NgOptimizedImage],
+    imports: [CommonModule, FormsModule, StyleClass, RouterModule, AppConfiguratorComponent, SelectModule],
     template: `<div class="layout-topbar">
         <div class="layout-topbar-inner">
             <div class="layout-topbar-logo-container">
-                <a [routerLink]="['/']" class="layout-topbar-logo" aria-label="Optimus UI Logo">
-                    <img ngSrc="logo.svg" height="40" width="200" class="dark:invert" />
-                </a>
-                <a [routerLink]="['/']" class="layout-topbar-icon" aria-label="Optimus UI Logo">
-                    <img ngSrc="logo-icon.svg" height="32" width="32" class="dark:invert" />
-                </a>
+                <a [routerLink]="['/']" class="layout-topbar-logo" aria-label="SparkNg"></a>
+                <a [routerLink]="['/']" class="layout-topbar-icon" aria-label="SparkNg"></a>
             </div>
 
             <ul class="topbar-items">

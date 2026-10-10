@@ -175,7 +175,7 @@ import { ButtonModule } from '@bdspark/sparkng/button';
                 <tr>
                     <td>{{ product.code }}</td>
                     <td>{{ product.name }}</td>
-                    <td><img src="https://TODO-BDSPARK-DOMAIN/demo/product/{{ product.image }}" [alt]="product.image" class="w-16 h-16 shadow" /></td>
+                    <td><img src="https://sparkng.bdspark.com/demo/product/{{ product.image }}" [alt]="product.image" class="w-16 h-16 shadow" /></td>
                     <td>{{ product.category }}</td>
                     <td>
                         {{ product.quantity }}

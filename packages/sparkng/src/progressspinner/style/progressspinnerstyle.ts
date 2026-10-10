@@ -21,7 +21,7 @@ export class ProgressSpinnerStyle extends BaseStyle {
  *
  * ProgressSpinner is a process status indicator.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/progressspinner)
+ * [Live Demo](https://sparkng.bdspark.com/progressspinner)
  *
  * @module progressspinnerstyle
  *

@@ -20,7 +20,7 @@ export class ImageCompareStyle extends BaseStyle {
  *
  * ImageCompare compares two images side by side with a slider.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/imagecompare/)
+ * [Live Demo](https://sparkng.bdspark.com/imagecompare/)
  *
  * @module imagecomparestyle
  *

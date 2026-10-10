@@ -67,7 +67,7 @@ export class CarouselStyle extends BaseStyle {
  *
  * Carousel is a content slider featuring various customization options.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/carousel/)
+ * [Live Demo](https://sparkng.bdspark.com/carousel/)
  *
  * @module carouselstyle
  *

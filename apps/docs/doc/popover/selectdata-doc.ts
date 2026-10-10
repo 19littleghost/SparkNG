@@ -22,7 +22,7 @@ import { Popover, PopoverModule } from '@bdspark/sparkng/popover';
                         <span class="font-medium block mb-2">Team Members</span>
                         <ul class="list-none p-0 m-0 flex flex-col">
                             <li *ngFor="let member of members" class="flex items-center gap-2 px-2 py-3 hover:bg-emphasis cursor-pointer rounded-border" (click)="selectMember(member)">
-                                <img [src]="'https://TODO-BDSPARK-DOMAIN/demo/avatar/' + member.image" style="width: 32px" />
+                                <img [src]="'https://sparkng.bdspark.com/demo/avatar/' + member.image" style="width: 32px" />
                                 <div>
                                     <span class="font-medium">{{ member.name }}</span>
                                     <div class="text-sm text-surface-500 dark:text-surface-400">{{ member.email }}</div>

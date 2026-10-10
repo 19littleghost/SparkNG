@@ -27,7 +27,7 @@ export class TerminalStyle extends BaseStyle {
  *
  * Terminal is a text based user interface.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/terminal)
+ * [Live Demo](https://sparkng.bdspark.com/terminal)
  *
  * @module terminalstyle
  *

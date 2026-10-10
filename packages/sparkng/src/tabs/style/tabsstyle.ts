@@ -24,7 +24,7 @@ export class TabsStyle extends BaseStyle {
  *
  * Tabs facilitates seamless switching between different views.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/tabs/)
+ * [Live Demo](https://sparkng.bdspark.com/tabs/)
  *
  * @module tabsstyle
  *

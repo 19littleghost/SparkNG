@@ -14,11 +14,11 @@ import { AvatarGroupModule } from '@bdspark/sparkng/avatargroup';
         </app-docsectiontext>
         <div class="card flex justify-center">
             <p-avatar-group>
-                <p-avatar image="https://TODO-BDSPARK-DOMAIN/demo/avatar/amyelsner.png" size="large" shape="circle" />
-                <p-avatar image="https://TODO-BDSPARK-DOMAIN/demo/avatar/asiyajavayant.png" size="large" shape="circle" />
-                <p-avatar image="https://TODO-BDSPARK-DOMAIN/demo/avatar/onyamalimba.png" size="large" shape="circle" />
-                <p-avatar image="https://TODO-BDSPARK-DOMAIN/demo/avatar/ionibowcher.png" size="large" shape="circle" />
-                <p-avatar image="https://TODO-BDSPARK-DOMAIN/demo/avatar/xuxuefeng.png" size="large" shape="circle" />
+                <p-avatar image="https://sparkng.bdspark.com/demo/avatar/amyelsner.png" size="large" shape="circle" />
+                <p-avatar image="https://sparkng.bdspark.com/demo/avatar/asiyajavayant.png" size="large" shape="circle" />
+                <p-avatar image="https://sparkng.bdspark.com/demo/avatar/onyamalimba.png" size="large" shape="circle" />
+                <p-avatar image="https://sparkng.bdspark.com/demo/avatar/ionibowcher.png" size="large" shape="circle" />
+                <p-avatar image="https://sparkng.bdspark.com/demo/avatar/xuxuefeng.png" size="large" shape="circle" />
                 <p-avatar label="+2" shape="circle" size="large" />
             </p-avatar-group>
         </div>

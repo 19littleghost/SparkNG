@@ -34,7 +34,7 @@ export class FileUploadStyle extends BaseStyle {
  *
  * FileUpload is an advanced uploader with dragdrop support, multi file uploads, auto uploading, progress tracking and validations.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/fileupload/)
+ * [Live Demo](https://sparkng.bdspark.com/fileupload/)
  *
  * @module fileuploadstyle
  *

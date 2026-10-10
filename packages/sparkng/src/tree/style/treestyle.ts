@@ -48,7 +48,7 @@ export class TreeStyle extends BaseStyle {
  *
  * Tree is used to display hierarchical data.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/tree/)
+ * [Live Demo](https://sparkng.bdspark.com/tree/)
  *
  * @module treestyle
  *

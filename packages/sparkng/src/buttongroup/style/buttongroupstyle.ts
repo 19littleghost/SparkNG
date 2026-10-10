@@ -48,7 +48,7 @@ export class ButtonGroupStyle extends BaseStyle {
  *
  * A set of Buttons can be displayed together using the ButtonGroup component.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/button/)
+ * [Live Demo](https://sparkng.bdspark.com/button/)
  *
  * @module buttongroupstyle
  *

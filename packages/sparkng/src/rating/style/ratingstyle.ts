@@ -44,7 +44,7 @@ export class RatingStyle extends BaseStyle {
  *
  * Rating component is a star based selection input.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/rating/)
+ * [Live Demo](https://sparkng.bdspark.com/rating/)
  *
  * @module ratingstyle
  *

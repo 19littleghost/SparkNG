@@ -21,7 +21,7 @@ interface UploadEvent {
         </app-docsectiontext>
         <p-toast />
         <div class="card flex flex-wrap gap-6 items-center justify-between">
-            <p-fileupload #fu mode="basic" chooseLabel="Choose" chooseIcon="pi pi-upload" name="demo[]" url="https://TODO-BDSPARK-DOMAIN/api/upload" accept="image/*" maxFileSize="1000000" (onUpload)="onUpload($event)" />
+            <p-fileupload #fu mode="basic" chooseLabel="Choose" chooseIcon="pi pi-upload" name="demo[]" url="https://sparkng.bdspark.com/api/upload" accept="image/*" maxFileSize="1000000" (onUpload)="onUpload($event)" />
             <p-button label="Upload" (onClick)="fu.upload()" severity="secondary" />
         </div>
         <app-code></app-code>

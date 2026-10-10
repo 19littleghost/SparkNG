@@ -14,10 +14,10 @@ import { ImageCompareModule } from '@bdspark/sparkng/imagecompare';
         <div class="card flex justify-center">
             <p-imagecompare class="shadow-lg rounded-2xl">
                 <ng-template #left>
-                    <img src="https://TODO-BDSPARK-DOMAIN/demo/compare/island1.jpg" />
+                    <img src="https://sparkng.bdspark.com/demo/compare/island1.jpg" />
                 </ng-template>
                 <ng-template #right>
-                    <img src="https://TODO-BDSPARK-DOMAIN/demo/compare/island2.jpg" />
+                    <img src="https://sparkng.bdspark.com/demo/compare/island2.jpg" />
                 </ng-template>
             </p-imagecompare>
         </div>

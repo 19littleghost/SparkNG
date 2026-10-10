@@ -21,7 +21,7 @@ export class InplaceStyle extends BaseStyle {
  *
  * Inplace provides an easy to do editing and display at the same time where clicking the output displays the actual content.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/inplace)
+ * [Live Demo](https://sparkng.bdspark.com/inplace)
  *
  * @module inplacestyle
  *

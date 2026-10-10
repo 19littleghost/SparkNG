@@ -269,7 +269,7 @@ describe('migrate-from-primeng', () => {
         expect(combined).toContain('1 reference in 1 file');
         expect(combined).toContain('still need manual review');
         expect(combined).toContain('CREATE/UPDATE');
-        expect(combined).toContain('https://TODO-BDSPARK-DOMAIN/migration/primeng');
+        expect(combined).toContain('https://sparkng.bdspark.com/migration/primeng');
     });
 
     it('says so when there is nothing left to review', async () => {

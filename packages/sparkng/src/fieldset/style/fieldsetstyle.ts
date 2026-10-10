@@ -32,7 +32,7 @@ export class FieldsetStyle extends BaseStyle {
  *
  * Fieldset is a grouping component with the optional content toggle feature.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/fieldset/)
+ * [Live Demo](https://sparkng.bdspark.com/fieldset/)
  *
  * @module fieldsetstyle
  *

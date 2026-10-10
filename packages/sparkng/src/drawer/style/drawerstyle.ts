@@ -123,7 +123,7 @@ export class DrawerStyle extends BaseStyle {
  *
  * Drawer is a panel component displayed as an overlay at the edges of the screen.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/drawer)
+ * [Live Demo](https://sparkng.bdspark.com/drawer)
  *
  * @module drawerstyle
  *

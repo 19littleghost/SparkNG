@@ -21,7 +21,7 @@ export class TabPanelStyle extends BaseStyle {
  *
  * Tab is a helper component for Tabs component.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/tabs/)
+ * [Live Demo](https://sparkng.bdspark.com/tabs/)
  *
  * @module tabstyle
  *

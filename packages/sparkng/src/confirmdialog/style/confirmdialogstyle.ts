@@ -23,7 +23,7 @@ export class ConfirmDialogStyle extends BaseStyle {
  *
  * ConfirmDialog uses a Dialog UI with confirmDialog method or <ConfirmDialog> tag.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/confirmdialog)
+ * [Live Demo](https://sparkng.bdspark.com/confirmdialog)
  *
  * @module confirmdialogstyle
  *

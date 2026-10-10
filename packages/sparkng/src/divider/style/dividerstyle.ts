@@ -40,7 +40,7 @@ export class DividerStyle extends BaseStyle {
  *
  * Divider is used to separate contents.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/divider)
+ * [Live Demo](https://sparkng.bdspark.com/divider)
  *
  * @module dividerstyle
  *

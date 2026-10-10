@@ -24,7 +24,7 @@ export class BlockUiStyle extends BaseStyle {
  *
  * BlockUI represents people using icons, labels and images.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/blockui)
+ * [Live Demo](https://sparkng.bdspark.com/blockui)
  *
  * @module blockuistyle
  *

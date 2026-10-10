@@ -1280,7 +1280,7 @@ export declare namespace ButtonTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://TODO-BDSPARK-DOMAIN/theming/styled)
+ * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface ButtonDesignTokens extends DesignTokens<ButtonDesignTokens> {

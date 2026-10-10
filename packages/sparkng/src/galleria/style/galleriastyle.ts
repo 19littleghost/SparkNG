@@ -93,7 +93,7 @@ export class GalleriaStyle extends BaseStyle {
  *
  * Galleria is an advanced content gallery component.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/galleria/)
+ * [Live Demo](https://sparkng.bdspark.com/galleria/)
  *
  * @module galleriastyle
  *

@@ -36,7 +36,7 @@ export class ChipStyle extends BaseStyle {
  *
  * Chip represents people using icons, labels and images.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/chip)
+ * [Live Demo](https://sparkng.bdspark.com/chip)
  *
  * @module chipstyle
  *

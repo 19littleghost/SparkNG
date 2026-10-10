@@ -76,7 +76,7 @@ import { ToggleSwitchModule } from '@bdspark/sparkng/toggleswitch';
         <div class="w-8/12 xl:w-6/12 border-x border-surface flex flex-col">
             <div class="flex items-center p-4 gap-7 border-b border-surface">
                 <div class="flex items-center">
-                    <p-avatar image="logo-icon.svg" styleClass="mr-2 av" size="large" shape="circle" />
+                    <p-avatar image="demo/avatar/amyelsner.png" styleClass="mr-2 av" size="large" shape="circle" />
                     <div class="flex-1">
                         <div class="text-color leading-6 cursor-pointer hover:text-muted-color-emphasis transition-colors">bdSpark</div>
                         <div class="text-muted-color leading-5 line-clamp-1 mt-1">Cody Fisher, Esther Howard, Jerome Bell, Kristin Watson, Ronald Richards, Darrell Steward</div>
@@ -144,7 +144,7 @@ import { ToggleSwitchModule } from '@bdspark/sparkng/toggleswitch';
         </div>
         <div class="w-3/12 xl:block hidden min-w-40 py-6 px-3 overflow-auto">
             <div class="flex flex-col items-center justify-center">
-                <p-avatar image="logo-icon.svg" styleClass="w-32 h-32" size="xlarge" shape="circle" />
+                <p-avatar image="demo/avatar/onyamalimba.png" styleClass="w-32 h-32" size="xlarge" shape="circle" />
                 <div class="leading-6 font-medium text-color mt-4 w-full text-center">bdSpark</div>
                 <div class="leading-5 text-sm text-muted-color mt-1 w-full text-center">&#64;bdspark</div>
                 <div class="flex items-center justify-center flex-wrap gap-1 mt-4">
@@ -268,7 +268,7 @@ export class ChatApp {
                 lastMessage: "Hey there! I've heard about Optimus UI. Any cool tips for getting started?"
             },
             {
-                image: 'logo-icon.svg',
+                image: 'demo/avatar/ionibowcher.png',
                 name: 'bdSpark Team',
                 capName: 'PT',
                 active: undefined,

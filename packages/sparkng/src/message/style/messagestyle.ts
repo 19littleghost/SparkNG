@@ -25,7 +25,7 @@ export class MessageStyle extends BaseStyle {
  *
  * Message groups a collection of contents in tabs.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/message/)
+ * [Live Demo](https://sparkng.bdspark.com/message/)
  *
  * @module messagestyle
  *

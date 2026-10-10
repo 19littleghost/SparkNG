@@ -55,7 +55,7 @@ export class AccordionStyle extends BaseStyle {
  *
  * Accordion groups a collection of contents in tabs.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/accordion/)
+ * [Live Demo](https://sparkng.bdspark.com/accordion/)
  *
  * @module accordionstyle
  *

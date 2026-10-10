@@ -9,7 +9,7 @@ import { ContextMenuModule } from '@bdspark/sparkng/contextmenu';
     imports: [CommonModule, AppDocPtViewer, ContextMenuModule],
     template: `
         <app-docptviewer [docs]="docs">
-            <img #image src="https://TODO-BDSPARK-DOMAIN/demo/nature/nature2.jpg" alt="Logo" aria-haspopup="true" class="w-full md:w-80 rounded shadow-lg" (contextmenu)="cm.show($event)" />
+            <img #image src="https://sparkng.bdspark.com/demo/nature/nature2.jpg" alt="Logo" aria-haspopup="true" class="w-full md:w-80 rounded shadow-lg" (contextmenu)="cm.show($event)" />
             <p-contextMenu #cm [target]="image" [model]="items" />
         </app-docptviewer>
     `

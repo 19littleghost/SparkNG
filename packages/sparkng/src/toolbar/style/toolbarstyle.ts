@@ -22,7 +22,7 @@ export class ToolbarStyle extends BaseStyle {
  *
  * Toolbar is a grouping component for buttons and other content.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/toolbar/)
+ * [Live Demo](https://sparkng.bdspark.com/toolbar/)
  *
  * @module toolbarstyle
  *

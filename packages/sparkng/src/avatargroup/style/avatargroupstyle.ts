@@ -16,7 +16,7 @@ export class AvatarGroupStyle extends BaseStyle {
  *
  * A set of Avatars can be displayed together using the AvatarGroup component.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/avatar/)
+ * [Live Demo](https://sparkng.bdspark.com/avatar/)
  *
  * @module avatargroupstyle
  *

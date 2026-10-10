@@ -31,7 +31,7 @@ export class SkeletonStyle extends BaseStyle {
  *
  * Skeleton is a placeholder to display instead of the actual content.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/skeleton/)
+ * [Live Demo](https://sparkng.bdspark.com/skeleton/)
  *
  * @module skeletonstyle
  *

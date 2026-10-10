@@ -21,7 +21,7 @@ import { Component } from '@angular/core';
             <app-code [code]="flagsCode" [hideToggleCode]="true"></app-code>
             <p>
                 If the schematic cannot find a providers array to update it prints the three manual steps instead of guessing, so nothing in your workspace is rewritten unexpectedly. If it detects an existing <i>primeng</i> dependency it changes
-                nothing and fails with an error rather than reporting success, and points you at the <a href="https://v1.TODO-BDSPARK-DOMAIN/migration/primeng" target="_blank" rel="noopener noreferrer" class="doc-link">migration guide</a>, which
+                nothing and fails with an error rather than reporting success, and points you at the <a href="https://v1.sparkng.bdspark.com/migration/primeng" target="_blank" rel="noopener noreferrer" class="doc-link">migration guide</a>, which
                 covers the <i>migrate-from-primeng</i> schematic. It does not run that schematic for you. The Angular CLI installs <i>&#64;bdspark/sparkng</i> before the schematic runs, so the dependency stays in your <i>package.json</i> — the
                 migration schematic needs it there.
             </p>

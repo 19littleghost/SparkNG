@@ -68,7 +68,7 @@ export class InputNumberStyle extends BaseStyle {
  *
  * InputNumber is an input component to provide numerical input.
  *
- * [Live Demo](https:/TODO-BDSPARK-DOMAIN/inputnumber/)
+ * [Live Demo](https:/sparkng.bdspark.com/inputnumber/)
  *
  * @module inputnumberstyle
  *

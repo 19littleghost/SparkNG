@@ -40,7 +40,7 @@ export class PanelStyle extends BaseStyle {
  *
  * Panel is a container with the optional content toggle feature.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/panel/)
+ * [Live Demo](https://sparkng.bdspark.com/panel/)
  *
  * @module panelstyle
  *

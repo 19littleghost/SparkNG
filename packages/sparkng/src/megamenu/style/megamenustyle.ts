@@ -93,7 +93,7 @@ export class MegaMenuStyle extends BaseStyle {
  *
  * MegaMenu is navigation component that displays submenus together.
  *
- * [Live Demo](https://TODO-BDSPARK-DOMAIN/megamenu/)
+ * [Live Demo](https://sparkng.bdspark.com/megamenu/)
  *
  * @module megamenustyle
  *

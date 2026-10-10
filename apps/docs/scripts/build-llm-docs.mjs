@@ -1045,7 +1045,7 @@ function generateLlmsTxt(components, pages = []) {
         content += '## Guides\n\n';
 
         for (const page of pages) {
-            content += `- [${page.title}](https://TODO-BDSPARK-DOMAIN/${page.route}): ${page.description}\n`;
+            content += `- [${page.title}](https://sparkng.bdspark.com/${page.route}): ${page.description}\n`;
         }
 
         content += '\n';
@@ -1058,7 +1058,7 @@ function generateLlmsTxt(components, pages = []) {
 
     for (const comp of sorted) {
         const route = COMPONENT_ROUTE_MAP[comp.name] ?? comp.name;
-        content += `- [${comp.title}](https://TODO-BDSPARK-DOMAIN/${route}): ${comp.description}\n`;
+        content += `- [${comp.title}](https://sparkng.bdspark.com/${route}): ${comp.description}\n`;
     }
 
     const outputPath = path.join(OUTPUT_DIR, 'llms.txt');

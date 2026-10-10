@@ -24,19 +24,19 @@ export class PTViewer {
     items = [
         {
             label: 'Finder',
-            icon: 'https://TODO-BDSPARK-DOMAIN/demo/dock/finder.svg'
+            icon: 'https://sparkng.bdspark.com/demo/dock/finder.svg'
         },
         {
             label: 'App Store',
-            icon: 'https://TODO-BDSPARK-DOMAIN/demo/dock/appstore.svg'
+            icon: 'https://sparkng.bdspark.com/demo/dock/appstore.svg'
         },
         {
             label: 'Photos',
-            icon: 'https://TODO-BDSPARK-DOMAIN/demo/dock/photos.svg'
+            icon: 'https://sparkng.bdspark.com/demo/dock/photos.svg'
         },
         {
             label: 'Trash',
-            icon: 'https://TODO-BDSPARK-DOMAIN/demo/dock/trash.png'
+            icon: 'https://sparkng.bdspark.com/demo/dock/trash.png'
         }
     ];
 
