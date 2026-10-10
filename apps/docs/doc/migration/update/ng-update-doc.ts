@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
     imports: [AppDocSectionText, AppCode],
     template: `
         <app-docsectiontext>
-            <p>Run <i>ng update</i> without arguments at any time to list the updates available in your workspace, Optimus UI included.</p>
+            <p>Run <i>ng update</i> without arguments at any time to list the updates available in your workspace, SparkNG included.</p>
             <app-code [code]="checkCode" [hideToggleCode]="true"></app-code>
             <p>
                 To update within the current major, pass the main package. The Angular CLI resolves the rest: <i>&#64;bdspark/sparkng</i> declares all its companion packages as a group, so every installed <i>&#64;bdspark/sparkng-*</i> package —

@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
     ${inputnumber_style}
 
-    /* For Optimus */
+    /* For Spark */
     p-inputNumber.ng-invalid.ng-dirty > .p-inputtext,
     p-input-number.ng-invalid.ng-dirty > .p-inputtext,
     p-inputnumber.ng-invalid.ng-dirty > .p-inputtext {

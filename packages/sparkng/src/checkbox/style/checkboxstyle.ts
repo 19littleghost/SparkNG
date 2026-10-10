@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
     ${checkbox_style}
 
-    /* For Optimus */
+    /* For Spark */
     p-checkBox.ng-invalid.ng-dirty .p-checkbox-box,
     p-check-box.ng-invalid.ng-dirty .p-checkbox-box,
     p-checkbox.ng-invalid.ng-dirty .p-checkbox-box {

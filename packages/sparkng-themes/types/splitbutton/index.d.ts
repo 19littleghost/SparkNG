@@ -49,7 +49,7 @@ export declare namespace SplitButtonTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
+ * [SparkNG](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface SplitButtonDesignTokens extends DesignTokens<SplitButtonDesignTokens> {

@@ -1,9 +1,9 @@
 <div align="center">
 </div>
 
-# Optimus UI Locale
+# SparkNG Locale
 
-i18n and l7n locales for the components of [Optimus UI](https://sparkng.bdspark.com/), vendored from the community supported [PrimeLocale](https://github.com/primefaces/primelocale) repository.
+i18n and l7n locales for the components of [SparkNG](https://sparkng.bdspark.com/), vendored from the community supported [PrimeLocale](https://github.com/primefaces/primelocale) repository.
 
 ## Installation
 
@@ -13,7 +13,7 @@ npm install @bdspark/sparkng-locale
 
 ## Usage
 
-Import a locale from its subpath and pass it to the Optimus UI configuration:
+Import a locale from its subpath and pass it to the SparkNG configuration:
 
 ```ts
 import { de } from '@bdspark/sparkng-locale/js/de.js';

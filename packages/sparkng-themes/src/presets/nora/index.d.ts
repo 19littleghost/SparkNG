@@ -11,7 +11,7 @@ import type { NoraBaseDesignTokens } from './base/index.d';
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
+ * [SparkNG](https://sparkng.bdspark.com/theming/styled)
  *
  */
 declare const _default: Preset<NoraBaseDesignTokens>;

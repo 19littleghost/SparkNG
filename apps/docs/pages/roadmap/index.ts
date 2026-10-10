@@ -44,8 +44,8 @@ export class RoadmapDemo {
         private titleService: Title,
         private metaService: Meta
     ) {
-        this.titleService.setTitle('Roadmap - Optimus UI');
-        this.metaService.updateTag({ name: 'description', content: 'Optimus UI Roadmap' });
+        this.titleService.setTitle('Roadmap - SparkNG');
+        this.metaService.updateTag({ name: 'description', content: 'SparkNG Roadmap' });
 
         this.events = [
             {

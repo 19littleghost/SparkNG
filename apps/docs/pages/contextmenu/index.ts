@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/contextmenu/accessibility-doc';
 import { BasicDoc } from '@/doc/contextmenu/basic-doc';
 import { CommandDoc } from '@/doc/contextmenu/command-doc';
@@ -8,14 +9,13 @@ import { RouterDoc } from '@/doc/contextmenu/router-doc';
 import { TableDoc } from '@/doc/contextmenu/table-doc';
 import { TemplateDoc } from '@/doc/contextmenu/template-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     standalone: true,
     imports: [AppDoc],
     template: `
         <app-doc
-            docTitle="Angular ContextMenu Component - Optimus UI"
+            docTitle="Angular ContextMenu Component - SparkNG"
             header="ContextMenu"
             description="ContextMenu displays an overlay menu on right click of its target."
             [docs]="docs"

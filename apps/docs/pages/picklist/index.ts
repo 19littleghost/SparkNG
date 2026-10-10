@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/picklist/accessibility-doc';
 import { BasicDoc } from '@/doc/picklist/basic-doc';
 import { FilterDoc } from '@/doc/picklist/filter-doc';
@@ -5,11 +6,10 @@ import { ImportDoc } from '@/doc/picklist/import-doc';
 import { PTComponent } from '@/doc/picklist/pt/PTComponent';
 import { TemplateDoc } from '@/doc/picklist/template-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular PickList Component - Optimus UI"
+        docTitle="Angular PickList Component - SparkNG"
         header="PickList"
         description="PickList is used to reorder items between different lists."
         [docs]="docs"

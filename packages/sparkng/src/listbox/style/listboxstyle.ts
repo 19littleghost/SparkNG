@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
     ${listbox_style}
 
-    /* For Optimus */
+    /* For Spark */
     .p-listbox.ng-invalid.ng-dirty {
         border-color: dt('listbox.invalid.border.color');
     }

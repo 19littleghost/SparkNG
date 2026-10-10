@@ -1,14 +1,14 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/progressspinner/accessibility-doc';
 import { BasicDoc } from '@/doc/progressspinner/basic-doc';
 import { CustomDoc } from '@/doc/progressspinner/custom-doc';
 import { ImportDoc } from '@/doc/progressspinner/import-doc';
 import { PTComponent } from '@/doc/progressspinner/pt/PTComponent';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular ProgressSpinner Component - Optimus UI"
+        docTitle="Angular ProgressSpinner Component - SparkNG"
         header="ProgressSpinner"
         description="ProgressSpinner is a process status indicator."
         [docs]="docs"

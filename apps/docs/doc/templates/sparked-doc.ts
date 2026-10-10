@@ -11,8 +11,8 @@ import { ButtonModule } from '@bdspark/sparkng/button';
     template: `
         <app-docsectiontext>
             <p>
-                <a [href]="sparkedRepoUrl" target="_blank" rel="noopener noreferrer">Sparked</a> is a free, MIT licensed Angular application template built with Optimus UI. It is a ready-to-use starting point for admin-style applications: clone it,
-                drop in your own routes and data, and ship.
+                <a [href]="sparkedRepoUrl" target="_blank" rel="noopener noreferrer">Sparked</a> is a free, MIT licensed Angular application template built with SparkNG. It is a ready-to-use starting point for admin-style applications: clone it, drop
+                in your own routes and data, and ship.
             </p>
             <p>It ships with:</p>
             <ul>
@@ -26,7 +26,7 @@ import { ButtonModule } from '@bdspark/sparkng/button';
                 <a pButton label="Live Demo" icon="pi pi-external-link" [href]="sparkedDemoUrl" target="_blank" rel="noopener noreferrer"></a>
                 <a pButton label="Source Code" icon="pi pi-github" severity="secondary" [outlined]="true" [href]="sparkedRepoUrl" target="_blank" rel="noopener noreferrer"></a>
             </div>
-            <img [src]="screenshot()" alt="Sparked dashboard built with Optimus UI" class="w-full mt-6 rounded-border border border-surface" loading="lazy" />
+            <img [src]="screenshot()" alt="Sparked dashboard built with SparkNG" class="w-full mt-6 rounded-border border border-surface" loading="lazy" />
         </app-docsectiontext>
     `
 })

@@ -1,16 +1,16 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/timeline/accessibility-doc';
 import { AlignmentDoc } from '@/doc/timeline/alignment-doc';
 import { BasicDoc } from '@/doc/timeline/basic-doc';
 import { HorizontalDoc } from '@/doc/timeline/horizontal-doc';
 import { ImportDoc } from '@/doc/timeline/import-doc';
 import { OppositeDoc } from '@/doc/timeline/opposite-doc';
-import { TemplateDoc } from '@/doc/timeline/template-doc';
 import { PTComponent } from '@/doc/timeline/pt/PTComponent';
+import { TemplateDoc } from '@/doc/timeline/template-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
-    template: `<app-doc docTitle="Angular Timeline Component - Optimus UI" header="Timeline" description="Timeline visualizes a series of chained events." [docs]="docs" [apiDocs]="['Timeline']" [ptDocs]="ptComponent" themeDocs="timeline"></app-doc>`,
+    template: `<app-doc docTitle="Angular Timeline Component - SparkNG" header="Timeline" description="Timeline visualizes a series of chained events." [docs]="docs" [apiDocs]="['Timeline']" [ptDocs]="ptComponent" themeDocs="timeline"></app-doc>`,
     standalone: true,
     imports: [AppDoc],
     styleUrl: './timelinedemo.scss'

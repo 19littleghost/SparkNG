@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
 ${datepicker_style}
 
-/* For Optimus */
+/* For Spark */
 .p-datepicker.ng-invalid.ng-dirty .p-inputtext {
     border-color: dt('inputtext.invalid.border.color');
 }

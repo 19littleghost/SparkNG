@@ -75,13 +75,13 @@ const GUIDE_PAGES = [
         route: 'installation',
         docPath: 'installation',
         title: 'Installation',
-        description: 'Setting up Optimus UI in an Angular CLI project.'
+        description: 'Setting up SparkNG in an Angular CLI project.'
     },
     {
         route: 'configuration',
         docPath: 'configuration',
         title: 'Configuration',
-        description: 'Application wide configuration for Optimus UI.'
+        description: 'Application wide configuration for SparkNG.'
     },
     {
         route: 'theming/styled',
@@ -93,19 +93,19 @@ const GUIDE_PAGES = [
         route: 'theming/unstyled',
         docPath: 'theming/unstyled',
         title: 'Unstyled Mode',
-        description: 'Theming Optimus UI with alternative styling approaches.'
+        description: 'Theming SparkNG with alternative styling approaches.'
     },
     {
         route: 'icons',
         docPath: 'icons',
         title: 'Icons',
-        description: 'bdSpark Icons is the default icon library of Optimus UI with over 250 open source icons.'
+        description: 'bdSpark Icons is the default icon library of SparkNG with over 250 open source icons.'
     },
     {
         route: 'customicons',
         docPath: 'customicons',
         title: 'Custom Icons',
-        description: 'Use custom icons with Optimus UI components.'
+        description: 'Use custom icons with SparkNG components.'
     },
     {
         route: 'passthrough',
@@ -117,31 +117,31 @@ const GUIDE_PAGES = [
         route: 'tailwind',
         docPath: 'tailwind',
         title: 'Tailwind CSS',
-        description: 'Integration between Optimus UI and Tailwind CSS.'
+        description: 'Integration between SparkNG and Tailwind CSS.'
     },
     {
         route: 'llms',
         docPath: 'llms',
         title: 'LLMs.txt',
-        description: 'LLM-optimized documentation endpoints for Optimus UI components.'
+        description: 'LLM-optimized documentation endpoints for SparkNG components.'
     },
     {
         route: 'guides/accessibility',
         docPath: 'guides/accessibility',
         title: 'Accessibility',
-        description: 'Optimus UI has WCAG 2.1 AA level compliance.'
+        description: 'SparkNG has WCAG 2.1 AA level compliance.'
     },
     {
         route: 'guides/animations',
         docPath: 'guides/animations',
         title: 'Animations',
-        description: 'Built-in CSS animations for Optimus UI components.'
+        description: 'Built-in CSS animations for SparkNG components.'
     },
     {
         route: 'guides/rtl',
         docPath: 'guides/rtl',
         title: 'RTL',
-        description: 'Right-to-left support for Optimus UI components.'
+        description: 'Right-to-left support for SparkNG components.'
     },
     {
         route: 'guides/primeflex',
@@ -153,7 +153,7 @@ const GUIDE_PAGES = [
         route: 'philosophy',
         docPath: 'philosophy',
         title: 'Philosophy',
-        description: 'Why Optimus UI exists, what it commits to, and where it stops.'
+        description: 'Why SparkNG exists, what it commits to, and where it stops.'
     },
     {
         route: 'faq',
@@ -165,7 +165,7 @@ const GUIDE_PAGES = [
         route: 'contribution',
         docPath: 'contribution',
         title: 'Contribution Guide',
-        description: 'How to contribute to Optimus UI.'
+        description: 'How to contribute to SparkNG.'
     }
 ];
 
@@ -394,9 +394,9 @@ function getComponentMetadata(componentName) {
 
     // Extract from app-doc template attributes
     const docTitleMatch = content.match(/docTitle="([^"]+)"/);
-    // Page titles carry a ' - Optimus UI' suffix for the browser tab; the llms output
-    // is already headed '# Optimus UI', so drop it rather than repeat it on every line.
-    const docTitle = docTitleMatch ? docTitleMatch[1].replace(/\s+-\s+Optimus UI$/, '') : null;
+    // Page titles carry a ' - SparkNG' suffix for the browser tab; the llms output
+    // is already headed '# SparkNG', so drop it rather than repeat it on every line.
+    const docTitle = docTitleMatch ? docTitleMatch[1].replace(/\s+-\s+SparkNG$/, '') : null;
     const headerMatch = content.match(/header="([^"]+)"/);
     const descriptionMatch = content.match(/description="([^"]+)"/);
     const apiDocsMatch = content.match(/\[apiDocs\]="(\[[^\]]+\])"/);
@@ -945,7 +945,7 @@ function generateJsonOutput(components, apiDocs, guidePages = []) {
  * Generate combined Markdown output for AI context
  */
 function generateMarkdownOutput(components, apiDocs, guidePages = []) {
-    let markdown = '# Optimus UI Documentation\n\n';
+    let markdown = '# SparkNG Documentation\n\n';
     markdown += `Generated: ${new Date().toISOString().split('T')[0]}\n\n`;
     markdown += '---\n\n';
 
@@ -1037,7 +1037,7 @@ function generateMarkdownOutput(components, apiDocs, guidePages = []) {
  * Generate llms.txt index file
  */
 function generateLlmsTxt(components, pages = []) {
-    let content = '# Optimus UI\n\n';
+    let content = '# SparkNG\n\n';
     content += '> A community-maintained, MIT licensed suite of 80+ accessible Angular UI components.\n\n';
 
     // Add Guides section
@@ -1257,7 +1257,7 @@ function generatePageMarkdownFiles(pages) {
  * Main execution
  */
 function main() {
-    console.log('🚀 Building Optimus UI LLM Documentation...\n');
+    console.log('🚀 Building SparkNG LLM Documentation...\n');
 
     console.log('📦 Loading demos.json...');
     demosData = loadDemosJson();

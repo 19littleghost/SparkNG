@@ -1,11 +1,11 @@
 import { ElementRef, inject, Injectable, PLATFORM_ID, signal, TemplateRef } from '@angular/core';
 import { FilterMatchMode, OverlayOptions, Translation } from '@bdspark/sparkng/api';
 import { Subject } from 'rxjs';
-import type { OptimusConfigType, ThemeConfigType, ZIndex } from './optimus.types';
+import type { OptimusConfigType, ThemeConfigType, ZIndex } from './Spark.types';
 import { ThemeProvider } from './themeprovider';
 
 @Injectable({ providedIn: 'root' })
-export class Optimus extends ThemeProvider {
+export class Spark extends ThemeProvider {
     ripple = signal<boolean>(false);
 
     public platformId: any = inject(PLATFORM_ID);

@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/treetable/accessibility-doc';
 import { BasicDoc } from '@/doc/treetable/basic-doc';
 import { ColumnGroupDoc } from '@/doc/treetable/columngroup-doc';
@@ -14,6 +15,8 @@ import { ScrollFlexibleDoc } from '@/doc/treetable/flexiblescroll-doc';
 import { GridlinesDoc } from '@/doc/treetable/gridlines-doc';
 import { ImportDoc } from '@/doc/treetable/import-doc';
 import { LazyLoadDoc } from '@/doc/treetable/lazyload-doc';
+import { LoadingMaskDoc } from '@/doc/treetable/loadingmask-doc';
+import { LoadingSkeletonDoc } from '@/doc/treetable/loadingskeleton-doc';
 import { PaginatorBasicDoc } from '@/doc/treetable/paginatorbasic-doc';
 import { PaginatorTemplateDoc } from '@/doc/treetable/paginatortemplate-doc';
 import { PTComponent } from '@/doc/treetable/pt/PTComponent';
@@ -29,14 +32,11 @@ import { SizeDoc } from '@/doc/treetable/size-doc';
 import { SortMultipleColumnsDoc } from '@/doc/treetable/sortmultiplecolumns-doc';
 import { SortSingleColumnDoc } from '@/doc/treetable/sortsinglecolumn-doc';
 import { TemplateDoc } from '@/doc/treetable/template-doc';
-import { LoadingMaskDoc } from '@/doc/treetable/loadingmask-doc';
-import { LoadingSkeletonDoc } from '@/doc/treetable/loadingskeleton-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular TreeTable Component - Optimus UI"
+        docTitle="Angular TreeTable Component - SparkNG"
         header="TreeTable"
         description="TreeTable is used to display hierarchical data in tabular format."
         [docs]="docs"

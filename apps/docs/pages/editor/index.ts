@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/editor/accessibility-doc';
 import { BasicDoc } from '@/doc/editor/basic-doc';
 import { CustomToolbarDoc } from '@/doc/editor/customtoolbar-doc';
@@ -8,12 +9,11 @@ import { ReactiveFormsDoc } from '@/doc/editor/reactiveforms-doc';
 import { ReadOnlyDoc } from '@/doc/editor/readonly-doc';
 import { TemplateDrivenFormsDoc } from '@/doc/editor/templatedrivenforms-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     standalone: true,
     imports: [AppDoc],
-    template: ` <app-doc docTitle="Angular Editor Component - Optimus UI" header="Editor" description="Editor is rich text editor component based on Quill." [docs]="docs" [apiDocs]="['Editor']" [ptDocs]="ptComponent" themeDocs="editor"></app-doc> `
+    template: ` <app-doc docTitle="Angular Editor Component - SparkNG" header="Editor" description="Editor is rich text editor component based on Quill." [docs]="docs" [apiDocs]="['Editor']" [ptDocs]="ptComponent" themeDocs="editor"></app-doc> `
 })
 export class EditorDemo {
     ptComponent = PTComponent;

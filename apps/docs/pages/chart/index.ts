@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/chart/accessibility-doc';
 import { BasicDoc } from '@/doc/chart/basic-doc';
 import { ChartjsDoc } from '@/doc/chart/chartjs-doc';
@@ -10,18 +11,17 @@ import { LineStyleDoc } from '@/doc/chart/linestyle-doc';
 import { MultiAxisDoc } from '@/doc/chart/multiaxis-doc';
 import { PieDoc } from '@/doc/chart/pie-doc';
 import { PolarAreaDoc } from '@/doc/chart/polararea-doc';
+import { PTComponent } from '@/doc/chart/pt/PTComponent';
 import { RadarDoc } from '@/doc/chart/radar-doc';
 import { StackedBarDoc } from '@/doc/chart/stackedbar-doc';
 import { VerticalBarDoc } from '@/doc/chart/verticalbar-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
-import { PTComponent } from '@/doc/chart/pt/PTComponent';
 @Component({
     standalone: true,
     imports: [AppDoc],
     template: `
         <app-doc
-            docTitle="Angular Chart Component - Optimus UI"
+            docTitle="Angular Chart Component - SparkNG"
             header="Charts"
             description="Chart components are based on Charts.js 3.3.2+, an open source HTML5 based charting library."
             [docs]="docs"

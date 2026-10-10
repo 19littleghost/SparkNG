@@ -18,7 +18,7 @@ export class RuntimeDoc {
     code: Code = {
         typescript: `
 import { Component, OnInit } from '@angular/core';
-import { Optimus } from '@bdspark/sparkng/config';
+import { Spark } from '@bdspark/sparkng/config';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -27,7 +27,7 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent implements OnInit {
 
-    constructor(private config: Optimus, private translateService: TranslateService) {}
+    constructor(private config: Spark, private translateService: TranslateService) {}
 
     ngOnInit() {
         this.translateService.setDefaultLang('en');
@@ -35,7 +35,7 @@ export class AppComponent implements OnInit {
 
     translate(lang: string) {
         this.translateService.use(lang);
-        this.translateService.get('optimus').subscribe(res => this.config.setTranslation(res));
+        this.translateService.get('Spark').subscribe(res => this.config.setTranslation(res));
     }
 }`
     };

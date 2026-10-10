@@ -21,7 +21,7 @@ export class NotFoundDemo implements OnInit {
     private metaService = inject(Meta);
 
     ngOnInit() {
-        this.titleService.setTitle('Page Not Found - Optimus UI');
+        this.titleService.setTitle('Page Not Found - SparkNG');
         this.metaService.updateTag({ name: 'robots', content: 'noindex' });
     }
 }

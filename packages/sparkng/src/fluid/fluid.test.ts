@@ -71,7 +71,7 @@ class TestNestedFluidComponent {}
 @Component({
     changeDetection: ChangeDetectionStrategy.Eager,
     standalone: false,
-    selector: 'test-fluid-with-optimus-components',
+    selector: 'test-fluid-with-Spark-components',
     template: `
         <p-fluid>
             <div class="primeng-controls">
@@ -371,7 +371,7 @@ describe('Fluid', () => {
         });
     });
 
-    describe('Optimus Components Integration', () => {
+    describe('Spark Components Integration', () => {
         let fixture: ComponentFixture<TestFluidWithOptimusComponentsComponent>;
         let element: HTMLElement;
 
@@ -381,7 +381,7 @@ describe('Fluid', () => {
             element = fixture.debugElement.query(By.directive(Fluid)).nativeElement;
         });
 
-        it('should work with Optimus styled components', () => {
+        it('should work with Spark styled components', () => {
             const button = element.querySelector('.p-button');
             const input = element.querySelector('.p-inputtext');
             const dropdown = element.querySelector('.p-dropdown');

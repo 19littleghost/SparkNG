@@ -1,29 +1,29 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/treeselect/accessibility-doc';
 import { BasicDoc } from '@/doc/treeselect/basic-doc';
 import { CheckboxDoc } from '@/doc/treeselect/checkbox-doc';
+import { ClearIconDoc } from '@/doc/treeselect/clearicon-doc';
 import { DisabledDoc } from '@/doc/treeselect/disabled-doc';
 import { FilledDoc } from '@/doc/treeselect/filled-doc';
 import { FilterDoc } from '@/doc/treeselect/filter-doc';
 import { FloatLabelDoc } from '@/doc/treeselect/floatlabel-doc';
+import { FluidDoc } from '@/doc/treeselect/fluid-doc';
 import { IftaLabelDoc } from '@/doc/treeselect/iftalabel-doc';
 import { ImportDoc } from '@/doc/treeselect/import-doc';
 import { InvalidDoc } from '@/doc/treeselect/invalid-doc';
 import { LazyDoc } from '@/doc/treeselect/lazy-doc';
 import { MultipleDoc } from '@/doc/treeselect/multiple-doc';
+import { PTComponent } from '@/doc/treeselect/pt/PTComponent';
 import { ReactiveFormsDoc } from '@/doc/treeselect/reactiveforms-doc';
 import { SizesDoc } from '@/doc/treeselect/sizes-doc';
 import { TemplateDoc } from '@/doc/treeselect/template-doc';
 import { TemplateDrivenFormsDoc } from '@/doc/treeselect/templatedrivenforms-doc';
 import { VirtualScrollDoc } from '@/doc/treeselect/virtualscroll-doc';
-import { FluidDoc } from '@/doc/treeselect/fluid-doc';
-import { ClearIconDoc } from '@/doc/treeselect/clearicon-doc';
-import { PTComponent } from '@/doc/treeselect/pt/PTComponent';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular TreeSelect Component - Optimus UI"
+        docTitle="Angular TreeSelect Component - SparkNG"
         header="TreeSelect"
         description="TreeSelect is a form component to choose from hierarchical data."
         [docs]="docs"

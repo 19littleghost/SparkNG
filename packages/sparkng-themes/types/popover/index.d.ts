@@ -82,7 +82,7 @@ export declare namespace PopoverTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
+ * [SparkNG](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface PopoverDesignTokens extends DesignTokens<PopoverDesignTokens> {

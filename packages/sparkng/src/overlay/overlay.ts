@@ -27,16 +27,16 @@ import { BaseComponent, PARENT_INSTANCE } from '@bdspark/sparkng/basecomponent';
 import { Bind } from '@bdspark/sparkng/bind';
 import { ConnectedOverlayScrollHandler } from '@bdspark/sparkng/dom';
 import { MotionModule } from '@bdspark/sparkng/motion';
-import { Subscription } from 'rxjs';
 import { VoidListener } from '@bdspark/sparkng/ts-helpers';
-import { ObjectUtils, ZIndexUtils } from '@bdspark/sparkng/utils';
 import { OverlayContentTemplateContext } from '@bdspark/sparkng/types/overlay';
+import { ObjectUtils, ZIndexUtils } from '@bdspark/sparkng/utils';
+import { Subscription } from 'rxjs';
 import { OverlayStyle } from './style/overlaystyle';
 
 const OVERLAY_INSTANCE = new InjectionToken<Overlay>('OVERLAY_INSTANCE');
 
 /**
- * This API allows overlay components to be controlled from Optimus. In this way, all overlay components in the application can have the same behavior.
+ * This API allows overlay components to be controlled from Spark. In this way, all overlay components in the application can have the same behavior.
  * @group Components
  */
 @Component({

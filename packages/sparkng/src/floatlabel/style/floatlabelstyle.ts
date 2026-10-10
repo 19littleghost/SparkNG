@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
     ${floatlabel_style}
 
-    /* For Optimus */
+    /* For Spark */
     .p-floatlabel:has(.ng-invalid.ng-dirty) label {
         color: dt('floatlabel.invalid.color');
     }

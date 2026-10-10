@@ -1,10 +1,10 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/breadcrumb/accessibility-doc';
 import { BasicDoc } from '@/doc/breadcrumb/basic-doc';
 import { ImportDoc } from '@/doc/breadcrumb/import-doc';
+import { PTComponent } from '@/doc/breadcrumb/pt/PTComponent';
 import { RouterDoc } from '@/doc/breadcrumb/router-doc';
 import { TemplateDoc } from '@/doc/breadcrumb/template-doc';
-import { PTComponent } from '@/doc/breadcrumb/pt/PTComponent';
-import { AppDoc } from '@/components/doc/app.doc';
 import { Component } from '@angular/core';
 
 @Component({
@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
     imports: [AppDoc],
     template: `
         <app-doc
-            docTitle="Angular Breadcrumb Component - Optimus UI"
+            docTitle="Angular Breadcrumb Component - SparkNG"
             header="Breadcrumb"
             description="Breadcrumb provides contextual information about page hierarchy."
             [docs]="docs"

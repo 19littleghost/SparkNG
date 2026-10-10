@@ -37,7 +37,7 @@ export declare namespace IconFieldTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
+ * [SparkNG](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface IconFieldDesignTokens extends DesignTokens<IconFieldDesignTokens> {

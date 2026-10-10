@@ -3,9 +3,9 @@
 
 # @bdspark/sparkng-styled
 
-Styled utilities and theme management system for [Optimus UI](https://github.com/TODO-BDSPARK-ORG/sparkng).
+Styled utilities and theme management system for [SparkNG](https://github.com/TODO-BDSPARK-ORG/sparkng).
 
-This package provides the core engine for the design system in Optimus UI, offering powerful tools for theming, CSS-in-JS capabilities, and dynamic styling.
+This package provides the core engine for the design system in SparkNG, offering powerful tools for theming, CSS-in-JS capabilities, and dynamic styling.
 
 ## Features
 
@@ -41,9 +41,9 @@ Utility functions to manage color scales:
 - `shade(color, percent)`
 - `palette(color)`
 
-## Usage in Optimus UI
+## Usage in SparkNG
 
-This package is automatically integrated into `@bdspark/sparkng`. If you are building custom components or themes that need to interact with the Optimus design system, this package provides the necessary low-level APIs.
+This package is automatically integrated into `@bdspark/sparkng`. If you are building custom components or themes that need to interact with the Spark design system, this package provides the necessary low-level APIs.
 
 ## License
 

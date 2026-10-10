@@ -234,7 +234,7 @@ export class ChatApp {
 
     mediaOptions: string[] = ['Media', 'Link', 'Docs'];
 
-    activeChat: string = 'Optimus UI Team';
+    activeChat: string = 'SparkNG Team';
 
     menuItems: MenuItem[] | undefined;
 
@@ -265,7 +265,7 @@ export class ChatApp {
                 active: true,
                 unreadMessageCount: 8,
                 time: '12.30',
-                lastMessage: "Hey there! I've heard about Optimus UI. Any cool tips for getting started?"
+                lastMessage: "Hey there! I've heard about SparkNG. Any cool tips for getting started?"
             },
             {
                 image: 'demo/avatar/ionibowcher.png',
@@ -274,7 +274,7 @@ export class ChatApp {
                 active: undefined,
                 unreadMessageCount: 0,
                 time: '11.15',
-                lastMessage: "Let's implement Optimus UI. Elevating our UI game! 🚀"
+                lastMessage: "Let's implement SparkNG. Elevating our UI game! 🚀"
             },
             {
                 image: '/demo/landing/apps/avatar2.png',
@@ -283,7 +283,7 @@ export class ChatApp {
                 active: true,
                 unreadMessageCount: 4,
                 time: '11.15',
-                lastMessage: "Absolutely! Optimus UI's documentation is gold—simplifies our UI work."
+                lastMessage: "Absolutely! SparkNG's documentation is gold—simplifies our UI work."
             },
             {
                 image: '/demo/landing/apps/avatar12.jpg',
@@ -292,7 +292,7 @@ export class ChatApp {
                 active: false,
                 unreadMessageCount: 0,
                 time: '11.15',
-                lastMessage: "Interesting! Optimus UI sounds amazing. What's your favorite feature?"
+                lastMessage: "Interesting! SparkNG sounds amazing. What's your favorite feature?"
             },
             {
                 image: '/demo/landing/apps/avatar13.jpg',
@@ -301,7 +301,7 @@ export class ChatApp {
                 active: true,
                 unreadMessageCount: 9,
                 time: '11.15',
-                lastMessage: 'Quick one, team! Anyone using Optimus UI for mobile app development?'
+                lastMessage: 'Quick one, team! Anyone using SparkNG for mobile app development?'
             },
             {
                 image: '/demo/landing/apps/avatar9.jpg',
@@ -310,7 +310,7 @@ export class ChatApp {
                 active: false,
                 unreadMessageCount: 0,
                 time: '11.15',
-                lastMessage: "Just explored Optimus UI's themes. Can we talk about those stunning designs? 😍"
+                lastMessage: "Just explored SparkNG's themes. Can we talk about those stunning designs? 😍"
             },
             {
                 image: '/demo/landing/apps/avatar6.png',
@@ -319,7 +319,7 @@ export class ChatApp {
                 active: false,
                 unreadMessageCount: 0,
                 time: '11.15',
-                lastMessage: 'Optimus UI is a game-changer, right? What are your thoughts, folks?'
+                lastMessage: 'SparkNG is a game-changer, right? What are your thoughts, folks?'
             },
             {
                 image: '',
@@ -328,7 +328,7 @@ export class ChatApp {
                 active: false,
                 unreadMessageCount: 0,
                 time: '11.15',
-                lastMessage: "Jumping in! Optimus UI's community forum is buzzing. Any engaging discussions?"
+                lastMessage: "Jumping in! SparkNG's community forum is buzzing. Any engaging discussions?"
             },
             {
                 image: '',
@@ -337,7 +337,7 @@ export class ChatApp {
                 active: false,
                 unreadMessageCount: 0,
                 time: '11.15',
-                lastMessage: 'Sharing a quick win, Optimus UI tutorials are leveling up my UI skills. 👩‍💻'
+                lastMessage: 'Sharing a quick win, SparkNG tutorials are leveling up my UI skills. 👩‍💻'
             },
             {
                 image: '/demo/landing/apps/avatar7.png',
@@ -346,7 +346,7 @@ export class ChatApp {
                 active: false,
                 unreadMessageCount: 0,
                 time: '11.15',
-                lastMessage: "Reflecting on Optimus UI's impact on our workflow. What's your take?"
+                lastMessage: "Reflecting on SparkNG's impact on our workflow. What's your take?"
             }
         ];
         this.chatMessages = [
@@ -366,7 +366,7 @@ export class ChatApp {
                 image: '/demo/landing/apps/avatar8.png',
                 capName: 'A',
                 type: 'received',
-                message: 'Optimus UI rocks! Simplifies UI dev with versatile components.'
+                message: 'SparkNG rocks! Simplifies UI dev with versatile components.'
             },
             {
                 id: 3,
@@ -483,7 +483,7 @@ export class ChatApp {
                 image: '/demo/landing/apps/avatar5.png',
                 capName: 'H',
                 type: 'sent',
-                message: "That's great advice. It's amazing how much detail and thought has gone into making Optimus UI such a powerful tool for developers."
+                message: "That's great advice. It's amazing how much detail and thought has gone into making SparkNG such a powerful tool for developers."
             }
         ];
         this.chatMedia = ['/demo/landing/apps/chat-image1.png', '/demo/landing/apps/chat-image2.png', '/demo/landing/apps/chat-image3.png', '/demo/landing/apps/chat-image4.png', '/demo/landing/apps/chat-image5.png'];

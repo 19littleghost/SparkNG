@@ -32,7 +32,7 @@ import docsearch from '@docsearch/js';
                     </a>
                 </li>
                 <li class="topbar-desktop-item">
-                    <a [href]="discordUrl" target="_blank" rel="noopener noreferrer" class="topbar-item" aria-label="Optimus UI Discord" title="Optimus UI Discord">
+                    <a [href]="discordUrl" target="_blank" rel="noopener noreferrer" class="topbar-item" aria-label="SparkNG Discord" title="SparkNG Discord">
                         <i class="pi pi-discord text-surface-700 dark:text-surface-100"></i>
                     </a>
                 </li>
@@ -136,7 +136,7 @@ export class AppTopBarComponent implements OnDestroy {
         docsearch({
             appId: 'X3M9GFEM8Z',
             apiKey: 'ce715b53658d2e2190d8751fad64e8e9',
-            indexName: 'Optimus UI Documentation',
+            indexName: 'SparkNG Documentation',
             container: '#docsearch'
         });
     }

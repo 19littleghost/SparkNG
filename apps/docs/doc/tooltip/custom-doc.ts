@@ -18,7 +18,7 @@ import { TooltipModule } from '@bdspark/sparkng/tooltip';
             <ng-template #tooltipContent>
                 <div class="flex items-center">
                     <img src="https://sparkng.bdspark.com/demo/avatar/amyelsner.png" alt="avatar" width="32" height="32" class="mr-2" />
-                    <span> <b>Optimus UI</b> rocks! </span>
+                    <span> <b>SparkNG</b> rocks! </span>
                 </div>
             </ng-template>
         </div>

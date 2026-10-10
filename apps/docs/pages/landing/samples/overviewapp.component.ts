@@ -47,7 +47,7 @@ import { TooltipModule } from '@bdspark/sparkng/tooltip';
             <div class="flex flex-wrap gap-4 items-start justify-between p-1">
                 <div class="flex-1">
                     <div class="text-muted-color font-medium leading-normal">Overview</div>
-                    <div class="text-color text-3xl font-semibold leading-normal">Welcome to Optimus UI</div>
+                    <div class="text-color text-3xl font-semibold leading-normal">Welcome to SparkNG</div>
                 </div>
                 <div class="flex gap-2 whitespace-nowrap flex-nowrap">
                     <p-iconfield iconPosition="left">

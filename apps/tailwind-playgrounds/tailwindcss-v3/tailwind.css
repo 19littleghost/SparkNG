@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 /*
- * Sample Optimus UI design tokens (indigo primary + slate surfaces).
+ * Sample SparkNG design tokens (indigo primary + slate surfaces).
  * The @bdspark/sparkng-tailwindcss plugin maps these variables to Tailwind
  * colors such as `bg-primary`, `text-primary-700` or `bg-surface-100`.
- * In a real app they are provided by an Optimus UI theme preset instead.
+ * In a real app they are provided by an SparkNG theme preset instead.
  */
 :root {
     --p-primary-color: #4f46e5;

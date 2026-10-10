@@ -16,7 +16,7 @@ const SKIP_DIRS = ['apidoc', 'theming', 'icons', 'installation', 'configuration'
 // Known services that exist in StackBlitz templates
 const KNOWN_SERVICES = ['CarService', 'CountryService', 'CustomerService', 'EventService', 'NodeService', 'PhotoService', 'ProductService', 'TicketService'];
 
-// Optimus UI API services that should be included in providers
+// SparkNG API services that should be included in providers
 const OPTIMUS_SERVICES = ['MessageService', 'ConfirmationService', 'DialogService', 'TreeDragDropService', 'FilterService'];
 
 // Known domain types and their paths
@@ -78,7 +78,7 @@ export interface Customer {
 }`
 };
 
-// Optimus UI named exports that can be used as types (not modules)
+// SparkNG named exports that can be used as types (not modules)
 const OPTIMUS_NAMED_EXPORTS = {
     Table: 'table',
     Tree: 'tree',
@@ -98,7 +98,7 @@ const OPTIMUS_NAMED_EXPORTS = {
     PanelMenu: 'panelmenu'
 };
 
-// Optimus UI API types that need to be imported from '@bdspark/sparkng/api'
+// SparkNG API types that need to be imported from '@bdspark/sparkng/api'
 const OPTIMUS_API_TYPES = [
     'TreeNode',
     'MenuItem',
@@ -117,7 +117,7 @@ const OPTIMUS_API_TYPES = [
     'TableLazyLoadEvent'
 ];
 
-// Optimus UI selector to module mapping
+// SparkNG selector to module mapping
 const SELECTOR_TO_MODULE = {
     'p-accordion': 'AccordionModule',
     'p-autocomplete': 'AutoCompleteModule',
@@ -413,8 +413,8 @@ function extractConstructor(content, services = []) {
             if (services.some((s) => p.includes(s))) return true;
             // Keep common Angular services
             if (p.includes('MessageService') || p.includes('ConfirmationService')) return true;
-            // Keep Optimus config injection
-            if (p.includes('Optimus')) return true;
+            // Keep Spark config injection
+            if (p.includes('Spark')) return true;
             // Filter out doc-specific ones
             if (p.includes('ChangeDetectorRef') || p.includes('PLATFORM_ID') || p.includes('DOCUMENT')) return false;
             // Keep other services
@@ -745,7 +745,7 @@ function extractDivContent(html, classPattern) {
     return null;
 }
 
-// Extract basic code (just Optimus UI component without wrapper)
+// Extract basic code (just SparkNG component without wrapper)
 function extractBasicCode(htmlContent) {
     if (!htmlContent) return null;
 
@@ -757,7 +757,7 @@ function extractBasicCode(htmlContent) {
         basic = cardContent;
     }
 
-    // Only remove flex/grid wrapper if it's the ONLY top-level element wrapping Optimus UI components
+    // Only remove flex/grid wrapper if it's the ONLY top-level element wrapping SparkNG components
     // Don't remove flex divs that are inside ng-template or other components
     // Don't remove if there are sibling elements after the flex div
     const trimmed = basic.trim();
@@ -788,7 +788,7 @@ function extractBasicCode(htmlContent) {
 
                 // Only unwrap if there's nothing after the flex div
                 if (!afterFlexDiv) {
-                    // Only unwrap if the flex div directly contains Optimus UI components (not nested in templates)
+                    // Only unwrap if the flex div directly contains SparkNG components (not nested in templates)
                     const hasOptimusDirect = /^[\s\S]*?<p-[a-z]/.test(flexContent);
                     const hasNoTemplates = !flexContent.includes('<ng-template');
                     const isSimpleWrapper = flexContent.split('<div').length <= 3;
@@ -905,7 +905,7 @@ function detectDomainTypes(content) {
     return domainTypes;
 }
 
-// Detect Optimus UI named exports used as types in component
+// Detect SparkNG named exports used as types in component
 function detectOptimusNamedExports(content) {
     const namedExports = {};
 
@@ -973,7 +973,7 @@ function detectServices(content) {
             if (KNOWN_SERVICES.includes(name) && !services.includes(name)) {
                 services.push(name);
             }
-            // Also check for Optimus UI API services
+            // Also check for SparkNG API services
             if (OPTIMUS_SERVICES.includes(name) && !optimusServices.includes(name)) {
                 optimusServices.push(name);
             }
@@ -983,7 +983,7 @@ function detectServices(content) {
     return { services, optimusServices };
 }
 
-// Detect Optimus UI modules used in template
+// Detect SparkNG modules used in template
 function detectOptimusModules(template) {
     const modules = new Set();
 
@@ -1079,10 +1079,10 @@ function generateTypescript(componentName, template, services = [], fileContent 
         importStatements += `import { ReactiveFormsModule } from '@angular/forms';\n`;
     }
 
-    // Add Optimus UI modules (will be modified below to include named exports)
+    // Add SparkNG modules (will be modified below to include named exports)
     const optimusImports = optimusModules.filter((m) => !['CommonModule', 'FormsModule', 'ReactiveFormsModule'].includes(m));
 
-    // Detect Optimus UI named exports early so we can combine them with module imports
+    // Detect SparkNG named exports early so we can combine them with module imports
     const optimusNamedExportsEarly = detectOptimusNamedExports(fileContent);
 
     for (const module of optimusImports) {
@@ -1102,12 +1102,12 @@ function generateTypescript(componentName, template, services = [], fileContent 
         importStatements += `import { ${service} } from '@/service/${service.toLowerCase()}';\n`;
     }
 
-    // Add Optimus config import if used in constructor
-    if (constructor && constructor.params && constructor.params.includes('Optimus')) {
-        importStatements += `import { Optimus } from '@bdspark/sparkng/config';\n`;
+    // Add Spark config import if used in constructor
+    if (constructor && constructor.params && constructor.params.includes('Spark')) {
+        importStatements += `import { Spark } from '@bdspark/sparkng/config';\n`;
     }
 
-    // Detect and add Optimus UI API types (TreeNode, MenuItem, etc.) and services
+    // Detect and add SparkNG API types (TreeNode, MenuItem, etc.) and services
     const usedApiTypes = [];
     const allContent = fileContent + (interfaces.length > 0 ? interfaces.join('\n') : '');
     for (const apiType of OPTIMUS_API_TYPES) {
@@ -1117,7 +1117,7 @@ function generateTypescript(componentName, template, services = [], fileContent 
             usedApiTypes.push(apiType);
         }
     }
-    // Combine API types with Optimus UI services for import (avoid duplicates)
+    // Combine API types with SparkNG services for import (avoid duplicates)
     const apiImports = [...new Set([...usedApiTypes, ...optimusServices])];
     if (apiImports.length > 0) {
         importStatements += `import { ${apiImports.join(', ')} } from '@bdspark/sparkng/api';\n`;
@@ -1129,7 +1129,7 @@ function generateTypescript(componentName, template, services = [], fileContent 
         importStatements += `import { ${types.join(', ')} } from '@/domain/${domainPath}';\n`;
     }
 
-    // Add Optimus UI named exports that weren't combined with module imports
+    // Add SparkNG named exports that weren't combined with module imports
     for (const [modulePath, exports] of Object.entries(optimusNamedExportsEarly)) {
         const moduleNameBase = modulePath.charAt(0).toUpperCase() + modulePath.slice(1);
         const moduleName = moduleNameBase + 'Module';
@@ -1142,7 +1142,7 @@ function generateTypescript(componentName, template, services = [], fileContent 
     // Build imports array for decorator (actual modules, not ImportsModule)
     const decoratorImports = optimusModules.filter((m) => m !== 'CommonModule');
 
-    // Build providers if services exist (include both custom services and Optimus UI API services)
+    // Build providers if services exist (include both custom services and SparkNG API services)
     const allProviders = [...services, ...optimusServices];
     const providersLine = allProviders.length > 0 ? `,\n    providers: [${allProviders.join(', ')}]` : '';
 
@@ -1293,7 +1293,7 @@ function parseDocFile(filePath, componentDir) {
         },
         metadata: {
             services,
-            optimusServices, // Add Optimus UI API services to metadata
+            optimusServices, // Add SparkNG API services to metadata
             extFiles,
             imports: detectOptimusModules(demoContent)
         }

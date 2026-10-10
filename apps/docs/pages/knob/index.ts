@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/knob/accessibility-doc';
 import { BasicDoc } from '@/doc/knob/basic-doc';
 import { ColorDoc } from '@/doc/knob/color-doc';
@@ -14,10 +15,9 @@ import { StrokeDoc } from '@/doc/knob/stroke-doc';
 import { TemplateDoc } from '@/doc/knob/template-doc';
 import { TemplateDrivenFormsDoc } from '@/doc/knob/templatedrivenforms-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
-    template: `<app-doc docTitle="Angular Knob Component - Optimus UI" header="Knob" description="Knob is a form component to define number inputs with a dial." [docs]="docs" [apiDocs]="['Knob']" themeDocs="knob" [ptDocs]="ptComponent"></app-doc> `,
+    template: `<app-doc docTitle="Angular Knob Component - SparkNG" header="Knob" description="Knob is a form component to define number inputs with a dial." [docs]="docs" [apiDocs]="['Knob']" themeDocs="knob" [ptDocs]="ptComponent"></app-doc> `,
     standalone: true,
     imports: [AppDoc]
 })

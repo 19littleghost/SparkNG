@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
 ${password_style}
 
-/* For Optimus */
+/* For Spark */
 .p-password-overlay {
     min-width: 100%;
 }

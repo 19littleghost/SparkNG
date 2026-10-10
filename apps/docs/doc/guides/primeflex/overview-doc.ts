@@ -12,8 +12,8 @@ import { Component } from '@angular/core';
                 grounds that most applications already bring their own utility layer — Tailwind, Bootstrap or something in-house — and a second one only overlaps with it.
             </p>
             <p>
-                Optimus UI does not maintain PrimeFlex either, and for the same reason. Nothing in this library depends on it, and no component requires it. If your application already uses PrimeFlex it will keep working, but it will not receive
-                updates from us, and we suggest moving to Tailwind CSS.
+                SparkNG does not maintain PrimeFlex either, and for the same reason. Nothing in this library depends on it, and no component requires it. If your application already uses PrimeFlex it will keep working, but it will not receive updates
+                from us, and we suggest moving to Tailwind CSS.
             </p>
         </app-docsectiontext>
     `

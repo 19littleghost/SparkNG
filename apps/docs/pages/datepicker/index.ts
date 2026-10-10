@@ -1,10 +1,13 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/datepicker/accessibility-doc';
 import { BasicDoc } from '@/doc/datepicker/basic-doc';
 import { ButtonBarDoc } from '@/doc/datepicker/buttonbar-doc';
+import { ClearIconDoc } from '@/doc/datepicker/clearicon-doc';
 import { DateTemplateDoc } from '@/doc/datepicker/datetemplate-doc';
 import { DisabledDoc } from '@/doc/datepicker/disabled-doc';
 import { FilledDoc } from '@/doc/datepicker/filled-doc';
 import { FloatLabelDoc } from '@/doc/datepicker/floatlabel-doc';
+import { FluidDoc } from '@/doc/datepicker/fluid-doc';
 import { FormatDoc } from '@/doc/datepicker/format-doc';
 import { IconDoc } from '@/doc/datepicker/icon-doc';
 import { IftaLabelDoc } from '@/doc/datepicker/iftalabel-doc';
@@ -17,31 +20,20 @@ import { MinMaxDoc } from '@/doc/datepicker/minmax-doc';
 import { MonthDoc } from '@/doc/datepicker/month-doc';
 import { MultipleDoc } from '@/doc/datepicker/multiple-doc';
 import { MultipleMonthDoc } from '@/doc/datepicker/multiplemonths-doc';
+import { PTComponent } from '@/doc/datepicker/pt/PTComponent';
 import { RangeDoc } from '@/doc/datepicker/range-doc';
 import { ReactiveFormsDoc } from '@/doc/datepicker/reactiveforms-doc';
 import { SizesDoc } from '@/doc/datepicker/sizes-doc';
 import { TemplateDrivenFormsDoc } from '@/doc/datepicker/templatedrivenforms-doc';
 import { TimeDoc } from '@/doc/datepicker/time-doc';
 import { YearDoc } from '@/doc/datepicker/year-doc';
-import { FluidDoc } from '@/doc/datepicker/fluid-doc';
-import { ClearIconDoc } from '@/doc/datepicker/clearicon-doc';
-import { PTComponent } from '@/doc/datepicker/pt/PTComponent';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     standalone: true,
     imports: [AppDoc],
     template: `
-        <app-doc
-            docTitle="Angular DatePicker Component - Optimus UI"
-            header="DatePicker"
-            description="DatePicker is an input component to select a date."
-            [docs]="docs"
-            [apiDocs]="['DatePicker']"
-            [ptDocs]="ptComponent"
-            themeDocs="datepicker"
-        ></app-doc>
+        <app-doc docTitle="Angular DatePicker Component - SparkNG" header="DatePicker" description="DatePicker is an input component to select a date." [docs]="docs" [apiDocs]="['DatePicker']" [ptDocs]="ptComponent" themeDocs="datepicker"></app-doc>
     `
 })
 export class DatePickerDemo {

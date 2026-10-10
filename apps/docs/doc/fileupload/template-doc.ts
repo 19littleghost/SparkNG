@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
 import { MessageService } from '@bdspark/sparkng/api';
 import { BadgeModule } from '@bdspark/sparkng/badge';
 import { ButtonModule } from '@bdspark/sparkng/button';
-import { Optimus } from '@bdspark/sparkng/config';
+import { Spark } from '@bdspark/sparkng/config';
 import { FileUploadModule } from '@bdspark/sparkng/fileupload';
 import { ProgressBarModule } from '@bdspark/sparkng/progressbar';
 import { ToastModule } from '@bdspark/sparkng/toast';
@@ -90,7 +90,7 @@ export class TemplateDoc {
     totalSizePercent: number = 0;
 
     constructor(
-        private config: Optimus,
+        private config: Spark,
         private messageService: MessageService
     ) {}
 

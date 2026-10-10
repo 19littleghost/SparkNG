@@ -14,7 +14,7 @@ import { Component } from '@angular/core';
     imports: [AppDoc],
     template: `
         <app-doc
-            docTitle="Angular Dynamic Dialog Component - Optimus UI"
+            docTitle="Angular Dynamic Dialog Component - SparkNG"
             header="Dynamic Dialog"
             description="Dialogs can be created dynamically with any component as the content using a DialogService."
             [docs]="docs"

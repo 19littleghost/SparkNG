@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
     ${select_style}
 
-    /* For Optimus */
+    /* For Spark */
     .p-select-label.p-placeholder {
         color: dt('select.placeholder.color');
     }

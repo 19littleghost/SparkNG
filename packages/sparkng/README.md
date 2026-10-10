@@ -18,11 +18,11 @@
 
 ---
 
-Optimus UI is a comprehensive library of open-source UI Components for Angular applications. Designed for flexibility and enterprise-readiness, it provides a powerful foundation for building modern web interfaces.
+SparkNG is a community-maintained, MIT licensed UI library for Angular with 80+ accessible components and design-agnostic theming, including Aura, Material, Lara and Nora presets, maintained by bdSpark.
 
 ## 📦 Installation
 
-Optimus UI provides an Angular CLI schematic for quick and easy installation in a new project. Run:
+SparkNG provides an Angular CLI schematic for quick and easy installation in a new project. Run:
 
 ```bash
 ng add @bdspark/sparkng
@@ -56,7 +56,7 @@ Projects on PrimeNG v20 or older: upgrade to PrimeNG v21 first, then migrate.
 
 ## 🚀 Quick Start
 
-Optimus UI components can be imported as standalone components or via their respective modules. Here is a quick example demonstrating how to use the `Button` component:
+SparkNG UI components can be imported as standalone components or via their respective modules. Here is a quick example demonstrating how to use the `Button` component:
 
 1. Import the component module in your application:
 

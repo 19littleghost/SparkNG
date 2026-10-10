@@ -1,4 +1,4 @@
-/***************** Optimus UI Tokens (Auto-Generated) *****************/
+/***************** SparkNG Tokens (Auto-Generated) *****************/
 export interface TokenMetaData {
     description: string;
     tokens: {

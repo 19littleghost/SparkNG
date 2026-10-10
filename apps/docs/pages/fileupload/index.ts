@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/fileupload/accessibility-doc';
 import { AdvancedDoc } from '@/doc/fileupload/advanced-doc';
 import { AutoDoc } from '@/doc/fileupload/auto-doc';
@@ -6,13 +7,12 @@ import { ImportDoc } from '@/doc/fileupload/import-doc';
 import { PTComponent } from '@/doc/fileupload/pt/PTComponent';
 import { TemplateDoc } from '@/doc/fileupload/template-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     standalone: true,
     imports: [AppDoc],
     template: ` <app-doc
-        docTitle="Angular FileUpload Component - Optimus UI"
+        docTitle="Angular FileUpload Component - SparkNG"
         header="FileUpload"
         description="FileUpload is an advanced uploader with dragdrop support, multi file uploads, auto uploading, progress tracking and validations."
         [docs]="docs"

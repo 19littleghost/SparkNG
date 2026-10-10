@@ -9,8 +9,8 @@ import { Component } from '@angular/core';
     template: `
         <app-docsectiontext>
             <p>
-                The <a href="https://www.npmjs.com/package/@bdspark/sparkng-tailwindcss" target="_blank" rel="noopener noreferrer">@bdspark/sparkng-tailwindcss</a> is a plugin to provide first class integration between Optimus UI and Tailwind CSS. It
-                is designed to work both in styled and unstyled modes. In styled mode, for instance the semantic colors such as primary and surfaces are provided as Tailwind utilities e.g. <i>bg-primary</i>, <i>text-surface-500</i>,
+                The <a href="https://www.npmjs.com/package/@bdspark/sparkng-tailwindcss" target="_blank" rel="noopener noreferrer">@bdspark/sparkng-tailwindcss</a> is a plugin to provide first class integration between SparkNG and Tailwind CSS. It is
+                designed to work both in styled and unstyled modes. In styled mode, for instance the semantic colors such as primary and surfaces are provided as Tailwind utilities e.g. <i>bg-primary</i>, <i>text-surface-500</i>,
                 <i>text-muted-color</i>.
             </p>
             <p>
@@ -22,7 +22,7 @@ import { Component } from '@angular/core';
             <h3>Tailwind v4</h3>
             <p>In the CSS file that contains the tailwindcss import, add the <i>@bdspark/sparkng-tailwindcss</i> import as well.</p>
             <app-code [code]="code2" [importCode]="true" [hideToggleCode]="true" [hideStackBlitz]="true" />
-            <p class="mt-4">For a comprehensive starter guide, review the <a href="https://github.com/TODO-BDSPARK-ORG/sparkng" target="_blank" rel="noopener noreferrer">Optimus UI</a> repository which demonstrates the integration.</p>
+            <p class="mt-4">For a comprehensive starter guide, review the <a href="https://github.com/TODO-BDSPARK-ORG/sparkng" target="_blank" rel="noopener noreferrer">SparkNG</a> repository which demonstrates the integration.</p>
             <h3>Tailwind v3</h3>
             <p>Use the plugins option in your Tailwind config file to configure the plugin.</p>
             <app-code [code]="code3" [importCode]="true" [hideToggleCode]="true" [hideStackBlitz]="true" />

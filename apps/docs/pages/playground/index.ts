@@ -1,5 +1,5 @@
-import { AppCode } from '@/components/doc/app.code';
 import { default as MenuData } from '@/assets/data/menu.json';
+import { AppCode } from '@/components/doc/app.code';
 import { Demo } from '@/domain/democode';
 import { DemoCodeService } from '@/service/democodeservice';
 import { CommonModule } from '@angular/common';
@@ -180,10 +180,10 @@ export class PlaygroundDemo implements OnInit {
     }
 
     ngOnInit() {
-        this.titleService.setTitle('Playground - Optimus UI');
+        this.titleService.setTitle('Playground - SparkNG');
         this.metaService.updateTag({
             name: 'description',
-            content: 'Try Optimus UI in an interactive playground without installing anything.'
+            content: 'Try SparkNG in an interactive playground without installing anything.'
         });
     }
 

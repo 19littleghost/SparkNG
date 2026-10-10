@@ -8,7 +8,7 @@ import { RouterModule } from '@angular/router';
     imports: [AppDocSectionText, RouterModule],
     template: `
         <app-docsectiontext>
-            <h3>Is Optimus UI free? Will it stay free?</h3>
+            <h3>Is SparkNG free? Will it stay free?</h3>
             <p>
                 Yes, and yes. Every package is MIT licensed, and the code we forked was MIT too, so relicensing it is not something we could do even if we wanted to. There is no paid tier and none is planned. The
                 <a [routerLink]="'/philosophy'" class="doc-link">philosophy page</a> goes into what that does and does not buy you.
@@ -16,12 +16,12 @@ import { RouterModule } from '@angular/router';
 
             <h3>Is this an official PrimeNG fork? Are you affiliated with PrimeTek?</h3>
             <p>
-                No. Optimus UI is an independent community fork, not affiliated with, endorsed by, or sponsored by PrimeTek. It is a separate repository seeded with PrimeNG's MIT licensed code and history, not a fork of the archived
+                No. SparkNG is an independent community fork, not affiliated with, endorsed by, or sponsored by PrimeTek. It is a separate repository seeded with PrimeNG's MIT licensed code and history, not a fork of the archived
                 <i>primefaces/primeng</i> repository.
             </p>
 
             <h3>Which PrimeNG version is this forked from?</h3>
-            <p>PrimeNG v21, the last version published under the MIT license. Optimus UI v1 is that codebase, rebranded, with the fixes that have landed since.</p>
+            <p>PrimeNG v21, the last version published under the MIT license. SparkNG v1 is that codebase, rebranded, with the fixes that have landed since.</p>
 
             <h3>Who maintains it, and how is it funded?</h3>
             <p>

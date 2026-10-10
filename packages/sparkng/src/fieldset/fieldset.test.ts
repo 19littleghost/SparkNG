@@ -1107,7 +1107,7 @@ describe('Fieldset', () => {
                 });
             });
 
-            it('should apply global PT configuration from Optimus config', () => {
+            it('should apply global PT configuration from Spark config', () => {
                 const globalFixture = TestBed.createComponent(TestGlobalPTComponent);
                 globalFixture.detectChanges();
 

@@ -3,7 +3,7 @@
 
 # @bdspark/sparkng-tailwindcss
 
-Tailwind CSS utilities for [Optimus UI](https://github.com/TODO-BDSPARK-ORG/sparkng) — first-class integration between Optimus UI theming and Tailwind CSS, plus the animation utilities missing from core Tailwind.
+Tailwind CSS utilities for [SparkNG](https://github.com/TODO-BDSPARK-ORG/sparkng) — first-class integration between SparkNG theming and Tailwind CSS, plus the animation utilities missing from core Tailwind.
 
 This package ships two libraries: a CSS package compatible with Tailwind CSS v4, and a JS plugin for Tailwind CSS v3.
 
@@ -37,8 +37,8 @@ export default {
 
 ## Features
 
-- Semantic color utilities backed by the Optimus UI theme (e.g. `bg-primary`, `text-surface-500`, `text-muted-color`) that work in both styled and unstyled modes.
+- Semantic color utilities backed by the SparkNG theme (e.g. `bg-primary`, `text-surface-500`, `text-muted-color`) that work in both styled and unstyled modes.
 - Animation utilities: `animate-*` keyframes, duration, delay, direction, fill-mode, iteration, play-state, timing-function, and enter/leave helpers.
-- Variants such as `p-dark` for dark-mode styling of Optimus UI components.
+- Variants such as `p-dark` for dark-mode styling of SparkNG components.
 
-See the [Optimus UI Tailwind documentation](https://github.com/TODO-BDSPARK-ORG/sparkng) for usage details.
+See the [SparkNG Tailwind documentation](https://github.com/TODO-BDSPARK-ORG/sparkng) for usage details.

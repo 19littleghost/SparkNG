@@ -3,9 +3,9 @@
 
 # @bdspark/sparkng-motion
 
-Motion and animation utilities for [Optimus UI](https://github.com/TODO-BDSPARK-ORG/sparkng).
+Motion and animation utilities for [SparkNG](https://github.com/TODO-BDSPARK-ORG/sparkng).
 
-This package provides a programmatic way to manage CSS transitions and animations within the Optimus UI ecosystem. It offers a robust API for controlling motion lifecycles, handling dynamic dimensions, and ensuring accessibility.
+This package provides a programmatic way to manage CSS transitions and animations within the SparkNG ecosystem. It offers a robust API for controlling motion lifecycles, handling dynamic dimensions, and ensuring accessibility.
 
 ## Features
 
@@ -54,7 +54,7 @@ Stay in sync with your animations:
 - `onEnter` / `onLeave`
 - `onAfterEnter` / `onAfterLeave`
 
-## Usage in Optimus UI
+## Usage in SparkNG
 
 This package is a core dependency of `@bdspark/sparkng`, powering the animations found in overlays, transitions, and interactive components. It can also be used independently to add standard-compliant motion to custom Angular components.
 

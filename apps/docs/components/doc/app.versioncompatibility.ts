@@ -12,7 +12,7 @@ interface VersionCompatibilityEntry {
         <table class="doc-table">
             <thead>
                 <tr>
-                    <th>Optimus UI</th>
+                    <th>SparkNG</th>
                     <th>Angular</th>
                 </tr>
             </thead>

@@ -10,7 +10,7 @@ import { RouterModule } from '@angular/router';
         <app-docsectiontext>
             <h3>Which Angular versions are supported?</h3>
             <p>
-                Angular v21 and newer. Our majors follow Angular's — when a new Angular major ships, a compatible Optimus UI major is the first thing we work on. See the
+                Angular v21 and newer. Our majors follow Angular's — when a new Angular major ships, a compatible SparkNG major is the first thing we work on. See the
                 <a [routerLink]="'/migration/update'" fragment="angular-compatibility" class="doc-link">version compatibility table</a> in the update guide.
             </p>
 
@@ -26,8 +26,8 @@ import { RouterModule } from '@angular/router';
 
             <h3>What happens to my PrimeNG license?</h3>
             <p>
-                Nothing — it is unrelated. A PrimeNG v22 commercial license covers PrimeNG. Optimus UI needs no license at all. If you hold a PrimeTek subscription for their templates or theme designer, those remain their products and do not carry
-                over here.
+                Nothing — it is unrelated. A PrimeNG v22 commercial license covers PrimeNG. SparkNG needs no license at all. If you hold a PrimeTek subscription for their templates or theme designer, those remain their products and do not carry over
+                here.
             </p>
 
             <h3>I had an open PR on primefaces/primeng. Can I bring it here?</h3>
@@ -36,7 +36,7 @@ import { RouterModule } from '@angular/router';
                 cleanly.
             </p>
 
-            <h3>Can I run PrimeNG and Optimus UI side by side?</h3>
+            <h3>Can I run PrimeNG and SparkNG side by side?</h3>
             <p>
                 Technically yes, since the package names and the CSS cascade layer differ, but you will ship two copies of the same components and two theme runtimes. Treat it as a temporary state during migration rather than a supported
                 configuration.

@@ -6,7 +6,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
     ${badge_style}
 
-    /* For Optimus (directive)*/
+    /* For Spark (directive)*/
     .p-overlay-badge {
         position: relative;
     }

@@ -439,7 +439,7 @@ export class CascadeSelect extends BaseEditableHolder<CascadeSelectPassThrough> 
      */
     @Input() selectionMessage: string | undefined;
     /**
-     * Text to display when filtering does not return any results. Defaults to value from Optimus locale configuration.
+     * Text to display when filtering does not return any results. Defaults to value from Spark locale configuration.
      * @group Props
      * @defaultValue 'No available options'
      */

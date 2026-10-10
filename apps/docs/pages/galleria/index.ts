@@ -24,7 +24,7 @@ import { Component } from '@angular/core';
 
 @Component({
     template: ` <app-doc
-        docTitle="Angular Gallery Component - Optimus UI"
+        docTitle="Angular Gallery Component - SparkNG"
         header="Galleria"
         description="Galleria is an advanced content gallery component."
         [docs]="docs"

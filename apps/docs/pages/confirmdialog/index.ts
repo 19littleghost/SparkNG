@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/confirmdialog/accessibility-doc';
 import { BasicDoc } from '@/doc/confirmdialog/basic-doc';
 import { HeadlessDoc } from '@/doc/confirmdialog/headless-doc';
@@ -6,13 +7,12 @@ import { PositionDoc } from '@/doc/confirmdialog/position-doc';
 import { PTComponent } from '@/doc/confirmdialog/pt/PTComponent';
 import { TemplateDoc } from '@/doc/confirmdialog/template-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 @Component({
     standalone: true,
     imports: [AppDoc],
     template: `
         <app-doc
-            docTitle="Angular ConfirmDialog Component - Optimus UI"
+            docTitle="Angular ConfirmDialog Component - SparkNG"
             header="ConfirmDialog"
             description="ConfirmDialog is backed by a service utilizing Observables to display confirmation windows easily that can be shared by multiple actions on the same component."
             [docs]="docs"

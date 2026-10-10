@@ -37,7 +37,7 @@ export interface MenuItem {
                     </a>
                 </li>
                 <li class="drawer-quickaction">
-                    <a [href]="discordUrl" target="_blank" rel="noopener noreferrer" aria-label="Optimus UI Discord" title="Optimus UI Discord">
+                    <a [href]="discordUrl" target="_blank" rel="noopener noreferrer" aria-label="SparkNG Discord" title="SparkNG Discord">
                         <div class="menu-icon">
                             <i class="pi pi-discord"></i>
                         </div>

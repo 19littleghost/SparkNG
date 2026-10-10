@@ -73,7 +73,7 @@ export declare namespace TooltipTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
+ * [SparkNG](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface TooltipDesignTokens extends DesignTokens<TooltipDesignTokens> {

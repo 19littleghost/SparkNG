@@ -1,18 +1,18 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/rating/accessibility-doc';
 import { BasicDoc } from '@/doc/rating/basic-doc';
 import { DisabledDoc } from '@/doc/rating/disabled-doc';
 import { ImportDoc } from '@/doc/rating/import-doc';
 import { NumberOfStarsDoc } from '@/doc/rating/numberofstars-doc';
+import { PTComponent } from '@/doc/rating/pt/PTComponent';
 import { ReactiveFormsDoc } from '@/doc/rating/reactiveforms-doc';
 import { ReadOnlyDoc } from '@/doc/rating/readonly-doc';
 import { TemplateDoc } from '@/doc/rating/template-doc';
 import { TemplateDrivenFormsDoc } from '@/doc/rating/templatedrivenforms-doc';
-import { PTComponent } from '@/doc/rating/pt/PTComponent';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
-    template: `<app-doc docTitle="Angular Rating Component - Optimus UI" header="Rating" description="Rating component is a star based selection input." [docs]="docs" [apiDocs]="['Rating']" [ptDocs]="ptComponent" themeDocs="rating"></app-doc>`,
+    template: `<app-doc docTitle="Angular Rating Component - SparkNG" header="Rating" description="Rating component is a star based selection input." [docs]="docs" [apiDocs]="['Rating']" [ptDocs]="ptComponent" themeDocs="rating"></app-doc>`,
     standalone: true,
     imports: [AppDoc]
 })

@@ -1,12 +1,12 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { BasicDoc } from '@/doc/autofocus/basic-doc';
 import { ImportDoc } from '@/doc/autofocus/import-doc';
-import { AppDoc } from '@/components/doc/app.doc';
 import { Component } from '@angular/core';
 
 @Component({
     standalone: true,
     imports: [AppDoc],
-    template: ` <app-doc docTitle="Angular AutoFocus Directive - Optimus UI" header="AutoFocus" description="AutoFocus manages focus on focusable element on load." [docs]="docs" [apiDocs]="['AutoFocus']"></app-doc>`
+    template: ` <app-doc docTitle="Angular AutoFocus Directive - SparkNG" header="AutoFocus" description="AutoFocus manages focus on focusable element on load." [docs]="docs" [apiDocs]="['AutoFocus']"></app-doc>`
 })
 export class AutoFocusDemo {
     docs = [

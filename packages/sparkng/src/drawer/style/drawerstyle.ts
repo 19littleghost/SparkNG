@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
 ${drawer_style}
 
-/** For Optimus **/
+/** For Spark **/
 .p-drawer {
     position: fixed;
 }

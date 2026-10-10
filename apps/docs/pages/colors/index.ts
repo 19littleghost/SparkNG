@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 @Component({
     standalone: true,
     imports: [AppDoc],
-    template: ` <app-doc docTitle="Colors - Optimus UI" header="Colors" description="Colors are exported as CSS variables and used with the standard var syntax such as var(--text-color)." [docs]="docs" docType="page"></app-doc> `
+    template: ` <app-doc docTitle="Colors - SparkNG" header="Colors" description="Colors are exported as CSS variables and used with the standard var syntax such as var(--text-color)." [docs]="docs" docType="page"></app-doc> `
 })
 export class ColorsDemo {
     docs = [

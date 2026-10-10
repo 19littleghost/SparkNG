@@ -20,7 +20,7 @@ import { ToastModule } from '@bdspark/sparkng/toast';
                 <ng-template #content>
                     <span class="flex items-center font-bold">
                         <img alt="avatar" src="https://sparkng.bdspark.com/demo/avatar/amyelsner.png" style="height: 1rem; margin-right: 0.5rem" />
-                        <span>Optimus UI</span>
+                        <span>SparkNG</span>
                     </span>
                 </ng-template>
             </p-splitbutton>

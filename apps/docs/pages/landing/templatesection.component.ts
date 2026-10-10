@@ -11,7 +11,7 @@ import { AnimateOnScrollModule } from '@bdspark/sparkng/animateonscroll';
     template: `
         <section class="landing-template py-20">
             <div class="section-header">Application Template</div>
-            <p class="section-detail">Sparked is a free, MIT licensed admin template built with Optimus UI. Clone it and start shipping.</p>
+            <p class="section-detail">Sparked is a free, MIT licensed admin template built with SparkNG. Clone it and start shipping.</p>
             <div class="mt-16 px-8 lg:px-20 flex justify-center">
                 <div class="template-showcase animate-duration-500" pAnimateOnScroll enterClass="animate-fadein">
                     <div class="template-frame box">
@@ -22,7 +22,7 @@ import { AnimateOnScrollModule } from '@bdspark/sparkng/animateonscroll';
                             <span class="template-frame-url">sparked.sparkng.bdspark.com</span>
                         </div>
                         <a [href]="sparkedDemoUrl" target="_blank" rel="noopener noreferrer" class="template-frame-body" aria-label="Open the Sparked live demo">
-                            <img [src]="screenshot()" alt="Sparked admin dashboard built with Optimus UI" width="1440" height="900" loading="lazy" />
+                            <img [src]="screenshot()" alt="Sparked admin dashboard built with SparkNG" width="1440" height="900" loading="lazy" />
                         </a>
                     </div>
                     <div class="template-highlights">

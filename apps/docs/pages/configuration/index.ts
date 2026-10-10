@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { CspDoc } from '@/doc/configuration/csp-doc';
 import { DynamicDoc } from '@/doc/configuration/dynamic-doc';
 import { FilterModeDoc } from '@/doc/configuration/filtermode-doc';
@@ -6,19 +7,18 @@ import { ApiDoc } from '@/doc/configuration/locale/apidoc';
 import { RepositoryDoc } from '@/doc/configuration/locale/repositorydoc';
 import { RuntimeDoc } from '@/doc/configuration/locale/runtimedoc';
 import { TranslationDoc } from '@/doc/configuration/locale/translationdoc';
+import { OverlayAppendToDoc } from '@/doc/configuration/overlayappendto-doc';
 import { ProviderDoc } from '@/doc/configuration/provider-doc';
 import { RippleDoc } from '@/doc/configuration/ripple-doc';
-import { OverlayAppendToDoc } from '@/doc/configuration/overlayappendto-doc';
 import { ThemeDoc } from '@/doc/configuration/theme-doc';
 import { ZIndexDoc } from '@/doc/configuration/zindex-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     selector: 'configuration',
     standalone: true,
     imports: [AppDoc],
-    template: `<app-doc docTitle="Configuration - Optimus UI" header="Configuration" description="Application wide configuration for Optimus UI." [docs]="docs" docType="page"></app-doc>`
+    template: `<app-doc docTitle="Configuration - SparkNG" header="Configuration" description="Application wide configuration for SparkNG." [docs]="docs" docType="page"></app-doc>`
 })
 export class ConfigurationDemo {
     docs = [

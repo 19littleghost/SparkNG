@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
 ${datatable_style}
 
-/* For Optimus */
+/* For Spark */
 .p-datatable-scrollable-table > .p-datatable-thead {
     top: 0;
     z-index: 2;

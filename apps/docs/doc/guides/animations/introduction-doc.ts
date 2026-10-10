@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
+import { Component } from '@angular/core';
 
 @Component({
     selector: 'introduction-doc',
@@ -8,7 +8,7 @@ import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
     template: `
         <app-docsectiontext>
             <p>
-                Various Optimus UI Components utilize native CSS animations to provide an enhanced user experience. The default animations are based on the best practices recommended by the usability experts. In case you need to customize the default
+                Various SparkNG Components utilize native CSS animations to provide an enhanced user experience. The default animations are based on the best practices recommended by the usability experts. In case you need to customize the default
                 animations, this documentation covers the entire set of built-in animations.
             </p>
             <p>

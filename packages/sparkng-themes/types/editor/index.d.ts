@@ -180,7 +180,7 @@ export declare namespace EditorTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
+ * [SparkNG](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface EditorDesignTokens extends DesignTokens<EditorDesignTokens> {

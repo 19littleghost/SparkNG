@@ -48,7 +48,7 @@ export class LandingComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.titleService.setTitle('Optimus UI - Angular UI Component Library');
+        this.titleService.setTitle('SparkNG - Angular UI Component Library');
         this.metaService.updateTag({
             name: 'description',
             content: 'The ultimate collection of design-agnostic, flexible and accessible Angular UI Components.'

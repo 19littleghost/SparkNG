@@ -171,7 +171,7 @@ export default {
         const { cssLayer } = options;
 
         if (cssLayer) {
-            const order = resolve(cssLayer.order || cssLayer.name || 'optimus', params);
+            const order = resolve(cssLayer.order || cssLayer.name || 'Spark', params);
 
             return `@layer ${order}`;
         }
@@ -190,7 +190,7 @@ export default {
                     const _css = minifyCSS((value as any).css);
                     const id = `${key}-variables`;
 
-                    acc.push(`<style type="text/css" data-optimus-style-id="${id}" ${_props}>${_css}</style>`);
+                    acc.push(`<style type="text/css" data-Spark-style-id="${id}" ${_props}>${_css}</style>`);
                 }
 
                 return acc;
@@ -204,7 +204,7 @@ export default {
             .reduce((acc: any, [k, v]) => acc.push(`${k}="${v}"`) && acc, [])
             .join(' ');
 
-        return preset_css ? `<style type="text/css" data-optimus-style-id="${name}-variables" ${_props}>${minifyCSS(preset_css)}</style>` : '';
+        return preset_css ? `<style type="text/css" data-Spark-style-id="${name}-variables" ${_props}>${minifyCSS(preset_css)}</style>` : '';
     },
     createTokens(obj: any = {}, defaults: any, parentKey: string = '', parentPath: string = '', tokens: any = {}) {
         const computedFn = function (this: any, colorScheme: string, tokenPathMap: any = {}, stack: string[] = []) {
@@ -353,8 +353,8 @@ export default {
 
             if (cssLayer) {
                 const layerOptions = {
-                    name: 'optimus',
-                    order: 'optimus'
+                    name: 'Spark',
+                    order: 'Spark'
                 };
 
                 isObject(cssLayer) && (layerOptions.name = resolve((cssLayer as any).name, { name, type }));

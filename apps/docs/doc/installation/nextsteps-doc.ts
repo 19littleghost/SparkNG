@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
+import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
@@ -8,7 +8,7 @@ import { RouterModule } from '@angular/router';
     imports: [AppDocSectionText, RouterModule],
     template: `
         <app-docsectiontext>
-            <p>Once you have Optimus UI up and running, we recommend exploring the following resources to gain a deeper understanding of the library.</p>
+            <p>Once you have SparkNG up and running, we recommend exploring the following resources to gain a deeper understanding of the library.</p>
             <ul class="leading-relaxed">
                 <li><a [routerLink]="'/configuration'" class="doc-link">Global configuration</a></li>
                 <li><a [routerLink]="'/theming/styled'" class="doc-link">Styled mode</a> and <a [routerLink]="'/theming/unstyled'" class="doc-link">unstyled mode</a></li>

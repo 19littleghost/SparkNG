@@ -27,5 +27,5 @@ import { EditorModule } from '@bdspark/sparkng/editor';
     `
 })
 export class CustomToolbarDoc {
-    text: string = '<div>Hello World!</div><div>Optimus UI <b>Editor</b> Rocks</div><div><br></div>';
+    text: string = '<div>Hello World!</div><div>SparkNG <b>Editor</b> Rocks</div><div><br></div>';
 }

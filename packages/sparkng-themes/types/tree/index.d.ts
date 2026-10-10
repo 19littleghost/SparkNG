@@ -272,7 +272,7 @@ export declare namespace TreeTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
+ * [SparkNG](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface TreeDesignTokens extends DesignTokens<TreeDesignTokens> {

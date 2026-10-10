@@ -8,7 +8,7 @@ import Lara from '@bdspark/sparkng-themes/lara';
 import Material from '@bdspark/sparkng-themes/material';
 import Nora from '@bdspark/sparkng-themes/nora';
 import { ButtonModule } from '@bdspark/sparkng/button';
-import { Optimus } from '@bdspark/sparkng/config';
+import { Spark } from '@bdspark/sparkng/config';
 import { RadioButtonModule } from '@bdspark/sparkng/radiobutton';
 import { SelectButton } from '@bdspark/sparkng/selectbutton';
 import { ToggleSwitchModule } from '@bdspark/sparkng/toggleswitch';
@@ -104,7 +104,7 @@ export class AppConfiguratorComponent {
         return this.configService.appState().RTL;
     }
 
-    config: Optimus = inject(Optimus);
+    config: Spark = inject(Spark);
 
     configService: AppConfigService = inject(AppConfigService);
 

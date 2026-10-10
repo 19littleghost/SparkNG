@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/select/accessibility-doc';
 import { BasicDoc } from '@/doc/select/basic-doc';
 import { CheckmarkDoc } from '@/doc/select/checkmark-doc';
@@ -20,12 +21,11 @@ import { SizesDoc } from '@/doc/select/sizes-doc';
 import { TemplateDoc } from '@/doc/select/template-doc';
 import { TemplateDrivenFormsDoc } from '@/doc/select/templatedrivenforms-doc';
 import { VirtualScrollDoc } from '@/doc/select/virtualscroll-doc';
-import { AppDoc } from '@/components/doc/app.doc';
 import { Component } from '@angular/core';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular Select Component - Optimus UI"
+        docTitle="Angular Select Component - SparkNG"
         header="Select"
         description="Select is used to choose an item from a collection of options."
         [docs]="docs"

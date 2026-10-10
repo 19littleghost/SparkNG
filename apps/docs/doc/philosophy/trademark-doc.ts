@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
     template: `
         <app-docsectiontext>
             <p>
-                Optimus UI is not affiliated with, endorsed by, or sponsored by PrimeTek. PrimeNG, PrimeFaces, PrimeReact, PrimeVue and PrimeFlex are their trademarks. The rename from the inherited names — the packages, the CSS layer, the icon
-                library — is a trademark matter, not a technical one, and it is why we ship a <a href="https://sparkng.bdspark.com/migration/primeng" target="_blank" rel="noopener noreferrer" class="doc-link">migration schematic</a> rather than
-                asking you to rewrite imports by hand.
+                SparkNG is not affiliated with, endorsed by, or sponsored by PrimeTek. PrimeNG, PrimeFaces, PrimeReact, PrimeVue and PrimeFlex are their trademarks. The rename from the inherited names — the packages, the CSS layer, the icon library —
+                is a trademark matter, not a technical one, and it is why we ship a <a href="https://sparkng.bdspark.com/migration/primeng" target="_blank" rel="noopener noreferrer" class="doc-link">migration schematic</a> rather than asking you to
+                rewrite imports by hand.
             </p>
             <p>
                 References to PrimeNG remain throughout this documentation and the source, and they are deliberate. Attribution is the point: this library is PrimeTek's decade of work plus whatever the community adds on top. Pretending otherwise

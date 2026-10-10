@@ -1,20 +1,20 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/togglebutton/accessibility-doc';
 import { BasicDoc } from '@/doc/togglebutton/basic-doc';
 import { CustomizedDoc } from '@/doc/togglebutton/customized-doc';
 import { DisabledDoc } from '@/doc/togglebutton/disabled-doc';
+import { FluidDoc } from '@/doc/togglebutton/fluid-doc';
 import { ImportDoc } from '@/doc/togglebutton/import-doc';
 import { InvalidDoc } from '@/doc/togglebutton/invalid-doc';
+import { PTComponent } from '@/doc/togglebutton/pt/PTComponent';
 import { ReactiveFormsDoc } from '@/doc/togglebutton/reactiveforms-doc';
 import { SizesDoc } from '@/doc/togglebutton/sizes-doc';
 import { TemplateDrivenFormsDoc } from '@/doc/togglebutton/templatedrivenforms-doc';
-import { FluidDoc } from '@/doc/togglebutton/fluid-doc';
-import { PTComponent } from '@/doc/togglebutton/pt/PTComponent';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular ToggleButton Component - Optimus UI"
+        docTitle="Angular ToggleButton Component - SparkNG"
         header="ToggleButton"
         description="ToggleButton is used to select a boolean value using a button."
         [docs]="docs"

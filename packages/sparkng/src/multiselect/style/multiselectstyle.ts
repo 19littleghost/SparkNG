@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
     ${multiselect_style}
 
-    /* For Optimus */
+    /* For Spark */
    .p-multiselect.ng-invalid.ng-dirty {
         border-color: dt('multiselect.invalid.border.color');
     }

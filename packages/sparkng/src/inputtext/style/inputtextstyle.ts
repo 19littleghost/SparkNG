@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
     ${inputtext_style}
 
-    /* For Optimus */
+    /* For Spark */
    .p-inputtext.ng-invalid.ng-dirty {
         border-color: dt('inputtext.invalid.border.color');
     }

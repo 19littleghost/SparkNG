@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/colorpicker/accessibility-doc';
 import { BasicDoc } from '@/doc/colorpicker/basic-doc';
 import { DisabledDoc } from '@/doc/colorpicker/disabled-doc';
@@ -8,13 +9,12 @@ import { PTComponent } from '@/doc/colorpicker/pt/PTComponent';
 import { ReactiveFormsDoc } from '@/doc/colorpicker/reactiveforms-doc';
 import { TemplateDrivenFormsDoc } from '@/doc/colorpicker/templatedrivenforms-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     standalone: true,
     imports: [AppDoc],
     template: ` <app-doc
-        docTitle="Angular ColorPicker Component - Optimus UI"
+        docTitle="Angular ColorPicker Component - SparkNG"
         header="ColorPicker"
         description="ColorPicker is an input component to select a color."
         [docs]="docs"

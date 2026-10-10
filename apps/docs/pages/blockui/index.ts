@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
     standalone: true,
     imports: [AppDoc],
     template: ` <app-doc
-        docTitle="Angular BlockUI Component - Optimus UI"
+        docTitle="Angular BlockUI Component - SparkNG"
         header="BlockUI"
         description="BlockUI can either block other components or the whole page."
         [docs]="docs"

@@ -111,7 +111,7 @@ export declare namespace DockTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
+ * [SparkNG](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface DockDesignTokens extends DesignTokens<DockDesignTokens> {

@@ -37,7 +37,7 @@ export declare namespace BlockUITokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
+ * [SparkNG](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface BlockUIDesignTokens extends DesignTokens<BlockUIDesignTokens> {

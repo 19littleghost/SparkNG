@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
 ${accordion_style}
 
-/* For Optimus */
+/* For Spark */
 .p-accordionheader-toggle-icon.icon-start {
     order: -1;
 }

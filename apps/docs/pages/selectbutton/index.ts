@@ -1,21 +1,21 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/selectbutton/accessibility-doc';
 import { BasicDoc } from '@/doc/selectbutton/basic-doc';
 import { DisabledDoc } from '@/doc/selectbutton/disabled-doc';
+import { FluidDoc } from '@/doc/selectbutton/fluid-doc';
 import { ImportDoc } from '@/doc/selectbutton/import-doc';
 import { InvalidDoc } from '@/doc/selectbutton/invalid-doc';
 import { MultipleDoc } from '@/doc/selectbutton/multiple-doc';
+import { PTComponent } from '@/doc/selectbutton/pt/PTComponent';
 import { ReactiveFormsDoc } from '@/doc/selectbutton/reactiveforms-doc';
 import { SizesDoc } from '@/doc/selectbutton/sizes-doc';
 import { TemplateDoc } from '@/doc/selectbutton/template-doc';
 import { TemplateDrivenFormsDoc } from '@/doc/selectbutton/templatedrivenforms-doc';
-import { FluidDoc } from '@/doc/selectbutton/fluid-doc';
-import { PTComponent } from '@/doc/selectbutton/pt/PTComponent';
-import { AppDoc } from '@/components/doc/app.doc';
 import { Component } from '@angular/core';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular SelectButton Component - Optimus UI"
+        docTitle="Angular SelectButton Component - SparkNG"
         header="SelectButton"
         description="SelectButton is used to choose single or multiple items from a list using buttons."
         [docs]="docs"

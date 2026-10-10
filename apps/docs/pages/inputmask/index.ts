@@ -1,25 +1,25 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/inputmask/accessibility-doc';
 import { BasicDoc } from '@/doc/inputmask/basic-doc';
 import { DisabledDoc } from '@/doc/inputmask/disabled-doc';
 import { FilledDoc } from '@/doc/inputmask/filled-doc';
 import { FloatlabelDoc } from '@/doc/inputmask/floatlabel-doc';
+import { FluidDoc } from '@/doc/inputmask/fluid-doc';
 import { IftaLabelDoc } from '@/doc/inputmask/iftalabel-doc';
 import { ImportDoc } from '@/doc/inputmask/import-doc';
 import { InvalidDoc } from '@/doc/inputmask/invalid-doc';
 import { MaskDoc } from '@/doc/inputmask/mask-doc';
 import { OptionalDoc } from '@/doc/inputmask/optional-doc';
+import { PTComponent } from '@/doc/inputmask/pt/PTComponent';
 import { ReactiveFormsDoc } from '@/doc/inputmask/reactiveforms-doc';
 import { SizesDoc } from '@/doc/inputmask/sizes-doc';
 import { SlotCharDoc } from '@/doc/inputmask/slotchar-doc';
 import { TemplateDrivenFormsDoc } from '@/doc/inputmask/templatedrivenforms-doc';
-import { FluidDoc } from '@/doc/inputmask/fluid-doc';
-import { PTComponent } from '@/doc/inputmask/pt/PTComponent';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular InputMask Component - Optimus UI"
+        docTitle="Angular InputMask Component - SparkNG"
         header="InputMask"
         description="InputMask component is used to enter input in a certain format such as numeric, date, currency and phone."
         [docs]="docs"

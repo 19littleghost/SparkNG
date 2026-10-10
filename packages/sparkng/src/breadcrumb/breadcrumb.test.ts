@@ -5,7 +5,7 @@ import { By } from '@angular/platform-browser';
 import { Router } from '@angular/router';
 import { RouterTestingModule } from '@angular/router/testing';
 import { MenuItem } from '@bdspark/sparkng/api';
-import { Optimus } from '@bdspark/sparkng/config';
+import { Spark } from '@bdspark/sparkng/config';
 import { BreadcrumbItemClickEvent } from '@bdspark/sparkng/types/breadcrumb';
 import { Breadcrumb } from './breadcrumb';
 
@@ -856,7 +856,7 @@ describe('Breadcrumb', () => {
         });
 
         it('should label the icon only home link with the configured aria.home translation', async () => {
-            TestBed.inject(Optimus).setTranslation({ aria: { home: 'Startseite' } });
+            TestBed.inject(Spark).setTranslation({ aria: { home: 'Startseite' } });
             component.home = { icon: 'pi pi-home' };
             component.homeAriaLabel = undefined;
             fixture.changeDetectorRef.markForCheck();

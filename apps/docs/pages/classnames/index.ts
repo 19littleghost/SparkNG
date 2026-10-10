@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular ClassNames Directive - Optimus UI"
+        docTitle="Angular ClassNames Directive - SparkNG"
         header="ClassNames"
         description="ClassNames provides extended class binding functionality that is not possible with the native Angular directives."
         [docs]="docs"

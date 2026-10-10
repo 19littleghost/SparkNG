@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/checkbox/accessibility-doc';
 import { BasicDoc } from '@/doc/checkbox/basic-doc';
 import { DisabledDoc } from '@/doc/checkbox/disabled-doc';
@@ -11,7 +12,6 @@ import { PTComponent } from '@/doc/checkbox/pt/PTComponent';
 import { ReactiveFormsDoc } from '@/doc/checkbox/reactiveforms-doc';
 import { SizesDoc } from '@/doc/checkbox/sizes-doc';
 import { TemplateDrivenFormsDoc } from '@/doc/checkbox/templatedrivenforms-doc';
-import { AppDoc } from '@/components/doc/app.doc';
 import { Component } from '@angular/core';
 
 @Component({
@@ -19,7 +19,7 @@ import { Component } from '@angular/core';
     imports: [AppDoc],
     template: `
         <app-doc
-            docTitle="Angular Checkbox Component - Optimus UI"
+            docTitle="Angular Checkbox Component - SparkNG"
             header="Checkbox"
             description="Checkbox is an extension to standard checkbox element with theming."
             [docs]="docs"

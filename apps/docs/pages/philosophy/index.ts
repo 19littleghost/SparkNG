@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 @Component({
     standalone: true,
     imports: [AppDoc],
-    template: `<app-doc docTitle="Philosophy - Optimus UI" header="Philosophy" description="Why Optimus UI exists, what it commits to, and where it stops." [docs]="docs" docType="page"></app-doc>`
+    template: `<app-doc docTitle="Philosophy - SparkNG" header="Philosophy" description="Why SparkNG exists, what it commits to, and where it stops." [docs]="docs" docType="page"></app-doc>`
 })
 export class PhilosophyDemo {
     docs = [

@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/avatar/accessibility-doc';
 import { GroupDoc } from '@/doc/avatar/avatargroup-doc';
 import { BadgeDoc } from '@/doc/avatar/badge-doc';
@@ -5,18 +6,17 @@ import { IconDoc } from '@/doc/avatar/icon-doc';
 import { ImageDoc } from '@/doc/avatar/image-doc';
 import { ImportDoc } from '@/doc/avatar/import-doc';
 import { LabelDoc } from '@/doc/avatar/label-doc';
+import { PTComponent } from '@/doc/avatar/pt/PTComponent';
 import { ShapeDoc } from '@/doc/avatar/shape-doc';
 import { SizeDoc } from '@/doc/avatar/size-doc';
 import { TemplateDoc } from '@/doc/avatar/template-doc';
-import { PTComponent } from '@/doc/avatar/pt/PTComponent';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     standalone: true,
     imports: [AppDoc],
     template: ` <app-doc
-        docTitle="Angular Avatar Component - Optimus UI"
+        docTitle="Angular Avatar Component - SparkNG"
         header="Avatar"
         description="Avatar represents people using icons, labels and images."
         [docs]="docs"

@@ -1,13 +1,13 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AnimationDoc } from '@/doc/styleclass/animation-doc';
 import { HideOnResizeDoc } from '@/doc/styleclass/hideonresize-doc';
 import { ImportDoc } from '@/doc/styleclass/import-doc';
 import { ToggleClassDoc } from '@/doc/styleclass/toggleclass-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular StyleClass Component - Optimus UI"
+        docTitle="Angular StyleClass Component - SparkNG"
         header="StyleClass"
         description="StyleClass manages css classes declaratively to during enter/leave animations or just to toggle classes on an element."
         [docs]="docs"

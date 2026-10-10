@@ -1379,7 +1379,7 @@ describe('PanelMenu', () => {
 
         describe('Case 7: Global PT from OptimusConfig', () => {
             it('should accept global PT configuration structure', async () => {
-                // Note: Full global PT testing requires Optimus service setup
+                // Note: Full global PT testing requires Spark service setup
                 // This test verifies the PT structure is accepted
                 fixture.componentRef.setInput('pt', {
                     root: { 'data-global-test': 'true' }

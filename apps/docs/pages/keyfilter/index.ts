@@ -1,13 +1,13 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/keyfilter/accessibility-doc';
 import { ImportDoc } from '@/doc/keyfilter/import-doc';
 import { PresetsDoc } from '@/doc/keyfilter/presets-doc';
 import { RegexDoc } from '@/doc/keyfilter/regex-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular KeyFilter Component - Optimus UI"
+        docTitle="Angular KeyFilter Component - SparkNG"
         header="KeyFilter"
         description="KeyFilter is a directive to restrict individual key strokes. In order to restrict the whole input, use InputNumber or InputMask instead."
         [docs]="docs"

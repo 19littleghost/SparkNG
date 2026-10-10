@@ -1,16 +1,16 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/splitter/accessibility-doc';
 import { HorizontalDoc } from '@/doc/splitter/horizontal-doc';
 import { ImportDoc } from '@/doc/splitter/import-doc';
 import { NestedDoc } from '@/doc/splitter/nested-doc';
+import { PTComponent } from '@/doc/splitter/pt/PTComponent';
 import { SizeDoc } from '@/doc/splitter/size-doc';
 import { VerticalDoc } from '@/doc/splitter/vertical-doc';
-import { PTComponent } from '@/doc/splitter/pt/PTComponent';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular Splitter Component - Optimus UI"
+        docTitle="Angular Splitter Component - SparkNG"
         header="Splitter"
         description="Splitter is utilized to separate and resize panels."
         [docs]="docs"

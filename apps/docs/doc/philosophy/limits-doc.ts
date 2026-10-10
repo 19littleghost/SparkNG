@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
     imports: [AppDocSectionText],
     template: `
         <app-docsectiontext>
-            <p>Naming the limits is what makes the commitments above worth anything. Here is what Optimus UI is not.</p>
+            <p>Naming the limits is what makes the commitments above worth anything. Here is what SparkNG is not.</p>
             <h3>There is no commercial support</h3>
             <p>
                 No SLA, no support contract, no guaranteed response time. Issues and discussions are answered by volunteers when they have time. If your organisation needs contractual guarantees, this project cannot provide them and you should plan
@@ -20,8 +20,8 @@ import { Component } from '@angular/core';
             </p>
             <h3>We are not chasing feature parity with PrimeNG v22 and beyond</h3>
             <p>
-                PrimeNG continues under its own license and its own roadmap. Optimus UI diverges from v21 forward. Some things they add, we will not have. Some things we fix, they will not. Treat the two as separate libraries that share an ancestor,
-                not as a free copy of a paid product.
+                PrimeNG continues under its own license and its own roadmap. SparkNG diverges from v21 forward. Some things they add, we will not have. Some things we fix, they will not. Treat the two as separate libraries that share an ancestor, not
+                as a free copy of a paid product.
             </p>
             <h3>The bus factor is real</h3>
             <p>

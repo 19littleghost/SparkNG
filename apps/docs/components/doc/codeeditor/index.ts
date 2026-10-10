@@ -36,7 +36,7 @@ const useStackBlitz = (props: Props) => {
     const project = {
         title: title,
         template: 'node',
-        description: 'Optimus UI is an open source UI library for Angular featuring a rich set of 80+ components, various theme alternatives such as Material, Bootstrap, Tailwind.',
+        description: 'SparkNG is an open source UI library for Angular featuring a rich set of 80+ components, various theme alternatives such as Material, Bootstrap, Tailwind.',
         files: _files
     };
 

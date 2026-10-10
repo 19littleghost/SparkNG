@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/metergroup/accessibility-doc';
 import { BasicDoc } from '@/doc/metergroup/basic-doc';
 import { IconDoc } from '@/doc/metergroup/icon-doc';
@@ -9,13 +10,12 @@ import { PTComponent } from '@/doc/metergroup/pt/PTComponent';
 import { TemplateDoc } from '@/doc/metergroup/template-doc';
 import { VerticalDoc } from '@/doc/metergroup/vertical-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     standalone: true,
     imports: [AppDoc],
     template: ` <app-doc
-        docTitle="Angular MeterGroup Component - Optimus UI"
+        docTitle="Angular MeterGroup Component - SparkNG"
         header="MeterGroup"
         description="MeterGroup displays scalar measurements within a known range."
         [docs]="docs"

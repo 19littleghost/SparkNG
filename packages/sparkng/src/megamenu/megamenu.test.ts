@@ -1553,7 +1553,7 @@ describe('MegaMenu', () => {
         });
 
         describe('Case 7: Test from OptimusConfig', () => {
-            it('should apply global PT configuration from Optimus config', async () => {
+            it('should apply global PT configuration from Spark config', async () => {
                 await TestBed.resetTestingModule();
                 await TestBed.configureTestingModule({
                     declarations: [TestBasicMegaMenuComponent],
@@ -1580,7 +1580,7 @@ describe('MegaMenu', () => {
                 expect(hostElement.getAttribute('aria-label')).toBe('TEST_GLOBAL_ARIA_LABEL');
             });
 
-            it('should apply global CSS from Optimus config', async () => {
+            it('should apply global CSS from Spark config', async () => {
                 await TestBed.resetTestingModule();
                 await TestBed.configureTestingModule({
                     declarations: [TestBasicMegaMenuComponent],

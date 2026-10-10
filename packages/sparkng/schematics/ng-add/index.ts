@@ -22,9 +22,9 @@ function projectNotFound(name: string): string {
  * `save` is `false`), so the message has to account for it rather than pretend nothing happened.
  */
 function primengBailMessage(): string {
-    return `primeng detected — ng add only sets up Optimus UI in new projects, so no changes were made and the theme preset was not configured.
+    return `primeng detected — ng add only sets up SparkNG in new projects, so no changes were made and the theme preset was not configured.
 To migrate this workspace, run: ${MIGRATE_COMMAND}
-The Angular CLI has already added @bdspark/sparkng to your dependencies. The migration schematic needs it there, so keep it — or remove it with your package manager if you did not mean to add Optimus UI to this workspace.`;
+The Angular CLI has already added @bdspark/sparkng to your dependencies. The migration schematic needs it there, so keep it — or remove it with your package manager if you did not mean to add SparkNG to this workspace.`;
 }
 
 /** The preset import name and its subpath module for the chosen theme (e.g. `Aura` → `@bdspark/sparkng-themes/aura`). */
@@ -45,7 +45,7 @@ function manualInstructions(theme: Theme): string {
 }
 
 /**
- * Sets up Optimus UI in a fresh (non-PrimeNG) project. Migrating an existing PrimeNG workspace is
+ * Sets up SparkNG in a fresh (non-PrimeNG) project. Migrating an existing PrimeNG workspace is
  * a separate concern handled by the `migrate-from-primeng` schematic
  * (`ng generate @bdspark/sparkng@1:migrate-from-primeng`) — when primeng is detected, ng-add
  * makes no changes and throws, so the CLI reports the refusal as a failure (#1447). A warning was
@@ -170,7 +170,7 @@ async function wireProvideOptimus(tree: Tree, context: SchematicContext, options
     // A providePrimeNG call in the sources means this is a live PrimeNG app that slipped past the
     // package.json detection in ngAdd (#1448: primeng installed but undeclared, or declared only
     // in a package.json the detection can't see). Wiring anyway would retarget a legacy
-    // `@primeuix/themes/*` import in place and silently hand providePrimeNG an Optimus preset —
+    // `@primeuix/themes/*` import in place and silently hand providePrimeNG an Spark preset —
     // it compiles, so nothing would surface the breakage. Skip the automatic wiring instead.
     const primengFile = findSourceFileContaining(tree, sourceRoot, 'providePrimeNG(');
     if (primengFile) {

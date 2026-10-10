@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/dialog/accessibility-doc';
 import { BasicDoc } from '@/doc/dialog/basic-doc';
 import { HeadlessDoc } from '@/doc/dialog/headless-doc';
@@ -10,13 +11,12 @@ import { ResponsiveDoc } from '@/doc/dialog/responsive-doc';
 import { TemplateDoc } from '@/doc/dialog/template-doc';
 import { WithoutModalDoc } from '@/doc/dialog/withoutmodal-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     standalone: true,
     imports: [AppDoc],
     template: `
-        <app-doc docTitle="Angular Dialog Component - Optimus UI" header="Dialog" description="Dialog is a container to display content in an overlay window." [docs]="docs" [apiDocs]="['Dialog']" [ptDocs]="ptComponent" themeDocs="dialog"></app-doc>
+        <app-doc docTitle="Angular Dialog Component - SparkNG" header="Dialog" description="Dialog is a container to display content in an overlay window." [docs]="docs" [apiDocs]="['Dialog']" [ptDocs]="ptComponent" themeDocs="dialog"></app-doc>
     `
 })
 export class DialogDemo {

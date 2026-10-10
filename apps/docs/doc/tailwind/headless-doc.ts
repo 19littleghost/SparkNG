@@ -11,7 +11,7 @@ import { InputTextModule } from '@bdspark/sparkng/inputtext';
     imports: [AppDocSectionText, AppCode, ButtonModule, DialogModule, InputTextModule],
     template: `
         <app-docsectiontext>
-            <p>A headless Optimus UI dialog with a custom UI.</p>
+            <p>A headless SparkNG dialog with a custom UI.</p>
         </app-docsectiontext>
         <div class="card flex justify-center">
             <p-button (click)="showDialog()" icon="pi pi-user" label="Login" />

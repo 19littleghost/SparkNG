@@ -139,9 +139,9 @@ function testStackBlitzFileGeneration(demos) {
             // Test: theme-switcher added to template
             allPassed &= logTest('theme-switcher added to template', modified.includes('<theme-switcher />'));
 
-            // Test: Optimus UI module imports removed
+            // Test: SparkNG module imports removed
             const hasNoDirectModuleImport = !modified.includes("from '@bdspark/sparkng/select';") || modified.includes('ImportsModule');
-            allPassed &= logTest('Optimus UI direct imports removed', !modified.match(/import\s+\{[^}]*Module[^}]*\}\s+from\s+'@bdspark\/sparkng\//));
+            allPassed &= logTest('SparkNG direct imports removed', !modified.match(/import\s+\{[^}]*Module[^}]*\}\s+from\s+'@bdspark\/sparkng\//));
         }
 
         // Test: Metadata has services if needed
@@ -296,14 +296,14 @@ function testContentMatching(demos) {
 
         const { typescript } = demo.code;
 
-        // Test: TypeScript has inline template with Optimus UI components
+        // Test: TypeScript has inline template with SparkNG components
         if (typescript) {
             const hasTemplate = typescript.includes('template:') && typescript.includes('`');
             allPassed &= logTest('TypeScript has inline template', hasTemplate);
 
-            // Check for Optimus UI component in template
+            // Check for SparkNG component in template
             const hasPrimeNGComponent = /p-[\w-]+/.test(typescript);
-            allPassed &= logTest('Template contains Optimus UI component', hasPrimeNGComponent);
+            allPassed &= logTest('Template contains SparkNG component', hasPrimeNGComponent);
         }
 
         // Test: Component class name matches selector

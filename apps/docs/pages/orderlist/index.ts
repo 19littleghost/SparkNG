@@ -4,12 +4,12 @@ import { BasicDoc } from '@/doc/orderlist/basic-doc';
 import { DragDropDoc } from '@/doc/orderlist/dragdrop-doc';
 import { FilterDoc } from '@/doc/orderlist/filter-doc';
 import { ImportDoc } from '@/doc/orderlist/import-doc';
-import { TemplateDoc } from '@/doc/orderlist/template-doc';
 import { PTComponent } from '@/doc/orderlist/pt/PTComponent';
+import { TemplateDoc } from '@/doc/orderlist/template-doc';
 import { Component } from '@angular/core';
 
 @Component({
-    template: `<app-doc docTitle="Angular OrderList Component - Optimus UI" header="OrderList" description="OrderList is used to sort a collection." [docs]="docs" [apiDocs]="['OrderList']" [ptDocs]="ptComponent" themeDocs="orderlist"></app-doc>`,
+    template: `<app-doc docTitle="Angular OrderList Component - SparkNG" header="OrderList" description="OrderList is used to sort a collection." [docs]="docs" [apiDocs]="['OrderList']" [ptDocs]="ptComponent" themeDocs="orderlist"></app-doc>`,
     standalone: true,
     imports: [AppDoc]
 })

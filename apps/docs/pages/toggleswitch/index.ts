@@ -1,19 +1,19 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/toggleswitch/accessibility-doc';
 import { BasicDoc } from '@/doc/toggleswitch/basic-doc';
 import { DisabledDoc } from '@/doc/toggleswitch/disabled-doc';
 import { ImportDoc } from '@/doc/toggleswitch/import-doc';
 import { InvalidDoc } from '@/doc/toggleswitch/invalid-doc';
 import { PreselectionDoc } from '@/doc/toggleswitch/preselection-doc';
+import { PTComponent } from '@/doc/toggleswitch/pt/PTComponent';
 import { ReactiveFormsDoc } from '@/doc/toggleswitch/reactiveforms-doc';
 import { TemplateDoc } from '@/doc/toggleswitch/template-doc';
 import { TemplateDrivenFormsDoc } from '@/doc/toggleswitch/templatedrivenforms-doc';
-import { PTComponent } from '@/doc/toggleswitch/pt/PTComponent';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular ToggleSwitch Component - Optimus UI"
+        docTitle="Angular ToggleSwitch Component - SparkNG"
         header="ToggleSwitch"
         description="ToggleSwitch is used to select a boolean value."
         [docs]="docs"

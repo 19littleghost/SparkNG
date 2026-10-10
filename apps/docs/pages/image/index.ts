@@ -1,14 +1,14 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/Image/accessibility-doc';
 import { BasicDoc } from '@/doc/Image/basic-doc';
 import { ImportDoc } from '@/doc/Image/import-doc';
 import { PreviewDoc } from '@/doc/Image/preview-doc';
-import { TemplateDoc } from '@/doc/Image/template-doc';
 import { PTComponent } from '@/doc/Image/pt/PTComponent';
+import { TemplateDoc } from '@/doc/Image/template-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
-    template: `<app-doc docTitle="Angular Image Component - Optimus UI" header="Image" description="Displays an image with preview and tranformation options." [docs]="docs" [apiDocs]="['Image']" [ptDocs]="ptComponent" themeDocs="image"></app-doc> `,
+    template: `<app-doc docTitle="Angular Image Component - SparkNG" header="Image" description="Displays an image with preview and tranformation options." [docs]="docs" [apiDocs]="['Image']" [ptDocs]="ptComponent" themeDocs="image"></app-doc> `,
     standalone: true,
     imports: [AppDoc]
 })

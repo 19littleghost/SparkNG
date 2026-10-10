@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/scroller/accessibility-doc';
 import { BasicDoc } from '@/doc/scroller/basic-doc';
 import { DelayDoc } from '@/doc/scroller/delay-doc';
@@ -6,16 +7,15 @@ import { HorizontalDoc } from '@/doc/scroller/horizontal-doc';
 import { ImportDoc } from '@/doc/scroller/import-doc';
 import { LazyLoadDoc } from '@/doc/scroller/lazyload-doc';
 import { LoaderDoc } from '@/doc/scroller/loader-doc';
-import { PTComponent } from '@/doc/scroller/pt/PTComponent';
 import { ProgrammaticDoc } from '@/doc/scroller/programmatic-doc';
+import { PTComponent } from '@/doc/scroller/pt/PTComponent';
 import { ScrollOptionsDoc } from '@/doc/scroller/scrolloptions-doc';
 import { TemplateDoc } from '@/doc/scroller/template-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular Virtual Scroller Component - Optimus UI"
+        docTitle="Angular Virtual Scroller Component - SparkNG"
         header="Scroller"
         description="VirtualScroller is a performance-approach to handle huge data efficiently."
         [docs]="docs"

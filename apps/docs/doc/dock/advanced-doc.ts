@@ -52,7 +52,7 @@ import { Subscription } from 'rxjs';
                 </p-dialog>
 
                 <p-dialog [maximizable]="true" [(visible)]="displayTerminal" [breakpoints]="{ '960px': '50vw' }" [style]="{ width: '30vw' }" [draggable]="false" [resizable]="false" header="Terminal">
-                    <p-terminal welcomeMessage="Welcome to Optimus UI (cmd: 'date', 'greet {0}', 'random')" prompt="optimus $" />
+                    <p-terminal welcomeMessage="Welcome to SparkNG (cmd: 'date', 'greet {0}', 'random')" prompt="Spark $" />
                 </p-dialog>
 
                 <p-galleria

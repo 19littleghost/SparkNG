@@ -1927,7 +1927,7 @@ describe('SpeedDial', () => {
 
         describe('Case 7: Test from OptimusConfig', () => {
             it('should apply global PT configuration from OptimusConfig', async () => {
-                // Create a new test module with Optimus config
+                // Create a new test module with Spark config
                 await TestBed.resetTestingModule();
                 await TestBed.configureTestingModule({
                     declarations: [TestPTSpeedDialComponent],
@@ -1952,7 +1952,7 @@ describe('SpeedDial', () => {
                 configFixture.detectChanges();
 
                 // Note: This test verifies the configuration structure
-                // Actual global PT merging depends on Optimus configuration implementation
+                // Actual global PT merging depends on Spark configuration implementation
                 expect(configFixture.componentInstance).toBeTruthy();
             });
         });

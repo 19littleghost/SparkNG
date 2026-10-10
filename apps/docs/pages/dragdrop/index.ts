@@ -1,15 +1,15 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { BasicDoc } from '@/doc/dragdrop/basic-doc';
 import { DataTableDoc } from '@/doc/dragdrop/datatable-doc';
 import { DragHandleDoc } from '@/doc/dragdrop/draghandle-doc';
 import { DropIndicatorDoc } from '@/doc/dragdrop/dropindicator-doc';
 import { ImportDoc } from '@/doc/dragdrop/import-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     standalone: true,
     imports: [AppDoc],
-    template: ` <app-doc docTitle="Angular Drag and Drop Component - Optimus UI" header="Drag and Drop" description="pDraggable and pDroppable directives apply drag-drop behaviors to any element." [docs]="docs" [apiDocs]="['DragDrop']"></app-doc>`,
+    template: ` <app-doc docTitle="Angular Drag and Drop Component - SparkNG" header="Drag and Drop" description="pDraggable and pDroppable directives apply drag-drop behaviors to any element." [docs]="docs" [apiDocs]="['DragDrop']"></app-doc>`,
     styleUrls: ['./dragdropdemo.scss']
 })
 export class DragDropDemo {

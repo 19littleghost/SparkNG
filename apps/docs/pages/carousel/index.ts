@@ -13,7 +13,7 @@ import { Component } from '@angular/core';
     imports: [AppDoc],
     template: `
         <app-doc
-            docTitle="Angular Carousel Component - Optimus UI"
+            docTitle="Angular Carousel Component - SparkNG"
             header="Carousel"
             description="Carousel is a content slider featuring various customization options."
             [docs]="docs"

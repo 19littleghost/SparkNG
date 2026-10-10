@@ -4,7 +4,7 @@ import { Component, computed, inject, signal } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { ActivatedRoute, RouterOutlet } from '@angular/router';
 
-import { Optimus } from '@bdspark/sparkng/config';
+import { Spark } from '@bdspark/sparkng/config';
 import { DomHandler } from '@bdspark/sparkng/dom';
 import { AppFooterComponent } from './footer/app.footer.component';
 import { AppMenuComponent } from './menu/app.menu.component';
@@ -40,7 +40,7 @@ import { AppTopBarComponent } from './topbar/app.topbar.component';
 export class AppMainComponent {
     configService: AppConfigService = inject(AppConfigService);
 
-    config: Optimus = inject(Optimus);
+    config: Spark = inject(Spark);
 
     private route = inject(ActivatedRoute);
 

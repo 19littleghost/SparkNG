@@ -220,7 +220,7 @@ describe('ng-add', () => {
         // in a package.json the detection can't see): hasPrimeng returns false, freshSetup runs,
         // but the app still has a live providePrimeNG({ theme: { preset: Aura } }) call. The
         // legacy `@primeuix/themes/aura` import must NOT be retargeted in place — that would
-        // silently hand providePrimeNG an Optimus preset without a compile error.
+        // silently hand providePrimeNG an Spark preset without a compile error.
         const runner = createRunner();
         const appTree = await createRealAppTree(runner, { standalone: true });
         const primengConfig =

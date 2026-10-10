@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular ImageCompare Component - Optimus UI"
+        docTitle="Angular ImageCompare Component - SparkNG"
         header="ImageCompare"
         description="Compare two images side by side with a slider."
         [docs]="docs"

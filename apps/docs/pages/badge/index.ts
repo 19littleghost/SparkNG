@@ -1,19 +1,19 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/badge/accessibility-doc';
 import { BasicDoc } from '@/doc/badge/basic-doc';
 import { ButtonDoc } from '@/doc/badge/button-doc';
 import { ImportDoc } from '@/doc/badge/import-doc';
 import { OverlayDoc } from '@/doc/badge/overlay-doc';
+import { PTComponent } from '@/doc/badge/pt/PTComponent';
 import { SeverityDoc } from '@/doc/badge/severity-doc';
 import { SizeDoc } from '@/doc/badge/size-doc';
-import { PTComponent } from '@/doc/badge/pt/PTComponent';
-import { AppDoc } from '@/components/doc/app.doc';
 import { Component } from '@angular/core';
 
 @Component({
     standalone: true,
     imports: [AppDoc],
     template: ` <app-doc
-        docTitle="Angular Badge Component - Optimus UI"
+        docTitle="Angular Badge Component - SparkNG"
         header="Badge"
         description="Badge is a small status indicator for another element."
         [docs]="docs"

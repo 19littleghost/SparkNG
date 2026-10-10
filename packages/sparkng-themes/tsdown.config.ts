@@ -34,7 +34,7 @@ export default defineConfig([
     },
     ...themes.map<UserConfig>((theme) => {
         const name = theme.charAt(0).toUpperCase() + theme.slice(1);
-        const globalName = `Optimus.Themes.${name}`;
+        const globalName = `Spark.Themes.${name}`;
 
         return {
             entry: {

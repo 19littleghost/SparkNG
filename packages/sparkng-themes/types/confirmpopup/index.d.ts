@@ -118,7 +118,7 @@ export declare namespace ConfirmPopupTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
+ * [SparkNG](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface ConfirmPopupDesignTokens extends DesignTokens<ConfirmPopupDesignTokens> {

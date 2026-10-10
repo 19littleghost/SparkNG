@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
     ${textarea_style}
 
-    /* For Optimus */
+    /* For Spark */
     .p-textarea.ng-invalid.ng-dirty {
         border-color: dt('textarea.invalid.border.color');
     }

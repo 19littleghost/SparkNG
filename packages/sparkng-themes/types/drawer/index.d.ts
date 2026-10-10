@@ -97,7 +97,7 @@ export declare namespace DrawerTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
+ * [SparkNG](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface DrawerDesignTokens extends DesignTokens<DrawerDesignTokens> {

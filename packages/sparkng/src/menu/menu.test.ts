@@ -5,8 +5,8 @@ import { provideNoopAnimations } from '@angular/platform-browser/animations';
 import { RouterTestingModule } from '@angular/router/testing';
 import { MenuItem, OverlayService, SharedModule } from '@bdspark/sparkng/api';
 import { provideOptimus } from '@bdspark/sparkng/config';
-import { Menu } from './menu';
 import type { Mock } from 'vitest';
+import { Menu } from './menu';
 
 @Component({
     changeDetection: ChangeDetectionStrategy.Eager,
@@ -1782,7 +1782,7 @@ describe('Menu', () => {
                 });
             });
 
-            it('should apply global PT configuration from Optimus config', () => {
+            it('should apply global PT configuration from Spark config', () => {
                 const globalFixture = TestBed.createComponent(TestGlobalPTComponent);
                 globalFixture.detectChanges();
 

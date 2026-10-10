@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
     ${iftalabel_style}
 
-    /* For Optimus */
+    /* For Spark */
     .p-iftalabel:has(.ng-invalid.ng-dirty) label {
         color: dt('iftalabel.invalid.color');
     }

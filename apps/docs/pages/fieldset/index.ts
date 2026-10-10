@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
     imports: [AppDoc],
     template: `
         <app-doc
-            docTitle="Angular Fieldset Component - Optimus UI"
+            docTitle="Angular Fieldset Component - SparkNG"
             header="Fieldset"
             description="Fieldset is a grouping component with a content toggle feature."
             [docs]="docs"

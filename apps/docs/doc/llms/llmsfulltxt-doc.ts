@@ -8,7 +8,7 @@ import { ButtonModule } from '@bdspark/sparkng/button';
     imports: [AppDocSectionText, ButtonModule],
     template: `
         <app-docsectiontext>
-            <p>The <code>llms-full.txt</code> file is a complete list of all the pages in the Optimus UI documentation. It is used to help AI models understand the entire documentation set.</p>
+            <p>The <code>llms-full.txt</code> file is a complete list of all the pages in the SparkNG documentation. It is used to help AI models understand the entire documentation set.</p>
             <a href="/llms/llms-full.txt" target="_blank">
                 <p-button label="Open llms-full.txt" />
             </a>

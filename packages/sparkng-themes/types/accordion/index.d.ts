@@ -264,7 +264,7 @@ export declare namespace AccordionTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
+ * [SparkNG](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface AccordionDesignTokens extends DesignTokens<AccordionDesignTokens> {

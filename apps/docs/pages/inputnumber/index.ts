@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/inputnumber/accessibility-doc';
 import { ButtonsDoc } from '@/doc/inputnumber/buttons-doc';
 import { ClearIconDoc } from '@/doc/inputnumber/clearicon-doc';
@@ -18,11 +19,10 @@ import { SizesDoc } from '@/doc/inputnumber/sizes-doc';
 import { TemplateDrivenFormsDoc } from '@/doc/inputnumber/templatedrivenforms-doc';
 import { VerticalDoc } from '@/doc/inputnumber/vertical-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular InputNumber Component - Optimus UI"
+        docTitle="Angular InputNumber Component - SparkNG"
         header="InputNumber"
         description="InputNumber is an input component to provide numerical input."
         [docs]="docs"

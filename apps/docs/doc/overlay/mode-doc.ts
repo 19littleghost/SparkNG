@@ -17,7 +17,7 @@ import { Component } from '@angular/core';
 export class ModeDoc {
     code2 = {
         typescript: `import { OverlayOptions, ResponsiveOverlayDirectionType } from '@bdspark/sparkng/api';
-import { Optimus } from '@bdspark/sparkng/config';
+import { Spark } from '@bdspark/sparkng/config';
 
 const responsiveOptions: ResponsiveOverlayOptions = {
     // style?: any;                                     // Style of component in given breakpoint or media query

@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/button/accessibility-doc';
 import { BadgeDoc } from '@/doc/button/badge-doc';
 import { BasicDoc } from '@/doc/button/basic-doc';
@@ -10,6 +11,7 @@ import { ImportDoc } from '@/doc/button/import-doc';
 import { LinkDoc } from '@/doc/button/link-doc';
 import { LoadingDoc } from '@/doc/button/loading-doc';
 import { OutlinedDoc } from '@/doc/button/outlined-doc';
+import { PTComponent } from '@/doc/button/pt/PTComponent';
 import { RaisedDoc } from '@/doc/button/raised-doc';
 import { RaisedTextDoc } from '@/doc/button/raisedtext-doc';
 import { RoundedDoc } from '@/doc/button/rounded-doc';
@@ -17,15 +19,13 @@ import { SeverityDoc } from '@/doc/button/severity-doc';
 import { SizesDoc } from '@/doc/button/sizes-doc';
 import { TemplateDoc } from '@/doc/button/template-doc';
 import { TextDoc } from '@/doc/button/text-doc';
-import { AppDoc } from '@/components/doc/app.doc';
 import { Component } from '@angular/core';
-import { PTComponent } from '@/doc/button/pt/PTComponent';
 @Component({
     standalone: true,
     imports: [AppDoc],
     template: `
         <app-doc
-            docTitle="Angular Button Component - Optimus UI"
+            docTitle="Angular Button Component - SparkNG"
             header="Button"
             description="Button is an extension to standard button element with icons and theming."
             [docs]="docs"

@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
     ${buttongroup_style}
 
-    /* For Optimus */
+    /* For Spark */
     .p-buttongroup p-button:focus .p-button {
         position: relative;
         z-index: 1;

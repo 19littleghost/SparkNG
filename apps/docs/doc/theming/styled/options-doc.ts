@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
+import { Component } from '@angular/core';
 
 @Component({
     selector: 'options-doc',
@@ -44,8 +44,8 @@ export class OptionsDoc {
     code3 = {
         typescript: `options: {
     cssLayer: {
-        name: 'optimus',
-        order: 'app-styles, optimus, another-css-library'
+        name: 'Spark',
+        order: 'app-styles, Spark, another-css-library'
     }
 }`
     };

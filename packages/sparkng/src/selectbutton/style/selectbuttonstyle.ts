@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
     ${selectbutton_style}
 
-    /* For Optimus */
+    /* For Spark */
     .p-selectbutton.ng-invalid.ng-dirty {
         outline: 1px solid dt('selectbutton.invalid.border.color');
         outline-offset: 0;

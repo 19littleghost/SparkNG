@@ -115,7 +115,7 @@ export declare namespace DialogTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
+ * [SparkNG](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface DialogDesignTokens extends DesignTokens<DialogDesignTokens> {

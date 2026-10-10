@@ -110,7 +110,7 @@ describe('migrate-from-primeng', () => {
 
         const component = result.readContent('/src/app/list.component.ts');
         expect(component).toContain(`from '@bdspark/sparkng/table'`);
-        expect(component).toContain(`inject(Optimus)`);
+        expect(component).toContain(`inject(Spark)`);
     });
 
     it('rewrites the primeng cssLayer name and order in the theme config', async () => {
@@ -128,7 +128,7 @@ describe('migrate-from-primeng', () => {
 
         const appConfig = result.readContent('/src/app/app.config.ts');
         expect(appConfig).toContain(`import { provideOptimus } from '@bdspark/sparkng/config';`);
-        expect(appConfig).toContain(`cssLayer: { name: 'optimus', order: 'theme, base, optimus' }`);
+        expect(appConfig).toContain(`cssLayer: { name: 'Spark', order: 'theme, base, Spark' }`);
         expect(appConfig).not.toContain('primeng');
     });
 
@@ -147,9 +147,9 @@ describe('migrate-from-primeng', () => {
         });
         const result = await runner.runSchematic('migrate-from-primeng', { skipInstall: true }, tree);
 
-        expect(result.readContent('/src/app/app.config.ts')).toContain(`cssLayer: { name: 'optimus', order: 'theme, base, optimus, optimus-overwrites' }`);
-        expect(result.readContent('/src/primeng-overwrites.scss')).toBe(`@layer optimus-overwrites {\n    .p-button { margin: 0; }\n}\n`);
-        expect(result.readContent('/src/styles.scss')).toBe(`@layer theme, base, optimus, optimus-overwrites;\n@import url(overrides.css) layer(optimus);\n`);
+        expect(result.readContent('/src/app/app.config.ts')).toContain(`cssLayer: { name: 'Spark', order: 'theme, base, Spark, Spark-overwrites' }`);
+        expect(result.readContent('/src/primeng-overwrites.scss')).toBe(`@layer Spark-overwrites {\n    .p-button { margin: 0; }\n}\n`);
+        expect(result.readContent('/src/styles.scss')).toBe(`@layer theme, base, Spark, Spark-overwrites;\n@import url(overrides.css) layer(Spark);\n`);
     });
 
     it('leaves stylesheet @layer declarations alone when no cssLayer config was rewritten', async () => {

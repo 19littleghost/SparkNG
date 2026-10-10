@@ -4,7 +4,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
     ${panelmenu_style}
-    /*For Optimus */
+    /*For Spark */
 
 
     .p-panelmenu-root-list,

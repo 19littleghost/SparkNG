@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
     imports: [AppDocSectionText],
     template: `
         <app-docsectiontext>
-            <p>Optimus UI targets Angular v21 and newer. Any workspace created with the Angular CLI works, standalone or NgModule based.</p>
+            <p>SparkNG targets Angular v21 and newer. Any workspace created with the Angular CLI works, standalone or NgModule based.</p>
             <ul class="leading-relaxed">
                 <li>Angular v21 or newer, including <i>&#64;angular/cdk</i>, <i>&#64;angular/forms</i> and <i>&#64;angular/router</i></li>
                 <li>RxJS v7.8.1 or newer</li>

@@ -12,7 +12,7 @@ export interface RewriteResult {
     changed: boolean;
     /**
      * CSS cascade layer tokens renamed inside cssLayer name/order strings (old name → new name),
-     * e.g. `primeng` → `optimus` and `primeng-overwrites` → `optimus-overwrites`. The caller uses
+     * e.g. `primeng` → `Spark` and `primeng-overwrites` → `Spark-overwrites`. The caller uses
      * these to rename the matching `@layer` declarations in stylesheets, which would otherwise
      * silently detach from the configured layer order.
      */
@@ -206,7 +206,7 @@ function rewriteCssLayerNames(sourceFile: ts.SourceFile, text: string, edits: Ed
                     continue;
                 }
                 const literal = prop.initializer;
-                const replaced = literal.text.replace(CSS_LAYER_TOKEN_RE, 'optimus');
+                const replaced = literal.text.replace(CSS_LAYER_TOKEN_RE, 'Spark');
                 if (replaced === literal.text) {
                     continue;
                 }
@@ -215,7 +215,7 @@ function rewriteCssLayerNames(sourceFile: ts.SourceFile, text: string, edits: Ed
                 // be renamed too — see renameStylesheetLayers.
                 for (const token of literal.text.split(',')) {
                     const from = token.trim();
-                    const to = from.replace(CSS_LAYER_TOKEN_RE, 'optimus');
+                    const to = from.replace(CSS_LAYER_TOKEN_RE, 'Spark');
                     if (from.length > 0 && to !== from) {
                         layerRenames.set(from, to);
                     }
@@ -241,7 +241,7 @@ const LAYER_FUNCTION_RE = /(@import\b[^;{]*?\blayer\(\s*)([^)]*)(?=\))/g;
  * of a stylesheet, using the renames collected from cssLayer name/order strings by rewriteSource.
  * Keeps user stylesheets in sync with the rewritten theme config: a `@layer primeng-overwrites`
  * declaration must follow its `order: '..., primeng-overwrites'` entry when the latter becomes
- * `optimus-overwrites`, or the layer silently drops out of the configured order.
+ * `Spark-overwrites`, or the layer silently drops out of the configured order.
  */
 export function renameStylesheetLayers(text: string, renames: ReadonlyMap<string, string>): { text: string; changed: boolean } {
     if (renames.size === 0) {

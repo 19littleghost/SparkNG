@@ -1,3 +1,5 @@
+import { AppDoc } from '@/components/doc/app.doc';
+import { AppDocService } from '@/components/doc/app.doc.service';
 import { AccessibilityDoc } from '@/doc/accordion/accessibility-doc';
 import { BasicDoc } from '@/doc/accordion/basic-doc';
 import { ControlledDoc } from '@/doc/accordion/controlled-doc';
@@ -5,15 +7,13 @@ import { DisabledDoc } from '@/doc/accordion/disabled-doc';
 import { DynamicDoc } from '@/doc/accordion/dynamic-doc';
 import { ImportDoc } from '@/doc/accordion/import-doc';
 import { MultipleDoc } from '@/doc/accordion/multiple-doc';
-import { TemplateDoc } from '@/doc/accordion/template-doc';
 import { PTComponent } from '@/doc/accordion/pt/PTComponent';
-import { AppDoc } from '@/components/doc/app.doc';
+import { TemplateDoc } from '@/doc/accordion/template-doc';
 import { Component } from '@angular/core';
-import { AppDocService } from '@/components/doc/app.doc.service';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular Accordion Component - Optimus UI"
+        docTitle="Angular Accordion Component - SparkNG"
         header="Accordion"
         description="Accordion groups a collection of contents in tabs."
         [docs]="docs"

@@ -1330,7 +1330,7 @@ describe('Dock', () => {
                 });
             });
 
-            it('should apply global PT configuration from Optimus config', async () => {
+            it('should apply global PT configuration from Spark config', async () => {
                 const globalFixture = TestBed.createComponent(TestGlobalPTComponent);
                 globalFixture.changeDetectorRef.markForCheck();
                 await globalFixture.whenStable();

@@ -13,7 +13,7 @@ import { TerminalService } from './terminalservice';
     template: ` <p-terminal [welcomeMessage]="welcomeMessage" [prompt]="prompt" [styleClass]="styleClass" [style]="style"> </p-terminal> `
 })
 class TestBasicTerminalComponent {
-    welcomeMessage: string | undefined = 'Welcome to Optimus Terminal';
+    welcomeMessage: string | undefined = 'Welcome to Spark Terminal';
     prompt: string | undefined = 'prime$ ';
     styleClass: string | undefined;
     style: { [key: string]: any } | undefined;

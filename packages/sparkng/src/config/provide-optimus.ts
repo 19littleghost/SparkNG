@@ -1,6 +1,6 @@
 import { EnvironmentProviders, inject, InjectionToken, makeEnvironmentProviders, provideAppInitializer } from '@angular/core';
-import { Optimus } from './optimus';
-import type { OptimusConfigType } from './optimus.types';
+import { Spark } from './Spark';
+import type { OptimusConfigType } from './Spark.types';
 
 export const OPTIMUS_CONFIG = new InjectionToken<OptimusConfigType>('OPTIMUS_CONFIG');
 
@@ -12,7 +12,7 @@ export function provideOptimus(...features: OptimusConfigType[]): EnvironmentPro
     }));
 
     const initializer = provideAppInitializer(() => {
-        const config = inject(Optimus);
+        const config = inject(Spark);
         features?.forEach((feature) => config.setConfig(feature));
         return;
     });

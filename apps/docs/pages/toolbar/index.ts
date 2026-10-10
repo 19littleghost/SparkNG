@@ -1,14 +1,14 @@
-import { BasicDoc } from '@/doc/toolbar/basic-doc';
-import { ImportDoc } from '@/doc/toolbar/import-doc';
-import { Component } from '@angular/core';
-import { AccessibilityDoc } from '@/doc/toolbar/accessibility-doc';
-import { CustomDoc } from '@/doc/toolbar/custom-doc';
-import { PTComponent } from '@/doc/toolbar/pt/PTComponent';
 import { AppDoc } from '@/components/doc/app.doc';
+import { AccessibilityDoc } from '@/doc/toolbar/accessibility-doc';
+import { BasicDoc } from '@/doc/toolbar/basic-doc';
+import { CustomDoc } from '@/doc/toolbar/custom-doc';
+import { ImportDoc } from '@/doc/toolbar/import-doc';
+import { PTComponent } from '@/doc/toolbar/pt/PTComponent';
+import { Component } from '@angular/core';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular Toolbar Component - Optimus UI"
+        docTitle="Angular Toolbar Component - SparkNG"
         header="Toolbar"
         description="Toolbar is a grouping component for buttons and other content."
         [docs]="docs"

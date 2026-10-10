@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/radiobutton/accessibility-doc';
 import { DisabledDoc } from '@/doc/radiobutton/disabled-doc';
 import { DynamicDoc } from '@/doc/radiobutton/dynamic-doc';
@@ -5,16 +6,14 @@ import { FilledDoc } from '@/doc/radiobutton/filled-doc';
 import { GroupDoc } from '@/doc/radiobutton/group-doc';
 import { ImportDoc } from '@/doc/radiobutton/import-doc';
 import { InvalidDoc } from '@/doc/radiobutton/invalid-doc';
+import { PTComponent } from '@/doc/radiobutton/pt/PTComponent';
 import { ReactiveFormsDoc } from '@/doc/radiobutton/reactiveforms-doc';
 import { SizesDoc } from '@/doc/radiobutton/sizes-doc';
 import { TemplateDrivenFormsDoc } from '@/doc/radiobutton/templatedrivenforms-doc';
-import { PTComponent } from '@/doc/radiobutton/pt/PTComponent';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
-import { AppDocService } from '@/components/doc/app.doc.service';
 @Component({
     template: `<app-doc
-        docTitle="Angular RadioButton Component - Optimus UI"
+        docTitle="Angular RadioButton Component - SparkNG"
         header="RadioButton"
         description="RadioButton is an extension to standard radio button element with theming."
         [docs]="docs"

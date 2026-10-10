@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const theme = /*css*/ `
     ${style}
 
-    /* For Optimus */
+    /* For Spark */
     .p-orderlist-controls-right .p-orderlist-controls {
         order: 2;
     }

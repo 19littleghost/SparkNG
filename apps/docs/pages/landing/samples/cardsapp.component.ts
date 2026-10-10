@@ -9,7 +9,7 @@ import { AvatarGroupModule } from '@bdspark/sparkng/avatargroup';
 import { BadgeModule } from '@bdspark/sparkng/badge';
 import { ButtonModule } from '@bdspark/sparkng/button';
 import { Checkbox } from '@bdspark/sparkng/checkbox';
-import { Optimus } from '@bdspark/sparkng/config';
+import { Spark } from '@bdspark/sparkng/config';
 import { DividerModule } from '@bdspark/sparkng/divider';
 import { FileUpload } from '@bdspark/sparkng/fileupload';
 import { InputNumber } from '@bdspark/sparkng/inputnumber';
@@ -501,7 +501,7 @@ export class CardsApp {
     items: any;
 
     constructor(
-        private config: Optimus,
+        private config: Spark,
         private messageService: MessageService
     ) {}
 

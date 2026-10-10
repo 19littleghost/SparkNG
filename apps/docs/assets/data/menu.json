@@ -569,7 +569,7 @@
                     "href": "https://sparkng.bdspark.com/migration/primeng"
                 },
                 {
-                    "name": "Update Optimus UI",
+                    "name": "Update SparkNG",
                     "routerLink": "/migration/update"
                 }
             ]

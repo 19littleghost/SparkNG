@@ -1,5 +1,7 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AnimationsDoc } from '@/doc/tailwind/animations-doc';
 import { ColorPaletteDoc } from '@/doc/tailwind/colorpalette-doc';
+import { DarkModeDoc } from '@/doc/tailwind/darkmode-doc';
 import { ExtensionsDoc } from '@/doc/tailwind/extensions-doc';
 import { FormDoc } from '@/doc/tailwind/form-doc';
 import { HeadlessDoc } from '@/doc/tailwind/headless-doc';
@@ -7,11 +9,9 @@ import { OverrideDoc } from '@/doc/tailwind/override-doc';
 import { OverviewDoc } from '@/doc/tailwind/overview-doc';
 import { PluginDoc } from '@/doc/tailwind/plugin-doc';
 import { Component } from '@angular/core';
-import { DarkModeDoc } from '@/doc/tailwind/darkmode-doc';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
-    template: `<app-doc docTitle="Tailwind CSS - Optimus UI" header="Tailwind CSS" description="Integration between Optimus UI and Tailwind CSS." [docs]="docs" docType="page"></app-doc>`,
+    template: `<app-doc docTitle="Tailwind CSS - SparkNG" header="Tailwind CSS" description="Integration between SparkNG and Tailwind CSS." [docs]="docs" docType="page"></app-doc>`,
     standalone: true,
     imports: [AppDoc]
 })
@@ -45,7 +45,7 @@ export class TailwindDemo {
         {
             id: 'samples',
             label: 'Samples',
-            description: 'Example uses cases with Optimus UI and Tailwind CSS.',
+            description: 'Example uses cases with SparkNG and Tailwind CSS.',
             children: [
                 {
                     id: 'color-palette',

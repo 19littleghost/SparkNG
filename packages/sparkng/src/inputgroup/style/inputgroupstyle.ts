@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
     ${inputgroup_style}
 
-    /*For Optimus */
+    /*For Spark */
 
     .p-inputgroup > .p-component,
     .p-inputgroup > .p-inputwrapper > .p-component,

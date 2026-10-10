@@ -16,7 +16,7 @@ import { RouterModule } from '@angular/router';
 
             <h3>What about the Theme Designer, templates and blocks?</h3>
             <p>
-                Those are PrimeTek's commercial products. They were never MIT licensed, so they are not part of this fork and we will not be reimplementing them. Theming in Optimus UI means editing preset objects in code, which is documented in full
+                Those are PrimeTek's commercial products. They were never MIT licensed, so they are not part of this fork and we will not be reimplementing them. Theming in SparkNG means editing preset objects in code, which is documented in full
                 under <a [routerLink]="'/theming/styled'" class="doc-link">styled mode</a>.
             </p>
 
@@ -32,8 +32,8 @@ import { RouterModule } from '@angular/router';
                 <a [routerLink]="'/guides/primeflex'" class="doc-link">PrimeFlex guide</a> covers moving across.
             </p>
 
-            <h3>Does Optimus UI work with SSR?</h3>
-            <p>This documentation site is itself an Angular SSR application built on Optimus UI, prerendered at build time. So yes, and any regression there tends to be noticed quickly.</p>
+            <h3>Does SparkNG work with SSR?</h3>
+            <p>This documentation site is itself an Angular SSR application built on SparkNG, prerendered at build time. So yes, and any regression there tends to be noticed quickly.</p>
         </app-docsectiontext>
     `
 })

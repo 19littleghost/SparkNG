@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
     imports: [AppCode, AppDocSectionText],
     template: `
         <app-docsectiontext>
-            <p>The <i>definePreset</i> utility is used to customize an existing preset during the Optimus UI setup. The first parameter is the preset to customize and the second is the design tokens to override.</p>
+            <p>The <i>definePreset</i> utility is used to customize an existing preset during the SparkNG setup. The first parameter is the preset to customize and the second is the design tokens to override.</p>
         </app-docsectiontext>
         <app-code [code]="code1" [hideToggleCode]="true" class="block mb-4"></app-code>
         <app-code [code]="code2" [hideToggleCode]="true"></app-code>

@@ -181,7 +181,7 @@ export declare namespace TagTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
+ * [SparkNG](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface TagDesignTokens extends DesignTokens<TagDesignTokens> {

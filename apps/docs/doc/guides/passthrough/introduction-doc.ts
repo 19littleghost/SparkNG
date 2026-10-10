@@ -30,7 +30,7 @@ import { Panel, PanelModule, PanelPassThrough } from '@bdspark/sparkng/panel';
             <p>
                 In this example, a Panel is customized with various options through <i>pt</i>. The styling is overriden with Tailwind CSS and header receives custom attributes along with a click event. The attributes passed to the header are not
                 available in the component API, thanks to PassThrough feature, this is no longer an issue as you are not limited to the component api. Note that, you may avoid the <i>!</i> based overrides in Tailwind classes if you setup CSS Layers
-                with Optimus UI. Visit the <a [routerLink]="'/tailwind'">Override</a> section at Tailwind integration for examples.
+                with SparkNG. Visit the <a [routerLink]="'/tailwind'">Override</a> section at Tailwind integration for examples.
             </p>
         </app-docsectiontext>
         <div class="card">

@@ -17,9 +17,9 @@ import { Component } from '@angular/core';
 
 @Component({
     template: `<app-doc
-        docTitle="Overlay API - Optimus UI"
+        docTitle="Overlay API - SparkNG"
         header="Overlay API"
-        description="This API allows overlay components to be controlled from the Optimus UI. In this way, all overlay components in the application can have the same behavior."
+        description="This API allows overlay components to be controlled from the SparkNG. In this way, all overlay components in the application can have the same behavior."
         [docs]="docs"
         [apiDocs]="['Overlay', 'OverlayOptions']"
         [ptDocs]="ptComponent"

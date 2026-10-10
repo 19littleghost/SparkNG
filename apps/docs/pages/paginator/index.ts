@@ -1,16 +1,16 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/paginator/accessibility-doc';
 import { BasicDoc } from '@/doc/paginator/basic-doc';
 import { CurrentPageReportDoc } from '@/doc/paginator/currentpagereport-doc';
 import { ImagesDoc } from '@/doc/paginator/images-doc';
 import { ImportDoc } from '@/doc/paginator/import-doc';
-import { TemplateDoc } from '@/doc/paginator/template-doc';
 import { PTComponent } from '@/doc/paginator/pt/PTComponent';
+import { TemplateDoc } from '@/doc/paginator/template-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular Paginator Component - Optimus UI"
+        docTitle="Angular Paginator Component - SparkNG"
         header="Paginator"
         description="Paginator displays data in paged format and provides navigation between pages."
         [docs]="docs"

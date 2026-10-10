@@ -4,7 +4,7 @@ import { Theme, ThemeService } from '@bdspark/sparkng-styled';
 import { cn, getKeyValue, isArray, isFunction, isNotEmpty, isString, mergeProps, resolve, toFlatCase, uuid } from '@bdspark/sparkng-utils';
 import type { Lifecycle, PassThroughOptions } from '@bdspark/sparkng/api';
 import { Base, BaseStyle } from '@bdspark/sparkng/base';
-import { Optimus } from '@bdspark/sparkng/config';
+import { Spark } from '@bdspark/sparkng/config';
 import { BaseComponentStyle } from './style/basecomponentstyle';
 
 export const PARENT_INSTANCE = new InjectionToken<BaseComponent>('PARENT_INSTANCE');
@@ -26,7 +26,7 @@ export class BaseComponent<PT = any> implements Lifecycle {
 
     public renderer: Renderer2 = inject(Renderer2);
 
-    public config: Optimus = inject(Optimus);
+    public config: Spark = inject(Spark);
 
     public $parentInstance: BaseComponent | undefined = inject(PARENT_INSTANCE, { optional: true, skipSelf: true }) ?? undefined;
 

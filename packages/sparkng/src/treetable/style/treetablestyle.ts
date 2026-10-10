@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { BaseStyle } from '@bdspark/sparkng/base';
 
 const style = /*css*/ `
-/* For Optimus */
+/* For Spark */
 .p-treetable {
     position: relative;
 }

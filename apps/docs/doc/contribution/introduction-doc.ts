@@ -9,14 +9,14 @@ import { Component } from '@angular/core';
     imports: [AppCode, AppDocSectionText],
     template: `
         <app-docsectiontext>
-            <p>Optimus UI is a community-maintained Angular UI library, stewarded by bdSpark and dedicated to providing high-quality, versatile and accessible UI components that help developers build better applications faster.</p>
+            <p>SparkNG is a community-maintained Angular UI library, stewarded by bdSpark and dedicated to providing high-quality, versatile and accessible UI components that help developers build better applications faster.</p>
             <h3>Development Setup</h3>
-            <p>To begin with, clone the Optimus UI repository from GitHub:</p>
+            <p>To begin with, clone the SparkNG repository from GitHub:</p>
             <app-code [code]="code1" [hideToggleCode]="true" [hideStackBlitz]="true"></app-code>
             <p style="margin-top: 1rem;">Then run the documentation app in your local environment at <i>http://localhost:4200/</i>.</p>
             <app-code [code]="code2" [hideToggleCode]="true" [hideStackBlitz]="true"></app-code>
             <h3>Project Structure</h3>
-            <p>Optimus UI's project structure is organized as follows:</p>
+            <p>SparkNG's project structure is organized as follows:</p>
             <app-code [code]="code3" [hideToggleCode]="true" [hideStackBlitz]="true"></app-code>
         </app-docsectiontext>
     `

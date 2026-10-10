@@ -11,7 +11,7 @@ import type { Preset } from '@bdspark/sparkng-themes/types';
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
+ * [SparkNG](https://sparkng.bdspark.com/theming/styled)
  *
  */
 declare const _default: Preset<AuraBaseDesignTokens>;

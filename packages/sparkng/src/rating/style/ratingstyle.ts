@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
     ${rating_style}
 
-    /* For Optimus */
+    /* For Spark */
     p-rating.ng-invalid.ng-dirty > .p-rating > .p-rating-icon {
         stroke: dt('rating.invalid.icon.color');
     }

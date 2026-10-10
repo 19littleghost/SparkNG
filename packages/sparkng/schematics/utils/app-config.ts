@@ -25,7 +25,7 @@ interface DefaultImportInfo {
  * - Otherwise `import <name> from '<module>';` is inserted after the last top-level import
  *   statement (or at the very top of the file if there are no imports). When `name` is already
  *   taken by another import or top-level declaration, a collision-free alias is used instead
- *   (`Optimus<name>`, then `Optimus<name>2`, …) to avoid emitting a duplicate identifier.
+ *   (`Spark<name>`, then `Spark<name>2`, …) to avoid emitting a duplicate identifier.
  */
 export function addDefaultImport(text: string, name: string, module: string): DefaultImportResult {
     const sourceFile = ts.createSourceFile('file.ts', text, ts.ScriptTarget.Latest, true);
@@ -45,9 +45,9 @@ export function addDefaultImport(text: string, name: string, module: string): De
     const taken = collectTopLevelNames(sourceFile);
     let bindingName = name;
     if (taken.has(bindingName)) {
-        bindingName = `Optimus${name}`;
+        bindingName = `Spark${name}`;
         for (let counter = 2; taken.has(bindingName); counter++) {
-            bindingName = `Optimus${name}${counter}`;
+            bindingName = `Spark${name}${counter}`;
         }
     }
 

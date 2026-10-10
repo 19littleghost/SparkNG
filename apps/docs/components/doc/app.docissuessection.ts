@@ -14,7 +14,7 @@ import { ChangeDetectionStrategy, Component, Input, ViewEncapsulation } from '@a
         <div class="doc-notification">
             <p>
                 <strong>Open Source Contribution:</strong>
-                Optimus UI is a community-driven project. If you have encountered any of these issues or want to help improve the component, we highly encourage you to contribute!
+                SparkNG is a community-driven project. If you have encountered any of these issues or want to help improve the component, we highly encourage you to contribute!
             </p>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                 <a
@@ -42,7 +42,7 @@ import { ChangeDetectionStrategy, Component, Input, ViewEncapsulation } from '@a
                         <i class="pi pi-book text-xl text-primary-500"></i>
                         <span class="font-semibold text-lg text-surface-900 dark:text-surface-0">Contribution Guide</span>
                     </div>
-                    <p class="m-0 text-surface-600 dark:text-surface-400 text-sm">Read the guide on how to help improve Optimus UI.</p>
+                    <p class="m-0 text-surface-600 dark:text-surface-400 text-sm">Read the guide on how to help improve SparkNG.</p>
                 </a>
 
                 <a

@@ -1,29 +1,21 @@
 import { AppDoc } from '@/components/doc/app.doc';
+import { AccessibilityDoc } from '@/doc/message/accessibility-doc';
 import { BasicDoc } from '@/doc/message/basic-doc';
+import { ClosableDoc } from '@/doc/message/closable-doc';
+import { DynamicDoc } from '@/doc/message/dynamic-doc';
 import { FormDoc } from '@/doc/message/form-doc';
 import { IconDoc } from '@/doc/message/icon-doc';
 import { ImportDoc } from '@/doc/message/import-doc';
+import { LifeDoc } from '@/doc/message/life-doc';
 import { OutlinedDoc } from '@/doc/message/outlined-doc';
 import { PTComponent } from '@/doc/message/pt/PTComponent';
 import { SeverityDoc } from '@/doc/message/severity-doc';
 import { SimpleDoc } from '@/doc/message/simple-doc';
 import { SizesDoc } from '@/doc/message/sizes-doc';
-import { DynamicDoc } from '@/doc/message/dynamic-doc';
-import { ClosableDoc } from '@/doc/message/closable-doc';
-import { LifeDoc } from '@/doc/message/life-doc';
-import { AccessibilityDoc } from '@/doc/message/accessibility-doc';
 import { Component } from '@angular/core';
 
 @Component({
-    template: `<app-doc
-        docTitle="Angular Message Component - Optimus UI"
-        header="Message"
-        description="Message component is used to display inline messages."
-        [docs]="docs"
-        [apiDocs]="['Message']"
-        [ptDocs]="ptComponent"
-        themeDocs="message"
-    ></app-doc>`,
+    template: `<app-doc docTitle="Angular Message Component - SparkNG" header="Message" description="Message component is used to display inline messages." [docs]="docs" [apiDocs]="['Message']" [ptDocs]="ptComponent" themeDocs="message"></app-doc>`,
     imports: [AppDoc],
     standalone: true
 })

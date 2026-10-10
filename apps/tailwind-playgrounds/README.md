@@ -1,6 +1,6 @@
 # Tailwind Integration Sandboxes
 
-Minimal Vite sandboxes for smoking-test [`@bdspark/sparkng-tailwindcss`](../../packages/sparkng-tailwindcss) — the plugin that maps Optimus UI design tokens (`--p-*` CSS variables) to Tailwind color and animation utilities.
+Minimal Vite sandboxes for smoking-test [`@bdspark/sparkng-tailwindcss`](../../packages/sparkng-tailwindcss) — the plugin that maps SparkNG design tokens (`--p-*` CSS variables) to Tailwind color and animation utilities.
 
 | Sandbox            | Tailwind | Setup                                                                        | Dev port |
 | ------------------ | -------- | ---------------------------------------------------------------------------- | -------- |
@@ -22,6 +22,6 @@ Each `index.html` exercises the plugin's output:
 
 - **Colors** — `bg-primary`, `bg-primary-emphasis`, `text-primary-contrast`, the `primary-50…950` scale and `surface-*` tokens, all fed by the sample `--p-*` variables in `tailwind.css`.
 - **Animations** — named keyframes (`animate-fadein`, `animate-scalein`, `animate-zoomin`, …) composed with `animate-duration-*`, `animate-delay-*`, `animate-ease-*` and `animate-infinite`, plus a replay button.
-- **Enter/leave transitions** — the composable `animate-enter` keyframe with `fade-in-*`, `zoom-in-*` and `slide-in-from-*` modifiers used by Optimus UI overlays.
+- **Enter/leave transitions** — the composable `animate-enter` keyframe with `fade-in-*`, `zoom-in-*` and `slide-in-from-*` modifiers used by SparkNG overlays.
 
 Edit `index.html` freely — Vite hot-reloads with the plugin's regenerated utilities.

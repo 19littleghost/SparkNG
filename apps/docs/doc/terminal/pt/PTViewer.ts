@@ -15,7 +15,7 @@ import { TerminalModule, TerminalService } from '@bdspark/sparkng/terminal';
                     Enter "<strong>date</strong>" to display the current date, "<strong>greet {{ '{0}' }}</strong
                     >" for a message and "<strong>random</strong>" to get a random number.
                 </p>
-                <p-terminal welcomeMessage="Welcome to Optimus UI" prompt="optimus $" aria-label="Optimus UI Terminal Service"></p-terminal>
+                <p-terminal welcomeMessage="Welcome to SparkNG" prompt="Spark $" aria-label="SparkNG Terminal Service"></p-terminal>
             </div>
         </app-docptviewer>
     `

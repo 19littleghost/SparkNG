@@ -27,7 +27,7 @@ const MIN_PRIMENG_MAJOR = 21;
 const LOCKFILE_NAMES = new Set(['package-lock.json', 'npm-shrinkwrap.json', 'yarn.lock', 'pnpm-lock.yaml', 'bun.lockb', 'bun.lock']);
 
 /**
- * Migrates a PrimeNG v21 workspace to Optimus UI.
+ * Migrates a PrimeNG v21 workspace to SparkNG.
  *
  * @deprecated This schematic is only maintained on the `release/1.x` line (the `@bdspark/sparkng@1`
  * package, published to sparkng.bdspark.com). It is not actively maintained on `main` going forward.
@@ -64,7 +64,7 @@ export function migrateFromPrimeng(options: Schema): Rule {
             migratePackageJson(tree, context, path);
         }
         // Layer tokens renamed inside cssLayer name/order strings (e.g. primeng-overwrites →
-        // optimus-overwrites), collected across all sources so the matching `@layer` declarations
+        // Spark-overwrites), collected across all sources so the matching `@layer` declarations
         // in stylesheets can be renamed to keep following the configured order.
         const layerRenames = new Map<string, string>();
         for (const path of sourcePaths) {
@@ -107,7 +107,7 @@ function warnDeprecated(context: SchematicContext): void {
 /**
  * PrimeFlex is an independent utility-CSS library that this schematic does not migrate. If the
  * workspace also depends on it, point the user at the dedicated `migrate-from-primeflex` schematic,
- * which translates PrimeFlex classes to Tailwind (Optimus UI's recommended utility layer).
+ * which translates PrimeFlex classes to Tailwind (SparkNG's recommended utility layer).
  */
 function warnAboutPrimeflex(tree: Tree, context: SchematicContext): void {
     if (!hasPrimeflex(tree)) {
@@ -115,7 +115,7 @@ function warnAboutPrimeflex(tree: Tree, context: SchematicContext): void {
     }
     context.logger.warn(
         'PrimeFlex detected in this workspace. PrimeFlex is a separate utility-CSS library and is not migrated by this schematic. ' +
-            'Optimus UI recommends Tailwind CSS — run the following to translate your PrimeFlex classes:\n' +
+            'SparkNG recommends Tailwind CSS — run the following to translate your PrimeFlex classes:\n' +
             '  ng generate @bdspark/sparkng:migrate-from-primeflex'
     );
 }
@@ -129,7 +129,7 @@ function checkVersionGate(tree: Tree, options: Schema): void {
         throw new SchematicsException('primeng is not installed in this workspace (or its version could not be parsed). Use --force to run the code migration anyway.');
     }
     if (major < MIN_PRIMENG_MAJOR) {
-        throw new SchematicsException(`Found primeng v${major}. Optimus UI is API-compatible with primeng v21 — upgrade first (ng update primeng@21), then re-run this migration. Use --force to skip this check.`);
+        throw new SchematicsException(`Found primeng v${major}. SparkNG is API-compatible with primeng v21 — upgrade first (ng update primeng@21), then re-run this migration. Use --force to skip this check.`);
     }
 }
 

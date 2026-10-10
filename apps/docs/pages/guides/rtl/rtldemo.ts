@@ -1,13 +1,13 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { ConfigurationDoc } from '@/doc/guides/rtl/configuration-doc';
 import { LimitationsDoc } from '@/doc/guides/rtl/limitations-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     selector: 'rtl-demo',
     standalone: true,
     imports: [AppDoc],
-    template: `<app-doc docTitle="RTL Support - Optimus UI" header="RTL Support" description="Right-to-left direction support of Optimus UI." [docs]="docs" docType="page"></app-doc>`
+    template: `<app-doc docTitle="RTL Support - SparkNG" header="RTL Support" description="Right-to-left direction support of SparkNG." [docs]="docs" docType="page"></app-doc>`
 })
 export class RTLDemoComponent {
     docs = [

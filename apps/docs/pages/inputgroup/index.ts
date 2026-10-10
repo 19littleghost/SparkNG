@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular InputGroup Component - Optimus UI"
+        docTitle="Angular InputGroup Component - SparkNG"
         header="InputGroup"
         description="Text, icon, buttons and other content can be grouped next to an input."
         [docs]="docs"

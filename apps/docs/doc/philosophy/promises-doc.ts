@@ -15,8 +15,8 @@ import { Component } from '@angular/core';
             </p>
             <h3>We track Angular</h3>
             <p>
-                Our release cadence follows Angular's. When a new Angular major lands, the priority is a compatible Optimus UI major — before new features, before refactors. Staying upgradeable is the single most valuable thing a component library
-                can do for the applications built on it.
+                Our release cadence follows Angular's. When a new Angular major lands, the priority is a compatible SparkNG major — before new features, before refactors. Staying upgradeable is the single most valuable thing a component library can
+                do for the applications built on it.
             </p>
             <h3>Bugs before features</h3>
             <p>We inherited a large backlog along with the code. Fixing what is broken ranks above adding what is missing. Feature requests are triaged and welcome, but they generally ship when someone in the community implements them.</p>

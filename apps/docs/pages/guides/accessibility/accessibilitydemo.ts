@@ -12,9 +12,9 @@ import { Component } from '@angular/core';
     standalone: true,
     imports: [AppDoc],
     template: `<app-doc
-        docTitle="Accessibility - Optimus UI"
+        docTitle="Accessibility - SparkNG"
         header="Accessibility"
-        description="Optimus UI targets WCAG 2.1 AA level compliance, refer to the accessibility documentation of each component for detailed information."
+        description="SparkNG targets WCAG 2.1 AA level compliance, refer to the accessibility documentation of each component for detailed information."
         [docs]="docs"
         docType="page"
     ></app-doc>`

@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
     imports: [AppDocSectionText, AppCode],
     template: `
         <app-docsectiontext>
-            <p>The recommended way to add Optimus UI to an Angular CLI workspace is a single command.</p>
+            <p>The recommended way to add SparkNG to an Angular CLI workspace is a single command.</p>
             <app-code [code]="code" [hideToggleCode]="true"></app-code>
             <p>The schematic asks which theme preset you want and then does the rest:</p>
             <ul class="leading-relaxed">

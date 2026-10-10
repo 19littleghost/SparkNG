@@ -175,11 +175,11 @@ class TestInplaceTemplatesComponent {}
 @Component({
     changeDetection: ChangeDetectionStrategy.Eager,
     standalone: false,
-    selector: 'test-inplace-optimus-templates',
+    selector: 'test-inplace-Spark-templates',
     template: `
         <p-inplace>
             <ng-template pTemplate="display">
-                <span class="p-template-display">Optimus Template Display</span>
+                <span class="p-template-display">Spark Template Display</span>
             </ng-template>
             <ng-template pTemplate="content" let-closeCallback="closeCallback">
                 <div class="p-template-content">
@@ -858,7 +858,7 @@ describe('Inplace', () => {
         });
     });
 
-    describe('Optimus Templates', () => {
+    describe('Spark Templates', () => {
         let fixture: ComponentFixture<TestInplaceOptimusTemplatesComponent>;
         let inplaceComponent: Inplace;
         let element: HTMLElement;
@@ -881,7 +881,7 @@ describe('Inplace', () => {
         it('should render pTemplate display', () => {
             const pTemplateDisplay = element.querySelector('.p-template-display');
             expect(pTemplateDisplay).toBeTruthy();
-            expect(pTemplateDisplay?.textContent?.trim()).toBe('Optimus Template Display');
+            expect(pTemplateDisplay?.textContent?.trim()).toBe('Spark Template Display');
         });
 
         it('should render pTemplate content when activated', async () => {

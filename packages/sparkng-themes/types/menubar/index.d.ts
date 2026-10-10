@@ -313,7 +313,7 @@ export declare namespace MenubarTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
+ * [SparkNG](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface MenubarDesignTokens extends DesignTokens<MenubarDesignTokens> {

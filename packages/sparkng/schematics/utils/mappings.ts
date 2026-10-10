@@ -19,7 +19,7 @@ export const SPECIFIER_RENAMES: ReadonlyMap<string, string> = new Map([['primeic
 
 export const IDENTIFIER_RENAMES: ReadonlyMap<string, string> = new Map([
     ['providePrimeNG', 'provideOptimus'],
-    ['PrimeNG', 'Optimus'],
+    ['PrimeNG', 'Spark'],
     ['PrimeNGConfigType', 'OptimusConfigType'],
     // The icon constants class was renamed alongside the primeicons -> @bdspark/sparkng-icons package.
     // @bdspark/sparkng/api keeps a deprecated PrimeIcons alias, so unmigrated code still

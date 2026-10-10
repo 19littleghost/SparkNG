@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
     ${togglebutton_style}
 
-    /* For Optimus (iconPos) */
+    /* For Spark (iconPos) */
     .p-togglebutton-icon-right {
         order: 1;
     }

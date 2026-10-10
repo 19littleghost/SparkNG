@@ -1,20 +1,20 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/cascadeselect/accessibility-doc';
 import { BasicDoc } from '@/doc/cascadeselect/basic-doc';
+import { ClearIconDoc } from '@/doc/cascadeselect/clearicon-doc';
 import { DisabledDoc } from '@/doc/cascadeselect/disabled-doc';
 import { FilledDoc } from '@/doc/cascadeselect/filled-doc';
 import { FloatLabelDoc } from '@/doc/cascadeselect/floatlabel-doc';
+import { FluidDoc } from '@/doc/cascadeselect/fluid-doc';
 import { IftaLabelDoc } from '@/doc/cascadeselect/iftalabel-doc';
 import { ImportDoc } from '@/doc/cascadeselect/import-doc';
 import { InvalidDoc } from '@/doc/cascadeselect/invalid-doc';
 import { LoadingDoc } from '@/doc/cascadeselect/loading-doc';
+import { PTComponent } from '@/doc/cascadeselect/pt/PTComponent';
 import { ReactiveFormsDoc } from '@/doc/cascadeselect/reactiveforms-doc';
 import { SizesDoc } from '@/doc/cascadeselect/sizes-doc';
 import { TemplateDoc } from '@/doc/cascadeselect/template-doc';
 import { TemplateDrivenFormsDoc } from '@/doc/cascadeselect/templatedrivenforms-doc';
-import { FluidDoc } from '@/doc/cascadeselect/fluid-doc';
-import { ClearIconDoc } from '@/doc/cascadeselect/clearicon-doc';
-import { PTComponent } from '@/doc/cascadeselect/pt/PTComponent';
-import { AppDoc } from '@/components/doc/app.doc';
 import { Component } from '@angular/core';
 
 @Component({
@@ -22,7 +22,7 @@ import { Component } from '@angular/core';
     imports: [AppDoc],
     template: `
         <app-doc
-            docTitle="Angular CascadeSelect Component - Optimus UI"
+            docTitle="Angular CascadeSelect Component - SparkNG"
             header="CascadeSelect"
             description="CascadeSelect displays a nested structure of options."
             [docs]="docs"

@@ -14,7 +14,7 @@ import { Component } from '@angular/core';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular Toast Component - Optimus UI"
+        docTitle="Angular Toast Component - SparkNG"
         header="Toast"
         description="Toast is used to display messages in an overlay."
         [docs]="docs"

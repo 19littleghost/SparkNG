@@ -103,7 +103,7 @@ export declare namespace CardTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
+ * [SparkNG](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface CardDesignTokens extends DesignTokens<CardDesignTokens> {

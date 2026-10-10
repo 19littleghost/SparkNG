@@ -1,3 +1,4 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/tooltip/accessibility-doc';
 import { AutoHideDoc } from '@/doc/tooltip/autohide-doc';
 import { CustomDoc } from '@/doc/tooltip/custom-doc';
@@ -8,13 +9,12 @@ import { OptionsDoc } from '@/doc/tooltip/options-doc';
 import { PositionDoc } from '@/doc/tooltip/position-doc';
 import { PTComponent } from '@/doc/tooltip/pt/PTComponent';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular Tooltip Component - Optimus UI"
+        docTitle="Angular Tooltip Component - SparkNG"
         header="Tooltip"
-        description="Tooltip directive provides advisory information for a component. Tooltip is integrated within various Optimus UI components."
+        description="Tooltip directive provides advisory information for a component. Tooltip is integrated within various SparkNG components."
         [docs]="docs"
         [apiDocs]="['Tooltip', 'TooltipOptions']"
         [ptDocs]="ptComponent"

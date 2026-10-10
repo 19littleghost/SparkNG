@@ -48,14 +48,14 @@ describe('rewriteSource — identifier renames', () => {
 
     it('renames the PrimeNG class and PrimeNGConfigType, including type positions', () => {
         const { text } = rw(`import { PrimeNG, PrimeNGConfigType } from 'primeng/config';\n` + `import { inject } from '@angular/core';\n` + `const config: PrimeNGConfigType = {};\n` + `const svc = inject(PrimeNG);\n`);
-        expect(text).toContain(`import { Optimus, OptimusConfigType } from '@bdspark/sparkng/config'`);
+        expect(text).toContain(`import { Spark, OptimusConfigType } from '@bdspark/sparkng/config'`);
         expect(text).toContain(`const config: OptimusConfigType = {}`);
-        expect(text).toContain(`inject(Optimus)`);
+        expect(text).toContain(`inject(Spark)`);
     });
 
     it('only rewrites the imported name for aliased imports', () => {
         const { text } = rw(`import { PrimeNG as Cfg } from 'primeng/config';\n` + `const svc: Cfg = null!;\n`);
-        expect(text).toContain(`import { Optimus as Cfg } from '@bdspark/sparkng/config'`);
+        expect(text).toContain(`import { Spark as Cfg } from '@bdspark/sparkng/config'`);
         expect(text).toContain(`const svc: Cfg = null!;`);
     });
 
@@ -78,12 +78,12 @@ describe('rewriteSource — identifier renames', () => {
         expect(text).toContain(`const label = 'PrimeNG';`);
         expect(text).toContain(`const obj = { PrimeNG: 1 };`);
         expect(text).toContain(`const y = obj.PrimeNG;`);
-        expect(text).toContain(`const svc = new Optimus();`);
+        expect(text).toContain(`const svc = new Spark();`);
     });
 
     it('expands shorthand property usages', () => {
         const { text } = rw(`import { PrimeNG } from 'primeng/config';\nconst box = { PrimeNG };\n`);
-        expect(text).toContain(`const box = { PrimeNG: Optimus };`);
+        expect(text).toContain(`const box = { PrimeNG: Spark };`);
     });
 
     it('renames re-exports', () => {
@@ -93,24 +93,24 @@ describe('rewriteSource — identifier renames', () => {
 
     it('renames a local re-export of the imported symbol', () => {
         const { text } = rw(`import { PrimeNG } from 'primeng/config';\nexport { PrimeNG };\n`);
-        expect(text).toContain(`export { Optimus };`);
+        expect(text).toContain(`export { Spark };`);
         expect(text).not.toMatch(/\bPrimeNG\b/);
     });
 
     it('renames an aliased local re-export of the imported symbol', () => {
         const { text } = rw(`import { PrimeNG } from 'primeng/config';\nexport { PrimeNG as Legacy };\n`);
-        expect(text).toContain(`export { Optimus as Legacy };`);
+        expect(text).toContain(`export { Spark as Legacy };`);
     });
 
     it('leaves a pure export alias untouched', () => {
         const { text } = rw(`import { PrimeNG } from 'primeng/config';\n` + `const x = new PrimeNG();\n` + `export { x as PrimeNG };\n`);
         expect(text).toContain(`export { x as PrimeNG };`);
-        expect(text).toContain(`const x = new Optimus();`);
+        expect(text).toContain(`const x = new Spark();`);
     });
 
     it('falls back to an aliased import when the original name is shadowed elsewhere', () => {
         const { text } = rw(`import { PrimeNG } from 'primeng/config';\n` + `const svc = new PrimeNG();\n` + `function g(PrimeNG: number) { return PrimeNG + 1; }\n`);
-        expect(text).toContain(`import { Optimus as PrimeNG } from '@bdspark/sparkng/config';`);
+        expect(text).toContain(`import { Spark as PrimeNG } from '@bdspark/sparkng/config';`);
         expect(text).toContain(`const svc = new PrimeNG();`);
         expect(text).toContain(`function g(PrimeNG: number) { return PrimeNG + 1; }`);
     });
@@ -118,7 +118,7 @@ describe('rewriteSource — identifier renames', () => {
     it('does not corrupt a destructuring property key that matches the imported name', () => {
         const { text } = rw(`import { PrimeNG } from 'primeng/config';\n` + `const { PrimeNG: renamed } = getObj();\n` + `const svc = new PrimeNG();\n`);
         expect(text).toContain(`const { PrimeNG: renamed } = getObj();`);
-        expect(text).toContain(`const svc = new Optimus();`);
+        expect(text).toContain(`const svc = new Spark();`);
     });
 });
 
@@ -128,25 +128,25 @@ describe('rewriteSource — cssLayer names', () => {
             `import { providePrimeNG } from 'primeng/config';\n` + `export const appConfig = { providers: [providePrimeNG({ theme: { preset: Aura, options: { cssLayer: { name: 'primeng', order: 'theme, base, primeng' } } } })] };\n`
         );
         expect(changed).toBe(true);
-        expect(text).toContain(`name: 'optimus'`);
-        expect(text).toContain(`order: 'theme, base, optimus'`);
+        expect(text).toContain(`name: 'Spark'`);
+        expect(text).toContain(`order: 'theme, base, Spark'`);
         expect(text).not.toContain(`primeng'`);
     });
 
     it('only rewrites the standalone primeng token, preserving other layer names', () => {
         const { text } = rw(`const c = { cssLayer: { order: 'tailwind-base, primeng, tailwind-utilities' } };\n`);
-        expect(text).toContain(`order: 'tailwind-base, optimus, tailwind-utilities'`);
+        expect(text).toContain(`order: 'tailwind-base, Spark, tailwind-utilities'`);
     });
 
     it('preserves the quote style of the layer strings', () => {
         const { text } = rw(`const c = { cssLayer: { name: "primeng" } };\n`);
-        expect(text).toContain(`name: "optimus"`);
+        expect(text).toContain(`name: "Spark"`);
     });
 
     it('rewrites cssLayer even without any primeng imports in the file', () => {
         const { text, changed } = rw(`export const opts = { cssLayer: { name: 'primeng' } };\n`);
         expect(changed).toBe(true);
-        expect(text).toContain(`name: 'optimus'`);
+        expect(text).toContain(`name: 'Spark'`);
     });
 
     it('leaves cssLayer untouched when it holds no primeng token', () => {
@@ -171,13 +171,13 @@ describe('rewriteSource — cssLayer names', () => {
 
     it('rewrites custom layer names carrying the primeng token, like primeng-overwrites', () => {
         const { text } = rw(`const c = { cssLayer: { name: 'primeng', order: 'theme, base, primeng, primeng-overwrites' } };\n`);
-        expect(text).toContain(`order: 'theme, base, optimus, optimus-overwrites'`);
+        expect(text).toContain(`order: 'theme, base, Spark, Spark-overwrites'`);
     });
 
     it('collects the renamed layer tokens for the stylesheet pass', () => {
         const { layerRenames } = rw(`const c = { cssLayer: { name: 'primeng', order: 'theme, base, primeng, primeng-overwrites' } };\n`);
-        expect(layerRenames.get('primeng')).toBe('optimus');
-        expect(layerRenames.get('primeng-overwrites')).toBe('optimus-overwrites');
+        expect(layerRenames.get('primeng')).toBe('Spark');
+        expect(layerRenames.get('primeng-overwrites')).toBe('Spark-overwrites');
         expect(layerRenames.size).toBe(2);
     });
 
@@ -189,28 +189,28 @@ describe('rewriteSource — cssLayer names', () => {
 
 describe('renameStylesheetLayers', () => {
     const RENAMES = new Map([
-        ['primeng', 'optimus'],
-        ['primeng-overwrites', 'optimus-overwrites']
+        ['primeng', 'Spark'],
+        ['primeng-overwrites', 'Spark-overwrites']
     ]);
 
     it('renames a renamed layer in an @layer block declaration', () => {
         const { text, changed } = renameStylesheetLayers(`@layer primeng-overwrites {\n    .btn { color: red; }\n}\n`, RENAMES);
         expect(changed).toBe(true);
-        expect(text).toBe(`@layer optimus-overwrites {\n    .btn { color: red; }\n}\n`);
+        expect(text).toBe(`@layer Spark-overwrites {\n    .btn { color: red; }\n}\n`);
     });
 
     it('renames layers in an @layer ordering statement', () => {
         const { text } = renameStylesheetLayers(`@layer theme, base, primeng, primeng-overwrites;\n`, RENAMES);
-        expect(text).toBe(`@layer theme, base, optimus, optimus-overwrites;\n`);
+        expect(text).toBe(`@layer theme, base, Spark, Spark-overwrites;\n`);
     });
 
     it('renames the layer of an @import ... layer(...) clause', () => {
         const { text } = renameStylesheetLayers(`@import url(theme.css) layer(primeng);\n`, RENAMES);
-        expect(text).toBe(`@import url(theme.css) layer(optimus);\n`);
+        expect(text).toBe(`@import url(theme.css) layer(Spark);\n`);
     });
 
     it('does not rename the primeng token inside a longer layer name without its own rename', () => {
-        const { text, changed } = renameStylesheetLayers(`@layer primeng-extras;\n`, new Map([['primeng', 'optimus']]));
+        const { text, changed } = renameStylesheetLayers(`@layer primeng-extras;\n`, new Map([['primeng', 'Spark']]));
         expect(changed).toBe(false);
         expect(text).toBe(`@layer primeng-extras;\n`);
     });

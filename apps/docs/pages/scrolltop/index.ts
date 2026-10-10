@@ -1,16 +1,16 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/scrolltop/accessibility-doc';
 import { BasicDoc } from '@/doc/scrolltop/basic-doc';
 import { ElementDoc } from '@/doc/scrolltop/element-doc';
 import { ImportDoc } from '@/doc/scrolltop/import-doc';
 import { PTComponent } from '@/doc/scrolltop/pt/PTComponent';
-import { AppDoc } from '@/components/doc/app.doc';
 import { Component } from '@angular/core';
 
 @Component({
     standalone: true,
     imports: [AppDoc],
     template: ` <app-doc
-        docTitle="Angular Scroll Top Component - Optimus UI"
+        docTitle="Angular Scroll Top Component - SparkNG"
         header="ScrollTop"
         description="ScrollTop gets displayed after a certain scroll position and used to navigates to the top of the page quickly."
         [docs]="docs"

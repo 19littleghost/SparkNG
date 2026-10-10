@@ -93,7 +93,7 @@ export declare namespace ScrollPanelTokenSections {
  * --- ---
  * **Compatible Libraries**
  *
- * [Optimus UI](https://sparkng.bdspark.com/theming/styled)
+ * [SparkNG](https://sparkng.bdspark.com/theming/styled)
  *
  */
 export interface ScrollPanelDesignTokens extends DesignTokens<ScrollPanelDesignTokens> {

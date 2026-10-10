@@ -1,14 +1,14 @@
-import { LlmsTxtDoc } from '@/doc/llms/llmstxt-doc';
+import { AppDoc } from '@/components/doc/app.doc';
 import { LlmsFullTxtDoc } from '@/doc/llms/llmsfulltxt-doc';
+import { LlmsTxtDoc } from '@/doc/llms/llmstxt-doc';
 import { MarkdownExtensionDoc } from '@/doc/llms/markdownextension-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     selector: 'llms-demo',
     standalone: true,
     imports: [AppDoc],
-    template: ` <app-doc docTitle="LLMs.txt - Optimus UI" header="LLMs.txt" description="LLM-optimized documentation endpoints for Optimus UI components." [docs]="docs" docType="page"></app-doc> `
+    template: ` <app-doc docTitle="LLMs.txt - SparkNG" header="LLMs.txt" description="LLM-optimized documentation endpoints for SparkNG components." [docs]="docs" docType="page"></app-doc> `
 })
 export class LLMsDemo {
     docs = [

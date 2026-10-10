@@ -1,23 +1,21 @@
+import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/inputotp/accessibility-doc';
 import { BasicDoc } from '@/doc/inputotp/basic-doc';
 import { ImportDoc } from '@/doc/inputotp/import-doc';
 import { IntegerOnlyDoc } from '@/doc/inputotp/integeronly-doc';
 import { MaskDoc } from '@/doc/inputotp/mask-doc';
+import { PTComponent } from '@/doc/inputotp/pt/PTComponent';
 import { ReactiveFormsDoc } from '@/doc/inputotp/reactiveforms-doc';
 import { SampleDoc } from '@/doc/inputotp/sample-doc';
 import { SizesDoc } from '@/doc/inputotp/sizes-doc';
 import { TemplateDoc } from '@/doc/inputotp/template-doc';
 import { TemplateDrivenFormsDoc } from '@/doc/inputotp/templatedrivenforms-doc';
-import { PTComponent } from '@/doc/inputotp/pt/PTComponent';
 import { Component, ViewEncapsulation } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
 
 @Component({
     standalone: true,
     imports: [AppDoc],
-    template: `
-        <app-doc docTitle="Angular Otp Input Component - Optimus UI" header="InputOtp" description="Input Otp is used to enter one time passwords." [docs]="docs" [ptDocs]="ptComponent" [apiDocs]="['InputOtp']" themeDocs="inputotp"></app-doc>
-    `,
+    template: ` <app-doc docTitle="Angular Otp Input Component - SparkNG" header="InputOtp" description="Input Otp is used to enter one time passwords." [docs]="docs" [ptDocs]="ptComponent" [apiDocs]="['InputOtp']" themeDocs="inputotp"></app-doc> `,
     encapsulation: ViewEncapsulation.None
 })
 export class InputOtpDemo {

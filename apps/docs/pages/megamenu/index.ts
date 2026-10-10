@@ -1,3 +1,5 @@
+import { AppDoc } from '@/components/doc/app.doc';
+import { AppDocService } from '@/components/doc/app.doc.service';
 import { AccessibilityDoc } from '@/doc/megamenu/accessibility-doc';
 import { BasicDoc } from '@/doc/megamenu/basic-doc';
 import { CommandDoc } from '@/doc/megamenu/command-doc';
@@ -7,14 +9,12 @@ import { RouterDoc } from '@/doc/megamenu/router-doc';
 import { TemplateDoc } from '@/doc/megamenu/template-doc';
 import { VerticalDoc } from '@/doc/megamenu/vertical-doc';
 import { Component } from '@angular/core';
-import { AppDoc } from '@/components/doc/app.doc';
-import { AppDocService } from '@/components/doc/app.doc.service';
 
 @Component({
     standalone: true,
     imports: [AppDoc],
     template: `<app-doc
-        docTitle="Angular MegaMenu Component - Optimus UI"
+        docTitle="Angular MegaMenu Component - SparkNG"
         header="MegaMenu"
         description="MegaMenu is navigation component that displays submenus together."
         [docs]="docs"

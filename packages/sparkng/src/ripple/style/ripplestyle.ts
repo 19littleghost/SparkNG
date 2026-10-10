@@ -5,7 +5,7 @@ import { BaseStyle } from '@bdspark/sparkng/base';
 const style = /*css*/ `
     ${ripple_style}
 
-    /* For Optimus */
+    /* For Spark */
     .p-ripple {
         overflow: hidden;
         position: relative;

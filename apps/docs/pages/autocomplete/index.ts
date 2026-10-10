@@ -26,7 +26,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
     template: `<app-doc
-        docTitle="Angular AutoComplete Component - Optimus UI"
+        docTitle="Angular AutoComplete Component - SparkNG"
         header="AutoComplete"
         description="AutoComplete is an input component that provides real-time suggestions when being typed."
         [docs]="docs"
