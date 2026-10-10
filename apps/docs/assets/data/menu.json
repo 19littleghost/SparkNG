@@ -45,6 +45,10 @@
                     "routerLink": "/theming/unstyled"
                 },
                 {
+                    "name": "Colors",
+                    "routerLink": "/colors"
+                },
+                {
                     "name": "Tailwind CSS",
                     "icon": "pi pi-heart",
                     "routerLink": "/tailwind"
@@ -562,7 +566,7 @@
             "children": [
                 {
                     "name": "From PrimeNG",
-                    "href": "https://v1.sparkng.bdspark.com/migration/primeng"
+                    "href": "https://sparkng.bdspark.com/migration/primeng"
                 },
                 {
                     "name": "Update Optimus UI",

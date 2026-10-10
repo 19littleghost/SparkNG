@@ -30,7 +30,7 @@ const LOCKFILE_NAMES = new Set(['package-lock.json', 'npm-shrinkwrap.json', 'yar
  * Migrates a PrimeNG v21 workspace to Optimus UI.
  *
  * @deprecated This schematic is only maintained on the `release/1.x` line (the `@bdspark/sparkng@1`
- * package, published to v1.sparkng.bdspark.com). It is not actively maintained on `main` going forward.
+ * package, published to sparkng.bdspark.com). It is not actively maintained on `main` going forward.
  * Run it via `ng generate @bdspark/sparkng@1:migrate-from-primeng` rather than an unpinned install.
  */
 export function migrateFromPrimeng(options: Schema): Rule {

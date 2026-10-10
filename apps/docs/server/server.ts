@@ -14,7 +14,7 @@ export function app(): express.Express {
     const llmsFolder = join(browserDistFolder, 'llms');
 
     const commonEngine = new CommonEngine({
-        allowedHosts: ['*.vercel.app', 'sparkng.bdspark.com', '*.sparkng.bdspark.com']
+        allowedHosts: ['*.vercel.app', 'sparkng.bdspark.com', '*.sparkng.bdspark.com', 'localhost', '127.0.0.1']
     });
 
     server.set('view engine', 'html');
@@ -165,7 +165,7 @@ export function app(): express.Express {
 
     // The PrimeNG migration guide moved to the v1 docs archive — redirect rather than 404.
     server.get('/migration/primeng', (req, res) => {
-        res.redirect(301, 'https://v1.sparkng.bdspark.com/migration/primeng');
+        res.redirect(301, 'https://sparkng.bdspark.com/migration/primeng');
     });
 
     // Serve static files from /browser.
@@ -185,6 +185,13 @@ export function app(): express.Express {
     server.get(/.*/, (req, res, next) => {
         const { protocol, originalUrl, baseUrl, headers } = req;
 
+        // Prerendered routes are served as static HTML by the engine, so query-aware SSR
+        // variants never render server side. For chromeless live previews (?embed=1, used
+        // by the playground iframe) hide the shell before hydration instead of flashing it;
+        // the `embedded` signal in AppMainComponent removes these elements after bootstrap.
+        const isEmbedded = /[?&]embed=1\b/.test(originalUrl);
+        const embedStyle = '<style>app-topbar,app-menu,app-footer,.layout-mask{display:none!important}</style><style>.layout-wrapper .layout-content{padding:1.5rem 2rem 0}</style>';
+
         commonEngine
             .render({
                 bootstrap,
@@ -193,7 +200,7 @@ export function app(): express.Express {
                 publicPath: browserDistFolder,
                 providers: [{ provide: APP_BASE_HREF, useValue: baseUrl }]
             })
-            .then((html) => res.send(html))
+            .then((html) => res.send(isEmbedded ? html.replace('</head>', `${embedStyle}</head>`) : html))
             .catch((err) => next(err));
     });
 

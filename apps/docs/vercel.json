@@ -1,6 +1,10 @@
 {
     "version": 2,
     "name": "docs",
+    "framework": null,
+    "installCommand": "pnpm install --frozen-lockfile",
+    "buildCommand": "pnpm build",
+    "outputDirectory": "dist/docs/browser",
     "rewrites": [
         {
             "source": "/(.*)",
@@ -9,7 +13,8 @@
     ],
     "functions": {
         "api/index.mjs": {
-            "includeFiles": "dist/docs/**"
+            "includeFiles": "dist/docs/**",
+            "memory": 1024
         }
     },
     "git": {

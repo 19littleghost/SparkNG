@@ -62,7 +62,7 @@ import { OverviewApp } from './samples/overviewapp.component';
                         <span>Get Started</span>
                         <i class="pi pi-arrow-right ms-4"></i>
                     </a>
-                    <a href="https://v1.sparkng.bdspark.com/migration/primeng" target="_blank" rel="noopener noreferrer" class="linkbox">
+                    <a href="https://sparkng.bdspark.com/migration/primeng" target="_blank" rel="noopener noreferrer" class="linkbox">
                         <span>Migrate from PrimeNG</span>
                         <i class="pi pi-arrow-right-arrow-left ms-4"></i>
                     </a>

@@ -9,6 +9,13 @@
     }
 }
 
+// Chromeless layout used by live previews embedded in an iframe (e.g. the playground page).
+.layout-wrapper.layout-embedded {
+    .layout-content {
+        padding: 1.5rem 2rem 0;
+    }
+}
+
 .card {
     background: var(--card-background);
     border: var(--card-border);

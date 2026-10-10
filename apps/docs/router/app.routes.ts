@@ -28,6 +28,7 @@ export const routes: Routes = [
                 path: 'theming',
                 loadChildren: () => import('@/pages/theming/routes')
             },
+            { path: 'colors', loadChildren: () => import('@/pages/colors/routes') },
             { path: 'icons', loadChildren: () => import('@/pages/icons/routes') },
             {
                 path: 'customicons',

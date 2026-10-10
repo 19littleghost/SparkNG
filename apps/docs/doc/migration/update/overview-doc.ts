@@ -14,7 +14,7 @@ import { Component } from '@angular/core';
             <p>Major versions follow Angular's: when a new Angular major ships, a matching Optimus UI major is released for it. Minor and patch releases stay within the same Angular major and are drop-in updates.</p>
             <p>
                 This page is about updating a project that already uses Optimus UI. To move an existing PrimeNG workspace across, see the
-                <a href="https://v1.sparkng.bdspark.com/migration/primeng" target="_blank" rel="noopener noreferrer" class="doc-link">migration guide</a> instead.
+                <a href="https://sparkng.bdspark.com/migration/primeng" target="_blank" rel="noopener noreferrer" class="doc-link">migration guide</a> instead.
             </p>
         </app-docsectiontext>
     `

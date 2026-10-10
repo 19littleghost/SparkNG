@@ -26,12 +26,6 @@ import docsearch from '@docsearch/js';
                 <li>
                     <div id="docsearch"></div>
                 </li>
-                <li>
-                    <button type="button" class="topbar-item ask-ai-button" id="ask-ai" aria-label="Ask AI">
-                        <i class="pi pi-sparkles"></i>
-                        <span class="ask-ai-label">Ask AI</span>
-                    </button>
-                </li>
                 <li class="topbar-desktop-item">
                     <a [href]="githubRepoUrl" target="_blank" rel="noopener noreferrer" class="topbar-item">
                         <i class="pi pi-github text-surface-700 dark:text-surface-100"></i>

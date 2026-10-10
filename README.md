@@ -9,7 +9,7 @@
 [![license](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE.md)
 [![angular](https://img.shields.io/badge/angular-%3E%3D21-black.svg)](https://angular.dev)
 
-[Documentation](https://sparkng.bdspark.com) · [Getting started](https://sparkng.bdspark.com/installation) · [Migrating from PrimeNG](https://v1.sparkng.bdspark.com/migration/primeng) · [Philosophy](https://sparkng.bdspark.com/philosophy) · [FAQ](https://sparkng.bdspark.com/faq)
+[Documentation](https://sparkng.bdspark.com) · [Getting started](https://sparkng.bdspark.com/installation) · [Migrating from PrimeNG](https://sparkng.bdspark.com/migration/primeng) · [Philosophy](https://sparkng.bdspark.com/philosophy) · [FAQ](https://sparkng.bdspark.com/faq)
 
 </div>
 
@@ -50,7 +50,7 @@ npm install @bdspark/sparkng@1
 ng generate @bdspark/sparkng@1:migrate-from-primeng
 ```
 
-See the [migration guide](https://v1.sparkng.bdspark.com/migration/primeng) for prerequisites and the manual cases. If you are on PrimeNG v20 or older, upgrade to v21 first.
+See the [migration guide](https://sparkng.bdspark.com/migration/primeng) for prerequisites and the manual cases. If you are on PrimeNG v20 or older, upgrade to v21 first.
 
 ## Packages
 
