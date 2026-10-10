@@ -1,6 +1,6 @@
-# Contributing to Optimus UI
+# Contributing to SparnNK
 
-Optimus UI is a community-driven continuation of PrimeNG. This is not an official fork of the `primefaces/primeng` repository — it's a fresh repository seeded with PrimeNG's code and history, now maintained by the community. Any help is welcome, whether it's fixing bugs, adding features, improving docs, or triaging issues.
+SparnNK is a community-driven continuation of PrimeNG. This is not an official fork of the `primefaces/primeng` repository — it's a fresh repository seeded with PrimeNG's code and history, now maintained by the community. Any help is welcome, whether it's fixing bugs, adding features, improving docs, or triaging issues.
 
 ## Bringing over a PR you already opened on PrimeNG
 
@@ -48,7 +48,7 @@ Useful scripts:
 
 ## Reporting issues
 
-Open an issue with a clear description and, ideally, a minimal reproduction (StackBlitz, CodeSandbox, or a small repo). For bugs, include the Optimus UI (or PrimeNG) version, Angular version, and browser.
+Open an issue with a clear description and, ideally, a minimal reproduction (StackBlitz, CodeSandbox, or a small repo). For bugs, include the SparnNK (or PrimeNG) version, Angular version, and browser.
 
 ## Questions
 

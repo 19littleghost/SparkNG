@@ -1,8 +1,8 @@
 {
     "name": "@bdspark/sparkng-themes",
-    "version": "2.0.2",
+    "version": "22.0.3",
     "author": "bdSpark",
-    "description": "Themes for Optimus UI Libraries",
+    "description": "Themes for SparkNG Libraries for Angular v22",
     "keywords": [
         "themes",
         "css",

@@ -1,7 +1,7 @@
 <div align="center">
 
 
-# Optimus UI
+# SparnNK
 
 **A community-maintained, MIT licensed suite of 80+ accessible Angular UI components.**
 
@@ -19,7 +19,7 @@
 
 In June 2026 PrimeTek archived the PrimeNG repository and moved future major versions, starting with v22, to a commercial license — [their announcement explains why](https://primeui.dev/nextchapter). That left a lot of applications on a library with no further open source releases.
 
-Optimus UI is a community fork of PrimeNG v21, the last MIT licensed version, maintained by bdSpark and the community. It stays MIT. There is no paid tier and none is planned.
+SparnNK is a community fork of PrimeNG v21, the last MIT licensed version, maintained by bdSpark and the community. It stays MIT. There is no paid tier and none is planned.
 
 It is not affiliated with, endorsed by, or sponsored by PrimeTek. The [philosophy page](https://sparkng.bdspark.com/philosophy) sets out what the project commits to and — just as importantly — what it does not do.
 
@@ -93,4 +93,4 @@ Community only — there is no SLA and no commercial support. [Issues](https://g
 
 ## Attribution
 
-Based on OpenNG (MIT). This project is a rebrand of the OpenNG UI component library (`@openng/sparkng*`, also known as Optimus UI), the community continuation of PrimeNG v21. See [NOTICE.md](NOTICE.md) for the full attribution and the preserved copyright notices.
+Based on OpenNG (MIT). This project is a rebrand of the OpenNG UI component library (`@openng/sparkng*`, also known as SparnNK), the community continuation of PrimeNG v21. See [NOTICE.md](NOTICE.md) for the full attribution and the preserved copyright notices.

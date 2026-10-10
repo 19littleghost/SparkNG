@@ -1,8 +1,8 @@
 {
     "name": "@bdspark/sparkng-tailwindcss",
-    "version": "2.0.2",
+    "version": "22.0.3",
     "author": "bdSpark",
-    "description": "Tailwind CSS utilities for Optimus UI Libraries",
+    "description": "Tailwind CSS utilities for SparkNG Libraries for Angular v22",
     "homepage": "https://sparkng.bdspark.com/",
     "license": "MIT",
     "type": "module",

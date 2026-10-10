@@ -104,7 +104,7 @@ function generateStackBlitzProject(demo, selector) {
             '@angular/platform-browser': '^21.0.0',
             '@angular/platform-browser-dynamic': '^21.0.0',
             '@angular/router': '^21.0.0',
-            '@bdspark/sparkng-themes': '^2.0.2',
+            '@bdspark/sparkng-themes': '^22.0.3',
             '@bdspark/icons': '^1.0.0',
             '@bdspark/sparkng': '21.0.0',
             rxjs: '~7.8.0',

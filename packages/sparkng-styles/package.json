@@ -1,8 +1,8 @@
 {
     "name": "@bdspark/sparkng-styles",
-    "version": "2.0.2",
+    "version": "22.0.3",
     "author": "bdSpark",
-    "description": "Styles utilities for Optimus UI Libraries",
+    "description": "Styles utilities for SparkNG Libraries for Angular v22",
     "keywords": [
         "styles",
         "css",

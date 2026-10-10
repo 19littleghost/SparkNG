@@ -1,4 +1,4 @@
-## Optimus UI LICENSE
+## SparnNK LICENSE
 
 The MIT License (MIT)
 

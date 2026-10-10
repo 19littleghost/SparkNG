@@ -1,8 +1,8 @@
 {
     "name": "@bdspark/sparkng-styled",
-    "version": "2.0.2",
+    "version": "22.0.3",
     "author": "bdSpark",
-    "description": "Styled utilities for Optimus UI Libraries",
+    "description": "Styled utilities for SparkNG Libraries for Angular v22",
     "keywords": ["styled", "css", "style utilities", "optimus", "angular"],
     "license": "MIT",
     "repository": {

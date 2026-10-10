@@ -3,7 +3,7 @@
 This product is **based on OpenNG (MIT)**.
 
 `@bdspark/sparkng*` is a rebrand of the OpenNG UI component library
-(published as `@openng/sparkng*`, also known as Optimus UI), which is itself a
+(published as `@openng/sparkng*`, also known as SparnNK), which is itself a
 community continuation of PrimeNG v21 — the last MIT licensed version of
 PrimeNG, originally published by PrimeTek.
 

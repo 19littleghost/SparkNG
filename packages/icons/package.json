@@ -1,7 +1,7 @@
 {
   "name": "@bdspark/icons",
-  "version": "1.0.0",
-  "description": "Icon Library for bdSpark UI Libraries",
+  "version": "22.0.3",
+  "description": "Icon Library for SparkNG Libraries for Angular v22",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TODO-BDSPARK-ORG/icons.git"
