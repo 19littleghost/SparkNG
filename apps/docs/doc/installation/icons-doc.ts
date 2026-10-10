@@ -26,6 +26,6 @@ export class InstallationIconsDoc {
     };
 
     importCode: Code = {
-        scss: `@import "@bdspark/sparkng-icons/bdspark-icons.css";`
+        scss: `@import "@bdspark/sparkng-icons/icons.css";`
     };
 }

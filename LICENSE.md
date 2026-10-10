@@ -1,4 +1,4 @@
-## SparnNK LICENSE
+## SparkNG LICENSE
 
 The MIT License (MIT)
 

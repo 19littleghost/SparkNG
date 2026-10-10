@@ -18,7 +18,7 @@ All icons keep their existing `pi pi-*` class names, so switching from PrimeIcon
 Update your stylesheet import to the new package:
 
 ```css
-@import "@bdspark/sparkng-icons/bdspark-icons.css";
+@import "@bdspark/sparkng-icons/icons.css";
 ```
 
 ## Migrating from PrimeIcons
@@ -42,7 +42,7 @@ To migrate by hand instead:
 
    ```diff
    - primeicons/primeicons.css
-   + @bdspark/sparkng-icons/bdspark-icons.css
+   + @bdspark/sparkng-icons/icons.css
    ```
 
 That's it — all `pi pi-*` class names are unchanged, so no template or style changes are needed.

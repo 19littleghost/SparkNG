@@ -20,7 +20,7 @@ describe('mapModuleSpecifier', () => {
 
     it('maps primeicons, including the renamed stylesheet', () => {
         expect(mapModuleSpecifier('primeicons')).toBe('@bdspark/sparkng-icons');
-        expect(mapModuleSpecifier('primeicons/primeicons.css')).toBe('@bdspark/sparkng-icons/bdspark-icons.css');
+        expect(mapModuleSpecifier('primeicons/primeicons.css')).toBe('@bdspark/sparkng-icons/icons.css');
         expect(mapModuleSpecifier('primeicons/raw-svg/check.svg')).toBe('@bdspark/sparkng-icons/raw-svg/check.svg');
     });
 

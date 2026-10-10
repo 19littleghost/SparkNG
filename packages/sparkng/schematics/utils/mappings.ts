@@ -15,7 +15,7 @@ export const MODULE_MAP: ReadonlyMap<string, string> = new Map([
 // Files that were renamed inside a package, so the prefix mapping alone would produce a
 // broken path. Checked before MODULE_MAP for module specifiers, and applied verbatim to
 // stylesheets and angular.json/project.json (e.g. "node_modules/primeicons/primeicons.css").
-export const SPECIFIER_RENAMES: ReadonlyMap<string, string> = new Map([['primeicons/primeicons.css', '@bdspark/sparkng-icons/bdspark-icons.css']]);
+export const SPECIFIER_RENAMES: ReadonlyMap<string, string> = new Map([['primeicons/primeicons.css', '@bdspark/sparkng-icons/icons.css']]);
 
 export const IDENTIFIER_RENAMES: ReadonlyMap<string, string> = new Map([
     ['providePrimeNG', 'provideOptimus'],
