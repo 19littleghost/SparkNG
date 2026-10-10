@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { MessageService } from '@bdspark/sparkng/api';
@@ -500,10 +500,8 @@ export class CardsApp {
 
     items: any;
 
-    constructor(
-        private config: Spark,
-        private messageService: MessageService
-    ) {}
+    private config: Spark = inject(Spark);
+    private messageService = inject(MessageService);
 
     ngOnInit() {
         this.priceRangePopularSpecs = [

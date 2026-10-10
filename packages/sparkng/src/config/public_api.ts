@@ -1,4 +1,4 @@
-export * from './provide-Spark';
-export * from './Spark';
-export * from './Spark.types';
+export * from './optimus';
+export * from './optimus.types';
+export * from './provide-optimus';
 export * from './themeprovider';

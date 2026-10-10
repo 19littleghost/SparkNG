@@ -2,7 +2,7 @@ import { DOCUMENT } from '@angular/common';
 import { effect, inject, Injectable, signal, untracked } from '@angular/core';
 import { Theme, ThemeService } from '@bdspark/sparkng-styled';
 import { BaseStyle } from '@bdspark/sparkng/base';
-import type { ThemeConfigType } from './Spark.types';
+import type { ThemeConfigType } from './optimus.types';
 
 @Injectable({ providedIn: 'root' })
 export class ThemeProvider {

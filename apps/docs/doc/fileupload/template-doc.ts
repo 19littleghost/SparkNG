@@ -1,7 +1,7 @@
 import { AppCode } from '@/components/doc/app.code';
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { MessageService } from '@bdspark/sparkng/api';
 import { BadgeModule } from '@bdspark/sparkng/badge';
 import { ButtonModule } from '@bdspark/sparkng/button';
@@ -89,10 +89,8 @@ export class TemplateDoc {
 
     totalSizePercent: number = 0;
 
-    constructor(
-        private config: Spark,
-        private messageService: MessageService
-    ) {}
+    private config: Spark = inject(Spark);
+    private messageService = inject(MessageService);
 
     choose(event, callback) {
         callback();

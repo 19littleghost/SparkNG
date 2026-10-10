@@ -71,8 +71,8 @@ catalogs:
       version: 6.0.3
   default:
     '@bdspark/sparkng-icons':
-      specifier: ^22.0.3
-      version: 22.0.3
+      specifier: ^22.0.4
+      version: 22.0.4
 
 importers:
 

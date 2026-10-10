@@ -1,7 +1,7 @@
 import { ElementRef, inject, Injectable, PLATFORM_ID, signal, TemplateRef } from '@angular/core';
 import { FilterMatchMode, OverlayOptions, Translation } from '@bdspark/sparkng/api';
 import { Subject } from 'rxjs';
-import type { OptimusConfigType, ThemeConfigType, ZIndex } from './Spark.types';
+import type { OptimusConfigType, ThemeConfigType, ZIndex } from './optimus.types';
 import { ThemeProvider } from './themeprovider';
 
 @Injectable({ providedIn: 'root' })
@@ -209,3 +209,5 @@ export class Spark extends ThemeProvider {
             } as ThemeConfigType);
     }
 }
+
+export { Spark as Optimus };

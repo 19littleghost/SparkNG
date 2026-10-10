@@ -207,3 +207,5 @@ export type OptimusConfigType = {
     ptOptions?: PassThroughOptions | null | undefined;
     filterMatchModeOptions?: any;
 } & ThemeConfigType;
+
+export type SparkConfigType = OptimusConfigType;
