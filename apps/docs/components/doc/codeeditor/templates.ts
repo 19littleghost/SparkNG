@@ -23,7 +23,7 @@ const dependencies = {
     '@angular/router': '^22.0.0',
     '@bdspark/sparkng-themes': `${version}`,
     'chart.js': '4.4.2',
-    '@bdspark/icons': '^1.0.0',
+    '@bdspark/sparkng-icons': '^1.0.0',
     '@bdspark/sparkng': `${version}`,
     quill: '2.0.2',
     rxjs: '~7.8.0',
@@ -69,7 +69,7 @@ const staticStyles = {
     global: `@tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "@bdspark/icons/bdspark-icons.css";
+@import "@bdspark/sparkng-icons/bdspark-icons.css";
 
 :root {
   --body-bg: var(--p-surface-50);
@@ -931,7 +931,7 @@ const getAngularApp = (props: Props = {}) => {
         <base href="/">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://unpkg.com/@bdspark/icons/bdspark-icons.css" rel="stylesheet" />
+        <link href="https://unpkg.com/@bdspark/sparkng-icons/bdspark-icons.css" rel="stylesheet" />
         <link href="https://unpkg.com/quill@1.3.7/dist/quill.snow.css" rel="stylesheet" />
     </head>
     <body>

@@ -65,7 +65,7 @@ See the [migration guide](https://sparkng.bdspark.com/migration/primeng) for pre
 | [`@bdspark/sparkng-motion`](packages/sparkng-motion) | Animation and transition utilities. |
 | [`@bdspark/sparkng-utils`](packages/sparkng-utils) | Shared helpers used across the packages. |
 
-Icons live in [`@bdspark/icons`](https://www.npmjs.com/package/@bdspark/icons) and are optional — components accept any icon through templating, but the documentation examples use the `pi pi-*` classes.
+Icons live in [`@bdspark/sparkng-icons`](https://www.npmjs.com/package/@bdspark/sparkng-icons) and are optional — components accept any icon through templating, but the documentation examples use the `pi pi-*` classes.
 
 ## Requirements
 

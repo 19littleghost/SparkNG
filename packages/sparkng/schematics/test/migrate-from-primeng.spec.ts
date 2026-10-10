@@ -187,11 +187,11 @@ describe('migrate-from-primeng', () => {
 
         const pkg = JSON.parse(result.readContent('/package.json'));
         expect(pkg.dependencies.primeicons).toBeUndefined();
-        expect(pkg.dependencies['@bdspark/icons']).toBe(VERSIONS['@bdspark/icons']);
+        expect(pkg.dependencies['@bdspark/sparkng-icons']).toBe(VERSIONS['@bdspark/sparkng-icons']);
 
-        expect(result.readContent('/angular.json')).toContain('node_modules/@bdspark/icons/bdspark-icons.css');
-        expect(result.readContent('/src/styles.scss')).toBe(`@import "@bdspark/icons/bdspark-icons.css";\nbody { margin: 0; }\n`);
-        expect(result.readContent('/src/main.ts')).toContain(`import '@bdspark/icons/bdspark-icons.css';`);
+        expect(result.readContent('/angular.json')).toContain('node_modules/@bdspark/sparkng-icons/bdspark-icons.css');
+        expect(result.readContent('/src/styles.scss')).toBe(`@import "@bdspark/sparkng-icons/bdspark-icons.css";\nbody { margin: 0; }\n`);
+        expect(result.readContent('/src/main.ts')).toContain(`import '@bdspark/sparkng-icons/bdspark-icons.css';`);
     });
 
     it('does not touch node_modules or dist', async () => {
@@ -292,7 +292,7 @@ describe('migrate-from-primeng', () => {
         });
         const result = await runner.runSchematic('migrate-from-primeng', { skipInstall: true }, tree);
         expect(result.readContent('/src/tailwind.css')).toBe(`@import 'tailwindcss';\n@import '@bdspark/sparkng-tailwindcss';\n@plugin "@bdspark/sparkng-tailwindcss";\n`);
-        expect(result.readContent('/src/styles.scss')).toBe(`@use '~@bdspark/sparkng/resources/primeng.css';\n@import url(node_modules/@bdspark/icons/bdspark-icons.css);\n`);
+        expect(result.readContent('/src/styles.scss')).toBe(`@use '~@bdspark/sparkng/resources/primeng.css';\n@import url(node_modules/@bdspark/sparkng-icons/bdspark-icons.css);\n`);
     });
 
     it('leaves declaration values that merely look like a package alone', async () => {

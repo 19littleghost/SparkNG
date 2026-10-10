@@ -36,7 +36,7 @@
     "ng-update": {
         "migrations": "./schematics/migrations.json",
         "packageGroup": [
-            "@bdspark/icons",
+            "@bdspark/sparkng-icons",
             "@bdspark/sparkng",
             "@bdspark/sparkng-locale",
             "@bdspark/sparkng-motion",

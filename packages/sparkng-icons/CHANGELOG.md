@@ -2,9 +2,9 @@
 
 ## 1.0.0
 
-Initial release of `@bdspark/icons`.
+Initial release of `@bdspark/sparkng-icons`.
 
-This package is a rebrand of [PrimeIcons](https://github.com/primefaces/primeicons). Versioning starts fresh at `1.0.0` for `@bdspark/icons` rather than continuing PrimeIcons' version numbers. The entries below document the history of the upstream PrimeIcons project that this release is based on.
+This package is a rebrand of [PrimeIcons](https://github.com/primefaces/primeicons). Versioning starts fresh at `1.0.0` for `@bdspark/sparkng-icons` rather than continuing PrimeIcons' version numbers. The entries below document the history of the upstream PrimeIcons project that this release is based on.
 
 ## [7.0.0](https://github.com/primefaces/primeicons/tree/7.0.0) (2024-03-29)
 

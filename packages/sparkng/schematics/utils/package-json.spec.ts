@@ -19,9 +19,9 @@ describe('mapModuleSpecifier', () => {
     });
 
     it('maps primeicons, including the renamed stylesheet', () => {
-        expect(mapModuleSpecifier('primeicons')).toBe('@bdspark/icons');
-        expect(mapModuleSpecifier('primeicons/primeicons.css')).toBe('@bdspark/icons/bdspark-icons.css');
-        expect(mapModuleSpecifier('primeicons/raw-svg/check.svg')).toBe('@bdspark/icons/raw-svg/check.svg');
+        expect(mapModuleSpecifier('primeicons')).toBe('@bdspark/sparkng-icons');
+        expect(mapModuleSpecifier('primeicons/primeicons.css')).toBe('@bdspark/sparkng-icons/bdspark-icons.css');
+        expect(mapModuleSpecifier('primeicons/raw-svg/check.svg')).toBe('@bdspark/sparkng-icons/raw-svg/check.svg');
     });
 
     it('maps tailwindcss-primeui including subpaths', () => {
@@ -62,7 +62,7 @@ describe('swapDependencies', () => {
         expect(pkg.dependencies['tailwindcss-primeui']).toBeUndefined();
         expect(pkg.dependencies['@bdspark/sparkng-tailwindcss']).toBe(VERSIONS['@bdspark/sparkng-tailwindcss']);
         expect(pkg.dependencies['primeicons']).toBeUndefined();
-        expect(pkg.dependencies['@bdspark/icons']).toBe(VERSIONS['@bdspark/icons']);
+        expect(pkg.dependencies['@bdspark/sparkng-icons']).toBe(VERSIONS['@bdspark/sparkng-icons']);
         expect(pkg.dependencies['primelocale']).toBeUndefined();
         expect(pkg.dependencies['@bdspark/sparkng-locale']).toBe(VERSIONS['@bdspark/sparkng-locale']);
         expect(result.removed.sort()).toEqual(['@primeuix/themes', 'primeicons', 'primelocale', 'primeng', 'tailwindcss-primeui']);

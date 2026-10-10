@@ -70,7 +70,7 @@ catalogs:
       specifier: ^6.0.0
       version: 6.0.3
   default:
-    '@bdspark/icons':
+    '@bdspark/sparkng-icons':
       specifier: ^22.0.3
       version: 22.0.3
 
@@ -217,12 +217,12 @@ importers:
       '@angular/ssr':
         specifier: catalog:angular22
         version: 22.2.2(5b3e2f849d89ebbd7937e102c60cf76b)
-      '@bdspark/icons':
-        specifier: 'catalog:'
-        version: link:../../packages/sparkng-icons
       '@bdspark/sparkng':
         specifier: workspace:*
         version: link:../../packages/sparkng
+      '@bdspark/sparkng-icons':
+        specifier: 'catalog:'
+        version: link:../../packages/sparkng-icons
       '@bdspark/sparkng-themes':
         specifier: workspace:*
         version: link:../../packages/sparkng-themes

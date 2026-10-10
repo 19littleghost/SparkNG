@@ -22,10 +22,10 @@ import { RouterModule } from '@angular/router';
 })
 export class InstallationIconsDoc {
     installCode: Code = {
-        command: `npm install @bdspark/icons`
+        command: `npm install @bdspark/sparkng-icons`
     };
 
     importCode: Code = {
-        scss: `@import "@bdspark/icons/bdspark-icons.css";`
+        scss: `@import "@bdspark/sparkng-icons/bdspark-icons.css";`
     };
 }

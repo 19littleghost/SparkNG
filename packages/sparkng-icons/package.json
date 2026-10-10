@@ -1,10 +1,10 @@
 {
-  "name": "@bdspark/icons",
+  "name": "@bdspark/sparkng-icons",
   "version": "22.0.3",
   "description": "Icon Library for SparkNG Libraries for Angular v22",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TODO-BDSPARK-ORG/icons.git"
+    "url": "git+https://github.com/TODO-BDSPARK-ORG/sparkng-icons.git"
   },
   "keywords": [
     "Icon"
@@ -12,7 +12,7 @@
   "author": "bdSpark",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TODO-BDSPARK-ORG/icons/issues"
+    "url": "https://github.com/TODO-BDSPARK-ORG/sparkng-icons/issues"
   },
   "homepage": "https://sparkng.bdspark.com/",
   "publishConfig": {

@@ -27,7 +27,7 @@ describe('rewriteSource — module specifiers', () => {
     it('rewrites the primeicons stylesheet import to the renamed file', () => {
         const { text, changed } = rw(`import 'primeicons/primeicons.css';\n`);
         expect(changed).toBe(true);
-        expect(text).toContain(`import '@bdspark/icons/bdspark-icons.css';`);
+        expect(text).toContain(`import '@bdspark/sparkng-icons/bdspark-icons.css';`);
     });
 
     it('reports changed: false for untouched files', () => {

@@ -38,11 +38,11 @@ if (!Array.isArray(packageGroup) || [...packageGroup].sort().join(',') !== expec
 }
 
 const workspaceYaml = fs.readFileSync(path.join(workspaceDir, 'pnpm-workspace.yaml'), 'utf8');
-const iconsCatalogEntry = workspaceYaml.match(/^catalog:[^]*?'@bdspark\/icons':\s*(\S+)/m);
+const iconsCatalogEntry = workspaceYaml.match(/^catalog:[^]*?'@bdspark\/sparkng-icons':\s*(\S+)/m);
 if (!iconsCatalogEntry) {
-    throw new Error('Could not find the @bdspark/icons catalog entry in pnpm-workspace.yaml');
+    throw new Error('Could not find the @bdspark/sparkng-icons catalog entry in pnpm-workspace.yaml');
 }
-versions['@bdspark/icons'] = iconsCatalogEntry[1];
+versions['@bdspark/sparkng-icons'] = iconsCatalogEntry[1];
 
 fs.writeJsonSync(path.join(schematicsDir, 'utils/versions.json'), versions, { spaces: 4 });
 
