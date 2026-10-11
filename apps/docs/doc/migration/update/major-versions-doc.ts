@@ -14,7 +14,7 @@ import { Component } from '@angular/core';
             <app-version-compatibility></app-version-compatibility>
             <p>
                 To move to a new major, update Angular first — the <a href="https://angular.dev/update-guide" target="_blank" rel="noopener noreferrer">Angular update guide</a> covers that step — then update SparkNG to the matching major by passing
-                the target version. For example, from v1 on Angular v21:
+                the target version. For example, from v1 on Angular v22:
             </p>
             <app-code [code]="code" [hideToggleCode]="true"></app-code>
             <p>Review the release notes of the target version for breaking changes before you start.</p>

@@ -9,7 +9,7 @@ import { RouterModule } from '@angular/router';
     template: `
         <app-docsectiontext>
             <p>
-                Everything happens in the open, in the <a href="https://github.com/TODO-BDSPARK-ORG/sparkng" target="_blank" rel="noopener noreferrer">repository</a>. There is no private roadmap and no internal issue tracker. What you see in the
+                Everything happens in the open, in the <a href="https://github.com/Aronno1920/SparkNG" target="_blank" rel="noopener noreferrer">repository</a>. There is no private roadmap and no internal issue tracker. What you see in the
                 issues, the discussions and the <a [routerLink]="'/roadmap'" class="doc-link">roadmap</a> is the whole plan.
             </p>
             <p>

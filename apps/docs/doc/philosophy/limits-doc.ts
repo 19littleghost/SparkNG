@@ -20,13 +20,13 @@ import { Component } from '@angular/core';
             </p>
             <h3>We are not chasing feature parity with PrimeNG v22 and beyond</h3>
             <p>
-                PrimeNG continues under its own license and its own roadmap. SparkNG diverges from v21 forward. Some things they add, we will not have. Some things we fix, they will not. Treat the two as separate libraries that share an ancestor, not
+                PrimeNG continues under its own license and its own roadmap. SparkNG diverges from v22 forward. Some things they add, we will not have. Some things we fix, they will not. Treat the two as separate libraries that share an ancestor, not
                 as a free copy of a paid product.
             </p>
             <h3>The bus factor is real</h3>
             <p>
                 This is maintained by a small group of people in their own time. We would rather say that plainly than imply a larger organisation stands behind it. The best way to change that number is to
-                <a href="https://github.com/TODO-BDSPARK-ORG/sparkng" target="_blank" rel="noopener noreferrer">contribute</a>.
+                <a href="https://github.com/Aronno1920/SparkNG" target="_blank" rel="noopener noreferrer">contribute</a>.
             </p>
         </app-docsectiontext>
     `

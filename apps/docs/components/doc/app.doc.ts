@@ -114,7 +114,7 @@ export class AppDoc implements OnInit, OnChanges {
 
     githubIssuesUrl = computed(() => {
         const name = this._componentName();
-        return name ? `https://github.com/TODO-BDSPARK-ORG/sparkng/issues?q=${encodeURIComponent(`is:issue state:open label:"Component: ${name}"`)}` : null;
+        return name ? `https://github.com/Aronno1920/SparkNG/issues?q=${encodeURIComponent(`is:issue state:open label:"Component: ${name}"`)}` : null;
     });
 
     githubIssuesCount = toSignal(

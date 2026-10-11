@@ -22,7 +22,7 @@ import { Component } from '@angular/core';
 
             <h3>Community Support</h3>
             <p>
-                Assist other users by participating in the issue tracker, <a href="https://github.com/TODO-BDSPARK-ORG/sparkng/discussions" target="_blank" rel="noopener noreferrer">GitHub discussions</a>, and the
+                Assist other users by participating in the issue tracker, <a href="https://github.com/Aronno1920/SparkNG/discussions" target="_blank" rel="noopener noreferrer">GitHub discussions</a>, and the
                 <a [href]="discordUrl" target="_blank" rel="noopener noreferrer">SparkNG Discord</a>. Your expertise can help others solve problems and improve their experience with SparkNG.
             </p>
         </app-docsectiontext>

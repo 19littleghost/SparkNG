@@ -10,19 +10,19 @@ import { RouterModule } from '@angular/router';
         <app-docsectiontext>
             <h3>Which Angular versions are supported?</h3>
             <p>
-                Angular v21 and newer. Our majors follow Angular's — when a new Angular major ships, a compatible SparkNG major is the first thing we work on. See the
+                Angular v22 and newer. Our majors follow Angular's — when a new Angular major ships, a compatible SparkNG major is the first thing we work on. See the
                 <a [routerLink]="'/migration/update'" fragment="angular-compatibility" class="doc-link">version compatibility table</a> in the update guide.
             </p>
 
             <h3>How do I migrate from PrimeNG? Is it automatic?</h3>
             <p>
                 Mostly, but not through <i>ng add</i>, which only sets up new projects and fails without changing anything when it finds an existing <i>primeng</i> dependency. Install <i>&#64;bdspark/sparkng</i>, then run
-                <i>ng generate &#64;bdspark/sparkng:migrate-from-primeng</i> in a PrimeNG v21 workspace: packages swapped, imports rewritten, dependencies installed. It then prints a report of anything it could not rewrite, with file and line
+                <i>ng generate &#64;bdspark/sparkng:migrate-from-primeng</i> in a PrimeNG v22 workspace: packages swapped, imports rewritten, dependencies installed. It then prints a report of anything it could not rewrite, with file and line
                 numbers. The <a href="https://sparkng.bdspark.com/migration/primeng" target="_blank" rel="noopener noreferrer" class="doc-link">migration guide</a> covers the details and the manual cases.
             </p>
 
             <h3>I am on PrimeNG v20 or older. Can I migrate directly?</h3>
-            <p>No. Upgrade to PrimeNG v21 first, using PrimeNG's own migration guides, then run the schematic. The schematic checks the version and refuses rather than producing a half-migrated workspace.</p>
+            <p>No. Upgrade to PrimeNG v22 first, using PrimeNG's own migration guides, then run the schematic. The schematic checks the version and refuses rather than producing a half-migrated workspace.</p>
 
             <h3>What happens to my PrimeNG license?</h3>
             <p>

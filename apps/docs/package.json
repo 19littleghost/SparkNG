@@ -22,7 +22,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/TODO-BDSPARK-ORG/sparkng.git"
+        "url": "https://github.com/Aronno1920/SparkNG.git"
     },
     "devDependencies": {
         "@angular-devkit/build-angular": "^22.1.6",

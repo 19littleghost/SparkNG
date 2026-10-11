@@ -199,7 +199,7 @@ export class AdvancedDoc implements OnInit, OnDestroy {
                     showDelay: 1000
                 },
                 icon: 'https://sparkng.bdspark.com/demo/dock/github.svg',
-                url: 'https://github.com/TODO-BDSPARK-ORG/sparkng'
+                url: 'https://github.com/Aronno1920/SparkNG'
             },
             {
                 label: 'Trash',

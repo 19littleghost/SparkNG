@@ -10,7 +10,7 @@ import { RouterModule } from '@angular/router';
         <app-docsectiontext>
             <h3>Do the PrimeNG themes work?</h3>
             <p>
-                The built-in presets do — Aura, Material, Lara and Nora ship in <i>&#64;bdspark/sparkng-themes</i> and are configured the same way. A preset you wrote yourself against PrimeNG v21 will work after the import paths are updated, which
+                The built-in presets do — Aura, Material, Lara and Nora ship in <i>&#64;bdspark/sparkng-themes</i> and are configured the same way. A preset you wrote yourself against PrimeNG v22 will work after the import paths are updated, which
                 the migration schematic handles.
             </p>
 

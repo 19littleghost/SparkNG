@@ -24,7 +24,7 @@ import { AppDocSectionText } from './app.docsectiontext';
                         <td [class]="'doc-option-preset-name-{{preset.toLowerCase()}}'">{{ preset }}</td>
                         <td [class]="'doc-option-preset-implementation-{{preset.toLowerCase()}}'">
                             <a
-                                href="https://github.com/TODO-BDSPARK-ORG/sparkng/blob/main/packages/sparkng-themes/src/presets/{{ preset.toLowerCase() }}/{{ data }}/index.ts"
+                                href="https://github.com/Aronno1920/SparkNG/blob/main/packages/sparkng-themes/src/presets/{{ preset.toLowerCase() }}/{{ data }}/index.ts"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 class="inline-flex rounded-full px-3 py-1 bg-surface-200 hover:bg-surface-300 transition-all duration-200 gap-2 items-center text-sm dark:bg-surface-800 dark:hover:bg-surface-700"
@@ -35,7 +35,7 @@ import { AppDocSectionText } from './app.docsectiontext';
                         </td>
                         <td [class]="'doc-option-preset-type-{{preset.toLowerCase()}}'">
                             <a
-                                href="https://github.com/TODO-BDSPARK-ORG/sparkng/blob/main/packages/sparkng-themes/src/presets/{{ preset.toLowerCase() }}/{{ data }}/index.d.ts"
+                                href="https://github.com/Aronno1920/SparkNG/blob/main/packages/sparkng-themes/src/presets/{{ preset.toLowerCase() }}/{{ data }}/index.d.ts"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 class="inline-flex rounded-full px-3 py-1 bg-surface-200 hover:bg-surface-300 transition-all duration-200 gap-2 items-center text-sm dark:bg-surface-800 dark:hover:bg-surface-700"

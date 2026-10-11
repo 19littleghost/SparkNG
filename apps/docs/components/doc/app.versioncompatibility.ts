@@ -30,6 +30,6 @@ interface VersionCompatibilityEntry {
 export class AppVersionCompatibility {
     entries: VersionCompatibilityEntry[] = [
         { sparkng: 'v2', angular: 'v22' },
-        { sparkng: 'v1', angular: 'v21' }
+        { sparkng: 'v1', angular: 'v22' }
     ];
 }

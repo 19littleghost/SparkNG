@@ -22,7 +22,7 @@ import { Component } from '@angular/core';
             <h3>Tailwind v4</h3>
             <p>In the CSS file that contains the tailwindcss import, add the <i>@bdspark/sparkng-tailwindcss</i> import as well.</p>
             <app-code [code]="code2" [importCode]="true" [hideToggleCode]="true" [hideStackBlitz]="true" />
-            <p class="mt-4">For a comprehensive starter guide, review the <a href="https://github.com/TODO-BDSPARK-ORG/sparkng" target="_blank" rel="noopener noreferrer">SparkNG</a> repository which demonstrates the integration.</p>
+            <p class="mt-4">For a comprehensive starter guide, review the <a href="https://github.com/Aronno1920/SparkNG" target="_blank" rel="noopener noreferrer">SparkNG</a> repository which demonstrates the integration.</p>
             <h3>Tailwind v3</h3>
             <p>Use the plugins option in your Tailwind config file to configure the plugin.</p>
             <app-code [code]="code3" [importCode]="true" [hideToggleCode]="true" [hideStackBlitz]="true" />

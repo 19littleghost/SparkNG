@@ -23,7 +23,7 @@ import { Component } from '@angular/core';
 })
 export class IntroductionDoc {
     code1: Code = {
-        typescript: `git clone https://github.com/TODO-BDSPARK-ORG/sparkng.git
+        typescript: `git clone https://github.com/Aronno1920/SparkNG.git
 cd sparkng`
     };
     code2: Code = {

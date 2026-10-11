@@ -10,7 +10,7 @@ import { AnimateOnScrollModule } from '@bdspark/sparkng/animateonscroll';
     template: `
         <section class="landing-features py-20">
             <div class="section-header">Features</div>
-            <p class="section-detail">Everything the v21 codebase offered, maintained in the open.</p>
+            <p class="section-detail">Everything the v22 codebase offered, maintained in the open.</p>
             <div class="mt-16 px-8 lg:px-20">
                 <div class="features-container">
                     <div class="grid grid-cols-12 gap-4">

@@ -21,7 +21,7 @@ import { RouterModule } from '@angular/router';
             </p>
 
             <h3>Which PrimeNG version is this forked from?</h3>
-            <p>PrimeNG v21, the last version published under the MIT license. SparkNG v1 is that codebase, rebranded, with the fixes that have landed since.</p>
+            <p>PrimeNG v22, the last version published under the MIT license. SparkNG v1 is that codebase, rebranded, with the fixes that have landed since.</p>
 
             <h3>Who maintains it, and how is it funded?</h3>
             <p>

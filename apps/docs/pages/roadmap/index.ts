@@ -51,19 +51,19 @@ export class RoadmapDemo {
             {
                 title: 'v1',
                 shipped: true,
-                features: ['Rebranded from PrimeNG', 'Angular v21 compatible', 'ng add support for seamless installation', 'Schematic to migrate from PrimeNG'],
-                link: 'https://github.com/TODO-BDSPARK-ORG/sparkng/milestone/8'
+                features: ['Rebranded from PrimeNG', 'Angular v22 compatible', 'ng add support for seamless installation', 'Schematic to migrate from PrimeNG'],
+                link: 'https://github.com/Aronno1920/SparkNG/milestone/8'
             },
             {
                 title: 'v2',
                 shipped: true,
                 features: ['Angular v22 compatible'],
-                link: 'https://github.com/TODO-BDSPARK-ORG/sparkng/milestone/10'
+                link: 'https://github.com/Aronno1920/SparkNG/milestone/10'
             },
             {
                 title: 'Catchup step',
                 features: ['Triage and address existing 900+ open issues', 'Modernize the library to Angular modern APIs'],
-                link: 'https://github.com/TODO-BDSPARK-ORG/sparkng/milestone/9'
+                link: 'https://github.com/Aronno1920/SparkNG/milestone/9'
             },
             {
                 title: 'Enhancement step',
