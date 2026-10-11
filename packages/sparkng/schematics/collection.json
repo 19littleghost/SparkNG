@@ -2,12 +2,12 @@
     "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
     "schematics": {
         "ng-add": {
-            "description": "Set up SparkNG UI in a new (non-PrimeNG) project. To migrate a PrimeNG project, use the migrate-from-primeng schematic.",
+            "description": "Set up SparkNG in a new (non-PrimeNG) project. To migrate a PrimeNG project, use the migrate-from-primeng schematic.",
             "factory": "./ng-add/index#ngAdd",
             "schema": "./ng-add/schema.json"
         },
         "migrate-from-primeng": {
-            "description": "Deprecated on this line, maintained only on release/1.x (@bdspark/sparkng@1). Migrate a PrimeNG v21 project to SparkNG UI (including PrimeIcons to @bdspark/sparkng-icons).",
+            "description": "Deprecated on this line, maintained only on release/1.x (@bdspark/sparkng@1). Migrate a PrimeNG v21 project to SparkNG (including PrimeIcons to @bdspark/icons).",
             "factory": "./migrate-from-primeng/index#migrateFromPrimeng",
             "schema": "./migrate-from-primeng/schema.json"
         },

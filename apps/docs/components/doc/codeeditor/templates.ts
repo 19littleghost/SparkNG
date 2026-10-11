@@ -23,7 +23,7 @@ const dependencies = {
     '@angular/router': '^22.0.0',
     '@bdspark/sparkng-themes': `${version}`,
     'chart.js': '4.4.2',
-    '@bdspark/sparkng-icons': '^1.0.0',
+    '@bdspark/icons': '^1.0.0',
     '@bdspark/sparkng': `${version}`,
     quill: '2.0.2',
     rxjs: '~7.8.0',
@@ -67,9 +67,9 @@ const getExternalFiles = (files: ExtFile[]) => {
 
 const staticStyles = {
     global: `@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@import "@bdspark/sparkng-icons/icons.css";
+            @tailwind components;
+            @tailwind utilities;
+            @import "@bdspark/icons/bdspark-icons.css";
 
 :root {
   --body-bg: var(--p-surface-50);
@@ -283,12 +283,12 @@ const tsconfig_spec_json = `{
 
 const tailwind_config = `
 /** @type {import('tailwindcss').Config} */
-import SparkUiTailwind from '@bdspark/sparkng-tailwindcss';
+import OptimusUiTailwind from '@bdspark/sparkng-tailwindcss';
 
 export default {
     darkMode: ['selector', '[class="p-dark"]'],
     content: ['./src/**/*.{html,ts}'],
-    plugins: [SparkUiTailwind],
+    plugins: [OptimusUiTailwind],
     theme: {
         screens: {
             sm: '576px',
@@ -927,11 +927,11 @@ const getAngularApp = (props: Props = {}) => {
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>SparkNG UI ${componentName}</title>
+        <title>SparkNG ${componentName}</title>
         <base href="/">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://unpkg.com/@bdspark/sparkng-icons/icons.css" rel="stylesheet" />
+        <link href="https://unpkg.com/@bdspark/icons/bdspark-icons.css" rel="stylesheet" />
         <link href="https://unpkg.com/quill@1.3.7/dist/quill.snow.css" rel="stylesheet" />
     </head>
     <body>
@@ -943,13 +943,13 @@ const getAngularApp = (props: Props = {}) => {
 import { ${componentName} } from './app/${selector}';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import { ApplicationConfig } from '@angular/core';
-import { provideSpark } from '@bdspark/sparkng/config';
+import { provideOptimus } from '@bdspark/sparkng/config';
 import Aura from '@bdspark/sparkng-themes/aura';
 
   export const appConfig: ApplicationConfig = {
       providers: [
       provideHttpClient(withFetch()),
-      provideSpark({
+      provideOptimus({
           theme: { preset: Aura, options: { darkModeSelector: '.p-dark' } },
       }),
     ],
@@ -977,7 +977,7 @@ import Aura from '@bdspark/sparkng-themes/aura';
         'package.json': {
             content: {
                 name: `sparkng-${selector}`,
-                description: `SparkNG UI ${componentName}`,
+                description: `SparkNG ${componentName}`,
                 license: 'MIT',
                 keywords: [],
                 scripts: {
@@ -1009,7 +1009,7 @@ import Aura from '@bdspark/sparkng-themes/aura';
         });
     }
 
-    return { files, title: `SparkNG UI ${componentName}` };
+    return { files, title: `SparkNG ${componentName}` };
 };
 
 export { getAngularApp };

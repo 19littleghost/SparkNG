@@ -104,8 +104,8 @@ function generateStackBlitzProject(demo, selector) {
             '@angular/platform-browser': '^21.0.0',
             '@angular/platform-browser-dynamic': '^21.0.0',
             '@angular/router': '^21.0.0',
-            '@bdspark/sparkng-themes': '^22.0.4',
-            '@bdspark/sparkng-icons': '^1.0.0',
+            '@bdspark/sparkng-themes': '^22.0.3',
+            '@bdspark/icons': '^1.0.0',
             '@bdspark/sparkng': '21.0.0',
             rxjs: '~7.8.0',
             tailwindcss: '^3.4.10',
@@ -126,13 +126,13 @@ function generateStackBlitzProject(demo, selector) {
 import { ${componentName} } from './app/${selector}';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import { ApplicationConfig } from '@angular/core';
-import { provideSpark } from '@bdspark/sparkng/config';
+import { provideOptimus } from '@bdspark/sparkng/config';
 import Aura from '@bdspark/sparkng-themes/aura';
 
 export const appConfig: ApplicationConfig = {
     providers: [
         provideHttpClient(withFetch()),
-        provideSpark({
+        provideOptimus({
             theme: { preset: Aura, options: { darkModeSelector: '.p-dark' } },
         }),
     ],
@@ -146,7 +146,7 @@ bootstrapApplication(${componentName}, appConfig).catch((err) =>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>SparkNG UI ${componentName}</title>
+    <title>SparkNG ${componentName}</title>
     <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -200,7 +200,7 @@ function validateTypeScript(tsContent, filePath, selector) {
         // Should not have direct sparkng imports when using ImportsModule
         const directImports = tsContent.match(/import\s+\{[^}]*Module[^}]*\}\s+from\s+'@bdspark\/sparkng\/[^']+'/g);
         if (directImports) {
-            errors.push('Has direct SparkNG UI module imports alongside ImportsModule');
+            errors.push('Has direct SparkNG module imports alongside ImportsModule');
         }
     }
 

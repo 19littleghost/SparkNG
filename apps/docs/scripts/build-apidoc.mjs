@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-const outputPath = path.resolve(__dirname, '../../../apps/docs/doc/apidoc/');
+const outputPath = path.resolve(__dirname, '../doc/apidoc/');
 const outputFile = path.resolve(outputPath, 'index.json');
 
 // On a clean checkout apps/docs/doc/apidoc/index.json doesn't exist yet (it's

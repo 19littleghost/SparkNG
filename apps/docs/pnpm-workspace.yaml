@@ -1,0 +1,20 @@
+# Standalone settings so this app installs and builds in isolation (e.g. the
+# Vercel deployment, which uploads apps/docs without the monorepo root). The
+# monorepo root keeps its own pnpm-workspace.yaml for local development.
+allowBuilds:
+    '@parcel/watcher': true
+    core-js: true
+    esbuild: true
+    lmdb: true
+    msgpackr-extract: true
+# published fresh today; local installs run with a global minimumReleaseAge policy
+minimumReleaseAgeExclude:
+    - '@bdspark/sparkng'
+    - '@bdspark/sparkng-icons'
+    - '@bdspark/sparkng-locale'
+    - '@bdspark/sparkng-motion'
+    - '@bdspark/sparkng-styled'
+    - '@bdspark/sparkng-styles'
+    - '@bdspark/sparkng-tailwindcss'
+    - '@bdspark/sparkng-themes'
+    - '@bdspark/sparkng-utils'
