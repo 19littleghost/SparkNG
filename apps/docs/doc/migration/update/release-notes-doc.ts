@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
     template: `
         <app-docsectiontext>
             <p>
-                Every version is published with its notes on the <a href="https://github.com/Aronno1920/SparkNG/releases" target="_blank" rel="noopener noreferrer">GitHub releases page</a>, covering new features, fixes and any breaking changes
-                or manual steps a release requires. Check the notes for the target version before a major update.
+                Every version is published with its notes on the <a href="https://github.com/Aronno1920/SparkNG/releases" target="_blank" rel="noopener noreferrer">GitHub releases page</a>, covering new features, fixes and any breaking changes or
+                manual steps a release requires. Check the notes for the target version before a major update.
             </p>
         </app-docsectiontext>
     `

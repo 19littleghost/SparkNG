@@ -14,14 +14,14 @@ import { RouterModule } from '@angular/router';
 
             <h3>How do I report a bug?</h3>
             <p>
-                Open an issue on <a href="https://github.com/Aronno1920/SparkNG/issues" target="_blank" rel="noopener noreferrer">GitHub</a> with a minimal reproduction — a StackBlitz from any demo on this site is ideal — plus your SparkNG,
-                Angular and browser versions. A reproduction is the difference between a bug that gets fixed and one that sits in the backlog.
+                Open an issue on <a href="https://github.com/Aronno1920/SparkNG/issues" target="_blank" rel="noopener noreferrer">GitHub</a> with a minimal reproduction — a StackBlitz from any demo on this site is ideal — plus your SparkNG, Angular
+                and browser versions. A reproduction is the difference between a bug that gets fixed and one that sits in the backlog.
             </p>
 
             <h3>How do I request a feature?</h3>
             <p>
-                Open a <a href="https://github.com/Aronno1920/SparkNG/discussions" target="_blank" rel="noopener noreferrer">discussion</a>. Requests are triaged and welcome, but in practice they ship when someone implements them. If it matters
-                to you, the <a [routerLink]="'/contribution'" class="doc-link">contribution guide</a> is the fastest route.
+                Open a <a href="https://github.com/Aronno1920/SparkNG/discussions" target="_blank" rel="noopener noreferrer">discussion</a>. Requests are triaged and welcome, but in practice they ship when someone implements them. If it matters to
+                you, the <a [routerLink]="'/contribution'" class="doc-link">contribution guide</a> is the fastest route.
             </p>
 
             <h3>Where do I ask questions?</h3>

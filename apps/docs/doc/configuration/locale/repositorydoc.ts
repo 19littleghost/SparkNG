@@ -11,8 +11,8 @@ import { Component } from '@angular/core';
         <app-docsectiontext>
             <p>
                 Ready to use settings for locales are available as the <i>&#64;bdspark/sparkng-locale</i> package, maintained in the
-                <a href="https://github.com/Aronno1920/SparkNG/tree/main/packages/sparkng-locale" target="_blank" rel="noopener noreferrer">SparkNG</a> repository. We'd appreciate if you could contribute translations to the repository and share
-                them with the rest of the community.
+                <a href="https://github.com/Aronno1920/SparkNG/tree/main/packages/sparkng-locale" target="_blank" rel="noopener noreferrer">SparkNG</a> repository. We'd appreciate if you could contribute translations to the repository and share them
+                with the rest of the community.
             </p>
             <app-code [code]="code" [hideToggleCode]="true"></app-code>
         </app-docsectiontext>
