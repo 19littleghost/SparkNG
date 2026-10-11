@@ -1,5 +1,4 @@
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
-import { DISCORD_URL } from '@/utils/constants';
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
@@ -25,10 +24,7 @@ import { RouterModule } from '@angular/router';
             </p>
 
             <h3>Where do I ask questions?</h3>
-            <p>
-                GitHub Discussions is the primary place. There is also an Ask AI button in the header, which answers from this documentation. For real-time chat, join the
-                <a [href]="discordUrl" target="_blank" rel="noopener noreferrer">SparkNG Discord</a> server.
-            </p>
+            <p>GitHub Discussions is the primary place. There is also an Ask AI button in the header, which answers from this documentation.</p>
 
             <h3>How does versioning work?</h3>
             <p>
@@ -38,6 +34,4 @@ import { RouterModule } from '@angular/router';
         </app-docsectiontext>
     `
 })
-export class FaqSupportDoc {
-    readonly discordUrl = DISCORD_URL;
-}
+export class FaqSupportDoc {}

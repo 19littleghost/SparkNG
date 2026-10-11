@@ -37,8 +37,6 @@
         "@angular/router": "^22.1.4",
         "@bdspark/sparkng-utils": "22.0.5",
         "glob": "^13.0.6",
-        "@docsearch/css": "^5.0.3",
-        "@docsearch/js": "^3.3.4",
         "@bdspark/sparkng-themes": "22.0.5",
         "@stackblitz/sdk": "1.11.1",
         "@types/express": "^5.0.6",

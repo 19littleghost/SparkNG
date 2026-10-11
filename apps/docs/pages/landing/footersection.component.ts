@@ -1,4 +1,4 @@
-import { DISCORD_URL, GITHUB_DISCUSSIONS_URL, GITHUB_REPO_URL, SPARKED_DEMO_URL } from '@/utils/constants';
+import { GITHUB_DISCUSSIONS_URL, GITHUB_REPO_URL, SPARKED_DEMO_URL } from '@/utils/constants';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
@@ -58,9 +58,6 @@ import { RouterModule } from '@angular/router';
                         <a [href]="githubRepoUrl" target="_blank" rel="noopener noreferrer" class="linkbox linkbox-icon">
                             <i class="pi pi-github"></i>
                         </a>
-                        <a [href]="discordUrl" target="_blank" rel="noopener noreferrer" class="linkbox linkbox-icon">
-                            <i class="pi pi-discord"></i>
-                        </a>
                         <a [href]="githubDiscussionsUrl" class="linkbox linkbox-icon">
                             <i class="pi pi-comments"></i>
                         </a>
@@ -73,7 +70,6 @@ import { RouterModule } from '@angular/router';
 export class FooterSectionComponent {
     readonly githubRepoUrl = GITHUB_REPO_URL;
     readonly githubDiscussionsUrl = GITHUB_DISCUSSIONS_URL;
-    readonly discordUrl = DISCORD_URL;
 
     readonly sparkedDemoUrl = SPARKED_DEMO_URL;
 }

@@ -1,7 +1,8 @@
 import Versions from '@/assets/data/versions.json';
 import { AppConfiguratorComponent } from '@/components/layout/configurator/app.configurator.component';
+import { AppSearchComponent } from '@/components/layout/search/app.search.component';
 import { AppConfigService } from '@/service/appconfigservice';
-import { DISCORD_URL, GITHUB_DISCUSSIONS_URL, GITHUB_REPO_URL } from '@/utils/constants';
+import { GITHUB_DISCUSSIONS_URL, GITHUB_REPO_URL } from '@/utils/constants';
 import { CommonModule, DOCUMENT } from '@angular/common';
 import { afterNextRender, booleanAttribute, Component, computed, ElementRef, Inject, Input, OnDestroy, Renderer2 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -9,12 +10,11 @@ import { RouterModule } from '@angular/router';
 import { DomHandler } from '@bdspark/sparkng/dom';
 import { SelectModule } from '@bdspark/sparkng/select';
 import { StyleClass } from '@bdspark/sparkng/styleclass';
-import docsearch from '@docsearch/js';
 
 @Component({
     selector: 'app-topbar',
     standalone: true,
-    imports: [CommonModule, FormsModule, StyleClass, RouterModule, AppConfiguratorComponent, SelectModule],
+    imports: [CommonModule, FormsModule, StyleClass, RouterModule, AppConfiguratorComponent, AppSearchComponent, SelectModule],
     template: `<div class="layout-topbar">
         <div class="layout-topbar-inner">
             <div class="layout-topbar-logo-container">
@@ -24,18 +24,13 @@ import docsearch from '@docsearch/js';
 
             <ul class="topbar-items">
                 <li>
-                    <div id="docsearch"></div>
+                    <app-search />
                 </li>
                 <li class="topbar-desktop-item">
                     <a [href]="githubRepoUrl" target="_blank" rel="noopener noreferrer" class="topbar-item">
                         <i class="pi pi-github text-surface-700 dark:text-surface-100"></i>
                     </a>
                 </li>
-                <!-- <li class="topbar-desktop-item">
-                    <a [href]="discordUrl" target="_blank" rel="noopener noreferrer" class="topbar-item" aria-label="SparkNG Discord" title="SparkNG Discord">
-                        <i class="pi pi-discord text-surface-700 dark:text-surface-100"></i>
-                    </a>
-                </li> -->
                 <li class="topbar-desktop-item">
                     <a [href]="githubDiscussionsUrl" target="_blank" rel="noopener noreferrer" class="topbar-item">
                         <i class="pi pi-comments text-surface-700 dark:text-surface-100"></i>
@@ -87,7 +82,6 @@ import docsearch from '@docsearch/js';
 export class AppTopBarComponent implements OnDestroy {
     readonly githubRepoUrl = GITHUB_REPO_URL;
     readonly githubDiscussionsUrl = GITHUB_DISCUSSIONS_URL;
-    readonly discordUrl = DISCORD_URL;
 
     @Input({ transform: booleanAttribute }) showConfigurator = true;
 
@@ -110,7 +104,6 @@ export class AppTopBarComponent implements OnDestroy {
 
         afterNextRender(() => {
             this.bindScrollListener();
-            this.initDocSearch();
         });
     }
 
@@ -130,15 +123,6 @@ export class AppTopBarComponent implements OnDestroy {
 
     toggleDarkMode() {
         this.configService.appState.update((state) => ({ ...state, darkTheme: !state.darkTheme }));
-    }
-
-    initDocSearch() {
-        docsearch({
-            appId: 'X3M9GFEM8Z',
-            apiKey: 'ce715b53658d2e2190d8751fad64e8e9',
-            indexName: 'SparkNG Documentation',
-            container: '#docsearch'
-        });
     }
 
     bindScrollListener() {

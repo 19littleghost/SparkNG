@@ -1,5 +1,4 @@
 import { AppDocSectionText } from '@/components/doc/app.docsectiontext';
-import { DISCORD_URL } from '@/utils/constants';
 import { Component } from '@angular/core';
 
 @Component({
@@ -22,12 +21,9 @@ import { Component } from '@angular/core';
 
             <h3>Community Support</h3>
             <p>
-                Assist other users by participating in the issue tracker, <a href="https://github.com/Aronno1920/SparkNG/discussions" target="_blank" rel="noopener noreferrer">GitHub discussions</a>, and the
-                <a [href]="discordUrl" target="_blank" rel="noopener noreferrer">SparkNG Discord</a>. Your expertise can help others solve problems and improve their experience with SparkNG.
+                Assist other users by participating in the issue tracker and <a href="https://github.com/Aronno1920/SparkNG/discussions" target="_blank" rel="noopener noreferrer">GitHub discussions</a>. Your expertise can help others solve problems and improve their experience with SparkNG.
             </p>
         </app-docsectiontext>
     `
 })
-export class HelpNeededDoc {
-    readonly discordUrl = DISCORD_URL;
-}
+export class HelpNeededDoc {}

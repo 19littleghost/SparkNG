@@ -1,0 +1,73 @@
+<button type="button" class="search-button" (click)="open()" aria-label="Search documentation">
+    <i class="pi pi-search"></i>
+    <span class="search-button-label">Search</span>
+    <span class="search-button-keys" aria-hidden="true">
+        <kbd>{{ modKey }}</kbd>
+        <kbd>K</kbd>
+    </span>
+</button>
+
+@if (visible()) {
+    <div #modalRoot class="search-container" (keydown.escape)="close()">
+        <div class="search-backdrop" (click)="close()"></div>
+        <div class="search-modal" role="dialog" aria-modal="true" aria-label="Search documentation">
+            <div class="search-form">
+                <i class="pi pi-search search-form-icon"></i>
+                <input
+                    #searchInput
+                    type="text"
+                    class="search-input"
+                    [value]="query()"
+                    (input)="onInput($event)"
+                    (keydown)="onModalKeydown($event)"
+                    placeholder="Search documentation, components and icons..."
+                    aria-label="Search documentation"
+                    autocomplete="off"
+                    spellcheck="false"
+                />
+                <button type="button" class="search-esc" (click)="close()" aria-label="Close search" tabindex="-1">esc</button>
+            </div>
+
+            <div class="search-results" role="listbox" aria-label="Search results">
+                @if (results().length === 0) {
+                    <div class="search-empty">
+                        @if (query().trim()) {
+                            No results for <span class="search-empty-term">"{{ query().trim() }}"</span>
+                        } @else {
+                            Start typing to search the documentation
+                        }
+                    </div>
+                } @else {
+                    @for (group of groups(); track group.section) {
+                        <div class="search-group">{{ group.section }}</div>
+                        @for (item of group.items; track item.routerLink + '|' + item.name; let i = $index) {
+                            <button
+                                type="button"
+                                class="search-hit"
+                                [class.search-hit-active]="group.startIndex + i === activeIndex()"
+                                [attr.aria-selected]="group.startIndex + i === activeIndex()"
+                                (mouseenter)="setActive(group.startIndex + i)"
+                                (click)="select(item)"
+                            >
+                                <i class="search-hit-icon {{ item.icon }}"></i>
+                                <span class="search-hit-label">
+                                    {{ item.before }}<mark>{{ item.match }}</mark
+                                    >{{ item.after }}
+                                </span>
+                                @if (item.group) {
+                                    <span class="search-hit-meta">{{ item.group }}</span>
+                                }
+                            </button>
+                        }
+                    }
+                }
+            </div>
+
+            <div class="search-footer" aria-hidden="true">
+                <span><kbd>↑</kbd><kbd>↓</kbd> to navigate</span>
+                <span><kbd>↵</kbd> to select</span>
+                <span><kbd>esc</kbd> to close</span>
+            </div>
+        </div>
+    </div>
+}
