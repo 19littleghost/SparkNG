@@ -2,6 +2,7 @@ import { AppConfigService } from '@/service/appconfigservice';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { ChangeDetectorRef, Component, Inject, OnDestroy, OnInit, PLATFORM_ID } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 import { MenuItem, SelectItem } from '@bdspark/sparkng/api';
 import { AvatarModule } from '@bdspark/sparkng/avatar';
 import { BadgeModule } from '@bdspark/sparkng/badge';
@@ -28,6 +29,7 @@ import { OverviewApp } from './samples/overviewapp.component';
     standalone: true,
     imports: [
         CommonModule,
+        RouterModule,
         ChartModule,
         SelectButton,
         TagModule,
@@ -55,19 +57,25 @@ import { OverviewApp } from './samples/overviewapp.component';
                 <p class="text-center mt-0 mb-8 text-surface-500 dark:text-surface-400 font-medium text-xl leading-relaxed lg:px-56">
                     80+ accessible, customizable Angular components under the MIT license. A community-maintained continuation of SparkNG v22, built to stay open.
                 </p>
-                <div class="flex items-center gap-3 mt-6 bg-surface-100 dark:bg-surface-800 border border-black/10 dark:border-white/10 rounded-full py-2 pl-5 pr-2">
-                    <code class="font-mono text-sm text-surface-700 dark:text-surface-300">{{ installCommand }}</code>
-                    <p-button
-                        [icon]="commandCopied ? 'pi pi-check' : 'pi pi-copy'"
-                        (onClick)="copyInstallCommand()"
-                        [pTooltip]="commandCopied ? 'Copied!' : 'Copy to Clipboard'"
-                        tooltipPosition="bottom"
-                        aria-label="Copy install command"
-                        text
-                        rounded
-                        severity="secondary"
-                        styleClass="w-8 h-8"
-                    />
+                <div class="flex flex-col items-center gap-4 mt-6">
+                    <a routerLink="/installation" class="linkbox linkbox-primary">
+                        <span>Get Started</span>
+                        <i class="pi pi-arrow-right ms-4"></i>
+                    </a>
+                    <div class="flex items-center gap-3 bg-surface-100 dark:bg-surface-800 border border-black/10 dark:border-white/10 rounded-full py-2 pl-5 pr-2">
+                        <code class="font-mono text-sm text-surface-700 dark:text-surface-300">{{ installCommand }}</code>
+                        <p-button
+                            [icon]="commandCopied ? 'pi pi-check' : 'pi pi-copy'"
+                            (onClick)="copyInstallCommand()"
+                            [pTooltip]="commandCopied ? 'Copied!' : 'Copy to Clipboard'"
+                            tooltipPosition="bottom"
+                            aria-label="Copy install command"
+                            text
+                            rounded
+                            severity="secondary"
+                            styleClass="w-8 h-8"
+                        />
+                    </div>
                 </div>
                 <div class="w-full flex lg:hidden items-center justify-center mt-16 mb-4">
                     <p-selectbutton [(ngModel)]="selectedSampleOption" [options]="sampleOptions" optionLabel="title" styleClass="dark:border dark:border-white/20">

@@ -17,9 +17,6 @@ import { RouterModule } from '@angular/router';
                             <li class="mb-6">
                                 <a [routerLink]="['installation']" class="text-surface-500 dark:text-surface-400 font-medium hover:text-primary rounded transition-all duration-300"> Get Started </a>
                             </li>
-                            <li class="mb-6">
-                                <a [routerLink]="['templates']" class="text-surface-500 dark:text-surface-400 font-medium hover:text-primary rounded transition-all duration-300"> Templates </a>
-                            </li>
                         </ul>
                     </div>
                     <div class="w-6/12 lg:w-3/12 flex">
@@ -27,9 +24,6 @@ import { RouterModule } from '@angular/router';
                             <li class="font-bold mb-8">Support</li>
                             <li class="mb-6">
                                 <a [href]="githubDiscussionsUrl" target="_blank" rel="noopener noreferrer" class="text-surface-500 dark:text-surface-400 font-medium hover:text-primary rounded transition-all duration-300">GitHub Discussions</a>
-                            </li>
-                            <li class="mb-6">
-                                <a [href]="discordUrl" target="_blank" rel="noopener noreferrer" class="text-surface-500 dark:text-surface-400 font-medium hover:text-primary rounded transition-all duration-300">Discord</a>
                             </li>
                         </ul>
                     </div>

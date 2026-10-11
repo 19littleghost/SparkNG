@@ -69,7 +69,7 @@ export interface MenuItem {
                     </button>
                     <app-configurator />
                 </li>
-                <li class="drawer-quickaction drawer-version-row">
+                <!-- <li class="drawer-quickaction drawer-version-row">
                     <div class="menu-icon">
                         <i class="pi pi-tag"></i>
                     </div>
@@ -85,7 +85,7 @@ export interface MenuItem {
                         }"
                     >
                     </p-select>
-                </li>
+                </li> -->
             </ol>
         </nav>
     </aside>`,

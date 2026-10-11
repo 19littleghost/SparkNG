@@ -31,11 +31,11 @@ import docsearch from '@docsearch/js';
                         <i class="pi pi-github text-surface-700 dark:text-surface-100"></i>
                     </a>
                 </li>
-                <li class="topbar-desktop-item">
+                <!-- <li class="topbar-desktop-item">
                     <a [href]="discordUrl" target="_blank" rel="noopener noreferrer" class="topbar-item" aria-label="SparkNG Discord" title="SparkNG Discord">
                         <i class="pi pi-discord text-surface-700 dark:text-surface-100"></i>
                     </a>
-                </li>
+                </li> -->
                 <li class="topbar-desktop-item">
                     <a [href]="githubDiscussionsUrl" target="_blank" rel="noopener noreferrer" class="topbar-item">
                         <i class="pi pi-comments text-surface-700 dark:text-surface-100"></i>
@@ -61,7 +61,7 @@ import docsearch from '@docsearch/js';
                     </button>
                     <app-configurator />
                 </li>
-                <li class="topbar-desktop-item">
+                <!-- <li class="topbar-desktop-item">
                     <p-select
                         [(ngModel)]="selectedVersion"
                         [options]="versions"
@@ -74,7 +74,7 @@ import docsearch from '@docsearch/js';
                         }"
                     >
                     </p-select>
-                </li>
+                </li> -->
                 <li *ngIf="showMenuButton" class="menu-button">
                     <button type="button" class="topbar-item menu-button" (click)="toggleMenu()" aria-label="Menu">
                         <i class="pi pi-bars"></i>

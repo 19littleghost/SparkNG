@@ -23,16 +23,6 @@
             ]
         },
         {
-            "name": "Templates",
-            "icon": "pi pi-clone",
-            "children": [
-                {
-                    "name": "Sparked",
-                    "routerLink": "/templates"
-                }
-            ]
-        },
-        {
             "name": "Theming",
             "icon": "pi pi-palette",
             "children": [
@@ -52,16 +42,6 @@
                     "name": "Tailwind CSS",
                     "icon": "pi pi-heart",
                     "routerLink": "/tailwind"
-                }
-            ]
-        },
-        {
-            "name": "AI Tools",
-            "icon": "pi pi-sparkles",
-            "children": [
-                {
-                    "name": "LLMs.txt",
-                    "routerLink": "/llms"
                 }
             ]
         },
@@ -520,11 +500,6 @@
             ]
         },
         {
-            "name": "Pass Through",
-            "icon": "pi pi-directions",
-            "routerLink": "/passthrough"
-        },
-        {
             "name": "Guides",
             "icon": "pi pi-book",
             "children": [
@@ -565,53 +540,8 @@
             "icon": "pi pi-arrow-up",
             "children": [
                 {
-                    "name": "From PrimeNG",
-                    "href": "https://sparkng.bdspark.com/migration/primeng"
-                },
-                {
                     "name": "Update SparkNG",
                     "routerLink": "/migration/update"
-                }
-            ]
-        },
-        {
-            "name": "Support",
-            "icon": "pi pi-question",
-            "children": [
-                {
-                    "name": "FAQ",
-                    "routerLink": "/faq"
-                },
-                {
-                    "name": "Discord",
-                    "href": "https://discord.gg/auSfMzVVPr"
-                },
-                {
-                    "name": "GitHub Discussions",
-                    "href": "https://github.com/Aronno1920/SparkNG/discussions"
-                }
-            ]
-        },
-        {
-            "name": "Discover",
-            "icon": "pi pi-search",
-            "children": [
-                {
-                    "name": "Roadmap",
-                    "routerLink": "/roadmap"
-                },
-                {
-                    "name": "Source Code",
-                    "href": "https://github.com/Aronno1920/SparkNG"
-                },
-                {
-                    "name": "Changelog",
-                    "href": "https://github.com/Aronno1920/SparkNG/releases"
-                },
-                {
-                    "name": "Contribution",
-                    "routerLink": "/contribution",
-                    "icon": "pi pi-users"
                 }
             ]
         }
