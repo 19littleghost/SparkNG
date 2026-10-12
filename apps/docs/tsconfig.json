@@ -14,8 +14,12 @@
         "strict": false,
         "paths": {
             "@/*": ["./*"],
-            "@bdspark/sparkng/types/*": ["../../packages/sparkng/src/types/*/public_api", "../../packages/sparkng/dist/types/*"],
-            "@bdspark/sparkng/*": ["../../packages/sparkng/src/*/public_api", "../../packages/sparkng/dist/*"]
+            "@angular/*": ["./node_modules/@angular/*"],
+            "@angular/core": ["./node_modules/@angular/core"],
+            "@angular/common": ["./node_modules/@angular/common"],
+            "@bdspark/sparkng/types/scheduler": ["../../packages/sparkng/src/types/scheduler/public_api"],
+            "@bdspark/sparkng/scheduler": ["../../packages/sparkng/src/scheduler/public_api"],
+            "@bdspark/sparkng-styles/scheduler": ["../../packages/sparkng-styles/src/scheduler/index"]
         }
     },
     "exclude": ["node_modules", "**/node_modules", "**/*.spec.ts", "**/*.test.ts"],
