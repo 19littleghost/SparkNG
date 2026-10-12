@@ -13,7 +13,9 @@
         "types": ["node"],
         "strict": false,
         "paths": {
-            "@/*": ["./*"]
+            "@/*": ["./*"],
+            "@bdspark/sparkng/types/*": ["../../packages/sparkng/src/types/*/public_api", "../../packages/sparkng/dist/types/*"],
+            "@bdspark/sparkng/*": ["../../packages/sparkng/src/*/public_api", "../../packages/sparkng/dist/*"]
         }
     },
     "exclude": ["node_modules", "**/node_modules", "**/*.spec.ts", "**/*.test.ts"],

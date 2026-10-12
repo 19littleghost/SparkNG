@@ -29,8 +29,8 @@ export function resolvePath(metaUrl) {
 export function removeBuild(metaUrl) {
     const { OUTPUT_DIR, __root } = resolvePath(metaUrl);
 
-    fs.remove(OUTPUT_DIR);
-    fs.remove(path.resolve(__root, '.angular'));
+    fs.removeSync(OUTPUT_DIR);
+    fs.removeSync(path.resolve(__root, '.angular'));
 }
 
 export function updatePackageJson(localPackageJson, callback) {

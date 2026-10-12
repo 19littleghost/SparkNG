@@ -7,11 +7,11 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/TODO-BDSPARK-ORG/sparkng.git",
+        "url": "git+https://github.com/Aronno1920/SparkNG.git",
         "directory": "packages/sparkng-motion"
     },
     "bugs": {
-        "url": "https://github.com/TODO-BDSPARK-ORG/sparkng/issues"
+        "url": "https://github.com/Aronno1920/SparkNG/issues"
     },
     "main": "./dist/index.mjs",
     "module": "./dist/index.mjs",

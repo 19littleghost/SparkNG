@@ -3,7 +3,7 @@
 
 # @bdspark/sparkng-styles
 
-Core style definitions and CSS utilities for [SparkNG](https://github.com/TODO-BDSPARK-ORG/sparkng).
+Core style definitions and CSS utilities for [SparkNG](https://github.com/Aronno1920/SparkNG).
 
 This package contains the base CSS architectural patterns and component-specific style definitions used across the SparkNG ecosystem. It leverages design tokens for highly customizable and consistent styling.
 

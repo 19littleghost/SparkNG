@@ -407,8 +407,4 @@ export class Editor extends BaseEditableHolder<EditorPassThrough> {
     }
 }
 
-@NgModule({
-    imports: [Editor, SharedModule],
-    exports: [Editor, SharedModule]
-})
-export class EditorModule {}
+export { EditorModule } from './modules/editor.module';

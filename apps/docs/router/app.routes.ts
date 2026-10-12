@@ -249,6 +249,7 @@ export const routes: Routes = [
                 loadChildren: () => import('@/pages/styleclass/routes')
             },
             { path: 'tag', loadChildren: () => import('@/pages/tag/routes') },
+            { path: 'scheduler', loadChildren: () => import('@/pages/scheduler/routes') },
             { path: 'table', loadChildren: () => import('@/pages/table/routes') },
             { path: 'tabs', loadChildren: () => import('@/pages/tabs/routes') },
             {

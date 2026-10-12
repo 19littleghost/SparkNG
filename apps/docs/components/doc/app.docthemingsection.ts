@@ -51,21 +51,19 @@ export class AppDocThemingSection {
         const navItems: any[] = [];
 
         // Check for CSS classes
-        if (APIDoc[docName]?.style?.classes?.values) {
-            const classes = APIDoc[docName].style.classes.values;
-
-            if (classes && classes.length > 0) {
-                this.classDoc.set({ classes });
-                navItems.push({
-                    id: this.header() + 'Classes',
-                    label: 'CSS Classes'
-                });
-            }
+        const classes = APIDoc[docName]?.style?.classes?.values || APIDoc[docName]?.classes?.values;
+        if (classes && classes.length > 0) {
+            this.classDoc.set({ classes });
+            navItems.push({
+                id: this.header() + 'Classes',
+                label: 'CSS Classes'
+            });
         }
 
         // Check for design tokens
-        if (ThemeDoc[themeDocKey]) {
-            this.tokensDoc.set(ThemeDoc[themeDocKey]);
+        const tokens = ThemeDoc[themeDocKey] || APIDoc[docName]?.tokens;
+        if (tokens) {
+            this.tokensDoc.set(tokens);
             navItems.push({
                 id: this.header() + 'DesignTokens',
                 label: 'Design Tokens'

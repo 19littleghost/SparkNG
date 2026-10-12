@@ -50,6 +50,19 @@
             "icon": "pi pi-compass",
             "children": [
                 {
+                    "name": "What's New",
+                    "children": [
+                        {
+                            "name": "Editor",
+                            "routerLink": "/editor"
+                        },
+                        {
+                            "name": "Scheduler",
+                            "routerLink": "/scheduler"
+                        }
+                    ]
+                },
+                {
                     "name": "Form",
                     "children": [
                         {
@@ -71,10 +84,6 @@
                         {
                             "name": "DatePicker",
                             "routerLink": "/datepicker"
-                        },
-                        {
-                            "name": "Editor",
-                            "routerLink": "/editor"
                         },
                         {
                             "name": "FloatLabel",

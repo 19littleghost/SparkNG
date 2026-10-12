@@ -121,7 +121,7 @@ export class AppDoc implements OnInit, OnChanges {
         toObservable(this._componentName).pipe(
             switchMap((name) => {
                 if (!name) return of(0);
-                const query = encodeURIComponent(`repo:Aronno1920/sparkng is:issue state:open label:"Component: ${name}"`);
+                const query = encodeURIComponent(`repo:Aronno1920/SparkNG is:issue state:open label:"Component: ${name}"`);
                 return from(fetch(`https://api.github.com/search/issues?q=${query}&per_page=1`).then((res) => res.json())).pipe(
                     map((data: any) => data.total_count ?? 0),
                     catchError(() => of(0))
@@ -162,13 +162,13 @@ export class AppDoc implements OnInit, OnChanges {
     }
 
     navigate() {
-        if (this.router.url.includes('#api')) {
+        if (this.router.url.includes('#api') || this.router.url.includes('reference/api')) {
             this.activateTab(1);
         }
-        if (this.router.url.toLowerCase().includes('classes') || this.router.url.toLowerCase().includes('designtokens')) {
+        if (this.router.url.toLowerCase().includes('classes') || this.router.url.toLowerCase().includes('designtokens') || this.router.url.includes('reference/theming')) {
             this.activateTab(2);
         }
-        if (this.router.url.includes('#pt')) {
+        if (this.router.url.includes('#pt') || this.router.url.includes('passthrough')) {
             this.activateTab(3);
         }
     }

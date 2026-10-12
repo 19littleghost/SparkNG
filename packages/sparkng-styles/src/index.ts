@@ -238,6 +238,9 @@ export * as TabViewStyle from '@bdspark/sparkng-styles/tabview';
 // Tag
 export * as TagStyle from '@bdspark/sparkng-styles/tag';
 
+// Scheduler
+export * as SchedulerStyle from '@bdspark/sparkng-styles/scheduler';
+
 // Terminal
 export * as TerminalStyle from '@bdspark/sparkng-styles/terminal';
 

@@ -3,7 +3,7 @@
 
 # @bdspark/sparkng-themes
 
-Official themes and presets for [SparkNG](https://github.com/TODO-BDSPARK-ORG/sparkng).
+Official themes and presets for [SparkNG](https://github.com/Aronno1920/SparkNG).
 
 This package contains a collection of professionally designed themes and presets for SparkNG, powered by the core engine in `@bdspark/sparkng-styled`. It includes design tokens, component styles, and various aesthetic flavors to jumpstart your project.
 

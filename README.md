@@ -85,7 +85,7 @@ The [contribution guide](https://sparkng.bdspark.com/contribution) covers the wo
 
 ## Support
 
-Community only — there is no SLA and no commercial support. [Issues](https://github.com/TODO-BDSPARK-ORG/sparkng/issues) for bugs, [Discussions](https://github.com/TODO-BDSPARK-ORG/sparkng/discussions) for questions.
+Community only — there is no SLA and no commercial support. [Issues](https://github.com/Aronno1920/SparkNG/issues) for bugs, [Discussions](https://github.com/Aronno1920/SparkNG/discussions) for questions.
 
 ## License
 

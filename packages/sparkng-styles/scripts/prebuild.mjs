@@ -20,7 +20,7 @@ export default function preBuild() {
                 root.walkDecls((decl) => {
                     const { prop, value } = decl;
 
-                    if (!knownProperties.includes(prop)) {
+                    if (!knownProperties.includes(prop) && !prop.startsWith('--')) {
                         // eslint-disable-next-line no-console
                         console.error(`❌ Invalid CSS prop: \x1b[41m ${prop} \x1b[0m (value: "${value}") [line ${decl.source.start.line}](${file})\n`);
                         hasError = true;

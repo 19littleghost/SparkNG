@@ -7,17 +7,39 @@ import { Component } from '@angular/core';
     standalone: true,
     imports: [AppCode],
     template: `
-        <app-code [code]="importCode" [hideToggleCode]="true"></app-code>
+        <h3>Compound TextEditor (Recommended)</h3>
+        <app-code [code]="compoundImportCode" [hideToggleCode]="true"></app-code>
         <br />
-        <app-code [code]="usageCode" [hideToggleCode]="true"></app-code>
+        <app-code [code]="compoundUsageCode" [hideToggleCode]="true"></app-code>
+        <br />
+        <h3>Classic Editor</h3>
+        <app-code [code]="classicImportCode" [hideToggleCode]="true"></app-code>
+        <br />
+        <app-code [code]="classicUsageCode" [hideToggleCode]="true"></app-code>
     `
 })
 export class UsageDoc {
-    importCode: Code = {
+    compoundImportCode: Code = {
+        typescript: `import { EditorModule, EditorUIModule } from '@bdspark/sparkng/editor';
+
+// Or standalone part imports:
+// import { TextEditorRoot, TextEditorToolbar, TextEditorContent, EditorToolbarUI } from '@bdspark/sparkng/editor';`
+    };
+
+    compoundUsageCode: Code = {
+        html: `<p-text-editor-root [(value)]="content">
+    <p-text-editor-toolbar>
+        <p-editor-toolbar-ui />
+    </p-text-editor-toolbar>
+    <p-text-editor-content />
+</p-text-editor-root>`
+    };
+
+    classicImportCode: Code = {
         typescript: `import { EditorModule } from '@bdspark/sparkng/editor';`
     };
 
-    usageCode: Code = {
-        html: `<p-editor />`
+    classicUsageCode: Code = {
+        html: `<p-editor [(ngModel)]="text" [style]="{ height: '320px' }" />`
     };
 }

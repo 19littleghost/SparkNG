@@ -5,11 +5,11 @@
     "homepage": "https://sparkng.bdspark.com/",
     "repository": {
         "type": "git",
-        "url": "https://github.com/TODO-BDSPARK-ORG/sparkng.git"
+        "url": "https://github.com/Aronno1920/SparkNG.git"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/TODO-BDSPARK-ORG/sparkng/issues"
+        "url": "https://github.com/Aronno1920/SparkNG/issues"
     },
     "scripts": {
         "clean": "npx rimraf --glob **/node_modules **/dist **/.angular ./pnpm-lock.yaml",

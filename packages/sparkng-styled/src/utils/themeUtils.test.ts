@@ -21,7 +21,7 @@ function callGetPreset(preset: any, options: any = {}) {
 }
 
 describe('ThemeUtils.getCommon', () => {
-    // Regression coverage for https://github.com/TODO-BDSPARK-ORG/sparkng/issues/1555:
+    // Regression coverage for https://github.com/Aronno1920/SparkNG/issues/1555:
     // getCommon used to destructure `semantic`/`extend`/`colorScheme` via chained,
     // rest-parameter destructuring assignments (`const { colorScheme, ...rest } = semantic || {}`)
     // spread across a single statement. Any of those inputs being missing or null must

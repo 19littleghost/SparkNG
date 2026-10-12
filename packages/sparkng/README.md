@@ -10,7 +10,7 @@
     <a href="https://www.npmjs.com/package/@bdspark/sparkng">
       <img src="https://img.shields.io/npm/dm/@bdspark/sparkng.svg" alt="npm downloads">
     </a>
-    <a href="https://github.com/TODO-BDSPARK-ORG/sparkng/blob/main/LICENSE">
+    <a href="https://github.com/Aronno1920/SparkNG/blob/main/LICENSE">
       <img src="https://img.shields.io/npm/l/@bdspark/sparkng.svg" alt="License">
     </a>
   </p>
@@ -81,8 +81,8 @@ For detailed documentation, interactive component demos, theming guides, and mor
 
 ## 🤝 Contributing
 
-We welcome and appreciate contributions from the community! If you're interested in helping improve SparkNG, please take a look at our [Contributing Guide](https://github.com/TODO-BDSPARK-ORG/sparkng/blob/main/CONTRIBUTING.md) for instructions on how to get started.
+We welcome and appreciate contributions from the community! If you're interested in helping improve SparkNG, please take a look at our [Contributing Guide](https://github.com/Aronno1920/SparkNG/blob/main/CONTRIBUTING.md) for instructions on how to get started.
 
 ## 📄 License
 
-SparkNG is licensed under the [MIT License](https://github.com/TODO-BDSPARK-ORG/sparkng/blob/main/LICENSE.md).
+SparkNG is licensed under the [MIT License](https://github.com/Aronno1920/SparkNG/blob/main/LICENSE.md).

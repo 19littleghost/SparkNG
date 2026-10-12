@@ -3,7 +3,7 @@
 
 # @bdspark/sparkng-motion
 
-Motion and animation utilities for [SparkNG](https://github.com/TODO-BDSPARK-ORG/sparkng).
+Motion and animation utilities for [SparkNG](https://github.com/Aronno1920/SparkNG).
 
 This package provides a programmatic way to manage CSS transitions and animations within the SparkNG ecosystem. It offers a robust API for controlling motion lifecycles, handling dynamic dimensions, and ensuring accessibility.
 

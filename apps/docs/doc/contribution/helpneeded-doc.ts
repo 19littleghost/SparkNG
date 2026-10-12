@@ -21,7 +21,8 @@ import { Component } from '@angular/core';
 
             <h3>Community Support</h3>
             <p>
-                Assist other users by participating in the issue tracker and <a href="https://github.com/Aronno1920/SparkNG/discussions" target="_blank" rel="noopener noreferrer">GitHub discussions</a>. Your expertise can help others solve problems and improve their experience with SparkNG.
+                Assist other users by participating in the issue tracker and <a href="https://github.com/Aronno1920/SparkNG/discussions" target="_blank" rel="noopener noreferrer">GitHub discussions</a>. Your expertise can help others solve problems
+                and improve their experience with SparkNG.
             </p>
         </app-docsectiontext>
     `

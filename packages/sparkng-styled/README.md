@@ -3,7 +3,7 @@
 
 # @bdspark/sparkng-styled
 
-Styled utilities and theme management system for [SparkNG](https://github.com/TODO-BDSPARK-ORG/sparkng).
+Styled utilities and theme management system for [SparkNG](https://github.com/Aronno1920/SparkNG).
 
 This package provides the core engine for the design system in SparkNG, offering powerful tools for theming, CSS-in-JS capabilities, and dynamic styling.
 
