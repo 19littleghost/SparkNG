@@ -896,7 +896,7 @@ export class SchedulerAgendaScope {
         const groups: Map<string, { date: Date; events: ProcessedEvent[] }> = new Map();
 
         for (const ev of events) {
-            const key = formatDate(ev.startDate, 'YYYY-MM-DD');
+            const key = `${ev.startDate.getFullYear()}-${ev.startDate.getMonth() + 1}-${ev.startDate.getDate()}`;
             if (!groups.has(key)) {
                 groups.set(key, { date: new Date(ev.startDate.getFullYear(), ev.startDate.getMonth(), ev.startDate.getDate()), events: [] });
             }

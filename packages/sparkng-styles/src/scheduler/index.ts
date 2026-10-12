@@ -43,57 +43,70 @@ export const style = /*css*/ `
 .p-scheduler-header {
     border-bottom: 1px solid var(--p-scheduler-border-color);
     background: var(--p-scheduler-header-bg);
-    padding: 0.75rem 1.25rem;
+    padding: 0.5rem 0.75rem;
     width: 100%;
+    max-width: 100%;
     box-sizing: border-box;
     overflow: hidden;
+    flex-shrink: 0;
 }
 
 .p-scheduler-header-content {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
-    align-items: center;
-    width: 100%;
-    gap: 0.75rem;
-    white-space: nowrap;
-    min-width: 0;
-}
-
-.p-scheduler-header-left,
-.p-scheduler-navigation {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    gap: 0.375rem;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+/* Left Side: < Today > */
+.p-scheduler-header-left,
+.p-scheduler-navigation {
+    display: inline-flex;
+    align-items: center;
     justify-content: flex-start;
-    justify-self: start;
+    flex: 0 0 auto;
     min-width: 0;
 }
 
+/* Center: October 2026 / Oct 11 – 17, 2026 */
 .p-scheduler-header-center,
 .p-scheduler-title {
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-self: center;
+    flex: 1 1 auto;
     text-align: center;
     min-width: 0;
+    overflow: hidden;
+    padding: 0 0.25rem;
 }
 
+/* Right Side: "Month", "Week", "Day", "Agenda", "Timeline" */
 .p-scheduler-header-right,
 .p-scheduler-view-selector {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: flex-end;
-    justify-self: end;
+    flex: 0 0 auto;
     min-width: 0;
 }
 
 .p-scheduler-title-text {
     margin: 0;
-    font-size: 1.1875rem;
+    font-size: 0.9375rem;
     font-weight: 700;
     color: var(--p-scheduler-color);
     white-space: nowrap;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
     letter-spacing: -0.01em;
+    line-height: 1.25;
 }
 
 /* Button Groups: Navigation (< Today >) and Views */
@@ -104,8 +117,10 @@ export const style = /*css*/ `
     background: var(--p-scheduler-hover-bg, #f1f5f9);
     border: 1px solid var(--p-scheduler-border-color);
     border-radius: 8px;
-    padding: 3px;
+    padding: 2px;
     gap: 2px;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .p-scheduler-btn {
@@ -116,12 +131,12 @@ export const style = /*css*/ `
     border: none;
     background: transparent;
     color: var(--p-scheduler-color);
-    padding: 0.375rem 0.75rem;
-    font-size: 0.8125rem;
+    padding: 0.25rem 0.4375rem;
+    font-size: 0.75rem;
     font-weight: 600;
     border-radius: 6px;
     cursor: pointer;
-    line-height: 1.25;
+    line-height: 1.2;
     transition: background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
     white-space: nowrap;
 }
@@ -137,6 +152,42 @@ export const style = /*css*/ `
     color: var(--p-scheduler-primary);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     font-weight: 700;
+}
+
+.p-scheduler-btn-prev,
+.p-scheduler-btn-next {
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-scheduler-btn-today {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+}
+
+@media (max-width: 520px) {
+    .p-scheduler-header {
+        padding: 0.375rem 0.5rem;
+    }
+    .p-scheduler-header-content {
+        gap: 0.25rem;
+    }
+    .p-scheduler-title-text {
+        font-size: 0.8125rem;
+    }
+    .p-scheduler-btn {
+        padding: 0.2rem 0.3125rem;
+        font-size: 0.6875rem;
+    }
+    .p-scheduler-btn-prev,
+    .p-scheduler-btn-next {
+        width: 22px;
+        height: 22px;
+    }
 }
 
 .p-scheduler-btn-primary {

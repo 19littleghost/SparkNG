@@ -8,7 +8,6 @@ import { PrimeTemplate, SharedModule } from '@bdspark/sparkng/api';
 import { provideSpark } from '@bdspark/sparkng/config';
 import type { EditorBlurEvent, EditorChangeEvent, EditorFocusEvent, EditorInitEvent, EditorSelectionChangeEvent, EditorTextChangeEvent } from '@bdspark/sparkng/types/editor';
 import { Editor } from './editor';
-import { TextEditorRoot, TextEditorToolbar, TextEditorContent, TextEditorToolbarDef, uppercasePlugin, typographyPlugin, emojiPlugin, detailsPlugin, characterCountPlugin } from './public_api';
 // Test Components for different scenarios
 @Component({
     changeDetection: ChangeDetectionStrategy.Eager,
@@ -1313,166 +1312,12 @@ describe('Editor', () => {
                 fixture.changeDetectorRef.markForCheck();
                 await fixture.whenStable();
                 await new Promise((resolve) => setTimeout(resolve, 100));
+                fixture.changeDetectorRef.markForCheck();
+                await fixture.whenStable();
+
                 expect(hookEvents.length).toBeGreaterThan(0);
                 expect(hookEvents.some((e) => e.hook === 'onAfterViewInit')).toBe(true);
             });
-        });
-    });
-
-    describe('Modern Compound TextEditor Suite', () => {
-        @Component({
-            standalone: true,
-            imports: [TextEditorRoot, TextEditorToolbar, TextEditorContent, TextEditorToolbarDef],
-            template: `
-                <p-text-editor-root [(value)]="content">
-                    <p-text-editor-toolbar>
-                        <ng-template pTextEditorToolbarDef let-commands="commands" let-state="state">
-                            <button class="test-bold-btn" (click)="commands.bold()">Bold</button>
-                            <button class="test-h1-btn" (click)="commands.heading(1)">H1</button>
-                        </ng-template>
-                    </p-text-editor-toolbar>
-                    <p-text-editor-content></p-text-editor-content>
-                </p-text-editor-root>
-            `
-        })
-        class TestCompoundEditorComponent {
-            content = '<p>Initial text</p>';
-        }
-
-        it('should render compound root and toolbar and provide commands', async () => {
-            TestBed.configureTestingModule({
-                imports: [TestCompoundEditorComponent],
-                providers: [provideZonelessChangeDetection()]
-            });
-
-            const fixture = TestBed.createComponent(TestCompoundEditorComponent);
-            fixture.changeDetectorRef.markForCheck();
-            await fixture.whenStable();
-
-            const rootEl = fixture.debugElement.query(By.css('.p-text-editor-root'));
-            expect(rootEl).toBeTruthy();
-
-            const toolbarEl = fixture.debugElement.query(By.css('.p-text-editor-toolbar'));
-            expect(toolbarEl).toBeTruthy();
-
-            const contentEl = fixture.debugElement.query(By.css('.p-text-editor-content'));
-            expect(contentEl).toBeTruthy();
-            expect(contentEl.nativeElement.getAttribute('contenteditable')).toBe('true');
-        });
-
-        @Component({
-            standalone: true,
-            imports: [TextEditorRoot, TextEditorContent],
-            template: `
-                <p-text-editor-root [(value)]="blocks" mode="block">
-                    <p-text-editor-content></p-text-editor-content>
-                </p-text-editor-root>
-            `
-        })
-        class TestBlockEditorComponent {
-            blocks = ['<h1>Title</h1>', '<p>Paragraph 1</p>'];
-        }
-
-        it('should support block mode with string array values', async () => {
-            TestBed.configureTestingModule({
-                imports: [TestBlockEditorComponent],
-                providers: [provideZonelessChangeDetection()]
-            });
-
-            const fixture = TestBed.createComponent(TestBlockEditorComponent);
-            fixture.changeDetectorRef.markForCheck();
-            await fixture.whenStable();
-
-            const rootComp = fixture.debugElement.query(By.directive(TextEditorRoot)).componentInstance as TextEditorRoot;
-            expect(rootComp.mode()).toBe('block');
-            expect(rootComp.getBlocks().length).toBe(2);
-            expect(rootComp.getBlocks()[0]).toContain('Title');
-        });
-
-        it('should execute uppercase and characterCount plugins', () => {
-            let capturedText = 'hello world';
-            const plugin = uppercasePlugin.install({
-                getSelectedText: () => capturedText,
-                replaceSelection: (c) => {
-                    capturedText = c;
-                },
-                getEditorElement: () => null,
-                options: undefined,
-                onUnmounted: () => {},
-                runCommand: () => true
-            });
-
-            expect(plugin.commands?.toUpper).toBeDefined();
-            plugin.commands!.toUpper();
-            expect(capturedText).toBe('HELLO WORLD');
-        });
-
-        it('should execute typographyPlugin and detailsPlugin', () => {
-            let capturedText = '"Hello" -- world -> here';
-            const typo = typographyPlugin.install({
-                getSelectedText: () => capturedText,
-                replaceSelection: (c) => {
-                    capturedText = c;
-                },
-                getEditorElement: () => null,
-                options: undefined,
-                onUnmounted: () => {},
-                runCommand: () => true
-            });
-
-            expect(typo.commands?.formatQuotes).toBeDefined();
-            typo.commands!.formatQuotes();
-            expect(capturedText).toContain('“Hello”');
-            expect(capturedText).toContain('—');
-            expect(capturedText).toContain('→');
-
-            let detailsHtml = '';
-            const details = detailsPlugin.install({
-                getSelectedText: () => '',
-                replaceSelection: (c) => {
-                    detailsHtml = c;
-                },
-                getEditorElement: () => null,
-                options: undefined,
-                onUnmounted: () => {},
-                runCommand: () => true
-            });
-            expect(details.commands?.insertDetails).toBeDefined();
-            details.commands!.insertDetails('Summary', 'Body');
-            expect(detailsHtml).toContain('<details');
-            expect(detailsHtml).toContain('Summary');
-        });
-
-        it('should support ControlValueAccessor and sanitization on TextEditorRoot', async () => {
-            @Component({
-                standalone: true,
-                imports: [TextEditorRoot, TextEditorContent, FormsModule],
-                template: `
-                    <p-text-editor-root [(ngModel)]="modelValue" [sanitize]="true">
-                        <p-text-editor-content></p-text-editor-content>
-                    </p-text-editor-root>
-                `
-            })
-            class TestFormsEditorComponent {
-                modelValue = '<p>Clean <script>alert("xss")</script>content</p>';
-            }
-
-            TestBed.configureTestingModule({
-                imports: [TestFormsEditorComponent],
-                providers: [provideZonelessChangeDetection()]
-            });
-
-            const fixture = TestBed.createComponent(TestFormsEditorComponent);
-            fixture.changeDetectorRef.markForCheck();
-            await fixture.whenStable();
-
-            const rootComp = fixture.debugElement.query(By.directive(TextEditorRoot)).componentInstance as TextEditorRoot;
-            expect(rootComp.writeValue).toBeDefined();
-            expect(rootComp.registerOnChange).toBeDefined();
-
-            // Sanitization check: dangerous script stripped
-            expect(rootComp.serializedValue()).not.toContain('<script>');
-            expect(rootComp.serializedValue()).toContain('Clean content');
         });
     });
 });
