@@ -1,7 +1,7 @@
 import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/dataview/accessibility-doc';
 import { BasicDoc } from '@/doc/dataview/basic-doc';
-import { ImportDoc } from '@/doc/dataview/import-doc';
+import { UsageDoc } from '@/doc/dataview/usage-doc';
 import { LayoutDoc } from '@/doc/dataview/layout-doc';
 import { LoadingDoc } from '@/doc/dataview/loading-doc';
 import { PaginationDoc } from '@/doc/dataview/pagination-doc';
@@ -30,9 +30,9 @@ export class DataViewDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

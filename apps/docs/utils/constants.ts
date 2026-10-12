@@ -6,4 +6,4 @@ export const LINKEDIN_URL = 'https://www.linkedin.com/company/bdspark';
 
 // Sparked — the MIT licensed Angular admin template built with SparkNG.
 export const SPARKED_DEMO_URL = 'https://sparked.sparkng.bdspark.com';
-export const SPARKED_REPO_URL = 'https://github.com/TODO-BDSPARK-ORG/sparked';
+export const SPARKED_REPO_URL = 'https://github.com/Aronno1920/sparked';

@@ -4,7 +4,7 @@ import { BasicDoc } from '@/doc/checkbox/basic-doc';
 import { DisabledDoc } from '@/doc/checkbox/disabled-doc';
 import { DynamicDoc } from '@/doc/checkbox/dynamic-doc';
 import { FilledDoc } from '@/doc/checkbox/filled-doc';
-import { ImportDoc } from '@/doc/checkbox/import-doc';
+import { UsageDoc } from '@/doc/checkbox/usage-doc';
 import { IndeterminateDoc } from '@/doc/checkbox/indeterminate-doc';
 import { InvalidDoc } from '@/doc/checkbox/invalid-doc';
 import { MultipleDoc } from '@/doc/checkbox/multiple-doc';
@@ -34,9 +34,9 @@ export class CheckboxDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

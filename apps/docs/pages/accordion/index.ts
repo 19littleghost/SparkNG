@@ -5,7 +5,7 @@ import { BasicDoc } from '@/doc/accordion/basic-doc';
 import { ControlledDoc } from '@/doc/accordion/controlled-doc';
 import { DisabledDoc } from '@/doc/accordion/disabled-doc';
 import { DynamicDoc } from '@/doc/accordion/dynamic-doc';
-import { ImportDoc } from '@/doc/accordion/import-doc';
+import { UsageDoc } from '@/doc/accordion/usage-doc';
 import { MultipleDoc } from '@/doc/accordion/multiple-doc';
 import { PTComponent } from '@/doc/accordion/pt/PTComponent';
 import { TemplateDoc } from '@/doc/accordion/template-doc';
@@ -29,9 +29,9 @@ export class AccordionDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

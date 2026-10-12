@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/progressbar/accessibility-doc';
 import { BasicDoc } from '@/doc/progressbar/basic-doc';
 import { DynamicDoc } from '@/doc/progressbar/dynamic-doc';
-import { ImportDoc } from '@/doc/progressbar/import-doc';
+import { UsageDoc } from '@/doc/progressbar/usage-doc';
 import { IndeterminateDoc } from '@/doc/progressbar/indeterminate-doc';
 import { PTComponent } from '@/doc/progressbar/pt/PTComponent';
 import { TemplateDoc } from '@/doc/progressbar/template-doc';
@@ -26,9 +26,9 @@ export class ProgressBarDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

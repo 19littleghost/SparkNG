@@ -6,7 +6,7 @@ import { BaseZIndexDoc } from '@/doc/overlay/basezindex-doc';
 import { OverlayBasicDemo } from '@/doc/overlay/basic-doc';
 import { EventsDoc } from '@/doc/overlay/events-doc';
 import { HideOnEscapeDoc } from '@/doc/overlay/hideonescape-doc';
-import { ImportDoc } from '@/doc/overlay/import-doc';
+import { UsageDoc } from '@/doc/overlay/usage-doc';
 import { ModeDoc } from '@/doc/overlay/mode-doc';
 import { PTComponent } from '@/doc/overlay/pt/PTComponent';
 import { ResponsiveDoc } from '@/doc/overlay/responsive-doc';
@@ -32,9 +32,9 @@ export class OverlayDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

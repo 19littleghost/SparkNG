@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/tieredmenu/accessibility-doc';
 import { BasicDoc } from '@/doc/tieredmenu/basic-doc';
 import { CommandDoc } from '@/doc/tieredmenu/command-doc';
-import { ImportDoc } from '@/doc/tieredmenu/import-doc';
+import { UsageDoc } from '@/doc/tieredmenu/usage-doc';
 import { PopupDoc } from '@/doc/tieredmenu/popup-doc';
 import { PTComponent } from '@/doc/tieredmenu/pt/PTComponent';
 import { RouterDoc } from '@/doc/tieredmenu/router-doc';
@@ -25,9 +25,9 @@ import { Component } from '@angular/core';
 export class TieredMenuDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

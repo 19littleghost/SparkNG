@@ -7,7 +7,7 @@ import { DisabledDoc } from '@/doc/listbox/disabled-doc';
 import { DragDropDoc } from '@/doc/listbox/dragdrop-doc';
 import { FilterDoc } from '@/doc/listbox/filter-doc';
 import { GroupDoc } from '@/doc/listbox/group-doc';
-import { ImportDoc } from '@/doc/listbox/import-doc';
+import { UsageDoc } from '@/doc/listbox/usage-doc';
 import { InvalidDoc } from '@/doc/listbox/invalid-doc';
 import { MultipleDoc } from '@/doc/listbox/multiple-doc';
 import { PTComponent } from '@/doc/listbox/pt/PTComponent';
@@ -33,9 +33,9 @@ import { Component } from '@angular/core';
 export class ListboxDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

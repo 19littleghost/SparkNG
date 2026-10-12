@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/dialog/accessibility-doc';
 import { BasicDoc } from '@/doc/dialog/basic-doc';
 import { HeadlessDoc } from '@/doc/dialog/headless-doc';
-import { ImportDoc } from '@/doc/dialog/import-doc';
+import { UsageDoc } from '@/doc/dialog/usage-doc';
 import { LongContentDoc } from '@/doc/dialog/longcontent-doc';
 import { MaximizableDoc } from '@/doc/dialog/maximizable-doc';
 import { PositionDoc } from '@/doc/dialog/position-doc';
@@ -24,9 +24,9 @@ export class DialogDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

@@ -1,7 +1,7 @@
 import { AppDoc } from '@/components/doc/app.doc';
 import { AnimationDoc } from '@/doc/styleclass/animation-doc';
 import { HideOnResizeDoc } from '@/doc/styleclass/hideonresize-doc';
-import { ImportDoc } from '@/doc/styleclass/import-doc';
+import { UsageDoc } from '@/doc/styleclass/usage-doc';
 import { ToggleClassDoc } from '@/doc/styleclass/toggleclass-doc';
 import { Component } from '@angular/core';
 
@@ -19,9 +19,9 @@ import { Component } from '@angular/core';
 export class StyleClassDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'toggleclass',

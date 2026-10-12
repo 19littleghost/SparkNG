@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/popover/accessibility-doc';
 import { BasicDoc } from '@/doc/popover/basic-doc';
 import { DataTableDoc } from '@/doc/popover/datatable-doc';
-import { ImportDoc } from '@/doc/popover/import-doc';
+import { UsageDoc } from '@/doc/popover/usage-doc';
 import { PTComponent } from '@/doc/popover/pt/PTComponent';
 import { SelectDataDoc } from '@/doc/popover/selectdata-doc';
 import { TargetDoc } from '@/doc/popover/target-doc';
@@ -27,9 +27,9 @@ export class PopoverDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

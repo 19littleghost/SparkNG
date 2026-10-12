@@ -3,7 +3,7 @@ import { BasicDoc } from '@/doc/dragdrop/basic-doc';
 import { DataTableDoc } from '@/doc/dragdrop/datatable-doc';
 import { DragHandleDoc } from '@/doc/dragdrop/draghandle-doc';
 import { DropIndicatorDoc } from '@/doc/dragdrop/dropindicator-doc';
-import { ImportDoc } from '@/doc/dragdrop/import-doc';
+import { UsageDoc } from '@/doc/dragdrop/usage-doc';
 import { Component } from '@angular/core';
 
 @Component({
@@ -15,9 +15,9 @@ import { Component } from '@angular/core';
 export class DragDropDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

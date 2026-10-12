@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/slider/accessibility-doc';
 import { BasicDoc } from '@/doc/slider/basic-doc';
 import { FilterDoc } from '@/doc/slider/filter-doc';
-import { ImportDoc } from '@/doc/slider/import-doc';
+import { UsageDoc } from '@/doc/slider/usage-doc';
 import { InputDoc } from '@/doc/slider/input-doc';
 import { PTComponent } from '@/doc/slider/pt/PTComponent';
 import { RangeDoc } from '@/doc/slider/range-doc';
@@ -21,9 +21,9 @@ export class SliderDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

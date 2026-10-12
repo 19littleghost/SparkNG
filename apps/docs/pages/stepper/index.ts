@@ -1,7 +1,7 @@
 import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/stepper/accessibility-doc';
 import { BasicDoc } from '@/doc/stepper/basic-doc';
-import { ImportDoc } from '@/doc/stepper/import-doc';
+import { UsageDoc } from '@/doc/stepper/usage-doc';
 import { LinearDoc } from '@/doc/stepper/linear-doc';
 import { PTComponent } from '@/doc/stepper/pt/PTComponent';
 import { StepsOnlyDoc } from '@/doc/stepper/stepsonly';
@@ -25,9 +25,9 @@ import { Component } from '@angular/core';
 export class StepperDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'horizontal',

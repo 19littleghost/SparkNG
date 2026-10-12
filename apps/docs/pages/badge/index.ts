@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/badge/accessibility-doc';
 import { BasicDoc } from '@/doc/badge/basic-doc';
 import { ButtonDoc } from '@/doc/badge/button-doc';
-import { ImportDoc } from '@/doc/badge/import-doc';
+import { UsageDoc } from '@/doc/badge/usage-doc';
 import { OverlayDoc } from '@/doc/badge/overlay-doc';
 import { PTComponent } from '@/doc/badge/pt/PTComponent';
 import { SeverityDoc } from '@/doc/badge/severity-doc';
@@ -26,9 +26,9 @@ export class BadgeDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

@@ -10,7 +10,7 @@ import { FloatLabelDoc } from '@/doc/multiselect/floatlabel-doc';
 import { FluidDoc } from '@/doc/multiselect/fluid-doc';
 import { GroupDoc } from '@/doc/multiselect/group-doc';
 import { IftaLabelDoc } from '@/doc/multiselect/iftalabel-doc';
-import { ImportDoc } from '@/doc/multiselect/import-doc';
+import { UsageDoc } from '@/doc/multiselect/usage-doc';
 import { InvalidDoc } from '@/doc/multiselect/invalid-doc';
 import { LoadingStateDoc } from '@/doc/multiselect/loadingstate-doc';
 import { PTComponent } from '@/doc/multiselect/pt/PTComponent';
@@ -38,9 +38,9 @@ export class MultiSelectDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

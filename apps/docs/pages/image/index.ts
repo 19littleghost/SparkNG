@@ -1,7 +1,7 @@
 import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/Image/accessibility-doc';
 import { BasicDoc } from '@/doc/Image/basic-doc';
-import { ImportDoc } from '@/doc/Image/import-doc';
+import { UsageDoc } from '@/doc/Image/usage-doc';
 import { PreviewDoc } from '@/doc/Image/preview-doc';
 import { PTComponent } from '@/doc/Image/pt/PTComponent';
 import { TemplateDoc } from '@/doc/Image/template-doc';
@@ -15,9 +15,9 @@ import { Component } from '@angular/core';
 export class ImageDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

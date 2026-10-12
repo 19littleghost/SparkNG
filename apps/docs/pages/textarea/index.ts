@@ -7,7 +7,7 @@ import { FilledDoc } from '@/doc/textarea/filled-doc';
 import { FloatlabelDoc } from '@/doc/textarea/floatlabel-doc';
 import { FluidDoc } from '@/doc/textarea/fluid-doc';
 import { IftaLabelDoc } from '@/doc/textarea/iftalabel-doc';
-import { ImportDoc } from '@/doc/textarea/import-doc';
+import { UsageDoc } from '@/doc/textarea/usage-doc';
 import { InvalidDoc } from '@/doc/textarea/invalid-doc';
 import { PTComponent } from '@/doc/textarea/pt/PTComponent';
 import { ReactiveFormsDoc } from '@/doc/textarea/reactiveforms-doc';
@@ -32,9 +32,9 @@ export class TextareaDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

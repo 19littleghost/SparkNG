@@ -3,7 +3,7 @@ import { AccessibilityDoc } from '@/doc/orderlist/accessibility-doc';
 import { BasicDoc } from '@/doc/orderlist/basic-doc';
 import { DragDropDoc } from '@/doc/orderlist/dragdrop-doc';
 import { FilterDoc } from '@/doc/orderlist/filter-doc';
-import { ImportDoc } from '@/doc/orderlist/import-doc';
+import { UsageDoc } from '@/doc/orderlist/usage-doc';
 import { PTComponent } from '@/doc/orderlist/pt/PTComponent';
 import { TemplateDoc } from '@/doc/orderlist/template-doc';
 import { Component } from '@angular/core';
@@ -18,9 +18,9 @@ export class OrderListDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

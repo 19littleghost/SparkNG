@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/picklist/accessibility-doc';
 import { BasicDoc } from '@/doc/picklist/basic-doc';
 import { FilterDoc } from '@/doc/picklist/filter-doc';
-import { ImportDoc } from '@/doc/picklist/import-doc';
+import { UsageDoc } from '@/doc/picklist/usage-doc';
 import { PTComponent } from '@/doc/picklist/pt/PTComponent';
 import { TemplateDoc } from '@/doc/picklist/template-doc';
 import { Component } from '@angular/core';
@@ -24,9 +24,9 @@ import { Component } from '@angular/core';
 export class PickListDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

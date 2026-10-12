@@ -1,6 +1,6 @@
 import { AppDoc } from '@/components/doc/app.doc';
 import { BasicDoc } from '@/doc/focustrap/basic-doc';
-import { ImportDoc } from '@/doc/focustrap/import-doc';
+import { UsageDoc } from '@/doc/focustrap/usage-doc';
 import { Component } from '@angular/core';
 
 @Component({
@@ -11,9 +11,9 @@ import { Component } from '@angular/core';
 export class FocusTrapDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

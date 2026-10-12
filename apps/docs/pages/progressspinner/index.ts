@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/progressspinner/accessibility-doc';
 import { BasicDoc } from '@/doc/progressspinner/basic-doc';
 import { CustomDoc } from '@/doc/progressspinner/custom-doc';
-import { ImportDoc } from '@/doc/progressspinner/import-doc';
+import { UsageDoc } from '@/doc/progressspinner/usage-doc';
 import { PTComponent } from '@/doc/progressspinner/pt/PTComponent';
 import { Component } from '@angular/core';
 
@@ -24,9 +24,9 @@ export class ProgressSpinnerDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

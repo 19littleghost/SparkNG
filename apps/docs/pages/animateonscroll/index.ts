@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AppDocService } from '@/components/doc/app.doc.service';
 import { AccessibilityDoc } from '@/doc/animateonscroll/accessibility-doc';
 import { BasicDoc } from '@/doc/animateonscroll/basic-doc';
-import { ImportDoc } from '@/doc/animateonscroll/import-doc';
+import { UsageDoc } from '@/doc/animateonscroll/usage-doc';
 import { Component } from '@angular/core';
 
 @Component({
@@ -20,9 +20,9 @@ import { Component } from '@angular/core';
 export class AnimateOnScrollDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

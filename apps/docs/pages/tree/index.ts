@@ -8,7 +8,7 @@ import { MultipleDragDropDoc } from '@/doc/tree/dragdrop/multipledragdropdoc';
 import { SingleDragDropDoc } from '@/doc/tree/dragdrop/singledragdropdoc';
 import { EventDoc } from '@/doc/tree/event-doc';
 import { FilterDoc } from '@/doc/tree/filter-doc';
-import { ImportDoc } from '@/doc/tree/import-doc';
+import { UsageDoc } from '@/doc/tree/usage-doc';
 import { LazyDoc } from '@/doc/tree/lazy-doc';
 import { MultipleDoc } from '@/doc/tree/multiple-doc';
 import { PTComponent } from '@/doc/tree/pt/PTComponent';
@@ -28,9 +28,9 @@ export class TreeDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

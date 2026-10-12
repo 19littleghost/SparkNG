@@ -1,7 +1,7 @@
 import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/breadcrumb/accessibility-doc';
 import { BasicDoc } from '@/doc/breadcrumb/basic-doc';
-import { ImportDoc } from '@/doc/breadcrumb/import-doc';
+import { UsageDoc } from '@/doc/breadcrumb/usage-doc';
 import { PTComponent } from '@/doc/breadcrumb/pt/PTComponent';
 import { RouterDoc } from '@/doc/breadcrumb/router-doc';
 import { TemplateDoc } from '@/doc/breadcrumb/template-doc';
@@ -26,9 +26,9 @@ export class BreadcrumbDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

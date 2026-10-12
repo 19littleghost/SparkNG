@@ -1,7 +1,7 @@
 import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/panel/accessibility-doc';
 import { BasicDoc } from '@/doc/panel/basic-doc';
-import { ImportDoc } from '@/doc/panel/import-doc';
+import { UsageDoc } from '@/doc/panel/usage-doc';
 import { PTComponent } from '@/doc/panel/pt/PTComponent';
 import { TemplateDoc } from '@/doc/panel/template-doc';
 import { ToggleableDoc } from '@/doc/panel/toggleable-doc';
@@ -22,9 +22,9 @@ import { Component } from '@angular/core';
 export class PanelDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

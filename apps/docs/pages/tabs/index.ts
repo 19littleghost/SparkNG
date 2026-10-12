@@ -5,7 +5,7 @@ import { ControlledDoc } from '@/doc/tabs/controlled-doc';
 import { TemplateDoc } from '@/doc/tabs/customtemplate-doc';
 import { DisabledDoc } from '@/doc/tabs/disabled-doc';
 import { DynamicDoc } from '@/doc/tabs/dynamic-doc';
-import { ImportDoc } from '@/doc/tabs/import-doc';
+import { UsageDoc } from '@/doc/tabs/usage-doc';
 import { LazyDoc } from '@/doc/tabs/lazy-doc';
 import { PTComponent } from '@/doc/tabs/pt/PTComponent';
 import { ScrollableDoc } from '@/doc/tabs/scrollable-doc';
@@ -21,9 +21,9 @@ export class TabsDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

@@ -1,6 +1,6 @@
 import { AppDoc } from '@/components/doc/app.doc';
 import { ExamplesDoc } from '@/doc/bind/examples-doc';
-import { ImportDoc } from '@/doc/bind/import-doc';
+import { UsageDoc } from '@/doc/bind/usage-doc';
 import { Component } from '@angular/core';
 
 @Component({
@@ -11,9 +11,9 @@ import { Component } from '@angular/core';
 export class Bind {
     docs = [
         {
-            id: 'bind-import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'bind-examples',

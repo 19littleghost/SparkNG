@@ -11,7 +11,7 @@ import { FloatLabelDoc } from '@/doc/select/floatlabel-doc';
 import { FluidDoc } from '@/doc/select/fluid-doc';
 import { GroupDoc } from '@/doc/select/group-doc';
 import { IftaLabelDoc } from '@/doc/select/iftalabel-doc';
-import { ImportDoc } from '@/doc/select/import-doc';
+import { UsageDoc } from '@/doc/select/usage-doc';
 import { InvalidDoc } from '@/doc/select/invalid-doc';
 import { LazyVirtualScrollDoc } from '@/doc/select/lazyvirtualscroll-doc';
 import { LoadingStateDoc } from '@/doc/select/loadingstate-doc';
@@ -41,9 +41,9 @@ export class SelectDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

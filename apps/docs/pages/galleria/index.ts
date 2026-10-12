@@ -8,7 +8,7 @@ import { ControlledDoc } from '@/doc/galleria/controlled-doc';
 import { CustomContentDoc } from '@/doc/galleria/fullscreen/customcontent-doc';
 import { WithoutThumbnailsDoc } from '@/doc/galleria/fullscreen/withoutthumbnails-doc';
 import { WithThumbnailsDoc } from '@/doc/galleria/fullscreen/withthumbnails-doc';
-import { ImportDoc } from '@/doc/galleria/import-doc';
+import { UsageDoc } from '@/doc/galleria/usage-doc';
 import { ClickEventDoc } from '@/doc/galleria/indicator/clickevent-doc';
 import { HoverEventDoc } from '@/doc/galleria/indicator/hoverevent-doc';
 import { PositionedDoc } from '@/doc/galleria/indicator/positioned-doc';
@@ -40,9 +40,9 @@ export class GalleriaDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

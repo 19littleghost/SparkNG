@@ -6,7 +6,7 @@ import { FilledDoc } from '@/doc/inputmask/filled-doc';
 import { FloatlabelDoc } from '@/doc/inputmask/floatlabel-doc';
 import { FluidDoc } from '@/doc/inputmask/fluid-doc';
 import { IftaLabelDoc } from '@/doc/inputmask/iftalabel-doc';
-import { ImportDoc } from '@/doc/inputmask/import-doc';
+import { UsageDoc } from '@/doc/inputmask/usage-doc';
 import { InvalidDoc } from '@/doc/inputmask/invalid-doc';
 import { MaskDoc } from '@/doc/inputmask/mask-doc';
 import { OptionalDoc } from '@/doc/inputmask/optional-doc';
@@ -35,9 +35,9 @@ export class InputMaskDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

@@ -12,7 +12,6 @@ import { FluidDoc } from '@/doc/autocomplete/fluid-doc';
 import { ForceSelectionDoc } from '@/doc/autocomplete/force-selection-doc';
 import { GroupDoc } from '@/doc/autocomplete/group-doc';
 import { IftaLabelDoc } from '@/doc/autocomplete/ifta-label-doc';
-import { ImportDoc } from '@/doc/autocomplete/import-doc';
 import { InvalidDoc } from '@/doc/autocomplete/invalid-doc';
 import { MultipleDoc } from '@/doc/autocomplete/multiple-doc';
 import { ObjectsDoc } from '@/doc/autocomplete/objects-doc';
@@ -21,6 +20,7 @@ import { ReactiveFormsDoc } from '@/doc/autocomplete/reactive-forms-doc';
 import { SizesDoc } from '@/doc/autocomplete/sizes-doc';
 import { TemplateDoc } from '@/doc/autocomplete/template-doc';
 import { TemplateDrivenFormsDoc } from '@/doc/autocomplete/template-driven-forms-doc';
+import { UsageDoc } from '@/doc/autocomplete/usage-doc';
 import { VirtualScrollDoc } from '@/doc/autocomplete/virtual-scroll-doc';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
@@ -43,9 +43,9 @@ export class AutoCompleteDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

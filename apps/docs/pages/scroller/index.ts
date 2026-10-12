@@ -4,7 +4,7 @@ import { BasicDoc } from '@/doc/scroller/basic-doc';
 import { DelayDoc } from '@/doc/scroller/delay-doc';
 import { GridDoc } from '@/doc/scroller/grid-doc';
 import { HorizontalDoc } from '@/doc/scroller/horizontal-doc';
-import { ImportDoc } from '@/doc/scroller/import-doc';
+import { UsageDoc } from '@/doc/scroller/usage-doc';
 import { LazyLoadDoc } from '@/doc/scroller/lazyload-doc';
 import { LoaderDoc } from '@/doc/scroller/loader-doc';
 import { ProgrammaticDoc } from '@/doc/scroller/programmatic-doc';
@@ -31,9 +31,9 @@ export class VirtualScrollerDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

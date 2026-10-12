@@ -1,7 +1,7 @@
 import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/speeddial/accessibility-doc';
 import { CircleDoc } from '@/doc/speeddial/circle-doc';
-import { ImportDoc } from '@/doc/speeddial/import-doc';
+import { UsageDoc } from '@/doc/speeddial/usage-doc';
 import { LinearDoc } from '@/doc/speeddial/linear-doc';
 import { MaskDoc } from '@/doc/speeddial/mask-doc';
 import { PTComponent } from '@/doc/speeddial/pt/PTComponent';
@@ -30,9 +30,9 @@ export class SpeedDialDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'linear',

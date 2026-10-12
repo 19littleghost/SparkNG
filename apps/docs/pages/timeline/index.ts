@@ -3,7 +3,7 @@ import { AccessibilityDoc } from '@/doc/timeline/accessibility-doc';
 import { AlignmentDoc } from '@/doc/timeline/alignment-doc';
 import { BasicDoc } from '@/doc/timeline/basic-doc';
 import { HorizontalDoc } from '@/doc/timeline/horizontal-doc';
-import { ImportDoc } from '@/doc/timeline/import-doc';
+import { UsageDoc } from '@/doc/timeline/usage-doc';
 import { OppositeDoc } from '@/doc/timeline/opposite-doc';
 import { PTComponent } from '@/doc/timeline/pt/PTComponent';
 import { TemplateDoc } from '@/doc/timeline/template-doc';
@@ -20,9 +20,9 @@ export class TimelineDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/divider/accessibility-doc';
 import { BasicDoc } from '@/doc/divider/basic-doc';
 import { ContentDoc } from '@/doc/divider/content-doc';
-import { ImportDoc } from '@/doc/divider/import-doc';
+import { UsageDoc } from '@/doc/divider/usage-doc';
 import { LoginDoc } from '@/doc/divider/login-doc';
 import { PTComponent } from '@/doc/divider/pt/PTComponent';
 import { TypeDoc } from '@/doc/divider/type-doc';
@@ -17,9 +17,9 @@ import { Component } from '@angular/core';
 export class DividerDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

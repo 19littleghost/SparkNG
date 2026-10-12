@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/toast/accessibility-doc';
 import { BasicDoc } from '@/doc/toast/basic-doc';
 import { HeadlessDoc } from '@/doc/toast/headless-doc';
-import { ImportDoc } from '@/doc/toast/import-doc';
+import { UsageDoc } from '@/doc/toast/usage-doc';
 import { MultipleDoc } from '@/doc/toast/multiple-doc';
 import { PositionDoc } from '@/doc/toast/position-doc';
 import { PTComponent } from '@/doc/toast/pt/PTComponent';
@@ -29,9 +29,9 @@ export class ToastDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

@@ -1,7 +1,7 @@
 import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/floatlabel/accessibility-doc';
 import { BasicDoc } from '@/doc/floatlabel/basic-doc';
-import { ImportDoc } from '@/doc/floatlabel/import-doc';
+import { UsageDoc } from '@/doc/floatlabel/usage-doc';
 import { InvalidDoc } from '@/doc/floatlabel/invalid-doc';
 import { PTComponent } from '@/doc/floatlabel/pt/PTComponent';
 import { VariantsDoc } from '@/doc/floatlabel/variants-doc';
@@ -26,9 +26,9 @@ export class FloatLabelDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

@@ -12,7 +12,7 @@ import { InputTextModule } from '@bdspark/sparkng/inputtext';
         <app-docsectiontext>
             <p>
                 Here is the full list of icons. More icons will be added periodically and you may also
-                <a href="https://github.com/TODO-BDSPARK-ORG/icons/issues">request new icons</a> at the issue tracker.
+                <a href="https://github.com/Aronno1920/icons/issues">request new icons</a> at the issue tracker.
             </p>
         </app-docsectiontext>
         <div>

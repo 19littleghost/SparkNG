@@ -3,7 +3,7 @@ import { AccessibilityDoc } from '@/doc/menu/accessibility-doc';
 import { BasicDoc } from '@/doc/menu/basic-doc';
 import { CommandDoc } from '@/doc/menu/command-doc';
 import { GroupDoc } from '@/doc/menu/group-doc';
-import { ImportDoc } from '@/doc/menu/import-doc';
+import { UsageDoc } from '@/doc/menu/usage-doc';
 import { PopupDoc } from '@/doc/menu/popup-doc';
 import { PTComponent } from '@/doc/menu/pt/PTComponent';
 import { RouterDoc } from '@/doc/menu/router-doc';
@@ -26,9 +26,9 @@ import { Component } from '@angular/core';
 export class MenuDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

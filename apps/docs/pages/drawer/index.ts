@@ -3,7 +3,7 @@ import { AccessibilityDoc } from '@/doc/drawer/accessibility-doc';
 import { BasicDoc } from '@/doc/drawer/basic-doc';
 import { FullScreenDoc } from '@/doc/drawer/fullscreen-doc';
 import { HeadlessDoc } from '@/doc/drawer/headless-doc';
-import { ImportDoc } from '@/doc/drawer/import-doc';
+import { UsageDoc } from '@/doc/drawer/usage-doc';
 import { PositionDoc } from '@/doc/drawer/position-doc';
 import { PTComponent } from '@/doc/drawer/pt/PTComponent';
 import { SizeDoc } from '@/doc/drawer/size-doc';
@@ -22,9 +22,9 @@ export class DrawerDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

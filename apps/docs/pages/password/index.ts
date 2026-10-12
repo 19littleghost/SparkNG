@@ -7,7 +7,7 @@ import { FilledDoc } from '@/doc/password/filled-doc';
 import { FloatLabelDoc } from '@/doc/password/floatlabel-doc';
 import { FluidDoc } from '@/doc/password/fluid-doc';
 import { IftaLabelDoc } from '@/doc/password/iftalabel-doc';
-import { ImportDoc } from '@/doc/password/import-doc';
+import { UsageDoc } from '@/doc/password/usage-doc';
 import { InvalidDoc } from '@/doc/password/invalid-doc';
 import { LocaleDoc } from '@/doc/password/locale-doc';
 import { MeterDoc } from '@/doc/password/meter-doc';
@@ -36,9 +36,9 @@ export class PasswordDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

@@ -1,7 +1,7 @@
 import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/iftalabel/accessibility-doc';
 import { BasicDoc } from '@/doc/iftalabel/basic-doc';
-import { ImportDoc } from '@/doc/iftalabel/import-doc';
+import { UsageDoc } from '@/doc/iftalabel/usage-doc';
 import { InvalidDoc } from '@/doc/iftalabel/invalid-doc';
 import { PTComponent } from '@/doc/iftalabel/pt/PTComponent';
 import { Component } from '@angular/core';
@@ -25,9 +25,9 @@ export class IftaLabelDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

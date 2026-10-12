@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/scrolltop/accessibility-doc';
 import { BasicDoc } from '@/doc/scrolltop/basic-doc';
 import { ElementDoc } from '@/doc/scrolltop/element-doc';
-import { ImportDoc } from '@/doc/scrolltop/import-doc';
+import { UsageDoc } from '@/doc/scrolltop/usage-doc';
 import { PTComponent } from '@/doc/scrolltop/pt/PTComponent';
 import { Component } from '@angular/core';
 
@@ -25,9 +25,9 @@ export class ScrollTopDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

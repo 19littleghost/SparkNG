@@ -3,7 +3,7 @@ import { AccessibilityDoc } from '@/doc/colorpicker/accessibility-doc';
 import { BasicDoc } from '@/doc/colorpicker/basic-doc';
 import { DisabledDoc } from '@/doc/colorpicker/disabled-doc';
 import { FormatDoc } from '@/doc/colorpicker/format-doc';
-import { ImportDoc } from '@/doc/colorpicker/import-doc';
+import { UsageDoc } from '@/doc/colorpicker/usage-doc';
 import { InlineDoc } from '@/doc/colorpicker/inline-doc';
 import { PTComponent } from '@/doc/colorpicker/pt/PTComponent';
 import { ReactiveFormsDoc } from '@/doc/colorpicker/reactiveforms-doc';
@@ -26,9 +26,9 @@ import { Component } from '@angular/core';
 export class ColorPickerDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

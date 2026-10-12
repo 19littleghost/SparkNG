@@ -3,7 +3,7 @@ import { AccessibilityDoc } from '@/doc/contextmenu/accessibility-doc';
 import { BasicDoc } from '@/doc/contextmenu/basic-doc';
 import { CommandDoc } from '@/doc/contextmenu/command-doc';
 import { DocumentDoc } from '@/doc/contextmenu/document-doc';
-import { ImportDoc } from '@/doc/contextmenu/import-doc';
+import { UsageDoc } from '@/doc/contextmenu/usage-doc';
 import { PTComponent } from '@/doc/contextmenu/pt/PTComponent';
 import { RouterDoc } from '@/doc/contextmenu/router-doc';
 import { TableDoc } from '@/doc/contextmenu/table-doc';
@@ -28,9 +28,9 @@ import { Component } from '@angular/core';
 export class ContextMenuDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

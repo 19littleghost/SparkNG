@@ -1,7 +1,7 @@
 import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/terminal/accessibility-doc';
 import { BasicDoc } from '@/doc/terminal/basic-doc';
-import { ImportDoc } from '@/doc/terminal/import-doc';
+import { UsageDoc } from '@/doc/terminal/usage-doc';
 import { PTComponent } from '@/doc/terminal/pt/PTComponent';
 import { Component } from '@angular/core';
 
@@ -23,9 +23,9 @@ export class TerminalDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

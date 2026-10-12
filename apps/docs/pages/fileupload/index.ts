@@ -3,7 +3,7 @@ import { AccessibilityDoc } from '@/doc/fileupload/accessibility-doc';
 import { AdvancedDoc } from '@/doc/fileupload/advanced-doc';
 import { AutoDoc } from '@/doc/fileupload/auto-doc';
 import { BasicDoc } from '@/doc/fileupload/basic-doc';
-import { ImportDoc } from '@/doc/fileupload/import-doc';
+import { UsageDoc } from '@/doc/fileupload/usage-doc';
 import { PTComponent } from '@/doc/fileupload/pt/PTComponent';
 import { TemplateDoc } from '@/doc/fileupload/template-doc';
 import { Component } from '@angular/core';
@@ -24,9 +24,9 @@ import { Component } from '@angular/core';
 export class FileUploadDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

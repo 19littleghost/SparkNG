@@ -3,7 +3,7 @@ import { AccessibilityDoc } from '@/doc/paginator/accessibility-doc';
 import { BasicDoc } from '@/doc/paginator/basic-doc';
 import { CurrentPageReportDoc } from '@/doc/paginator/currentpagereport-doc';
 import { ImagesDoc } from '@/doc/paginator/images-doc';
-import { ImportDoc } from '@/doc/paginator/import-doc';
+import { UsageDoc } from '@/doc/paginator/usage-doc';
 import { PTComponent } from '@/doc/paginator/pt/PTComponent';
 import { TemplateDoc } from '@/doc/paginator/template-doc';
 import { Component } from '@angular/core';
@@ -32,9 +32,9 @@ export class PaginatorDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

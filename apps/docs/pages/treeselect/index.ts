@@ -9,7 +9,7 @@ import { FilterDoc } from '@/doc/treeselect/filter-doc';
 import { FloatLabelDoc } from '@/doc/treeselect/floatlabel-doc';
 import { FluidDoc } from '@/doc/treeselect/fluid-doc';
 import { IftaLabelDoc } from '@/doc/treeselect/iftalabel-doc';
-import { ImportDoc } from '@/doc/treeselect/import-doc';
+import { UsageDoc } from '@/doc/treeselect/usage-doc';
 import { InvalidDoc } from '@/doc/treeselect/invalid-doc';
 import { LazyDoc } from '@/doc/treeselect/lazy-doc';
 import { MultipleDoc } from '@/doc/treeselect/multiple-doc';
@@ -38,9 +38,9 @@ export class TreeSelectDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

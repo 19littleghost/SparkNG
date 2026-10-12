@@ -4,7 +4,7 @@ import { DisabledDoc } from '@/doc/radiobutton/disabled-doc';
 import { DynamicDoc } from '@/doc/radiobutton/dynamic-doc';
 import { FilledDoc } from '@/doc/radiobutton/filled-doc';
 import { GroupDoc } from '@/doc/radiobutton/group-doc';
-import { ImportDoc } from '@/doc/radiobutton/import-doc';
+import { UsageDoc } from '@/doc/radiobutton/usage-doc';
 import { InvalidDoc } from '@/doc/radiobutton/invalid-doc';
 import { PTComponent } from '@/doc/radiobutton/pt/PTComponent';
 import { ReactiveFormsDoc } from '@/doc/radiobutton/reactiveforms-doc';
@@ -28,9 +28,9 @@ export class RadioButtonDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'group',

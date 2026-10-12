@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/confirmdialog/accessibility-doc';
 import { BasicDoc } from '@/doc/confirmdialog/basic-doc';
 import { HeadlessDoc } from '@/doc/confirmdialog/headless-doc';
-import { ImportDoc } from '@/doc/confirmdialog/import-doc';
+import { UsageDoc } from '@/doc/confirmdialog/usage-doc';
 import { PositionDoc } from '@/doc/confirmdialog/position-doc';
 import { PTComponent } from '@/doc/confirmdialog/pt/PTComponent';
 import { TemplateDoc } from '@/doc/confirmdialog/template-doc';
@@ -27,9 +27,9 @@ export class ConfirmDialogDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

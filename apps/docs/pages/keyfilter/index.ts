@@ -1,6 +1,6 @@
 import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/keyfilter/accessibility-doc';
-import { ImportDoc } from '@/doc/keyfilter/import-doc';
+import { UsageDoc } from '@/doc/keyfilter/usage-doc';
 import { PresetsDoc } from '@/doc/keyfilter/presets-doc';
 import { RegexDoc } from '@/doc/keyfilter/regex-doc';
 import { Component } from '@angular/core';
@@ -19,9 +19,9 @@ import { Component } from '@angular/core';
 export class KeyFilterDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'presets',

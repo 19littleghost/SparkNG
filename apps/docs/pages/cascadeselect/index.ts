@@ -7,7 +7,7 @@ import { FilledDoc } from '@/doc/cascadeselect/filled-doc';
 import { FloatLabelDoc } from '@/doc/cascadeselect/floatlabel-doc';
 import { FluidDoc } from '@/doc/cascadeselect/fluid-doc';
 import { IftaLabelDoc } from '@/doc/cascadeselect/iftalabel-doc';
-import { ImportDoc } from '@/doc/cascadeselect/import-doc';
+import { UsageDoc } from '@/doc/cascadeselect/usage-doc';
 import { InvalidDoc } from '@/doc/cascadeselect/invalid-doc';
 import { LoadingDoc } from '@/doc/cascadeselect/loading-doc';
 import { PTComponent } from '@/doc/cascadeselect/pt/PTComponent';
@@ -37,9 +37,9 @@ export class CascadeSelectDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

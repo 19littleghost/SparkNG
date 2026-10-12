@@ -5,7 +5,7 @@ import { ChartjsDoc } from '@/doc/chart/chartjs-doc';
 import { ComboDoc } from '@/doc/chart/combo-doc';
 import { DoughnutDoc } from '@/doc/chart/doughnut-doc';
 import { HorizontalBarDoc } from '@/doc/chart/horizontalbar-doc';
-import { ImportDoc } from '@/doc/chart/import-doc';
+import { UsageDoc } from '@/doc/chart/usage-doc';
 import { LineDoc } from '@/doc/chart/line-doc';
 import { LineStyleDoc } from '@/doc/chart/linestyle-doc';
 import { MultiAxisDoc } from '@/doc/chart/multiaxis-doc';
@@ -36,9 +36,9 @@ export class ChartDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'chartjs',

@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/metergroup/accessibility-doc';
 import { BasicDoc } from '@/doc/metergroup/basic-doc';
 import { IconDoc } from '@/doc/metergroup/icon-doc';
-import { ImportDoc } from '@/doc/metergroup/import-doc';
+import { UsageDoc } from '@/doc/metergroup/usage-doc';
 import { LabelDoc } from '@/doc/metergroup/label-doc';
 import { MinMaxDoc } from '@/doc/metergroup/minmax-doc';
 import { MultipleDoc } from '@/doc/metergroup/multiple-doc';
@@ -29,9 +29,9 @@ export class MeterGroupDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

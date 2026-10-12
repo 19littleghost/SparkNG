@@ -4,7 +4,7 @@ import { AutoHideDoc } from '@/doc/tooltip/autohide-doc';
 import { CustomDoc } from '@/doc/tooltip/custom-doc';
 import { DelayDoc } from '@/doc/tooltip/delay-doc';
 import { EventDoc } from '@/doc/tooltip/event-doc';
-import { ImportDoc } from '@/doc/tooltip/import-doc';
+import { UsageDoc } from '@/doc/tooltip/usage-doc';
 import { OptionsDoc } from '@/doc/tooltip/options-doc';
 import { PositionDoc } from '@/doc/tooltip/position-doc';
 import { PTComponent } from '@/doc/tooltip/pt/PTComponent';
@@ -26,9 +26,9 @@ import { Component } from '@angular/core';
 export class TooltipDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'position',

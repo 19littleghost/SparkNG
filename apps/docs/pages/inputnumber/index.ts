@@ -8,7 +8,7 @@ import { FilledDoc } from '@/doc/inputnumber/filled-doc';
 import { FloatlabelDoc } from '@/doc/inputnumber/floatlabel-doc';
 import { FluidDoc } from '@/doc/inputnumber/fluid-doc';
 import { IftaLabelDoc } from '@/doc/inputnumber/iftalabel-doc';
-import { ImportDoc } from '@/doc/inputnumber/import-doc';
+import { UsageDoc } from '@/doc/inputnumber/usage-doc';
 import { InvalidDoc } from '@/doc/inputnumber/invalid-doc';
 import { LocaleDoc } from '@/doc/inputnumber/locale-doc';
 import { NumeralsDoc } from '@/doc/inputnumber/numerals-doc';
@@ -36,9 +36,9 @@ import { Component } from '@angular/core';
 export class InputNumberDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'numerals',

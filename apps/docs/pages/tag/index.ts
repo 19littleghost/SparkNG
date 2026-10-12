@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/tag/accessibility-doc';
 import { BasicDoc } from '@/doc/tag/basic-doc';
 import { IconDoc } from '@/doc/tag/icon-doc';
-import { ImportDoc } from '@/doc/tag/import-doc';
+import { UsageDoc } from '@/doc/tag/usage-doc';
 import { PillDoc } from '@/doc/tag/pill-doc';
 import { PTComponent } from '@/doc/tag/pt/PTComponent';
 import { SeverityDoc } from '@/doc/tag/severity-doc';
@@ -19,9 +19,9 @@ export class TagDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

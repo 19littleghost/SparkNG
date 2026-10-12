@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/carousel/accessibility-doc';
 import { BasicDoc } from '@/doc/carousel/basic-doc';
 import { CircularDoc } from '@/doc/carousel/circular-doc';
-import { ImportDoc } from '@/doc/carousel/import-doc';
+import { UsageDoc } from '@/doc/carousel/usage-doc';
 import { PTComponent } from '@/doc/carousel/pt/PTComponent';
 import { ResponsiveDoc } from '@/doc/carousel/responsive-doc';
 import { VerticalDoc } from '@/doc/carousel/vertical-doc';
@@ -26,9 +26,9 @@ import { Component } from '@angular/core';
 export class CarouselDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

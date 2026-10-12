@@ -11,7 +11,7 @@ import { FluidDoc } from '@/doc/datepicker/fluid-doc';
 import { FormatDoc } from '@/doc/datepicker/format-doc';
 import { IconDoc } from '@/doc/datepicker/icon-doc';
 import { IftaLabelDoc } from '@/doc/datepicker/iftalabel-doc';
-import { ImportDoc } from '@/doc/datepicker/import-doc';
+import { UsageDoc } from '@/doc/datepicker/usage-doc';
 import { InlineDoc } from '@/doc/datepicker/inline-doc';
 import { InvalidDoc } from '@/doc/datepicker/invalid-doc';
 import { LocaleDoc } from '@/doc/datepicker/locale-doc';
@@ -41,9 +41,9 @@ export class DatePickerDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

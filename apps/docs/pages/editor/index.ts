@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/editor/accessibility-doc';
 import { BasicDoc } from '@/doc/editor/basic-doc';
 import { CustomToolbarDoc } from '@/doc/editor/customtoolbar-doc';
-import { ImportDoc } from '@/doc/editor/import-doc';
+import { UsageDoc } from '@/doc/editor/usage-doc';
 import { PTComponent } from '@/doc/editor/pt/PTComponent';
 import { QuillDoc } from '@/doc/editor/quill-doc';
 import { ReactiveFormsDoc } from '@/doc/editor/reactiveforms-doc';
@@ -19,9 +19,9 @@ export class EditorDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'quill',

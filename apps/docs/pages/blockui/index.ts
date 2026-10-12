@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/blockui/accessibility-doc';
 import { BasicDoc } from '@/doc/blockui/basic-doc';
 import { DocumentDoc } from '@/doc/blockui/document-doc';
-import { ImportDoc } from '@/doc/blockui/import-doc';
+import { UsageDoc } from '@/doc/blockui/usage-doc';
 import { PTComponent } from '@/doc/blockui/pt/PTComponent';
 import { Component } from '@angular/core';
 
@@ -27,9 +27,9 @@ export class BlockUIDemo {
     blockedDocument: boolean = false;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

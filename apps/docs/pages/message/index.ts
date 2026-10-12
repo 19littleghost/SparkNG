@@ -5,7 +5,7 @@ import { ClosableDoc } from '@/doc/message/closable-doc';
 import { DynamicDoc } from '@/doc/message/dynamic-doc';
 import { FormDoc } from '@/doc/message/form-doc';
 import { IconDoc } from '@/doc/message/icon-doc';
-import { ImportDoc } from '@/doc/message/import-doc';
+import { UsageDoc } from '@/doc/message/usage-doc';
 import { LifeDoc } from '@/doc/message/life-doc';
 import { OutlinedDoc } from '@/doc/message/outlined-doc';
 import { PTComponent } from '@/doc/message/pt/PTComponent';
@@ -24,9 +24,9 @@ export class MessageDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

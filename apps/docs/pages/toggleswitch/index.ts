@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/toggleswitch/accessibility-doc';
 import { BasicDoc } from '@/doc/toggleswitch/basic-doc';
 import { DisabledDoc } from '@/doc/toggleswitch/disabled-doc';
-import { ImportDoc } from '@/doc/toggleswitch/import-doc';
+import { UsageDoc } from '@/doc/toggleswitch/usage-doc';
 import { InvalidDoc } from '@/doc/toggleswitch/invalid-doc';
 import { PreselectionDoc } from '@/doc/toggleswitch/preselection-doc';
 import { PTComponent } from '@/doc/toggleswitch/pt/PTComponent';
@@ -28,9 +28,9 @@ export class ToggleSwitchDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

@@ -1,6 +1,6 @@
 import { AppDoc } from '@/components/doc/app.doc';
 import { ExamplesDoc } from '@/doc/classnames/examples-doc';
-import { ImportDoc } from '@/doc/classnames/import-doc';
+import { UsageDoc } from '@/doc/classnames/usage-doc';
 import { Component } from '@angular/core';
 
 @Component({
@@ -17,9 +17,9 @@ import { Component } from '@angular/core';
 export class ClassNamesDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'examples',

@@ -1,7 +1,7 @@
 import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/splitter/accessibility-doc';
 import { HorizontalDoc } from '@/doc/splitter/horizontal-doc';
-import { ImportDoc } from '@/doc/splitter/import-doc';
+import { UsageDoc } from '@/doc/splitter/usage-doc';
 import { NestedDoc } from '@/doc/splitter/nested-doc';
 import { PTComponent } from '@/doc/splitter/pt/PTComponent';
 import { SizeDoc } from '@/doc/splitter/size-doc';
@@ -25,9 +25,9 @@ export class SplitterDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'horizontal',

@@ -1,7 +1,7 @@
 import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/fluid/accessibility-doc';
 import { BasicDoc } from '@/doc/fluid/basic-doc';
-import { ImportDoc } from '@/doc/fluid/import-doc';
+import { UsageDoc } from '@/doc/fluid/usage-doc';
 import { PTComponent } from '@/doc/fluid/pt/PTComponent';
 import { Component } from '@angular/core';
 
@@ -16,9 +16,9 @@ export class FluidDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

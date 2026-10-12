@@ -1,7 +1,7 @@
 import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/inputotp/accessibility-doc';
 import { BasicDoc } from '@/doc/inputotp/basic-doc';
-import { ImportDoc } from '@/doc/inputotp/import-doc';
+import { UsageDoc } from '@/doc/inputotp/usage-doc';
 import { IntegerOnlyDoc } from '@/doc/inputotp/integeronly-doc';
 import { MaskDoc } from '@/doc/inputotp/mask-doc';
 import { PTComponent } from '@/doc/inputotp/pt/PTComponent';
@@ -22,9 +22,9 @@ export class InputOtpDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

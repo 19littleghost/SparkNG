@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/rating/accessibility-doc';
 import { BasicDoc } from '@/doc/rating/basic-doc';
 import { DisabledDoc } from '@/doc/rating/disabled-doc';
-import { ImportDoc } from '@/doc/rating/import-doc';
+import { UsageDoc } from '@/doc/rating/usage-doc';
 import { NumberOfStarsDoc } from '@/doc/rating/numberofstars-doc';
 import { PTComponent } from '@/doc/rating/pt/PTComponent';
 import { ReactiveFormsDoc } from '@/doc/rating/reactiveforms-doc';
@@ -21,9 +21,9 @@ export class RatingDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

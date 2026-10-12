@@ -7,7 +7,7 @@ import { FloatLabelDoc } from '@/doc/inputtext/floatlabel-doc';
 import { FluidDoc } from '@/doc/inputtext/fluid-doc';
 import { HelpTextDoc } from '@/doc/inputtext/helptext-doc';
 import { IftaLabelDoc } from '@/doc/inputtext/iftalabel-doc';
-import { ImportDoc } from '@/doc/inputtext/import-doc';
+import { UsageDoc } from '@/doc/inputtext/usage-doc';
 import { InvalidDoc } from '@/doc/inputtext/invalid-doc';
 import { PTComponent } from '@/doc/inputtext/pt/PTComponent';
 import { ReactiveFormsDoc } from '@/doc/inputtext/reactiveforms-doc';
@@ -33,9 +33,9 @@ export class InputTextDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

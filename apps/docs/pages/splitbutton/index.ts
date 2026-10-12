@@ -3,7 +3,7 @@ import { AccessibilityDoc } from '@/doc/splitbutton/accessibility-doc';
 import { BasicDoc } from '@/doc/splitbutton/basic-doc';
 import { DisabledDoc } from '@/doc/splitbutton/disabled-doc';
 import { IconsDoc } from '@/doc/splitbutton/icons-doc';
-import { ImportDoc } from '@/doc/splitbutton/import-doc';
+import { UsageDoc } from '@/doc/splitbutton/usage-doc';
 import { NestedDoc } from '@/doc/splitbutton/nested-doc';
 import { OutlinedDoc } from '@/doc/splitbutton/outlined-doc';
 import { PTComponent } from '@/doc/splitbutton/pt/PTComponent';
@@ -34,9 +34,9 @@ export class SplitButtonDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

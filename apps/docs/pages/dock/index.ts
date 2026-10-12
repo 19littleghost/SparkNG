@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/dock/accessibility-doc';
 import { AdvancedDoc } from '@/doc/dock/advanced-doc';
 import { BasicDoc } from '@/doc/dock/basic-doc';
-import { ImportDoc } from '@/doc/dock/import-doc';
+import { UsageDoc } from '@/doc/dock/usage-doc';
 import { PTComponent } from '@/doc/dock/pt/PTComponent';
 import { Component } from '@angular/core';
 
@@ -16,9 +16,9 @@ import { Component } from '@angular/core';
 export class DockDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

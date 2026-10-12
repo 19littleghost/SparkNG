@@ -13,7 +13,7 @@ import { DynamicColumnsDoc } from '@/doc/treetable/dynamiccolumns-doc';
 import { FilterDoc } from '@/doc/treetable/filter-doc';
 import { ScrollFlexibleDoc } from '@/doc/treetable/flexiblescroll-doc';
 import { GridlinesDoc } from '@/doc/treetable/gridlines-doc';
-import { ImportDoc } from '@/doc/treetable/import-doc';
+import { UsageDoc } from '@/doc/treetable/usage-doc';
 import { LazyLoadDoc } from '@/doc/treetable/lazyload-doc';
 import { LoadingMaskDoc } from '@/doc/treetable/loadingmask-doc';
 import { LoadingSkeletonDoc } from '@/doc/treetable/loadingskeleton-doc';
@@ -52,9 +52,9 @@ export class TreeTableDemo {
 
     docs = [
         {
-            id: 'import-demo',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

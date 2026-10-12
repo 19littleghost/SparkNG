@@ -4,7 +4,7 @@ import { GroupDoc } from '@/doc/avatar/avatargroup-doc';
 import { BadgeDoc } from '@/doc/avatar/badge-doc';
 import { IconDoc } from '@/doc/avatar/icon-doc';
 import { ImageDoc } from '@/doc/avatar/image-doc';
-import { ImportDoc } from '@/doc/avatar/import-doc';
+import { UsageDoc } from '@/doc/avatar/usage-doc';
 import { LabelDoc } from '@/doc/avatar/label-doc';
 import { PTComponent } from '@/doc/avatar/pt/PTComponent';
 import { ShapeDoc } from '@/doc/avatar/shape-doc';
@@ -29,9 +29,9 @@ export class AvatarDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'label',

@@ -3,7 +3,7 @@ import { AccessibilityDoc } from '@/doc/knob/accessibility-doc';
 import { BasicDoc } from '@/doc/knob/basic-doc';
 import { ColorDoc } from '@/doc/knob/color-doc';
 import { DisabledDoc } from '@/doc/knob/disabled-doc';
-import { ImportDoc } from '@/doc/knob/import-doc';
+import { UsageDoc } from '@/doc/knob/usage-doc';
 import { MinMaxDoc } from '@/doc/knob/minmax-doc';
 import { PTComponent } from '@/doc/knob/pt/PTComponent';
 import { ReactiveDoc } from '@/doc/knob/reactive-doc';
@@ -24,9 +24,9 @@ import { Component } from '@angular/core';
 export class KnobDemo {
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

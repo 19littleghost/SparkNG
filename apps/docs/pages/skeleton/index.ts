@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/skeleton/accessibility-doc';
 import { CardDoc } from '@/doc/skeleton/card-doc';
 import { DataTableDoc } from '@/doc/skeleton/datatable-doc';
-import { ImportDoc } from '@/doc/skeleton/import-doc';
+import { UsageDoc } from '@/doc/skeleton/usage-doc';
 import { ListDoc } from '@/doc/skeleton/list-doc';
 import { PTComponent } from '@/doc/skeleton/pt/PTComponent';
 import { ShapesDoc } from '@/doc/skeleton/shapes-doc';
@@ -27,9 +27,9 @@ export class SkeletonDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'shapes',

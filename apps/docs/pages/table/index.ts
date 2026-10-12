@@ -21,7 +21,7 @@ import { FrozenColumnsDoc } from '@/doc/table/frozencolumns-doc';
 import { FrozenRowsDoc } from '@/doc/table/frozenrows-doc';
 import { GridlinesDoc } from '@/doc/table/gridlines-doc';
 import { HorizontalScrollDoc } from '@/doc/table/horizontalscroll-doc';
-import { ImportDoc } from '@/doc/table/import-doc';
+import { UsageDoc } from '@/doc/table/usage-doc';
 import { LoadingMaskDoc } from '@/doc/table/loadingmask-doc';
 import { LoadingSkeletonDoc } from '@/doc/table/loadingskeleton-doc';
 import { MultipleColumnsSortDoc } from '@/doc/table/multiplecolumnssort-doc';
@@ -60,9 +60,9 @@ import { Component } from '@angular/core';
 export class TableDemo {
     docs = [
         {
-            id: 'import-demo',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

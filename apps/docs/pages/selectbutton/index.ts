@@ -3,7 +3,7 @@ import { AccessibilityDoc } from '@/doc/selectbutton/accessibility-doc';
 import { BasicDoc } from '@/doc/selectbutton/basic-doc';
 import { DisabledDoc } from '@/doc/selectbutton/disabled-doc';
 import { FluidDoc } from '@/doc/selectbutton/fluid-doc';
-import { ImportDoc } from '@/doc/selectbutton/import-doc';
+import { UsageDoc } from '@/doc/selectbutton/usage-doc';
 import { InvalidDoc } from '@/doc/selectbutton/invalid-doc';
 import { MultipleDoc } from '@/doc/selectbutton/multiple-doc';
 import { PTComponent } from '@/doc/selectbutton/pt/PTComponent';
@@ -31,9 +31,9 @@ export class SelectButtonDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

@@ -4,7 +4,7 @@ import { BasicDoc } from '@/doc/togglebutton/basic-doc';
 import { CustomizedDoc } from '@/doc/togglebutton/customized-doc';
 import { DisabledDoc } from '@/doc/togglebutton/disabled-doc';
 import { FluidDoc } from '@/doc/togglebutton/fluid-doc';
-import { ImportDoc } from '@/doc/togglebutton/import-doc';
+import { UsageDoc } from '@/doc/togglebutton/usage-doc';
 import { InvalidDoc } from '@/doc/togglebutton/invalid-doc';
 import { PTComponent } from '@/doc/togglebutton/pt/PTComponent';
 import { ReactiveFormsDoc } from '@/doc/togglebutton/reactiveforms-doc';
@@ -29,9 +29,9 @@ export class ToggleButtonDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

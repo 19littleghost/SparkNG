@@ -3,7 +3,7 @@ import { AccessibilityDoc } from '@/doc/chip/accessibility-doc';
 import { BasicDoc } from '@/doc/chip/basic-doc';
 import { IconDoc } from '@/doc/chip/icon-doc';
 import { ImageDoc } from '@/doc/chip/image-doc';
-import { ImportDoc } from '@/doc/chip/import-doc';
+import { UsageDoc } from '@/doc/chip/usage-doc';
 import { PTComponent } from '@/doc/chip/pt/PTComponent';
 import { TemplateDoc } from '@/doc/chip/template-doc';
 import { Component } from '@angular/core';
@@ -17,9 +17,9 @@ export class ChipDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

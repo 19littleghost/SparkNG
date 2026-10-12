@@ -1321,13 +1321,14 @@ async function main() {
         const docFiles = glob.sync('**/*doc.ts', { cwd: componentPath });
 
         // Files that are documentation, not demos
-        const SKIP_FILES = ['accessibilitydoc', 'styledoc', 'methodsdoc', 'eventsdoc', 'themedoc', 'propsdoc', 'importdoc'];
+        const SKIP_FILES = ['accessibilitydoc', 'styledoc', 'methodsdoc', 'eventsdoc', 'themedoc', 'propsdoc', 'importdoc', 'usagedoc'];
 
         for (const docFile of docFiles) {
             const fileName = path.basename(docFile, '.ts').toLowerCase();
+            const cleanFileName = fileName.replace(/-/g, '');
 
             // Skip non-demo documentation files
-            if (SKIP_FILES.some((skip) => fileName.includes(skip))) {
+            if (SKIP_FILES.some((skip) => cleanFileName.includes(skip))) {
                 continue;
             }
 

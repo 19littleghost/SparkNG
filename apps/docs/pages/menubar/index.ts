@@ -2,7 +2,7 @@ import { AppDoc } from '@/components/doc/app.doc';
 import { AccessibilityDoc } from '@/doc/menubar/accessibility-doc';
 import { BasicDoc } from '@/doc/menubar/basic-doc';
 import { CommandDoc } from '@/doc/menubar/command-doc';
-import { ImportDoc } from '@/doc/menubar/import-doc';
+import { UsageDoc } from '@/doc/menubar/usage-doc';
 import { PTComponent } from '@/doc/menubar/pt/PTComponent';
 import { RouterDoc } from '@/doc/menubar/router-doc';
 import { TemplateDoc } from '@/doc/menubar/template-doc';
@@ -17,9 +17,9 @@ export class MenubarDemo {
     ptComponent = PTComponent;
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

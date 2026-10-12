@@ -8,7 +8,6 @@ import { ButtonModule } from '@bdspark/sparkng/button';
 import { DomHandler } from '@bdspark/sparkng/dom';
 import { Subscription } from 'rxjs';
 import { FeaturesSectionComponent } from './featuressection.component';
-import { FooterSectionComponent } from './footersection.component';
 import { HeroSectionComponent } from './herosection.component';
 import { ThemeSectionComponent } from './themesection.component';
 
@@ -16,7 +15,7 @@ import { ThemeSectionComponent } from './themesection.component';
     selector: 'landing',
     standalone: true,
     templateUrl: './landing.component.html',
-    imports: [CommonModule, AppTopBarComponent, AppMenuComponent, ButtonModule, HeroSectionComponent, FeaturesSectionComponent, ThemeSectionComponent, FooterSectionComponent]
+    imports: [CommonModule, AppTopBarComponent, AppMenuComponent, ButtonModule, HeroSectionComponent, FeaturesSectionComponent, ThemeSectionComponent]
 })
 export class LandingComponent implements OnInit {
     subscription!: Subscription;

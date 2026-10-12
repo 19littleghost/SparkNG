@@ -7,7 +7,7 @@ import { DirectiveDoc } from '@/doc/button/directive-doc';
 import { DisabledDoc } from '@/doc/button/disabled-doc';
 import { IconsDoc } from '@/doc/button/icons-doc';
 import { IconOnlyDoc } from '@/doc/button/iconsonly-doc';
-import { ImportDoc } from '@/doc/button/import-doc';
+import { UsageDoc } from '@/doc/button/usage-doc';
 import { LinkDoc } from '@/doc/button/link-doc';
 import { LoadingDoc } from '@/doc/button/loading-doc';
 import { OutlinedDoc } from '@/doc/button/outlined-doc';
@@ -40,9 +40,9 @@ export class ButtonDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',

@@ -3,7 +3,7 @@ import { AppDocService } from '@/components/doc/app.doc.service';
 import { AccessibilityDoc } from '@/doc/megamenu/accessibility-doc';
 import { BasicDoc } from '@/doc/megamenu/basic-doc';
 import { CommandDoc } from '@/doc/megamenu/command-doc';
-import { ImportDoc } from '@/doc/megamenu/import-doc';
+import { UsageDoc } from '@/doc/megamenu/usage-doc';
 import { PTComponent } from '@/doc/megamenu/pt/PTComponent';
 import { RouterDoc } from '@/doc/megamenu/router-doc';
 import { TemplateDoc } from '@/doc/megamenu/template-doc';
@@ -38,9 +38,9 @@ export class MegaMenuDemo {
 
     docs = [
         {
-            id: 'import',
-            label: 'Import',
-            component: ImportDoc
+            id: 'usage',
+            label: 'Usage',
+            component: UsageDoc
         },
         {
             id: 'basic',
