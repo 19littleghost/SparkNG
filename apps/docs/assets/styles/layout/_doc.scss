@@ -290,11 +290,11 @@
     right: .75rem;
     gap: .5rem;
     display: none;
-    background: rgba(255, 255, 255, .05);
+    background: var(--code-button-bg, rgba(255, 255, 255, .05));
     border-radius: 10px;
     padding: 2px;
     backdrop-filter: blur(6px);
-    border: 1px solid rgba(255, 255, 255, .1);
+    border: 1px solid var(--code-button-border, rgba(255, 255, 255, .1));
 
     button {
         outline: 0 none;
@@ -307,12 +307,12 @@
         cursor: pointer;
 
         &:hover {
-            background-color: rgba(255, 255, 255, .1);
+            background-color: var(--code-button-hover-bg, rgba(255, 255, 255, .1));
             color: var(--code-button-text-color);
         }
 
         &.code-active {
-            color: #bbf7d0;
+            color: var(--p-primary-color);
         }
     }
 }

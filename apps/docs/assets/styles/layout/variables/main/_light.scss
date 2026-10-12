@@ -15,13 +15,18 @@
     --ground-background: var(--p-surface-50);
     --overlay-background: #ffffff;
     --hover-background: var(--p-surface-100);
-    --code-background: var(--p-surface-950);
+    --code-background: #ffffff;
+    --code-color: var(--p-surface-800);
+    --code-border-color: var(--p-surface-200);
+    --code-button-bg: var(--p-surface-100);
+    --code-button-border: var(--p-surface-200);
+    --code-button-hover-bg: var(--p-surface-200);
     --high-contrast-text-color: var(--p-surface-900);
     --hover-border-color: var(--p-surface-400);
     --mark-background: var(--p-surface-200);
     --mark-text-color: var(--p-surface-700);
     --selection-background: var(--p-surface-200);
     --selection-text-color: var(--p-surface-950);
-    --code-button-text-color: var(--p-surface-300);
+    --code-button-text-color: var(--p-surface-600);
     --logo-color: var(--text-secondary-color);
 }

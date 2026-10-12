@@ -16,6 +16,11 @@
     --overlay-background: var(--p-surface-900);
     --hover-background: var(--p-surface-800);
     --code-background: var(--p-surface-900);
+    --code-color: #ffffff;
+    --code-border-color: var(--p-surface-800);
+    --code-button-bg: rgba(255, 255, 255, .05);
+    --code-button-border: rgba(255, 255, 255, .1);
+    --code-button-hover-bg: rgba(255, 255, 255, .1);
     --high-contrast-text-color: var(--p-surface-0);
     --hover-border-color: var(--p-surface-500);
     --mark-background: var(--p-surface-700);
