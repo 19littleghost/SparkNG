@@ -1,0 +1,10 @@
+node_modules
+**/node_modules
+.angular
+**/.angular
+dist
+**/dist
+.git
+**/.git
+.tmp*
+pnpm-publish-summary.json
