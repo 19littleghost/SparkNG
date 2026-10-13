@@ -177,8 +177,13 @@
     }
 
     .p-scheduler-btn-today {
+        height: 26px !important;
         padding: 0.25rem 0.5rem !important;
         font-size: 0.75rem !important;
+    }
+
+    .p-scheduler-view-btn {
+        height: 26px !important;
     }
 
     @media (max-width: 520px) {
@@ -198,6 +203,10 @@
         .p-scheduler-btn-prev,
         .p-scheduler-btn-next {
             width: 22px !important;
+            height: 22px !important;
+        }
+        .p-scheduler-btn-today,
+        .p-scheduler-view-btn {
             height: 22px !important;
         }
     }
@@ -485,11 +494,17 @@
         flex: 1;
         height: 100%;
         width: 100%;
-        overflow: hidden;
+        /* Single vertical scroller for header + body keeps header day cells
+           and day columns pixel-aligned (scrollbar affects both equally). */
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
     }
 
     .p-scheduler-time-grid-header {
         display: flex;
+        position: sticky !important;
+        top: 0 !important;
+        z-index: 20 !important;
         border-bottom: 1px solid var(--p-scheduler-border-color);
         background: var(--p-scheduler-hover-bg);
     }
@@ -544,10 +559,9 @@
 
     .p-scheduler-time-grid-body {
         display: flex !important;
-        flex: 1 !important;
-        overflow-y: auto !important;
+        flex: 1 0 auto !important;
+        overflow: visible !important;
         position: relative !important;
-        height: 100% !important;
         min-height: 520px !important;
         align-items: flex-start !important;
     }
