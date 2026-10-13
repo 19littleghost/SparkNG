@@ -14,22 +14,8 @@
         "strict": false,
         "paths": {
             "@/*": ["./*"],
-            "@angular/*": ["./node_modules/@angular/*"],
-            "@angular/core": ["./node_modules/@angular/core"],
-            "@angular/common": ["./node_modules/@angular/common"],
-            "rxjs": ["./node_modules/rxjs"],
-            "rxjs/*": ["./node_modules/rxjs/*"],
-            "@bdspark/sparkng/types/scheduler": ["../../packages/sparkng/src/types/scheduler/public_api"],
-            "@bdspark/sparkng/scheduler": ["../../packages/sparkng/src/scheduler/public_api"],
-            "@bdspark/sparkng-styles/scheduler": ["../../packages/sparkng-styles/src/scheduler/index"],
-            "@bdspark/sparkng/base": ["./node_modules/@bdspark/sparkng/base"],
-            "@bdspark/sparkng/api": ["./node_modules/@bdspark/sparkng/api"],
-            "@bdspark/sparkng": ["./node_modules/@bdspark/sparkng"],
-            "@bdspark/sparkng/*": ["./node_modules/@bdspark/sparkng/*"],
-            "@bdspark/sparkng-styles": ["./node_modules/@bdspark/sparkng-styles"],
-            "@bdspark/sparkng-styles/*": ["./node_modules/@bdspark/sparkng-styles/*"],
-            "@bdspark/sparkng-utils": ["./node_modules/@bdspark/sparkng-utils"],
-            "@bdspark/sparkng-utils/*": ["./node_modules/@bdspark/sparkng-utils/*"]
+            "@bdspark/sparkng/types/scheduler": ["./scheduler/types/public_api"],
+            "@bdspark/sparkng/scheduler": ["./scheduler/public_api"]
         }
     },
     "exclude": ["node_modules", "**/node_modules", "**/*.spec.ts", "**/*.test.ts"],

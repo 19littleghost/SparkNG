@@ -59,7 +59,7 @@ import { AppDocThemingSection } from './app.docthemingsection';
             }
             @if (apiDocs()) {
                 @defer (when docService.activeTab() === 1) {
-                    <app-docapisection [docs]="apiDocs()" [header]="header() ?? _componentName()" class="doc-tabpanel" [ngStyle]="{ display: docService.activeTab() === 1 ? 'flex' : 'none' }" />
+                    <app-docapisection [docs]="apiDocs()" [customDocs]="apiSections()" [header]="header() ?? _componentName()" class="doc-tabpanel" [ngStyle]="{ display: docService.activeTab() === 1 ? 'flex' : 'none' }" />
                 }
             }
 
@@ -91,6 +91,12 @@ export class AppDoc implements OnInit, OnChanges {
     description = input<string>('');
 
     apiDocs = input<string[]>();
+
+    /**
+     * Curated sections rendered at the top of the API tab, before the
+     * generated per-component reference. Optional; ignored when empty.
+     */
+    apiSections = input<any[]>();
 
     themeDocs = input<string>('');
 

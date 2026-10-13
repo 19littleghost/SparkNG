@@ -58,7 +58,6 @@ const SAFE_STYLE_PROPS: Record<string, RegExp> = {
  */
 export function sanitizeStyle(style: string | null | undefined): string {
     if (!style) return '';
-    if (/url\(|expression|behavior|-moz-binding|@import|[{}<>`\\]/i.test(style)) return '';
     const kept: string[] = [];
     for (const declaration of style.split(';')) {
         const sep = declaration.indexOf(':');
@@ -66,7 +65,10 @@ export function sanitizeStyle(style: string | null | undefined): string {
         const prop = declaration.slice(0, sep).trim().toLowerCase();
         const value = declaration.slice(sep + 1).trim();
         const pattern = SAFE_STYLE_PROPS[prop];
-        if (pattern && value && pattern.test(value)) kept.push(`${prop}: ${value}`);
+        if (!pattern || !value) continue;
+        // Drop declarations carrying dangerous constructs instead of the whole string.
+        if (/url\(|expression|behavior|-moz-binding|@import|[{}<>`\\]/i.test(value)) continue;
+        if (pattern.test(value)) kept.push(`${prop}: ${value}`);
     }
     return kept.join('; ');
 }
@@ -138,7 +140,8 @@ export function buildTextEditorSchema(): Schema {
             content: 'inline*',
             group: 'block',
             attrs: { level: { default: 1 }, align: { default: null } },
-            parseDOM: [1, 2, 3, 4, 5, 6].map((level) => ({ tag: `h${level}`, attrs: { level }, getAttrs: (el) => alignFromDOM(el as HTMLElement) })),
+            // getAttrs overrides `attrs` when both are present — fold the level in.
+            parseDOM: [1, 2, 3, 4, 5, 6].map((level) => ({ tag: `h${level}`, getAttrs: (el) => ({ level, ...alignFromDOM(el as HTMLElement) }) })),
             toDOM: (node: PMNode) => [`h${node.attrs.level}`, alignToDOM(node), 0]
         },
         blockquote: {
@@ -161,15 +164,8 @@ export function buildTextEditorSchema(): Schema {
             parseDOM: [{ tag: 'hr' }],
             toDOM: () => ['hr']
         },
-        bullet_list: { content: 'list_item+', group: 'block', parseDOM: [{ tag: 'ul' }], toDOM: () => ['ul', 0] },
-        ordered_list: {
-            content: 'list_item+',
-            group: 'block',
-            attrs: { start: { default: 1 } },
-            parseDOM: [{ tag: 'ol' }],
-            toDOM: (node: PMNode) => (node.attrs.start === 1 ? ['ol', 0] : ['ol', { start: node.attrs.start }, 0])
-        },
-        list_item: { content: 'paragraph block*', parseDOM: [{ tag: 'li' }], toDOM: () => ['li', 0] },
+        // Checklist rules must precede the generic ul/li rules or plain 'ul'
+        // would capture checklists first.
         check_list: {
             content: 'check_item+',
             group: 'block',
@@ -190,9 +186,18 @@ export function buildTextEditorSchema(): Schema {
                 'li',
                 { 'data-p-checked': node.attrs.checked ? 'true' : 'false' },
                 ['label', { contenteditable: 'false', class: 'p-texteditor-check' }, ['input', { type: 'checkbox', ...(node.attrs.checked ? { checked: '' } : {}) }]],
-                0
+                ['div', { class: 'p-texteditor-check-content' }, 0]
             ]
         },
+        bullet_list: { content: 'list_item+', group: 'block', parseDOM: [{ tag: 'ul' }], toDOM: () => ['ul', 0] },
+        ordered_list: {
+            content: 'list_item+',
+            group: 'block',
+            attrs: { start: { default: 1 } },
+            parseDOM: [{ tag: 'ol' }],
+            toDOM: (node: PMNode) => (node.attrs.start === 1 ? ['ol', 0] : ['ol', { start: node.attrs.start }, 0])
+        },
+        list_item: { content: 'paragraph block*', parseDOM: [{ tag: 'li' }], toDOM: () => ['li', 0] },
         image: {
             inline: true,
             attrs: {
@@ -200,7 +205,8 @@ export function buildTextEditorSchema(): Schema {
                 alt: { default: null },
                 title: { default: null },
                 width: { default: null },
-                height: { default: null }
+                height: { default: null },
+                uploadId: { default: null }
             },
             group: 'inline',
             draggable: true,
@@ -371,7 +377,14 @@ export function htmlToDoc(schema: Schema, html: string): PMNode {
  * Serializes a ProseMirror node back to sanitized HTML.
  */
 export function docToHtml(schema: Schema, doc: PMNode): string {
-    return DOMSerializer.fromSchema(schema).serializeNode(doc);
+    const serializer = DOMSerializer.fromSchema(schema);
+    if (doc.type.name === 'doc') {
+        const wrapper = document.createElement('div');
+        wrapper.appendChild(serializer.serializeFragment(doc.content));
+        return wrapper.innerHTML;
+    }
+    const dom = serializer.serializeNode(doc);
+    return dom.nodeType === 1 ? (dom as HTMLElement).outerHTML : dom.textContent ?? '';
 }
 
 export { PARAGRAPH_LIKE_DOM };

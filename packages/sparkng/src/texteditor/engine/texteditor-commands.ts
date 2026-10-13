@@ -25,7 +25,8 @@ export interface TextEditorCommandDeps {
 }
 
 function applyMarkWithAttrs(state: EditorState, dispatch: ((tr: Transaction) => void) | undefined, type: MarkType, attrs: Record<string, string>): boolean {
-    const { empty, $from, to, from, storedMarks } = state.selection;
+    const sel: any = state.selection;
+    const { empty, $from, to, from, storedMarks } = sel;
     if (empty) {
         const active = (storedMarks ?? $from.marks()).some((m) => m.type === type && Object.keys(attrs).every((k) => (m.attrs as any)[k] === (attrs as any)[k]));
         if (dispatch) {
@@ -63,11 +64,11 @@ function toggleWrapInList(state: EditorState, dispatch: ((tr: Transaction) => vo
 function setAlign(state: EditorState, dispatch: ((tr: Transaction) => void) | undefined, alignment: string): boolean {
     const { $from, from, to } = state.selection;
     const block = $from.parent;
-    if (!block.type.attrs.align) return false;
+    if (!('align' in (block.type.spec.attrs ?? {}))) return false;
     let tr = state.tr;
     let applicable = false;
     state.doc.nodesBetween(from, to, (node, pos) => {
-        if (node.isBlock && node.type.attrs.align && (node.type === block.type || node.type.name === 'paragraph' || node.type.name === 'heading')) {
+        if (node.isBlock && 'align' in (node.type.spec.attrs ?? {}) && (node.type === block.type || node.type.name === 'paragraph' || node.type.name === 'heading')) {
             const target = node.attrs.align === alignment ? null : alignment;
             tr = tr.setNodeMarkup(pos, undefined, { ...node.attrs, align: target });
             applicable = true;
@@ -86,9 +87,9 @@ function buildTable(schema: Schema, rows: number, cols: number): PMNode {
     const cell = schema.nodes.table_cell;
     const rowType = schema.nodes.table_row;
     const tableType = schema.nodes.table;
-    const tableRows = [];
+    const tableRows: any[] = [];
     for (let r = 0; r < rows; r++) {
-        const cells = [];
+        const cells: any[] = [];
         for (let c = 0; c < cols; c++) {
             cells.push(cell.createAndFill(null, schema.nodes.paragraph.create())!);
         }
@@ -206,6 +207,21 @@ export function createTextEditorCommands(deps: TextEditorCommandDeps): TextEdito
             const view = deps.view();
             if (!view) return;
             run((state, dispatch) => setAlign(state, dispatch, alignment));
+        },
+
+        indent(): void {
+            const view = deps.view();
+            if (!view) return;
+            const item = view.state.schema.nodes.list_item ?? view.state.schema.nodes.check_item;
+            if (item) run(sinkListItem(item));
+        },
+
+        outdent(): void {
+            const view = deps.view();
+            if (!view) return;
+            const schema = view.state.schema;
+            const item = hasAncestor(view.state, 'list_item') ? schema.nodes.list_item : hasAncestor(view.state, 'check_item') ? schema.nodes.check_item : undefined;
+            if (item) run(liftListItem(item));
         },
 
         insertHorizontalRule(): void {

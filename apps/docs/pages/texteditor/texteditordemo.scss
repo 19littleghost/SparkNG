@@ -1,0 +1,18 @@
+.doc-main {
+    .p-texteditor {
+        margin: 1.5rem 0;
+    }
+}
+
+::ng-deep {
+    .p-texteditor {
+        --p-texteditor-border-color: var(--p-content-border-color, #cbd5e1);
+        --p-texteditor-background: var(--p-content-background, #ffffff);
+        --p-texteditor-toolbar-bg: var(--p-content-background, #ffffff);
+        --p-texteditor-color: var(--p-text-color, var(--p-content-color, #1e293b));
+        --p-texteditor-muted-color: var(--p-text-muted-color, #64748b);
+        --p-texteditor-hover-bg: var(--p-content-hover-background, #f1f5f9);
+        --p-texteditor-primary: var(--p-primary-color, #3b82f6);
+        --p-texteditor-border-radius: var(--p-border-radius, 6px);
+    }
+}

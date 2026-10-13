@@ -84,6 +84,12 @@ function inlineToMarkdown(node: PMNode): string {
     return out;
 }
 
+function childrenOf(node: PMNode): PMNode[] {
+    const children: PMNode[] = [];
+    node.content.forEach((child) => children.push(child));
+    return children;
+}
+
 function blockToMarkdown(node: PMNode, indent = ''): string {
     switch (node.type.name) {
         case 'heading':
@@ -91,8 +97,7 @@ function blockToMarkdown(node: PMNode, indent = ''): string {
         case 'paragraph':
             return inlineToMarkdown(node);
         case 'blockquote':
-            return node.content
-                .toArray()
+            return childrenOf(node)
                 .map((child) => `${indent}> ${blockToMarkdown(child, indent)}`)
                 .join('\n');
         case 'code_block':
@@ -110,8 +115,7 @@ function blockToMarkdown(node: PMNode, indent = ''): string {
                 if (node.type.name === 'check_list') {
                     prefix = `${indent}- [${item.attrs.checked ? 'x' : ' '}] `;
                 }
-                const content = item.content
-                    .toArray()
+                const content = childrenOf(item)
                     .map((child) => blockToMarkdown(child, `${indent}  `))
                     .join('\n');
                 lines.push(prefix + content);

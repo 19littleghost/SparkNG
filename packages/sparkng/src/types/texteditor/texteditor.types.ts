@@ -44,9 +44,12 @@ export interface TextEditorUploadOptions {
 
 /**
  * Upload transport contract. Resolves with the uploaded asset URL.
- * @group Types
+ * Declared as a callable interface so tools can reflect its signature.
+ * @group Interfaces
  */
-export type TextEditorUploadHandler = (file: File, options: TextEditorUploadOptions) => Promise<string>;
+export interface TextEditorUploadHandler {
+    (file: File, options: TextEditorUploadOptions): Promise<string>;
+}
 
 /**
  * Reason a file was rejected by upload validation.
@@ -358,6 +361,14 @@ export interface TextEditorCommands {
      * Sets the text alignment of the active block.
      */
     textAlign(alignment: TextEditorTextAlign): void;
+    /**
+     * Indents the list item around the cursor one level deeper.
+     */
+    indent(): void;
+    /**
+     * Outdents the list item around the cursor one level; promotes it out of the list at the top level.
+     */
+    outdent(): void;
     /**
      * Inserts a horizontal rule at the cursor.
      */
@@ -700,6 +711,25 @@ export interface TextEditorBlockHover {
 }
 
 /**
+ * Live document statistics contributed by a character-count plugin.
+ * @group Interfaces
+ */
+export interface CharacterCountStats {
+    /**
+     * Character count (whitespace excluded).
+     */
+    characters: number;
+    /**
+     * Word count.
+     */
+    words: number;
+    /**
+     * Whether the optional soft limit is exceeded (never enforced).
+     */
+    overLimit: boolean;
+}
+
+/**
  * A registered text editor plugin.
  * @group Interfaces
  */
@@ -969,7 +999,7 @@ export interface UploadContextValue {
     /**
      * Whether this surface handles `'image'` or `'document'` uploads.
      */
-    kind: () => 'image' | 'document';
+    kind: 'image' | 'document';
     /**
      * Live upload progress entries.
      */
@@ -1246,6 +1276,10 @@ export interface TextEditorBlockSubmenuSlotContext {
      */
     activeSubmenu: string | null;
     /**
+     * Block menu commands (turnInto lives here).
+     */
+    commands: TextEditorBlockMenuCommands;
+    /**
      * Dismisses the menu.
      */
     dismiss: () => void;
@@ -1314,6 +1348,87 @@ export interface TextEditorTableControlsSlotContext {
      * Floating controls commands.
      */
     commands: { addRow(): void; addColumn(): void };
+}
+
+/**
+ * Slot context handed to `pTexteditorTableColumnMenuDef` templates.
+ * @group Interfaces
+ */
+export interface TextEditorTableColumnMenuSlotContext {
+    /**
+     * Active column index.
+     */
+    colIndex: number;
+    /**
+     * Total columns.
+     */
+    colCount: number;
+    /**
+     * Column menu commands.
+     */
+    commands: TextEditorTableColumnCommands;
+    /**
+     * Shared submenu controller.
+     */
+    submenu: TextEditorSubmenu;
+    /**
+     * Dismisses the menu.
+     */
+    dismiss: () => void;
+}
+
+/**
+ * Slot context handed to `pTexteditorTableRowMenuDef` templates.
+ * @group Interfaces
+ */
+export interface TextEditorTableRowMenuSlotContext {
+    /**
+     * Active row index.
+     */
+    rowIndex: number;
+    /**
+     * Total rows.
+     */
+    rowCount: number;
+    /**
+     * Row menu commands.
+     */
+    commands: TextEditorTableRowCommands;
+    /**
+     * Shared submenu controller.
+     */
+    submenu: TextEditorSubmenu;
+    /**
+     * Dismisses the menu.
+     */
+    dismiss: () => void;
+}
+
+/**
+ * Slot context handed to `pTexteditorTableCellMenuDef` templates.
+ * @group Interfaces
+ */
+export interface TextEditorTableCellMenuSlotContext {
+    /**
+     * Whether more than one cell is selected.
+     */
+    isMultiCellSelected: boolean;
+    /**
+     * Whether the active cell is merged.
+     */
+    isCellMerged: boolean;
+    /**
+     * Cell menu commands.
+     */
+    commands: TextEditorTableCellCommands;
+    /**
+     * Shared submenu controller.
+     */
+    submenu: TextEditorSubmenu;
+    /**
+     * Dismisses the menu.
+     */
+    dismiss: () => void;
 }
 
 /**

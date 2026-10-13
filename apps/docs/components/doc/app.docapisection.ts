@@ -1,24 +1,33 @@
 import APIDoc from '@/doc/apidoc/index.json';
-import { Location } from '@angular/common';
+import { Location, NgComponentOutlet } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, input, Input } from '@angular/core';
 import { Router } from '@angular/router';
 import { ObjectUtils } from '@bdspark/sparkng/utils';
 import { AppDocApiTable } from './app.docapitable';
 import { AppDocSection } from './app.docsection';
 import { AppDocSectionNav } from './app.docsection-nav';
+import { AppDocSectionText } from './app.docsectiontext';
 
 @Component({
     selector: 'app-docapisection',
     standalone: true,
-    imports: [AppDocSection, AppDocSectionNav],
+    imports: [NgComponentOutlet, AppDocSection, AppDocSectionNav, AppDocSectionText],
     template: ` <div class="doc-main">
             <div class="doc-intro">
                 <h1>{{ header }} {{ !header.toLowerCase().includes('api') ? 'API' : null }}</h1>
                 <p>API defines helper props, events and others for the SparkNG {{ header }} module.</p>
             </div>
+            @if (customDocs()?.length) {
+                @for (doc of customDocs(); track doc.id) {
+                    <section class="py-6">
+                        <app-docsectiontext [title]="doc.label" [id]="doc.id" [level]="2" [description]="doc?.description" />
+                        <ng-container *ngComponentOutlet="doc.component" />
+                    </section>
+                }
+            }
             <app-docsection [apiDocs]="_docs()"></app-docsection>
         </div>
-        <app-docsection-nav [docs]="_docs()"></app-docsection-nav>`,
+        <app-docsection-nav [docs]="_navDocs()" />`,
     changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AppDocApiSection {
@@ -26,7 +35,19 @@ export class AppDocApiSection {
 
     docs = input<any[] | undefined>([]);
 
+    /**
+     * Optional curated sections rendered at the top of the API tab, before the
+     * generated per-component reference. Each entry needs an `id`, `label`,
+     * `component` and optional nav `children`.
+     */
+    customDocs = input<any[] | undefined>();
+
     _docs = computed(() => this.docs() && this.createDocs());
+
+    _navDocs = computed(() => {
+        const custom = (this.customDocs() ?? []).map((doc) => ({ id: doc.id, label: doc.label, children: doc.children }));
+        return [...custom, ...((this._docs() as any[]) ?? [])];
+    });
 
     constructor(
         private location: Location,
@@ -60,6 +81,17 @@ export class AppDocApiSection {
         for (const docName of this.docs()) {
             const moduleName = docName.toLowerCase();
             let module = APIDoc[moduleName] ? APIDoc[moduleName] : APIDoc[this.docs()[0].toLowerCase()]?.components[docName];
+
+            // Resolve module-keyed registries where the entry key is the module name
+            // (e.g. "texteditor") rather than the component name (e.g. "texteditorroot").
+            if (!module) {
+                for (const key of Object.keys(APIDoc)) {
+                    if (APIDoc[key]?.components?.[docName]) {
+                        module = APIDoc[key];
+                        break;
+                    }
+                }
+            }
 
             // Special case for StyleClass which is nested under "class" -> "style" -> "components"
             if (docName === 'StyleClass' && !module) {

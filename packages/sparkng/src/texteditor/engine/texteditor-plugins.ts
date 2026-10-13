@@ -11,7 +11,7 @@ import { InputRule, inputRules, wrappingInputRule, textblockTypeInputRule, smart
 import { keymap } from 'prosemirror-keymap';
 import { toggleMark, setBlockType, chainCommands, baseKeymap } from 'prosemirror-commands';
 import { wrapInList, splitListItem, liftListItem, sinkListItem } from 'prosemirror-schema-list';
-import { goToNextCell, goToPreviousCell } from 'prosemirror-tables';
+import { goToNextCell } from 'prosemirror-tables';
 import { history, undo, redo } from 'prosemirror-history';
 
 /* ------------------------------------------------------------------ */
@@ -180,8 +180,8 @@ export function buildKeymap(schema: Schema): Plugin {
             return true;
         },
         Enter: chainCommands(splitListItem(nodes.list_item), splitListItem(nodes.check_item), baseKeymap.Enter as any),
-        Tab: chainCommands(goToNextCell, sinkListItem(nodes.list_item), sinkListItem(nodes.check_item)),
-        'Shift-Tab': chainCommands(goToPreviousCell, liftListItem(nodes.list_item), liftListItem(nodes.check_item))
+        Tab: chainCommands((state, dispatch) => goToNextCell(1)(state, dispatch), sinkListItem(nodes.list_item), sinkListItem(nodes.check_item)),
+        'Shift-Tab': chainCommands(liftListItem(nodes.list_item), liftListItem(nodes.check_item))
     };
     for (let level = 1; level <= 6; level++) {
         bindings[`Shift-Ctrl-${level}`] = setBlockType(nodes.heading, { level });

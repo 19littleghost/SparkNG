@@ -76,13 +76,13 @@ export function getFormatState(state: EditorState): TextEditorFormatState {
     const linkMark = findLinkMark(state, marks.link);
 
     let textAlign: string | null = null;
-    if (parent.type.attrs.align) {
+    if ('align' in (parent.type.spec.attrs ?? {})) {
         const align = parent.attrs.align;
         let mixed = false;
         if (!empty) {
             const { from, to } = state.selection as any;
             state.doc.nodesBetween(from, to, (node: PMNode) => {
-                if (node.isBlock && node.type.attrs.align && node.attrs.align !== align) mixed = true;
+                if (node.isBlock && 'align' in (node.type.spec.attrs ?? {}) && node.attrs.align !== align) mixed = true;
                 return true;
             });
         }

@@ -250,6 +250,7 @@ export const routes: Routes = [
             },
             { path: 'tag', loadChildren: () => import('@/pages/tag/routes') },
             { path: 'scheduler', loadChildren: () => import('@/pages/scheduler/routes') },
+            { path: 'texteditor', loadChildren: () => import('@/pages/texteditor/routes') },
             { path: 'table', loadChildren: () => import('@/pages/table/routes') },
             { path: 'tabs', loadChildren: () => import('@/pages/tabs/routes') },
             {
